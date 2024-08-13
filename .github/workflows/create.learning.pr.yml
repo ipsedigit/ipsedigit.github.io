@@ -2,7 +2,7 @@ name: Create Pull request
 on:
   push:
     branches:
-      - learning
+      - learn
 jobs:
   createPRFromLearning:
     runs-on: ubuntu-latest
