@@ -1,19 +1,24 @@
-name: Create Pull request
+name: Auto Create Pull Request
+
 on:
   push:
     branches:
       - learn
+
 jobs:
-  createPRFromLearning:
+  create_pull_request:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: update content
-          title: Update content
-          body: Update content
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+          base: learning
+          title: "Auto PR from learning to main"
+          body: "This is an automated PR generated on every push to the learning branch."
+          labels: "automated-pr"
+          draft: true  # If you want the PR to be created as a draft, set this to true
