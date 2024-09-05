@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-          base: learning
+          base: learn
           title: "Auto PR from learning to main"
           body: "This is an automated PR generated on every push to the learning branch."
           labels: "automated-pr"
