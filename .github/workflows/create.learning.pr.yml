@@ -22,3 +22,5 @@ jobs:
           body: "This is an automated PR generated on every push to the learning branch."
           labels: "automated-pr"
           draft: true  # If you want the PR to be created as a draft, set this to true
+          auto-merge: false  # Explicitly set to false to prevent automatic merging
+          update_existing: false  # Update an existing PR if there is one
