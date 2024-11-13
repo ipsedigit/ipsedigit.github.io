@@ -22,7 +22,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: pr-from-learn-${{ github.run_id }}
+          branch: main
           commit-message: update content
           title: "Auto PR from learning to main"
           body: "This is an automated PR generated on every push to the learning branch."
