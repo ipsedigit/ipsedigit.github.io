@@ -16,8 +16,8 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          base: learn
+          branch: learn
+          base: main
           title: "Auto PR from learning to main"
           body: "This is an automated PR generated on every push to the learning branch."
           labels: "automated-pr"
