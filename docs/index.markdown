@@ -5,4 +5,4 @@
 layout: home
 ---
 
-asd test learnd
+asd test learn
