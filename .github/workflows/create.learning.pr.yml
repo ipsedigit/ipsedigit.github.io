@@ -30,3 +30,8 @@ jobs:
           body: "This is an automated PR generated on every push to the learning branch."
           labels: "automated-pr"
           draft: false  # If you want the PR to be created as a draft, set this to true
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
