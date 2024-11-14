@@ -13,25 +13,29 @@ jobs:
   create_pull_request:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Create report file
-        run: date +%s > report.txt
+
+      - name: Authenticate GitHub CLI
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Get latest commit message
+        id: get_commit_message
+        run: |
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+          echo "commit_message=$COMMIT_MESSAGE" >> $GITHUB_ENV
+
+      - name: Check for existing pull request
+        id: check_pr
+        run: |
+          if gh pr list --base main --head learn --json number | grep '"number":'; then
+            echo "pr_exists=true" >> $GITHUB_ENV
+          else
+            echo "pr_exists=false" >> $GITHUB_ENV
+          fi
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          commit-message: update content
-          title: "Auto PR from learning to main"
-          body: "This is an automated PR generated on every push to the learning branch."
-          labels: "automated-pr"
-          draft: false  # If you want the PR to be created as a draft, set this to true
-      - name: Check outputs
-        if: ${{ steps.cpr.outputs.pull-request-number }}
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+        if: env.pr_exists == 'false'
+        run: gh pr create -B main -H learn --title "${{ env.commit_message }}" --body "Created by Github action"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
