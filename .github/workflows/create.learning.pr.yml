@@ -13,25 +13,7 @@ jobs:
   create_pull_request:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Create report file
-        run: date +%s > report.txt
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          commit-message: update content
-          title: "Auto PR from learning to main"
-          body: "This is an automated PR generated on every push to the learning branch."
-          labels: "automated-pr"
-          draft: false  # If you want the PR to be created as a draft, set this to true
-      - name: Check outputs
-        if: ${{ steps.cpr.outputs.pull-request-number }}
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+      - name: create pull request
+        run: gh pr create -B main -H learn --title 'Merge branch_to_merge into base_branch' --body 'Created by Github action'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
