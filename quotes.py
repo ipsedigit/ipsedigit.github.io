@@ -30,8 +30,8 @@ def select_quote() -> Quote:
 
 
 def create_post(quote: Quote):
-    date = datetime.now().strftime('%Y-%m-%d')
-    file_name = f"docs/_posts/{date}-quote-{quote.id}.markdown"
+    date = datetime.now().strftime("%Y-%m-%d %H:%M:%S +0000")
+    file_name = f"docs/_posts/{date}-quote-{quote.id}.md"
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write(f"---\n")
         f.write(f"title: {quote.author}\n")
