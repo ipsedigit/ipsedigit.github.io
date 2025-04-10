@@ -34,6 +34,7 @@ def create_post(quote: Quote):
     file_name = f"docs/_posts/{date}-quote-{quote.id}.md"
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write(f"---\n")
+        f.write(f"layout: post\n")
         f.write(f"title: {quote.author}\n")
         f.write(f"date: {date}\n")
         f.write(f"categories: [quotes]\n")
