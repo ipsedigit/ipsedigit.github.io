@@ -1,4 +1,4 @@
-name: Publishe quote on merge
+name: Publish quote on merge
 on:
   push:
     branches:
