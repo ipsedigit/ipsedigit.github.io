@@ -35,7 +35,7 @@ def create_post(quote: Quote):
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write(f"---\n")
         f.write(f"title: {quote.author}\n")
-        f.write(f"date: {datetime.now().isoformat()}\n")
+        f.write(f"date: {date}\n")
         f.write(f"categories: [quotes]\n")
         f.write(f"---\n\n")
         f.write(f"{quote.en}  \n\n")
