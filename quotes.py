@@ -2,6 +2,7 @@ from datetime import datetime
 import json
 import random
 from dataclasses import dataclass
+from datetime import datetime, timezone
 import sys
 
 
@@ -30,13 +31,13 @@ def select_quote() -> Quote:
 
 
 def create_post(quote: Quote):
-    date = datetime.now().strftime("%Y-%m-%d")
-    file_name = f"docs/_posts/{date}-quote-{quote.id}.md"
+    now = datetime.now(timezone.utc)
+    file_name = f"docs/_posts/{now.strftime("%Y-%m-%d")}-quote-{quote.id}.md"
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write(f"---\n")
         f.write(f"layout: post\n")
         f.write(f"title: {quote.author}\n")
-        f.write(f"date: {date}\n")
+        f.write(f"date: {now.strftime("%Y-%m-%d %H:%M:%S %z")}\n")
         f.write(f"categories: [quotes]\n")
         f.write(f"---\n\n")
         f.write(f"{quote.en}  \n\n")
