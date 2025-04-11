@@ -6,7 +6,7 @@
 layout: default
 ---
 
-<h1>Welcome to my blog</h1>
+<h1>ipsedigit</h1>
 
 {% for post in site.posts %}
   <article>
