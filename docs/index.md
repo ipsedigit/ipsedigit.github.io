@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: ipsedigit
 ---
 <div class="logo-container" style="text-align: center;">
