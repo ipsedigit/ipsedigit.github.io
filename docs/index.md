@@ -3,7 +3,7 @@ layout: home
 title: ipsedigit
 ---
 
-<!---<div class="logo-container" style="text-align: center;">
+<div class="logo-container" style="text-align: center;">
   <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="ipsedigit logo" style="max-width: 200px; margin-bottom: 20px;">
 </div>
 {% for post in site.posts %}
@@ -12,4 +12,3 @@ title: ipsedigit
     {{ post.content }}
   </article>
 {% endfor %}
---->
