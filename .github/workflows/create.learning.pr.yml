@@ -22,9 +22,12 @@ jobs:
       - name: Get latest commit message
         id: get_commit_message
         run: |
-          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-          echo "commit_message=$COMMIT_MESSAGE" >> $GITHUB_ENV
-
+              COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+              {
+                echo "commit_message<<EOF"
+                echo "$COMMIT_MESSAGE"
+                echo "EOF"
+              } >> $GITHUB_ENV
       - name: Check for existing pull request
         id: check_pr
         run: |
