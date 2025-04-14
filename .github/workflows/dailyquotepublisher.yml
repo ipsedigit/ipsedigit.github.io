@@ -42,6 +42,8 @@ jobs:
 
     - name: Commit and Push changes
       run: |
+        find . -type d -name "__pycache__" -exec rm -r {} +
+        find . -name "*.pyc" -delete
         git add .
         TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
         git commit -m "Auto: Daily quote update at $TIMESTAMP" || echo "No changes to commit"
