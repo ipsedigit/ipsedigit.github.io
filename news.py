@@ -3,7 +3,8 @@ import uuid
 import requests
 import re
 from datetime import datetime, timezone
-from const import HACKERNEWS_FEED_URL
+from utils import read_text_file, is_fresh_resource, track_published
+from const import HACKERNEWS_FEED_URL, PUBLISHED_NEWS_FILE_NAME
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 
@@ -12,6 +13,7 @@ def publish_news():
     news = select_hackernews_news()
     if news is not None:
         create_post(news)
+        track_published(news['link'], PUBLISHED_NEWS_FILE_NAME)
 
 
 def select_hackernews_news():
@@ -19,7 +21,8 @@ def select_hackernews_news():
     if not feed.entries:
         return None
     interesting_entries = filter_entries_by_keywords(feed)
-    top_entry = filter_entries_by_preview(interesting_entries)
+    unpublished_entries = filter_already_published_entries(read_text_file(PUBLISHED_NEWS_FILE_NAME), interesting_entries)
+    top_entry = filter_entries_by_preview(unpublished_entries)
     return top_entry
 
 
@@ -70,12 +73,19 @@ def filter_entries_by_preview(entries):
                 entry["preview"] = meta_desc["content"].strip()
                 if meta_img and meta_img.get("content"):
                     entry["image"] = meta_img["content"].strip()
-                return entry  # Only return the first matching entry
+                    return entry
 
         except Exception as e:
             print(f"⚠️ Failed to fetch preview for {entry['link']}: {e}")
 
     return None
+
+
+def filter_already_published_entries(published_links: set, entries: list[dict]) -> list[dict]:
+    return [
+        entry for entry in entries
+        if entry.get("link") not in published_links
+    ]
 
 
 def create_post(news):

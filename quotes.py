@@ -1,8 +1,10 @@
-from datetime import datetime
 import json
 import random
 from dataclasses import dataclass
 from datetime import datetime, timezone
+
+from const import PUBLISHED_QUOTES_FILE_NAME, QUOTES_FILE_NAME
+from utils import read_text_file, is_fresh_resource, track_published
 import sys
 
 
@@ -14,7 +16,7 @@ class Quote:
 
 
 def read_quotes() -> list[Quote]:
-    with open('quotes/quotes.json', 'r', encoding='utf-8') as f:
+    with open(QUOTES_FILE_NAME, 'r', encoding='utf-8') as f:
         quotes = json.load(f)
         return [Quote(**quote) for quote in quotes]
 
@@ -22,8 +24,8 @@ def read_quotes() -> list[Quote]:
 def select_quote() -> Quote:
     quotes = read_quotes()
     quote = random.choice(quotes)
-    published_ids = load_published()
-    if quote.id not in published_ids:
+    published_ids = read_text_file(PUBLISHED_QUOTES_FILE_NAME)
+    if is_fresh_resource(quote.id, published_ids):
         return quote
     else:
         print("Quote already published. Script terminated.")
@@ -43,20 +45,7 @@ def create_post(quote: Quote):
         f.write(f"{quote.en}  \n\n")
 
 
-def track_published(post_id: str):
-    with open('quotes/published.txt','a', encoding='utf-8') as f:
-        f.write(post_id + '\n')
-
-
-def load_published() -> set:
-    try:
-        with open('quotes/published.txt', 'r', encoding='utf-8') as f:
-            return set(line.strip() for line in f)
-    except FileNotFoundError:
-        return set()
-
-
 def publish_quote():
     quote = select_quote()
     create_post(quote)
-    track_published(quote.id)
+    track_published(quote.id, PUBLISHED_QUOTES_FILE_NAME)
