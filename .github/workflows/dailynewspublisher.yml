@@ -1,4 +1,4 @@
-name: Daily Quote Publisher
+name: Daily News Publisher
 
 on:
   schedule:
