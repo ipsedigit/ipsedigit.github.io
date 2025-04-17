@@ -2,7 +2,7 @@ name: Daily Quote Publisher
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Runs every day at 09:00 UTC
+    - cron: '0 5 * * *'  # Runs every day at 07:00 Rome
   workflow_dispatch:      # Optional manual trigger
 
 jobs:
