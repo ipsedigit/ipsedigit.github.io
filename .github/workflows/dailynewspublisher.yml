@@ -1,0 +1,63 @@
+name: Daily Quote Publisher
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs every day at 08:00 Rome
+  workflow_dispatch:     
+
+jobs:
+  run-daily-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+      with:
+        ref: main
+
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Create new branch
+      run: |
+        TIMESTAMP=$(date '+%Y-%m-%d-%H-%M-%S')
+        BRANCH_NAME="post-${TIMESTAMP}"
+        git checkout -b "$BRANCH_NAME"
+        echo "branch_name=$BRANCH_NAME" >> $GITHUB_ENV
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run main.py
+      run: python main.py --action=news
+
+    - name: Commit and Push changes
+      run: |
+        find . -type d -name "__pycache__" -exec rm -r {} +
+        find . -name "*.pyc" -delete
+        git add .
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+        git commit -m "Auto: Daily quote update at $TIMESTAMP" || echo "No changes to commit"
+        git push origin ${{ env.branch_name }}
+
+    - name: Authenticate GitHub CLI
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+    - name: Create Pull Request
+      run: |
+        gh pr create \
+          -B main \
+          -H ${{ env.branch_name }} \
+          --title "Auto: Daily Quote - ${{ env.branch_name }}" \
+          --body "Automated daily news update by GitHub Actions"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
