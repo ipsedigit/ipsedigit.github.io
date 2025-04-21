@@ -1,2 +1,5 @@
 https://www.wired.com/story/massive-blue-overwatch-ai-personas-police-suspects/
 https://www.feldera.com/blog/cutting-down-rust-compile-times-from-30-to-2-minutes-with-one-thousand-crates
+https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html
+https://github.com/LukasOgunfeitimi/TikTok-ReverseEngineering
+
