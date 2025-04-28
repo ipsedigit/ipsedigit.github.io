@@ -8,3 +8,4 @@ https://theconversation.com/a-weird-phrase-is-plaguing-scientific-papers-and-we-
 https://github.com/godotengine/godot/pull/105628
 https://github.com/UnmappedStack/TacOS
 https://github.com/waszabi/empty-enter-expander
+https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/
