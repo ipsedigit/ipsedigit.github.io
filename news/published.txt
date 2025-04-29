@@ -11,3 +11,4 @@ https://github.com/SureScaleAI/cleverbee
 https://gitlab.com/SpyrjaGaldr/path
 https://github.com/waszabi/empty-enter-expander
 https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/
+https://qwenlm.github.io/blog/qwen3/
