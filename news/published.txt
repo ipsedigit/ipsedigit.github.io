@@ -13,3 +13,4 @@ https://github.com/waszabi/empty-enter-expander
 https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/
 https://qwenlm.github.io/blog/qwen3/
 https://github.com/NSG650/LinuxInExcel
+https://github.com/mrkline/modern-latex
