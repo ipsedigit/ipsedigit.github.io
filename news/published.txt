@@ -14,3 +14,7 @@ https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and
 https://qwenlm.github.io/blog/qwen3/
 https://github.com/NSG650/LinuxInExcel
 https://github.com/mrkline/modern-latex
+https://www.bbc.com/news/articles/ckg2elg3zxyo
+https://github.com/c1570/Connomore64
+https://github.com/kubetail-org/kubetail
+https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/
