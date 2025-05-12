@@ -22,5 +22,6 @@ https://blog.yaakov.online/replacing-kubernetes-with-systemd/
 https://arstechnica.com/security/2025/05/jury-orders-nso-to-pay-167-million-for-hacking-whatsapp-users/
 https://arstechnica.com/security/2025/05/we-have-reached-the-severed-fingers-and-abductions-stage-of-the-crypto-revolution/
 https://github.com/cogentcore/core
+https://pub.sakana.ai/ctm/
 https://github.com/danielcota/LoopMix128
 https://github.com/marcboeker/gmail-to-sqlite
