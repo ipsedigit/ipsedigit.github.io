@@ -26,3 +26,4 @@ https://pub.sakana.ai/ctm/
 https://github.com/danielcota/LoopMix128
 https://github.com/marcboeker/gmail-to-sqlite
 https://github.com/mozilla-firefox/firefox
+https://corrode.dev/blog/flattening-rusts-learning-curve/
