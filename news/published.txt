@@ -30,3 +30,5 @@ https://corrode.dev/blog/flattening-rusts-learning-curve/
 https://arstechnica.com/ai/2025/05/xais-grok-suddenly-cant-stop-bringing-up-white-genocide-in-south-africa/
 https://socalpython.org/in-memoriam-michael/
 https://github.com/aspizu/goboscript
+https://github.com/chatmcp/mcpso
+https://github.com/moustafa-nasr/fahmatrix
