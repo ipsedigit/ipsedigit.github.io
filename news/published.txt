@@ -32,3 +32,4 @@ https://socalpython.org/in-memoriam-michael/
 https://github.com/aspizu/goboscript
 https://github.com/chatmcp/mcpso
 https://github.com/moustafa-nasr/fahmatrix
+https://github.com/wenzellabs/the_NSA_selector
