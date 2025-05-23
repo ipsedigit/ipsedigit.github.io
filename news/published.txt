@@ -33,3 +33,4 @@ https://github.com/aspizu/goboscript
 https://github.com/chatmcp/mcpso
 https://github.com/moustafa-nasr/fahmatrix
 https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres
+https://getcreatr.com/
