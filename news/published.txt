@@ -33,3 +33,4 @@ https://github.com/aspizu/goboscript
 https://github.com/chatmcp/mcpso
 https://github.com/moustafa-nasr/fahmatrix
 https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres
+https://techcrunch.com/2025/05/22/anthropics-new-ai-model-turns-to-blackmail-when-engineers-try-to-take-it-offline/
