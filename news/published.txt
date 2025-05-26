@@ -34,4 +34,5 @@ https://github.com/chatmcp/mcpso
 https://github.com/moustafa-nasr/fahmatrix
 https://github.com/wenzellabs/the_NSA_selector
 https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres
+https://getcreatr.com/
 https://github.com/Kotlin/kotlin-lsp
