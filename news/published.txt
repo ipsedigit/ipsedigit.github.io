@@ -38,3 +38,4 @@ https://github.com/idursun/jjui
 https://techcrunch.com/2025/05/22/anthropics-new-ai-model-turns-to-blackmail-when-engineers-try-to-take-it-offline/
 https://getcreatr.com/
 https://github.com/Kotlin/kotlin-lsp
+https://github.com/pal1000/mesa-dist-win
