@@ -39,3 +39,4 @@ https://techcrunch.com/2025/05/22/anthropics-new-ai-model-turns-to-blackmail-whe
 https://getcreatr.com/
 https://github.com/Kotlin/kotlin-lsp
 https://github.com/pal1000/mesa-dist-win
+https://github.com/livingbio/typed-ffmpeg
