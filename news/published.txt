@@ -40,3 +40,4 @@ https://getcreatr.com/
 https://github.com/Kotlin/kotlin-lsp
 https://github.com/pal1000/mesa-dist-win
 https://github.com/livingbio/typed-ffmpeg
+https://github.com/qkniep/alpenglow
