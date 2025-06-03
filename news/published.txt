@@ -42,6 +42,7 @@ https://github.com/pal1000/mesa-dist-win
 https://github.com/muthuishere/mcp-server-bash-sdk
 https://github.com/livingbio/typed-ffmpeg
 https://github.com/qkniep/alpenglow
+https://github.com/enhancedformysql/enhancedformysql
 https://www.cnn.com/2025/05/30/business/anthropic-amodei-ai-jobs-nightcap
 https://fly.io/blog/youre-all-nuts/
 https://github.com/MubarakNative/MBCompass
