@@ -46,3 +46,4 @@ https://github.com/enhancedformysql/enhancedformysql
 https://www.cnn.com/2025/05/30/business/anthropic-amodei-ai-jobs-nightcap
 https://fly.io/blog/youre-all-nuts/
 https://github.com/MubarakNative/MBCompass
+https://hn.dunkirk.sh/
