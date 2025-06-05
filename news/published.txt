@@ -47,3 +47,4 @@ https://www.cnn.com/2025/05/30/business/anthropic-amodei-ai-jobs-nightcap
 https://fly.io/blog/youre-all-nuts/
 https://github.com/MubarakNative/MBCompass
 https://hn.dunkirk.sh/
+https://github.com/hugomd/parrot.live
