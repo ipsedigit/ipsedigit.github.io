@@ -50,3 +50,4 @@ https://hn.dunkirk.sh/
 https://github.com/hugomd/parrot.live
 https://github.com/wey-gu/py-pglite
 https://github.com/borgbackup/borg/pull/8798
+https://joost.blog/path-forward-for-wordpress/
