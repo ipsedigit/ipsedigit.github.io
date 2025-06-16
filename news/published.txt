@@ -53,4 +53,5 @@ https://letsbend.de
 https://github.com/borgbackup/borg/pull/8798
 https://joost.blog/path-forward-for-wordpress/
 https://abcnews.go.com/US/sly-stone-pioneering-leader-funk-band-sly-family/story?id=122666345
+https://blog.andykhau.com/blog/eyesite
 https://www.honeycomb.io/blog/its-the-end-of-observability-as-we-know-it-and-i-feel-fine
