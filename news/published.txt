@@ -59,3 +59,4 @@ https://github.com/oils-for-unix/oils.vim/blob/main/doc/algorithms.md
 https://blog.andykhau.com/blog/eyesite
 https://www.honeycomb.io/blog/its-the-end-of-observability-as-we-know-it-and-i-feel-fine
 https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-do-not-work-for-me
+https://github.com/Orange-OpenSource/hurl
