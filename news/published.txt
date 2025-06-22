@@ -62,3 +62,4 @@ https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-d
 https://github.com/Orange-OpenSource/hurl
 https://github.com/psviderski/unregistry
 https://github.com/SparcLab/OpenSERDES
+https://clickhouse.com/blog/scaling-observability-beyond-100pb-wide-events-replacing-otel
