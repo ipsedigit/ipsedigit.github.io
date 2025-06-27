@@ -66,3 +66,4 @@ https://github.com/FoxMoss/libt9
 https://hackers.pub/@hongminhee/2025/logtape-for-libraries
 https://clickhouse.com/blog/scaling-observability-beyond-100pb-wide-events-replacing-otel
 https://github.com/ebbejan/tux-racer-js
+https://github.com/sirbread/sink
