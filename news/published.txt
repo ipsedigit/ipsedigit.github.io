@@ -73,3 +73,4 @@ https://github.com/BitFunnel/NativeJIT
 https://www.theverge.com/meta/694685/meta-ai-camera-roll
 https://arxiv.org/abs/2506.02153
 https://www.john-rush.com/posts/ai-20250701.html
+https://blog.mozilla.ai/wasm-agents-ai-agents-running-in-your-browser/
