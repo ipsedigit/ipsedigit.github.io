@@ -78,3 +78,4 @@ https://newsalert.im/
 https://github.com/maciej-trebacz/tower-of-time-game
 https://blog.mozilla.ai/wasm-agents-ai-agents-running-in-your-browser/
 https://github.com/c4pt0r/gmailtail
+https://github.com/helm/helm/security/advisories/GHSA-557j-xg8c-q2mm
