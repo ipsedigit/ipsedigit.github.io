@@ -80,3 +80,4 @@ https://blog.mozilla.ai/wasm-agents-ai-agents-running-in-your-browser/
 https://github.com/c4pt0r/gmailtail
 https://arxiv.org/abs/2506.17298
 https://github.com/aeron-io/aeron
+https://freetier.co/articles/aws-free-tier-changes-july-15-2025
