@@ -83,3 +83,4 @@ https://github.com/ebogdum/callfs
 https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
+https://www.spectrallabs.ai/research/SGS-1
