@@ -83,3 +83,4 @@ https://github.com/ebogdum/callfs
 https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
+https://www.tomshardware.com/pc-components/hdds/ai-triggers-hard-drive-shortage-amidst-dram-squeeze-enterprise-hard-drives-on-backorder-by-2-years-as-hyperscalers-switch-to-qlc-ssds
