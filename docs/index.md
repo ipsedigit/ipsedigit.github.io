@@ -119,8 +119,7 @@ title: ipsedigit
 </style>
 
 <div class="posts-container">
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts %}
+{% for post in site.posts %}
   {% assign is_quote = false %}
   {% if post.categories contains 'quotes' %}
     {% assign is_quote = true %}
