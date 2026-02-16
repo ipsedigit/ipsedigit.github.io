@@ -7,12 +7,14 @@ from utils import read_text_file, is_fresh_resource, track_published
 from const import HACKERNEWS_FEED_URL, PUBLISHED_NEWS_FILE_NAME
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
+from tags import generate_tag_pages
 
 
 def publish_news():
     news = select_hackernews_news()
     if news is not None:
         create_post(news)
+        generate_tag_pages()
         track_published(news['link'], PUBLISHED_NEWS_FILE_NAME)
 
 
@@ -93,10 +95,13 @@ def create_post(news):
     post_id = str(uuid.uuid1())
     file_name = f"docs/_posts/{now.strftime('%Y-%m-%d')}-top-tech-news-{post_id}.md"
 
+    # Escape double quotes in title to avoid YAML parsing issues
+    safe_title = news["title"].replace('"', "'")
+
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write("layout: post\n")
-        f.write(f'title: "{news["title"]}"\n')
+        f.write(f'title: "{safe_title}"\n')
         f.write(f'date: {now.strftime("%Y-%m-%d %H:%M:%S %z")}\n')
         f.write(f"categories: {', '.join(news['tags'])}\n")
         f.write("---\n\n")
