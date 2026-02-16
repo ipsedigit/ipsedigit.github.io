@@ -1,6 +1,13 @@
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
+<!-- Alternate languages for international SEO -->
+<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="it" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="fr" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="es" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+
 <!-- Preconnect -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
@@ -10,15 +17,30 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_id }}" crossorigin="anonymous"></script>
 {% endif %}
 
-<!-- SEO -->
+<!-- SEO Meta - Multilingual -->
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="TechPulse Daily">
 <meta name="theme-color" content="#ffffff">
+
+<!-- Multilingual descriptions -->
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="description" lang="it" content="Le migliori notizie tech curate da 50+ fonti autorevoli. AI, startup, programmazione, sicurezza informatica.">
+<meta name="description" lang="fr" content="Les meilleures actualités tech sélectionnées de 50+ sources. IA, startups, programmation, cybersécurité.">
+<meta name="description" lang="es" content="Las mejores noticias tech seleccionadas de 50+ fuentes. IA, startups, programmazione, ciberseguridad.">
+
+<!-- Keywords multilingual -->
+<meta name="keywords" content="tech news, AI news, startup news, programming, cybersecurity, hacker news">
+<meta name="keywords" lang="it" content="notizie tech, notizie AI, intelligenza artificiale, startup, programmazione, sicurezza informatica">
+<meta name="keywords" lang="fr" content="actualités tech, nouvelles IA, intelligence artificielle, startups, programmation, cybersécurité">
+<meta name="keywords" lang="es" content="noticias tech, noticias IA, inteligencia artificial, startups, programación, ciberseguridad">
 
 <!-- Open Graph -->
 <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="es_ES">
 {% if page.image %}
 <meta property="og:image" content="{{ page.image }}">
 <meta property="og:image:width" content="1200">
@@ -41,7 +63,7 @@
 <meta name="twitter:image" content="{{ page.image }}">
 {% endif %}
 
-<!-- Schema.org JSON-LD -->
+<!-- Schema.org JSON-LD Multilingual -->
 {% if page.layout == 'post' %}
 <script type="application/ld+json">
 {
@@ -51,6 +73,7 @@
   "url": "{{ page.url | absolute_url }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "inLanguage": ["en", "it", "fr", "es"],
   {% if page.image %}"image": "{{ page.image }}",{% endif %}
   {% if page.description %}"description": "{{ page.description | escape }}",{% endif %}
   "author": {
@@ -70,7 +93,8 @@
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
-  }
+  },
+  "keywords": "tech news, AI, programming, startups, notizie tech, actualités tech, noticias tech"
 }
 </script>
 {% else %}
@@ -79,8 +103,10 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "{{ site.title }}",
+  "alternateName": ["TechPulse Daily - Notizie Tech", "TechPulse Daily - Actualités Tech", "TechPulse Daily - Noticias Tech"],
   "url": "{{ site.url }}",
   "description": "{{ site.description | escape }}",
+  "inLanguage": ["en", "it", "fr", "es"],
   "potentialAction": {
     "@type": "SearchAction",
     "target": "{{ site.url }}/topics/",
@@ -89,3 +115,8 @@
 }
 </script>
 {% endif %}
+
+<!-- Google News specific -->
+<meta name="news_keywords" content="tech, AI, artificial intelligence, startups, programming, cybersecurity">
+<meta name="syndication-source" content="{{ page.url | absolute_url }}">
+<meta name="original-source" content="{{ page.url | absolute_url }}">

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About TechPulse Daily
-description: "TechPulse Daily curates the best tech news from 50+ authoritative sources. AI, startups, programming, security - all in one place."
+title: About TechPulse Daily | Chi Siamo | À Propos | Sobre Nosotros
+description: "TechPulse Daily curates the best tech news from 50+ sources. AI, startups, programming, security. Notizie tech curate. Actualités tech sélectionnées."
 permalink: /about/
 ---
 

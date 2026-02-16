@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Browse by Topic
-description: "Browse TechPulse Daily articles by topic: AI, Programming, Security, Startups, Infrastructure and more."
+title: Browse Topics | Argomenti | Sujets | Temas - TechPulse Daily
+description: "Browse tech articles by topic: AI, Programming, Security, Startups. Sfoglia per argomento. Parcourir par sujet. Explorar por tema."
 permalink: /topics/
 ---
 

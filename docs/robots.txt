@@ -4,13 +4,28 @@ layout: null
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemaps
 Sitemap: {{ site.url }}/sitemap.xml
 
-# Allow Google to index everything important
+# Allow all content
 Allow: /tags/
+Allow: /topics/
+Allow: /about/
 Allow: /*.html$
 
-# Disallow only non-content paths
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Disallow non-content
 Disallow: /*.json$
 

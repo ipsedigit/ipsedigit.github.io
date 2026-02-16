@@ -1,8 +1,8 @@
 ---
 layout: default
-title: TechPulse Daily - Tech News Digest
-description: "The smartest tech news digest. AI, startups, programming, and engineering insights curated daily from top sources."
-keywords: "tech news, AI news, startup news, programming, software engineering"
+title: TechPulse Daily - Tech News Digest | Notizie Tech | Actualités Tech
+description: "The smartest tech news digest. AI, startups, programming curated from 50+ sources. Le migliori notizie tech. Les meilleures actualités tech. Las mejores noticias tech."
+keywords: "tech news, AI news, startup news, programming, notizie tech, intelligenza artificiale, actualités tech, noticias tech, inteligencia artificial"
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
