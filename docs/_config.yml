@@ -12,12 +12,13 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
-# Site settings
-title: ipsedigit - Tech News & Insights
+# Site settings - BRAND
+title: TechPulse Daily
+tagline: "Your daily dose of tech that matters"
 email: ipsedigitmail@gmail.com
 description: >- 
-  Daily curated tech news from Hacker News. AI, Machine Learning, Programming, 
-  Cloud Computing, DevOps, and Software Engineering trends.
+  The smartest tech news digest. AI, startups, programming, and engineering 
+  insights curated daily from top sources. No noise, just signal.
 baseurl: ""
 url: "https://ipsedigit.github.io"
 lang: en
@@ -27,21 +28,20 @@ lang: en
 # =============================================================================
 
 # Google AdSense - Ottieni il tuo ID su https://www.google.com/adsense
-# Decommentare e sostituire con il tuo ID (es: ca-pub-1234567890)
 # adsense_id: ca-pub-XXXXXXXXXX
 
-# Buy Me a Coffee - Ottieni username su https://www.buymeacoffee.com
-# buymeacoffee: ipsedigit
+# Buy Me a Coffee - https://www.buymeacoffee.com
+# buymeacoffee: techpulsedaily
 
-# Ko-fi - Ottieni username su https://ko-fi.com
-# kofi: ipsedigit
+# Newsletter (Buttondown, Substack, etc.)
+# newsletter_url: https://buttondown.email/techpulse
 
 # Social / SEO
 twitter:
-  username: ipsedigit
+  username: techpulsedaily
   card: summary_large_image
 social:
-  name: ipsedigit
+  name: TechPulse Daily
   links:
     - https://github.com/ipsedigit
 github_username: ipsedigit

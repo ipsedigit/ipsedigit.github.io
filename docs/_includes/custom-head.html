@@ -8,102 +8,32 @@
 <!-- Preconnect for performance -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 
-<!-- Monospace font for terminal look -->
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
-<!-- ============================================
-     GOOGLE ADSENSE - Inserisci il tuo ID qui
-     ============================================
-     1. Vai su https://www.google.com/adsense
-     2. Registrati con il tuo account Google
-     3. Aggiungi il sito ipsedigit.github.io
-     4. Copia il tuo data-ad-client ID (es: ca-pub-XXXXXXXXXX)
-     5. Sostituisci YOUR_ADSENSE_ID qui sotto
--->
+<!-- Google AdSense -->
 {% if site.adsense_id %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_id }}" crossorigin="anonymous"></script>
 {% endif %}
 
-<!-- Global nerd theme styles -->
-<style>
-  :root {
-    --terminal-green: #16a34a;
-    --terminal-dim: #22c55e;
-    --bg-light: #ffffff;
-    --bg-card: #f8fafc;
-    --bg-code: #f1f5f9;
-    --text-main: #1e293b;
-    --text-dim: #64748b;
-    --border: #e2e8f0;
-    --accent: #2563eb;
-  }
-
-  body {
-    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
-    background: var(--bg-light) !important;
-    color: var(--text-main) !important;
-  }
-
-  .site-header {
-    background: var(--bg-card) !important;
-    border-bottom: 2px solid var(--terminal-green) !important;
-  }
-
-  .site-title, .site-title:visited {
-    color: var(--terminal-green) !important;
-    font-family: 'JetBrains Mono', monospace !important;
-  }
-
-  .site-nav .page-link {
-    color: var(--text-main) !important;
-  }
-
-  .site-footer {
-    background: var(--bg-card) !important;
-    border-top: 2px solid var(--terminal-green) !important;
-    color: var(--text-dim) !important;
-  }
-
-  .site-footer a {
-    color: var(--terminal-green) !important;
-  }
-
-  .page-content {
-    background: var(--bg-light) !important;
-  }
-
-  a {
-    color: var(--accent);
-  }
-
-  a:hover {
-    color: var(--terminal-green);
-  }
-</style>
-
-<!-- Additional meta for SEO -->
+<!-- SEO Meta -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="author" content="ipsedigit">
-<meta name="generator" content="Jekyll">
-<meta name="theme-color" content="#ffffff">
+<meta name="author" content="TechPulse Daily">
+<meta name="theme-color" content="#0f172a">
 
-<!-- Open Graph enhancements -->
+<!-- Open Graph -->
 {% if page.image %}
 <meta property="og:image" content="{{ page.image | absolute_url }}">
 {% endif %}
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
 
-<!-- Twitter Card enhancements -->
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 {% if page.title %}
 <meta name="twitter:title" content="{{ page.title }}">
 {% endif %}
 
-<!-- Schema.org JSON-LD for better rich snippets -->
+<!-- Schema.org JSON-LD -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -115,17 +45,15 @@
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.date | date_to_xmlschema }}",
   "author": {
-    "@type": "Person",
-    "name": "ipsedigit"
+    "@type": "Organization",
+    "name": "TechPulse Daily"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "ipsedigit",
+    "name": "TechPulse Daily",
     "url": "https://ipsedigit.github.io"
   },
   {% endif %}
   "description": "{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}"
 }
 </script>
-
-
