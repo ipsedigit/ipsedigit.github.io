@@ -1,0 +1,192 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<style>
+.tags-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tags-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tags-header h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.tags-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tag-bubble {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tag-bubble:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+  color: #fff;
+}
+
+.tag-bubble .count {
+  background: rgba(255,255,255,0.3);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.tag-section {
+  margin-bottom: 40px;
+  scroll-margin-top: 20px;
+}
+
+.tag-section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #667eea;
+}
+
+.tag-section-header h2 {
+  margin: 0;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+}
+
+.tag-section-header .post-count {
+  background: #667eea;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.tag-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tag-posts-list li {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 12px;
+  padding: 16px 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.tag-posts-list li:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tag-posts-list a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.tag-posts-list a:hover {
+  color: #667eea;
+}
+
+.tag-posts-list .post-date {
+  color: #888;
+  font-size: 0.85rem;
+  margin-left: 12px;
+}
+
+@media (max-width: 600px) {
+  .tags-header h1 {
+    font-size: 1.8rem;
+  }
+  .tag-bubble {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+}
+</style>
+
+<div class="tags-page">
+  <div class="tags-header">
+    <h1>🏷️ Tags</h1>
+    <p>Esplora tutti gli argomenti del blog</p>
+  </div>
+
+  {% assign all_tags = "" | split: "" %}
+  {% for post in site.posts %}
+    {% for category in post.categories %}
+      {% assign all_tags = all_tags | push: category %}
+    {% endfor %}
+  {% endfor %}
+  {% assign unique_tags = all_tags | uniq | sort %}
+
+  <div class="tags-cloud">
+    {% for tag in unique_tags %}
+      {% assign tag_count = 0 %}
+      {% for post in site.posts %}
+        {% if post.categories contains tag %}
+          {% assign tag_count = tag_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <a href="#{{ tag | slugify }}" class="tag-bubble">
+        {{ tag }}
+        <span class="count">{{ tag_count }}</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  {% for tag in unique_tags %}
+    <div class="tag-section" id="{{ tag | slugify }}">
+      <div class="tag-section-header">
+        <h2>{{ tag }}</h2>
+        {% assign tag_count = 0 %}
+        {% for post in site.posts %}
+          {% if post.categories contains tag %}
+            {% assign tag_count = tag_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        <span class="post-count">{{ tag_count }} post</span>
+      </div>
+      <ul class="tag-posts-list">
+        {% for post in site.posts %}
+          {% if post.categories contains tag %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+

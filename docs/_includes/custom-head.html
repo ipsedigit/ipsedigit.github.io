@@ -4,3 +4,62 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+
+<style>
+  /* Global Custom Styles */
+  :root {
+    --primary: #667eea;
+    --primary-dark: #764ba2;
+  }
+
+  body {
+    background: #f5f6fa;
+  }
+
+  .site-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border-bottom: none;
+  }
+
+  .site-title, .site-title:visited {
+    color: #fff !important;
+  }
+
+  .site-nav .page-link {
+    color: rgba(255,255,255,0.9);
+  }
+
+  .site-nav .page-link:hover {
+    color: #fff;
+  }
+
+  .page-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .site-footer {
+    background: var(--primary-dark);
+    border-top: none;
+    color: rgba(255,255,255,0.8);
+  }
+
+  .site-footer a {
+    color: #fff;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Better link colors */
+  a {
+    color: var(--primary);
+  }
+
+  a:hover {
+    color: var(--primary-dark);
+  }
+</style>
+
