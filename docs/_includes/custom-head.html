@@ -1,8 +1,55 @@
 {% comment %}
-  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
-
-  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
-  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+  Custom head content for SEO optimization
 {% endcomment %}
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Preconnect for performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+
+<!-- Additional meta for SEO -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="ipsedigit">
+<meta name="generator" content="Jekyll">
+
+<!-- Open Graph enhancements -->
+{% if page.image %}
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+{% endif %}
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card enhancements -->
+<meta name="twitter:card" content="summary_large_image">
+{% if page.title %}
+<meta name="twitter:title" content="{{ page.title }}">
+{% endif %}
+
+<!-- Schema.org JSON-LD for better rich snippets -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
+  "name": "{{ page.title | default: site.title }}",
+  "url": "{{ page.url | absolute_url }}",
+  {% if page.layout == 'post' %}
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "ipsedigit"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ipsedigit",
+    "url": "https://ipsedigit.github.io"
+  },
+  {% endif %}
+  "description": "{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}"
+}
+</script>
 
 

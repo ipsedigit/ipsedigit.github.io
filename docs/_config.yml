@@ -13,25 +13,46 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: ipsedigit
+title: ipsedigit - Tech News & Insights
 email: ipsedigitmail@gmail.com
 description: >- 
-  The blog you never asked for
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  ipsedigit
+  Daily curated tech news from Hacker News. AI, Machine Learning, Programming, 
+  Cloud Computing, DevOps, and Software Engineering trends.
+baseurl: ""
+url: "https://ipsedigit.github.io"
+lang: en
+
+# Social / SEO
+twitter:
+  username: ipsedigit
+  card: summary_large_image
+social:
+  name: ipsedigit
+  links:
+    - https://github.com/ipsedigit
+github_username: ipsedigit
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "ipsedigit"
+      image: /assets/images/og-default.png
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      image: /assets/images/og-default.png
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 
 # Exclude from processing.

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: ipsedigit
+title: ipsedigit - Daily Curated Tech News from Hacker News
+description: "Daily curated tech news from Hacker News. AI, Machine Learning, Programming, Cloud Computing, DevOps, and Software Engineering trends and insights."
+keywords: "tech news, hacker news, programming, AI, machine learning, software engineering, devops, cloud computing"
 ---
 
 <style>

@@ -144,12 +144,21 @@ def create_post(news):
     # Escape double quotes in title to avoid YAML parsing issues
     safe_title = news["title"].replace('"', "'")
 
+    # Clean description for SEO (max 160 chars)
+    description = news.get("preview", "")[:155] + "..." if len(news.get("preview", "")) > 155 else news.get("preview", "")
+    description = description.replace('"', "'").replace("\n", " ")
+
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write("layout: post\n")
         f.write(f'title: "{safe_title}"\n')
         f.write(f'date: {now.strftime("%Y-%m-%d %H:%M:%S %z")}\n')
-        f.write(f"categories: {', '.join(news['tags'])}\n")
+        f.write(f"categories: [{', '.join(news['tags'])}]\n")
+        f.write(f'description: "{description}"\n')
+        if "image" in news:
+            f.write(f'image: {news["image"]}\n')
+        f.write(f'keywords: {", ".join(news["tags"]).lower()}, tech news, hacker news\n')
+        f.write(f'author: ipsedigit\n')
         f.write("---\n\n")
 
         f.write(f"### [{news['title']}]({news['link']})\n\n")

@@ -1,0 +1,16 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: {{ site.url }}/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
+# Disallow admin/dev paths
+Disallow: /assets/
+Disallow: /*.json$
+
