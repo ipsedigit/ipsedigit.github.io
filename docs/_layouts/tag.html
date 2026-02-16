@@ -27,39 +27,21 @@ body {
 .tag-header {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--terminal-green);
   border-radius: 6px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .tag-header h1 {
-  color: var(--terminal-green);
-  font-family: 'Courier New', monospace;
+  color: var(--text-main);
   margin: 0 0 0.5rem 0;
   font-size: 1.5rem;
-}
-
-.tag-header h1::before {
-  content: "$ grep -r '";
-  color: var(--text-dim);
-}
-
-.tag-header h1::after {
-  content: "'";
-  color: var(--text-dim);
 }
 
 .tag-description {
   color: var(--text-dim);
   font-size: 0.9rem;
   margin: 0;
-  font-family: 'Courier New', monospace;
-}
-
-.tag-description::before {
-  content: "// ";
-  color: var(--terminal-dim);
 }
 
 .post-list {
