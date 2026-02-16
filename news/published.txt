@@ -84,6 +84,7 @@ https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
 https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/
+https://www.macrumors.com/2026/02/02/firefox-ai-toggle/
 https://github.com/alibaba/AliSQL
 https://blog.comma.ai/datacenter/
 https://theodore.net/projects/Polargraph/
