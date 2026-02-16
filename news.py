@@ -4,7 +4,16 @@ import requests
 import re
 from datetime import datetime, timezone
 from utils import read_text_file, track_published
-from const import HACKERNEWS_FEED_URL, PUBLISHED_NEWS_FILE_NAME, MIN_HN_SCORE, VIRAL_PATTERNS
+from const import (
+    HACKERNEWS_FEED_URL,
+    PUBLISHED_NEWS_FILE_NAME,
+    MIN_HN_SCORE,
+    HIGH_VOLUME_TOPICS,
+    HIGH_CTR_PATTERNS,
+    PENALTY_PATTERNS,
+    TEMPORAL_BONUS,
+    WEIGHTS
+)
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
@@ -16,6 +25,11 @@ def publish_news():
         create_post(news)
         generate_tag_pages()
         track_published(news['link'], PUBLISHED_NEWS_FILE_NAME)
+        print(f"✅ Published: {news['title']}")
+        print(f"   Market Score: {news.get('market_score', 0):.1f}")
+        print(f"   HN Score: {news.get('hn_score', 0)}")
+    else:
+        print("❌ No suitable news found")
 
 
 def select_hackernews_news():
@@ -23,48 +37,92 @@ def select_hackernews_news():
     if not feed.entries:
         return None
 
-    # Step 1: Filtra per keyword
+    # Step 1: Estrai e filtra per keyword
     interesting_entries = filter_entries_by_keywords(feed)
 
     # Step 2: Rimuovi già pubblicati
     published = read_text_file(PUBLISHED_NEWS_FILE_NAME)
     unpublished_entries = [e for e in interesting_entries if e.get("link") not in published]
 
-    # Step 3: Calcola score viralità e ordina
-    scored_entries = calculate_viral_score(unpublished_entries)
-    sorted_entries = sorted(scored_entries, key=lambda x: x.get("viral_score", 0), reverse=True)
+    # Step 3: Filtra per HN score minimo
+    qualified_entries = [e for e in unpublished_entries if e.get("hn_score", 0) >= MIN_HN_SCORE]
 
-    # Step 4: Prendi il migliore con preview valida
+    # Se nessuno passa il filtro, abbassa la soglia
+    if not qualified_entries:
+        qualified_entries = unpublished_entries
+
+    # Step 4: Calcola market score e ordina
+    scored_entries = calculate_market_score(qualified_entries)
+    sorted_entries = sorted(scored_entries, key=lambda x: x.get("market_score", 0), reverse=True)
+
+    # Step 5: Prendi il migliore con preview valida
     top_entry = filter_entries_by_preview(sorted_entries)
     return top_entry
 
 
-def calculate_viral_score(entries):
-    """Calcola uno score di viralità per ogni entry."""
+def calculate_market_score(entries):
+    """
+    Calcola uno score orientato al mercato per massimizzare traffico organico.
+
+    Formula: market_score = (hn_component + topic_component + ctr_component + penalties + temporal) * image_multiplier
+    """
+    today = datetime.now().strftime('%A').lower()
+    temporal_bonus = TEMPORAL_BONUS.get(today, 0)
+
     for entry in entries:
-        score = 0
-        title = entry.get("title", "").lower()
+        title = entry.get("title", "")
+        title_lower = title.lower()
+        link = entry.get("link", "").lower()
 
-        # Score da HN (se disponibile)
+        # --- COMPONENTE 1: HN Score (popolarità validata) ---
         hn_score = entry.get("hn_score", 0)
-        if hn_score >= MIN_HN_SCORE:
-            score += 50  # Bonus per post popolari
-        score += min(hn_score // 10, 30)  # Max 30 punti da HN score
+        # Normalizza su scala 0-100, con cap a 500 punti HN
+        hn_component = min(hn_score / 5, 100) * WEIGHTS['hn_score']
 
-        # Bonus per pattern virali nel titolo
-        for pattern in VIRAL_PATTERNS:
-            if re.search(pattern, title, re.IGNORECASE):
-                score += 15
-                break  # Solo un bonus per pattern
+        # --- COMPONENTE 2: Topic Volume (potenziale SEO) ---
+        topic_component = 0
+        for topic, value in HIGH_VOLUME_TOPICS.items():
+            if topic in title_lower or topic in link:
+                topic_component = max(topic_component, value)
+        topic_component *= WEIGHTS['topic_volume']
 
-        # Bonus per titoli corti e incisivi (più clickabili)
-        if len(entry.get("title", "")) < 60:
-            score += 10
+        # --- COMPONENTE 3: CTR Pattern (clickability) ---
+        ctr_component = 0
+        for pattern, value in HIGH_CTR_PATTERNS:
+            if re.search(pattern, title_lower):
+                ctr_component += value
+        # Cap a 100
+        ctr_component = min(ctr_component, 100) * WEIGHTS['ctr_pattern']
 
-        # Bonus per più tag (più audience potenziale)
-        score += len(entry.get("tags", [])) * 5
+        # --- COMPONENTE 4: Penalità ---
+        penalty = 0
+        for pattern, value in PENALTY_PATTERNS:
+            if re.search(pattern, title_lower) or re.search(pattern, link):
+                penalty += value
 
-        entry["viral_score"] = score
+        # --- COMPONENTE 5: Bonus temporale ---
+        time_bonus = temporal_bonus * 0.5
+
+        # --- SCORE FINALE ---
+        market_score = hn_component + topic_component + ctr_component + penalty + time_bonus
+
+        # Bonus per titoli di lunghezza ottimale (50-70 chars = sweet spot SEO)
+        title_len = len(title)
+        if 50 <= title_len <= 70:
+            market_score += 10
+        elif title_len > 100:
+            market_score -= 10
+
+        entry["market_score"] = max(market_score, 0)
+
+        # Debug info
+        entry["_debug"] = {
+            "hn": round(hn_component, 1),
+            "topic": round(topic_component, 1),
+            "ctr": round(ctr_component, 1),
+            "penalty": penalty,
+            "temporal": time_bonus
+        }
 
     return entries
 
