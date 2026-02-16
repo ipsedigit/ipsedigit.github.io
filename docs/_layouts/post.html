@@ -36,6 +36,61 @@ layout: base
     {{ content }}
   </div>
 
+  <!-- Related Posts -->
+  {% assign current_categories = page.categories %}
+  {% assign related_posts = site.posts | where_exp: "post", "post.url != page.url" %}
+  {% assign related_count = 0 %}
+
+  <div class="related-posts">
+    <h3>More from TechPulse Daily</h3>
+    <ul>
+    {% for post in related_posts limit: 20 %}
+      {% for cat in post.categories %}
+        {% if current_categories contains cat and related_count < 5 %}
+          <li>
+            {% if post.external_url %}
+            <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+            {% else %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% endif %}
+          </li>
+          {% assign related_count = related_count | plus: 1 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </div>
+
+  <style>
+  .related-posts {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+  .related-posts h3 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  .related-posts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .related-posts li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .related-posts a {
+    color: #111;
+    text-decoration: none;
+  }
+  .related-posts a:hover {
+    color: #0066cc;
+  }
+  </style>
+
   {% if jekyll.environment == 'production' -%}
     {% if page.comments == false -%}
     <div class="comments-disabled-message">

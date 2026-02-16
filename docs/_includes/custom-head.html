@@ -11,23 +11,81 @@
 {% endif %}
 
 <!-- SEO -->
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="TechPulse Daily">
 <meta name="theme-color" content="#ffffff">
 
-{% if page.image %}
-<meta property="og:image" content="{{ page.image | absolute_url }}">
-{% endif %}
+<!-- Open Graph -->
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{% endif %}
+{% if page.description %}
+<meta property="og:description" content="{{ page.description }}">
+{% endif %}
 
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.twitter.username }}">
+{% if page.title %}
+<meta name="twitter:title" content="{{ page.title }}">
+{% endif %}
+{% if page.description %}
+<meta name="twitter:description" content="{{ page.description }}">
+{% endif %}
+{% if page.image %}
+<meta name="twitter:image" content="{{ page.image }}">
+{% endif %}
 
+<!-- Schema.org JSON-LD -->
+{% if page.layout == 'post' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
-  "name": "{{ page.title | default: site.title }}",
+  "@type": "NewsArticle",
+  "headline": "{{ page.title | escape }}",
   "url": "{{ page.url | absolute_url }}",
-  "description": "{{ page.description | default: site.description | strip_html | truncate: 160 }}"
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  {% if page.image %}"image": "{{ page.image }}",{% endif %}
+  {% if page.description %}"description": "{{ page.description | escape }}",{% endif %}
+  "author": {
+    "@type": "Organization",
+    "name": "TechPulse Daily",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechPulse Daily",
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
 }
 </script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | escape }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/topics/",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endif %}

@@ -134,11 +134,31 @@ body {
   text-align: center;
   min-height: 90px;
 }
+
+/* Quick nav */
+.quick-nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+}
+.quick-nav a {
+  color: #666;
+  text-decoration: none;
+}
+.quick-nav a:hover {
+  color: #0066cc;
+}
 </style>
 
 <div class="page-header">
   <h1>TechPulse Daily</h1>
   <p>Curated tech news from 50+ sources</p>
+  <div class="quick-nav">
+    <a href="/topics/">Browse Topics</a>
+    <a href="/feed.xml">RSS Feed</a>
+    <a href="/about/">About</a>
+  </div>
 </div>
 
 <div class="ad-space" id="ad-top">
