@@ -75,7 +75,7 @@ title: ipsedigit
     <span class="post-tags">
       {% for category in post.categories %}
         {% assign tag_slug = category | slugify %}
-        <a href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %},{% endunless %}
+        <a href="/tags/{{ tag_slug }}/">{{ category }}</a>{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </span>
   </div>
