@@ -156,8 +156,8 @@ body {
   <p>Curated tech news from 50+ sources</p>
   <div class="quick-nav">
     <a href="/topics/">Browse Topics</a>
+    <a href="/sources/">Our 50+ Sources</a>
     <a href="/feed.xml">RSS Feed</a>
-    <a href="/about/">About</a>
   </div>
 </div>
 

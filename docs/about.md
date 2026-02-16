@@ -62,6 +62,8 @@ Our algorithm scans top tech sources every few hours and selects the best articl
 
 ## Sources We Monitor
 
+We aggregate from 50+ authoritative sources including:
+
 <div class="source-grid">
 <span>Hacker News</span>
 <span>Lobste.rs</span>
@@ -77,8 +79,9 @@ Our algorithm scans top tech sources every few hours and selects the best articl
 <span>MIT Tech Review</span>
 <span>Krebs Security</span>
 <span>Y Combinator</span>
-<span>+40 more...</span>
 </div>
+
+**[View all 50+ sources →](/sources/)**
 
 ## Topics
 
