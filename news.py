@@ -153,10 +153,10 @@ def extract_entries(feed, source):
 def calculate_score(entry, source):
     """
     Calcola score semplice:
-    - Base: community score (0-100 normalizzato)
-    - Bonus: pattern titolo che generano click
+    - Base: community score (0-50 normalizzato)
+    - Bonus: tipo fonte
+    - Bonus: pattern titolo
     - Penalty: contenuti da evitare
-    - Bonus: fonte corporate (contenuti originali)
     """
     title_lower = entry['title'].lower()
     link_lower = entry['link'].lower()
@@ -164,9 +164,16 @@ def calculate_score(entry, source):
     # Base score da community (normalizzato 0-50)
     score = min(entry.get('community_score', 0) / 2, 50)
 
-    # Bonus per fonte corporate (contenuti originali = meno competizione SEO)
-    if entry['source_type'] == 'corporate_blog':
-        score += 30
+    # Bonus per tipo fonte
+    source_type = entry['source_type']
+    if source_type == 'corporate_blog':
+        score += 30  # Contenuti originali = meno competizione SEO
+    elif source_type == 'security':
+        score += 25  # Security news = alto engagement
+    elif source_type == 'startup':
+        score += 20  # Startup news = buon traffico
+    elif source_type == 'community':
+        score += 10  # Community = variabile
 
     # Bonus per pattern nel titolo
     for pattern, bonus in TITLE_BONUS.items():
@@ -176,7 +183,7 @@ def calculate_score(entry, source):
     # Penalty
     for pattern, penalty in TITLE_PENALTY.items():
         if re.search(pattern, title_lower) or re.search(pattern, link_lower):
-            score += penalty  # penalty è già negativo
+            score += penalty
 
     # Bonus per titoli di lunghezza ottimale (40-80 char)
     title_len = len(entry['title'])
