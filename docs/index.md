@@ -7,31 +7,31 @@ keywords: "tech news, hacker news, programming, AI, machine learning, software e
 
 <style>
 :root {
-  --terminal-green: #00ff41;
-  --terminal-dim: #0a8f2c;
-  --bg-dark: #0d1117;
-  --bg-card: #161b22;
-  --bg-code: #1c2128;
-  --text-main: #c9d1d9;
-  --text-dim: #8b949e;
-  --border: #30363d;
-  --accent: #58a6ff;
-  --accent-hover: #79c0ff;
+  --terminal-green: #16a34a;
+  --terminal-dim: #22c55e;
+  --bg-light: #ffffff;
+  --bg-card: #f8fafc;
+  --bg-code: #f1f5f9;
+  --text-main: #1e293b;
+  --text-dim: #64748b;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
 }
 
 body {
-  background: var(--bg-dark) !important;
+  background: var(--bg-light) !important;
   color: var(--text-main) !important;
 }
 
 .page-content {
-  background: var(--bg-dark) !important;
+  background: var(--bg-light) !important;
 }
 
 /* Header nerd style */
 .site-header {
   background: var(--bg-card) !important;
-  border-bottom: 1px solid var(--terminal-green) !important;
+  border-bottom: 2px solid var(--terminal-green) !important;
 }
 
 .site-title, .site-title:visited {
@@ -88,7 +88,7 @@ body {
 
 .post-item:hover {
   border-left-color: var(--accent);
-  box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* Post Meta */
@@ -104,7 +104,7 @@ body {
 }
 
 .post-meta time {
-  color: var(--terminal-dim);
+  color: var(--terminal-green);
 }
 
 .post-meta time::before {
@@ -125,7 +125,7 @@ body {
 
 .post-tags a:hover {
   background: var(--terminal-green);
-  color: var(--bg-dark);
+  color: white;
   border-color: var(--terminal-green);
 }
 
@@ -200,7 +200,7 @@ body {
 /* Footer */
 .site-footer {
   background: var(--bg-card) !important;
-  border-top: 1px solid var(--terminal-green) !important;
+  border-top: 2px solid var(--terminal-green) !important;
   color: var(--text-dim) !important;
 }
 
@@ -208,34 +208,6 @@ body {
   color: var(--terminal-green) !important;
 }
 
-/* Scrollbar nerd */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--bg-dark);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--terminal-dim);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--terminal-green);
-}
-
-/* Terminal cursor blink */
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
-.cursor {
-  animation: blink 1s infinite;
-  color: var(--terminal-green);
-}
 
 /* Responsive */
 @media (max-width: 600px) {

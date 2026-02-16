@@ -4,24 +4,24 @@ layout: default
 
 <style>
 :root {
-  --terminal-green: #00ff41;
-  --terminal-dim: #0a8f2c;
-  --bg-dark: #0d1117;
-  --bg-card: #161b22;
-  --bg-code: #1c2128;
-  --text-main: #c9d1d9;
-  --text-dim: #8b949e;
-  --border: #30363d;
-  --accent: #58a6ff;
+  --terminal-green: #16a34a;
+  --terminal-dim: #22c55e;
+  --bg-light: #ffffff;
+  --bg-card: #f8fafc;
+  --bg-code: #f1f5f9;
+  --text-main: #1e293b;
+  --text-dim: #64748b;
+  --border: #e2e8f0;
+  --accent: #2563eb;
 }
 
 body {
-  background: var(--bg-dark) !important;
+  background: var(--bg-light) !important;
   color: var(--text-main) !important;
 }
 
 .page-content {
-  background: var(--bg-dark) !important;
+  background: var(--bg-light) !important;
 }
 
 .tag-header {
@@ -77,11 +77,12 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .post-list li:hover {
   border-color: var(--terminal-green);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .post-list li::before {
@@ -91,7 +92,7 @@ body {
 }
 
 .post-list .post-date {
-  color: var(--terminal-dim);
+  color: var(--terminal-green);
   font-family: 'Courier New', monospace;
   font-size: 0.85rem;
   white-space: nowrap;
