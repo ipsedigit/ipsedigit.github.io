@@ -5,14 +5,17 @@ description: "The smartest tech news digest. AI, startups, programming, and engi
 keywords: "tech news, AI news, startup news, programming, software engineering"
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
 * { box-sizing: border-box; }
 
 body {
   background: #fff !important;
   color: #111 !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-family: 'JetBrains Mono', monospace !important;
   line-height: 1.6;
+  font-size: 14px;
 }
 
 .page-content { 
@@ -57,11 +60,14 @@ body {
 
 /* Post */
 .post-item {
-  padding: 1.25rem 0;
-  border-bottom: 1px solid #eee;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background: #fafafa;
 }
-.post-item:last-child {
-  border-bottom: none;
+.post-item:hover {
+  border-color: #ccc;
 }
 
 .post-title {
