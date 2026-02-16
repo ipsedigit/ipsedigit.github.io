@@ -1,6 +1,4 @@
 PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
-PUBLISHED_QUOTES_FILE_NAME = "quotes/published.txt"
-QUOTES_FILE_NAME = "quotes/quotes.json"
 
 # =============================================================================
 # PUBLISHING STRATEGY: Quanti post al giorno e come distribuirli
