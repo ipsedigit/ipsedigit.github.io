@@ -83,6 +83,7 @@ https://github.com/ebogdum/callfs
 https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
+https://simonwillison.net/2026/Jan/26/chatgpt-containers/
 https://veerhost.com/moltbot-security-guide/
 https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/
 https://github.com/flameshot-org/flameshot
