@@ -5,6 +5,8 @@ date: 2026-01-13 06:47:15 +0000
 external_url: https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/
 categories:
   - Artificial Intelligence
+description: "AI Overviews provided false liver test information experts called alarming."
+image: https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1488311999-1152x648.jpg
 ---
 
 

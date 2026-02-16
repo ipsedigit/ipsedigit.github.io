@@ -6,6 +6,8 @@ external_url: https://blog.mozilla.ai/evaluating-multilingual-context-aware-guar
 categories:
   - Artificial Intelligence
   - Large Language Models
+description: "A technical evaluation of multilingual, context-aware AI guardrails, analyzing how English and Farsi responses are scored under identical policies. Th"
+image: https://blog.mozilla.ai/content/images/2026/02/Camera-obscura.jpg
 ---
 
 

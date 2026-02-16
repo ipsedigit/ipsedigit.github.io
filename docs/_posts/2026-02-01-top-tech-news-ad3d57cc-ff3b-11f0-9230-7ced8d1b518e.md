@@ -5,6 +5,8 @@ date: 2026-02-01 07:00:22 +0000
 external_url: https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/
 categories:
   - Artificial Intelligence
+description: "Like many organizations, Wiki Education has grappled with generative AI, its impacts, opportunities, and threats, for several years. As an organizatio"
+image: https://wikiedu.org/wp-content/uploads/2026/01/GenAI-blog-post-2026-feature-image.png
 ---
 
 

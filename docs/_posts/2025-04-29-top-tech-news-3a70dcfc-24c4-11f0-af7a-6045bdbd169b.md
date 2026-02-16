@@ -5,6 +5,8 @@ date: 2025-04-29 06:36:06 +0000
 external_url: https://qwenlm.github.io/blog/qwen3/
 categories:
   - GitHub
+description: "QWEN CHAT GitHub Hugging Face ModelScope Kaggle DEMO DISCORD"
+image: https://qwenlm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E
 ---
 
 

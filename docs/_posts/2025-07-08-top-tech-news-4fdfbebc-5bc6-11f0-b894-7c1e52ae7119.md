@@ -5,6 +5,7 @@ date: 2025-07-08 06:39:34 +0000
 external_url: https://arxiv.org/abs/2506.17298
 categories:
   - Generative Models
+description: "We present Mercury, a new generation of commercial-scale large language models (LLMs) based on diffusion. These models are parameterized via the Trans"
 ---
 
 
