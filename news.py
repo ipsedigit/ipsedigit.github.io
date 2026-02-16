@@ -3,8 +3,8 @@ import uuid
 import requests
 import re
 from datetime import datetime, timezone
-from utils import read_text_file, is_fresh_resource, track_published
-from const import HACKERNEWS_FEED_URL, PUBLISHED_NEWS_FILE_NAME
+from utils import read_text_file, track_published
+from const import HACKERNEWS_FEED_URL, PUBLISHED_NEWS_FILE_NAME, MIN_HN_SCORE, VIRAL_PATTERNS
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
@@ -22,27 +22,75 @@ def select_hackernews_news():
     feed = feedparser.parse(HACKERNEWS_FEED_URL)
     if not feed.entries:
         return None
+
+    # Step 1: Filtra per keyword
     interesting_entries = filter_entries_by_keywords(feed)
-    unpublished_entries = filter_already_published_entries(read_text_file(PUBLISHED_NEWS_FILE_NAME), interesting_entries)
-    top_entry = filter_entries_by_preview(unpublished_entries)
+
+    # Step 2: Rimuovi già pubblicati
+    published = read_text_file(PUBLISHED_NEWS_FILE_NAME)
+    unpublished_entries = [e for e in interesting_entries if e.get("link") not in published]
+
+    # Step 3: Calcola score viralità e ordina
+    scored_entries = calculate_viral_score(unpublished_entries)
+    sorted_entries = sorted(scored_entries, key=lambda x: x.get("viral_score", 0), reverse=True)
+
+    # Step 4: Prendi il migliore con preview valida
+    top_entry = filter_entries_by_preview(sorted_entries)
     return top_entry
+
+
+def calculate_viral_score(entries):
+    """Calcola uno score di viralità per ogni entry."""
+    for entry in entries:
+        score = 0
+        title = entry.get("title", "").lower()
+
+        # Score da HN (se disponibile)
+        hn_score = entry.get("hn_score", 0)
+        if hn_score >= MIN_HN_SCORE:
+            score += 50  # Bonus per post popolari
+        score += min(hn_score // 10, 30)  # Max 30 punti da HN score
+
+        # Bonus per pattern virali nel titolo
+        for pattern in VIRAL_PATTERNS:
+            if re.search(pattern, title, re.IGNORECASE):
+                score += 15
+                break  # Solo un bonus per pattern
+
+        # Bonus per titoli corti e incisivi (più clickabili)
+        if len(entry.get("title", "")) < 60:
+            score += 10
+
+        # Bonus per più tag (più audience potenziale)
+        score += len(entry.get("tags", [])) * 5
+
+        entry["viral_score"] = score
+
+    return entries
 
 
 def filter_entries_by_keywords(entries):
     matched = []
 
     for entry in entries["entries"]:
-        title = entry["title"]
-        description = entry["summary"] or ""
+        title = entry.get("title", "")
+        description = entry.get("summary", "") or ""
         combined = f"{title} {description}"
         matched_labels = [label for kw, label in KEYWORDS.items() if keyword_in_text(combined, kw)]
 
         if matched_labels:
+            # Estrai score HN dal summary (hnrss include "X points")
+            hn_score = 0
+            score_match = re.search(r'(\d+)\s+points?', description)
+            if score_match:
+                hn_score = int(score_match.group(1))
+
             matched.append({
-                "title": entry["title"],
-                "link": entry["link"],
+                "title": title,
+                "link": entry.get("link", ""),
                 "source": "Hacker News",
-                "tags": matched_labels
+                "tags": matched_labels,
+                "hn_score": hn_score
             })
 
     return matched
@@ -53,9 +101,13 @@ def keyword_in_text(text, keyword):
 
 
 def filter_entries_by_preview(entries):
+    """Filtra entries che hanno preview e immagine valide."""
     for entry in entries:
         try:
             response = requests.get(entry["link"], timeout=5)
+            if response.status_code != 200:
+                continue
+
             soup = BeautifulSoup(response.text, "html.parser")
 
             # Get preview text
@@ -82,12 +134,6 @@ def filter_entries_by_preview(entries):
 
     return None
 
-
-def filter_already_published_entries(published_links: set, entries: list[dict]) -> list[dict]:
-    return [
-        entry for entry in entries
-        if entry.get("link") not in published_links
-    ]
 
 
 def create_post(news):
