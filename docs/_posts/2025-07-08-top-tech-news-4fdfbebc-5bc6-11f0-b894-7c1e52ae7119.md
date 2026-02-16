@@ -2,7 +2,8 @@
 layout: post
 title: "Mercury: Ultra-fast language models based on diffusion"
 date: 2025-07-08 06:39:34 +0000
-categories: Generative Models
+categories:
+  - Generative Models
 ---
 
 ### [Mercury: Ultra-fast language models based on diffusion](https://arxiv.org/abs/2506.17298)

@@ -2,7 +2,8 @@
 layout: post
 title: "Flameshot"
 date: 2026-01-30 07:01:25 +0000
-categories: GitHub
+categories:
+  - GitHub
 ---
 
 ### [Flameshot](https://github.com/flameshot-org/flameshot)

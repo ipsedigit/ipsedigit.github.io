@@ -2,7 +2,8 @@
 layout: post
 title: "Generative AI and Wikipedia editing: What we learned in 2025"
 date: 2026-02-01 07:00:22 +0000
-categories: Artificial Intelligence
+categories:
+  - Artificial Intelligence
 ---
 
 ### [Generative AI and Wikipedia editing: What we learned in 2025](https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/)

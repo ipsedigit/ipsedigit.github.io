@@ -2,7 +2,9 @@
 layout: post
 title: "Evaluating Multilingual, Context-Aware Guardrails: A Humanitarian LLM Use Case"
 date: 2026-02-13 07:09:20 +0000
-categories: Artificial Intelligence, Large Language Models
+categories:
+  - Artificial Intelligence
+  - Large Language Models
 ---
 
 ### [Evaluating Multilingual, Context-Aware Guardrails: A Humanitarian LLM Use Case](https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/)

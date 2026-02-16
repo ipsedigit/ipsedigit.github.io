@@ -2,7 +2,8 @@
 layout: post
 title: "Qwen3: Think deeper, act faster"
 date: 2025-04-29 06:36:06 +0000
-categories: GitHub
+categories:
+  - GitHub
 ---
 
 ### [Qwen3: Think deeper, act faster](https://qwenlm.github.io/blog/qwen3/)

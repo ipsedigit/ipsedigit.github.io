@@ -2,7 +2,8 @@
 layout: post
 title: "Firefox Getting New Controls to Turn Off AI Features"
 date: 2026-02-03 07:01:57 +0000
-categories: Artificial Intelligence
+categories:
+  - Artificial Intelligence
 ---
 
 ### [Firefox Getting New Controls to Turn Off AI Features](https://www.macrumors.com/2026/02/02/firefox-ai-toggle/)

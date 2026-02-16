@@ -153,7 +153,9 @@ def create_post(news):
         f.write("layout: post\n")
         f.write(f'title: "{safe_title}"\n')
         f.write(f'date: {now.strftime("%Y-%m-%d %H:%M:%S %z")}\n')
-        f.write(f"categories: [{', '.join(news['tags'])}]\n")
+        f.write(f"categories:\n")
+        for tag in news['tags']:
+            f.write(f"  - {tag}\n")
         f.write(f'description: "{description}"\n')
         if "image" in news:
             f.write(f'image: {news["image"]}\n')

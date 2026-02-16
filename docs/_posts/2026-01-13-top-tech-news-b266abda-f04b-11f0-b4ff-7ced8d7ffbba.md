@@ -2,7 +2,8 @@
 layout: post
 title: "Google removes AI health summaries after investigation finds dangerous flaws"
 date: 2026-01-13 06:47:15 +0000
-categories: Artificial Intelligence
+categories:
+  - Artificial Intelligence
 ---
 
 ### [Google removes AI health summaries after investigation finds dangerous flaws](https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/)

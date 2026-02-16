@@ -2,7 +2,10 @@
 layout: post
 title: "Show HN: Gambit, an open-source agent harness for building reliable AI agents"
 date: 2026-01-16 06:46:36 +0000
-categories: Artificial Intelligence, Large Language Models, TypeScript
+categories:
+  - Artificial Intelligence
+  - Large Language Models
+  - TypeScript
 ---
 
 ### [Show HN: Gambit, an open-source agent harness for building reliable AI agents](https://github.com/bolt-foundry/gambit)
