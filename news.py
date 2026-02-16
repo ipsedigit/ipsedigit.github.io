@@ -7,12 +7,14 @@ from utils import read_text_file, is_fresh_resource, track_published
 from const import HACKERNEWS_FEED_URL, PUBLISHED_NEWS_FILE_NAME
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
+from tags import generate_tag_pages
 
 
 def publish_news():
     news = select_hackernews_news()
     if news is not None:
         create_post(news)
+        generate_tag_pages()
         track_published(news['link'], PUBLISHED_NEWS_FILE_NAME)
 
 
