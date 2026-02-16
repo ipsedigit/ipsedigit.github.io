@@ -3,44 +3,42 @@ layout: default
 ---
 
 <style>
-:root {
-  --primary: #6366f1;
-  --accent: #f59e0b;
-  --bg: #ffffff;
-  --bg-alt: #f8fafc;
-  --text: #0f172a;
-  --text-secondary: #64748b;
-  --border: #e2e8f0;
-  --success: #10b981;
-}
-
 body {
-  background: var(--bg) !important;
-  color: var(--text) !important;
+  background: #fff !important;
+  color: #111 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
 }
 
-.page-content { background: var(--bg) !important; }
+.page-content { background: #fff !important; }
 
-.site-header { background: var(--text) !important; border: none !important; }
-.site-title, .site-title:visited { color: white !important; font-weight: 700 !important; }
-.site-nav .page-link { color: rgba(255,255,255,0.8) !important; }
+.site-header {
+  background: #fff !important;
+  border-bottom: 1px solid #eee !important;
+}
+.site-title, .site-title:visited { color: #111 !important; font-weight: 700 !important; }
+.site-nav .page-link { color: #666 !important; }
+
+.site-footer {
+  background: #fafafa !important;
+  border-top: 1px solid #eee !important;
+  color: #666 !important;
+}
+.site-footer a { color: #111 !important; }
 
 .tag-header {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%);
-  color: white;
-  padding: 2rem;
-  border-radius: 12px;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
 }
 .tag-header h1 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
+  margin: 0 0 0.25rem 0;
 }
-.tag-description {
-  opacity: 0.9;
+.tag-header p {
+  color: #666;
   margin: 0;
+  font-size: 0.9rem;
 }
 
 .post-list {
@@ -50,41 +48,26 @@ body {
 }
 
 .post-list li {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 0.75rem;
-  transition: all 0.2s;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+.post-list li:last-child {
+  border-bottom: none;
 }
 
-.post-list li:hover {
-  border-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
-}
-
-.post-list .post-date {
-  color: var(--text-secondary);
+.post-list .date {
+  color: #888;
   font-size: 0.85rem;
-  margin-right: 1rem;
+  margin-right: 0.75rem;
 }
 
 .post-list a {
-  color: var(--text);
+  color: #111;
   text-decoration: none;
-  font-weight: 500;
 }
-
 .post-list a:hover {
-  color: var(--primary);
+  color: #0066cc;
 }
-
-.site-footer {
-  background: var(--text) !important;
-  color: rgba(255,255,255,0.7) !important;
-  border: none !important;
-}
-.site-footer a { color: white !important; }
 </style>
 
 {% assign post_count = 0 %}
@@ -96,7 +79,7 @@ body {
 
 <div class="tag-header">
   <h1>{{ page.tag }}</h1>
-  <p class="tag-description">{{ post_count }} articles about {{ page.tag }}</p>
+  <p>{{ post_count }} articles</p>
 </div>
 
 <ul class="post-list">
@@ -104,9 +87,9 @@ body {
 {% for post in sorted_posts %}
   {% if post.categories contains page.tag %}
   <li>
-    <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+    <span class="date">{{ post.date | date: "%b %d" }}</span>
     {% if post.external_url %}
-    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
     {% else %}
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     {% endif %}

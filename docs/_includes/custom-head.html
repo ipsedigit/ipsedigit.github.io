@@ -1,59 +1,33 @@
-{% comment %}
-  Custom head content for SEO optimization
-{% endcomment %}
-
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-<!-- Preconnect for performance -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- Preconnect -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 
-<!-- Google AdSense -->
+<!-- AdSense -->
 {% if site.adsense_id %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_id }}" crossorigin="anonymous"></script>
 {% endif %}
 
-<!-- SEO Meta -->
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- SEO -->
+<meta name="robots" content="index, follow">
 <meta name="author" content="TechPulse Daily">
-<meta name="theme-color" content="#0f172a">
+<meta name="theme-color" content="#ffffff">
 
-<!-- Open Graph -->
 {% if page.image %}
 <meta property="og:image" content="{{ page.image | absolute_url }}">
 {% endif %}
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:locale" content="en_US">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-{% if page.title %}
-<meta name="twitter:title" content="{{ page.title }}">
-{% endif %}
 
-<!-- Schema.org JSON-LD -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
   "name": "{{ page.title | default: site.title }}",
   "url": "{{ page.url | absolute_url }}",
-  {% if page.layout == 'post' %}
-  "headline": "{{ page.title }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
-  "author": {
-    "@type": "Organization",
-    "name": "TechPulse Daily"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "TechPulse Daily",
-    "url": "https://ipsedigit.github.io"
-  },
-  {% endif %}
-  "description": "{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}"
+  "description": "{{ page.description | default: site.description | strip_html | truncate: 160 }}"
 }
 </script>

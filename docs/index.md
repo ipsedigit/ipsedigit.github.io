@@ -1,233 +1,145 @@
 ---
 layout: default
-title: TechPulse Daily - The Smartest Tech News Digest
-description: "The smartest tech news digest. AI, startups, programming, and engineering insights curated daily from top sources. No noise, just signal."
-keywords: "tech news, AI news, startup news, programming, software engineering, hacker news, tech digest"
+title: TechPulse Daily - Tech News Digest
+description: "The smartest tech news digest. AI, startups, programming, and engineering insights curated daily from top sources."
+keywords: "tech news, AI news, startup news, programming, software engineering"
 ---
 
 <style>
-:root {
-  --primary: #6366f1;
-  --primary-dark: #4f46e5;
-  --accent: #f59e0b;
-  --bg: #ffffff;
-  --bg-alt: #f8fafc;
-  --text: #0f172a;
-  --text-secondary: #64748b;
-  --border: #e2e8f0;
-  --success: #10b981;
-}
-
 * { box-sizing: border-box; }
 
 body {
-  background: var(--bg) !important;
-  color: var(--text) !important;
+  background: #fff !important;
+  color: #111 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  line-height: 1.6;
 }
 
-.page-content { background: var(--bg) !important; }
+.page-content { 
+  background: #fff !important; 
+  padding-top: 1rem;
+}
 
 .site-header {
-  background: var(--text) !important;
-  border: none !important;
+  background: #fff !important;
+  border-bottom: 1px solid #eee !important;
 }
 .site-title, .site-title:visited {
-  color: white !important;
+  color: #111 !important;
   font-weight: 700 !important;
-  font-size: 1.4rem !important;
 }
-.site-nav .page-link { color: rgba(255,255,255,0.8) !important; }
-.site-nav .page-link:hover { color: white !important; }
+.site-nav .page-link { color: #666 !important; }
+.site-nav .page-link:hover { color: #111 !important; }
 
-.hero {
-  background: linear-gradient(135deg, var(--text) 0%, #1e293b 100%);
-  color: white;
-  padding: 3rem 1rem;
-  margin: -30px -15px 2rem -15px;
-  text-align: center;
+.site-footer {
+  background: #fafafa !important;
+  border-top: 1px solid #eee !important;
+  color: #666 !important;
 }
-.hero h1 {
-  font-size: 2.5rem;
-  margin: 0 0 0.5rem 0;
-  font-weight: 800;
+.site-footer a { color: #111 !important; }
+
+/* Header */
+.page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
 }
-.hero .tagline {
-  font-size: 1.2rem;
-  opacity: 0.9;
-  margin-bottom: 1.5rem;
-}
-.hero .stats {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.hero .stat-number {
-  font-size: 2rem;
+.page-header h1 {
+  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent);
+  margin: 0 0 0.25rem 0;
 }
-.hero .stat-label {
-  font-size: 0.85rem;
-  opacity: 0.8;
+.page-header p {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
 }
 
-.newsletter-cta {
-  background: var(--primary);
-  color: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.newsletter-cta h3 { margin: 0; font-size: 1.1rem; }
-.newsletter-cta p { margin: 0.25rem 0 0 0; opacity: 0.9; font-size: 0.9rem; }
-.newsletter-cta .btn {
-  background: white;
-  color: var(--primary);
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: transform 0.2s;
-}
-.newsletter-cta .btn:hover { transform: scale(1.05); }
-
-.section-header {
-  display: flex;
-  align-items: center;
-  margin: 2rem 0 1rem 0;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--border);
-}
-.section-header h2 { margin: 0; font-size: 1.3rem; }
-
+/* Post */
 .post-item {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  transition: all 0.2s;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #eee;
 }
-.post-item:hover {
-  border-color: var(--primary);
-  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1);
-}
-
-.post-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.75rem;
+.post-item:last-child {
+  border-bottom: none;
 }
 
 .post-title {
-  margin: 0;
-  font-size: 1.05rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.4;
-  flex: 1;
 }
-.post-title a { color: var(--text); text-decoration: none; }
-.post-title a:hover { color: var(--primary); }
+.post-title a { 
+  color: #111; 
+  text-decoration: none; 
+}
+.post-title a:hover { 
+  color: #0066cc; 
+}
 
-.post-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.post-meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.post-tags {
+  display: inline;
+}
 .post-tags a {
-  background: var(--bg-alt);
-  color: var(--primary);
-  padding: 4px 10px;
-  border-radius: 20px;
+  color: #666;
   text-decoration: none;
-  font-size: 0.7rem;
-  font-weight: 500;
-  transition: all 0.2s;
+  font-size: 0.8rem;
 }
-.post-tags a:hover { background: var(--primary); color: white; }
+.post-tags a:hover {
+  color: #0066cc;
+}
+.post-tags a::before {
+  content: "#";
+}
+.post-tags a + a {
+  margin-left: 0.5rem;
+}
 
-.post-meta { font-size: 0.8rem; color: var(--text-secondary); margin: 0.5rem 0; }
-.post-meta .source { color: var(--success); font-weight: 500; }
+.post-preview {
+  color: #444;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0;
+  line-height: 1.5;
+}
 
-.post-preview { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin: 0.75rem 0 0 0; }
-
-.post-preview-img {
-  width: 100%;
-  max-height: 200px;
+.post-image {
+  margin-top: 0.75rem;
+}
+.post-image img {
+  max-width: 100%;
+  max-height: 180px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-top: 1rem;
+  border-radius: 4px;
 }
 
-.ad-banner {
-  background: var(--bg-alt);
-  border: 1px dashed var(--border);
-  border-radius: 8px;
+/* Ad */
+.ad-space {
+  background: #fafafa;
+  border: 1px solid #eee;
   padding: 1rem;
   margin: 1.5rem 0;
-  min-height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.site-footer {
-  background: var(--text) !important;
-  color: rgba(255,255,255,0.7) !important;
-  border: none !important;
-}
-.site-footer a { color: white !important; }
-
-@media (max-width: 600px) {
-  .hero h1 { font-size: 1.8rem; }
-  .newsletter-cta { flex-direction: column; text-align: center; }
+  text-align: center;
+  min-height: 90px;
 }
 </style>
 
-<div class="hero">
-  <h1>⚡ TechPulse Daily</h1>
-  <p class="tagline">{{ site.tagline | default: "Your daily dose of tech that matters" }}</p>
-  <div class="stats">
-    <div class="stat">
-      <div class="stat-number">{{ site.posts | size }}+</div>
-      <div class="stat-label">Articles</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">10+</div>
-      <div class="stat-label">Sources</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">3x</div>
-      <div class="stat-label">Daily</div>
-    </div>
-  </div>
+<div class="page-header">
+  <h1>TechPulse Daily</h1>
+  <p>Curated tech news, updated 3x daily</p>
 </div>
 
-<div class="newsletter-cta">
-  <div>
-    <h3>🚀 Never miss a tech story</h3>
-    <p>Get the best articles delivered to your inbox</p>
-  </div>
-  {% if site.newsletter_url %}
-  <a href="{{ site.newsletter_url }}" class="btn" target="_blank">Subscribe Free</a>
-  {% else %}
-  <a href="https://github.com/{{ site.github_username }}" class="btn" target="_blank">⭐ Follow Us</a>
-  {% endif %}
-</div>
-
-<div class="ad-banner" id="ad-top">
+<div class="ad-space" id="ad-top">
   {% if site.adsense_id %}
-  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="TOP" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="TOP" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   {% endif %}
-</div>
-
-<div class="section-header">
-  <h2>🔥 Latest Tech News</h2>
 </div>
 
 {% assign post_count = 0 %}
@@ -235,36 +147,38 @@ body {
 {% assign post_count = post_count | plus: 1 %}
 
 <article class="post-item">
-  <div class="post-header">
-    <h3 class="post-title">
-      {% if post.external_url %}
-      <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
-      {% else %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      {% endif %}
-    </h3>
-    <span class="post-tags">
+  <h2 class="post-title">
+    {% if post.external_url %}
+    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    {% else %}
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h2>
+  <div class="post-meta">
+    {{ post.date | date: "%b %d, %Y" }}
+    {% if post.source %} · {{ post.source }}{% endif %}
+    {% if post.categories.size > 0 %}
+    · <span class="post-tags">
       {% for category in post.categories %}
       {% assign tag_slug = category | slugify: "latin" %}
       <a href="/tags/{{ tag_slug }}/">{{ category }}</a>
       {% endfor %}
     </span>
-  </div>
-  <div class="post-meta">
-    {{ post.date | date: "%b %d, %Y" }}
-    {% if post.source %} · <span class="source">{{ post.source }}</span>{% endif %}
+    {% endif %}
   </div>
   {% if post.description %}
-  <p class="post-preview">{{ post.description | truncate: 150 }}</p>
+  <p class="post-preview">{{ post.description | truncate: 160 }}</p>
   {% endif %}
   {% if post.image %}
-  <img src="{{ post.image }}" alt="{{ post.title }}" class="post-preview-img" loading="lazy">
+  <div class="post-image">
+    <img src="{{ post.image }}" alt="" loading="lazy">
+  </div>
   {% endif %}
 </article>
 
-{% assign mod = post_count | modulo: 5 %}
+{% assign mod = post_count | modulo: 8 %}
 {% if mod == 0 %}
-<div class="ad-banner">
+<div class="ad-space">
   {% if site.adsense_id %}
   <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="MID" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -274,15 +188,7 @@ body {
 
 {% endfor %}
 
-<div class="newsletter-cta" style="background: var(--success);">
-  <div>
-    <h3>💡 Want more tech insights?</h3>
-    <p>Follow us for daily updates on AI, startups & engineering</p>
-  </div>
-  <a href="https://github.com/{{ site.github_username }}" class="btn" style="color: var(--success);" target="_blank">Follow on GitHub</a>
-</div>
-
-<div class="ad-banner" id="ad-bottom">
+<div class="ad-space" id="ad-bottom">
   {% if site.adsense_id %}
   <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="BOTTOM" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
