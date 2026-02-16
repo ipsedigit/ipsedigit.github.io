@@ -115,47 +115,61 @@ body {
 .post-item {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--terminal-green);
   border-radius: 6px;
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  transition: box-shadow 0.2s;
 }
 
 .post-item:hover {
-  border-left-color: var(--accent);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* Post Meta */
-.post-meta {
-  font-family: 'Courier New', monospace;
-  font-size: 0.85rem;
-  color: var(--text-dim);
-  margin-bottom: 0.75rem;
+/* Post Header - Titolo + Tags sulla stessa riga o wrappati */
+.post-header {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.post-meta time {
-  color: var(--terminal-green);
+/* Post Title - Link diretto all'articolo esterno */
+.post-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  flex: 1 1 auto;
+  min-width: 200px;
 }
 
-.post-meta time::before {
-  content: "📅 ";
+.post-title a {
+  color: var(--text-main);
+  text-decoration: none;
 }
 
-/* Tags */
+.post-title a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* Tags inline */
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
 .post-tags a {
   background: var(--bg-code);
   color: var(--terminal-green);
   padding: 2px 8px;
   border-radius: 3px;
   text-decoration: none;
-  font-size: 0.75rem;
-  border: 1px solid var(--terminal-dim);
+  font-size: 0.7rem;
+  font-family: 'Courier New', monospace;
+  border: 1px solid var(--border);
   transition: all 0.2s;
 }
 
@@ -165,67 +179,38 @@ body {
   border-color: var(--terminal-green);
 }
 
-/* Post Title */
-.post-title {
-  margin: 0.75rem 0;
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-
-.post-title a {
-  color: var(--text-main);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.post-title a:hover {
-  color: var(--accent);
-}
-
-.post-title a::before {
-  content: "$ ";
-  color: var(--terminal-dim);
-  font-family: 'Courier New', monospace;
-}
-
-/* Post Content */
-.post-excerpt {
+/* Post Meta - Data e fonte */
+.post-meta {
+  font-size: 0.8rem;
   color: var(--text-dim);
-  line-height: 1.7;
-  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
 }
 
-.post-excerpt h3 {
+/* Post Preview */
+.post-preview {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  line-height: 1.6;
   margin: 0;
-  font-size: 1rem;
 }
 
-.post-excerpt h3 a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.post-excerpt h3 a:hover {
-  text-decoration: underline;
-}
-
-.post-excerpt img {
+.post-preview img {
   max-width: 100%;
   border-radius: 6px;
-  margin: 1rem 0;
+  margin-top: 0.75rem;
   border: 1px solid var(--border);
 }
 
-.post-excerpt blockquote {
-  border-left: 3px solid var(--terminal-green);
-  background: var(--bg-code);
-  margin: 1rem 0;
-  padding: 1rem;
-  border-radius: 0 6px 6px 0;
-  color: var(--text-main);
-  font-style: normal;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
+.post-preview-img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: 0.75rem;
+  border: 1px solid var(--border);
+}
+
+/* Footer */
 }
 
 .post-excerpt blockquote::before {
@@ -293,25 +278,30 @@ body {
 {% assign post_count = post_count | plus: 1 %}
 
 <article class="post-item">
-  <div class="post-meta">
-    <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+  <div class="post-header">
+    <h2 class="post-title">
+      {% if post.external_url %}
+      <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+      {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% endif %}
+    </h2>
     <span class="post-tags">
       {% for category in post.categories %}
         {% assign tag_slug = category | slugify: "latin" %}
-        {% capture tag_url %}/tags/{{ tag_slug }}/{% endcapture %}
-        <a href="{{ tag_url }}">{{ category }}</a>
+        <a href="/tags/{{ tag_slug }}/">{{ category }}</a>
       {% endfor %}
     </span>
   </div>
-  <h2 class="post-title">
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </h2>
-  <div class="post-excerpt">
-    {{ post.content }}
-  </div>
+  <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.source %} · {{ post.source }}{% endif %}</div>
+  {% if post.description %}
+  <p class="post-preview">{{ post.description }}</p>
+  {% endif %}
+  {% if post.image %}
+  <img src="{{ post.image }}" alt="{{ post.title }}" class="post-preview-img" loading="lazy">
+  {% endif %}
 </article>
 
-{% comment %} Ad ogni 5 post inserisci uno spazio ads {% endcomment %}
 {% assign mod = post_count | modulo: 5 %}
 {% if mod == 0 %}
 <div class="ad-banner" id="ad-mid-{{ post_count }}">
