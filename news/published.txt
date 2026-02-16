@@ -83,3 +83,5 @@ https://github.com/ebogdum/callfs
 https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
+https://github.com/alichherawalla/off-grid-mobile
+https://steipete.me/posts/2026/openclaw
