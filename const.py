@@ -3,6 +3,50 @@ PUBLISHED_QUOTES_FILE_NAME = "quotes/published.txt"
 QUOTES_FILE_NAME = "quotes/quotes.json"
 
 # =============================================================================
+# PUBLISHING STRATEGY: Quanti post al giorno e come distribuirli
+# =============================================================================
+
+# Numero massimo di post al giorno
+MAX_POSTS_PER_DAY = 3
+
+# Categorie principali - ogni post giornaliero deve essere di categoria diversa
+# Questo evita cannibalizzazione SEO e diversifica l'audience
+CONTENT_CATEGORIES = {
+    'ai': {
+        'name': 'AI & Machine Learning',
+        'keywords': ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'chatgpt',
+                     'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'neural', 'deep learning'],
+        'priority': 1,  # Alta priorità - topic trending
+    },
+    'dev': {
+        'name': 'Programming & Development',
+        'keywords': ['python', 'rust', 'golang', 'javascript', 'typescript', 'react', 'java',
+                     'kotlin', 'programming', 'developer', 'coding', 'software'],
+        'priority': 2,
+    },
+    'infra': {
+        'name': 'Infrastructure & DevOps',
+        'keywords': ['kubernetes', 'docker', 'aws', 'cloud', 'devops', 'terraform', 'linux',
+                     'serverless', 'microservices', 'database', 'postgresql', 'redis'],
+        'priority': 2,
+    },
+    'security': {
+        'name': 'Security & Privacy',
+        'keywords': ['security', 'hack', 'breach', 'vulnerability', 'privacy', 'encryption',
+                     'cyber', 'malware', 'ransomware'],
+        'priority': 3,  # Alta viralità
+    },
+    'startup': {
+        'name': 'Startups & Business',
+        'keywords': ['startup', 'funding', 'raised', 'billion', 'acquisition', 'ipo', 'venture'],
+        'priority': 3,
+    },
+}
+
+# File per tracciare le categorie già pubblicate oggi
+DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
+
+# =============================================================================
 # NEWS SOURCES: Sorgenti autorevoli per tech news
 # =============================================================================
 

@@ -3,7 +3,8 @@ import uuid
 import requests
 import re
 import random
-from datetime import datetime, timezone
+import os
+from datetime import datetime, timezone, date
 from utils import read_text_file, track_published
 from const import (
     NEWS_SOURCES,
@@ -13,7 +14,10 @@ from const import (
     HIGH_CTR_PATTERNS,
     PENALTY_PATTERNS,
     TEMPORAL_BONUS,
-    WEIGHTS
+    WEIGHTS,
+    CONTENT_CATEGORIES,
+    MAX_POSTS_PER_DAY,
+    DAILY_CATEGORIES_FILE,
 )
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
@@ -21,17 +25,85 @@ from tags import generate_tag_pages
 
 
 def publish_news():
-    """Seleziona e pubblica la migliore notizia da una fonte casuale pesata."""
-    news = select_best_news()
+    """
+    Pubblica la migliore notizia disponibile.
+    Rispetta il limite giornaliero e diversifica le categorie.
+    """
+    # Controlla quanti post sono stati fatti oggi e in quali categorie
+    today_categories = get_today_categories()
+    posts_today = len(today_categories)
+
+    if posts_today >= MAX_POSTS_PER_DAY:
+        print(f"⏸️ Already published {posts_today}/{MAX_POSTS_PER_DAY} posts today. Skipping.")
+        return
+
+    print(f"📊 Posts today: {posts_today}/{MAX_POSTS_PER_DAY}")
+    print(f"   Categories used: {today_categories if today_categories else 'None'}")
+
+    # Seleziona news evitando categorie già usate oggi
+    news = select_best_news(exclude_categories=today_categories)
+
     if news is not None:
+        # Identifica la categoria del post
+        post_category = identify_category(news)
+
         create_post(news)
         generate_tag_pages()
         track_published(news['link'], PUBLISHED_NEWS_FILE_NAME)
+        track_daily_category(post_category)
+
         print(f"✅ Published: {news['title']}")
         print(f"   Source: {news.get('source', 'Unknown')}")
+        print(f"   Category: {post_category}")
         print(f"   Market Score: {news.get('market_score', 0):.1f}")
     else:
         print("❌ No suitable news found from any source")
+
+
+def get_today_categories():
+    """Legge le categorie già pubblicate oggi."""
+    try:
+        if not os.path.exists(DAILY_CATEGORIES_FILE):
+            return []
+
+        with open(DAILY_CATEGORIES_FILE, 'r') as f:
+            content = f.read().strip()
+            if not content:
+                return []
+
+            lines = content.split('\n')
+            # Formato: YYYY-MM-DD:category
+            today_str = date.today().isoformat()
+            today_cats = [line.split(':')[1] for line in lines
+                         if line.startswith(today_str) and ':' in line]
+            return today_cats
+    except Exception:
+        return []
+
+
+def track_daily_category(category):
+    """Traccia la categoria pubblicata oggi."""
+    today_str = date.today().isoformat()
+    with open(DAILY_CATEGORIES_FILE, 'a') as f:
+        f.write(f"{today_str}:{category}\n")
+
+
+def identify_category(news):
+    """Identifica la categoria principale di un post basandosi sui tag e titolo."""
+    title_lower = news.get('title', '').lower()
+    tags_lower = [t.lower() for t in news.get('tags', [])]
+    combined = title_lower + ' ' + ' '.join(tags_lower)
+
+    best_category = 'general'
+    best_matches = 0
+
+    for cat_key, cat_info in CONTENT_CATEGORIES.items():
+        matches = sum(1 for kw in cat_info['keywords'] if kw in combined)
+        if matches > best_matches:
+            best_matches = matches
+            best_category = cat_key
+
+    return best_category
 
 
 def select_source():
@@ -44,13 +116,17 @@ def select_source():
     return random.choices(sources, weights=weights, k=1)[0]
 
 
-def select_best_news():
+def select_best_news(exclude_categories=None):
     """
     Strategia di selezione multi-source:
     1. Seleziona una fonte primaria (weighted random)
     2. Prova a trovare un buon post da quella fonte
     3. Se fallisce, prova le altre fonti in ordine di authority
+    4. Esclude post di categorie già pubblicate oggi
     """
+    if exclude_categories is None:
+        exclude_categories = []
+
     published = read_text_file(PUBLISHED_NEWS_FILE_NAME)
 
     # Seleziona fonte primaria
@@ -58,7 +134,7 @@ def select_best_news():
     print(f"🎯 Primary source selected: {NEWS_SOURCES[primary_source]['name']}")
 
     # Prova la fonte primaria
-    result = fetch_and_score_from_source(primary_source, published)
+    result = fetch_and_score_from_source(primary_source, published, exclude_categories)
     if result:
         return result
 
@@ -71,15 +147,18 @@ def select_best_news():
 
     for source_key in other_sources:
         print(f"🔄 Trying fallback source: {NEWS_SOURCES[source_key]['name']}")
-        result = fetch_and_score_from_source(source_key, published)
+        result = fetch_and_score_from_source(source_key, published, exclude_categories)
         if result:
             return result
 
     return None
 
 
-def fetch_and_score_from_source(source_key, published):
+def fetch_and_score_from_source(source_key, published, exclude_categories=None):
     """Fetch, filtra, score e restituisce il miglior post da una fonte."""
+    if exclude_categories is None:
+        exclude_categories = []
+
     source = NEWS_SOURCES[source_key]
 
     try:
@@ -96,6 +175,19 @@ def fetch_and_score_from_source(source_key, published):
         if not unpublished:
             print(f"   ⚠️ All entries already published from {source['name']}")
             return None
+
+        # Filtra categorie già usate oggi
+        if exclude_categories:
+            filtered = []
+            for entry in unpublished:
+                entry_cat = identify_category(entry)
+                if entry_cat not in exclude_categories:
+                    filtered.append(entry)
+            unpublished = filtered
+
+            if not unpublished:
+                print(f"   ⚠️ All entries from {source['name']} are in already-published categories")
+                return None
 
         # Calcola market score
         scored = calculate_market_score(unpublished, source)
