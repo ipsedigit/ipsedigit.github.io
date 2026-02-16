@@ -84,3 +84,15 @@ https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
 https://www.macrumors.com/2026/02/02/firefox-ai-toggle/
+https://github.com/alibaba/AliSQL
+https://blog.comma.ai/datacenter/
+https://theodore.net/projects/Polargraph/
+https://github.com/phreda4/r3
+https://github.com/localgpt-app/localgpt
+https://arxiv.org/abs/2512.20798
+https://github.com/tambo-ai/tambo
+https://github.com/tonyyont/peon-ping
+https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/
+https://github.com/mickamy/sql-tap
+https://github.com/alichherawalla/off-grid-mobile
+https://steipete.me/posts/2026/openclaw
