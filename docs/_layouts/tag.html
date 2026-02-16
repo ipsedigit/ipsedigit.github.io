@@ -2,6 +2,133 @@
 layout: default
 ---
 
+<style>
+:root {
+  --terminal-green: #00ff41;
+  --terminal-dim: #0a8f2c;
+  --bg-dark: #0d1117;
+  --bg-card: #161b22;
+  --bg-code: #1c2128;
+  --text-main: #c9d1d9;
+  --text-dim: #8b949e;
+  --border: #30363d;
+  --accent: #58a6ff;
+}
+
+body {
+  background: var(--bg-dark) !important;
+  color: var(--text-main) !important;
+}
+
+.page-content {
+  background: var(--bg-dark) !important;
+}
+
+.tag-header {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--terminal-green);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag-header h1 {
+  color: var(--terminal-green);
+  font-family: 'Courier New', monospace;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.tag-header h1::before {
+  content: "$ grep -r '";
+  color: var(--text-dim);
+}
+
+.tag-header h1::after {
+  content: "'";
+  color: var(--text-dim);
+}
+
+.tag-description {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+}
+
+.tag-description::before {
+  content: "// ";
+  color: var(--terminal-dim);
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: border-color 0.2s;
+}
+
+.post-list li:hover {
+  border-color: var(--terminal-green);
+}
+
+.post-list li::before {
+  content: "→";
+  color: var(--terminal-green);
+  font-family: 'Courier New', monospace;
+}
+
+.post-list .post-date {
+  color: var(--terminal-dim);
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.post-list a {
+  color: var(--text-main);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-list a:hover {
+  color: var(--accent);
+}
+
+/* Ad Banner */
+.ad-banner {
+  background: var(--bg-code);
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+}
+
+.ad-banner::before {
+  content: "/* AD SPACE */";
+}
+</style>
+
 {% assign post_count = 0 %}
 {% for post in site.posts %}
   {% if post.categories contains page.tag %}
@@ -9,18 +136,24 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<h1>{{ page.tag }} - Tech News & Articles</h1>
-<p class="tag-description">Browse {{ post_count }} articles about {{ page.tag }}. Latest tech news, tutorials, and insights curated from Hacker News.</p>
+<div class="tag-header">
+  <h1>{{ page.tag }}</h1>
+  <p class="tag-description">Found {{ post_count }} articles matching this tag</p>
+</div>
 
-<ul>
+<div class="ad-banner" id="ad-tag-top"></div>
+
+<ul class="post-list">
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
 {% for post in sorted_posts %}
   {% if post.categories contains page.tag %}
   <li>
-    <span>{{ post.date | date: "%d %b %Y" }}</span> -
+    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </li>
   {% endif %}
 {% endfor %}
 </ul>
+
+<div class="ad-banner" id="ad-tag-bottom"></div>
 
