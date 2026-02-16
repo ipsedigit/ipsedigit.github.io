@@ -2,11 +2,13 @@ name: Daily News Publisher
 
 on:
   schedule:
-    # 3 pubblicazioni al giorno per diversificare le categorie
+    # 5 pubblicazioni al giorno
     # Orari in UTC (aggiungi +1 per Roma in inverno, +2 in estate)
-    - cron: '0 6 * * *'   # 07:00 Roma - Mattina (catch commuters)
-    - cron: '0 12 * * *'  # 13:00 Roma - Pranzo (lunch break readers)
-    - cron: '0 18 * * *'  # 19:00 Roma - Sera (after work)
+    - cron: '0 6 * * *'   # 07:00 Roma - Mattina
+    - cron: '0 9 * * *'   # 10:00 Roma - Mid-morning
+    - cron: '0 12 * * *'  # 13:00 Roma - Pranzo
+    - cron: '0 15 * * *'  # 16:00 Roma - Pomeriggio
+    - cron: '0 19 * * *'  # 20:00 Roma - Sera
   workflow_dispatch:
 
 jobs:

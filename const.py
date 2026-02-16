@@ -4,7 +4,7 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # PUBLISHING STRATEGY
 # =============================================================================
 
-MAX_POSTS_PER_DAY = 3
+MAX_POSTS_PER_DAY = 5
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
 # Categorie per diversificare i post giornalieri

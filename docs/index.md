@@ -138,7 +138,7 @@ body {
 
 <div class="page-header">
   <h1>TechPulse Daily</h1>
-  <p>Curated tech news, updated 3x daily</p>
+  <p>Curated tech news, updated 5x daily</p>
 </div>
 
 <div class="ad-space" id="ad-top">
