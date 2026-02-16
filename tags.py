@@ -2,6 +2,17 @@ import os
 import re
 
 
+def slugify(text):
+    """Generate slug matching Jekyll's slugify filter."""
+    # Convert to lowercase
+    slug = text.lower()
+    # Replace non-alphanumeric characters with hyphens
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+    return slug
+
+
 def generate_tag_pages():
     """Generate a page for each unique tag found in posts."""
     tags = set()
@@ -26,7 +37,7 @@ def generate_tag_pages():
     os.makedirs(tags_dir, exist_ok=True)
 
     for tag in tags:
-        slug = tag.lower().replace(' ', '-').replace('(', '').replace(')', '')
+        slug = slugify(tag)
         filename = os.path.join(tags_dir, f'{slug}.md')
         with open(filename, 'w', encoding='utf-8') as f:
             f.write('---\n')
