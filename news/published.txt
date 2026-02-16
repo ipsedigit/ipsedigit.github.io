@@ -83,6 +83,7 @@ https://github.com/ebogdum/callfs
 https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
+https://github.com/OxidizeLabs/cachekit
 https://github.com/cjpais/Handy
 https://github.com/bolt-foundry/gambit
 https://github.com/trasta298/keifu
