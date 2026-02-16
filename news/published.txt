@@ -83,6 +83,7 @@ https://github.com/ebogdum/callfs
 https://github.com/aeron-io/aeron
 https://freetier.co/articles/aws-free-tier-changes-july-15-2025
 https://github.com/vvaltchev/tilck
+https://github.com/ImJasonH/ImJasonH/blob/main/articles/llm-programming-language.md
 https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/
 https://github.com/OxidizeLabs/cachekit
 https://github.com/cjpais/Handy
