@@ -2,10 +2,11 @@ import feedparser
 import uuid
 import requests
 import re
+import random
 from datetime import datetime, timezone
 from utils import read_text_file, track_published
 from const import (
-    HACKERNEWS_FEED_URL,
+    NEWS_SOURCES,
     PUBLISHED_NEWS_FILE_NAME,
     MIN_HN_SCORE,
     HIGH_VOLUME_TOPICS,
@@ -20,51 +21,138 @@ from tags import generate_tag_pages
 
 
 def publish_news():
-    news = select_hackernews_news()
+    """Seleziona e pubblica la migliore notizia da una fonte casuale pesata."""
+    news = select_best_news()
     if news is not None:
         create_post(news)
         generate_tag_pages()
         track_published(news['link'], PUBLISHED_NEWS_FILE_NAME)
         print(f"✅ Published: {news['title']}")
+        print(f"   Source: {news.get('source', 'Unknown')}")
         print(f"   Market Score: {news.get('market_score', 0):.1f}")
-        print(f"   HN Score: {news.get('hn_score', 0)}")
     else:
-        print("❌ No suitable news found")
+        print("❌ No suitable news found from any source")
 
 
-def select_hackernews_news():
-    feed = feedparser.parse(HACKERNEWS_FEED_URL)
-    if not feed.entries:
+def select_source():
+    """
+    Seleziona una fonte usando weighted random selection.
+    Fonti con weight maggiore hanno più probabilità di essere selezionate.
+    """
+    sources = list(NEWS_SOURCES.keys())
+    weights = [NEWS_SOURCES[s]['weight'] for s in sources]
+    return random.choices(sources, weights=weights, k=1)[0]
+
+
+def select_best_news():
+    """
+    Strategia di selezione multi-source:
+    1. Seleziona una fonte primaria (weighted random)
+    2. Prova a trovare un buon post da quella fonte
+    3. Se fallisce, prova le altre fonti in ordine di authority
+    """
+    published = read_text_file(PUBLISHED_NEWS_FILE_NAME)
+
+    # Seleziona fonte primaria
+    primary_source = select_source()
+    print(f"🎯 Primary source selected: {NEWS_SOURCES[primary_source]['name']}")
+
+    # Prova la fonte primaria
+    result = fetch_and_score_from_source(primary_source, published)
+    if result:
+        return result
+
+    # Fallback: prova altre fonti ordinate per authority
+    other_sources = sorted(
+        [s for s in NEWS_SOURCES.keys() if s != primary_source],
+        key=lambda s: NEWS_SOURCES[s]['authority'],
+        reverse=True
+    )
+
+    for source_key in other_sources:
+        print(f"🔄 Trying fallback source: {NEWS_SOURCES[source_key]['name']}")
+        result = fetch_and_score_from_source(source_key, published)
+        if result:
+            return result
+
+    return None
+
+
+def fetch_and_score_from_source(source_key, published):
+    """Fetch, filtra, score e restituisce il miglior post da una fonte."""
+    source = NEWS_SOURCES[source_key]
+
+    try:
+        feed = feedparser.parse(source['feed_url'])
+        if not feed.entries:
+            print(f"   ⚠️ No entries from {source['name']}")
+            return None
+
+        # Estrai entries
+        entries = extract_entries(feed, source)
+
+        # Filtra già pubblicati
+        unpublished = [e for e in entries if e.get("link") not in published]
+        if not unpublished:
+            print(f"   ⚠️ All entries already published from {source['name']}")
+            return None
+
+        # Calcola market score
+        scored = calculate_market_score(unpublished, source)
+        sorted_entries = sorted(scored, key=lambda x: x.get("market_score", 0), reverse=True)
+
+        # Trova il migliore con preview valida
+        result = filter_entries_by_preview(sorted_entries)
+        return result
+
+    except Exception as e:
+        print(f"   ❌ Error fetching {source['name']}: {e}")
         return None
 
-    # Step 1: Estrai e filtra per keyword
-    interesting_entries = filter_entries_by_keywords(feed)
 
-    # Step 2: Rimuovi già pubblicati
-    published = read_text_file(PUBLISHED_NEWS_FILE_NAME)
-    unpublished_entries = [e for e in interesting_entries if e.get("link") not in published]
+def extract_entries(feed, source):
+    """Estrae e normalizza le entries da un feed RSS."""
+    entries = []
+    source_type = source.get('type', 'unknown')
 
-    # Step 3: Filtra per HN score minimo
-    qualified_entries = [e for e in unpublished_entries if e.get("hn_score", 0) >= MIN_HN_SCORE]
+    for entry in feed.entries[:50]:  # Limita a 50 per performance
+        title = entry.get("title", "")
+        link = entry.get("link", "")
+        description = entry.get("summary", "") or entry.get("description", "") or ""
 
-    # Se nessuno passa il filtro, abbassa la soglia
-    if not qualified_entries:
-        qualified_entries = unpublished_entries
+        # Estrai tags basati sui keyword
+        combined = f"{title} {description}"
+        matched_labels = [label for kw, label in KEYWORDS.items() if keyword_in_text(combined, kw)]
 
-    # Step 4: Calcola market score e ordina
-    scored_entries = calculate_market_score(qualified_entries)
-    sorted_entries = sorted(scored_entries, key=lambda x: x.get("market_score", 0), reverse=True)
+        # Salta se non matcha nessun keyword (per mantenere focus tech)
+        if not matched_labels:
+            continue
 
-    # Step 5: Prendi il migliore con preview valida
-    top_entry = filter_entries_by_preview(sorted_entries)
-    return top_entry
+        # Estrai score se disponibile (solo HN e Lobsters hanno score nel feed)
+        score = 0
+        if source_type == 'aggregator':
+            score_match = re.search(r'(\d+)\s+points?', description)
+            if score_match:
+                score = int(score_match.group(1))
+
+        entries.append({
+            "title": title,
+            "link": link,
+            "source": source['name'],
+            "source_type": source_type,
+            "source_authority": source['authority'],
+            "tags": matched_labels,
+            "community_score": score,
+        })
+
+    return entries
 
 
-def calculate_market_score(entries):
+def calculate_market_score(entries, source=None):
     """
     Calcola uno score orientato al mercato per massimizzare traffico organico.
 
-    Formula: market_score = (hn_component + topic_component + ctr_component + penalties + temporal) * image_multiplier
+    Formula: market_score = (community + topic + ctr + authority + temporal + penalties)
     """
     today = datetime.now().strftime('%A').lower()
     temporal_bonus = TEMPORAL_BONUS.get(today, 0)
@@ -74,10 +162,10 @@ def calculate_market_score(entries):
         title_lower = title.lower()
         link = entry.get("link", "").lower()
 
-        # --- COMPONENTE 1: HN Score (popolarità validata) ---
-        hn_score = entry.get("hn_score", 0)
-        # Normalizza su scala 0-100, con cap a 500 punti HN
-        hn_component = min(hn_score / 5, 100) * WEIGHTS['hn_score']
+        # --- COMPONENTE 1: Community Score (popolarità validata) ---
+        community_score = entry.get("community_score", 0)
+        # Normalizza su scala 0-100, con cap a 500 punti
+        community_component = min(community_score / 5, 100) * WEIGHTS['hn_score']
 
         # --- COMPONENTE 2: Topic Volume (potenziale SEO) ---
         topic_component = 0
@@ -94,17 +182,40 @@ def calculate_market_score(entries):
         # Cap a 100
         ctr_component = min(ctr_component, 100) * WEIGHTS['ctr_pattern']
 
-        # --- COMPONENTE 4: Penalità ---
+        # --- COMPONENTE 4: Source Authority Bonus ---
+        # Blog aziendali (GitHub, Netflix, Cloudflare) hanno contenuti originali
+        # che Google premia per freshness e unicità
+        authority = entry.get("source_authority", 80)
+        source_type = entry.get("source_type", "unknown")
+
+        authority_bonus = 0
+        if source_type == 'corporate_blog':
+            # Contenuti originali = meno competizione SEO
+            authority_bonus = 25
+        elif source_type == 'news':
+            # News mainstream = alto trust ma alta competizione
+            authority_bonus = 10
+        elif authority >= 90:
+            authority_bonus = 15
+
+        # --- COMPONENTE 5: Penalità ---
         penalty = 0
         for pattern, value in PENALTY_PATTERNS:
             if re.search(pattern, title_lower) or re.search(pattern, link):
                 penalty += value
 
-        # --- COMPONENTE 5: Bonus temporale ---
+        # --- COMPONENTE 6: Bonus temporale ---
         time_bonus = temporal_bonus * 0.5
 
         # --- SCORE FINALE ---
-        market_score = hn_component + topic_component + ctr_component + penalty + time_bonus
+        market_score = (
+            community_component +
+            topic_component +
+            ctr_component +
+            authority_bonus +
+            penalty +
+            time_bonus
+        )
 
         # Bonus per titoli di lunghezza ottimale (50-70 chars = sweet spot SEO)
         title_len = len(title)
@@ -115,43 +226,8 @@ def calculate_market_score(entries):
 
         entry["market_score"] = max(market_score, 0)
 
-        # Debug info
-        entry["_debug"] = {
-            "hn": round(hn_component, 1),
-            "topic": round(topic_component, 1),
-            "ctr": round(ctr_component, 1),
-            "penalty": penalty,
-            "temporal": time_bonus
-        }
-
     return entries
 
-
-def filter_entries_by_keywords(entries):
-    matched = []
-
-    for entry in entries["entries"]:
-        title = entry.get("title", "")
-        description = entry.get("summary", "") or ""
-        combined = f"{title} {description}"
-        matched_labels = [label for kw, label in KEYWORDS.items() if keyword_in_text(combined, kw)]
-
-        if matched_labels:
-            # Estrai score HN dal summary (hnrss include "X points")
-            hn_score = 0
-            score_match = re.search(r'(\d+)\s+points?', description)
-            if score_match:
-                hn_score = int(score_match.group(1))
-
-            matched.append({
-                "title": title,
-                "link": entry.get("link", ""),
-                "source": "Hacker News",
-                "tags": matched_labels,
-                "hn_score": hn_score
-            })
-
-    return matched
 
 
 def keyword_in_text(text, keyword):
@@ -217,7 +293,8 @@ def create_post(news):
         f.write(f'description: "{description}"\n')
         if "image" in news:
             f.write(f'image: {news["image"]}\n')
-        f.write(f'keywords: {", ".join(news["tags"]).lower()}, tech news, hacker news\n')
+        f.write(f'keywords: {", ".join(news["tags"]).lower()}, tech news\n')
+        f.write(f'source: {news.get("source", "Unknown")}\n')
         f.write(f'author: ipsedigit\n')
         f.write("---\n\n")
 

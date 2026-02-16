@@ -2,8 +2,94 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 PUBLISHED_QUOTES_FILE_NAME = "quotes/published.txt"
 QUOTES_FILE_NAME = "quotes/quotes.json"
 
-# Fetch più post per avere più scelta
-HACKERNEWS_FEED_URL = "https://hnrss.org/frontpage?count=100"
+# =============================================================================
+# NEWS SOURCES: Sorgenti autorevoli per tech news
+# =============================================================================
+
+NEWS_SOURCES = {
+    # --- TIER 1: Aggregatori tech (alto volume, validazione community) ---
+    'hackernews': {
+        'name': 'Hacker News',
+        'feed_url': 'https://hnrss.org/frontpage?count=100',
+        'weight': 30,  # Probabilità selezione (%)
+        'authority': 90,
+        'type': 'aggregator',
+    },
+    'lobsters': {
+        'name': 'Lobste.rs',
+        'feed_url': 'https://lobste.rs/rss',
+        'weight': 15,
+        'authority': 85,
+        'type': 'aggregator',
+    },
+
+    # --- TIER 2: Blog tech aziendali (contenuti originali, alta qualità) ---
+    'github_blog': {
+        'name': 'GitHub Blog',
+        'feed_url': 'https://github.blog/feed/',
+        'weight': 10,
+        'authority': 95,
+        'type': 'corporate_blog',
+    },
+    'netflix_tech': {
+        'name': 'Netflix Tech Blog',
+        'feed_url': 'https://netflixtechblog.com/feed',
+        'weight': 8,
+        'authority': 90,
+        'type': 'corporate_blog',
+    },
+    'cloudflare_blog': {
+        'name': 'Cloudflare Blog',
+        'feed_url': 'https://blog.cloudflare.com/rss/',
+        'weight': 8,
+        'authority': 90,
+        'type': 'corporate_blog',
+    },
+    'uber_eng': {
+        'name': 'Uber Engineering',
+        'feed_url': 'https://eng.uber.com/feed/',
+        'weight': 5,
+        'authority': 85,
+        'type': 'corporate_blog',
+    },
+
+    # --- TIER 3: News tech mainstream (alto reach, SEO boost) ---
+    'ars_technica': {
+        'name': 'Ars Technica',
+        'feed_url': 'https://feeds.arstechnica.com/arstechnica/technology-lab',
+        'weight': 8,
+        'authority': 88,
+        'type': 'news',
+    },
+    'the_verge': {
+        'name': 'The Verge',
+        'feed_url': 'https://www.theverge.com/rss/index.xml',
+        'weight': 6,
+        'authority': 85,
+        'type': 'news',
+    },
+    'techcrunch': {
+        'name': 'TechCrunch',
+        'feed_url': 'https://techcrunch.com/feed/',
+        'weight': 5,
+        'authority': 85,
+        'type': 'news',
+    },
+
+    # --- TIER 4: Dev/Programming focused ---
+    'dev_to': {
+        'name': 'DEV Community',
+        'feed_url': 'https://dev.to/feed',
+        'weight': 5,
+        'authority': 75,
+        'type': 'community',
+    },
+}
+
+# Calcolo automatico: i pesi devono sommare a 100
+_total_weight = sum(s['weight'] for s in NEWS_SOURCES.values())
+for source in NEWS_SOURCES.values():
+    source['normalized_weight'] = source['weight'] / _total_weight * 100
 
 # =============================================================================
 # MARKET STRATEGY: Selezione post per massimizzare traffico organico
