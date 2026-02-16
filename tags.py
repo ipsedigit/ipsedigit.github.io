@@ -28,11 +28,10 @@ def generate_tag_pages():
     for tag in tags:
         slug = tag.lower().replace(' ', '-').replace('(', '').replace(')', '')
         filename = os.path.join(tags_dir, f'{slug}.md')
-        if not os.path.exists(filename):
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write('---\n')
-                f.write('layout: tag\n')
-                f.write(f'tag: "{tag}"\n')
-                f.write(f'permalink: /tags/{slug}/\n')
-                f.write('---\n')
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write('---\n')
+            f.write('layout: tag\n')
+            f.write(f'tag: "{tag}"\n')
+            f.write(f'permalink: /tags/{slug}/\n')
+            f.write('---\n')
 
