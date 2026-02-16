@@ -9,9 +9,23 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://pagead2.googlesyndication.com">
 
 <!-- Monospace font for terminal look -->
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- ============================================
+     GOOGLE ADSENSE - Inserisci il tuo ID qui
+     ============================================
+     1. Vai su https://www.google.com/adsense
+     2. Registrati con il tuo account Google
+     3. Aggiungi il sito ipsedigit.github.io
+     4. Copia il tuo data-ad-client ID (es: ca-pub-XXXXXXXXXX)
+     5. Sostituisci YOUR_ADSENSE_ID qui sotto
+-->
+{% if site.adsense_id %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_id }}" crossorigin="anonymous"></script>
+{% endif %}
 
 <!-- Global nerd theme styles -->
 <style>

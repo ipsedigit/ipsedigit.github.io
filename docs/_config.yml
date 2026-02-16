@@ -22,6 +22,20 @@ baseurl: ""
 url: "https://ipsedigit.github.io"
 lang: en
 
+# =============================================================================
+# MONETIZATION - Configura qui i tuoi ID per iniziare a guadagnare
+# =============================================================================
+
+# Google AdSense - Ottieni il tuo ID su https://www.google.com/adsense
+# Decommentare e sostituire con il tuo ID (es: ca-pub-1234567890)
+# adsense_id: ca-pub-XXXXXXXXXX
+
+# Buy Me a Coffee - Ottieni username su https://www.buymeacoffee.com
+# buymeacoffee: ipsedigit
+
+# Ko-fi - Ottieni username su https://ko-fi.com
+# kofi: ipsedigit
+
 # Social / SEO
 twitter:
   username: ipsedigit

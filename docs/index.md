@@ -54,25 +54,61 @@ body {
   color: var(--terminal-green) !important;
 }
 
-/* Ad Banner Placeholder */
+/* Ad Banner */
 .ad-banner {
   background: var(--bg-code);
-  border: 1px dashed var(--border);
+  border: 1px solid var(--border);
   border-radius: 4px;
   padding: 1rem;
   margin: 1.5rem 0;
   text-align: center;
   min-height: 90px;
+}
+
+.ad-banner-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-dim);
   font-family: 'Courier New', monospace;
   font-size: 0.8rem;
+  min-height: 90px;
 }
 
-.ad-banner::before {
-  content: "/* AD SPACE */";
+/* Support Banner */
+.support-banner {
+  background: linear-gradient(135deg, var(--terminal-green), var(--accent));
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.support-banner h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.support-banner p {
+  margin: 0 0 1rem 0;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.support-banner a {
+  display: inline-block;
+  background: white;
+  color: var(--terminal-green);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.support-banner a:hover {
+  transform: scale(1.05);
 }
 
 /* Post Item */
@@ -223,8 +259,33 @@ body {
 }
 </style>
 
+<!-- Support Banner -->
+<div class="support-banner">
+  <h3>☕ Enjoy this curated tech news?</h3>
+  <p>Help keep this site running and ad-free for everyone</p>
+  {% if site.buymeacoffee %}
+  <a href="https://www.buymeacoffee.com/{{ site.buymeacoffee }}" target="_blank">Buy me a coffee</a>
+  {% elsif site.kofi %}
+  <a href="https://ko-fi.com/{{ site.kofi }}" target="_blank">Support on Ko-fi</a>
+  {% else %}
+  <a href="https://github.com/{{ site.github_username }}" target="_blank">⭐ Star on GitHub</a>
+  {% endif %}
+</div>
+
 <!-- Top Ad Banner -->
-<div class="ad-banner" id="ad-top"></div>
+<div class="ad-banner" id="ad-top">
+  {% if site.adsense_id %}
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.adsense_id }}"
+       data-ad-slot="TOP_AD_SLOT"
+       data-ad-format="horizontal"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {% else %}
+  <div class="ad-banner-placeholder">// Sponsored content coming soon</div>
+  {% endif %}
+</div>
 
 {% assign post_count = 0 %}
 {% for post in site.posts %}
@@ -253,11 +314,33 @@ body {
 {% comment %} Ad ogni 5 post inserisci uno spazio ads {% endcomment %}
 {% assign mod = post_count | modulo: 5 %}
 {% if mod == 0 %}
-<div class="ad-banner" id="ad-mid-{{ post_count }}"></div>
+<div class="ad-banner" id="ad-mid-{{ post_count }}">
+  {% if site.adsense_id %}
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.adsense_id }}"
+       data-ad-slot="MID_AD_SLOT"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {% endif %}
+</div>
 {% endif %}
 
 {% endfor %}
 
 <!-- Bottom Ad Banner -->
-<div class="ad-banner" id="ad-bottom"></div>
+<div class="ad-banner" id="ad-bottom">
+  {% if site.adsense_id %}
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.adsense_id }}"
+       data-ad-slot="BOTTOM_AD_SLOT"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {% else %}
+  <div class="ad-banner-placeholder">// Sponsored content coming soon</div>
+  {% endif %}
+</div>
 
