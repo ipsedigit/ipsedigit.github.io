@@ -398,8 +398,8 @@ Want to suggest a source? [Contact us](mailto:{{ site.email }})
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "TechPulse Daily Sources",
-  "description": "Authoritative tech news sources monitored by TechPulse Daily",
+  "name": "eof.news Sources",
+  "description": "Authoritative tech news sources monitored by eof.news",
   "numberOfItems": 50,
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "item": {"@type": "Organization", "name": "GitHub", "url": "https://github.blog/"}},

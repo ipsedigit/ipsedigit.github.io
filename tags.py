@@ -52,7 +52,7 @@ def generate_tag_pages():
             f.write('---\n')
             f.write('layout: tag\n')
             f.write(f'tag: "{tag}"\n')
-            f.write(f'title: "{tag} - Tech News & Articles | ipsedigit"\n')
+            f.write(f'title: "{tag} - Tech News & Articles | eof.news"\n')
             f.write(f'description: "Latest {tag} news, tutorials and insights. Curated tech articles about {tag}."\n')
             f.write(f'permalink: /tags/{slug}/\n')
             f.write('---\n')

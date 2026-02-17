@@ -47,9 +47,9 @@ permalink: /about/
 
 <div class="about-content">
 
-# About TechPulse Daily
+# About eof.news
 
-TechPulse Daily is an automated tech news aggregator that curates the most interesting stories from over 50 authoritative sources.
+eof.news is an automated tech news aggregator that curates the most interesting stories from over 50 authoritative sources.
 
 ## How It Works
 

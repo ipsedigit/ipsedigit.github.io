@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Browse Topics | Argomenti | Sujets | Temas - TechPulse Daily
+title: Browse Topics | Argomenti | Sujets | Temas - eof.news
 description: "Browse tech articles by topic: AI, Programming, Security, Startups. Sfoglia per argomento. Parcourir par sujet. Explorar por tema."
 permalink: /topics/
 ---

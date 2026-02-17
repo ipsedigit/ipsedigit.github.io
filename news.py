@@ -215,7 +215,7 @@ def fetch_preview(entry):
     """Fetch preview e immagine dalla pagina."""
     try:
         response = requests.get(entry['link'], timeout=5, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; TechPulseBot/1.0)'
+            'User-Agent': 'Mozilla/5.0 (compatible; eofBot/1.0)'
         })
         if response.status_code != 200:
             return None

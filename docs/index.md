@@ -152,7 +152,7 @@ body {
 </style>
 
 <div class="page-header">
-  <h1>TechPulse Daily</h1>
+  <h1>eof.news</h1>
   <p>Curated tech news from 50+ sources</p>
   <div class="quick-nav">
     <a href="/topics/">Browse Topics</a>
