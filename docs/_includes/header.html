@@ -1,13 +1,11 @@
 <header class="site-header">
-
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
-    {%- assign page_titles = site.pages | map: 'title' | compact %}
-    <a class="logo" href="/">
-            <img src="/assets/images/logo.png" alt="logo" width="20px" height="20px" />
-    </a>
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <div class="site-brand">
+      <a class="logo" href="/">
+        <img src="/assets/images/logo.png" alt="logo" width="20px" height="20px" />
+      </a>
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    </div>
 
     <nav class="site-nav">
       <a class="page-link" href="/topics/">Topics</a>

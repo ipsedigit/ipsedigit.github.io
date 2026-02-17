@@ -6,11 +6,50 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
- .site-header .wrapper {
+.site-header {
+  border-top: none !important;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+}
+
+.logo {
+  margin-right: 0.5rem;
   display: flex;
   align-items: center;
 }
 
-.logo {
-  margin-right: 10px; /* optional spacing */
+.site-brand {
+  display: flex;
+  align-items: center;
+}
+
+.site-title {
+  float: none !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: -0.5px;
+}
+
+.site-nav {
+  float: none !important;
+  position: static !important;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-nav .page-link {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: #666 !important;
+  text-decoration: none;
+}
+
+.site-nav .page-link:hover {
+  color: #111 !important;
 }
