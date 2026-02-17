@@ -119,3 +119,4 @@ https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidenc
 https://github.com/mickamy/sql-tap
 https://github.com/alichherawalla/off-grid-mobile
 https://steipete.me/posts/2026/openclaw
+https://dropbox.tech/culture/hack-week-2025-liquid-cooling-gpu-server
