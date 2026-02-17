@@ -23,15 +23,24 @@ def generate_tag_pages():
             filepath = os.path.join(posts_dir, filename)
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
-                match = re.search(r'categories:\s*(.+)', content)
-                if match:
-                    line = match.group(1).strip()
-                    line = line.replace('[', '').replace(']', '')
-                    cats = line.split(',')
-                    for c in cats:
-                        tag = c.strip()
+
+                # Try YAML list format first (categories:\n  - tag1\n  - tag2)
+                yaml_match = re.search(r'categories:\s*\n((?:\s+-\s*.+\n?)+)', content)
+                if yaml_match:
+                    lines = yaml_match.group(1).strip().split('\n')
+                    for line in lines:
+                        tag = line.strip().lstrip('-').strip()
                         if tag:
                             tags.add(tag)
+                else:
+                    # Fallback to inline format (categories: [tag1, tag2])
+                    match = re.search(r'categories:\s*\[(.+)\]', content)
+                    if match:
+                        cats = match.group(1).split(',')
+                        for c in cats:
+                            tag = c.strip()
+                            if tag:
+                                tags.add(tag)
 
     tags_dir = 'docs/tags'
     os.makedirs(tags_dir, exist_ok=True)
