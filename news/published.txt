@@ -120,3 +120,4 @@ https://github.com/mickamy/sql-tap
 https://github.com/alichherawalla/off-grid-mobile
 https://steipete.me/posts/2026/openclaw
 https://dropbox.tech/culture/hack-week-2025-liquid-cooling-gpu-server
+https://dev.to/ramapratheeba/how-to-handle-duplicate-webhook-events-in-aspnet-core-idempotency-guide-4kj6
