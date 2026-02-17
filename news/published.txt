@@ -123,3 +123,4 @@ https://dropbox.tech/culture/hack-week-2025-liquid-cooling-gpu-server
 https://dev.to/ramapratheeba/how-to-handle-duplicate-webhook-events-in-aspnet-core-idempotency-guide-4kj6
 https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html
 https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html
+https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/
