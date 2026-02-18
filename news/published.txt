@@ -126,3 +126,4 @@ https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html
 https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/
 https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html
 https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html
+https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/
