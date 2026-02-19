@@ -130,3 +130,4 @@ https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mc
 https://huggingface.co/blog/waypoint-1
 https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/
 https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html
+https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html
