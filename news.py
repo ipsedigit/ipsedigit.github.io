@@ -3,7 +3,7 @@ import uuid
 import requests
 import re
 import os
-from datetime import datetime, timezone, date, timedelta
+from datetime import datetime, timezone, date
 from utils import read_text_file, track_published
 from const import (
     NEWS_SOURCES,
@@ -12,22 +12,18 @@ from const import (
     NICHE_CATEGORIES,
     MAX_POSTS_PER_DAY,
     DAILY_CATEGORIES_FILE,
-    RECENCY_BONUS,
-    RECENCY_OLD_PENALTY,
-    CROSS_SOURCE_BONUS,
-    QUALITY_SIGNALS,
-    NOISE_SIGNALS,
+    TITLE_BONUS,
+    TITLE_PENALTY,
 )
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
 
-# ---------------------------------------------------------------------------
-# Main entry point
-# ---------------------------------------------------------------------------
-
 def publish_news():
+    """Pubblica il miglior post disponibile da tutte le fonti."""
+
+    # Check limite giornaliero
     today_categories = get_today_categories()
     if len(today_categories) >= MAX_POSTS_PER_DAY:
         print(f"⏸️ Limit reached: {len(today_categories)}/{MAX_POSTS_PER_DAY} posts today")
@@ -35,6 +31,7 @@ def publish_news():
 
     print(f"📊 Posts today: {len(today_categories)}/{MAX_POSTS_PER_DAY}")
 
+    # Trova il miglior post da TUTTE le fonti
     best_post = find_best_post(exclude_categories=today_categories)
 
     if best_post:
@@ -44,18 +41,17 @@ def publish_news():
         track_daily_category(identify_category(best_post))
 
         print(f"✅ Published: {best_post['title']}")
-        print(f"   Source:    {best_post['source']}")
-        print(f"   Category:  {identify_category(best_post)}")
-        print(f"   Score:     {best_post['score']}")
+        print(f"   Source: {best_post['source']}")
+        print(f"   Score: {best_post['score']}")
     else:
         print("❌ No suitable posts found")
 
 
-# ---------------------------------------------------------------------------
-# Candidate collection
-# ---------------------------------------------------------------------------
-
 def find_best_post(exclude_categories=None):
+    """
+    Cerca il miglior post da TUTTE le fonti e ritorna quello con score più alto.
+    Non fa selezione random - prende sempre il migliore disponibile.
+    """
     if exclude_categories is None:
         exclude_categories = []
 
@@ -70,14 +66,24 @@ def find_best_post(exclude_categories=None):
             entries = extract_entries(feed, source)
 
             for entry in entries:
+                # Skip già pubblicati
                 if entry['link'] in published:
                     continue
 
+                # Only accept niche categories (AI + Security)
                 cat = identify_category(entry)
                 if cat not in NICHE_CATEGORIES:
                     continue
 
+                # Skip categorie già usate oggi
                 if exclude_categories and cat in exclude_categories:
+                    continue
+
+                # Calcola score
+                entry['score'] = calculate_score(entry, source)
+
+                # Skip se score troppo basso
+                if entry['score'] < 50:
                     continue
 
                 all_candidates.append(entry)
@@ -88,22 +94,16 @@ def find_best_post(exclude_categories=None):
     if not all_candidates:
         return None
 
-    # Apply cross-source bonus before final scoring
-    _apply_cross_source_bonus(all_candidates)
-
-    # Score and sort
-    for entry in all_candidates:
-        entry['score'] = calculate_score(entry)
-
+    # Ordina per score e prendi i top 10
     all_candidates.sort(key=lambda x: x['score'], reverse=True)
-    top = all_candidates[:10]
+    top_candidates = all_candidates[:10]
 
-    print("📋 Top candidates:")
-    for i, c in enumerate(top[:5]):
-        print(f"   {i+1}. [{c['score']}] {c['title'][:60]}")
+    print(f"📋 Top candidates:")
+    for i, c in enumerate(top_candidates[:5]):
+        print(f"   {i+1}. [{c['score']}] {c['title'][:50]}...")
 
-    # Return first with a fetchable preview
-    for candidate in top:
+    # Trova il primo con preview valida
+    for candidate in top_candidates:
         result = fetch_preview(candidate)
         if result:
             return result
@@ -111,11 +111,8 @@ def find_best_post(exclude_categories=None):
     return None
 
 
-# ---------------------------------------------------------------------------
-# Entry extraction
-# ---------------------------------------------------------------------------
-
 def extract_entries(feed, source):
+    """Estrae entries dal feed."""
     entries = []
 
     for entry in feed.entries[:50]:
@@ -126,124 +123,78 @@ def extract_entries(feed, source):
         if not title or not link:
             continue
 
-        # Match AI/Security keywords
+        # Match keywords per i tag
         combined = f"{title} {summary}".lower()
         tags = [label for kw, label in KEYWORDS.items()
                 if re.search(rf'\b{re.escape(kw)}\b', combined, re.IGNORECASE)]
 
+        # Skip se non matcha nessun keyword tech
         if not tags:
             continue
 
-        # Community score (HN, Lobsters)
+        # Estrai community score (per HN, Lobsters)
         community_score = 0
         score_match = re.search(r'(\d+)\s+points?', summary)
         if score_match:
             community_score = int(score_match.group(1))
 
+        # Filtra per min_score della fonte
         if community_score < source.get('min_score', 0):
             continue
-
-        # Parse published date
-        published_dt = _parse_published(entry)
 
         entries.append({
             'title': title,
             'link': link,
             'source': source['name'],
-            'source_key': next(k for k, v in NEWS_SOURCES.items() if v['name'] == source['name']),
             'source_type': source['type'],
-            'source_trust': source.get('trust', 0),
             'tags': tags,
             'community_score': community_score,
-            'published_dt': published_dt,
-            'cross_source_count': 1,  # Will be updated by _apply_cross_source_bonus
         })
 
     return entries
 
 
-def _parse_published(entry):
-    """Parse the published/updated time from a feedparser entry."""
-    for attr in ('published_parsed', 'updated_parsed'):
-        t = entry.get(attr)
-        if t:
-            try:
-                return datetime(*t[:6], tzinfo=timezone.utc)
-            except Exception:
-                pass
-    return None
-
-
-# ---------------------------------------------------------------------------
-# Cross-source detection
-# ---------------------------------------------------------------------------
-
-def _normalize_title(title):
-    """Return a frozenset of significant words for similarity comparison."""
-    stopwords = {'a', 'an', 'the', 'in', 'on', 'at', 'to', 'for', 'of',
-                 'and', 'or', 'is', 'are', 'was', 'were', 'with', 'by'}
-    words = re.findall(r'[a-z0-9]+', title.lower())
-    return frozenset(w for w in words if w not in stopwords and len(w) > 2)
-
-
-def _apply_cross_source_bonus(candidates):
+def calculate_score(entry, source):
     """
-    Detect stories covered by multiple sources (overlap in title keywords).
-    Increments cross_source_count for each matching pair.
+    Calcola score semplice:
+    - Base: community score (0-50 normalizzato)
+    - Bonus: tipo fonte
+    - Bonus: pattern titolo
+    - Penalty: contenuti da evitare
     """
-    for i, a in enumerate(candidates):
-        words_a = _normalize_title(a['title'])
-        for b in candidates[i+1:]:
-            if a['source'] == b['source']:
-                continue
-            words_b = _normalize_title(b['title'])
-            overlap = words_a & words_b
-            if len(overlap) >= 4:  # Meaningful title overlap
-                a['cross_source_count'] = a.get('cross_source_count', 1) + 1
-                b['cross_source_count'] = b.get('cross_source_count', 1) + 1
-
-
-# ---------------------------------------------------------------------------
-# Scoring
-# ---------------------------------------------------------------------------
-
-def calculate_score(entry):
-    score = 0
-
-    # 1. Source trust (intrinsic source quality)
-    score += entry.get('source_trust', 0)
-
-    # 2. Community validation (for HN — normalized 0-50)
-    score += min(entry.get('community_score', 0) / 6, 50)
-
-    # 3. Recency (fresher = more valuable, especially for security)
-    dt = entry.get('published_dt')
-    if dt:
-        age_hours = (datetime.now(timezone.utc) - dt).total_seconds() / 3600
-        bonus = RECENCY_OLD_PENALTY
-        for threshold, b in RECENCY_BONUS:
-            if age_hours < threshold:
-                bonus = b
-                break
-        score += bonus
-
-    # 4. Cross-source validation (same story in multiple outlets)
-    count = entry.get('cross_source_count', 1)
-    score += CROSS_SOURCE_BONUS.get(min(count, 3), 0)
-
-    # 5. Quality signals in title
     title_lower = entry['title'].lower()
-    for pattern, bonus in QUALITY_SIGNALS.items():
+    link_lower = entry['link'].lower()
+
+    # Base score da community (normalizzato 0-50)
+    score = min(entry.get('community_score', 0) / 2, 50)
+
+    # Bonus per tipo fonte
+    source_type = entry['source_type']
+    if source_type == 'corporate_blog':
+        score += 30  # Contenuti originali = meno competizione SEO
+    elif source_type == 'security':
+        score += 35  # Security news = alto engagement (+10 niche bonus)
+    elif source_type == 'startup':
+        score += 20  # Startup news = buon traffico
+    elif source_type == 'community':
+        score += 10  # Community = variabile
+
+    # Niche bonus: boost AI/Security category matches
+    cat = identify_category(entry)
+    if cat in NICHE_CATEGORIES:
+        score += 10
+
+    # Bonus per pattern nel titolo
+    for pattern, bonus in TITLE_BONUS.items():
         if re.search(pattern, title_lower):
             score += bonus
 
-    # 6. Noise penalties in title and link
-    link_lower = entry['link'].lower()
-    for pattern, penalty in NOISE_SIGNALS.items():
+    # Penalty
+    for pattern, penalty in TITLE_PENALTY.items():
         if re.search(pattern, title_lower) or re.search(pattern, link_lower):
             score += penalty
 
-    # 7. Title length sweet spot (40-80 chars)
+    # Bonus per titoli di lunghezza ottimale (40-80 char)
     title_len = len(entry['title'])
     if 40 <= title_len <= 80:
         score += 10
@@ -253,11 +204,8 @@ def calculate_score(entry):
     return max(score, 0)
 
 
-# ---------------------------------------------------------------------------
-# Category identification
-# ---------------------------------------------------------------------------
-
 def identify_category(entry):
+    """Identifica la categoria del post."""
     text = (entry.get('title', '') + ' ' + ' '.join(entry.get('tags', []))).lower()
 
     best_cat = 'general'
@@ -272,11 +220,8 @@ def identify_category(entry):
     return best_cat
 
 
-# ---------------------------------------------------------------------------
-# Preview fetching
-# ---------------------------------------------------------------------------
-
 def fetch_preview(entry):
+    """Fetch preview e immagine dalla pagina."""
     try:
         response = requests.get(entry['link'], timeout=5, headers={
             'User-Agent': 'Mozilla/5.0 (compatible; eofBot/1.0)'
@@ -286,6 +231,7 @@ def fetch_preview(entry):
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
+        # Get description
         meta_desc = (
             soup.find("meta", property="og:description") or
             soup.find("meta", attrs={"name": "description"})
@@ -295,6 +241,7 @@ def fetch_preview(entry):
         else:
             return None
 
+        # Get image (opzionale)
         meta_img = soup.find("meta", property="og:image")
         if meta_img and meta_img.get("content"):
             entry['image'] = meta_img["content"].strip()
@@ -306,35 +253,35 @@ def fetch_preview(entry):
         return None
 
 
-# ---------------------------------------------------------------------------
-# Daily category tracking
-# ---------------------------------------------------------------------------
-
 def get_today_categories():
+    """Legge le categorie già pubblicate oggi."""
     try:
         if not os.path.exists(DAILY_CATEGORIES_FILE):
             return []
+
         with open(DAILY_CATEGORIES_FILE, 'r') as f:
             lines = f.read().strip().split('\n')
+
         today_str = date.today().isoformat()
         return [line.split(':')[1] for line in lines
                 if line.startswith(today_str) and ':' in line]
-    except Exception:
+    except:
         return []
 
 
 def track_daily_category(category):
+    """Traccia la categoria pubblicata oggi."""
     today_str = date.today().isoformat()
     with open(DAILY_CATEGORIES_FILE, 'a') as f:
         f.write(f"{today_str}:{category}\n")
 
 
-# ---------------------------------------------------------------------------
-# Post creation
-# ---------------------------------------------------------------------------
+def keyword_in_text(text, keyword):
+    return re.search(rf'\b{re.escape(keyword)}\b', text, re.IGNORECASE)
+
 
 def _seo_title(title, year):
-    """Append year if not present and result fits SEO length."""
+    """Append year to title if not present and within SEO length range."""
     if str(year) not in title and str(year - 1) not in title:
         candidate = f"{title} ({year})"
         if len(candidate) <= 70:
@@ -343,15 +290,18 @@ def _seo_title(title, year):
 
 
 def create_post(news):
+    """Crea il file markdown del post."""
     now = datetime.now(timezone.utc)
     post_id = str(uuid.uuid1())
     category = identify_category(news)
     file_name = f"docs/_posts/{now.strftime('%Y-%m-%d')}-top-tech-news-{post_id}.md"
 
-    seo_title = _seo_title(news["title"], now.year)
+    raw_title = news["title"]
+    seo_title = _seo_title(raw_title, now.year)
     safe_title = seo_title.replace('"', "'")
     description = news.get("preview", "")[:155].replace('"', "'").replace("\n", " ")
 
+    # Estimate reading time (avg 200 words/min; description ~30 words)
     word_count = len(news.get("preview", "").split())
     reading_time = max(1, round(word_count / 200))
 

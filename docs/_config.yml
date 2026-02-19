@@ -14,11 +14,11 @@
 #
 # Site settings - BRAND
 title: eof.news
-tagline: "One AI or security story per day. No noise, just signal."
+tagline: "Your daily dose of tech that matters"
 email: ipsedigitmail@gmail.com
-description: >-
-  Daily AI and cybersecurity intelligence. One carefully selected story per day,
-  curated from the most authoritative sources. No noise, just signal.
+description: >- 
+  The smartest tech news digest. AI, startups, programming, and engineering 
+  insights curated daily from top sources. No noise, just signal.
 baseurl: ""
 url: "https://ipsedigit.github.io"
 lang: en
