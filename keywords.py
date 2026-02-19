@@ -1,89 +1,124 @@
 KEYWORDS = {
-    # 🧠 Artificial Intelligence / ML / Data
-    "ai": "Artificial Intelligence",
-    "artificial intelligence": "Artificial Intelligence",
+    # ==========================================================================
+    # ARTIFICIAL INTELLIGENCE
+    # ==========================================================================
+
+    # Core AI concepts
+    "ai": "AI",
+    "artificial intelligence": "AI",
     "machine learning": "Machine Learning",
     "deep learning": "Deep Learning",
     "neural network": "Neural Networks",
-    "transformer": "AI Transformers",
+    "generative ai": "Generative AI",
+    "agi": "AGI",
+
+    # Models and architecture
     "llm": "Large Language Models",
+    "large language model": "Large Language Models",
+    "foundation model": "Foundation Models",
+    "transformer": "Transformers",
+    "diffusion model": "Diffusion Models",
+    "multimodal": "Multimodal AI",
+    "fine-tuning": "Fine-Tuning",
+    "rlhf": "RLHF",
+    "inference": "AI Inference",
+    "training": "AI Training",
+
+    # Companies and products
     "openai": "OpenAI",
-    "chatgpt": "ChatGPT",
     "anthropic": "Anthropic",
-    "gemini": "Gemini (Google AI)",
+    "claude": "Claude (Anthropic)",
+    "chatgpt": "ChatGPT",
+    "gpt": "GPT",
+    "gemini": "Gemini",
+    "deepmind": "DeepMind",
     "mistral": "Mistral AI",
     "hugging face": "Hugging Face",
-    "diffusion": "Generative Models",
+    "copilot": "GitHub Copilot",
+    "llama": "Meta LLaMA",
+    "grok": "Grok (xAI)",
+    "perplexity": "Perplexity AI",
+    "cursor": "Cursor AI",
 
-    # 📦 Software Architecture & Engineering
-    "microservices": "Microservices",
-    "architecture": "Software Architecture",
-    "distributed systems": "Distributed Systems",
-    "design patterns": "Design Patterns",
-    "event-driven": "Event-Driven Architecture",
-    "serverless": "Serverless",
-    "monolith": "Monolithic Architecture",
-    "domain driven": "Domain-Driven Design",
-    "ddd": "Domain-Driven Design",
-    "hexagonal": "Hexagonal Architecture",
-    "clean architecture": "Clean Architecture",
-    "event sourcing": "Event Sourcing",
-    "cqrs": "CQRS",
+    # AI applications
+    "ai agent": "AI Agents",
+    "autonomous agent": "AI Agents",
+    "computer vision": "Computer Vision",
+    "natural language processing": "NLP",
+    "nlp": "NLP",
+    "speech recognition": "Speech Recognition",
+    "text to image": "Text-to-Image",
+    "ai safety": "AI Safety",
+    "alignment": "AI Alignment",
+    "hallucination": "AI Hallucination",
+    "prompt injection": "Prompt Injection",
+    "prompt engineering": "Prompt Engineering",
 
-    # 💻 Programming Languages / Paradigms
-    "kotlin": "Kotlin",
-    "java": "Java",
-    "python": "Python",
-    "go": "Go",
-    "rust": "Rust",
-    "typescript": "TypeScript",
-    "javascript": "JavaScript",
-    "functional programming": "Functional Programming",
-    "oop": "Object-Oriented Programming",
+    # ==========================================================================
+    # CYBERSECURITY
+    # ==========================================================================
 
-    # ☁️ Cloud, DevOps, Infra
-    "devops": "DevOps",
-    "cloud": "Cloud Computing",
-    "aws": "Amazon Web Services",
-    "gcp": "Google Cloud",
-    "azure": "Microsoft Azure",
-    "terraform": "Terraform",
-    "kubernetes": "Kubernetes",
-    "docker": "Docker",
-    "containers": "Containers",
-    "ci/cd": "CI/CD",
-    "github actions": "GitHub Actions",
-
-    # 🧰 Tools, Platforms & Ecosystem
-    "github": "GitHub",
-    "gitlab": "GitLab",
-    "redis": "Redis",
-    "postgres": "PostgreSQL",
-    "mysql": "MySQL",
-    "graphql": "GraphQL",
-    "rest api": "REST API",
-    "grpc": "gRPC",
-    "api gateway": "API Gateway",
-    "message queue": "Messaging/Queues",
-    "kafka": "Apache Kafka",
-    "rabbitmq": "RabbitMQ",
-
-    # 🔐 Security
+    # Generic
     "security": "Security",
-    "authentication": "Authentication",
-    "authorization": "Authorization",
-    "oauth": "OAuth",
-    "jwt": "JWT",
-    "encryption": "Encryption",
+    "cybersecurity": "Cybersecurity",
+    "infosec": "InfoSec",
+    "cyber": "Cybersecurity",
 
-    # 🌍 General IT / Tech Trends
-    "software engineering": "Software Engineering",
-    "information technology": "Information Technology",
-    "tech stack": "Tech Stack",
-    "digital transformation": "Digital Transformation",
-    "scalability": "Scalability",
-    "performance": "Performance",
-    "observability": "Observability",
-    "monitoring": "Monitoring",
-    "logging": "Logging"
+    # Threat types
+    "ransomware": "Ransomware",
+    "malware": "Malware",
+    "phishing": "Phishing",
+    "spyware": "Spyware",
+    "botnet": "Botnet",
+    "rootkit": "Rootkit",
+    "backdoor": "Backdoor",
+    "trojan": "Trojan",
+    "worm": "Worm",
+    "ddos": "DDoS",
+
+    # Vulnerabilities and exploits
+    "vulnerability": "Vulnerability",
+    "exploit": "Exploit",
+    "cve": "CVE",
+    "zero-day": "Zero-Day",
+    "zero day": "Zero-Day",
+    "patch": "Security Patch",
+    "rce": "Remote Code Execution",
+    "sql injection": "SQL Injection",
+    "xss": "Cross-Site Scripting",
+    "buffer overflow": "Buffer Overflow",
+
+    # Incidents
+    "breach": "Data Breach",
+    "data breach": "Data Breach",
+    "hack": "Hack",
+    "attack": "Cyberattack",
+    "intrusion": "Intrusion",
+    "leak": "Data Leak",
+    "compromise": "Compromise",
+
+    # Actors
+    "nation state": "Nation-State",
+    "apt": "APT",
+    "threat actor": "Threat Actor",
+    "ransomware gang": "Ransomware Gang",
+
+    # Defensive
+    "encryption": "Encryption",
+    "privacy": "Privacy",
+    "authentication": "Authentication",
+    "mfa": "Multi-Factor Auth",
+    "vpn": "VPN",
+    "firewall": "Firewall",
+    "siem": "SIEM",
+    "endpoint": "Endpoint Security",
+    "threat intelligence": "Threat Intelligence",
+    "incident response": "Incident Response",
+    "penetration testing": "Penetration Testing",
+
+    # Regulatory
+    "gdpr": "GDPR",
+    "compliance": "Compliance",
+    "cisa": "CISA",
+    "nist": "NIST",
 }

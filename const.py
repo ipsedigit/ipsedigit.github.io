@@ -4,320 +4,174 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # PUBLISHING STRATEGY
 # =============================================================================
 
-MAX_POSTS_PER_DAY = 3
+MAX_POSTS_PER_DAY = 1          # One great story per day, not three mediocre ones
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
-# Niche focus: AI + Security for topical authority and SEO
+# Niche focus: AI + Security for topical authority
 CONTENT_CATEGORIES = {
-    'ai': ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'chatgpt',
-           'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'neural', 'deep learning'],
-    'security': ['security', 'hack', 'breach', 'vulnerability', 'privacy', 'encryption',
-                 'cyber', 'malware', 'ransomware', 'exploit'],
+    'ai': [
+        'ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'chatgpt',
+        'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'neural', 'deep learning',
+        'language model', 'foundation model', 'diffusion', 'transformer', 'hugging face',
+        'mistral', 'deepmind', 'generative ai', 'agi',
+    ],
+    'security': [
+        'security', 'hack', 'breach', 'vulnerability', 'privacy', 'encryption',
+        'cyber', 'malware', 'ransomware', 'exploit', 'cve', 'zero-day', 'zero day',
+        'phishing', 'backdoor', 'botnet', 'infosec', 'threat', 'attack', 'intrusion',
+    ],
 }
 
-# Niche categories — only these are accepted for publishing
+# Only these categories are accepted for publishing
 NICHE_CATEGORIES = {'ai', 'security'}
 
 # =============================================================================
-# NEWS SOURCES - 50 Authoritative Tech Sources
+# NEWS SOURCES — 12 Elite Sources
+#
+# Principle: every source must be capable of producing a story
+# worth reading on its own. No noise, no padding.
+#
+# 'trust' = base score added to every story from this source.
+# Higher = we trust this source more intrinsically.
 # =============================================================================
 
 NEWS_SOURCES = {
-    # --- TIER 1: Aggregators (community-validated) ---
-    'hackernews': {
-        'name': 'Hacker News',
-        'feed_url': 'https://hnrss.org/frontpage?count=100',
-        'min_score': 150,
-        'type': 'aggregator',
-    },
-    'lobsters': {
-        'name': 'Lobste.rs',
-        'feed_url': 'https://lobste.rs/rss',
-        'min_score': 20,
-        'type': 'aggregator',
-    },
-    'slashdot': {
-        'name': 'Slashdot',
-        'feed_url': 'https://rss.slashdot.org/Slashdot/slashdotMain',
-        'min_score': 0,
-        'type': 'aggregator',
-    },
 
-    # --- TIER 2: Big Tech Engineering Blogs (original content) ---
-    'github_blog': {
-        'name': 'GitHub Blog',
-        'feed_url': 'https://github.blog/feed/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'netflix_tech': {
-        'name': 'Netflix Tech Blog',
-        'feed_url': 'https://netflixtechblog.com/feed',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'cloudflare_blog': {
-        'name': 'Cloudflare Blog',
-        'feed_url': 'https://blog.cloudflare.com/rss/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'uber_eng': {
-        'name': 'Uber Engineering',
-        'feed_url': 'https://www.uber.com/blog/engineering/rss/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'stripe_blog': {
-        'name': 'Stripe Blog',
-        'feed_url': 'https://stripe.com/blog/feed.rss',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'airbnb_eng': {
-        'name': 'Airbnb Engineering',
-        'feed_url': 'https://medium.com/feed/airbnb-engineering',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'spotify_eng': {
-        'name': 'Spotify Engineering',
-        'feed_url': 'https://engineering.atspotify.com/feed/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'linkedin_eng': {
-        'name': 'LinkedIn Engineering',
-        'feed_url': 'https://engineering.linkedin.com/blog.rss',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'meta_eng': {
-        'name': 'Meta Engineering',
-        'feed_url': 'https://engineering.fb.com/feed/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'google_dev': {
-        'name': 'Google Developers',
-        'feed_url': 'https://developers.googleblog.com/feeds/posts/default',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'aws_blog': {
-        'name': 'AWS Blog',
-        'feed_url': 'https://aws.amazon.com/blogs/aws/feed/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'microsoft_dev': {
-        'name': 'Microsoft DevBlogs',
-        'feed_url': 'https://devblogs.microsoft.com/feed/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'dropbox_tech': {
-        'name': 'Dropbox Tech',
-        'feed_url': 'https://dropbox.tech/feed',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'slack_eng': {
-        'name': 'Slack Engineering',
-        'feed_url': 'https://slack.engineering/feed/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'pinterest_eng': {
-        'name': 'Pinterest Engineering',
-        'feed_url': 'https://medium.com/feed/pinterest-engineering',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'shopify_eng': {
-        'name': 'Shopify Engineering',
-        'feed_url': 'https://shopify.engineering/blog.atom',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
+    # --- AI PRIMARY SOURCES ---
+    # These are the authoritative voices. Every post they publish is relevant.
 
-    # --- TIER 3: Tech News (mainstream, high reach) ---
-    'ars_technica': {
-        'name': 'Ars Technica',
-        'feed_url': 'https://feeds.arstechnica.com/arstechnica/index',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'the_verge': {
-        'name': 'The Verge',
-        'feed_url': 'https://www.theverge.com/rss/index.xml',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'techcrunch': {
-        'name': 'TechCrunch',
-        'feed_url': 'https://techcrunch.com/feed/',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'wired': {
-        'name': 'Wired',
-        'feed_url': 'https://www.wired.com/feed/rss',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'mit_tech_review': {
-        'name': 'MIT Technology Review',
-        'feed_url': 'https://www.technologyreview.com/feed/',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'zdnet': {
-        'name': 'ZDNet',
-        'feed_url': 'https://www.zdnet.com/news/rss.xml',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'venturebeat': {
-        'name': 'VentureBeat',
-        'feed_url': 'https://venturebeat.com/feed/',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'the_register': {
-        'name': 'The Register',
-        'feed_url': 'https://www.theregister.com/headlines.atom',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'engadget': {
-        'name': 'Engadget',
-        'feed_url': 'https://www.engadget.com/rss.xml',
-        'min_score': 0,
-        'type': 'news',
-    },
-
-    # --- TIER 4: AI/ML Specific ---
     'openai_blog': {
         'name': 'OpenAI Blog',
         'feed_url': 'https://openai.com/blog/rss/',
         'min_score': 0,
-        'type': 'corporate_blog',
+        'type': 'ai_primary',
+        'trust': 50,
+    },
+    'anthropic_blog': {
+        'name': 'Anthropic Blog',
+        'feed_url': 'https://www.anthropic.com/rss.xml',
+        'min_score': 0,
+        'type': 'ai_primary',
+        'trust': 50,
     },
     'google_ai': {
         'name': 'Google AI Blog',
         'feed_url': 'https://ai.googleblog.com/feeds/posts/default',
         'min_score': 0,
-        'type': 'corporate_blog',
+        'type': 'ai_primary',
+        'trust': 48,
     },
     'deepmind': {
         'name': 'DeepMind Blog',
         'feed_url': 'https://deepmind.com/blog/feed/basic/',
         'min_score': 0,
-        'type': 'corporate_blog',
+        'type': 'ai_primary',
+        'trust': 48,
     },
     'huggingface': {
         'name': 'Hugging Face Blog',
         'feed_url': 'https://huggingface.co/blog/feed.xml',
         'min_score': 0,
-        'type': 'corporate_blog',
+        'type': 'ai_primary',
+        'trust': 40,
     },
 
-    # --- TIER 5: Developer/Programming ---
-    'dev_to': {
-        'name': 'DEV Community',
-        'feed_url': 'https://dev.to/feed',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'freecodecamp': {
-        'name': 'freeCodeCamp',
-        'feed_url': 'https://www.freecodecamp.org/news/rss/',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'css_tricks': {
-        'name': 'CSS-Tricks',
-        'feed_url': 'https://css-tricks.com/feed/',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'smashing_mag': {
-        'name': 'Smashing Magazine',
-        'feed_url': 'https://www.smashingmagazine.com/feed/',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'infoq': {
-        'name': 'InfoQ',
-        'feed_url': 'https://www.infoq.com/feed/',
-        'min_score': 0,
-        'type': 'community',
-    },
+    # --- SECURITY PRIMARY SOURCES ---
+    # Krebs and Schneier: gold standard. They publish rarely, always signal.
 
-    # --- TIER 6: Security ---
     'krebs': {
         'name': 'Krebs on Security',
         'feed_url': 'https://krebsonsecurity.com/feed/',
         'min_score': 0,
-        'type': 'security',
+        'type': 'security_primary',
+        'trust': 60,
+    },
+    'schneier': {
+        'name': 'Schneier on Security',
+        'feed_url': 'https://www.schneier.com/feed/atom/',
+        'min_score': 0,
+        'type': 'security_primary',
+        'trust': 55,
     },
     'hacker_news_security': {
         'name': 'The Hacker News',
         'feed_url': 'https://feeds.feedburner.com/TheHackersNews',
         'min_score': 0,
         'type': 'security',
-    },
-    'schneier': {
-        'name': 'Schneier on Security',
-        'feed_url': 'https://www.schneier.com/feed/atom/',
-        'min_score': 0,
-        'type': 'security',
+        'trust': 30,
     },
     'dark_reading': {
         'name': 'Dark Reading',
         'feed_url': 'https://www.darkreading.com/rss.xml',
         'min_score': 0,
         'type': 'security',
+        'trust': 25,
     },
 
-    # --- TIER 7: Startup/Business ---
-    'yc_blog': {
-        'name': 'Y Combinator Blog',
-        'feed_url': 'https://www.ycombinator.com/blog.rss',
+    # --- CROSS-NICHE JOURNALISM ---
+    # These cover both AI and Security with real editorial standards.
+
+    'mit_tech_review': {
+        'name': 'MIT Technology Review',
+        'feed_url': 'https://www.technologyreview.com/feed/',
         'min_score': 0,
-        'type': 'startup',
+        'type': 'journalism',
+        'trust': 42,
     },
-    'first_round': {
-        'name': 'First Round Review',
-        'feed_url': 'https://review.firstround.com/feed.xml',
+    'ars_technica': {
+        'name': 'Ars Technica',
+        'feed_url': 'https://feeds.arstechnica.com/arstechnica/index',
         'min_score': 0,
-        'type': 'startup',
+        'type': 'journalism',
+        'trust': 35,
+    },
+
+    # --- COMMUNITY AGGREGATOR ---
+    # Only viral stories (score >= 300) — the community has already filtered for quality.
+
+    'hackernews': {
+        'name': 'Hacker News',
+        'feed_url': 'https://hnrss.org/frontpage?count=100',
+        'min_score': 300,
+        'type': 'aggregator',
+        'trust': 0,    # Trust comes from community score, not the source itself
     },
 }
 
 # =============================================================================
-# SCORING
+# SCORING SIGNALS
 # =============================================================================
 
-# Bonus per pattern nel titolo
-TITLE_BONUS = {
-    r'^\d+\s': 20,
-    r'\d+\s*(ways|tips|reasons|things)': 25,
-    r'how\s+to\s+': 30,
-    r'guide|tutorial': 25,
-    r'(announce|launch|releas|introduc)': 30,
-    r'show\s+hn': 35,
-    r'(is\s+dead|killed|quit|fired|layoff)': 35,
-    r'(hack|breach|vulnerab|exploit|leak)': 40,
-    r'(\$\d|million|billion|raised|funding)': 30,
+# Recency bonus (hours since published)
+RECENCY_BONUS = [
+    (6,   30),   # < 6h  → +30
+    (24,  15),   # < 24h → +15
+    (48,   0),   # < 48h → +0
+]
+RECENCY_OLD_PENALTY = -20   # > 48h
+
+# Cross-source bonus: same story appears in multiple elite sources
+CROSS_SOURCE_BONUS = {
+    2: 40,   # 2 sources → +40
+    3: 60,   # 3+ sources → +60
 }
 
-# Penalità
-TITLE_PENALTY = {
+# Signals that raise quality confidence
+QUALITY_SIGNALS = {
+    r'(breach|exploit|cve|vulnerab|ransomware|zero.?day|malware)': 30,   # Active threat
+    r'(announce|launch|releas|introduc|new model|new version)': 20,       # Launch news
+    r'(research|paper|study|experiment|benchmark)': 15,                   # Research
+    r'show\s+hn': 20,                                                      # HN Show post
+}
+
+# Signals that indicate marketing/noise — penalize hard
+NOISE_SIGNALS = {
+    r'(webinar|whitepaper|e.?book|case.?study)': -60,
+    r'(partner|sponsor|announces.partnership)': -50,
+    r'(hiring|job.opening|we.re.looking|join.our.team)': -50,
+    r'(free.trial|sign.up.now|register.now|limited.time)': -60,
     r'ask\s+hn': -50,
     r'\[pdf\]': -30,
-    r'(nytimes|wsj|bloomberg)\.com': -100,
     r'(rant|opinion|unpopular)': -40,
-    r'(years?\s+ago|in\s+20[01]\d)': -50,
+    r'(years?\s+ago|in\s+20[01]\d)': -40,   # Old content
 }

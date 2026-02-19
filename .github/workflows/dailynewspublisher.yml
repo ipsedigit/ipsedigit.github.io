@@ -2,11 +2,9 @@ name: Daily News Publisher
 
 on:
   schedule:
-    # 3 pubblicazioni al giorno (qualità > quantità, niche AI + Security)
-    # Orari in UTC (aggiungi +1 per Roma in inverno, +2 in estate)
-    - cron: '0 6 * * *'   # 07:00 Roma - Mattina
-    - cron: '0 12 * * *'  # 13:00 Roma - Pranzo
-    - cron: '0 19 * * *'  # 20:00 Roma - Sera
+    # 1 post/day — quality over quantity. Second run is a fallback if morning fails.
+    - cron: '0 7 * * *'   # 08:00 Roma — primary run
+    - cron: '0 14 * * *'  # 15:00 Roma — fallback (MAX_POSTS_PER_DAY=1 prevents double-posting)
   workflow_dispatch:
 
 jobs:
