@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(git -C /repo/ipsedigit.github.io ls-files:*)",
+      "Bash(git -C C:/repo/ipsedigit.github.io ls-files:*)",
+      "Bash(bash --version)",
+      "Bash(git -C C:/repo/ipsedigit.github.io log --oneline -20)"
+    ]
+  }
+}

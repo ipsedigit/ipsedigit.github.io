@@ -9,6 +9,7 @@ from const import (
     NEWS_SOURCES,
     PUBLISHED_NEWS_FILE_NAME,
     CONTENT_CATEGORIES,
+    NICHE_CATEGORIES,
     MAX_POSTS_PER_DAY,
     DAILY_CATEGORIES_FILE,
     TITLE_BONUS,
@@ -69,11 +70,14 @@ def find_best_post(exclude_categories=None):
                 if entry['link'] in published:
                     continue
 
+                # Only accept niche categories (AI + Security)
+                cat = identify_category(entry)
+                if cat not in NICHE_CATEGORIES:
+                    continue
+
                 # Skip categorie già usate oggi
-                if exclude_categories:
-                    cat = identify_category(entry)
-                    if cat in exclude_categories:
-                        continue
+                if exclude_categories and cat in exclude_categories:
+                    continue
 
                 # Calcola score
                 entry['score'] = calculate_score(entry, source)
@@ -169,11 +173,16 @@ def calculate_score(entry, source):
     if source_type == 'corporate_blog':
         score += 30  # Contenuti originali = meno competizione SEO
     elif source_type == 'security':
-        score += 25  # Security news = alto engagement
+        score += 35  # Security news = alto engagement (+10 niche bonus)
     elif source_type == 'startup':
         score += 20  # Startup news = buon traffico
     elif source_type == 'community':
         score += 10  # Community = variabile
+
+    # Niche bonus: boost AI/Security category matches
+    cat = identify_category(entry)
+    if cat in NICHE_CATEGORIES:
+        score += 10
 
     # Bonus per pattern nel titolo
     for pattern, bonus in TITLE_BONUS.items():
@@ -271,29 +280,65 @@ def keyword_in_text(text, keyword):
     return re.search(rf'\b{re.escape(keyword)}\b', text, re.IGNORECASE)
 
 
+def _seo_title(title, year):
+    """Append year to title if not present and within SEO length range."""
+    if str(year) not in title and str(year - 1) not in title:
+        candidate = f"{title} ({year})"
+        if len(candidate) <= 70:
+            return candidate
+    return title[:70] if len(title) > 70 else title
+
+
 def create_post(news):
     """Crea il file markdown del post."""
     now = datetime.now(timezone.utc)
     post_id = str(uuid.uuid1())
+    category = identify_category(news)
     file_name = f"docs/_posts/{now.strftime('%Y-%m-%d')}-top-tech-news-{post_id}.md"
 
-    safe_title = news["title"].replace('"', "'")
+    raw_title = news["title"]
+    seo_title = _seo_title(raw_title, now.year)
+    safe_title = seo_title.replace('"', "'")
     description = news.get("preview", "")[:155].replace('"', "'").replace("\n", " ")
+
+    # Estimate reading time (avg 200 words/min; description ~30 words)
+    word_count = len(news.get("preview", "").split())
+    reading_time = max(1, round(word_count / 200))
+
+    source_name = news.get("source", "Unknown")
+    external_url = news["link"]
+    date_str = now.strftime("%B %d, %Y")
+    tags = news.get("tags", [])
 
     with open(file_name, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write("layout: post\n")
         f.write(f'title: "{safe_title}"\n')
         f.write(f'date: {now.strftime("%Y-%m-%d %H:%M:%S %z")}\n')
-        f.write(f'external_url: {news["link"]}\n')
+        f.write(f'external_url: {external_url}\n')
         f.write("categories:\n")
-        for tag in news['tags']:
+        for tag in tags:
             f.write(f"  - {tag}\n")
         f.write(f'description: "{description}"\n')
         if "image" in news:
             f.write(f'image: {news["image"]}\n')
-        f.write(f'source: {news.get("source", "Unknown")}\n')
+        f.write(f'source: {source_name}\n')
+        f.write(f'reading_time: {reading_time}\n')
+        f.write(f'niche_category: {category}\n')
+        f.write(f'score: {news.get("score", 0)}\n')
         f.write("---\n\n")
         f.write(f"> {news.get('preview', '')}\n\n")
         if "image" in news:
-            f.write(f"![Preview]({news['image']})\n")
+            f.write(f"![Preview]({news['image']})\n\n")
+        f.write(f"**Source:** [{source_name}]({external_url}) | "
+                f"**Category:** {category} | **Published:** {date_str}\n\n")
+        f.write("---\n\n")
+        f.write("*This article was curated by eof.news — daily AI and security intelligence.*\n")
+
+    # Post to Twitter/X if enabled
+    if os.environ.get("TWITTER_ENABLED", "").lower() == "true":
+        try:
+            from twitter_post import post_tweet
+            post_tweet(news, category, file_name)
+        except Exception as e:
+            print(f"   ⚠️ Twitter post failed: {e}")

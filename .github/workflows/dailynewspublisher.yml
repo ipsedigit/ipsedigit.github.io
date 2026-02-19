@@ -2,12 +2,10 @@ name: Daily News Publisher
 
 on:
   schedule:
-    # 5 pubblicazioni al giorno
+    # 3 pubblicazioni al giorno (qualità > quantità, niche AI + Security)
     # Orari in UTC (aggiungi +1 per Roma in inverno, +2 in estate)
     - cron: '0 6 * * *'   # 07:00 Roma - Mattina
-    - cron: '0 9 * * *'   # 10:00 Roma - Mid-morning
     - cron: '0 12 * * *'  # 13:00 Roma - Pranzo
-    - cron: '0 15 * * *'  # 16:00 Roma - Pomeriggio
     - cron: '0 19 * * *'  # 20:00 Roma - Sera
   workflow_dispatch:
 
@@ -37,6 +35,12 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run main.py
+      env:
+        TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+        TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+        TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+        TWITTER_ENABLED: "true"
       run: python main.py --action=news
 
     - name: Commit and Push changes

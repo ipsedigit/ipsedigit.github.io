@@ -4,22 +4,19 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # PUBLISHING STRATEGY
 # =============================================================================
 
-MAX_POSTS_PER_DAY = 5
+MAX_POSTS_PER_DAY = 3
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
-# Categorie per diversificare i post giornalieri
+# Niche focus: AI + Security for topical authority and SEO
 CONTENT_CATEGORIES = {
     'ai': ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'chatgpt',
            'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'neural', 'deep learning'],
-    'dev': ['python', 'rust', 'golang', 'javascript', 'typescript', 'react', 'programming',
-            'developer', 'coding', 'software', 'github', 'open source'],
-    'infra': ['kubernetes', 'docker', 'aws', 'cloud', 'devops', 'terraform', 'linux',
-              'serverless', 'database', 'postgresql', 'redis', 'api'],
     'security': ['security', 'hack', 'breach', 'vulnerability', 'privacy', 'encryption',
                  'cyber', 'malware', 'ransomware', 'exploit'],
-    'startup': ['startup', 'funding', 'raised', 'billion', 'acquisition', 'ipo', 'venture',
-                'founder', 'layoff', 'valuation'],
 }
+
+# Niche categories — only these are accepted for publishing
+NICHE_CATEGORIES = {'ai', 'security'}
 
 # =============================================================================
 # NEWS SOURCES - 50 Authoritative Tech Sources
@@ -30,7 +27,7 @@ NEWS_SOURCES = {
     'hackernews': {
         'name': 'Hacker News',
         'feed_url': 'https://hnrss.org/frontpage?count=100',
-        'min_score': 100,
+        'min_score': 150,
         'type': 'aggregator',
     },
     'lobsters': {
