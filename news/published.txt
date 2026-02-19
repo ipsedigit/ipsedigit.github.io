@@ -132,3 +132,4 @@ https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-t
 https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html
 https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html
 https://huggingface.co/blog/swift-huggingface
+https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html
