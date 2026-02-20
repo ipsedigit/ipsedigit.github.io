@@ -134,3 +134,4 @@ https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html
 https://huggingface.co/blog/swift-huggingface
 https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html
 https://www.freecodecamp.org/news/how-to-implement-the-observer-pattern-in-python/
+https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html
