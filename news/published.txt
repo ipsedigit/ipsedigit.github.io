@@ -135,3 +135,4 @@ https://huggingface.co/blog/swift-huggingface
 https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html
 https://www.freecodecamp.org/news/how-to-implement-the-observer-pattern-in-python/
 https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html
+https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html
