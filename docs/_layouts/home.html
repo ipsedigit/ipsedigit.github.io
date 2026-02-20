@@ -9,34 +9,78 @@ layout: base
 
   {{ content }}
 
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
 
-
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.minima.show_excerpts -%}
-          {{ post.excerpt }}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign hero = posts | first -%}
+
+    <!-- Today's Pick: hero card -->
+    <div class="hero-post">
+      <div class="hero-meta">
+        <span class="post-date">{{ hero.date | date: date_format }}</span>
+        {%- if hero.niche_subniche -%}
+          <span class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_subniche }}</span>
+        {%- elsif hero.niche_category -%}
+          <span class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_category }}</span>
         {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+        {%- if hero.source -%}
+          <span class="hero-source">{{ hero.source }}</span>
+        {%- endif -%}
+      </div>
+
+      <h2 class="hero-title">
+        <a href="{{ hero.url | relative_url }}">{{ hero.title | escape }}</a>
+      </h2>
+
+      {%- if hero.description -%}
+        <p class="hero-description">{{ hero.description }}</p>
+      {%- endif -%}
+
+      {%- if hero.why_picked -%}
+        <p class="why-picked">{{ hero.why_picked }}</p>
+      {%- endif -%}
+
+      <div class="hero-actions">
+        {%- if hero.external_url -%}
+          <a class="btn-read" href="{{ hero.external_url }}" target="_blank" rel="noopener">Read article ↗</a>
+        {%- else -%}
+          <a class="btn-read" href="{{ hero.url | relative_url }}">Read article →</a>
+        {%- endif -%}
+        <a class="btn-secondary" href="{{ hero.url | relative_url }}">View on eof.news</a>
+      </div>
+    </div>
+
+    <!-- Archive -->
+    {%- if posts.size > 1 -%}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Archive" }}</h2>
+      <ul class="post-list">
+        {%- for post in posts offset: 1 -%}
+        <li>
+          <div class="post-list-meta">
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            {%- if post.niche_subniche -%}
+              <span class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_subniche }}</span>
+            {%- elsif post.niche_category -%}
+              <span class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_category }}</span>
+            {%- endif -%}
+          </div>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if post.source -%}
+            <span class="post-source">{{ post.source }}</span>
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
 
     {% if site.paginate %}
       <div class="pager">
@@ -59,3 +103,107 @@ layout: base
   {%- endif -%}
 
 </div>
+
+<style>
+/* ── Hero Post ─────────────────────────────────────────── */
+.hero-post {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  background: #fafafa;
+}
+.hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+.hero-title {
+  font-size: 1.35rem;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.3;
+}
+.hero-title a {
+  color: #111;
+  text-decoration: none;
+}
+.hero-title a:hover { color: #0066cc; }
+.hero-description {
+  color: #444;
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.why-picked {
+  font-size: 0.78rem;
+  color: #888;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+  padding: 0.4rem 0.75rem;
+  border-left: 2px solid #ddd;
+}
+.why-picked::before {
+  content: "Why this: ";
+  font-weight: 600;
+  font-style: normal;
+  color: #666;
+}
+.hero-source {
+  font-size: 0.78rem;
+  color: #999;
+}
+.hero-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.btn-read {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.82rem;
+  border-radius: 3px;
+}
+.btn-read:hover { background: #0066cc; color: #fff; }
+.btn-secondary {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #ccc;
+  color: #555;
+  text-decoration: none;
+  font-size: 0.82rem;
+  border-radius: 3px;
+}
+.btn-secondary:hover { border-color: #0066cc; color: #0066cc; }
+
+/* ── Niche Badges ──────────────────────────────────────── */
+.niche-badge {
+  display: inline-block;
+  padding: 0.12rem 0.45rem;
+  border-radius: 3px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.niche-ai      { background: #e8f0fe; color: #1a56db; }
+.niche-security { background: #fef3e2; color: #c05621; }
+
+/* ── Archive list ──────────────────────────────────────── */
+.post-list-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.post-source {
+  font-size: 0.74rem;
+  color: #aaa;
+  display: block;
+  margin-top: 0.1rem;
+}
+</style>

@@ -4,6 +4,16 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    <div class="post-badges">
+      {%- if page.niche_subniche -%}
+        <span class="niche-badge niche-{{ page.niche_category }}">{{ page.niche_subniche }}</span>
+      {%- elsif page.niche_category -%}
+        <span class="niche-badge niche-{{ page.niche_category }}">{{ page.niche_category }}</span>
+      {%- endif -%}
+      {%- if page.source -%}
+        <span class="post-source-label">{{ page.source }}</span>
+      {%- endif -%}
+    </div>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <div class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -30,7 +40,49 @@ layout: base
       </div>
       {%- endif %}
     </div>
+    {%- if page.why_picked -%}
+    <p class="post-why-picked">{{ page.why_picked }}</p>
+    {%- endif -%}
   </header>
+
+  <style>
+  .post-badges {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .niche-badge {
+    display: inline-block;
+    padding: 0.12rem 0.45rem;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .niche-ai       { background: #e8f0fe; color: #1a56db; }
+  .niche-security { background: #fef3e2; color: #c05621; }
+  .post-source-label {
+    font-size: 0.78rem;
+    color: #999;
+  }
+  .post-why-picked {
+    font-size: 0.78rem;
+    color: #888;
+    font-style: italic;
+    margin: 0.5rem 0 0 0;
+    padding: 0.4rem 0.75rem;
+    border-left: 2px solid #ddd;
+  }
+  .post-why-picked::before {
+    content: "Why this: ";
+    font-weight: 600;
+    font-style: normal;
+    color: #666;
+  }
+  </style>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}

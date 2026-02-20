@@ -2,11 +2,10 @@ name: Daily News Publisher
 
 on:
   schedule:
-    # 3 pubblicazioni al giorno (qualità > quantità, niche AI + Security)
-    # Orari in UTC (aggiungi +1 per Roma in inverno, +2 in estate)
-    - cron: '0 6 * * *'   # 07:00 Roma - Mattina
-    - cron: '0 12 * * *'  # 13:00 Roma - Pranzo
-    - cron: '0 19 * * *'  # 20:00 Roma - Sera
+    # 3 runs/day — each picks the best article for an un-covered sub-niche
+    - cron: '0 6 * * *'   # 07:00 Rome - Morning
+    - cron: '0 12 * * *'  # 13:00 Rome - Midday
+    - cron: '0 19 * * *'  # 20:00 Rome - Evening
   workflow_dispatch:
 
 jobs:

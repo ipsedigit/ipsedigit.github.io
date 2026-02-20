@@ -18,12 +18,41 @@ CONTENT_CATEGORIES = {
 # Niche categories — only these are accepted for publishing
 NICHE_CATEGORIES = {'ai', 'security'}
 
+# Sub-niches for AI
+AI_SUBNICHES = {
+    'llm': ['llm', 'large language model', 'gpt', 'chatgpt', 'claude', 'gemini', 'mistral',
+            'prompt', 'rag', 'fine-tun', 'retrieval augmented', 'instruction tuning',
+            'context window', 'token', 'llama'],
+    'ai-research': ['paper', 'arxiv', 'research', 'benchmark', 'dataset', 'model architecture',
+                    'transformer', 'diffusion', 'deepmind', 'multimodal', 'reasoning',
+                    'alignment', 'computer vision', 'nlp'],
+    'ai-infrastructure': ['inference', 'training', 'gpu', 'tpu', 'mlops', 'model serving',
+                          'vllm', 'triton', 'cuda', 'distributed training', 'embeddings',
+                          'vector database', 'feature store', 'quantization'],
+    'mlops': ['mlflow', 'kubeflow', 'mlops', 'model registry', 'pipeline', 'drift',
+              'deployment', 'production', 'monitoring'],
+}
+
+# Sub-niches for Security
+SECURITY_SUBNICHES = {
+    'appsec': ['xss', 'sql injection', 'csrf', 'owasp', 'web security', 'application security',
+               'appsec', 'sast', 'dast', 'pen test', 'bug bounty', 'injection'],
+    'threat-intel': ['threat intelligence', 'apt', 'nation state', 'campaign', 'ioc', 'ttps',
+                     'mitre', 'attack pattern', 'threat actor', 'espionage'],
+    'malware': ['malware', 'ransomware', 'trojan', 'botnet', 'backdoor', 'rootkit', 'spyware',
+                'worm', 'virus', 'payload'],
+    'cryptography': ['encryption', 'cryptography', 'cipher', 'tls', 'ssl', 'certificate',
+                     'pki', 'zero knowledge', 'post quantum', 'key management'],
+    'vulnerability': ['cve', 'zero-day', '0day', 'exploit', 'patch', 'disclosure', 'poc',
+                      'rce', 'privilege escalation', 'memory corruption'],
+}
+
 # =============================================================================
-# NEWS SOURCES - 50 Authoritative Tech Sources
+# NEWS SOURCES — Curated primary sources (signal > volume)
 # =============================================================================
 
 NEWS_SOURCES = {
-    # --- TIER 1: Aggregators (community-validated) ---
+    # --- TIER 1: Aggregators (community-validated signal) ---
     'hackernews': {
         'name': 'Hacker News',
         'feed_url': 'https://hnrss.org/frontpage?count=100',
@@ -36,14 +65,8 @@ NEWS_SOURCES = {
         'min_score': 20,
         'type': 'aggregator',
     },
-    'slashdot': {
-        'name': 'Slashdot',
-        'feed_url': 'https://rss.slashdot.org/Slashdot/slashdotMain',
-        'min_score': 0,
-        'type': 'aggregator',
-    },
 
-    # --- TIER 2: Big Tech Engineering Blogs (original content) ---
+    # --- TIER 2: Big Tech Engineering Blogs (original, primary-source content) ---
     'github_blog': {
         'name': 'GitHub Blog',
         'feed_url': 'https://github.blog/feed/',
@@ -141,22 +164,10 @@ NEWS_SOURCES = {
         'type': 'corporate_blog',
     },
 
-    # --- TIER 3: Tech News (mainstream, high reach) ---
+    # --- TIER 3: Curated Tech Press (technical depth, not consumer news) ---
     'ars_technica': {
         'name': 'Ars Technica',
         'feed_url': 'https://feeds.arstechnica.com/arstechnica/index',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'the_verge': {
-        'name': 'The Verge',
-        'feed_url': 'https://www.theverge.com/rss/index.xml',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'techcrunch': {
-        'name': 'TechCrunch',
-        'feed_url': 'https://techcrunch.com/feed/',
         'min_score': 0,
         'type': 'news',
     },
@@ -172,81 +183,11 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'news',
     },
-    'zdnet': {
-        'name': 'ZDNet',
-        'feed_url': 'https://www.zdnet.com/news/rss.xml',
-        'min_score': 0,
-        'type': 'news',
-    },
-    'venturebeat': {
-        'name': 'VentureBeat',
-        'feed_url': 'https://venturebeat.com/feed/',
-        'min_score': 0,
-        'type': 'news',
-    },
     'the_register': {
         'name': 'The Register',
         'feed_url': 'https://www.theregister.com/headlines.atom',
         'min_score': 0,
         'type': 'news',
-    },
-    'engadget': {
-        'name': 'Engadget',
-        'feed_url': 'https://www.engadget.com/rss.xml',
-        'min_score': 0,
-        'type': 'news',
-    },
-
-    # --- TIER 4: AI/ML Specific ---
-    'openai_blog': {
-        'name': 'OpenAI Blog',
-        'feed_url': 'https://openai.com/blog/rss/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'google_ai': {
-        'name': 'Google AI Blog',
-        'feed_url': 'https://ai.googleblog.com/feeds/posts/default',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'deepmind': {
-        'name': 'DeepMind Blog',
-        'feed_url': 'https://deepmind.com/blog/feed/basic/',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-    'huggingface': {
-        'name': 'Hugging Face Blog',
-        'feed_url': 'https://huggingface.co/blog/feed.xml',
-        'min_score': 0,
-        'type': 'corporate_blog',
-    },
-
-    # --- TIER 5: Developer/Programming ---
-    'dev_to': {
-        'name': 'DEV Community',
-        'feed_url': 'https://dev.to/feed',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'freecodecamp': {
-        'name': 'freeCodeCamp',
-        'feed_url': 'https://www.freecodecamp.org/news/rss/',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'css_tricks': {
-        'name': 'CSS-Tricks',
-        'feed_url': 'https://css-tricks.com/feed/',
-        'min_score': 0,
-        'type': 'community',
-    },
-    'smashing_mag': {
-        'name': 'Smashing Magazine',
-        'feed_url': 'https://www.smashingmagazine.com/feed/',
-        'min_score': 0,
-        'type': 'community',
     },
     'infoq': {
         'name': 'InfoQ',
@@ -255,7 +196,33 @@ NEWS_SOURCES = {
         'type': 'community',
     },
 
-    # --- TIER 6: Security ---
+    # --- TIER 4: AI/ML Research Blogs (primary-source research content) ---
+    'openai_blog': {
+        'name': 'OpenAI Blog',
+        'feed_url': 'https://openai.com/blog/rss/',
+        'min_score': 0,
+        'type': 'research_blog',
+    },
+    'google_ai': {
+        'name': 'Google AI Blog',
+        'feed_url': 'https://ai.googleblog.com/feeds/posts/default',
+        'min_score': 0,
+        'type': 'research_blog',
+    },
+    'deepmind': {
+        'name': 'DeepMind Blog',
+        'feed_url': 'https://deepmind.com/blog/feed/basic/',
+        'min_score': 0,
+        'type': 'research_blog',
+    },
+    'huggingface': {
+        'name': 'Hugging Face Blog',
+        'feed_url': 'https://huggingface.co/blog/feed.xml',
+        'min_score': 0,
+        'type': 'research_blog',
+    },
+
+    # --- TIER 5: Security (specialist, practitioner-focused) ---
     'krebs': {
         'name': 'Krebs on Security',
         'feed_url': 'https://krebsonsecurity.com/feed/',
@@ -281,7 +248,7 @@ NEWS_SOURCES = {
         'type': 'security',
     },
 
-    # --- TIER 7: Startup/Business ---
+    # --- TIER 6: Startup/Practitioner Insight ---
     'yc_blog': {
         'name': 'Y Combinator Blog',
         'feed_url': 'https://www.ycombinator.com/blog.rss',
@@ -300,24 +267,20 @@ NEWS_SOURCES = {
 # SCORING
 # =============================================================================
 
-# Bonus per pattern nel titolo
 TITLE_BONUS = {
-    r'^\d+\s': 20,
-    r'\d+\s*(ways|tips|reasons|things)': 25,
-    r'how\s+to\s+': 30,
-    r'guide|tutorial': 25,
-    r'(announce|launch|releas|introduc)': 30,
-    r'show\s+hn': 35,
-    r'(is\s+dead|killed|quit|fired|layoff)': 35,
-    r'(hack|breach|vulnerab|exploit|leak)': 40,
-    r'(\$\d|million|billion|raised|funding)': 30,
+    r'(announce|launch|releas|introduc)': 30,          # Primary announcements
+    r'(paper|arxiv|research|benchmark|study)': 20,     # Research signal
+    r'how\s+to\s+': 15,                                # Practical guides
+    r'guide|tutorial': 15,                             # Tutorials
+    r'show\s+hn': 35,                                  # Community-built projects
+    r'(hack|breach|vulnerab|exploit|leak)': 40,        # Strong security signal
 }
 
-# Penalità
 TITLE_PENALTY = {
     r'ask\s+hn': -50,
     r'\[pdf\]': -30,
     r'(nytimes|wsj|bloomberg)\.com': -100,
     r'(rant|opinion|unpopular)': -40,
     r'(years?\s+ago|in\s+20[01]\d)': -50,
+    r'\d+\s*(ways|tips|reasons|things)\s': -10,        # Listicle SEO bait
 }
