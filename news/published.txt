@@ -138,3 +138,4 @@ https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html
 https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html
 https://thehackernews.com/2026/02/researchers-observe-in-wild.html
 https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html
+https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/
