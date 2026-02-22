@@ -140,3 +140,4 @@ https://thehackernews.com/2026/02/researchers-observe-in-wild.html
 https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html
 https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/
 https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html
+https://www.schneier.com/blog/archives/2026/02/ai-found-twelve-new-vulnerabilities-in-openssl.html
