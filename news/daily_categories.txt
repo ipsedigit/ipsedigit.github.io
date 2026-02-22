@@ -18,3 +18,4 @@
 2026-02-21:threat-intel
 2026-02-21:llm
 2026-02-21:ai
+2026-02-22:vulnerability
