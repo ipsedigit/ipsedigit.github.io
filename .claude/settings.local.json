@@ -17,7 +17,9 @@
       "Bash(cd /c/repo/ipsedigit.github.io && python -c \"from digest import publish_digest; print\\('digest import OK'\\)\" 2>&1)",
       "Bash(cd /c/repo/ipsedigit.github.io && python -c \"\nimport json\ndata = json.load\\(open\\('docs/_data/cves.json'\\)\\)\nfor cve in data['cves'][:10]:\n    print\\(f\\\\\"{cve['id']}  severity={cve['severity']}  score={cve['score']}  published={cve['published'][:10]}\\\\\"\\)\n\" 2>&1)",
       "Bash(cd /c/repo/ipsedigit.github.io && python -c \"\nimport json\ndata = json.load\\(open\\('docs/_data/cves.json'\\)\\)\nprint\\(f'Total: {data[\\\\\"total\\\\\"]} CVEs'\\)\nfor cve in data['cves'][:10]:\n    print\\(f\\\\\"  {cve['id']}  {cve['severity']}  {cve['score']}\\\\\"\\)\n\" 2>&1)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(git:*)",
+      "Bash(cd:*2)"
     ]
   }
 }

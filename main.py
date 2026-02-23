@@ -18,6 +18,9 @@ def main(action: str):
         case "models":
             from models import publish_models
             publish_models()
+        case "github":
+            from github_trending import publish_github_trending
+            publish_github_trending()
         case _:
             from news import publish_news
             publish_news()
@@ -27,6 +30,6 @@ def main(action: str):
 # __name__
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Publish tech news")
-    parser.add_argument("--action", type=str, default="news", help="Action: news, digest, trends, cves, models")
+    parser.add_argument("--action", type=str, default="news", help="Action: news, digest, trends, cves, models, github")
     args = parser.parse_args()
     main(action=args.action)
