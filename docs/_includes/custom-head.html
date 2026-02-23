@@ -33,14 +33,11 @@
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
-{% assign og_img = page.image | default: '/assets/images/og-default.png' %}
-{% if og_img contains 'http' %}
-<meta property="og:image" content="{{ og_img }}">
-{% else %}
-<meta property="og:image" content="{{ og_img | absolute_url }}">
-{% endif %}
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+{% endif %}
 
 {% if page.layout == 'post' %}
 <!-- Article-specific OG -->
@@ -56,10 +53,8 @@
 <meta name="twitter:site" content="@{{ site.twitter.username }}">
 <meta name="twitter:title" content="{{ page.title | default: site.title }}">
 <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-{% if og_img contains 'http' %}
-<meta name="twitter:image" content="{{ og_img }}">
-{% else %}
-<meta name="twitter:image" content="{{ og_img | absolute_url }}">
+{% if page.image %}
+<meta name="twitter:image" content="{{ page.image }}">
 {% endif %}
 
 <!-- Schema.org JSON-LD -->
@@ -73,7 +68,7 @@
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
   "inLanguage": "en",
-  {% if page.image %}"image": "{{ page.image }}",{% else %}"image": "{{ '/assets/images/og-default.png' | absolute_url }}",{% endif %}
+  {% if page.image %}"image": "{{ page.image }}",{% endif %}
   {% if page.description %}"description": "{{ page.description | escape }}",{% endif %}
   "author": {
     "@type": "Organization",

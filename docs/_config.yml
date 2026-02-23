@@ -54,12 +54,6 @@ defaults:
     values:
       layout: "post"
       author: "ipsedigit"
-      image: /assets/images/og-default.png
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      image: /assets/images/og-default.png
 
 # Build settings
 theme: minima
