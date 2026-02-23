@@ -28,7 +28,12 @@ layout: base
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}/security/cves/{{ cve.id }}/"
-  },
+  },{% if cve.cisa_kev %}
+  "citation": "CISA Known Exploited Vulnerabilities Catalog",{% endif %}{% if cve.epss_score > 0 %}
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "EPSS Score", "value": "{{ cve.epss_score }}" },
+    { "@type": "PropertyValue", "name": "EPSS Percentile", "value": "{{ cve.epss_percentile }}" }
+  ],{% endif %}
   "breadcrumb": {
     "@type": "BreadcrumbList",
     "itemListElement": [
@@ -130,12 +135,102 @@ body {
   text-decoration: none;
 }
 .cve-related a:hover { color: #0066cc; }
+
+.cve-kev-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #fff;
+  background: #b91c1c;
+  margin-left: 0.5em;
+}
+.cve-threat-intel {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+}
+.cve-threat-intel h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  color: #991b1b;
+}
+.cve-threat-intel--neutral {
+  background: #f9fafb;
+  border-color: #e5e7eb;
+}
+.cve-threat-intel--neutral h2 {
+  color: #333;
+}
+.cve-epss-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-top: 0.5rem;
+}
+.cve-epss-bar__track {
+  flex: 1;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 200px;
+}
+.cve-epss-bar__fill {
+  height: 100%;
+  border-radius: 4px;
+}
+.cve-kev-detail {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: #374151;
+}
 </style>
 
 <div class="cve-header">
   <h1>{{ cve.id }}</h1>
   <span class="cve-badge cve-badge--{{ cve.severity | downcase }}">{{ cve.severity }} {{ cve.score }}</span>
+  {% if cve.cisa_kev %}<span class="cve-kev-badge">⚠ ACTIVELY EXPLOITED</span>{% endif %}
   <span class="cve-meta" style="margin-left: 1em;">Published: {{ cve.published | date: "%b %d, %Y" }}</span>
+</div>
+
+<div class="cve-threat-intel{% unless cve.cisa_kev %} cve-threat-intel--neutral{% endunless %}">
+  <h2>Threat Intelligence</h2>
+
+  {% if cve.cisa_kev %}
+  <div style="margin-bottom: 0.75rem;">
+    <strong style="color: #b91c1c;">CISA KEV: Actively Exploited</strong>
+    <div class="cve-kev-detail">
+      Added to CISA catalog: {{ cve.cisa_date_added }}<br>
+      Remediation due: {{ cve.cisa_due_date }}<br>
+      {% if cve.cisa_required_action != "" %}Required action: {{ cve.cisa_required_action }}<br>{% endif %}
+      {% if cve.cisa_notes != "" %}<em>{{ cve.cisa_notes }}</em>{% endif %}
+    </div>
+  </div>
+  {% else %}
+  <div style="margin-bottom: 0.75rem;">
+    <span style="color: #6b7280;">CISA KEV: Not listed as actively exploited</span>
+  </div>
+  {% endif %}
+
+  <div>
+    <strong>EPSS Score:</strong> {{ cve.epss_score | times: 100 | round: 2 }}%
+    <span style="font-size: 0.85em; color: #6b7280;">({{ cve.epss_percentile }}th percentile)</span>
+    <div class="cve-epss-bar">
+      <div class="cve-epss-bar__track">
+        <div class="cve-epss-bar__fill" style="width: {{ cve.epss_score | times: 100 }}%; background: {% if cve.epss_score >= 0.7 %}#dc2626{% elsif cve.epss_score >= 0.3 %}#ea580c{% elsif cve.epss_score >= 0.1 %}#ca8a04{% else %}#6b7280{% endif %};"></div>
+      </div>
+      <span style="font-size: 0.8em; color: #9ca3af;">Probability of exploit in next 30 days</span>
+    </div>
+  </div>
+
+  <div style="margin-top: 0.75rem; font-size: 0.8em; color: #9ca3af;">
+    Sources: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" style="color: #9ca3af;">CISA KEV</a> · <a href="https://www.first.org/epss/" style="color: #9ca3af;">FIRST EPSS</a> · <a href="{{ cve.nvd_url }}" style="color: #9ca3af;">NVD</a>
+  </div>
 </div>
 
 <div class="cve-section">

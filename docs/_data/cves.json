@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23 22:27:08 UTC",
+  "generated_at": "2026-02-23 22:37:39 UTC",
   "total": 35,
   "cves": [
     {
@@ -11,7 +11,10 @@
       "products": [],
       "published": "2026-02-20T23:16:05.577",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2635",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.01167,
+      "epss_percentile": 78.3
     },
     {
       "id": "CVE-2026-27169",
@@ -24,7 +27,10 @@
       ],
       "published": "2026-02-21T00:16:16.810",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27169",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 14.0
     },
     {
       "id": "CVE-2026-2036",
@@ -35,7 +41,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.507",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2036",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00794,
+      "epss_percentile": 73.6
     },
     {
       "id": "CVE-2026-2037",
@@ -46,7 +55,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.643",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2037",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00794,
+      "epss_percentile": 73.6
     },
     {
       "id": "CVE-2026-27168",
@@ -57,7 +69,10 @@
       "products": [],
       "published": "2026-02-21T00:16:16.640",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27168",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00017,
+      "epss_percentile": 3.6
     },
     {
       "id": "CVE-2026-27203",
@@ -68,7 +83,10 @@
       "products": [],
       "published": "2026-02-21T00:16:17.463",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27203",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00042,
+      "epss_percentile": 12.8
     },
     {
       "id": "CVE-2026-2033",
@@ -79,7 +97,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.093",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2033",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.10528,
+      "epss_percentile": 93.1
     },
     {
       "id": "CVE-2026-27134",
@@ -90,7 +111,10 @@
       "products": [],
       "published": "2026-02-21T00:16:15.940",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27134",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00026,
+      "epss_percentile": 7.1
     },
     {
       "id": "CVE-2026-2034",
@@ -101,7 +125,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.233",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2034",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00042,
+      "epss_percentile": 13.0
     },
     {
       "id": "CVE-2026-2044",
@@ -112,7 +139,10 @@
       "products": [],
       "published": "2026-02-20T23:16:04.690",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2044",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00063,
+      "epss_percentile": 19.6
     },
     {
       "id": "CVE-2026-2045",
@@ -123,7 +153,10 @@
       "products": [],
       "published": "2026-02-20T23:16:04.847",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2045",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00063,
+      "epss_percentile": 19.6
     },
     {
       "id": "CVE-2026-2047",
@@ -134,7 +167,10 @@
       "products": [],
       "published": "2026-02-20T23:16:05.003",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2047",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00058,
+      "epss_percentile": 18.0
     },
     {
       "id": "CVE-2026-2048",
@@ -145,7 +181,10 @@
       "products": [],
       "published": "2026-02-20T23:16:05.167",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2048",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00063,
+      "epss_percentile": 19.6
     },
     {
       "id": "CVE-2026-2038",
@@ -156,7 +195,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.777",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2038",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00422,
+      "epss_percentile": 61.6
     },
     {
       "id": "CVE-2026-2039",
@@ -167,7 +209,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.913",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2039",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00422,
+      "epss_percentile": 61.6
     },
     {
       "id": "CVE-2026-2040",
@@ -178,7 +223,10 @@
       "products": [],
       "published": "2026-02-20T23:16:04.050",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2040",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00014,
+      "epss_percentile": 2.5
     },
     {
       "id": "CVE-2026-2041",
@@ -189,7 +237,10 @@
       "products": [],
       "published": "2026-02-20T23:16:04.190",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2041",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.01252,
+      "epss_percentile": 79.1
     },
     {
       "id": "CVE-2026-2042",
@@ -200,7 +251,10 @@
       "products": [],
       "published": "2026-02-20T23:16:04.337",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2042",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.01252,
+      "epss_percentile": 79.1
     },
     {
       "id": "CVE-2026-2043",
@@ -211,7 +265,10 @@
       "products": [],
       "published": "2026-02-20T23:16:04.517",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2043",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00466,
+      "epss_percentile": 63.9
     },
     {
       "id": "CVE-2026-27170",
@@ -224,7 +281,10 @@
       ],
       "published": "2026-02-21T00:16:16.980",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27170",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00042,
+      "epss_percentile": 12.7
     },
     {
       "id": "CVE-2026-2492",
@@ -235,7 +295,10 @@
       "products": [],
       "published": "2026-02-20T23:16:05.440",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2492",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00014,
+      "epss_percentile": 2.5
     },
     {
       "id": "CVE-2026-27125",
@@ -248,7 +311,10 @@
       ],
       "published": "2026-02-20T23:16:02.780",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27125",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.0005,
+      "epss_percentile": 15.6
     },
     {
       "id": "CVE-2026-2035",
@@ -259,7 +325,10 @@
       "products": [],
       "published": "2026-02-20T23:16:03.370",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2035",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00166,
+      "epss_percentile": 37.6
     },
     {
       "id": "CVE-2026-27189",
@@ -272,7 +341,10 @@
       ],
       "published": "2026-02-21T00:16:17.140",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27189",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00011,
+      "epss_percentile": 1.4
     },
     {
       "id": "CVE-2025-65995",
@@ -283,7 +355,10 @@
       "products": [],
       "published": "2026-02-21T03:15:57.837",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65995",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.0002,
+      "epss_percentile": 5.1
     },
     {
       "id": "CVE-2026-27133",
@@ -294,7 +369,10 @@
       "products": [],
       "published": "2026-02-20T23:16:02.933",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27133",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00015,
+      "epss_percentile": 2.8
     },
     {
       "id": "CVE-2026-2490",
@@ -305,7 +383,10 @@
       "products": [],
       "published": "2026-02-20T23:16:05.300",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2490",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00015,
+      "epss_percentile": 2.9
     },
     {
       "id": "CVE-2026-27119",
@@ -318,7 +399,10 @@
       ],
       "published": "2026-02-20T23:16:02.360",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27119",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00043,
+      "epss_percentile": 13.3
     },
     {
       "id": "CVE-2026-27121",
@@ -331,7 +415,10 @@
       ],
       "published": "2026-02-20T23:16:02.503",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27121",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00043,
+      "epss_percentile": 13.3
     },
     {
       "id": "CVE-2026-27122",
@@ -344,7 +431,10 @@
       ],
       "published": "2026-02-20T23:16:02.640",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27122",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00043,
+      "epss_percentile": 13.3
     },
     {
       "id": "CVE-2026-27146",
@@ -355,7 +445,10 @@
       "products": [],
       "published": "2026-02-21T00:16:16.170",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27146",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00019,
+      "epss_percentile": 4.7
     },
     {
       "id": "CVE-2026-27147",
@@ -366,7 +459,10 @@
       "products": [],
       "published": "2026-02-21T00:16:16.333",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27147",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00047,
+      "epss_percentile": 14.4
     },
     {
       "id": "CVE-2026-27161",
@@ -377,7 +473,10 @@
       "products": [],
       "published": "2026-02-21T00:16:16.493",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27161",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00069,
+      "epss_percentile": 21.1
     },
     {
       "id": "CVE-2026-27202",
@@ -388,7 +487,10 @@
       "products": [],
       "published": "2026-02-21T00:16:17.307",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27202",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00063,
+      "epss_percentile": 19.5
     },
     {
       "id": "CVE-2026-27191",
@@ -399,7 +501,10 @@
       "products": [],
       "published": "2026-02-21T04:15:58.493",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27191",
-      "related_posts": []
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00039,
+      "epss_percentile": 11.6
     }
   ]
 }

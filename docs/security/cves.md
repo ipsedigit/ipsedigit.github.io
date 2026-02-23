@@ -7,16 +7,18 @@ permalink: /security/cves/
 
 ## Vulnerability Summary
 
-{% assign critical = 0 %}{% assign high = 0 %}{% assign medium = 0 %}{% assign low = 0 %}
+{% assign critical = 0 %}{% assign high = 0 %}{% assign medium = 0 %}{% assign low = 0 %}{% assign exploited = 0 %}
 {% for cve in site.data.cves.cves %}
   {% if cve.severity == "CRITICAL" %}{% assign critical = critical | plus: 1 %}
   {% elsif cve.severity == "HIGH" %}{% assign high = high | plus: 1 %}
   {% elsif cve.severity == "MEDIUM" %}{% assign medium = medium | plus: 1 %}
   {% elsif cve.severity == "LOW" %}{% assign low = low | plus: 1 %}
   {% endif %}
+  {% if cve.cisa_kev %}{% assign exploited = exploited | plus: 1 %}{% endif %}
 {% endfor %}
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
+  {% if exploited > 0 %}<span style="padding:4px 12px; border-radius:12px; background:#b91c1c; color:#fff; font-weight:bold;">⚠ EXPLOITED: {{ exploited }}</span>{% endif %}
   <span style="padding:4px 12px; border-radius:12px; background:#dc2626; color:#fff; font-weight:bold;">CRITICAL: {{ critical }}</span>
   <span style="padding:4px 12px; border-radius:12px; background:#ea580c; color:#fff; font-weight:bold;">HIGH: {{ high }}</span>
   <span style="padding:4px 12px; border-radius:12px; background:#ca8a04; color:#fff; font-weight:bold;">MEDIUM: {{ medium }}</span>
@@ -31,6 +33,7 @@ permalink: /security/cves/
   <strong><a href="/security/cves/{{ cve.id }}/">{{ cve.id }}</a></strong>
   <a href="{{ cve.nvd_url }}" style="font-size:0.75em; color:#6b7280; margin-left:0.5em;" target="_blank" rel="noopener">NVD ↗</a>
   <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-left:0.5em; color:#fff; background:{% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %};">{{ cve.severity }} {{ cve.score }}</span>
+  {% if cve.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; margin-left:0.5em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}
   <br>
   <span style="font-size:0.9em;">{{ cve.description }}</span>
   {% if cve.products.size > 0 %}
@@ -52,5 +55,5 @@ permalink: /security/cves/
 ---
 
 <p style="font-size:0.8em; color:#9ca3af;">
-Data from <a href="https://nvd.nist.gov/">NVD</a> &middot; Updated: {{ site.data.cves.generated_at }}
+Data from <a href="https://nvd.nist.gov/">NVD</a> &middot; <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a> &middot; <a href="https://www.first.org/epss/">EPSS</a> &middot; Updated: {{ site.data.cves.generated_at }}
 </p>

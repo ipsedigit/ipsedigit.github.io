@@ -19,6 +19,60 @@ OUTPUT_PAGE = os.path.join(OUTPUT_DIR, "cves.md")
 CVE_PAGES_DIR = os.path.join(OUTPUT_DIR, "cves")
 
 NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+EPSS_API_URL = "https://api.first.org/data/v1/epss"
+
+
+def _fetch_cisa_kev():
+    """Fetch CISA Known Exploited Vulnerabilities catalog. Returns dict CVE-ID → record."""
+    print("Fetching CISA KEV catalog...")
+    try:
+        req = urllib.request.Request(CISA_KEV_URL, headers={"User-Agent": "eof.news CVE Tracker"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+    except Exception as e:
+        print(f"⚠️ CISA KEV fetch error: {e}")
+        return {}
+
+    kev = {}
+    for vuln in data.get("vulnerabilities", []):
+        cve_id = vuln.get("cveID", "")
+        if cve_id:
+            kev[cve_id] = {
+                "date_added": vuln.get("dateAdded", ""),
+                "due_date": vuln.get("dueDate", ""),
+                "notes": vuln.get("shortDescription", ""),
+                "required_action": vuln.get("requiredAction", ""),
+            }
+    print(f"  CISA KEV: {len(kev)} known exploited vulnerabilities loaded")
+    return kev
+
+
+def _fetch_epss(cve_ids):
+    """Fetch EPSS scores in batch. Returns dict CVE-ID → {epss_score, percentile}."""
+    if not cve_ids:
+        return {}
+
+    print(f"Fetching EPSS scores for {len(cve_ids)} CVEs...")
+    try:
+        url = f"{EPSS_API_URL}?cve={','.join(cve_ids)}"
+        req = urllib.request.Request(url, headers={"User-Agent": "eof.news CVE Tracker"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+    except Exception as e:
+        print(f"⚠️ EPSS fetch error: {e}")
+        return {}
+
+    epss = {}
+    for entry in data.get("data", []):
+        cve_id = entry.get("cve", "")
+        if cve_id:
+            epss[cve_id] = {
+                "epss_score": float(entry.get("epss", 0)),
+                "percentile": round(float(entry.get("percentile", 0)) * 100, 1),
+            }
+    print(f"  EPSS: scores retrieved for {len(epss)} CVEs")
+    return epss
 
 
 def _fetch_recent_cves(days=3, max_results=50):
@@ -160,16 +214,18 @@ def _generate_page():
         "",
         "## Vulnerability Summary",
         "",
-        "{% assign critical = 0 %}{% assign high = 0 %}{% assign medium = 0 %}{% assign low = 0 %}",
+        "{% assign critical = 0 %}{% assign high = 0 %}{% assign medium = 0 %}{% assign low = 0 %}{% assign exploited = 0 %}",
         "{% for cve in site.data.cves.cves %}",
         '  {% if cve.severity == "CRITICAL" %}{% assign critical = critical | plus: 1 %}',
         '  {% elsif cve.severity == "HIGH" %}{% assign high = high | plus: 1 %}',
         '  {% elsif cve.severity == "MEDIUM" %}{% assign medium = medium | plus: 1 %}',
         '  {% elsif cve.severity == "LOW" %}{% assign low = low | plus: 1 %}',
         "  {% endif %}",
+        "  {% if cve.cisa_kev %}{% assign exploited = exploited | plus: 1 %}{% endif %}",
         "{% endfor %}",
         "",
         '<div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">',
+        '  {% if exploited > 0 %}<span style="padding:4px 12px; border-radius:12px; background:#b91c1c; color:#fff; font-weight:bold;">⚠ EXPLOITED: {{ exploited }}</span>{% endif %}',
         '  <span style="padding:4px 12px; border-radius:12px; background:#dc2626; color:#fff; font-weight:bold;">CRITICAL: {{ critical }}</span>',
         '  <span style="padding:4px 12px; border-radius:12px; background:#ea580c; color:#fff; font-weight:bold;">HIGH: {{ high }}</span>',
         '  <span style="padding:4px 12px; border-radius:12px; background:#ca8a04; color:#fff; font-weight:bold;">MEDIUM: {{ medium }}</span>',
@@ -184,6 +240,7 @@ def _generate_page():
         '  <strong><a href="/security/cves/{{ cve.id }}/">{{ cve.id }}</a></strong>',
         '  <a href="{{ cve.nvd_url }}" style="font-size:0.75em; color:#6b7280; margin-left:0.5em;" target="_blank" rel="noopener">NVD ↗</a>',
         '  <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-left:0.5em; color:#fff; background:{% if cve.severity == \'CRITICAL\' %}#dc2626{% elsif cve.severity == \'HIGH\' %}#ea580c{% elsif cve.severity == \'MEDIUM\' %}#ca8a04{% else %}#6b7280{% endif %};">{{ cve.severity }} {{ cve.score }}</span>',
+        '  {% if cve.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; margin-left:0.5em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}',
         "  <br>",
         '  <span style="font-size:0.9em;">{{ cve.description }}</span>',
         "  {% if cve.products.size > 0 %}",
@@ -205,7 +262,7 @@ def _generate_page():
         "---",
         "",
         '<p style="font-size:0.8em; color:#9ca3af;">',
-        "Data from <a href=\"https://nvd.nist.gov/\">NVD</a> &middot; Updated: {{ site.data.cves.generated_at }}",
+        "Data from <a href=\"https://nvd.nist.gov/\">NVD</a> &middot; <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA KEV</a> &middot; <a href=\"https://www.first.org/epss/\">EPSS</a> &middot; Updated: {{ site.data.cves.generated_at }}",
         "</p>",
         "",
     ]
@@ -248,6 +305,30 @@ def publish_cves():
     # Cross-reference with site posts (last 30 days of security posts)
     posts = get_recent_posts(days=30, niche_filter={'security'})
     cves = _cross_reference(cves, posts)
+
+    # Enrich with CISA KEV and EPSS data
+    kev = _fetch_cisa_kev()
+    cve_ids = [c['id'] for c in cves]
+    epss = _fetch_epss(cve_ids)
+
+    for cve in cves:
+        cve_id = cve['id']
+        # CISA KEV
+        if cve_id in kev:
+            cve['cisa_kev'] = True
+            cve['cisa_date_added'] = kev[cve_id]['date_added']
+            cve['cisa_due_date'] = kev[cve_id]['due_date']
+            cve['cisa_notes'] = kev[cve_id]['notes']
+            cve['cisa_required_action'] = kev[cve_id]['required_action']
+        else:
+            cve['cisa_kev'] = False
+        # EPSS
+        if cve_id in epss:
+            cve['epss_score'] = epss[cve_id]['epss_score']
+            cve['epss_percentile'] = epss[cve_id]['percentile']
+        else:
+            cve['epss_score'] = 0.0
+            cve['epss_percentile'] = 0.0
 
     # Sort by severity then score
     severity_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3, "UNKNOWN": 4}
