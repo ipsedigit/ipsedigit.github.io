@@ -96,6 +96,15 @@ def _fetch_recent_cves(days=3, max_results=50):
                         if vendor != "*" and product != "*":
                             products.add(f"{vendor}/{product}")
 
+        # Filter out old CVEs registered late on NVD (e.g. CVE-2019-* published in 2026)
+        # Only keep CVEs from current year or previous year
+        cve_year_match = re.match(r'CVE-(\d{4})-', cve_id)
+        if cve_year_match:
+            cve_year = int(cve_year_match.group(1))
+            current_year = now.year
+            if cve_year < current_year - 1:
+                continue
+
         cves.append({
             "id": cve_id,
             "description": description[:300],

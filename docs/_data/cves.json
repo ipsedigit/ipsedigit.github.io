@@ -1,17 +1,7 @@
 {
-  "generated_at": "2026-02-23 22:04:26 UTC",
-  "total": 50,
+  "generated_at": "2026-02-23 22:17:54 UTC",
+  "total": 35,
   "cves": [
-    {
-      "id": "CVE-2019-25441",
-      "description": "thesystem 1.0 contains a command injection vulnerability that allows unauthenticated attackers to execute arbitrary system commands by submitting malicious input to the run_command endpoint. Attackers can send POST requests with shell commands in the command parameter to execute arbitrary code on th",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [],
-      "published": "2026-02-20T23:16:00.990",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25441",
-      "related_posts": []
-    },
     {
       "id": "CVE-2026-2635",
       "description": "MLflow Use of Default Password Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of MLflow. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the basic_auth.ini file. The fil",
@@ -23,13 +13,15 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2018-25158",
-      "description": "Chamilo LMS 1.11.8 contains an arbitrary file upload vulnerability that allows authenticated users to upload and execute PHP files through the elfinder filemanager module. Attackers can upload files with image headers in the social myfiles section, rename them to PHP extensions, and execute arbitrar",
+      "id": "CVE-2026-27169",
+      "description": "OpenSift is an AI study tool that sifts through large datasets using semantic search and generative AI. Versions 1.1.2-alpha and below render untrusted user/model content in chat tool UI surfaces using unsafe HTML interpolation patterns, leading to XSS. Stored content can execute JavaScript when lat",
       "severity": "HIGH",
-      "score": 8.8,
-      "products": [],
-      "published": "2026-02-20T23:15:59.373",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25158",
+      "score": 8.9,
+      "products": [
+        "opensift/opensift"
+      ],
+      "published": "2026-02-21T00:16:16.810",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27169",
       "related_posts": []
     },
     {
@@ -53,23 +45,23 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2019-25431",
-      "description": "delpino73 Blue-Smiley-Organizer 1.32 contains an SQL injection vulnerability in the datetime parameter that allows unauthenticated attackers to manipulate database queries. Attackers can inject SQL code through POST requests to extract sensitive data using boolean-based blind and time-based blind te",
+      "id": "CVE-2026-27168",
+      "description": "SAIL is a cross-platform library for loading and saving images with support for animation, metadata, and ICC profiles. All versions are vulnerable to Heap-based Buffer Overflow through the XWD parser's use of the bytes_per_line value. The value os read directly from the file as the read size in io->",
       "severity": "HIGH",
-      "score": 8.2,
+      "score": 8.8,
       "products": [],
-      "published": "2026-02-20T23:15:59.647",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25431",
+      "published": "2026-02-21T00:16:16.640",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27168",
       "related_posts": []
     },
     {
-      "id": "CVE-2019-25438",
-      "description": "LabCollector 5.423 contains multiple SQL injection vulnerabilities that allow unauthenticated attackers to execute arbitrary SQL commands by injecting malicious code through POST parameters. Attackers can submit crafted SQL payloads in the login parameter of login.php or the user_name parameter of r",
+      "id": "CVE-2026-27203",
+      "description": "eBay API MCP Server is an open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. All versions are vulnerable to Environment Variable Injection through the updateEnvFile function. The ebay_set_user_tokens tool allows updating the .env file with new tokens.",
       "severity": "HIGH",
-      "score": 8.2,
+      "score": 8.3,
       "products": [],
-      "published": "2026-02-20T23:16:00.820",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25438",
+      "published": "2026-02-21T00:16:17.463",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27203",
       "related_posts": []
     },
     {
@@ -83,33 +75,13 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2026-0777",
-      "description": "Xmind Attachment Insufficient UI Warning Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Xmind. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a m",
+      "id": "CVE-2026-27134",
+      "description": "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations. In versions  0.49.0 through 0.50.0, when using a custom Cluster or Clients CA with a multistage CA chain consisting of multiple CAs, Strimzi incorrectly configures the trusted certi",
       "severity": "HIGH",
-      "score": 7.8,
+      "score": 8.1,
       "products": [],
-      "published": "2026-02-20T22:16:19.097",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0777",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2026-0797",
-      "description": "GIMP ICO File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or o",
-      "severity": "HIGH",
-      "score": 7.8,
-      "products": [],
-      "published": "2026-02-20T22:16:19.280",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0797",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25435",
-      "description": "Sricam DeviceViewer 3.12.0.1 contains a local buffer overflow vulnerability in the user management add user function that allows authenticated attackers to execute arbitrary code by bypassing data execution prevention. Attackers can inject a malicious payload through the Username field in User Manag",
-      "severity": "HIGH",
-      "score": 7.8,
-      "products": [],
-      "published": "2026-02-20T23:16:00.247",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25435",
+      "published": "2026-02-21T00:16:15.940",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27134",
       "related_posts": []
     },
     {
@@ -163,26 +135,6 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2019-25432",
-      "description": "Part-DB 0.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to login by injecting SQL syntax into authentication parameters. Attackers can submit a single quote followed by 'or' in the login form to bypass credential validation and gain unauthorized access to th",
-      "severity": "HIGH",
-      "score": 7.5,
-      "products": [],
-      "published": "2026-02-20T23:15:59.840",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25432",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25434",
-      "description": "SpotAuditor 5.3.1.0 contains a denial of service vulnerability that allows unauthenticated attackers to crash the application by submitting excessive data in the registration name field. Attackers can enter a large string of characters (5000 bytes or more) in the name field during registration to tr",
-      "severity": "HIGH",
-      "score": 7.5,
-      "products": [],
-      "published": "2026-02-20T23:16:00.037",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25434",
-      "related_posts": []
-    },
-    {
       "id": "CVE-2026-2038",
       "description": "GFI Archiver MArc.Core Missing Authorization Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of GFI Archiver. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the configur",
       "severity": "HIGH",
@@ -213,16 +165,6 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2019-25454",
-      "description": "phpMoAdmin 1.1.5 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by manipulating the collection parameter. Attackers can send GET requests to moadmin.php with script payloads in the collection parameter during collection creation",
-      "severity": "HIGH",
-      "score": 7.2,
-      "products": [],
-      "published": "2026-02-20T23:16:02.077",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25454",
-      "related_posts": []
-    },
-    {
       "id": "CVE-2026-2041",
       "description": "Nagios Host zabbixagent_configwizard_func Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Nagios Host. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within t",
       "severity": "HIGH",
@@ -250,6 +192,18 @@
       "products": [],
       "published": "2026-02-20T23:16:04.517",
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2043",
+      "related_posts": []
+    },
+    {
+      "id": "CVE-2026-27170",
+      "description": "OpenSift is an AI study tool that sifts through large datasets using semantic search and generative AI. In versions 1.1.2-alpha and below, URL ingest allows overly permissive server-side fetch behavior and can be coerced into requesting unsafe targets. Potential access/probing of private/local netwo",
+      "severity": "HIGH",
+      "score": 7.1,
+      "products": [
+        "opensift/opensift"
+      ],
+      "published": "2026-02-21T00:16:16.980",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27170",
       "related_posts": []
     },
     {
@@ -285,83 +239,25 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2026-27022",
-      "description": "@langchain/langgraph-checkpoint-redis is the Redis checkpoint and store implementation for LangGraph. A query injection vulnerability exists in the @langchain/langgraph-checkpoint-redis package's filter handling. The RedisSaver and ShallowRedisSaver classes construct RediSearch queries by directly i",
+      "id": "CVE-2026-27189",
+      "description": "OpenSift is an AI study tool that sifts through large datasets using semantic search and generative AI. Versions 1.1.2-alpha and below, use non-atomic and insufficiently synchronized local JSON persistence flows, potentially causing concurrent operations to lose updates or corrupt local state across",
+      "severity": "MEDIUM",
+      "score": 6.6,
+      "products": [
+        "opensift/opensift"
+      ],
+      "published": "2026-02-21T00:16:17.140",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27189",
+      "related_posts": []
+    },
+    {
+      "id": "CVE-2025-65995",
+      "description": "When a DAG failed during parsing, Airflow’s error-reporting in the UI could include the full kwargs passed to the operators. If those kwargs contained sensitive values (such as secrets), they might be exposed in the UI tracebacks to authenticated users who had permission to view that DAG. \n\nThe issu",
       "severity": "MEDIUM",
       "score": 6.5,
       "products": [],
-      "published": "2026-02-20T22:16:28.480",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27022",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25436",
-      "description": "Sricam DeviceViewer 3.12.0.1 contains a password change security bypass vulnerability that allows authenticated users to change passwords without proper validation of the old password field. Attackers can inject a large payload into the old password parameter during the change password process to by",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [],
-      "published": "2026-02-20T23:16:00.453",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25436",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25448",
-      "description": "OrientDB 3.0.17 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by creating users with script payloads in the name parameter. Attackers can send POST requests to the document endpoint with JavaScript code in the name field to execu",
-      "severity": "MEDIUM",
-      "score": 6.4,
-      "products": [],
-      "published": "2026-02-20T23:16:01.353",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25448",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2026-27113",
-      "description": "Liquid Prompt is an adaptive prompt for Bash and Zsh. Starting in commit cf3441250bb5d8b45f6f8b389fcdf427a99ac28a and prior to commit a4f6b8d8c90b3eaa33d13dfd1093062ab9c4b30c on the master branch, arbitrary command injection can lead to code execution when a user enters a directory in a Git reposito",
-      "severity": "MEDIUM",
-      "score": 6.3,
-      "products": [],
-      "published": "2026-02-20T22:16:29.503",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27113",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25437",
-      "description": "Foscam Video Management System 1.1.6.6 contains a buffer overflow vulnerability in the UID field that allows local attackers to crash the application by supplying an excessively long string. Attackers can input a 5000-character buffer into the UID parameter during device addition to trigger an appli",
-      "severity": "MEDIUM",
-      "score": 6.2,
-      "products": [],
-      "published": "2026-02-20T23:16:00.630",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25437",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2026-27120",
-      "description": "Leafkit is a templating language with Swift-inspired syntax. Prior to 1.4.1, htmlEscaped in leaf-kit will only escape html special characters if the extended grapheme clusters match, which allows bypassing escaping by using an extended grapheme cluster containing both the special html character and ",
-      "severity": "MEDIUM",
-      "score": 6.1,
-      "products": [],
-      "published": "2026-02-20T22:16:29.830",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27120",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25449",
-      "description": "OrientDB 3.0.17 contains a reflected cross-site scripting vulnerability that allows attackers to inject malicious scripts by submitting crafted JSON payloads to the document endpoint. Attackers can send POST requests to /document/demodb/-1:-1 with script tags in the name parameter to execute arbitra",
-      "severity": "MEDIUM",
-      "score": 6.1,
-      "products": [],
-      "published": "2026-02-20T23:16:01.530",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25449",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25453",
-      "description": "phpMoAdmin 1.1.5 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by manipulating the newdb parameter. Attackers can craft URLs with JavaScript payloads in the newdb parameter of moadmin.php to execute arbitrary code in users' ",
-      "severity": "MEDIUM",
-      "score": 6.1,
-      "products": [],
-      "published": "2026-02-20T23:16:01.893",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25453",
+      "published": "2026-02-21T03:15:57.837",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65995",
       "related_posts": []
     },
     {
@@ -421,93 +317,53 @@
       "related_posts": []
     },
     {
-      "id": "CVE-2019-25447",
-      "description": "OrientDB 3.0.17 GA Community Edition contains cross-site request forgery vulnerabilities that allow attackers to perform unauthorized actions by crafting malicious requests to endpoints like /database/, /command/, and /document/. Attackers can create or delete databases, modify schema classes, manag",
-      "severity": "MEDIUM",
-      "score": 4.3,
-      "products": [],
-      "published": "2026-02-20T23:16:01.173",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25447",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2019-25451",
-      "description": "phpMoAdmin 1.1.5 contains a cross-site request forgery vulnerability that allows attackers to perform unauthorized database operations by crafting malicious requests. Attackers can trick authenticated users into submitting GET requests to moadmin.php with parameters like action, db, and collection t",
-      "severity": "MEDIUM",
-      "score": 4.3,
-      "products": [],
-      "published": "2026-02-20T23:16:01.713",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25451",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2026-2858",
-      "description": "A vulnerability was identified in wren-lang wren up to 0.4.0. This affects the function peekChar of the file src/vm/wren_compiler.c of the component Source File Parser. Such manipulation leads to out-of-bounds read. The attack needs to be performed locally. The exploit is publicly available and migh",
-      "severity": "LOW",
-      "score": 3.3,
-      "products": [],
-      "published": "2026-02-20T22:16:30.000",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2858",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2026-27024",
-      "description": "pypdf is a free and open-source pure-python PDF library. Prior to 6.7.1, an attacker who uses this vulnerability can craft a PDF which leads to an infinite loop. This requires accessing the children of a TreeObject, for example as part of outlines. This vulnerability is fixed in 6.7.1.",
+      "id": "CVE-2026-27146",
+      "description": "GetSimple CMS is a content management system. All versions of GetSimple CMS do not implement CSRF protection on the administrative file upload endpoint. As a result, an attacker can craft a malicious web page that silently triggers a file upload request from an authenticated victim’s browser. The re",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-20T22:16:28.687",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27024",
+      "published": "2026-02-21T00:16:16.170",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27146",
       "related_posts": []
     },
     {
-      "id": "CVE-2026-27025",
-      "description": "pypdf is a free and open-source pure-python PDF library. Prior to 6.7.1, an attacker who uses this vulnerability can craft a PDF which leads to long runtimes and large memory consumption. This requires parsing the /ToUnicode entry of a font with unusually large values, for example during text extrac",
+      "id": "CVE-2026-27147",
+      "description": "GetSimple CMS is a content management system. All versions of GetSimple CMS are vulnerable to XSS through SVG file uploads. Authenticated users can upload SVG files via the administrative upload functionality, but they are not properly sanitized or restricted, allowing an attacker to embed malicious",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-20T22:16:28.850",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27025",
+      "published": "2026-02-21T00:16:16.333",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27147",
       "related_posts": []
     },
     {
-      "id": "CVE-2026-27026",
-      "description": "pypdf is a free and open-source pure-python PDF library. Prior to 6.7.1, an attacker who uses this vulnerability can craft a PDF which leads to long runtimes. This requires a malformed /FlateDecode stream, where the byte-by-byte decompression is used. This vulnerability is fixed in 6.7.1.",
+      "id": "CVE-2026-27161",
+      "description": "GetSimple CMS is a content management system. All versions of GetSimple CMS rely on .htaccess files to restrict access to sensitive directories such as /data/ and /backups/. If Apache AllowOverride is disabled (common in hardened or shared hosting environments), these protections are silently ignore",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-20T22:16:29.023",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27026",
+      "published": "2026-02-21T00:16:16.493",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27161",
       "related_posts": []
     },
     {
-      "id": "CVE-2026-27111",
-      "description": "Kargo manages and automates the promotion of software artifacts. From v1.9.0 to v1.9.2, Kargo's authorization model includes a promote verb -- a non-standard Kubernetes \"dolphin verb\" -- that gates the ability to advance Freight through a promotion pipeline. This verb exists to separate the ability ",
+      "id": "CVE-2026-27202",
+      "description": "GetSimple CMS is a content management system. All versions of GetSimple CMS have a flaw in the Uploaded Files feature that allows for arbitrary file reads. This issue has not been fixed at the time of publication.",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-20T22:16:29.187",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27111",
+      "published": "2026-02-21T00:16:17.307",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27202",
       "related_posts": []
     },
     {
-      "id": "CVE-2026-27112",
-      "description": "Kargo manages and automates the promotion of software artifacts. From 1.7.0 to before v1.7.8, v1.8.11, and v1.9.3, the batch resource creation endpoints of both Kargo's legacy gRPC API and newer REST API accept multi-document YAML payloads. Specially crafted payloads can manifest a bug present in th",
+      "id": "CVE-2026-27191",
+      "description": "Feathersjs is a framework for creating web APIs and real-time applications with TypeScript or JavaScript. Versions 5.0.39 and below the redirect query parameter is appended to the base origin without validation, allowing attackers to steal access tokens via URL authority injection. This leads to ful",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-20T22:16:29.343",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27112",
-      "related_posts": []
-    },
-    {
-      "id": "CVE-2026-27118",
-      "description": "SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte. Versions of @sveltejs/adapter-vercel prior to 6.3.2 are vulnerable to cache poisoning. An internal query parameter intended for Incremental Static Regeneration (ISR) is accessible on all routes, allowin",
-      "severity": "UNKNOWN",
-      "score": 0.0,
-      "products": [],
-      "published": "2026-02-20T22:16:29.673",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27118",
+      "published": "2026-02-21T04:15:58.493",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27191",
       "related_posts": []
     }
   ]

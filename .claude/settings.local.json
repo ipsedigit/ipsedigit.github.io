@@ -14,7 +14,9 @@
       "Bash(cd /c/repo/ipsedigit.github.io && PYTHONIOENCODING=utf-8 python main.py --action=cves 2>&1)",
       "Bash(cd /c/repo/ipsedigit.github.io && PYTHONIOENCODING=utf-8 python main.py --action=models 2>&1)",
       "Bash(cd /c/repo/ipsedigit.github.io && python -c \"\nimport urllib.request, json\n# Test different URL formats\nurls = [\n    'https://huggingface.co/api/models?sort=trending&limit=5',\n    'https://huggingface.co/api/models?sort=likes&direction=-1&limit=5',\n    'https://huggingface.co/api/models?sort=downloads&direction=-1&limit=5',\n]\nfor url in urls:\n    try:\n        req = urllib.request.Request\\(url, headers={'User-Agent': 'test'}\\)\n        with urllib.request.urlopen\\(req, timeout=15\\) as resp:\n            data = json.loads\\(resp.read\\(\\).decode\\('utf-8'\\)\\)\n            print\\(f'OK {url} -> {len\\(data\\)} results'\\)\n            if data:\n                print\\(f'  Keys: {list\\(data[0].keys\\(\\)\\)[:8]}'\\)\n    except Exception as e:\n        print\\(f'FAIL {url} -> {e}'\\)\n\" 2>&1)",
-      "Bash(cd /c/repo/ipsedigit.github.io && python -c \"from digest import publish_digest; print\\('digest import OK'\\)\" 2>&1)"
+      "Bash(cd /c/repo/ipsedigit.github.io && python -c \"from digest import publish_digest; print\\('digest import OK'\\)\" 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && python -c \"\nimport json\ndata = json.load\\(open\\('docs/_data/cves.json'\\)\\)\nfor cve in data['cves'][:10]:\n    print\\(f\\\\\"{cve['id']}  severity={cve['severity']}  score={cve['score']}  published={cve['published'][:10]}\\\\\"\\)\n\" 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && python -c \"\nimport json\ndata = json.load\\(open\\('docs/_data/cves.json'\\)\\)\nprint\\(f'Total: {data[\\\\\"total\\\\\"]} CVEs'\\)\nfor cve in data['cves'][:10]:\n    print\\(f\\\\\"  {cve['id']}  {cve['severity']}  {cve['score']}\\\\\"\\)\n\" 2>&1)"
     ]
   }
 }
