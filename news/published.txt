@@ -144,3 +144,4 @@ https://www.schneier.com/blog/archives/2026/02/ai-found-twelve-new-vulnerabiliti
 https://developers.googleblog.com/conductor-update-introducing-automated-reviews/
 https://huggingface.co/blog/tiiuae/falcon-h1-arabic
 https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/
+https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html
