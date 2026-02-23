@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "GitHub Trending"
-description: "Trending GitHub repositories tracked daily. Stars, forks, languages, and contributors — the hottest open source projects right now."
-permalink: /github/trending/
+title: "GitHub Hot Repos"
+description: "Hot GitHub repositories tracked daily. Stars, forks, languages, and contributors — the hottest open source projects right now."
+permalink: /github/
 ---
 
 ## Overview
@@ -49,7 +49,7 @@ new Chart(document.getElementById('starsChart'), {
   type: 'bar',
   data: {
     labels: ["build-your-own-x", "freeCodeCamp", "free-programming-boo", "developer-roadmap", "awesome-selfhosted", "react", "openclaw", "linux", "tensorflow", "ohmyzsh"],
-    datasets: [{ label: 'Stars', data: [468355, 437451, 382984, 349664, 274779, 243315, 221104, 218445, 193891, 184949], backgroundColor: '#f59e0b', borderRadius: 4 }]
+    datasets: [{ label: 'Stars', data: [468358, 437451, 382984, 349665, 274781, 243315, 221121, 218447, 193891, 184951], backgroundColor: '#f59e0b', borderRadius: 4 }]
   },
   options: {
     indexAxis: 'y',

@@ -167,9 +167,9 @@ def _generate_page(repos):
     lines = [
         "---",
         "layout: page",
-        'title: "GitHub Trending"',
-        'description: "Trending GitHub repositories tracked daily. Stars, forks, languages, and contributors — the hottest open source projects right now."',
-        "permalink: /github/trending/",
+        'title: "GitHub Hot Repos"',
+        'description: "Hot GitHub repositories tracked daily. Stars, forks, languages, and contributors — the hottest open source projects right now."',
+        "permalink: /github/",
         "---",
         "",
         "## Overview",
