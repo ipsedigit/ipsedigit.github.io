@@ -28,7 +28,8 @@ permalink: /security/cves/
 {% if site.data.cves.cves.size > 0 %}
 {% for cve in site.data.cves.cves %}
 <div style="margin-bottom:1.5em; padding:0.75em; border-left:4px solid {% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %}; background:#f9fafb;">
-  <strong><a href="{{ cve.nvd_url }}">{{ cve.id }}</a></strong>
+  <strong><a href="/security/cves/{{ cve.id }}/">{{ cve.id }}</a></strong>
+  <a href="{{ cve.nvd_url }}" style="font-size:0.75em; color:#6b7280; margin-left:0.5em;" target="_blank" rel="noopener">NVD ↗</a>
   <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-left:0.5em; color:#fff; background:{% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %};">{{ cve.severity }} {{ cve.score }}</span>
   <br>
   <span style="font-size:0.9em;">{{ cve.description }}</span>
