@@ -1,69 +1,68 @@
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-<!-- Alternate languages for international SEO -->
+<!-- Hreflang (single-language site) -->
 <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="it" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="fr" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="es" href="{{ page.url | absolute_url }}">
 <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
 
-<!-- Preconnect -->
+<!-- Preconnect & DNS Prefetch -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+<!-- Preload critical font -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 <!-- AdSense -->
 {% if site.adsense_id %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_id }}" crossorigin="anonymous"></script>
 {% endif %}
 
-<!-- SEO Meta - Multilingual -->
-<meta name="robots" content="index, follow, max-image-preview:large">
+<!-- SEO Meta -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="author" content="eof.news">
 <meta name="theme-color" content="#ffffff">
-
-<!-- Multilingual descriptions -->
-<meta name="description" content="{{ page.description | default: site.description }}">
-<meta name="description" lang="it" content="Le migliori notizie tech curate da 50+ fonti autorevoli. AI, startup, programmazione, sicurezza informatica.">
-<meta name="description" lang="fr" content="Les meilleures actualités tech sélectionnées de 50+ sources. IA, startups, programmation, cybersécurité.">
-<meta name="description" lang="es" content="Las mejores noticias tech seleccionadas de 50+ fuentes. IA, startups, programmazione, ciberseguridad.">
-
-<!-- Keywords multilingual -->
-<meta name="keywords" content="tech news, AI news, startup news, programming, cybersecurity, hacker news">
-<meta name="keywords" lang="it" content="notizie tech, notizie AI, intelligenza artificiale, startup, programmazione, sicurezza informatica">
-<meta name="keywords" lang="fr" content="actualités tech, nouvelles IA, intelligence artificielle, startups, programmation, cybersécurité">
-<meta name="keywords" lang="es" content="noticias tech, noticias IA, inteligencia artificial, startups, programación, ciberseguridad">
+<meta name="keywords" content="tech news, AI news, startup news, programming, cybersecurity, hacker news, artificial intelligence, machine learning, software engineering">
 
 <!-- Open Graph -->
 <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
-<meta property="og:locale:alternate" content="it_IT">
-<meta property="og:locale:alternate" content="fr_FR">
-<meta property="og:locale:alternate" content="es_ES">
-{% if page.image %}
-<meta property="og:image" content="{{ page.image }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+{% assign og_img = page.image | default: '/assets/images/og-default.png' %}
+{% if og_img contains 'http' %}
+<meta property="og:image" content="{{ og_img }}">
+{% else %}
+<meta property="og:image" content="{{ og_img | absolute_url }}">
+{% endif %}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-{% endif %}
-{% if page.description %}
-<meta property="og:description" content="{{ page.description }}">
-{% endif %}
+
+{% if page.layout == 'post' %}
+<!-- Article-specific OG -->
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% if page.modified_date %}<meta property="article:modified_time" content="{{ page.modified_date | date_to_xmlschema }}">{% endif %}
+<meta property="article:author" content="eof.news">
+{% for cat in page.categories %}<meta property="article:section" content="{{ cat }}">
+{% endfor %}{% for cat in page.categories %}<meta property="article:tag" content="{{ cat }}">
+{% endfor %}{% endif %}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{{ site.twitter.username }}">
-{% if page.title %}
-<meta name="twitter:title" content="{{ page.title }}">
-{% endif %}
-{% if page.description %}
-<meta name="twitter:description" content="{{ page.description }}">
-{% endif %}
-{% if page.image %}
-<meta name="twitter:image" content="{{ page.image }}">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+{% if og_img contains 'http' %}
+<meta name="twitter:image" content="{{ og_img }}">
+{% else %}
+<meta name="twitter:image" content="{{ og_img | absolute_url }}">
 {% endif %}
 
-<!-- Schema.org JSON-LD Multilingual -->
+<!-- Schema.org JSON-LD -->
 {% if page.layout == 'post' %}
 <script type="application/ld+json">
 {
@@ -72,18 +71,18 @@
   "headline": "{{ page.title | escape }}",
   "url": "{{ page.url | absolute_url }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
-  "inLanguage": ["en", "it", "fr", "es"],
-  {% if page.image %}"image": "{{ page.image }}",{% endif %}
+  "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
+  "inLanguage": "en",
+  {% if page.image %}"image": "{{ page.image }}",{% else %}"image": "{{ '/assets/images/og-default.png' | absolute_url }}",{% endif %}
   {% if page.description %}"description": "{{ page.description | escape }}",{% endif %}
   "author": {
     "@type": "Organization",
-    "name": "TechPulse Daily",
+    "name": "eof.news",
     "url": "{{ site.url }}"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "TechPulse Daily",
+    "name": "eof.news",
     "url": "{{ site.url }}",
     "logo": {
       "@type": "ImageObject",
@@ -94,7 +93,43 @@
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
   },
-  "keywords": "tech news, AI, programming, startups, notizie tech, actualités tech, noticias tech"
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".post-title", ".post-content"]
+  },
+  "keywords": "{{ page.categories | join: ', ' }}"
+}
+</script>
+
+<!-- BreadcrumbList for posts -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    }{% if page.categories.first %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.categories.first }}",
+      "item": "{{ site.url }}/tags/{{ page.categories.first | slugify }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title | escape }}"
+    }{% else %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.title | escape }}"
+    }{% endif %}
+  ]
 }
 </script>
 {% else %}
@@ -103,14 +138,36 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "{{ site.title }}",
-  "alternateName": ["eof.news - Notizie Tech", "eof.news - Actualités Tech", "eof.news - Noticias Tech"],
   "url": "{{ site.url }}",
   "description": "{{ site.description | escape }}",
-  "inLanguage": ["en", "it", "fr", "es"],
+  "inLanguage": "en",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "{{ site.url }}/topics/",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.url }}/topics/"
+    },
     "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- Organization schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "eof.news",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/logo.png",
+  "description": "{{ site.description | escape }}",
+  "sameAs": [
+    "https://github.com/ipsedigit"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.email }}",
+    "contactType": "customer support"
   }
 }
 </script>

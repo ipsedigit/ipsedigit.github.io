@@ -2,9 +2,31 @@
 layout: base
 ---
 
-<!-- Multilingual SEO for tag pages -->
-<meta name="description" content="Articles about {{ page.tag }} - Tech news, tutorials and insights. Articoli su {{ page.tag }}. Articles sur {{ page.tag }}. Artículos sobre {{ page.tag }}.">
-<meta name="keywords" content="{{ page.tag }}, tech news, {{ page.tag }} news, notizie {{ page.tag }}, actualités {{ page.tag }}, noticias {{ page.tag }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Topics",
+      "item": "{{ site.url }}/topics/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.tag }}"
+    }
+  ]
+}
+</script>
 
 <style>
 body {

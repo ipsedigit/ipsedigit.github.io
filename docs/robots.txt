@@ -13,7 +13,7 @@ Allow: /topics/
 Allow: /about/
 Allow: /*.html$
 
-# Allow all search engines
+# Allow major search engines without delay
 User-agent: Googlebot
 Allow: /
 
@@ -22,10 +22,21 @@ Allow: /
 
 User-agent: Yandex
 Allow: /
+Crawl-delay: 1
 
 User-agent: Baiduspider
 Allow: /
+Crawl-delay: 1
+
+# Rate-limit aggressive bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
 
 # Disallow non-content
 Disallow: /*.json$
-
