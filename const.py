@@ -4,7 +4,7 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # PUBLISHING STRATEGY
 # =============================================================================
 
-MAX_POSTS_PER_DAY = 3
+MAX_POSTS_PER_NICHE_PER_DAY = 3
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
 # Niche focus: AI + Security for topical authority and SEO

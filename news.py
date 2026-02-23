@@ -10,7 +10,7 @@ from const import (
     PUBLISHED_NEWS_FILE_NAME,
     CONTENT_CATEGORIES,
     NICHE_CATEGORIES,
-    MAX_POSTS_PER_DAY,
+    MAX_POSTS_PER_NICHE_PER_DAY,
     DAILY_CATEGORIES_FILE,
     TITLE_BONUS,
     TITLE_PENALTY,
@@ -23,38 +23,48 @@ from tags import generate_tag_pages
 
 
 def publish_news():
-    """Publish the best available post for an un-covered sub-niche today."""
-    today_subniches = get_today_subniches()
+    """Publish the best available post for each niche that hasn't hit its daily limit."""
+    today_entries = get_today_subniches()
+    published_any = False
 
-    if len(today_subniches) >= MAX_POSTS_PER_DAY:
-        print(f"⏸️ Daily limit reached: {len(today_subniches)}/{MAX_POSTS_PER_DAY} posts today")
-        return
+    for niche in sorted(NICHE_CATEGORIES):
+        niche_entries = [e for e in today_entries if e.startswith(f"{niche}:") or e == niche]
+        niche_count = len(niche_entries)
 
-    print(f"📊 Posts today: {len(today_subniches)}/{MAX_POSTS_PER_DAY}")
-    print(f"   Sub-niches covered: {today_subniches or 'none yet'}")
+        if niche_count >= MAX_POSTS_PER_NICHE_PER_DAY:
+            print(f"⏸️ [{niche}] Daily limit reached: {niche_count}/{MAX_POSTS_PER_NICHE_PER_DAY}")
+            continue
 
-    best_post = find_best_post(exclude_subniches=today_subniches)
+        print(f"📊 [{niche}] Posts today: {niche_count}/{MAX_POSTS_PER_NICHE_PER_DAY}")
 
-    if best_post:
-        create_post(best_post)
-        generate_tag_pages()
-        track_published(best_post['link'], PUBLISHED_NEWS_FILE_NAME)
-        sub_key = best_post.get('_subniche') or best_post.get('_category', 'unknown')
-        track_daily_subniche(sub_key)
+        # Exclude sub-niches already covered today (across all niches)
+        best_post = find_best_post(exclude_subniches=today_entries, target_niche=niche)
 
-        print(f"✅ Published: {best_post['title']}")
-        print(f"   Source: {best_post['source']}")
-        print(f"   Score: {best_post['score']}")
-        print(f"   Category: {best_post.get('_category')} / {best_post.get('_subniche')}")
-    else:
-        print("❌ No suitable posts found for uncovered sub-niches")
+        if best_post:
+            create_post(best_post)
+            generate_tag_pages()
+            track_published(best_post['link'], PUBLISHED_NEWS_FILE_NAME)
+            sub_key = best_post.get('_subniche') or best_post.get('_category', 'unknown')
+            track_daily_subniche(niche, sub_key)
+            published_any = True
+
+            print(f"✅ [{niche}] Published: {best_post['title']}")
+            print(f"   Source: {best_post['source']}")
+            print(f"   Score: {best_post['score']}")
+            print(f"   Category: {best_post.get('_category')} / {best_post.get('_subniche')}")
+        else:
+            print(f"❌ [{niche}] No suitable posts found")
+
+    if not published_any:
+        print("❌ No posts published this run")
 
 
-def find_best_post(exclude_subniches=None):
+def find_best_post(exclude_subniches=None, target_niche=None):
     """
     Find the best post across all sources by score.
     Requires 2+ keyword matches and niche category (AI or Security).
     Skips sub-niches already covered today to ensure diversity.
+    If target_niche is set, only considers posts from that niche.
     """
     if exclude_subniches is None:
         exclude_subniches = []
@@ -77,12 +87,15 @@ def find_best_post(exclude_subniches=None):
                 if cat not in NICHE_CATEGORIES:
                     continue
 
+                if target_niche and cat != target_niche:
+                    continue
+
                 subniche = identify_subniche(entry, cat)
                 entry['_category'] = cat
                 entry['_subniche'] = subniche
 
-                # Skip sub-niches (or categories) already covered today
-                sub_key = subniche or cat
+                # Skip sub-niches already covered today (format: "niche:subniche")
+                sub_key = f"{cat}:{subniche}" if subniche else cat
                 if sub_key in exclude_subniches:
                     continue
 
@@ -308,7 +321,7 @@ def fetch_preview(entry):
 
 
 def get_today_subniches():
-    """Read sub-niches already published today."""
+    """Read sub-niches already published today. Returns list like ['ai:llm', 'security:malware']."""
     try:
         if not os.path.exists(DAILY_CATEGORIES_FILE):
             return []
@@ -317,17 +330,24 @@ def get_today_subniches():
             lines = f.read().strip().split('\n')
 
         today_str = date.today().isoformat()
-        return [line.split(':')[1] for line in lines
-                if line.startswith(today_str) and ':' in line]
+        entries = []
+        for line in lines:
+            if not line.startswith(today_str):
+                continue
+            # Format: "2026-02-23:ai:llm" or legacy "2026-02-23:llm"
+            parts = line.split(':', 1)
+            if len(parts) >= 2:
+                entries.append(parts[1])
+        return entries
     except:
         return []
 
 
-def track_daily_subniche(subniche):
-    """Track the sub-niche published today."""
+def track_daily_subniche(niche, subniche):
+    """Track the niche:sub-niche published today."""
     today_str = date.today().isoformat()
     with open(DAILY_CATEGORIES_FILE, 'a') as f:
-        f.write(f"{today_str}:{subniche}\n")
+        f.write(f"{today_str}:{niche}:{subniche}\n")
 
 
 def keyword_in_text(text, keyword):

@@ -6,7 +6,7 @@
       "Bash(git -C C:/repo/ipsedigit.github.io ls-files:*)",
       "Bash(bash --version)",
       "Bash(git -C C:/repo/ipsedigit.github.io log --oneline -20)",
-      "Bash(python:*2)"
+      "Bash(cd:*)"
     ]
   }
 }
