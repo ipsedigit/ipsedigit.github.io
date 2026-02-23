@@ -1,0 +1,694 @@
+{
+  "generated_at": "2026-02-23 22:05:51 UTC",
+  "trending": [
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1",
+      "author": "deepseek-ai",
+      "downloads": 655850,
+      "likes": 13019,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "created_at": "2025-01-20",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "related_posts": []
+    },
+    {
+      "model_id": "black-forest-labs/FLUX.1-dev",
+      "author": "black-forest-labs",
+      "downloads": 689092,
+      "likes": 12334,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "image-generation",
+        "flux",
+        "en",
+        "license:other",
+        "endpoints_compatible",
+        "diffusers:FluxPipeline",
+        "region:us"
+      ],
+      "created_at": "2024-07-31",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "related_posts": []
+    },
+    {
+      "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "author": "stabilityai",
+      "downloads": 2078189,
+      "likes": 7469,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "onnx",
+        "safetensors",
+        "text-to-image",
+        "stable-diffusion",
+        "arxiv:2307.01952",
+        "arxiv:2211.01324",
+        "arxiv:2108.01073",
+        "arxiv:2112.10752",
+        "license:openrail++"
+      ],
+      "created_at": "2023-07-25",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "related_posts": []
+    },
+    {
+      "model_id": "CompVis/stable-diffusion-v1-4",
+      "author": "CompVis",
+      "downloads": 629410,
+      "likes": 6979,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "stable-diffusion",
+        "stable-diffusion-diffusers",
+        "text-to-image",
+        "arxiv:2207.12598",
+        "arxiv:2112.10752",
+        "arxiv:2103.00020",
+        "arxiv:2205.11487",
+        "arxiv:1910.09700"
+      ],
+      "created_at": "2022-08-20",
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+      "related_posts": []
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3-8B",
+      "author": "meta-llama",
+      "downloads": 1752121,
+      "likes": 6460,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "en",
+        "license:llama3"
+      ],
+      "created_at": "2024-04-17",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "related_posts": []
+    },
+    {
+      "model_id": "hexgrad/Kokoro-82M",
+      "author": "hexgrad",
+      "downloads": 8976641,
+      "likes": 5746,
+      "pipeline_tag": "text-to-speech",
+      "category": "Speech",
+      "tags": [
+        "text-to-speech",
+        "en",
+        "arxiv:2306.07691",
+        "arxiv:2203.02395",
+        "base_model:yl4579/StyleTTS2-LJSpeech",
+        "base_model:finetune:yl4579/StyleTTS2-LJSpeech",
+        "doi:10.57967/hf/4329",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "created_at": "2024-12-26",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "related_posts": []
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "author": "meta-llama",
+      "downloads": 5948053,
+      "likes": 5486,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en"
+      ],
+      "created_at": "2024-07-18",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "related_posts": []
+    },
+    {
+      "model_id": "openai/whisper-large-v3",
+      "author": "openai",
+      "downloads": 6214603,
+      "likes": 5412,
+      "pipeline_tag": "automatic-speech-recognition",
+      "category": "Speech",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "jax",
+        "safetensors",
+        "whisper",
+        "automatic-speech-recognition",
+        "audio",
+        "hf-asr-leaderboard",
+        "en",
+        "zh"
+      ],
+      "created_at": "2023-11-07",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "related_posts": []
+    },
+    {
+      "model_id": "bigscience/bloom",
+      "author": "bigscience",
+      "downloads": 3244,
+      "likes": 4985,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tensorboard",
+        "safetensors",
+        "bloom",
+        "text-generation",
+        "ak",
+        "ar",
+        "as",
+        "bm"
+      ],
+      "created_at": "2022-05-19",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "related_posts": []
+    },
+    {
+      "model_id": "stabilityai/stable-diffusion-3-medium",
+      "author": "stabilityai",
+      "downloads": 5238,
+      "likes": 4908,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusion-single-file",
+        "text-to-image",
+        "stable-diffusion",
+        "en",
+        "arxiv:2403.03206",
+        "license:other",
+        "region:us"
+      ],
+      "created_at": "2024-05-30",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
+      "related_posts": []
+    },
+    {
+      "model_id": "meta-llama/Llama-2-7b-chat-hf",
+      "author": "meta-llama",
+      "downloads": 357749,
+      "likes": 4709,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "llama-2",
+        "conversational",
+        "en"
+      ],
+      "created_at": "2023-07-13",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+      "related_posts": []
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "author": "mistralai",
+      "downloads": 630832,
+      "likes": 4639,
+      "pipeline_tag": "",
+      "category": "Other",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "mixtral",
+        "fr",
+        "it",
+        "de",
+        "es",
+        "en",
+        "base_model:mistralai/Mixtral-8x7B-v0.1",
+        "base_model:finetune:mistralai/Mixtral-8x7B-v0.1"
+      ],
+      "created_at": "2023-12-10",
+      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "related_posts": []
+    },
+    {
+      "model_id": "black-forest-labs/FLUX.1-schnell",
+      "author": "black-forest-labs",
+      "downloads": 676928,
+      "likes": 4636,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "image-generation",
+        "flux",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "diffusers:FluxPipeline",
+        "deploy:azure"
+      ],
+      "created_at": "2024-07-31",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "related_posts": []
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "author": "openai",
+      "downloads": 3501523,
+      "likes": 4517,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt_oss",
+        "text-generation",
+        "vllm",
+        "conversational",
+        "arxiv:2508.10925",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "mxfp4"
+      ],
+      "created_at": "2025-08-04",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "related_posts": []
+    },
+    {
+      "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "author": "sentence-transformers",
+      "downloads": 168517282,
+      "likes": 4501,
+      "pipeline_tag": "sentence-similarity",
+      "category": "Embeddings",
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "tf",
+        "rust",
+        "onnx",
+        "safetensors",
+        "openvino",
+        "bert",
+        "feature-extraction",
+        "sentence-similarity"
+      ],
+      "created_at": "2022-03-02",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "related_posts": []
+    },
+    {
+      "model_id": "meta-llama/Llama-2-7b",
+      "author": "meta-llama",
+      "downloads": 225,
+      "likes": 4449,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-2",
+        "text-generation",
+        "en",
+        "arxiv:2307.09288",
+        "license:llama2",
+        "region:us"
+      ],
+      "created_at": "2023-07-09",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b",
+      "related_posts": []
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "author": "openai",
+      "downloads": 5659688,
+      "likes": 4395,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt_oss",
+        "text-generation",
+        "vllm",
+        "conversational",
+        "arxiv:2508.10925",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "mxfp4"
+      ],
+      "created_at": "2025-08-04",
+      "url": "https://huggingface.co/openai/gpt-oss-20b",
+      "related_posts": []
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "author": "meta-llama",
+      "downloads": 1297691,
+      "likes": 4385,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en"
+      ],
+      "created_at": "2024-04-17",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "related_posts": []
+    },
+    {
+      "model_id": "Tongyi-MAI/Z-Image-Turbo",
+      "author": "Tongyi-MAI",
+      "downloads": 1012009,
+      "likes": 4152,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "en",
+        "arxiv:2511.22699",
+        "arxiv:2511.22677",
+        "arxiv:2511.13649",
+        "license:apache-2.0",
+        "diffusers:ZImagePipeline",
+        "deploy:azure"
+      ],
+      "created_at": "2025-11-25",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "related_posts": []
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-v0.1",
+      "author": "mistralai",
+      "downloads": 337727,
+      "likes": 4042,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "mistral",
+        "text-generation",
+        "pretrained",
+        "mistral-common",
+        "en",
+        "arxiv:2310.06825",
+        "license:apache-2.0"
+      ],
+      "created_at": "2023-09-20",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
+      "related_posts": []
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-V3",
+      "author": "deepseek-ai",
+      "downloads": 1282492,
+      "likes": 4024,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2412.19437",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible"
+      ],
+      "created_at": "2024-12-25",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "related_posts": []
+    },
+    {
+      "model_id": "lllyasviel/ControlNet-v1-1",
+      "author": "lllyasviel",
+      "downloads": 0,
+      "likes": 4002,
+      "pipeline_tag": "",
+      "category": "Other",
+      "tags": [
+        "license:openrail",
+        "region:us"
+      ],
+      "created_at": "2023-04-12",
+      "url": "https://huggingface.co/lllyasviel/ControlNet-v1-1",
+      "related_posts": []
+    },
+    {
+      "model_id": "WarriorMama777/OrangeMixs",
+      "author": "WarriorMama777",
+      "downloads": 965,
+      "likes": 3890,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "stable-diffusion",
+        "text-to-image",
+        "dataset:Nerfgun3/bad_prompt",
+        "license:creativeml-openrail-m",
+        "endpoints_compatible",
+        "diffusers:StableDiffusionPipeline",
+        "region:us"
+      ],
+      "created_at": "2022-12-04",
+      "url": "https://huggingface.co/WarriorMama777/OrangeMixs",
+      "related_posts": []
+    },
+    {
+      "model_id": "lllyasviel/ControlNet",
+      "author": "lllyasviel",
+      "downloads": 0,
+      "likes": 3789,
+      "pipeline_tag": "",
+      "category": "Other",
+      "tags": [
+        "license:openrail",
+        "region:us"
+      ],
+      "created_at": "2023-02-08",
+      "url": "https://huggingface.co/lllyasviel/ControlNet",
+      "related_posts": []
+    },
+    {
+      "model_id": "deepseek-ai/Janus-Pro-7B",
+      "author": "deepseek-ai",
+      "downloads": 25833,
+      "likes": 3565,
+      "pipeline_tag": "any-to-any",
+      "category": "Other",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "multi_modality",
+        "muiltimodal",
+        "text-to-image",
+        "unified-model",
+        "any-to-any",
+        "arxiv:2501.17811",
+        "license:mit",
+        "endpoints_compatible"
+      ],
+      "created_at": "2025-01-26",
+      "url": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
+      "related_posts": []
+    },
+    {
+      "model_id": "microsoft/phi-2",
+      "author": "microsoft",
+      "downloads": 1472696,
+      "likes": 3426,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "phi",
+        "text-generation",
+        "nlp",
+        "code",
+        "en",
+        "license:mit",
+        "text-generation-inference",
+        "endpoints_compatible"
+      ],
+      "created_at": "2023-12-13",
+      "url": "https://huggingface.co/microsoft/phi-2",
+      "related_posts": []
+    },
+    {
+      "model_id": "coqui/XTTS-v2",
+      "author": "coqui",
+      "downloads": 7368394,
+      "likes": 3403,
+      "pipeline_tag": "text-to-speech",
+      "category": "Speech",
+      "tags": [
+        "coqui",
+        "text-to-speech",
+        "license:other",
+        "region:us"
+      ],
+      "created_at": "2023-10-31",
+      "url": "https://huggingface.co/coqui/XTTS-v2",
+      "related_posts": []
+    },
+    {
+      "model_id": "stabilityai/stable-diffusion-3.5-large",
+      "author": "stabilityai",
+      "downloads": 42142,
+      "likes": 3369,
+      "pipeline_tag": "text-to-image",
+      "category": "Image Generation",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "stable-diffusion",
+        "en",
+        "arxiv:2403.03206",
+        "license:other",
+        "diffusers:StableDiffusion3Pipeline",
+        "region:us"
+      ],
+      "created_at": "2024-10-22",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+      "related_posts": []
+    },
+    {
+      "model_id": "google/gemma-7b",
+      "author": "google",
+      "downloads": 106656,
+      "likes": 3274,
+      "pipeline_tag": "text-generation",
+      "category": "Language Model",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "gemma",
+        "text-generation",
+        "arxiv:2305.14314",
+        "arxiv:2312.11805",
+        "arxiv:2009.03300",
+        "arxiv:1905.07830",
+        "arxiv:1911.11641"
+      ],
+      "created_at": "2024-02-08",
+      "url": "https://huggingface.co/google/gemma-7b",
+      "related_posts": [
+        {
+          "title": "Conductor Update: Introducing Automated Reviews (2026)",
+          "url": "/2026/02/22/top-tech-news-fc54ee3e-1024-11f1-8951-7ced8d233f72.html"
+        },
+        {
+          "title": "Conductor: Introducing context-driven development for Gemini CLI",
+          "url": "/2026/02/23/top-tech-news-fef47f86-10b7-11f1-8951-000d3a37d8d7.html"
+        }
+      ]
+    },
+    {
+      "model_id": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "author": "stabilityai",
+      "downloads": 147333,
+      "likes": 3233,
+      "pipeline_tag": "image-to-video",
+      "category": "Other",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "image-to-video",
+        "license:other",
+        "diffusers:StableVideoDiffusionPipeline",
+        "region:us"
+      ],
+      "created_at": "2023-11-20",
+      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+      "related_posts": []
+    }
+  ],
+  "new_releases": [],
+  "top_categories": [
+    {
+      "category": "Language Model",
+      "count": 13
+    },
+    {
+      "category": "Image Generation",
+      "count": 8
+    },
+    {
+      "category": "Other",
+      "count": 5
+    },
+    {
+      "category": "Speech",
+      "count": 3
+    },
+    {
+      "category": "Embeddings",
+      "count": 1
+    }
+  ]
+}
