@@ -15,6 +15,9 @@ DATA_DIR = "docs/_data"
 OUTPUT_JSON = os.path.join(DATA_DIR, "github.json")
 OUTPUT_DIR = "docs/github"
 OUTPUT_PAGE = os.path.join(OUTPUT_DIR, "trending.md")
+HISTORY_JSON = os.path.join(DATA_DIR, "github_history.json")
+STAR_DELTA_RISING_THRESHOLD = 50   # stars gained in 24h to qualify as "rising"
+FEATURED_COOLDOWN_DAYS = 30
 
 GH_SEARCH_URL = "https://api.github.com/search/repositories"
 
@@ -116,6 +119,94 @@ def _parse_repo(item):
     }
 
 
+def _load_history():
+    """Load history file. Returns dict with 'snapshots' and 'featured_repos' keys."""
+    if os.path.exists(HISTORY_JSON):
+        try:
+            with open(HISTORY_JSON, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+    return {"snapshots": {}, "featured_repos": {}}
+
+
+def _save_history(history):
+    """Save history, pruning snapshots older than 30 days."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    history["snapshots"] = {k: v for k, v in history["snapshots"].items() if k >= cutoff}
+    history["featured_repos"] = {k: v for k, v in history["featured_repos"].items() if v >= cutoff}
+
+    with open(HISTORY_JSON, 'w', encoding='utf-8') as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+    print(f"  History written: {HISTORY_JSON} ({len(history['snapshots'])} snapshots)")
+
+
+def _record_snapshot(repos, history):
+    """Record today's snapshot into history."""
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    snapshot = {}
+    for r in repos:
+        snapshot[r["name"]] = {"stars": r["stars"], "forks": r["forks"]}
+    history["snapshots"][today] = {"repos": snapshot}
+
+
+def _compute_deltas(repos, history):
+    """Compare today's repos against yesterday's snapshot. Returns dict of deltas and badges."""
+    yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+    yesterday_snapshot = history["snapshots"].get(yesterday, {}).get("repos", {})
+
+    deltas = {}
+    for repo in repos:
+        name = repo["name"]
+        today_stars = repo["stars"]
+        if name not in yesterday_snapshot:
+            deltas[name] = {"star_delta": 0, "badge": "new_entry"}
+        else:
+            prev_stars = yesterday_snapshot[name].get("stars", 0)
+            delta = today_stars - prev_stars
+            if delta >= STAR_DELTA_RISING_THRESHOLD:
+                badge = "rising"
+            elif delta <= 0:
+                badge = "cooling"
+            else:
+                badge = None
+            deltas[name] = {"star_delta": delta, "badge": badge}
+
+    return deltas
+
+
+def _pick_repo_of_the_day(repos, deltas, history):
+    """Select featured repo: not featured recently, highest momentum, language diversity."""
+    featured = history.get("featured_repos", {})
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=FEATURED_COOLDOWN_DAYS)).strftime("%Y-%m-%d")
+
+    recent_featured = {k for k, v in featured.items() if v >= cutoff}
+
+    # Get languages of last 3 featured repos
+    recent_by_date = sorted(
+        [(k, v) for k, v in featured.items() if v >= cutoff],
+        key=lambda x: x[1], reverse=True
+    )[:3]
+    recent_languages = set()
+    for fname, _ in recent_by_date:
+        for r in repos:
+            if r["name"] == fname:
+                recent_languages.add(r["language"])
+                break
+
+    candidates = [r for r in repos if r["name"] not in recent_featured]
+    if not candidates:
+        candidates = repos
+
+    def sort_key(r):
+        delta = deltas.get(r["name"], {}).get("star_delta", 0)
+        lang_bonus = 1 if r["language"] not in recent_languages else 0
+        return (delta, lang_bonus, r["stars"])
+
+    candidates.sort(key=sort_key, reverse=True)
+    return candidates[0] if candidates else None
+
+
 def _fetch_trending_repos():
     """Fetch trending repos from multiple GitHub Search queries. Returns deduplicated list."""
     now = datetime.now(timezone.utc)
@@ -151,7 +242,7 @@ def _fetch_trending_repos():
     return repos
 
 
-def _generate_page(repos):
+def _generate_page(repos, featured, deltas):
     """Generate the Jekyll markdown page with Chart.js graphs."""
     # Pre-compute stats for Chart.js (inline JSON in template)
     lang_counts = Counter(r["language"] for r in repos if r["language"] != "Unknown")
@@ -163,6 +254,16 @@ def _generate_page(repos):
     top10 = repos[:10]
     bar_labels = json.dumps([r["name"].split("/")[-1][:20] for r in top10])
     bar_data = json.dumps([r["stars"] for r in top10])
+
+    # Top movers data for chart
+    movers = sorted(
+        [r for r in repos if r.get("star_delta", 0) != 0],
+        key=lambda r: abs(r.get("star_delta", 0)),
+        reverse=True
+    )[:10]
+    mover_labels = json.dumps([r["name"].split("/")[-1][:20] for r in movers])
+    mover_data = json.dumps([r.get("star_delta", 0) for r in movers])
+    mover_colors = json.dumps(["#16a34a" if r.get("star_delta", 0) > 0 else "#dc2626" for r in movers])
 
     lines = [
         "---",
@@ -184,6 +285,43 @@ def _generate_page(repos):
         '  {% if most_starred %}<span style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold;">Most Starred: {{ most_starred.name }} ({{ most_starred.stars }})</span>{% endif %}',
         "</div>",
         "",
+    ]
+
+    # Repo of the Day section
+    if featured:
+        fd = deltas.get(featured["name"], {})
+        delta_val = fd.get("star_delta", 0)
+        delta_str = f"+{delta_val}" if delta_val > 0 else str(delta_val)
+        topic_html = ""
+        if featured.get("topics"):
+            topic_html = '<div style="margin-top:0.5em;">' + ' '.join(
+                f'<span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">{t}</span>'
+                for t in featured["topics"]
+            ) + '</div>'
+
+        lines += [
+            "## \U0001f3c6 Repo of the Day",
+            "",
+            '<div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">',
+            '  <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">',
+            f'    <img src="{featured["owner_avatar"]}&s=32" alt="" width="32" height="32" style="border-radius:50%;">',
+            f'    <strong style="font-size:1.2em;"><a href="{featured["repo_url"]}" target="_blank" rel="noopener">{featured["name"]}</a></strong>',
+            '    <span style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f;">\u2b50 Repo of the Day</span>',
+            f'    <span style="font-size:0.85em; color:#92400e;">{delta_str} stars today</span>',
+            '  </div>',
+            f'  <p style="margin:0.3em 0; color:#374151;">{featured["description"]}</p>',
+            '  <div style="display:flex; gap:1em; font-size:0.85em; color:#6b7280; flex-wrap:wrap;">',
+            f'    <span>&#9733; {featured["stars"]:,}</span>',
+            f'    <span>&#127860; {featured["forks"]:,}</span>',
+            f'    <span>{featured["language"]}</span>',
+            f'    <span>{featured["license"]}</span>',
+            '  </div>',
+            f'  {topic_html}',
+            '</div>',
+            "",
+        ]
+
+    lines += [
         "## Charts",
         "",
         '<div style="display:flex; gap:2em; flex-wrap:wrap; margin-bottom:2em;">',
@@ -195,6 +333,10 @@ def _generate_page(repos):
         '    <h3 style="font-size:1rem; margin-bottom:0.5rem;">Top Repos by Stars</h3>',
         '    <canvas id="starsChart" width="600" height="380"></canvas>',
         "  </div>",
+        '  <div style="flex:2; min-width:300px;">',
+        '    <h3 style="font-size:1rem; margin-bottom:0.5rem;">Top Movers (24h)</h3>',
+        '    <canvas id="moversChart" width="600" height="380"></canvas>',
+        '  </div>',
         "</div>",
         "",
         '<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>',
@@ -225,13 +367,26 @@ def _generate_page(repos):
         "    scales: { x: { ticks: { callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0) + 'k' : v; } } } }",
         "  }",
         "});",
+        "new Chart(document.getElementById('moversChart'), {",
+        "  type: 'bar',",
+        "  data: {",
+        f"    labels: {mover_labels},",
+        f"    datasets: [{{ label: 'Star Change', data: {mover_data}, backgroundColor: {mover_colors}, borderRadius: 4 }}]",
+        "  },",
+        "  options: {",
+        "    indexAxis: 'y',",
+        "    responsive: true,",
+        "    plugins: { legend: { display: false } },",
+        "    scales: { x: { ticks: { callback: function(v) { return (v > 0 ? '+' : '') + v; } } } }",
+        "  }",
+        "});",
         "</script>",
         "",
         "## Trending Repositories",
         "",
         "{% for repo in repos %}",
         '<div style="margin-bottom:1.2em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">',
-        '  <div style="display:flex; align-items:center; gap:0.5em;">',
+        '  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">',
         '    <img src="{{ repo.owner_avatar }}&s=24" alt="" width="24" height="24" style="border-radius:50%;" loading="lazy">',
         '    <strong><a href="{{ repo.repo_url }}" target="_blank" rel="noopener">{{ repo.name }}</a></strong>',
         "    {% if repo.language %}",
@@ -240,6 +395,13 @@ def _generate_page(repos):
         "    {% if repo.license != 'Unknown' %}",
         '      <span style="font-size:0.75em; color:#6b7280; border:1px solid #e5e7eb; padding:1px 6px; border-radius:8px;">{{ repo.license }}</span>',
         "    {% endif %}",
+        '    {% if repo.badge == "new_entry" %}',
+        '      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#dbeafe; color:#1e40af; font-weight:bold;">\U0001f195 NEW</span>',
+        '    {% elsif repo.badge == "rising" %}',
+        '      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#dcfce7; color:#166534; font-weight:bold;">\U0001f4c8 +{{ repo.star_delta }}</span>',
+        '    {% elsif repo.badge == "cooling" %}',
+        '      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#fee2e2; color:#991b1b; font-weight:bold;">\U0001f4c9 {{ repo.star_delta }}</span>',
+        '    {% endif %}',
         "  </div>",
         '  <p style="margin:0.3em 0; font-size:0.9em; color:#374151;">{{ repo.description }}</p>',
         '  <span style="font-size:0.85em; color:#6b7280;">',
@@ -247,6 +409,11 @@ def _generate_page(repos):
         "    &middot; &#127860; {{ repo.forks }}",
         "    &middot; Issues: {{ repo.open_issues }}",
         "    &middot; Updated: {{ repo.last_push | date: '%b %d, %Y' }}",
+        '    {% if repo.star_delta != 0 %}',
+        '      &middot; <span style="color:{% if repo.star_delta > 0 %}#16a34a{% else %}#dc2626{% endif %};">',
+        '        {% if repo.star_delta > 0 %}+{% endif %}{{ repo.star_delta }} today',
+        '      </span>',
+        '    {% endif %}',
         "  </span>",
         '  <br><span style="font-size:0.8em; color:#9ca3af;">',
         '    Owner: <a href="{{ repo.owner_url }}" target="_blank" rel="noopener" style="color:#6b7280;">{{ repo.owner_login }}</a>',
@@ -273,14 +440,33 @@ def _generate_page(repos):
 
 
 def publish_github_trending():
-    """Main entry point: fetch repos, generate JSON and page."""
+    """Main entry point: fetch repos, compute deltas, pick featured, generate outputs."""
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     repos = _fetch_trending_repos()
     print(f"Total trending repos: {len(repos)}")
 
-    # Compute stats
+    # History-based computation
+    history = _load_history()
+    deltas = _compute_deltas(repos, history)
+    featured = _pick_repo_of_the_day(repos, deltas, history)
+
+    # Inject delta data into each repo dict
+    for repo in repos:
+        d = deltas.get(repo["name"], {})
+        repo["star_delta"] = d.get("star_delta", 0)
+        repo["badge"] = d.get("badge")
+
+    # Record today's snapshot and featured repo
+    _record_snapshot(repos, history)
+    if featured:
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        history["featured_repos"][featured["name"]] = today
+        print(f"  Repo of the Day: {featured['name']}")
+    _save_history(history)
+
+    # Stats
     lang_counts = Counter(r["language"] for r in repos if r["language"] != "Unknown")
     top_language = lang_counts.most_common(1)[0][0] if lang_counts else "N/A"
 
@@ -289,6 +475,7 @@ def publish_github_trending():
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
         "total": len(repos),
         "top_language": top_language,
+        "repo_of_the_day": featured["name"] if featured else None,
         "repos": repos,
     }
 
@@ -296,7 +483,7 @@ def publish_github_trending():
         json.dump(output, f, indent=2, ensure_ascii=False)
     print(f"  JSON written: {OUTPUT_JSON}")
 
-    page_content = _generate_page(repos)
+    page_content = _generate_page(repos, featured, deltas)
     with open(OUTPUT_PAGE, 'w', encoding='utf-8') as f:
         f.write(page_content)
     print(f"  Page written: {OUTPUT_PAGE}")
