@@ -1,11 +1,11 @@
 import argparse
 
 
-def main(action: str):
+def main(action: str, niche: str = None):
     match action:
         case "news":
             from news import publish_news
-            publish_news()
+            publish_news(target_niche=niche)
         case "digest":
             from digest import publish_digest
             publish_digest()
@@ -23,13 +23,12 @@ def main(action: str):
             publish_github_trending()
         case _:
             from news import publish_news
-            publish_news()
+            publish_news(target_niche=niche)
 
 
-# Using the special variable
-# __name__
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Publish tech news")
     parser.add_argument("--action", type=str, default="news", help="Action: news, digest, trends, cves, models, github")
+    parser.add_argument("--niche", type=str, default=None, help="Target niche: ai, software-engineering, devtools, cloud, security")
     args = parser.parse_args()
-    main(action=args.action)
+    main(action=args.action, niche=args.niche)

@@ -14,20 +14,25 @@ from const import (
     DAILY_CATEGORIES_FILE,
     TITLE_BONUS,
     TITLE_PENALTY,
-    AI_SUBNICHES,
-    SECURITY_SUBNICHES,
+    NICHE_SUBNICHES,
 )
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
 
-def publish_news():
+def publish_news(target_niche=None):
     """Publish the best available post for each niche that hasn't hit its daily limit."""
     today_entries = get_today_subniches()
     published_any = False
 
-    for niche in sorted(NICHE_CATEGORIES):
+    niches_to_process = [target_niche] if target_niche else NICHE_CATEGORIES
+
+    for niche in niches_to_process:
+        if niche not in NICHE_CATEGORIES:
+            print(f"⚠️ Unknown niche: {niche}")
+            continue
+
         niche_entries = [e for e in today_entries if e.startswith(f"{niche}:") or e == niche]
         niche_count = len(niche_entries)
 
@@ -37,7 +42,6 @@ def publish_news():
 
         print(f"📊 [{niche}] Posts today: {niche_count}/{MAX_POSTS_PER_NICHE_PER_DAY}")
 
-        # Exclude sub-niches already covered today (across all niches)
         best_post = find_best_post(exclude_subniches=today_entries, target_niche=niche)
 
         if best_post:
@@ -193,6 +197,10 @@ def calculate_score(entry, source):
         score += 30   # Original engineering content
     elif source_type == 'startup':
         score += 20
+    elif source_type == 'cloud_news':
+        score += 30   # Cloud/infrastructure specialist content
+    elif source_type == 'se_blog':
+        score += 35   # Software engineering thought leaders
     elif source_type == 'community':
         score += 10
     # 'news' and 'aggregator' types: rely on community score or title patterns
@@ -238,14 +246,11 @@ def identify_category(entry):
 
 
 def identify_subniche(entry, main_cat):
-    """Identify the sub-niche within AI or Security."""
+    """Identify the sub-niche within any niche category."""
     text = (entry.get('title', '') + ' ' + ' '.join(entry.get('tags', []))).lower()
 
-    if main_cat == 'ai':
-        subniches = AI_SUBNICHES
-    elif main_cat == 'security':
-        subniches = SECURITY_SUBNICHES
-    else:
+    subniches = NICHE_SUBNICHES.get(main_cat)
+    if not subniches:
         return None
 
     best_sub = None
@@ -275,6 +280,10 @@ def generate_why_picked(entry):
         parts.append(f"original engineering content from {source_name}")
     elif source_type == 'security':
         parts.append(f"specialist source: {source_name}")
+    elif source_type == 'cloud_news':
+        parts.append(f"cloud infrastructure source: {source_name}")
+    elif source_type == 'se_blog':
+        parts.append(f"software engineering thought leader: {source_name}")
     elif source_type == 'aggregator' and community_score > 0:
         parts.append(f"{community_score} community points on {source_name}")
     else:
@@ -417,7 +426,7 @@ def create_post(news):
         f.write(f"**Source:** [{source_name}]({external_url}) | "
                 f"**Category:** {category_label} | **Published:** {date_str}\n\n")
         f.write("---\n\n")
-        f.write("*This article was curated by eof.news — signal for AI engineers and security practitioners.*\n")
+        f.write("*This article was curated by eof.news — signal for engineers who build.*\n")
 
     if os.environ.get("TWITTER_ENABLED", "").lower() == "true":
         try:

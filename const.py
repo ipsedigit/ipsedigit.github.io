@@ -7,16 +7,28 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 MAX_POSTS_PER_NICHE_PER_DAY = 3
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
-# Niche focus: AI + Security for topical authority and SEO
+# Niche focus: 5 niches for topical authority and SEO
 CONTENT_CATEGORIES = {
     'ai': ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'chatgpt',
            'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'neural', 'deep learning'],
     'security': ['security', 'hack', 'breach', 'vulnerability', 'privacy', 'encryption',
                  'cyber', 'malware', 'ransomware', 'exploit'],
+    'cloud': ['aws', 'amazon web services', 'gcp', 'google cloud', 'azure', 'kubernetes',
+              'k8s', 'docker', 'container', 'terraform', 'serverless', 'lambda', 'cloud-native',
+              'cloud native', 'iaas', 'paas', 'saas', 'devops', 'infrastructure as code'],
+    'devtools': ['framework', 'ide', 'vscode', 'jetbrains', 'neovim', 'compiler', 'linter',
+                 'package manager', 'npm', 'cargo', 'pip', 'sdk', 'cli tool', 'debugger',
+                 'developer tool', 'dev tool', 'developer experience', 'dx', 'monorepo',
+                 'webpack', 'vite', 'eslint', 'prettier', 'formatter'],
+    'software-engineering': ['architecture', 'design pattern', 'microservice', 'system design',
+                             'distributed system', 'event-driven', 'domain driven', 'ddd',
+                             'cqrs', 'event sourcing', 'technical debt', 'refactor', 'clean code',
+                             'solid principle', 'api design', 'scalability', 'observability',
+                             'circuit breaker', 'saga pattern'],
 }
 
-# Niche categories — only these are accepted for publishing
-NICHE_CATEGORIES = {'ai', 'security'}
+# Niche categories — ordered list for scheduling rotation
+NICHE_CATEGORIES = ['ai', 'software-engineering', 'devtools', 'cloud', 'security']
 
 # Sub-niches for AI
 AI_SUBNICHES = {
@@ -45,6 +57,54 @@ SECURITY_SUBNICHES = {
                      'pki', 'zero knowledge', 'post quantum', 'key management'],
     'vulnerability': ['cve', 'zero-day', '0day', 'exploit', 'patch', 'disclosure', 'poc',
                       'rce', 'privilege escalation', 'memory corruption'],
+}
+
+CLOUD_SUBNICHES = {
+    'aws': ['aws', 'amazon web services', 's3', 'ec2', 'lambda', 'ecs', 'eks', 'fargate',
+            'cloudformation', 'sagemaker', 'dynamodb', 'iam', 'vpc'],
+    'gcp-azure': ['gcp', 'google cloud', 'azure', 'bigquery', 'cloud run', 'cloud functions',
+                  'app engine', 'azure devops', 'cosmos db'],
+    'kubernetes': ['kubernetes', 'k8s', 'helm', 'istio', 'service mesh', 'kubectl', 'operator',
+                   'pod', 'ingress', 'kustomize', 'argocd'],
+    'serverless': ['serverless', 'lambda', 'cloud functions', 'edge computing', 'edge function',
+                   'vercel', 'netlify', 'cloudflare workers', 'faas'],
+    'networking-iaas': ['terraform', 'pulumi', 'ansible', 'vpc', 'load balancer', 'cdn',
+                        'dns', 'proxy', 'api gateway', 'infrastructure as code', 'iac'],
+}
+
+DEVTOOLS_SUBNICHES = {
+    'frameworks': ['react', 'next.js', 'vue', 'svelte', 'angular', 'django', 'flask', 'fastapi',
+                   'spring', 'rails', 'express', 'nest.js', 'htmx', 'astro'],
+    'languages': ['python', 'rust', 'go', 'typescript', 'kotlin', 'swift', 'zig', 'elixir',
+                  'java', 'c++', 'c#', 'ruby', 'scala', 'haskell'],
+    'ides-editors': ['vscode', 'jetbrains', 'intellij', 'neovim', 'vim', 'emacs', 'zed',
+                     'cursor', 'sublime', 'helix'],
+    'cicd': ['ci/cd', 'github actions', 'gitlab ci', 'jenkins', 'circleci', 'buildkite',
+             'drone', 'tekton', 'pipeline', 'continuous integration', 'continuous delivery'],
+    'package-managers': ['npm', 'yarn', 'pnpm', 'pip', 'poetry', 'cargo', 'gradle', 'maven',
+                         'bun', 'deno', 'homebrew', 'apt', 'nix'],
+}
+
+SE_SUBNICHES = {
+    'architecture': ['architecture', 'microservice', 'monolith', 'event-driven', 'hexagonal',
+                     'clean architecture', 'layered', 'modular', 'domain driven', 'ddd'],
+    'design-patterns': ['design pattern', 'factory', 'singleton', 'observer', 'strategy',
+                        'adapter', 'decorator', 'repository pattern', 'cqrs', 'event sourcing',
+                        'saga pattern', 'circuit breaker'],
+    'methodologies': ['agile', 'scrum', 'kanban', 'tdd', 'bdd', 'extreme programming', 'xp',
+                      'pair programming', 'mob programming', 'code review', 'sprint'],
+    'api-design': ['api design', 'rest', 'graphql', 'grpc', 'openapi', 'swagger', 'webhook',
+                   'websocket', 'api gateway', 'rate limiting', 'pagination', 'versioning'],
+    'performance': ['performance', 'scalability', 'caching', 'load testing', 'profiling',
+                    'latency', 'throughput', 'optimization', 'benchmark', 'concurrency'],
+}
+
+NICHE_SUBNICHES = {
+    'ai': AI_SUBNICHES,
+    'security': SECURITY_SUBNICHES,
+    'cloud': CLOUD_SUBNICHES,
+    'devtools': DEVTOOLS_SUBNICHES,
+    'software-engineering': SE_SUBNICHES,
 }
 
 # =============================================================================
@@ -261,6 +321,70 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'startup',
     },
+
+    # --- TIER 7: Cloud & Infrastructure ---
+    'thenewstack': {
+        'name': 'The New Stack',
+        'feed_url': 'https://thenewstack.io/feed/',
+        'min_score': 0,
+        'type': 'cloud_news',
+    },
+    'devops_com': {
+        'name': 'DevOps.com',
+        'feed_url': 'https://devops.com/feed/',
+        'min_score': 0,
+        'type': 'cloud_news',
+    },
+    'hashicorp': {
+        'name': 'HashiCorp Blog',
+        'feed_url': 'https://www.hashicorp.com/blog/feed.xml',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+    'docker_blog': {
+        'name': 'Docker Blog',
+        'feed_url': 'https://www.docker.com/blog/feed/',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+    'k8s_blog': {
+        'name': 'Kubernetes Blog',
+        'feed_url': 'https://kubernetes.io/feed.xml',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+
+    # --- TIER 8: DevTools & Software Engineering ---
+    'infoworld': {
+        'name': 'InfoWorld',
+        'feed_url': 'https://www.infoworld.com/feed/',
+        'min_score': 0,
+        'type': 'news',
+    },
+    'devto': {
+        'name': 'dev.to',
+        'feed_url': 'https://dev.to/feed',
+        'min_score': 0,
+        'type': 'community',
+    },
+    'martinfowler': {
+        'name': 'Martin Fowler',
+        'feed_url': 'https://martinfowler.com/feed.atom',
+        'min_score': 0,
+        'type': 'se_blog',
+    },
+    'pragmatic_eng': {
+        'name': 'The Pragmatic Engineer',
+        'feed_url': 'https://newsletter.pragmaticengineer.com/feed',
+        'min_score': 0,
+        'type': 'se_blog',
+    },
+    'bytebytego': {
+        'name': 'ByteByteGo',
+        'feed_url': 'https://blog.bytebytego.com/feed',
+        'min_score': 0,
+        'type': 'se_blog',
+    },
 }
 
 # =============================================================================
@@ -274,6 +398,9 @@ TITLE_BONUS = {
     r'guide|tutorial': 15,                             # Tutorials
     r'show\s+hn': 35,                                  # Community-built projects
     r'(hack|breach|vulnerab|exploit|leak)': 40,        # Strong security signal
+    r'(kubernetes|k8s|docker|container|cloud)': 25,    # Cloud & infrastructure
+    r'(framework|library|sdk|release|v\d)': 20,        # DevTools signal
+    r'(architecture|system design|scalab|pattern)': 20, # Software engineering
 }
 
 TITLE_PENALTY = {

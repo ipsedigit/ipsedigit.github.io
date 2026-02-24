@@ -2,17 +2,30 @@ name: Daily News Publisher
 
 on:
   schedule:
-    # 6 runs/day — each publishes 1 post per niche (AI + Security) = up to 6 AI + 6 Security
-    - cron: '0 6 * * *'    # 07:00 Rome - Early morning
-    - cron: '0 9 * * *'    # 10:00 Rome - Mid morning
-    - cron: '0 12 * * *'   # 13:00 Rome - Midday
-    - cron: '0 15 * * *'   # 16:00 Rome - Afternoon
-    - cron: '0 18 * * *'   # 19:00 Rome - Evening
-    - cron: '0 21 * * *'   # 22:00 Rome - Night
+    - cron: '0 6 * * *'
+    - cron: '0 7 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 9 * * *'
+    - cron: '0 10 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 13 * * *'
+    - cron: '0 14 * * *'
+    - cron: '0 15 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 17 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 19 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch:
+    inputs:
+      niche:
+        description: 'Target niche (ai, software-engineering, devtools, cloud, security)'
+        required: false
+        default: ''
 
 jobs:
-  run-daily-job:
+  publish-news:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,6 +49,21 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Determine target niche
+      id: niche
+      run: |
+        if [ -n "${{ github.event.inputs.niche }}" ]; then
+          echo "target=${{ github.event.inputs.niche }}" >> $GITHUB_OUTPUT
+        else
+          HOUR=$(date -u +%H)
+          # Niche rotation: ai(0), software-engineering(1), devtools(2), cloud(3), security(4)
+          # Hours 6-20 UTC, cycling every 5 hours
+          NICHES=("ai" "software-engineering" "devtools" "cloud" "security")
+          INDEX=$(( (HOUR - 6) % 5 ))
+          echo "target=${NICHES[$INDEX]}" >> $GITHUB_OUTPUT
+        fi
+        echo "Publishing for niche: $(cat $GITHUB_OUTPUT | grep target | cut -d= -f2)"
+
     - name: Run main.py
       env:
         TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
@@ -43,13 +71,14 @@ jobs:
         TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
         TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
         TWITTER_ENABLED: "true"
-      run: python main.py --action=news
+      run: python main.py --action=news --niche=${{ steps.niche.outputs.target }}
 
     - name: Commit and Push changes
       run: |
         find . -type d -name "__pycache__" -exec rm -r {} +
         find . -name "*.pyc" -delete
         git add .
+        NICHE="${{ steps.niche.outputs.target }}"
         TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-        git commit -m "Auto: Daily news update at $TIMESTAMP" || echo "No changes to commit"
+        git commit -m "Auto: ${NICHE} news update at ${TIMESTAMP}" || echo "No changes to commit"
         git push origin main

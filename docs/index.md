@@ -149,6 +149,35 @@ body {
 .quick-nav a:hover {
   color: #0066cc;
 }
+
+/* Niche sections */
+.niche-section {
+  margin-bottom: 2.5rem;
+}
+
+.niche-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #111;
+}
+
+.niche-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.niche-icon {
+  margin-right: 0.4rem;
+}
+
+.niche-count {
+  font-size: 0.8rem;
+  color: #888;
+}
 </style>
 
 <div class="page-header">
@@ -168,50 +197,71 @@ body {
   {% endif %}
 </div>
 
-{% assign post_count = 0 %}
-{% for post in site.posts %}
-{% assign post_count = post_count | plus: 1 %}
+{% assign niche_order = "ai,software-engineering,devtools,cloud,security" | split: "," %}
+{% assign niche_labels = "Artificial Intelligence,Software Engineering,Developer Tools,Cloud & Infrastructure,Security" | split: "," %}
+{% assign niche_icons = "🤖,🏗️,🔧,☁️,🔐" | split: "," %}
 
-<article class="post-item">
-  <h2 class="post-title">
-    {% if post.external_url %}
-    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
-    {% else %}
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% endif %}
-  </h2>
-  <div class="post-meta">
-    {{ post.date | date: "%b %d, %Y" }}
-    {% if post.source %} · {{ post.source }}{% endif %}
-    {% if post.categories.size > 0 %}
-    · <span class="post-tags">
-      {% for category in post.categories %}
-      {% assign tag_slug = category | slugify: "latin" %}
-      <a href="/tags/{{ tag_slug }}/">{{ category }}</a>
-      {% endfor %}
-    </span>
+{% for i in (0..4) %}
+  {% assign niche = niche_order[i] %}
+  {% assign label = niche_labels[i] %}
+  {% assign icon = niche_icons[i] %}
+  {% assign niche_posts = site.posts | where: "niche_category", niche %}
+
+  {% if niche_posts.size > 0 %}
+  <section class="niche-section">
+    <div class="niche-header">
+      <h2 class="niche-heading"><span class="niche-icon">{{ icon }}</span> {{ label }}</h2>
+      <span class="niche-count">{{ niche_posts.size }} articles</span>
+    </div>
+
+    {% assign count = 0 %}
+    {% for post in niche_posts %}
+      {% if count >= 3 %}{% break %}{% endif %}
+
+      <article class="post-item">
+        <h3 class="post-title">
+          {% if post.external_url %}
+          <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+          {% else %}
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% endif %}
+        </h3>
+        <div class="post-meta">
+          {{ post.date | date: "%b %d, %Y" }}
+          {% if post.source %} · {{ post.source }}{% endif %}
+          {% if post.categories.size > 0 %}
+          · <span class="post-tags">
+            {% for category in post.categories %}
+            {% assign tag_slug = category | slugify: "latin" %}
+            <a href="/tags/{{ tag_slug }}/">{{ category }}</a>
+            {% endfor %}
+          </span>
+          {% endif %}
+        </div>
+        {% if post.description %}
+        <p class="post-preview">{{ post.description | truncate: 160 }}</p>
+        {% endif %}
+        {% if post.image %}
+        <div class="post-image">
+          <img src="{{ post.image }}" alt="" loading="lazy">
+        </div>
+        {% endif %}
+      </article>
+
+      {% assign count = count | plus: 1 %}
+    {% endfor %}
+  </section>
+
+  {% if i == 2 %}
+  <div class="ad-space">
+    {% if site.adsense_id %}
+    <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="MID" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     {% endif %}
   </div>
-  {% if post.description %}
-  <p class="post-preview">{{ post.description | truncate: 160 }}</p>
   {% endif %}
-  {% if post.image %}
-  <div class="post-image">
-    <img src="{{ post.image }}" alt="" loading="lazy">
-  </div>
-  {% endif %}
-</article>
 
-{% assign mod = post_count | modulo: 8 %}
-{% if mod == 0 %}
-<div class="ad-space">
-  {% if site.adsense_id %}
-  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="MID" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   {% endif %}
-</div>
-{% endif %}
-
 {% endfor %}
 
 <div class="ad-space" id="ad-bottom">
