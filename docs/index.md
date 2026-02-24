@@ -150,6 +150,55 @@ body {
   color: #0066cc;
 }
 
+/* Repo of the Day */
+.repo-of-the-day {
+  margin-bottom: 2rem;
+  padding: 1em;
+  border: 2px solid #f59e0b;
+  border-radius: 12px;
+  background: #fffbeb;
+}
+.repo-of-the-day .rotd-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+  flex-wrap: wrap;
+}
+.repo-of-the-day .rotd-badge {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  background: #fbbf24;
+  color: #78350f;
+  font-weight: 600;
+}
+.repo-of-the-day .rotd-delta {
+  font-size: 0.85em;
+  color: #92400e;
+}
+.repo-of-the-day .rotd-desc {
+  margin: 0.3em 0;
+  color: #374151;
+  font-size: 0.9em;
+}
+.repo-of-the-day .rotd-stats {
+  display: flex;
+  gap: 1em;
+  font-size: 0.85em;
+  color: #6b7280;
+  flex-wrap: wrap;
+}
+.repo-of-the-day .rotd-topics span {
+  display: inline-block;
+  padding: 1px 6px;
+  margin: 2px 2px 0 0;
+  background: #fef3c7;
+  border-radius: 6px;
+  color: #92400e;
+  font-size: 0.75em;
+}
+
 /* Niche sections */
 .niche-section {
   margin-bottom: 2.5rem;
@@ -196,6 +245,38 @@ body {
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   {% endif %}
 </div>
+
+{% if site.data.github.repo_of_the_day %}
+  {% assign rotd_name = site.data.github.repo_of_the_day %}
+  {% for repo in site.data.github.repos %}
+    {% if repo.name == rotd_name %}
+      {% assign rotd = repo %}
+    {% endif %}
+  {% endfor %}
+  {% if rotd %}
+  <div class="repo-of-the-day">
+    <div class="rotd-header">
+      <img src="{{ rotd.owner_avatar }}&s=28" alt="" width="28" height="28" style="border-radius:50%;">
+      <strong style="font-size:1.1em;"><a href="{{ rotd.repo_url }}" target="_blank" rel="noopener">{{ rotd.name }}</a></strong>
+      <span class="rotd-badge">🏆 Repo of the Day</span>
+      {% if rotd.star_delta and rotd.star_delta != 0 %}
+        <span class="rotd-delta">{% if rotd.star_delta > 0 %}+{% endif %}{{ rotd.star_delta }} stars today</span>
+      {% endif %}
+    </div>
+    <p class="rotd-desc">{{ rotd.description }}</p>
+    <div class="rotd-stats">
+      <span>&#9733; {{ rotd.stars }}</span>
+      <span>{{ rotd.language }}</span>
+      <span>{{ rotd.license }}</span>
+    </div>
+    {% if rotd.topics.size > 0 %}
+    <div class="rotd-topics" style="margin-top:0.4em;">
+      {% for topic in rotd.topics %}<span>{{ topic }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endif %}
 
 {% assign niche_order = "ai,software-engineering,devtools,cloud,security" | split: "," %}
 {% assign niche_labels = "Artificial Intelligence,Software Engineering,Developer Tools,Cloud & Infrastructure,Security" | split: "," %}
