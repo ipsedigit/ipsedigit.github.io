@@ -35,8 +35,8 @@ permalink: /github/
 new Chart(document.getElementById('langChart'), {
   type: 'doughnut',
   data: {
-    labels: ["TypeScript", "Python", "Shell", "JavaScript", "Markdown", "C", "C++", "Dart", "MDX", "Batchfile"],
-    datasets: [{ data: [8, 8, 3, 2, 1, 1, 1, 1, 1, 1], backgroundColor: ["#3178c6", "#3572A5", "#89e051", "#f1e05a", "#9ca3af", "#555555", "#f34b7d", "#00B4AB", "#9ca3af", "#9ca3af"] }]
+    labels: ["TypeScript", "Python", "Shell", "JavaScript", "C", "C++", "Dart", "MDX", "Batchfile", "Go"],
+    datasets: [{ data: [8, 8, 3, 2, 1, 1, 1, 1, 1, 1], backgroundColor: ["#3178c6", "#3572A5", "#89e051", "#f1e05a", "#555555", "#f34b7d", "#00B4AB", "#9ca3af", "#9ca3af", "#00ADD8"] }]
   },
   options: {
     responsive: true,
@@ -48,8 +48,8 @@ new Chart(document.getElementById('langChart'), {
 new Chart(document.getElementById('starsChart'), {
   type: 'bar',
   data: {
-    labels: ["build-your-own-x", "freeCodeCamp", "free-programming-boo", "developer-roadmap", "awesome-selfhosted", "react", "openclaw", "linux", "tensorflow", "ohmyzsh"],
-    datasets: [{ label: 'Stars', data: [468358, 437451, 382984, 349665, 274781, 243315, 221121, 218447, 193891, 184951], backgroundColor: '#f59e0b', borderRadius: 4 }]
+    labels: ["freeCodeCamp", "free-programming-boo", "developer-roadmap", "awesome-selfhosted", "react", "openclaw", "linux", "tensorflow", "ohmyzsh", "vscode"],
+    datasets: [{ label: 'Stars', data: [437473, 382997, 349687, 274854, 243332, 223422, 218502, 193895, 184971, 182028], backgroundColor: '#f59e0b', borderRadius: 4 }]
   },
   options: {
     indexAxis: 'y',

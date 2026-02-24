@@ -145,3 +145,9 @@ https://developers.googleblog.com/conductor-update-introducing-automated-reviews
 https://huggingface.co/blog/tiiuae/falcon-h1-arabic
 https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/
 https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html
+https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html
+https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html
+https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html
+https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html
+https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/
+https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html

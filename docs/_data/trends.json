@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-02-23 22:02:48 UTC",
-  "period": "2026-02-16 to 2026-02-23",
+  "generated_at": "2026-02-24 08:04:56 UTC",
+  "period": "2026-02-17 to 2026-02-24",
   "rising_topics": [
     {
       "topic": "security",
-      "count_this_week": 12,
+      "count_this_week": 13,
       "count_prev_week": 0,
-      "change": 12,
+      "change": 13,
       "velocity": "rising"
     },
     {
       "topic": "artificial intelligence",
-      "count_this_week": 13,
+      "count_this_week": 15,
       "count_prev_week": 4,
-      "change": 9,
+      "change": 11,
       "velocity": "rising"
     },
     {
@@ -24,14 +24,14 @@
       "velocity": "rising"
     },
     {
-      "topic": "llm",
+      "topic": "cybersecurity",
       "count_this_week": 3,
       "count_prev_week": 0,
       "change": 3,
       "velocity": "rising"
     },
     {
-      "topic": "gemini (google ai)",
+      "topic": "llm",
       "count_this_week": 3,
       "count_prev_week": 0,
       "change": 3,
@@ -45,28 +45,14 @@
       "velocity": "rising"
     },
     {
-      "topic": "ai agents",
-      "count_this_week": 2,
+      "topic": "gemini (google ai)",
+      "count_this_week": 3,
       "count_prev_week": 0,
-      "change": 2,
+      "change": 3,
       "velocity": "rising"
     },
     {
       "topic": "threat-intel",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "cybersecurity",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "exploit",
       "count_this_week": 2,
       "count_prev_week": 0,
       "change": 2,
@@ -80,6 +66,27 @@
       "velocity": "rising"
     },
     {
+      "topic": "exploit",
+      "count_this_week": 2,
+      "count_prev_week": 0,
+      "change": 2,
+      "velocity": "rising"
+    },
+    {
+      "topic": "malware",
+      "count_this_week": 2,
+      "count_prev_week": 0,
+      "change": 2,
+      "velocity": "rising"
+    },
+    {
+      "topic": "ai agents",
+      "count_this_week": 2,
+      "count_prev_week": 0,
+      "change": 2,
+      "velocity": "rising"
+    },
+    {
       "topic": "cve",
       "count_this_week": 2,
       "count_prev_week": 0,
@@ -87,21 +94,14 @@
       "velocity": "rising"
     },
     {
-      "topic": "python",
+      "topic": "hugging face",
       "count_this_week": 1,
       "count_prev_week": 0,
       "change": 1,
       "velocity": "rising"
     },
     {
-      "topic": "software architecture",
-      "count_this_week": 1,
-      "count_prev_week": 0,
-      "change": 1,
-      "velocity": "rising"
-    },
-    {
-      "topic": "kubernetes",
+      "topic": "threat intelligence",
       "count_this_week": 1,
       "count_prev_week": 0,
       "change": 1,
@@ -117,13 +117,6 @@
       "velocity": "falling"
     },
     {
-      "topic": "large language models",
-      "count_this_week": 0,
-      "count_prev_week": 1,
-      "change": -1,
-      "velocity": "falling"
-    },
-    {
       "topic": "mysql",
       "count_this_week": 0,
       "count_prev_week": 1,
@@ -132,6 +125,13 @@
     },
     {
       "topic": "openai",
+      "count_this_week": 0,
+      "count_prev_week": 1,
+      "change": -1,
+      "velocity": "falling"
+    },
+    {
+      "topic": "large language models",
       "count_this_week": 0,
       "count_prev_week": 1,
       "change": -1,
@@ -150,7 +150,7 @@
   "active_sources": [
     {
       "source": "The Hacker News",
-      "count": 13
+      "count": 15
     },
     {
       "source": "Google Developers",
@@ -165,11 +165,7 @@
       "count": 1
     },
     {
-      "source": "Dropbox Tech",
-      "count": 1
-    },
-    {
-      "source": "freeCodeCamp",
+      "source": "Schneier on Security",
       "count": 1
     },
     {
@@ -177,7 +173,7 @@
       "count": 1
     },
     {
-      "source": "Schneier on Security",
+      "source": "freeCodeCamp",
       "count": 1
     }
   ],
@@ -201,12 +197,30 @@
       "niche_category": "security"
     },
     {
+      "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog (2026)",
+      "url": "/2026/02/22/top-tech-news-2d93ebd8-0fb9-11f1-8951-7ced8d1f6f39.html",
+      "external_url": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
+      "score": 95,
+      "source": "The Hacker News",
+      "date": "2026-02-22",
+      "niche_category": "security"
+    },
+    {
       "title": "From Exposure to Exploitation: How AI Collapses Your Response Window",
       "url": "/2026/02/20/top-tech-news-e42a7a6c-0e27-11f1-8951-7ced8dc8eaad.html",
       "external_url": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
       "score": 95,
       "source": "The Hacker News",
       "date": "2026-02-20",
+      "niche_category": "ai"
+    },
+    {
+      "title": "AI Found Twelve New Vulnerabilities in OpenSSL (2026)",
+      "url": "/2026/02/22/top-tech-news-c2d86696-0fec-11f1-8951-00224844be19.html",
+      "external_url": "https://www.schneier.com/blog/archives/2026/02/ai-found-twelve-new-vulnerabilities-in-openssl.html",
+      "score": 95,
+      "source": "Schneier on Security",
+      "date": "2026-02-22",
       "niche_category": "ai"
     },
     {
@@ -219,24 +233,6 @@
       "niche_category": "ai"
     },
     {
-      "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog (2026)",
-      "url": "/2026/02/22/top-tech-news-2d93ebd8-0fb9-11f1-8951-7ced8d1f6f39.html",
-      "external_url": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
-      "score": 95,
-      "source": "The Hacker News",
-      "date": "2026-02-22",
-      "niche_category": "security"
-    },
-    {
-      "title": "AI Found Twelve New Vulnerabilities in OpenSSL (2026)",
-      "url": "/2026/02/22/top-tech-news-c2d86696-0fec-11f1-8951-00224844be19.html",
-      "external_url": "https://www.schneier.com/blog/archives/2026/02/ai-found-twelve-new-vulnerabilities-in-openssl.html",
-      "score": 95,
-      "source": "Schneier on Security",
-      "date": "2026-02-22",
-      "niche_category": "ai"
-    },
-    {
       "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
       "url": "/2026/02/23/top-tech-news-23c86af4-10f2-11f1-8951-7c1e52a5e07d.html",
       "external_url": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
@@ -244,6 +240,15 @@
       "source": "The Hacker News",
       "date": "2026-02-23",
       "niche_category": "security"
+    },
+    {
+      "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Passw",
+      "url": "/2026/02/24/top-tech-news-71e1be56-114d-11f1-8951-7ced8db2d567.html",
+      "external_url": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
+      "score": 85,
+      "source": "The Hacker News",
+      "date": "2026-02-24",
+      "niche_category": "ai"
     },
     {
       "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Releas",
@@ -262,17 +267,8 @@
       "source": "Hugging Face Blog",
       "date": "2026-02-23",
       "niche_category": "ai"
-    },
-    {
-      "title": "Conductor Update: Introducing Automated Reviews (2026)",
-      "url": "/2026/02/22/top-tech-news-fc54ee3e-1024-11f1-8951-7ced8d233f72.html",
-      "external_url": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
-      "score": 80,
-      "source": "Google Developers",
-      "date": "2026-02-22",
-      "niche_category": "ai"
     }
   ],
-  "total_posts_this_week": 26,
+  "total_posts_this_week": 27,
   "total_posts_prev_week": 7
 }
