@@ -29,7 +29,7 @@ layout: base
     "@type": "WebPage",
     "@id": "{{ site.url }}/security/cves/{{ cve.id }}/"
   },{% if cve.cisa_kev %}
-  "citation": "CISA Known Exploited Vulnerabilities Catalog",{% endif %}{% if cve.epss_score > 0 %}
+  "citation": "CISA Known Exploited Vulnerabilities Catalog",{% endif %}{% assign epss_num = cve.epss_score | plus: 0 %}{% if epss_num > 0 %}
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "EPSS Score", "value": "{{ cve.epss_score }}" },
     { "@type": "PropertyValue", "name": "EPSS Percentile", "value": "{{ cve.epss_percentile }}" }
@@ -222,7 +222,7 @@ body {
     <span style="font-size: 0.85em; color: #6b7280;">({{ cve.epss_percentile }}th percentile)</span>
     <div class="cve-epss-bar">
       <div class="cve-epss-bar__track">
-        <div class="cve-epss-bar__fill" style="width: {{ cve.epss_score | times: 100 }}%; background: {% if cve.epss_score >= 0.7 %}#dc2626{% elsif cve.epss_score >= 0.3 %}#ea580c{% elsif cve.epss_score >= 0.1 %}#ca8a04{% else %}#6b7280{% endif %};"></div>
+        {% assign epss_val = cve.epss_score | plus: 0.0 %}<div class="cve-epss-bar__fill" style="width: {{ cve.epss_score | times: 100 }}%; background: {% if epss_val >= 0.7 %}#dc2626{% elsif epss_val >= 0.3 %}#ea580c{% elsif epss_val >= 0.1 %}#ca8a04{% else %}#6b7280{% endif %};"></div>
       </div>
       <span style="font-size: 0.8em; color: #9ca3af;">Probability of exploit in next 30 days</span>
     </div>
