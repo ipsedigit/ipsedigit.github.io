@@ -147,3 +147,5 @@ https://developers.googleblog.com/conductor-introducing-context-driven-developme
 https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html
 https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html
 https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html
+https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html
+https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html
