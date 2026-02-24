@@ -57,10 +57,14 @@ defaults:
 
 # Build settings
 theme: minima
+paginate: 15
+paginate_path: "/page/:num/"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 
 # Exclude from processing.
