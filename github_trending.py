@@ -250,8 +250,11 @@ def _fetch_trending_repos():
     return repos
 
 
-def _generate_page(repos, featured, deltas):
+def _generate_page(repos, featured, deltas, history=None):
     """Generate the Jekyll markdown page with Chart.js graphs."""
+    if history is None:
+        history = {"snapshots": {}, "featured_repos": {}}
+
     # Pre-compute stats for Chart.js (inline JSON in template)
     lang_counts = Counter(r["language"] for r in repos if r["language"] != "Unknown")
     top_langs = lang_counts.most_common(10)
@@ -272,6 +275,77 @@ def _generate_page(repos, featured, deltas):
     mover_labels = json.dumps([r["name"].split("/")[-1][:20] for r in movers])
     mover_data = json.dumps([r.get("star_delta", 0) for r in movers])
     mover_colors = json.dumps(["#16a34a" if r.get("star_delta", 0) > 0 else "#dc2626" for r in movers])
+
+    # --- New entries per day (from history) ---
+    snapshots = history.get("snapshots", {})
+    sorted_dates = sorted(snapshots.keys())[-14:]  # last 14 days
+    new_entries_labels = []
+    new_entries_data = []
+    for i, d in enumerate(sorted_dates):
+        new_entries_labels.append(d[5:])  # "MM-DD"
+        if i == 0:
+            new_entries_data.append(0)
+        else:
+            prev_date = sorted_dates[i - 1]
+            prev_names = set(snapshots[prev_date].get("repos", {}).keys())
+            curr_names = set(snapshots[d].get("repos", {}).keys())
+            new_entries_data.append(len(curr_names - prev_names))
+    new_entries_labels_json = json.dumps(new_entries_labels)
+    new_entries_data_json = json.dumps(new_entries_data)
+
+    # --- Language trends over time (from history) ---
+    # Track top 5 languages across all snapshots
+    all_lang_counts = Counter()
+    for d in sorted_dates:
+        for rname, rdata in snapshots[d].get("repos", {}).items():
+            pass  # snapshots only have stars/forks, not language
+    # We need language from current repos - build a name->language map
+    lang_map = {r["name"]: r["language"] for r in repos}
+    top5_langs = [l[0] for l in lang_counts.most_common(5)]
+    lang_trend_datasets = []
+    lang_trend_colors = ["#3572A5", "#f1e05a", "#3178c6", "#dea584", "#00ADD8"]
+    for idx, lang in enumerate(top5_langs):
+        counts = []
+        for d in sorted_dates:
+            repo_names = set(snapshots[d].get("repos", {}).keys())
+            count = sum(1 for n in repo_names if lang_map.get(n) == lang)
+            counts.append(count)
+        lang_trend_datasets.append({
+            "label": lang,
+            "data": counts,
+            "borderColor": lang_trend_colors[idx % len(lang_trend_colors)],
+            "backgroundColor": lang_trend_colors[idx % len(lang_trend_colors)] + "33",
+            "fill": True,
+            "tension": 0.3,
+        })
+    lang_trend_labels_json = json.dumps(new_entries_labels)  # same date labels
+    lang_trend_datasets_json = json.dumps(lang_trend_datasets)
+
+    # --- Activity heatmap (push day of week from current repos) ---
+    day_counts = [0] * 7  # Mon=0 ... Sun=6
+    day_names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    for r in repos:
+        if r.get("last_push"):
+            try:
+                push_dt = datetime.fromisoformat(r["last_push"].replace("Z", "+00:00"))
+                day_counts[push_dt.weekday()] += 1
+            except (ValueError, AttributeError):
+                pass
+    heatmap_labels_json = json.dumps(day_names)
+    heatmap_data_json = json.dumps(day_counts)
+    # Color intensity based on count
+    max_count = max(day_counts) if day_counts else 1
+    heatmap_colors_json = json.dumps([
+        f"rgba(59, 130, 246, {max(0.2, c / max_count)})" for c in day_counts
+    ])
+
+    # --- Topic cloud (most common topics) ---
+    topic_counts = Counter()
+    for r in repos:
+        for t in r.get("topics", []):
+            topic_counts[t] += 1
+    top_topics = topic_counts.most_common(20)
+    max_topic = top_topics[0][1] if top_topics else 1
 
     lines = [
         "---",
@@ -347,6 +421,41 @@ def _generate_page(repos, featured, deltas):
         '  </div>',
         "</div>",
         "",
+        '<div style="display:flex; gap:2em; flex-wrap:wrap; margin-bottom:2em;">',
+        '  <div style="flex:1; min-width:300px;">',
+        '    <h3 style="font-size:1rem; margin-bottom:0.5rem;">New Entries Per Day</h3>',
+        '    <canvas id="newEntriesChart" width="500" height="300"></canvas>',
+        '  </div>',
+        '  <div style="flex:1; min-width:300px;">',
+        '    <h3 style="font-size:1rem; margin-bottom:0.5rem;">Language Trends (14d)</h3>',
+        '    <canvas id="langTrendChart" width="500" height="300"></canvas>',
+        '  </div>',
+        "</div>",
+        "",
+        '<div style="display:flex; gap:2em; flex-wrap:wrap; margin-bottom:2em;">',
+        '  <div style="flex:1; min-width:300px; max-width:400px;">',
+        '    <h3 style="font-size:1rem; margin-bottom:0.5rem;">Push Activity by Day</h3>',
+        '    <canvas id="activityChart" width="400" height="300"></canvas>',
+        '  </div>',
+        '  <div style="flex:2; min-width:300px;">',
+        '    <h3 style="font-size:1rem; margin-bottom:0.5rem;">Top Topics</h3>',
+        '    <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:baseline;">',
+    ]
+
+    # Generate topic cloud with scaled font sizes
+    for topic, count in top_topics:
+        size = 0.7 + (count / max_topic) * 1.3  # 0.7em to 2.0em
+        opacity = 0.5 + (count / max_topic) * 0.5
+        lines.append(
+            f'      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,{opacity:.2f}); '
+            f'border-radius:8px; font-size:{size:.2f}em; color:#1e3a5f;">{topic} <sup style="font-size:0.6em;">{count}</sup></span>'
+        )
+
+    lines += [
+        '    </div>',
+        '  </div>',
+        "</div>",
+        "",
         '<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>',
         "<script>",
         "new Chart(document.getElementById('langChart'), {",
@@ -386,6 +495,45 @@ def _generate_page(repos, featured, deltas):
         "    responsive: true,",
         "    plugins: { legend: { display: false } },",
         "    scales: { x: { ticks: { callback: function(v) { return (v > 0 ? '+' : '') + v; } } } }",
+        "  }",
+        "});",
+        "// New Entries Per Day",
+        "new Chart(document.getElementById('newEntriesChart'), {",
+        "  type: 'bar',",
+        "  data: {",
+        f"    labels: {new_entries_labels_json},",
+        f"    datasets: [{{ label: 'New Repos', data: {new_entries_data_json}, backgroundColor: '#8b5cf6', borderRadius: 4 }}]",
+        "  },",
+        "  options: {",
+        "    responsive: true,",
+        "    plugins: { legend: { display: false } },",
+        "    scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }",
+        "  }",
+        "});",
+        "// Language Trends",
+        "new Chart(document.getElementById('langTrendChart'), {",
+        "  type: 'line',",
+        "  data: {",
+        f"    labels: {lang_trend_labels_json},",
+        f"    datasets: {lang_trend_datasets_json}",
+        "  },",
+        "  options: {",
+        "    responsive: true,",
+        "    plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 8, font: { size: 11 } } } },",
+        "    scales: { y: { beginAtZero: true, stacked: true, ticks: { stepSize: 1 } }, x: { ticks: { font: { size: 10 } } } }",
+        "  }",
+        "});",
+        "// Push Activity by Day of Week",
+        "new Chart(document.getElementById('activityChart'), {",
+        "  type: 'bar',",
+        "  data: {",
+        f"    labels: {heatmap_labels_json},",
+        f"    datasets: [{{ label: 'Pushes', data: {heatmap_data_json}, backgroundColor: {heatmap_colors_json}, borderRadius: 4 }}]",
+        "  },",
+        "  options: {",
+        "    responsive: true,",
+        "    plugins: { legend: { display: false } },",
+        "    scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }",
         "  }",
         "});",
         "</script>",
@@ -491,7 +639,7 @@ def publish_github_trending():
         json.dump(output, f, indent=2, ensure_ascii=False)
     print(f"  JSON written: {OUTPUT_JSON}")
 
-    page_content = _generate_page(repos, featured, deltas)
+    page_content = _generate_page(repos, featured, deltas, history)
     with open(OUTPUT_PAGE, 'w', encoding='utf-8') as f:
         f.write(page_content)
     print(f"  Page written: {OUTPUT_PAGE}")
