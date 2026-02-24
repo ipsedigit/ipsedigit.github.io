@@ -201,7 +201,8 @@ def _pick_repo_of_the_day(repos, deltas, history):
     def sort_key(r):
         delta = deltas.get(r["name"], {}).get("star_delta", 0)
         lang_bonus = 1 if r["language"] not in recent_languages else 0
-        return (delta, lang_bonus, r["stars"])
+        discovery_bonus = 2 if r.get("is_discovery") else 0
+        return (discovery_bonus, delta, lang_bonus, r["stars"])
 
     candidates.sort(key=sort_key, reverse=True)
     return candidates[0] if candidates else None
@@ -225,14 +226,21 @@ def _fetch_trending_repos():
     # Query 3: Newcomers — created in last 6 months, growing fast
     newcomers = _github_search(f"created:>{six_months_ago} stars:>100", sort="stars", per_page=20)
 
+    # Query 4: Discovery — small explosive repos (created last 2 weeks, stars > 20)
+    two_weeks_ago = (now - timedelta(days=14)).strftime("%Y-%m-%d")
+    discovery = _github_search(f"created:>{two_weeks_ago} stars:>20", sort="stars", per_page=15)
+
     # Deduplicate by full_name
     seen = set()
     repos = []
-    for item in new_this_week + recently_active + newcomers:
+    discovery_names = {item.get("full_name", "") for item in discovery}
+    for item in new_this_week + recently_active + newcomers + discovery:
         name = item.get("full_name", "")
         if name and name not in seen:
             seen.add(name)
-            repos.append(_parse_repo(item))
+            repo = _parse_repo(item)
+            repo["is_discovery"] = name in discovery_names
+            repos.append(repo)
 
     # Sort by stars descending
     repos.sort(key=lambda r: r["stars"], reverse=True)
