@@ -160,3 +160,4 @@ https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/
 https://www.docker.com/blog/reduce-vulnerability-noise-with-vex-wiz-docker-hardened-images/
 https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html
 https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/
+https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
