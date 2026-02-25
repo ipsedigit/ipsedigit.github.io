@@ -30,7 +30,11 @@
       "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_build_candidates.py -v 2>&1)",
       "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_select_daily.py -v 2>&1)",
       "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_publish_news.py -v 2>&1)",
-      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/ -v 2>&1)"
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/ -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_featured_devs.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_generate_dev_profiles.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -c \"from news import generate_dev_profiles; generate_dev_profiles\\(\\)\" 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -c \"\nimport sys, io\nsys.stdout = io.TextIOWrapper\\(sys.stdout.buffer, encoding='utf-8', errors='replace'\\)\nfrom news import generate_dev_profiles\ngenerate_dev_profiles\\(\\)\n\" 2>&1)"
     ]
   }
 }
