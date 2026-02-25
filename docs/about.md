@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: About eof.news | Chi Siamo | À Propos | Sobre Nosotros
 description: "eof.news curates the best tech news from 50+ sources. AI, startups, programming, security. Notizie tech curate. Actualités tech sélectionnées."
 permalink: /about/

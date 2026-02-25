@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: From creators
 description: "Tech from indie creators and newsletters we feature — Substack, Buttondown, and independent voices. Reach engineers who follow people, not just brands."
 permalink: /creators/

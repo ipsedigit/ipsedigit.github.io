@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Browse Topics | Argomenti | Sujets | Temas - eof.news
 description: "Browse tech articles by topic: AI, Programming, Security, Startups. Sfoglia per argomento. Parcourir par sujet. Explorar por tema."
 permalink: /topics/

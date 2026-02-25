@@ -22,7 +22,8 @@
       "Bash(tail:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "WebFetch(domain:ipsedigit.github.io)"
     ]
   }
 }
