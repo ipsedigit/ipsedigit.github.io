@@ -19,6 +19,7 @@ from const import (
     TITLE_PENALTY,
     NICHE_SUBNICHES,
     CONTENT_TYPE_PATTERNS,
+    FEATURED_DEVS,
     MIN_SCORE,
     MIN_SCORE_FALLBACK,
     DAILY_TARGET,
@@ -54,6 +55,61 @@ def update_creator_sources_data():
     print(f"📄 Updated {CREATOR_SOURCES_DATA_PATH} ({len(creators)} creator sources)")
 
 
+DEVS_DATA_PATH = "docs/_data/devs.json"
+DEVS_DIR = "docs/devs"
+
+
+def generate_dev_profiles(data_path=None, devs_dir=None):
+    """Generate devs.json and individual profile markdown pages for featured developers."""
+    if data_path is None:
+        data_path = DEVS_DATA_PATH
+    if devs_dir is None:
+        devs_dir = DEVS_DIR
+
+    devs_list = []
+    for key, dev in FEATURED_DEVS.items():
+        devs_list.append({
+            'name': dev['name'],
+            'slug': dev['slug'],
+            'url': dev['url'],
+            'bio': dev['bio'],
+            'source_name': dev['source_name'],
+            'featured_since': dev['featured_since'],
+        })
+
+    # Write JSON data file
+    os.makedirs(os.path.dirname(data_path), exist_ok=True)
+    data = {
+        'devs': sorted(devs_list, key=lambda d: d['name']),
+        'generated_at': datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+    with open(data_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+    # Write individual profile pages
+    os.makedirs(devs_dir, exist_ok=True)
+    for dev in devs_list:
+        slug = dev['slug']
+        safe_name = dev['name'].replace('"', "'")
+        safe_bio = dev['bio'].replace('"', "'")
+        safe_source = dev['source_name'].replace('"', "'")
+        md_path = os.path.join(devs_dir, f"{slug}.md")
+        with open(md_path, 'w', encoding='utf-8') as f:
+            f.write("---\n")
+            f.write("layout: dev\n")
+            f.write(f'title: "{safe_name} — eof.news Developer Profile"\n')
+            f.write(f'description: "{safe_bio}"\n')
+            f.write(f"permalink: /devs/{slug}/\n")
+            f.write(f'dev_name: "{safe_name}"\n')
+            f.write(f"dev_url: {dev['url']}\n")
+            f.write(f'dev_bio: "{safe_bio}"\n')
+            f.write(f'dev_source_name: "{safe_source}"\n')
+            f.write(f"dev_featured_since: \"{dev['featured_since']}\"\n")
+            f.write("---\n")
+
+    print(f"📄 Generated {len(devs_list)} developer profiles in {devs_dir}")
+
+
 def publish_news(target_niche=None):
     """Publish articles using two-pass selection.
 
@@ -61,6 +117,7 @@ def publish_news(target_niche=None):
     Otherwise, uses full two-pass selection across all niches.
     """
     update_creator_sources_data()
+    generate_dev_profiles()
 
     if target_niche:
         _publish_single_niche(target_niche)
