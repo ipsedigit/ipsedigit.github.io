@@ -1,30 +1,51 @@
 {
-  "generated_at": "2026-02-24 08:04:56 UTC",
-  "period": "2026-02-17 to 2026-02-24",
+  "generated_at": "2026-02-25 08:05:48 UTC",
+  "period": "2026-02-18 to 2026-02-25",
   "rising_topics": [
     {
-      "topic": "security",
-      "count_this_week": 13,
-      "count_prev_week": 0,
-      "change": 13,
+      "topic": "artificial intelligence",
+      "count_this_week": 19,
+      "count_prev_week": 3,
+      "change": 16,
       "velocity": "rising"
     },
     {
-      "topic": "artificial intelligence",
-      "count_this_week": 15,
-      "count_prev_week": 4,
+      "topic": "security",
+      "count_this_week": 13,
+      "count_prev_week": 2,
       "change": 11,
       "velocity": "rising"
     },
     {
       "topic": "vulnerability",
+      "count_this_week": 5,
+      "count_prev_week": 0,
+      "change": 5,
+      "velocity": "rising"
+    },
+    {
+      "topic": "cybersecurity",
       "count_this_week": 4,
       "count_prev_week": 0,
       "change": 4,
       "velocity": "rising"
     },
     {
-      "topic": "cybersecurity",
+      "topic": "threat-intel",
+      "count_this_week": 3,
+      "count_prev_week": 0,
+      "change": 3,
+      "velocity": "rising"
+    },
+    {
+      "topic": "malware",
+      "count_this_week": 3,
+      "count_prev_week": 0,
+      "change": 3,
+      "velocity": "rising"
+    },
+    {
+      "topic": "gemini (google ai)",
       "count_this_week": 3,
       "count_prev_week": 0,
       "change": 3,
@@ -38,28 +59,14 @@
       "velocity": "rising"
     },
     {
-      "topic": "cloud computing",
-      "count_this_week": 4,
-      "count_prev_week": 1,
-      "change": 3,
-      "velocity": "rising"
-    },
-    {
-      "topic": "gemini (google ai)",
+      "topic": "ai agents",
       "count_this_week": 3,
       "count_prev_week": 0,
       "change": 3,
       "velocity": "rising"
     },
     {
-      "topic": "threat-intel",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "logging",
+      "topic": "latency",
       "count_this_week": 2,
       "count_prev_week": 0,
       "change": 2,
@@ -73,14 +80,7 @@
       "velocity": "rising"
     },
     {
-      "topic": "malware",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "ai agents",
+      "topic": "threat intelligence",
       "count_this_week": 2,
       "count_prev_week": 0,
       "change": 2,
@@ -94,17 +94,17 @@
       "velocity": "rising"
     },
     {
-      "topic": "hugging face",
-      "count_this_week": 1,
+      "topic": "software architecture",
+      "count_this_week": 2,
       "count_prev_week": 0,
-      "change": 1,
+      "change": 2,
       "velocity": "rising"
     },
     {
-      "topic": "threat intelligence",
-      "count_this_week": 1,
+      "topic": "cloud native",
+      "count_this_week": 2,
       "count_prev_week": 0,
-      "change": 1,
+      "change": 2,
       "velocity": "rising"
     }
   ],
@@ -112,12 +112,19 @@
     {
       "topic": "github",
       "count_this_week": 0,
-      "count_prev_week": 3,
-      "change": -3,
+      "count_prev_week": 2,
+      "change": -2,
       "velocity": "falling"
     },
     {
-      "topic": "mysql",
+      "topic": "large language models",
+      "count_this_week": 0,
+      "count_prev_week": 1,
+      "change": -1,
+      "velocity": "falling"
+    },
+    {
+      "topic": "docker",
       "count_this_week": 0,
       "count_prev_week": 1,
       "change": -1,
@@ -131,7 +138,21 @@
       "velocity": "falling"
     },
     {
-      "topic": "large language models",
+      "topic": "design patterns",
+      "count_this_week": 0,
+      "count_prev_week": 1,
+      "change": -1,
+      "velocity": "falling"
+    },
+    {
+      "topic": "redis",
+      "count_this_week": 0,
+      "count_prev_week": 1,
+      "change": -1,
+      "velocity": "falling"
+    },
+    {
+      "topic": "mysql",
       "count_this_week": 0,
       "count_prev_week": 1,
       "change": -1,
@@ -139,6 +160,13 @@
     }
   ],
   "stable_topics": [
+    {
+      "topic": "logging",
+      "count_this_week": 1,
+      "count_prev_week": 1,
+      "change": 0,
+      "velocity": "stable"
+    },
     {
       "topic": "generative models",
       "count_this_week": 1,
@@ -154,15 +182,15 @@
     },
     {
       "source": "Google Developers",
-      "count": 5
+      "count": 4
     },
     {
       "source": "Hugging Face Blog",
       "count": 3
     },
     {
-      "source": "DEV Community",
-      "count": 1
+      "source": "Kubernetes Blog",
+      "count": 2
     },
     {
       "source": "Schneier on Security",
@@ -173,11 +201,33 @@
       "count": 1
     },
     {
+      "source": "Cloudflare Blog",
+      "count": 1
+    },
+    {
       "source": "freeCodeCamp",
       "count": 1
     }
   ],
   "top_stories": [
+    {
+      "title": "Kubernetes v1.35: Timbernetes (The World Tree Release) (2026)",
+      "url": "/2026/02/25/top-tech-news-fce7e716-121d-11f1-8951-6045bd02d92c.html",
+      "external_url": "https://kubernetes.io/blog/2025/12/17/kubernetes-v1-35-release/",
+      "score": 125,
+      "source": "Kubernetes Blog",
+      "date": "2026-02-25",
+      "niche_category": "software-engineering"
+    },
+    {
+      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling (2026)",
+      "url": "/2026/02/25/top-tech-news-f821cc94-1216-11f1-8951-6045bd37762a.html",
+      "external_url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
+      "score": 125,
+      "source": "Kubernetes Blog",
+      "date": "2026-02-25",
+      "niche_category": "ai"
+    },
     {
       "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability S",
       "url": "/2026/02/21/top-tech-news-1e4d0df8-0f23-11f1-8951-000d3ae4f353.html",
@@ -249,26 +299,8 @@
       "source": "The Hacker News",
       "date": "2026-02-24",
       "niche_category": "ai"
-    },
-    {
-      "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Releas",
-      "url": "/2026/02/20/top-tech-news-ad2bbe2a-0e5b-11f1-8951-7ced8d560430.html",
-      "external_url": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
-      "score": 85,
-      "source": "The Hacker News",
-      "date": "2026-02-20",
-      "niche_category": "security"
-    },
-    {
-      "title": "Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Languag",
-      "url": "/2026/02/23/top-tech-news-d716c7d6-1084-11f1-8951-000d3a5c3837.html",
-      "external_url": "https://huggingface.co/blog/tiiuae/falcon-h1-arabic",
-      "score": 85,
-      "source": "Hugging Face Blog",
-      "date": "2026-02-23",
-      "niche_category": "ai"
     }
   ],
-  "total_posts_this_week": 27,
-  "total_posts_prev_week": 7
+  "total_posts_this_week": 28,
+  "total_posts_prev_week": 11
 }
