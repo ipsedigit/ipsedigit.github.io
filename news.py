@@ -163,8 +163,9 @@ def find_best_post(exclude_subniches=None, target_niche=None, source_type_filter
                     continue
 
                 entry['score'] = calculate_score(entry, source)
+                entry['content_type'] = classify_content_type(entry)
 
-                if entry['score'] < 50:
+                if entry['score'] < MIN_SCORE:
                     continue
 
                 all_candidates.append(entry)
