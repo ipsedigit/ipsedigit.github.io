@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-24 09:13:49 UTC",
+  "generated_at": "2026-02-25 09:14:01 UTC",
   "trending": [
     {
       "model_id": "deepseek-ai/DeepSeek-R1",
       "author": "deepseek-ai",
-      "downloads": 695400,
+      "downloads": 733701,
       "likes": 13021,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -27,8 +27,8 @@
     {
       "model_id": "black-forest-labs/FLUX.1-dev",
       "author": "black-forest-labs",
-      "downloads": 693978,
-      "likes": 12338,
+      "downloads": 693725,
+      "likes": 12342,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -50,8 +50,8 @@
     {
       "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
       "author": "stabilityai",
-      "downloads": 2062317,
-      "likes": 7470,
+      "downloads": 2058124,
+      "likes": 7475,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -73,7 +73,7 @@
     {
       "model_id": "CompVis/stable-diffusion-v1-4",
       "author": "CompVis",
-      "downloads": 623116,
+      "downloads": 587816,
       "likes": 6979,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
@@ -96,8 +96,8 @@
     {
       "model_id": "meta-llama/Meta-Llama-3-8B",
       "author": "meta-llama",
-      "downloads": 1791363,
-      "likes": 6463,
+      "downloads": 1812133,
+      "likes": 6466,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -119,8 +119,8 @@
     {
       "model_id": "hexgrad/Kokoro-82M",
       "author": "hexgrad",
-      "downloads": 9208584,
-      "likes": 5750,
+      "downloads": 9373794,
+      "likes": 5757,
       "pipeline_tag": "text-to-speech",
       "category": "Speech",
       "tags": [
@@ -141,8 +141,8 @@
     {
       "model_id": "meta-llama/Llama-3.1-8B-Instruct",
       "author": "meta-llama",
-      "downloads": 6095400,
-      "likes": 5487,
+      "downloads": 6157607,
+      "likes": 5491,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -164,8 +164,8 @@
     {
       "model_id": "openai/whisper-large-v3",
       "author": "openai",
-      "downloads": 5984552,
-      "likes": 5414,
+      "downloads": 5910882,
+      "likes": 5417,
       "pipeline_tag": "automatic-speech-recognition",
       "category": "Speech",
       "tags": [
@@ -187,7 +187,7 @@
     {
       "model_id": "bigscience/bloom",
       "author": "bigscience",
-      "downloads": 3459,
+      "downloads": 3539,
       "likes": 4985,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -210,8 +210,8 @@
     {
       "model_id": "stabilityai/stable-diffusion-3-medium",
       "author": "stabilityai",
-      "downloads": 5248,
-      "likes": 4908,
+      "downloads": 6171,
+      "likes": 4909,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -230,7 +230,7 @@
     {
       "model_id": "meta-llama/Llama-2-7b-chat-hf",
       "author": "meta-llama",
-      "downloads": 339759,
+      "downloads": 317632,
       "likes": 4710,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -251,33 +251,10 @@
       "related_posts": []
     },
     {
-      "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "author": "mistralai",
-      "downloads": 650263,
-      "likes": 4639,
-      "pipeline_tag": "",
-      "category": "Other",
-      "tags": [
-        "vllm",
-        "safetensors",
-        "mixtral",
-        "fr",
-        "it",
-        "de",
-        "es",
-        "en",
-        "base_model:mistralai/Mixtral-8x7B-v0.1",
-        "base_model:finetune:mistralai/Mixtral-8x7B-v0.1"
-      ],
-      "created_at": "2023-12-10",
-      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "related_posts": []
-    },
-    {
       "model_id": "black-forest-labs/FLUX.1-schnell",
       "author": "black-forest-labs",
-      "downloads": 681829,
-      "likes": 4639,
+      "downloads": 684112,
+      "likes": 4641,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -297,10 +274,33 @@
       "related_posts": []
     },
     {
+      "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "author": "mistralai",
+      "downloads": 672095,
+      "likes": 4640,
+      "pipeline_tag": "",
+      "category": "Other",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "mixtral",
+        "fr",
+        "it",
+        "de",
+        "es",
+        "en",
+        "base_model:mistralai/Mixtral-8x7B-v0.1",
+        "base_model:finetune:mistralai/Mixtral-8x7B-v0.1"
+      ],
+      "created_at": "2023-12-10",
+      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "related_posts": []
+    },
+    {
       "model_id": "openai/gpt-oss-120b",
       "author": "openai",
-      "downloads": 3565823,
-      "likes": 4520,
+      "downloads": 3579867,
+      "likes": 4524,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -322,8 +322,8 @@
     {
       "model_id": "sentence-transformers/all-MiniLM-L6-v2",
       "author": "sentence-transformers",
-      "downloads": 171219924,
-      "likes": 4503,
+      "downloads": 172757448,
+      "likes": 4510,
       "pipeline_tag": "sentence-similarity",
       "category": "Embeddings",
       "tags": [
@@ -345,7 +345,7 @@
     {
       "model_id": "meta-llama/Llama-2-7b",
       "author": "meta-llama",
-      "downloads": 222,
+      "downloads": 212,
       "likes": 4449,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -368,8 +368,8 @@
     {
       "model_id": "openai/gpt-oss-20b",
       "author": "openai",
-      "downloads": 5717889,
-      "likes": 4395,
+      "downloads": 5758466,
+      "likes": 4399,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -391,8 +391,8 @@
     {
       "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "author": "meta-llama",
-      "downloads": 1277278,
-      "likes": 4385,
+      "downloads": 1280386,
+      "likes": 4386,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -414,8 +414,8 @@
     {
       "model_id": "Tongyi-MAI/Z-Image-Turbo",
       "author": "Tongyi-MAI",
-      "downloads": 1028071,
-      "likes": 4153,
+      "downloads": 1033861,
+      "likes": 4157,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -437,7 +437,7 @@
     {
       "model_id": "mistralai/Mistral-7B-v0.1",
       "author": "mistralai",
-      "downloads": 351416,
+      "downloads": 373837,
       "likes": 4042,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -460,8 +460,8 @@
     {
       "model_id": "deepseek-ai/DeepSeek-V3",
       "author": "deepseek-ai",
-      "downloads": 1296579,
-      "likes": 4024,
+      "downloads": 1315897,
+      "likes": 4025,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -484,7 +484,7 @@
       "model_id": "lllyasviel/ControlNet-v1-1",
       "author": "lllyasviel",
       "downloads": 0,
-      "likes": 4002,
+      "likes": 4001,
       "pipeline_tag": "",
       "category": "Other",
       "tags": [
@@ -498,7 +498,7 @@
     {
       "model_id": "WarriorMama777/OrangeMixs",
       "author": "WarriorMama777",
-      "downloads": 967,
+      "downloads": 972,
       "likes": 3890,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
@@ -534,7 +534,7 @@
     {
       "model_id": "deepseek-ai/Janus-Pro-7B",
       "author": "deepseek-ai",
-      "downloads": 27961,
+      "downloads": 29967,
       "likes": 3565,
       "pipeline_tag": "any-to-any",
       "category": "Other",
@@ -557,7 +557,7 @@
     {
       "model_id": "microsoft/phi-2",
       "author": "microsoft",
-      "downloads": 1490097,
+      "downloads": 1504003,
       "likes": 3426,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -580,7 +580,7 @@
     {
       "model_id": "coqui/XTTS-v2",
       "author": "coqui",
-      "downloads": 7445444,
+      "downloads": 7513189,
       "likes": 3405,
       "pipeline_tag": "text-to-speech",
       "category": "Speech",
@@ -597,8 +597,8 @@
     {
       "model_id": "stabilityai/stable-diffusion-3.5-large",
       "author": "stabilityai",
-      "downloads": 42264,
-      "likes": 3369,
+      "downloads": 42949,
+      "likes": 3372,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -619,7 +619,7 @@
     {
       "model_id": "google/gemma-7b",
       "author": "google",
-      "downloads": 107254,
+      "downloads": 110047,
       "likes": 3274,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -651,8 +651,8 @@
     {
       "model_id": "stabilityai/stable-video-diffusion-img2vid-xt",
       "author": "stabilityai",
-      "downloads": 148203,
-      "likes": 3234,
+      "downloads": 147905,
+      "likes": 3235,
       "pipeline_tag": "image-to-video",
       "category": "Other",
       "tags": [

@@ -1,792 +1,486 @@
 {
-  "generated_at": "2026-02-24 08:34:11 UTC",
-  "total": 50,
+  "generated_at": "2026-02-25 08:35:46 UTC",
+  "total": 32,
   "cves": [
     {
-      "id": "CVE-2026-27574",
-      "description": "OneUptime is a solution for monitoring and managing online services. In versions 9.5.13 and below, custom JavaScript monitor feature uses Node.js's node:vm module (explicitly documented as not a security mechanism) to execute user-supplied code, allowing trivial sandbox escape via a well-known one-l",
-      "full_description": "OneUptime is a solution for monitoring and managing online services. In versions 9.5.13 and below, custom JavaScript monitor feature uses Node.js's node:vm module (explicitly documented as not a security mechanism) to execute user-supplied code, allowing trivial sandbox escape via a well-known one-liner that grants full access to the underlying process. Because the probe runs with host networking and holds all cluster credentials (ONEUPTIME_SECRET, DATABASE_PASSWORD, REDIS_PASSWORD, CLICKHOUSE_PASSWORD) in its environment variables, and monitor creation is available to the lowest role (ProjectMember) with open registration enabled by default, any anonymous user can achieve full cluster compromise in about 30 seconds. This issue has been fixed in version 10.0.5.",
+      "id": "CVE-2026-24494",
+      "description": "SQL Injection vulnerability in the /api/integrations/getintegrations endpoint of Order Up Online Ordering System 1.0 allows an unauthenticated attacker to access sensitive backend database data via a crafted store_id parameter in a POST request.",
+      "full_description": "SQL Injection vulnerability in the /api/integrations/getintegrations endpoint of Order Up Online Ordering System 1.0 allows an unauthenticated attacker to access sensitive backend database data via a crafted store_id parameter in a POST request.",
       "severity": "CRITICAL",
-      "score": 9.9,
-      "products": [
-        "hackerbay/oneuptime"
-      ],
-      "published": "2026-02-21T11:15:57.443",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27574",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00047,
-      "epss_percentile": 14.7
-    },
-    {
-      "id": "CVE-2026-2870",
-      "description": "A security flaw has been discovered in Tenda A21 1.0.0.0. Affected by this issue is the function set_qosMib_list of the file /goform/formSetQosBand. The manipulation of the argument list results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been released to the",
-      "full_description": "A security flaw has been discovered in Tenda A21 1.0.0.0. Affected by this issue is the function set_qosMib_list of the file /goform/formSetQosBand. The manipulation of the argument list results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a21_firmware",
-        "tenda/a21"
-      ],
-      "published": "2026-02-21T15:15:59.643",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2870",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2871",
-      "description": "A weakness has been identified in Tenda A21 1.0.0.0. This affects the function fromSetIpMacBind of the file /goform/SetIpMacBind. This manipulation of the argument list causes stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been made available to the p",
-      "full_description": "A weakness has been identified in Tenda A21 1.0.0.0. This affects the function fromSetIpMacBind of the file /goform/SetIpMacBind. This manipulation of the argument list causes stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a21_firmware",
-        "tenda/a21"
-      ],
-      "published": "2026-02-21T16:16:05.133",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2871",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00037,
-      "epss_percentile": 11.1
-    },
-    {
-      "id": "CVE-2026-2872",
-      "description": "A security vulnerability has been detected in Tenda A21 1.0.0.0. This vulnerability affects the function set_device_name of the file /goform/setBlackRule of the component MAC Filtering Configuration Endpoint. Such manipulation of the argument devName/mac leads to stack-based buffer overflow. The att",
-      "full_description": "A security vulnerability has been detected in Tenda A21 1.0.0.0. This vulnerability affects the function set_device_name of the file /goform/setBlackRule of the component MAC Filtering Configuration Endpoint. Such manipulation of the argument devName/mac leads to stack-based buffer overflow. The attack may be performed from remote. The exploit has been disclosed publicly and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a21_firmware",
-        "tenda/a21"
-      ],
-      "published": "2026-02-21T16:16:05.390",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2872",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2873",
-      "description": "A vulnerability was detected in Tenda A21 1.0.0.0. This issue affects the function setSchedWifi of the file /goform/openSchedWifi. Performing a manipulation of the argument schedStartTime/schedEndTime results in stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit",
-      "full_description": "A vulnerability was detected in Tenda A21 1.0.0.0. This issue affects the function setSchedWifi of the file /goform/openSchedWifi. Performing a manipulation of the argument schedStartTime/schedEndTime results in stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit is now public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a21_firmware",
-        "tenda/a21"
-      ],
-      "published": "2026-02-21T17:15:58.987",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2873",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2874",
-      "description": "A flaw has been found in Tenda A21 1.0.0.0. Impacted is the function form_fast_setting_wifi_set of the file /goform/fast_setting_wifi_set. Executing a manipulation of the argument ssid can lead to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been publish",
-      "full_description": "A flaw has been found in Tenda A21 1.0.0.0. Impacted is the function form_fast_setting_wifi_set of the file /goform/fast_setting_wifi_set. Executing a manipulation of the argument ssid can lead to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been published and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a21_firmware",
-        "tenda/a21"
-      ],
-      "published": "2026-02-21T18:15:59.770",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2874",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2876",
-      "description": "A vulnerability was determined in Tenda A18 15.13.07.13. This affects the function parse_macfilter_rule of the file /goform/setBlackRule. This manipulation of the argument deviceList causes stack-based buffer overflow. The attack may be initiated remotely. The exploit has been publicly disclosed and",
-      "full_description": "A vulnerability was determined in Tenda A18 15.13.07.13. This affects the function parse_macfilter_rule of the file /goform/setBlackRule. This manipulation of the argument deviceList causes stack-based buffer overflow. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a18_firmware",
-        "tenda/a18"
-      ],
-      "published": "2026-02-21T18:16:00.933",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2876",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2877",
-      "description": "A vulnerability has been found in Tenda A18 15.13.07.13. This affects the function strcpy of the file /goform/WifiExtraSet of the component Httpd Service. The manipulation of the argument wpapsk_crypto5g leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploi",
-      "full_description": "A vulnerability has been found in Tenda A18 15.13.07.13. This affects the function strcpy of the file /goform/WifiExtraSet of the component Httpd Service. The manipulation of the argument wpapsk_crypto5g leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a18_firmware",
-        "tenda/a18"
-      ],
-      "published": "2026-02-21T19:15:58.940",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2877",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2881",
-      "description": "A vulnerability has been found in D-Link DWR-M960 1.01.07. This vulnerability affects the function sub_425FF8 of the file /boafrm/formFirewallAdv of the component Advanced Firewall Configuration Endpoint. Such manipulation of the argument submit-url leads to stack-based buffer overflow. The attack m",
-      "full_description": "A vulnerability has been found in D-Link DWR-M960 1.01.07. This vulnerability affects the function sub_425FF8 of the file /boafrm/formFirewallAdv of the component Advanced Firewall Configuration Endpoint. Such manipulation of the argument submit-url leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-21T20:16:39.067",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2881",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-2882",
-      "description": "A vulnerability was found in D-Link DWR-M960 1.01.07. This issue affects the function sub_46385C of the file /boafrm/formDosCfg. Performing a manipulation of the argument submit-url results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been made publi",
-      "full_description": "A vulnerability was found in D-Link DWR-M960 1.01.07. This issue affects the function sub_46385C of the file /boafrm/formDosCfg. Performing a manipulation of the argument submit-url results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been made public and could be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-21T20:16:40.103",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2882",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-2883",
-      "description": "A vulnerability was determined in D-Link DWR-M960 1.01.07. Impacted is the function sub_427D74 of the file /boafrm/formIpQoS. Executing a manipulation of the argument submit-url can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been publicly disclosed and ",
-      "full_description": "A vulnerability was determined in D-Link DWR-M960 1.01.07. Impacted is the function sub_427D74 of the file /boafrm/formIpQoS. Executing a manipulation of the argument submit-url can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been publicly disclosed and may be utilized.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-21T20:16:40.310",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2883",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00019,
-      "epss_percentile": 4.5
-    },
-    {
-      "id": "CVE-2026-2884",
-      "description": "A vulnerability was identified in D-Link DWR-M960 1.01.07. The affected element is the function sub_41914C of the file /boafrm/formWanConfigSetup of the component WAN Interface Setting Handler. The manipulation of the argument submit-url leads to stack-based buffer overflow. The attack is possible t",
-      "full_description": "A vulnerability was identified in D-Link DWR-M960 1.01.07. The affected element is the function sub_41914C of the file /boafrm/formWanConfigSetup of the component WAN Interface Setting Handler. The manipulation of the argument submit-url leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is publicly available and might be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-21T21:16:10.680",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2884",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-2885",
-      "description": "A security flaw has been discovered in D-Link DWR-M960 1.01.07. The impacted element is the function sub_469104 of the file /boafrm/formIpv6Setup. The manipulation of the argument submit-url results in stack-based buffer overflow. The attack may be performed from remote. The exploit has been release",
-      "full_description": "A security flaw has been discovered in D-Link DWR-M960 1.01.07. The impacted element is the function sub_469104 of the file /boafrm/formIpv6Setup. The manipulation of the argument submit-url results in stack-based buffer overflow. The attack may be performed from remote. The exploit has been released to the public and may be used for attacks.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-21T21:16:10.907",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2885",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-2886",
-      "description": "A weakness has been identified in Tenda A21 1.0.0.0. This affects the function set_device_name of the file /goform/SetOnlineDevName. This manipulation of the argument devName causes stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been made available to th",
-      "full_description": "A weakness has been identified in Tenda A21 1.0.0.0. This affects the function set_device_name of the file /goform/SetOnlineDevName. This manipulation of the argument devName causes stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for attacks.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/a21_firmware",
-        "tenda/a21"
-      ],
-      "published": "2026-02-21T21:16:11.217",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2886",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2904",
-      "description": "A vulnerability was determined in UTT HiPER 810G 1.7.7-171114. This affects the function strcpy of the file /goform/ConfigExceptAli. Executing a manipulation can lead to buffer overflow. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.",
-      "full_description": "A vulnerability was determined in UTT HiPER 810G 1.7.7-171114. This affects the function strcpy of the file /goform/ConfigExceptAli. Executing a manipulation can lead to buffer overflow. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.",
-      "severity": "HIGH",
-      "score": 8.8,
+      "score": 9.8,
       "products": [],
-      "published": "2026-02-22T01:16:00.797",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2904",
+      "published": "2026-02-23T02:16:39.443",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24494",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00041,
-      "epss_percentile": 12.5
+      "epss_score": 0.00052,
+      "epss_percentile": 16.2
     },
     {
-      "id": "CVE-2026-2905",
-      "description": "A vulnerability was identified in Tenda HG9 300001138. This impacts an unknown function of the file /boaform/formWlanSetup of the component Wireless Configuration Endpoint. The manipulation of the argument ssid leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit i",
-      "full_description": "A vulnerability was identified in Tenda HG9 300001138. This impacts an unknown function of the file /boaform/formWlanSetup of the component Wireless Configuration Endpoint. The manipulation of the argument ssid leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit is publicly available and might be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/hg9_firmware",
-        "tenda/hg9"
-      ],
-      "published": "2026-02-22T02:16:56.380",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2905",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2906",
-      "description": "A security flaw has been discovered in Tenda HG9 300001138. Affected is an unknown function of the file /boaform/formSamba of the component Samba Configuration Endpoint. The manipulation of the argument sambaCap results in stack-based buffer overflow. The attack may be launched remotely. The exploit",
-      "full_description": "A security flaw has been discovered in Tenda HG9 300001138. Affected is an unknown function of the file /boaform/formSamba of the component Samba Configuration Endpoint. The manipulation of the argument sambaCap results in stack-based buffer overflow. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/hg9_firmware",
-        "tenda/hg9"
-      ],
-      "published": "2026-02-22T02:16:57.493",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2906",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2907",
-      "description": "A weakness has been identified in Tenda HG9 300001138. Affected by this vulnerability is an unknown functionality of the file /boaform/formgponConf of the component GPON Configuration Endpoint. This manipulation of the argument fmgpon_loid/fmgpon_loid_password causes stack-based buffer overflow. Rem",
-      "full_description": "A weakness has been identified in Tenda HG9 300001138. Affected by this vulnerability is an unknown functionality of the file /boaform/formgponConf of the component GPON Configuration Endpoint. This manipulation of the argument fmgpon_loid/fmgpon_loid_password causes stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/hg9_firmware",
-        "tenda/hg9"
-      ],
-      "published": "2026-02-22T02:16:57.703",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2907",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2908",
-      "description": "A security vulnerability has been detected in Tenda HG9 300001138. Affected by this issue is some unknown functionality of the file /boaform/formLoopBack of the component Loopback Detection Configuration Endpoint. Such manipulation of the argument Ethtype leads to stack-based buffer overflow. The at",
-      "full_description": "A security vulnerability has been detected in Tenda HG9 300001138. Affected by this issue is some unknown functionality of the file /boaform/formLoopBack of the component Loopback Detection Configuration Endpoint. Such manipulation of the argument Ethtype leads to stack-based buffer overflow. The attack can be executed remotely. The exploit has been disclosed publicly and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/hg9_firmware",
-        "tenda/hg9"
-      ],
-      "published": "2026-02-22T02:16:57.890",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2908",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2909",
-      "description": "A vulnerability was detected in Tenda HG9 300001138. This affects an unknown part of the file /boaform/formPing of the component Diagnostic Ping Endpoint. Performing a manipulation of the argument pingAddr results in stack-based buffer overflow. The attack is possible to be carried out remotely. The",
-      "full_description": "A vulnerability was detected in Tenda HG9 300001138. This affects an unknown part of the file /boaform/formPing of the component Diagnostic Ping Endpoint. Performing a manipulation of the argument pingAddr results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is now public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/hg9_firmware",
-        "tenda/hg9"
-      ],
-      "published": "2026-02-22T02:16:58.100",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2909",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2910",
-      "description": "A flaw has been found in Tenda HG9 300001138. This vulnerability affects unknown code of the file /boaform/formPing6. Executing a manipulation of the argument pingAddr can lead to stack-based buffer overflow. The attack may be performed from remote. The exploit has been published and may be used.",
-      "full_description": "A flaw has been found in Tenda HG9 300001138. This vulnerability affects unknown code of the file /boaform/formPing6. Executing a manipulation of the argument pingAddr can lead to stack-based buffer overflow. The attack may be performed from remote. The exploit has been published and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/hg9_firmware",
-        "tenda/hg9"
-      ],
-      "published": "2026-02-22T04:15:57.647",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2910",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2911",
-      "description": "A vulnerability has been found in Tenda FH451 up to 1.0.0.9. This issue affects some unknown processing of the file /goform/GstDhcpSetSer. The manipulation leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
-      "full_description": "A vulnerability has been found in Tenda FH451 up to 1.0.0.9. This issue affects some unknown processing of the file /goform/GstDhcpSetSer. The manipulation leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "tenda/fh451",
-        "tenda/fh451_firmware"
-      ],
-      "published": "2026-02-22T04:15:59.383",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2911",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.4
-    },
-    {
-      "id": "CVE-2026-2925",
-      "description": "A vulnerability was detected in D-Link DWR-M960 1.01.07. Affected by this issue is the function sub_42B5A0 of the file /boafrm/formBridgeVlan of the component Bridge VLAN Configuration Endpoint. Performing a manipulation of the argument submit-url results in stack-based buffer overflow. The attack c",
-      "full_description": "A vulnerability was detected in D-Link DWR-M960 1.01.07. Affected by this issue is the function sub_42B5A0 of the file /boafrm/formBridgeVlan of the component Bridge VLAN Configuration Endpoint. Performing a manipulation of the argument submit-url results in stack-based buffer overflow. The attack can be initiated remotely. The exploit is now public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-22T04:16:00.047",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2925",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-2926",
-      "description": "A flaw has been found in D-Link DWR-M960 1.01.07. This affects the function sub_4237AC of the file /boafrm/formLteSetup of the component LTE Configuration Endpoint. Executing a manipulation of the argument submit-url can lead to stack-based buffer overflow. The attack can be launched remotely. The e",
-      "full_description": "A flaw has been found in D-Link DWR-M960 1.01.07. This affects the function sub_4237AC of the file /boafrm/formLteSetup of the component LTE Configuration Endpoint. Executing a manipulation of the argument submit-url can lead to stack-based buffer overflow. The attack can be launched remotely. The exploit has been published and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-22T05:16:15.147",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2926",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-2927",
-      "description": "A vulnerability has been found in D-Link DWR-M960 1.01.07. This vulnerability affects the function sub_462590 of the file /boafrm/formOpMode of the component Operation Mode Configuration Endpoint. The manipulation of the argument submit-url leads to stack-based buffer overflow. The attack may be ini",
-      "full_description": "A vulnerability has been found in D-Link DWR-M960 1.01.07. This vulnerability affects the function sub_462590 of the file /boafrm/formOpMode of the component Operation Mode Configuration Endpoint. The manipulation of the argument submit-url leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "dlink/dwr-m960",
-        "dlink/dwr-m960_firmware"
-      ],
-      "published": "2026-02-22T05:16:19.087",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2927",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.7
-    },
-    {
-      "id": "CVE-2026-27479",
-      "description": "Wallos is an open-source, self-hostable personal subscription tracker. Versions 4.6.0 and below contain a Server-Side Request Forgery (SSRF) vulnerability in the subscription and payment logo/icon upload functionality. The application validates the IP address of the provided URL before making the re",
-      "full_description": "Wallos is an open-source, self-hostable personal subscription tracker. Versions 4.6.0 and below contain a Server-Side Request Forgery (SSRF) vulnerability in the subscription and payment logo/icon upload functionality. The application validates the IP address of the provided URL before making the request, but allows HTTP redirects (CURLOPT_FOLLOWLOCATION = true), enabling an attacker to bypass the IP validation and access internal resources, including cloud instance metadata endpoints. The getLogoFromUrl() function validates the URL by resolving the hostname and checking if the resulting IP is in a private or reserved range using FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE. However, the subsequent cURL request is configured with CURLOPT_FOLLOWLOCATION = true and CURLOPT_MAXREDIRS = 3, which means the request will follow HTTP redirects without re-validating the destination IP. This issue has been fixed in version 4.6.1.",
-      "severity": "HIGH",
-      "score": 7.7,
+      "id": "CVE-2026-2588",
+      "description": "Crypt::NaCl::Sodium versions through 2.001 for Perl has an integer overflow flaw on 32-bit systems.\n\nSodium.xs casts a STRLEN (size_t) to unsigned long long when passing a length pointer to libsodium functions.  On 32-bit systems size_t is typically 32-bits while an unsigned long long is at least 64",
+      "full_description": "Crypt::NaCl::Sodium versions through 2.001 for Perl has an integer overflow flaw on 32-bit systems.\n\nSodium.xs casts a STRLEN (size_t) to unsigned long long when passing a length pointer to libsodium functions.  On 32-bit systems size_t is typically 32-bits while an unsigned long long is at least 64-bits.",
+      "severity": "CRITICAL",
+      "score": 9.1,
       "products": [],
-      "published": "2026-02-21T09:15:53.923",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27479",
+      "published": "2026-02-23T00:15:59.330",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2588",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00027,
-      "epss_percentile": 7.3
+      "epss_score": 0.00038,
+      "epss_percentile": 11.2
     },
     {
-      "id": "CVE-2026-27487",
-      "description": "OpenClaw is a personal AI assistant. In versions 2026.2.13 and below, when using macOS, the Claude CLI keychain credential refresh path constructed a shell command to write the updated JSON blob into Keychain via security add-generic-password -w .... Because OAuth tokens are user-controlled data, th",
-      "full_description": "OpenClaw is a personal AI assistant. In versions 2026.2.13 and below, when using macOS, the Claude CLI keychain credential refresh path constructed a shell command to write the updated JSON blob into Keychain via security add-generic-password -w .... Because OAuth tokens are user-controlled data, this created an OS command injection risk. This issue has been fixed in version 2026.2.14.",
+      "id": "CVE-2026-2958",
+      "description": "A security vulnerability has been detected in D-Link DWR-M960 1.01.07. Affected is the function sub_457C5C of the file /boafrm/formWsc. Such manipulation of the argument save_apply leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed publicly and ",
+      "full_description": "A security vulnerability has been detected in D-Link DWR-M960 1.01.07. Affected is the function sub_457C5C of the file /boafrm/formWsc. Such manipulation of the argument save_apply leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed publicly and may be used.",
       "severity": "HIGH",
-      "score": 7.6,
+      "score": 8.8,
       "products": [
-        "apple/macos",
-        "openclaw/openclaw"
+        "dlink/dwr-m960",
+        "dlink/dwr-m960_firmware"
       ],
-      "published": "2026-02-21T10:16:13.100",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27487",
+      "published": "2026-02-23T00:16:00.377",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2958",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00054,
-      "epss_percentile": 16.8
+      "epss_score": 0.00029,
+      "epss_percentile": 8.3
     },
     {
-      "id": "CVE-2026-27579",
-      "description": "CollabPlatform is a full-stack, real-time doc collaboration platform. In all versions of CollabPlatform, the Appwrite project used by the application is misconfigured to allow arbitrary origins in CORS responses while also permitting credentialed requests. An attacker-controlled domain can issue aut",
-      "full_description": "CollabPlatform is a full-stack, real-time doc collaboration platform. In all versions of CollabPlatform, the Appwrite project used by the application is misconfigured to allow arbitrary origins in CORS responses while also permitting credentialed requests. An attacker-controlled domain can issue authenticated cross-origin requests and read sensitive user account information, including email address, account identifiers, and MFA status. The issue did not have a fix at the time of publication.",
+      "id": "CVE-2026-2959",
+      "description": "A vulnerability was detected in D-Link DWR-M960 1.01.07. Affected by this vulnerability is the function sub_44E0F8 of the file /boafrm/formNewSchedule. Performing a manipulation of the argument url results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit is ",
+      "full_description": "A vulnerability was detected in D-Link DWR-M960 1.01.07. Affected by this vulnerability is the function sub_44E0F8 of the file /boafrm/formNewSchedule. Performing a manipulation of the argument url results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit is now public and may be used.",
       "severity": "HIGH",
-      "score": 7.4,
+      "score": 8.8,
+      "products": [
+        "dlink/dwr-m960",
+        "dlink/dwr-m960_firmware"
+      ],
+      "published": "2026-02-23T00:16:00.697",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2959",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00029,
+      "epss_percentile": 8.3
+    },
+    {
+      "id": "CVE-2026-2960",
+      "description": "A flaw has been found in D-Link DWR-M960 1.01.07. Affected by this issue is the function sub_468D64 of the file /boafrm/formDhcpv6s. Executing a manipulation of the argument submit-url can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been published and ma",
+      "full_description": "A flaw has been found in D-Link DWR-M960 1.01.07. Affected by this issue is the function sub_468D64 of the file /boafrm/formDhcpv6s. Executing a manipulation of the argument submit-url can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been published and may be used.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "products": [
+        "dlink/dwr-m960",
+        "dlink/dwr-m960_firmware"
+      ],
+      "published": "2026-02-23T01:16:17.500",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2960",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00029,
+      "epss_percentile": 8.3
+    },
+    {
+      "id": "CVE-2026-2961",
+      "description": "A vulnerability has been found in D-Link DWR-M960 1.01.07. This affects the function sub_4196C4 of the file /boafrm/formVpnConfigSetup of the component VPN Configuration Endpoint. The manipulation of the argument submit-url leads to stack-based buffer overflow. The attack is possible to be carried o",
+      "full_description": "A vulnerability has been found in D-Link DWR-M960 1.01.07. This affects the function sub_4196C4 of the file /boafrm/formVpnConfigSetup of the component VPN Configuration Endpoint. The manipulation of the argument submit-url leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "products": [
+        "dlink/dwr-m960",
+        "dlink/dwr-m960_firmware"
+      ],
+      "published": "2026-02-23T01:16:17.720",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2961",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00029,
+      "epss_percentile": 8.3
+    },
+    {
+      "id": "CVE-2026-2962",
+      "description": "A vulnerability was found in D-Link DWR-M960 1.01.07. This vulnerability affects the function sub_460F30 of the file /boafrm/formDateReboot of the component Scheduled Reboot Configuration Endpoint. The manipulation of the argument submit-url results in stack-based buffer overflow. The attack may be ",
+      "full_description": "A vulnerability was found in D-Link DWR-M960 1.01.07. This vulnerability affects the function sub_460F30 of the file /boafrm/formDateReboot of the component Scheduled Reboot Configuration Endpoint. The manipulation of the argument submit-url results in stack-based buffer overflow. The attack may be performed from remote. The exploit has been made public and could be used.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "products": [
+        "dlink/dwr-m960",
+        "dlink/dwr-m960_firmware"
+      ],
+      "published": "2026-02-23T01:16:17.923",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2962",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00029,
+      "epss_percentile": 8.3
+    },
+    {
+      "id": "CVE-2026-2998",
+      "description": "ERP developed by eAI Technologies has a DLL Hijacking vulnerability, allowing authenticated local attackers to place a crafted DLL file in the same directory as the program, thereby executing arbitrary code.",
+      "full_description": "ERP developed by eAI Technologies has a DLL Hijacking vulnerability, allowing authenticated local attackers to place a crafted DLL file in the same directory as the program, thereby executing arbitrary code.",
+      "severity": "HIGH",
+      "score": 7.8,
       "products": [],
-      "published": "2026-02-21T11:15:57.600",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27579",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00015,
-      "epss_percentile": 3.1
-    },
-    {
-      "id": "CVE-2026-27488",
-      "description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, Cron webhook delivery in src/gateway/server-cron.ts uses fetch() directly, so webhook targets can reach private/metadata/internal endpoints without SSRF policy checks. This issue was fixed in version 2026.2.19.",
-      "full_description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, Cron webhook delivery in src/gateway/server-cron.ts uses fetch() directly, so webhook targets can reach private/metadata/internal endpoints without SSRF policy checks. This issue was fixed in version 2026.2.19.",
-      "severity": "HIGH",
-      "score": 7.3,
-      "products": [
-        "openclaw/openclaw"
-      ],
-      "published": "2026-02-21T10:16:13.267",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27488",
+      "published": "2026-02-23T04:16:02.537",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2998",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00013,
-      "epss_percentile": 1.9
+      "epss_percentile": 2.0
     },
     {
-      "id": "CVE-2026-2867",
-      "description": "A vulnerability was determined in itsourcecode Vehicle Management System 1.0. Affected is an unknown function of the file /billaction.php. Executing a manipulation of the argument ID can lead to sql injection. The attack may be launched remotely. The exploit has been publicly disclosed and may be ut",
-      "full_description": "A vulnerability was determined in itsourcecode Vehicle Management System 1.0. Affected is an unknown function of the file /billaction.php. Executing a manipulation of the argument ID can lead to sql injection. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "id": "CVE-2026-2938",
+      "description": "A vulnerability has been found in SourceCodester Student Result Management System 1.0. The affected element is an unknown function of the file /srms/script/admin/core/update_smtp.php. The manipulation leads to improper access controls. It is possible to initiate the attack remotely. The exploit has ",
+      "full_description": "A vulnerability has been found in SourceCodester Student Result Management System 1.0. The affected element is an unknown function of the file /srms/script/admin/core/update_smtp.php. The manipulation leads to improper access controls. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "severity": "HIGH",
       "score": 7.3,
       "products": [
-        "admerc/vehicle_management_system"
+        "munyweki/student_result_management_system"
       ],
-      "published": "2026-02-21T14:15:57.983",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2867",
+      "published": "2026-02-22T09:16:11.630",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2938",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.0003,
-      "epss_percentile": 8.6
+      "epss_score": 0.00032,
+      "epss_percentile": 9.2
     },
     {
-      "id": "CVE-2026-2896",
-      "description": "A weakness has been identified in funadmin up to 7.1.0-rc4. This affects the function setConfig of the file app/backend/controller/Ajax.php of the component Configuration Handler. Executing a manipulation can lead to improper authorization. The attack can be executed remotely. The exploit has been m",
-      "full_description": "A weakness has been identified in funadmin up to 7.1.0-rc4. This affects the function setConfig of the file app/backend/controller/Ajax.php of the component Configuration Handler. Executing a manipulation can lead to improper authorization. The attack can be executed remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "id": "CVE-2026-2940",
+      "description": "A vulnerability was determined in Zaher1307 tiny_web_server up to 8d77b1044a0ca3a5297d8726ac8aa2cf944d481b. This affects the function tiny_web_server/tiny.c of the file tiny_web_server/tiny.c of the component URL Handler. This manipulation causes out-of-bounds write. The attack can be initiated remo",
+      "full_description": "A vulnerability was determined in Zaher1307 tiny_web_server up to 8d77b1044a0ca3a5297d8726ac8aa2cf944d481b. This affects the function tiny_web_server/tiny.c of the file tiny_web_server/tiny.c of the component URL Handler. This manipulation causes out-of-bounds write. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The project was informed of the problem early through an issue report but has not responded yet.",
       "severity": "HIGH",
       "score": 7.3,
       "products": [],
-      "published": "2026-02-22T00:15:59.450",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2896",
+      "published": "2026-02-22T10:15:56.747",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2940",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.3
+    },
+    {
+      "id": "CVE-2026-2944",
+      "description": "A security flaw has been discovered in Tosei Online Store Management System ネット店舗管理システム 1.01. Affected is the function system of the file /cgi-bin/monitor.php of the component HTTP POST Request Handler. Performing a manipulation of the argument DevId results in os command injection. The attack may b",
+      "full_description": "A security flaw has been discovered in Tosei Online Store Management System ネット店舗管理システム 1.01. Affected is the function system of the file /cgi-bin/monitor.php of the component HTTP POST Request Handler. Performing a manipulation of the argument DevId results in os command injection. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3,
+      "products": [],
+      "published": "2026-02-22T11:16:13.230",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2944",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.01021,
+      "epss_percentile": 76.9
+    },
+    {
+      "id": "CVE-2026-2952",
+      "description": "A flaw has been found in Vaelsys 4.1.0. This vulnerability affects unknown code of the file /tree/tree_server.php of the component HTTP POST Request Handler. This manipulation of the argument xajaxargs causes os command injection. The attack is possible to be carried out remotely. The exploit has be",
+      "full_description": "A flaw has been found in Vaelsys 4.1.0. This vulnerability affects unknown code of the file /tree/tree_server.php of the component HTTP POST Request Handler. This manipulation of the argument xajaxargs causes os command injection. The attack is possible to be carried out remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3,
+      "products": [],
+      "published": "2026-02-22T14:16:02.687",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2952",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.01284,
+      "epss_percentile": 79.3
+    },
+    {
+      "id": "CVE-2026-2935",
+      "description": "A weakness has been identified in UTT HiPER 810G up to 1.7.7-171114. This issue affects the function strcpy of the file /goform/ConfigExceptMSN. Executing a manipulation of the argument remark can lead to buffer overflow. The attack can be executed remotely. The exploit has been made available to th",
+      "full_description": "A weakness has been identified in UTT HiPER 810G up to 1.7.7-171114. This issue affects the function strcpy of the file /goform/ConfigExceptMSN. Executing a manipulation of the argument remark can lead to buffer overflow. The attack can be executed remotely. The exploit has been made available to the public and could be used for attacks.",
+      "severity": "HIGH",
+      "score": 7.2,
+      "products": [
+        "utt/810g",
+        "utt/810g_firmware"
+      ],
+      "published": "2026-02-22T09:16:11.403",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2935",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00038,
+      "epss_percentile": 11.3
+    },
+    {
+      "id": "CVE-2026-2945",
+      "description": "A weakness has been identified in JeecgBoot 3.9.0. Affected by this vulnerability is an unknown functionality of the file /sys/common/uploadImgByHttp. Executing a manipulation of the argument fileUrl can lead to server-side request forgery. The attack may be launched remotely. The exploit has been m",
+      "full_description": "A weakness has been identified in JeecgBoot 3.9.0. Affected by this vulnerability is an unknown functionality of the file /sys/common/uploadImgByHttp. Executing a manipulation of the argument fileUrl can lead to server-side request forgery. The attack may be launched remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 6.3,
+      "products": [],
+      "published": "2026-02-22T13:16:12.267",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2945",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00034,
+      "epss_percentile": 9.7
+    },
+    {
+      "id": "CVE-2026-2954",
+      "description": "A vulnerability was found in Dromara UJCMS 10.0.2. Impacted is the function importChanel of the file /api/backend/ext/import-data/import-channel of the component ImportDataController. Performing a manipulation of the argument driverClassName/url results in injection. It is possible to initiate the a",
+      "full_description": "A vulnerability was found in Dromara UJCMS 10.0.2. Impacted is the function importChanel of the file /api/backend/ext/import-data/import-channel of the component ImportDataController. Performing a manipulation of the argument driverClassName/url results in injection. It is possible to initiate the attack remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 6.3,
+      "products": [],
+      "published": "2026-02-22T15:16:16.610",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2954",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00041,
       "epss_percentile": 12.3
     },
     {
-      "id": "CVE-2026-2912",
-      "description": "A vulnerability was found in code-projects Online Reviewer System 1.0. Impacted is an unknown function of the file /system/system/students/assessments/results/studentresult-view.php. The manipulation of the argument test_id results in sql injection. It is possible to launch the attack remotely. The ",
-      "full_description": "A vulnerability was found in code-projects Online Reviewer System 1.0. Impacted is an unknown function of the file /system/system/students/assessments/results/studentresult-view.php. The manipulation of the argument test_id results in sql injection. It is possible to launch the attack remotely. The exploit has been made public and could be used.",
-      "severity": "HIGH",
-      "score": 7.3,
-      "products": [
-        "fabian/online_reviewer_system"
-      ],
-      "published": "2026-02-22T04:15:59.590",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2912",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.0003,
-      "epss_percentile": 8.6
-    },
-    {
-      "id": "CVE-2025-14339",
-      "description": "The weMail - Email Marketing, Lead Generation, Optin Forms, Email Newsletters, A/B Testing, and Automation plugin for WordPress is vulnerable to unauthorized form deletion in all versions up to, and including, 2.0.7. This is due to the `Forms::permission()` callback only validating the `X-WP-Nonce` ",
-      "full_description": "The weMail - Email Marketing, Lead Generation, Optin Forms, Email Newsletters, A/B Testing, and Automation plugin for WordPress is vulnerable to unauthorized form deletion in all versions up to, and including, 2.0.7. This is due to the `Forms::permission()` callback only validating the `X-WP-Nonce` header without checking user capabilities. Since the REST nonce is exposed to unauthenticated visitors via the `weMail` JavaScript object on pages with weMail forms, any unauthenticated user can permanently delete all weMail forms by extracting the nonce from the page source and sending a DELETE request to the forms endpoint.",
+      "id": "CVE-2026-2956",
+      "description": "A security flaw has been discovered in qinming99 dst-admin up to 1.5.0. This affects the function revertBackup of the file /home/restore. The manipulation of the argument Name results in command injection. The attack can be launched remotely. The exploit has been released to the public and may be us",
+      "full_description": "A security flaw has been discovered in qinming99 dst-admin up to 1.5.0. This affects the function revertBackup of the file /home/restore. The manipulation of the argument Name results in command injection. The attack can be launched remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
-      "score": 6.5,
+      "score": 6.3,
       "products": [],
-      "published": "2026-02-21T10:16:11.133",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14339",
+      "published": "2026-02-22T22:15:59.663",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2956",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00047,
-      "epss_percentile": 14.4
+      "epss_score": 0.00841,
+      "epss_percentile": 74.4
     },
     {
-      "id": "CVE-2026-27482",
-      "description": "Ray is an AI compute engine. In versions 2.53.0 and below, thedashboard HTTP server blocks browser-origin POST/PUT but does not cover DELETE, and key DELETE endpoints are unauthenticated by default. If the dashboard/agent is reachable (e.g., --dashboard-host=0.0.0.0), a web page via DNS rebinding or",
-      "full_description": "Ray is an AI compute engine. In versions 2.53.0 and below, thedashboard HTTP server blocks browser-origin POST/PUT but does not cover DELETE, and key DELETE endpoints are unauthenticated by default. If the dashboard/agent is reachable (e.g., --dashboard-host=0.0.0.0), a web page via DNS rebinding or same-network access can issue DELETE requests that shut down Serve or delete jobs without user interaction. This is a drive-by availability impact. The fix for this vulnerability is to update to Ray 2.54.0 or higher.",
+      "id": "CVE-2026-2963",
+      "description": "A vulnerability was determined in Jinher OA C6 up to 20260210. This issue affects some unknown processing of the file /C6/Jhsoft.Web.officesupply/OfficeSupplyTypeRight.aspx. This manipulation of the argument id/offsnum causes sql injection. It is possible to initiate the attack remotely. The exploit",
+      "full_description": "A vulnerability was determined in Jinher OA C6 up to 20260210. This issue affects some unknown processing of the file /C6/Jhsoft.Web.officesupply/OfficeSupplyTypeRight.aspx. This manipulation of the argument id/offsnum causes sql injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. It is suggested to install a patch to address this issue. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
-      "score": 5.9,
+      "score": 6.3,
       "products": [],
-      "published": "2026-02-21T10:16:12.380",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27482",
+      "published": "2026-02-23T01:16:18.130",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2963",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00033,
-      "epss_percentile": 9.7
+      "epss_score": 0.00026,
+      "epss_percentile": 7.1
     },
     {
-      "id": "CVE-2026-2898",
-      "description": "A vulnerability was detected in funadmin up to 7.1.0-rc4. This issue affects the function getMember of the file app/common/service/AuthCloudService.php of the component Backend Endpoint. The manipulation of the argument cloud_account results in deserialization. The attack may be performed from remot",
-      "full_description": "A vulnerability was detected in funadmin up to 7.1.0-rc4. This issue affects the function getMember of the file app/common/service/AuthCloudService.php of the component Backend Endpoint. The manipulation of the argument cloud_account results in deserialization. The attack may be performed from remote. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "id": "CVE-2026-2953",
+      "description": "A vulnerability has been found in Dromara UJCMS 101.2. This issue affects the function deleteDirectory of the file WebFileTemplateController.delete of the component Template Handler. Such manipulation leads to path traversal. The attack may be performed from remote. The exploit has been disclosed to",
+      "full_description": "A vulnerability has been found in Dromara UJCMS 101.2. This issue affects the function deleteDirectory of the file WebFileTemplateController.delete of the component Template Handler. Such manipulation leads to path traversal. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
-      "score": 5.5,
+      "score": 5.4,
       "products": [],
-      "published": "2026-02-22T01:16:00.350",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2898",
+      "published": "2026-02-22T14:16:02.890",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2953",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00044,
-      "epss_percentile": 13.4
+      "epss_score": 0.00045,
+      "epss_percentile": 13.9
     },
     {
-      "id": "CVE-2026-27480",
-      "description": "Static Web Server (SWS) is a production-ready web server suitable for static web files or assets. In versions 2.1.0 through 2.40.1, a timing-based username enumeration vulnerability in Basic Authentication allows attackers to identify valid users by exploiting early responses for invalid usernames, ",
-      "full_description": "Static Web Server (SWS) is a production-ready web server suitable for static web files or assets. In versions 2.1.0 through 2.40.1, a timing-based username enumeration vulnerability in Basic Authentication allows attackers to identify valid users by exploiting early responses for invalid usernames, enabling targeted brute-force or credential-stuffing attacks. SWS checks whether a username exists before verifying the password, causing valid usernames to follow a slower code path (e.g., bcrypt hashing) while invalid usernames receive an immediate 401 response. This timing discrepancy allows attackers to enumerate valid accounts by measuring response-time differences. This issue has been fixed in version 2.41.0.",
+      "id": "CVE-2026-2957",
+      "description": "A weakness has been identified in qinming99 dst-admin up to 1.5.0. This impacts the function deleteBackup of the file src/main/java/com/tugos/dst/admin/controller/BackupController.java of the component File Handler. This manipulation causes denial of service. The attack may be initiated remotely. Th",
+      "full_description": "A weakness has been identified in qinming99 dst-admin up to 1.5.0. This impacts the function deleteBackup of the file src/main/java/com/tugos/dst/admin/controller/BackupController.java of the component File Handler. This manipulation causes denial of service. The attack may be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
-      "score": 5.3,
+      "score": 5.4,
       "products": [],
-      "published": "2026-02-21T10:16:12.210",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27480",
+      "published": "2026-02-22T23:15:59.700",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2957",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 1.9
+      "epss_score": 0.00037,
+      "epss_percentile": 10.8
     },
     {
-      "id": "CVE-2026-2894",
-      "description": "A vulnerability was identified in funadmin up to 7.1.0-rc4. Affected by this vulnerability is the function getMember of the file app/frontend/view/login/forget.html. Such manipulation leads to information disclosure. The attack may be launched remotely. The exploit is publicly available and might be",
-      "full_description": "A vulnerability was identified in funadmin up to 7.1.0-rc4. Affected by this vulnerability is the function getMember of the file app/frontend/view/login/forget.html. Such manipulation leads to information disclosure. The attack may be launched remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "id": "CVE-2026-2997",
+      "description": "Tronclass developed by WisdomGarden has a Insecure Direct Object Reference vulnerability. After obtaining a course ID, authenticated remote attackers to modify a specific parameter to obtain a course invitation code, thereby joining any course.",
+      "full_description": "Tronclass developed by WisdomGarden has a Insecure Direct Object Reference vulnerability. After obtaining a course ID, authenticated remote attackers to modify a specific parameter to obtain a course invitation code, thereby joining any course.",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "products": [],
+      "published": "2026-02-23T03:15:59.657",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2997",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00034,
+      "epss_percentile": 9.9
+    },
+    {
+      "id": "CVE-2026-2385",
+      "description": "The The Plus Addons for Elementor – Addons for Elementor, Page Templates, Widgets, Mega Menu, WooCommerce plugin for WordPress is vulnerable to Insufficient Verification of Data Authenticity in all versions up to, and including, 6.4.7. This is due to the plugin decrypting and trusting attacker-contr",
+      "full_description": "The The Plus Addons for Elementor – Addons for Elementor, Page Templates, Widgets, Mega Menu, WooCommerce plugin for WordPress is vulnerable to Insufficient Verification of Data Authenticity in all versions up to, and including, 6.4.7. This is due to the plugin decrypting and trusting attacker-controlled email_data in an unauthenticated AJAX handler without cryptographic authenticity guarantees. This makes it possible for unauthenticated attackers to tamper with form email routing and redirection values to trigger unauthorized email relay and attacker-controlled redirection via the 'email_data' parameter.",
       "severity": "MEDIUM",
       "score": 5.3,
       "products": [],
-      "published": "2026-02-21T23:15:59.763",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2894",
+      "published": "2026-02-22T09:16:10.107",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2385",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00032,
-      "epss_percentile": 9.1
+      "epss_score": 0.00023,
+      "epss_percentile": 6.1
     },
     {
-      "id": "CVE-2026-1787",
-      "description": "The LearnPress Export Import – WordPress extension for LearnPress plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the 'delete_migrated_data' function in all versions up to, and including, 4.1.0. This makes it possible for unauthenticated attackers",
-      "full_description": "The LearnPress Export Import – WordPress extension for LearnPress plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the 'delete_migrated_data' function in all versions up to, and including, 4.1.0. This makes it possible for unauthenticated attackers to delete course that have been migrated from Tutor LMS. The Tutor LMS plugin must be installed and activated in order to exploit the vulnerability.",
+      "id": "CVE-2026-2964",
+      "description": "A vulnerability was identified in higuma web-audio-recorder-js 0.1/0.1.1. Impacted is the function extend in the library lib/WebAudioRecorder.js of the component Dynamic Config Handling. Such manipulation leads to improperly controlled modification of object prototype attributes. It is possible to l",
+      "full_description": "A vulnerability was identified in higuma web-audio-recorder-js 0.1/0.1.1. Impacted is the function extend in the library lib/WebAudioRecorder.js of the component Dynamic Config Handling. Such manipulation leads to improperly controlled modification of object prototype attributes. It is possible to launch the attack remotely. Attacks of this nature are highly complex. The exploitability is considered difficult. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
-      "score": 4.8,
+      "score": 5.0,
       "products": [],
-      "published": "2026-02-21T11:15:55.813",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1787",
+      "published": "2026-02-23T02:16:39.643",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2964",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00041,
-      "epss_percentile": 12.4
+      "epss_score": 0.00046,
+      "epss_percentile": 14.2
     },
     {
-      "id": "CVE-2026-27492",
-      "description": "Lettermint Node.js SDK is the official Node.js SDK for Lettermint. In versions 1.5.0 and below, email properties (such as to, subject, html, text, and attachments) are not reset between sends when a single client instance is reused across multiple .send() calls. This can cause properties from a prev",
-      "full_description": "Lettermint Node.js SDK is the official Node.js SDK for Lettermint. In versions 1.5.0 and below, email properties (such as to, subject, html, text, and attachments) are not reset between sends when a single client instance is reused across multiple .send() calls. This can cause properties from a previous send to leak into a subsequent one, potentially delivering content or recipient addresses to unintended parties. Applications sending emails to different recipients in sequence — such as transactional flows like password resets or notifications — are affected. This issue has been fixed in version 1.5.1.",
+      "id": "CVE-2026-2969",
+      "description": "A flaw has been found in datapizza-labs datapizza-ai 0.0.2. Affected is the function ChatPromptTemplate of the file datapizza-ai-core/datapizza/modules/prompt/prompt.py of the component Jinja2 Template Handler. This manipulation of the argument Prompt causes improper neutralization of special elemen",
+      "full_description": "A flaw has been found in datapizza-labs datapizza-ai 0.0.2. Affected is the function ChatPromptTemplate of the file datapizza-ai-core/datapizza/modules/prompt/prompt.py of the component Jinja2 Template Handler. This manipulation of the argument Prompt causes improper neutralization of special elements used in a template engine. Remote exploitation of the attack is possible. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
       "score": 4.7,
-      "products": [],
-      "published": "2026-02-21T11:15:57.287",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27492",
+      "products": [
+        "datapizza/datapizza_ai"
+      ],
+      "published": "2026-02-23T05:16:19.833",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2969",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00011,
-      "epss_percentile": 1.4
+      "epss_score": 0.00043,
+      "epss_percentile": 13.1
     },
     {
-      "id": "CVE-2026-27485",
-      "description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, skills/skill-creator/scripts/package_skill.py (a local helper script used when authors package skills) previously followed symlinks while building .skill archives. If an author runs this script on a crafted local skill directory c",
-      "full_description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, skills/skill-creator/scripts/package_skill.py (a local helper script used when authors package skills) previously followed symlinks while building .skill archives. If an author runs this script on a crafted local skill directory containing symlinks to files outside the skill root, the resulting archive can include unintended file contents. If exploited, this vulnerability can lead to potential unintentional disclosure of local files from the packaging machine into a generated .skill artifact, but requires local execution of the packaging script on attacker-controlled skill contents. This issue has been fixed in version 2026.2.18.",
+      "id": "CVE-2026-2943",
+      "description": "A vulnerability was identified in SapneshNaik Student Management System up to f4b4f0928f0b5551a28ee81ae7e7fe47d9345318. This impacts an unknown function of the file index.php. Such manipulation of the argument Error leads to cross site scripting. The attack can be launched remotely. The exploit is p",
+      "full_description": "A vulnerability was identified in SapneshNaik Student Management System up to f4b4f0928f0b5551a28ee81ae7e7fe47d9345318. This impacts an unknown function of the file index.php. Such manipulation of the argument Error leads to cross site scripting. The attack can be launched remotely. The exploit is publicly available and might be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "MEDIUM",
-      "score": 4.4,
+      "score": 4.3,
+      "products": [],
+      "published": "2026-02-22T11:16:11.620",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2943",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00031,
+      "epss_percentile": 8.7
+    },
+    {
+      "id": "CVE-2026-2966",
+      "description": "A weakness has been identified in Cesanta Mongoose up to 7.20. The impacted element is the function mg_sendnsreq of the file /src/dns.c of the component DNS Transaction ID Handler. Executing a manipulation of the argument random can lead to insufficiently random values. The attack can be launched re",
+      "full_description": "A weakness has been identified in Cesanta Mongoose up to 7.20. The impacted element is the function mg_sendnsreq of the file /src/dns.c of the component DNS Transaction ID Handler. Executing a manipulation of the argument random can lead to insufficiently random values. The attack can be launched remotely. The attack requires a high level of complexity. The exploitability is regarded as difficult. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.7,
       "products": [
-        "openclaw/openclaw"
+        "cesanta/mongoose"
       ],
-      "published": "2026-02-21T10:16:12.723",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27485",
+      "published": "2026-02-23T03:15:59.373",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2966",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00094,
+      "epss_percentile": 26.4
+    },
+    {
+      "id": "CVE-2026-2967",
+      "description": "A security vulnerability has been detected in Cesanta Mongoose up to 7.20. This affects the function getpeer of the file /src/net_builtin.c of the component TCP Sequence Number Handler. The manipulation leads to improper verification of source of a communication channel. The attack may be initiated ",
+      "full_description": "A security vulnerability has been detected in Cesanta Mongoose up to 7.20. This affects the function getpeer of the file /src/net_builtin.c of the component TCP Sequence Number Handler. The manipulation leads to improper verification of source of a communication channel. The attack may be initiated remotely. The attack's complexity is rated as high. The exploitability is reported as difficult. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.7,
+      "products": [
+        "cesanta/mongoose"
+      ],
+      "published": "2026-02-23T04:16:02.040",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2967",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00131,
+      "epss_percentile": 32.6
+    },
+    {
+      "id": "CVE-2026-2968",
+      "description": "A vulnerability was detected in Cesanta Mongoose up to 7.20. This impacts the function mg_chacha20_poly1305_decrypt of the file /src/tls_chacha20.c of the component Poly1305 Authentication Tag Handler. The manipulation results in improper verification of cryptographic signature. The attack may be la",
+      "full_description": "A vulnerability was detected in Cesanta Mongoose up to 7.20. This impacts the function mg_chacha20_poly1305_decrypt of the file /src/tls_chacha20.c of the component Poly1305 Authentication Tag Handler. The manipulation results in improper verification of cryptographic signature. The attack may be launched remotely. This attack is characterized by high complexity. The exploitability is said to be difficult. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.7,
+      "products": [
+        "cesanta/mongoose"
+      ],
+      "published": "2026-02-23T04:16:02.283",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2968",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 7e-05,
-      "epss_percentile": 0.4
+      "epss_percentile": 0.5
     },
     {
-      "id": "CVE-2026-27484",
-      "description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, the Discord moderation action handling (timeout, kick, ban) uses sender identity from request parameters in tool-driven flows, instead of trusted runtime sender context. In setups where Discord moderation actions are enabled and t",
-      "full_description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, the Discord moderation action handling (timeout, kick, ban) uses sender identity from request parameters in tool-driven flows, instead of trusted runtime sender context. In setups where Discord moderation actions are enabled and the bot has the necessary guild permissions, a non-admin user can request moderation actions by spoofing sender identity fields. This issue has been fixed in version 2026.2.18.",
-      "severity": "MEDIUM",
-      "score": 4.3,
+      "id": "CVE-2026-2946",
+      "description": "A security vulnerability has been detected in rymcu forest up to 0.0.5. Affected by this issue is the function XssUtils.replaceHtmlCode of the file src/main/java/com/rymcu/forest/util/XssUtils.java of the component Article Content/Comments/Portfolio. The manipulation leads to cross site scripting. R",
+      "full_description": "A security vulnerability has been detected in rymcu forest up to 0.0.5. Affected by this issue is the function XssUtils.replaceHtmlCode of the file src/main/java/com/rymcu/forest/util/XssUtils.java of the component Article Content/Comments/Portfolio. The manipulation leads to cross site scripting. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.5,
+      "products": [],
+      "published": "2026-02-22T13:16:13.323",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2946",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00029,
+      "epss_percentile": 8.0
+    },
+    {
+      "id": "CVE-2026-2947",
+      "description": "A vulnerability was detected in rymcu forest up to 0.0.5. This affects the function updateUserInfo of the file - src/main/java/com/rymcu/forest/web/api/user/UserInfoController.java of the component User Profile Handler. The manipulation results in cross site scripting. The attack can be executed rem",
+      "full_description": "A vulnerability was detected in rymcu forest up to 0.0.5. This affects the function updateUserInfo of the file - src/main/java/com/rymcu/forest/web/api/user/UserInfoController.java of the component User Profile Handler. The manipulation results in cross site scripting. The attack can be executed remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.5,
+      "products": [],
+      "published": "2026-02-22T14:16:02.470",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2947",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00029,
+      "epss_percentile": 8.0
+    },
+    {
+      "id": "CVE-2026-2934",
+      "description": "A security vulnerability has been detected in YiFang CMS up to 2.0.5. This impacts the function update of the file app/db/admin/D_friendLinkGroup.php of the component Extended Management Module. The manipulation of the argument Name leads to cross site scripting. It is possible to initiate the attac",
+      "full_description": "A security vulnerability has been detected in YiFang CMS up to 2.0.5. This impacts the function update of the file app/db/admin/D_friendLinkGroup.php of the component Extended Management Module. The manipulation of the argument Name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used.",
+      "severity": "LOW",
+      "score": 2.4,
       "products": [
-        "openclaw/openclaw"
+        "yifangcms/yifang"
       ],
-      "published": "2026-02-21T10:16:12.557",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27484",
+      "published": "2026-02-22T09:16:11.173",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2934",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.0003,
-      "epss_percentile": 8.5
+      "epss_score": 0.00028,
+      "epss_percentile": 7.8
     },
     {
-      "id": "CVE-2026-27576",
-      "description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, the ACP bridge accepts very large prompt text blocks and can assemble oversized prompt payloads before forwarding them to chat.send. Because ACP runs over local stdio, this mainly affects local ACP clients (for example IDE integra",
-      "full_description": "OpenClaw is a personal AI assistant. In versions 2026.2.17 and below, the ACP bridge accepts very large prompt text blocks and can assemble oversized prompt payloads before forwarding them to chat.send. Because ACP runs over local stdio, this mainly affects local ACP clients (for example IDE integrations) that send unusually large inputs. This issue has been fixed in version 2026.2.19.",
-      "severity": "MEDIUM",
-      "score": 4.0,
+      "id": "CVE-2026-2939",
+      "description": "A vulnerability was found in itsourcecode Student Management System 1.0. The impacted element is an unknown function of the file /add_student/ of the component Add Student Module. The manipulation results in cross site scripting. It is possible to launch the attack remotely. The exploit has been mad",
+      "full_description": "A vulnerability was found in itsourcecode Student Management System 1.0. The impacted element is an unknown function of the file /add_student/ of the component Add Student Module. The manipulation results in cross site scripting. It is possible to launch the attack remotely. The exploit has been made public and could be used.",
+      "severity": "LOW",
+      "score": 2.4,
       "products": [
-        "openclaw/openclaw"
+        "itsourcecode/student_management_system"
       ],
-      "published": "2026-02-21T10:16:13.437",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27576",
+      "published": "2026-02-22T10:15:56.520",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2939",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 6e-05,
-      "epss_percentile": 0.3
+      "epss_score": 0.00038,
+      "epss_percentile": 11.2
     },
     {
-      "id": "CVE-2026-2895",
-      "description": "A security flaw has been discovered in funadmin up to 7.1.0-rc4. Affected by this issue is the function repass of the file app/frontend/controller/Member.php. Performing a manipulation of the argument forget_code/vercode results in weak password recovery. Remote exploitation of the attack is possibl",
-      "full_description": "A security flaw has been discovered in funadmin up to 7.1.0-rc4. Affected by this issue is the function repass of the file app/frontend/controller/Member.php. Performing a manipulation of the argument forget_code/vercode results in weak password recovery. Remote exploitation of the attack is possible. The attack's complexity is rated as high. The exploitation is known to be difficult. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "severity": "LOW",
-      "score": 3.7,
-      "products": [],
-      "published": "2026-02-21T23:15:59.990",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2895",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.0003,
-      "epss_percentile": 8.6
-    },
-    {
-      "id": "CVE-2026-2869",
-      "description": "A vulnerability was identified in janet-lang janet up to 1.40.1. Affected by this vulnerability is the function janetc_varset of the file src/core/specials.c of the component handleattr Handler. The manipulation leads to out-of-bounds read. The attack can only be performed from a local environment. ",
-      "full_description": "A vulnerability was identified in janet-lang janet up to 1.40.1. Affected by this vulnerability is the function janetc_varset of the file src/core/specials.c of the component handleattr Handler. The manipulation leads to out-of-bounds read. The attack can only be performed from a local environment. The exploit is publicly available and might be used. Upgrading to version 1.41.0 addresses this issue. The identifier of the patch is 2fabc80151a2b8834ee59cda8a70453f848b40e5. The affected component should be upgraded.",
-      "severity": "LOW",
-      "score": 3.3,
-      "products": [],
-      "published": "2026-02-21T15:15:58.607",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2869",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 2.0
-    },
-    {
-      "id": "CVE-2026-2887",
-      "description": "A security vulnerability has been detected in aardappel lobster up to 2025.4. This impacts the function lobster::TypeName in the library dev/src/lobster/idents.h. Such manipulation leads to uncontrolled recursion. The attack can only be performed from a local environment. The exploit has been disclo",
-      "full_description": "A security vulnerability has been detected in aardappel lobster up to 2025.4. This impacts the function lobster::TypeName in the library dev/src/lobster/idents.h. Such manipulation leads to uncontrolled recursion. The attack can only be performed from a local environment. The exploit has been disclosed publicly and may be used. Upgrading to version 2026.1 will fix this issue. The name of the patch is 8ba49f98ccfc9734ef352146806433a41d9f9aa6. It is advisable to upgrade the affected component.",
-      "severity": "LOW",
-      "score": 3.3,
-      "products": [],
-      "published": "2026-02-21T21:16:11.420",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2887",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00012,
-      "epss_percentile": 1.8
-    },
-    {
-      "id": "CVE-2026-2889",
-      "description": "A vulnerability was detected in CCExtractor up to 0.96.5. Affected is the function processmp4 in the library src/lib_ccx/mp4.c. Performing a manipulation results in use after free. The attack is only possible with local access. The exploit is now public and may be used. Upgrading to version 0.96.6 i",
-      "full_description": "A vulnerability was detected in CCExtractor up to 0.96.5. Affected is the function processmp4 in the library src/lib_ccx/mp4.c. Performing a manipulation results in use after free. The attack is only possible with local access. The exploit is now public and may be used. Upgrading to version 0.96.6 is able to address this issue. The patch is named fd7271bae238ccb3ae8a71304ea64f0886324925. You should upgrade the affected component.",
-      "severity": "LOW",
-      "score": 3.3,
-      "products": [],
-      "published": "2026-02-21T22:15:59.353",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2889",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00012,
-      "epss_percentile": 1.8
-    },
-    {
-      "id": "CVE-2026-2903",
-      "description": "A flaw has been found in skvadrik re2c up to 4.4. Impacted is the function check_and_merge_special_rules of the file src/parse/ast.cc. This manipulation causes null pointer dereference. The attack can only be executed locally. The exploit has been published and may be used. Patch name: febeb977936f9",
-      "full_description": "A flaw has been found in skvadrik re2c up to 4.4. Impacted is the function check_and_merge_special_rules of the file src/parse/ast.cc. This manipulation causes null pointer dereference. The attack can only be executed locally. The exploit has been published and may be used. Patch name: febeb977936f9519a25d9fbd10ff8256358cdb97. It is suggested to install a patch to address this issue.",
-      "severity": "LOW",
-      "score": 3.3,
-      "products": [],
-      "published": "2026-02-22T01:16:00.563",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2903",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 2.0
-    },
-    {
-      "id": "CVE-2026-2913",
-      "description": "A vulnerability was determined in libvips up to 8.19.0. The affected element is the function vips_source_read_to_memory of the file libvips/iofuncs/source.c. This manipulation causes heap-based buffer overflow. It is possible to launch the attack on the local host. The attack's complexity is rated a",
-      "full_description": "A vulnerability was determined in libvips up to 8.19.0. The affected element is the function vips_source_read_to_memory of the file libvips/iofuncs/source.c. This manipulation causes heap-based buffer overflow. It is possible to launch the attack on the local host. The attack's complexity is rated as high. The exploitability is described as difficult. The exploit has been publicly disclosed and may be utilized. Patch name: a56feecbe9ed66521d9647ec9fbcd2546eccd7ee. Applying a patch is the recommended action to fix this issue. The confirmation of the bugfix mentions: \"[T]he impact of this is negligible, since this only affects custom seekable sources larger than 4 GiB (and the crash occurs in user code rather than libvips itself).\"",
-      "severity": "LOW",
-      "score": 2.5,
-      "products": [],
-      "published": "2026-02-22T04:15:59.790",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2913",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 2.0
-    },
-    {
-      "id": "CVE-2026-2897",
-      "description": "A security vulnerability has been detected in funadmin up to 7.1.0-rc4. This vulnerability affects unknown code of the file app/backend/view/index/index.html of the component Backend Interface. The manipulation of the argument Value leads to cross site scripting. The attack is possible to be carried",
-      "full_description": "A security vulnerability has been detected in funadmin up to 7.1.0-rc4. This vulnerability affects unknown code of the file app/backend/view/index/index.html of the component Backend Interface. The manipulation of the argument Value leads to cross site scripting. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "id": "CVE-2026-2965",
+      "description": "A security flaw has been discovered in 07FLYCMS, 07FLY-CMS and 07FlyCRM up to 1.2.9. The affected element is an unknown function of the file /admin/SysModule/edit.html of the component System Extension Module. Performing a manipulation of the argument Title results in cross site scripting. The attac",
+      "full_description": "A security flaw has been discovered in 07FLYCMS, 07FLY-CMS and 07FlyCRM up to 1.2.9. The affected element is an unknown function of the file /admin/SysModule/edit.html of the component System Extension Module. Performing a manipulation of the argument Title results in cross site scripting. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks. This product is published under multiple names. The vendor was contacted early about this disclosure but did not respond in any way.",
       "severity": "LOW",
       "score": 2.4,
       "products": [],
-      "published": "2026-02-22T01:16:00.107",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2897",
+      "published": "2026-02-23T03:15:58.917",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2965",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.0003,
-      "epss_percentile": 8.6
-    },
-    {
-      "id": "CVE-2026-27486",
-      "description": "OpenClaw is a personal AI assistant. In versions 2026.2.13 and below of the OpenClaw CLI, the process cleanup uses system-wide process enumeration and pattern matching to terminate processes without verifying if they are owned by the current OpenClaw process. On shared hosts, unrelated processes can",
-      "full_description": "OpenClaw is a personal AI assistant. In versions 2026.2.13 and below of the OpenClaw CLI, the process cleanup uses system-wide process enumeration and pattern matching to terminate processes without verifying if they are owned by the current OpenClaw process. On shared hosts, unrelated processes can be terminated if they match the pattern. The CLI runner cleanup helpers can kill processes matched by command-line patterns without validating process ownership. This issue has been fixed in version 2026.2.14.",
-      "severity": "UNKNOWN",
-      "score": 0.0,
-      "products": [],
-      "published": "2026-02-21T10:16:12.903",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27486",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 1.9
+      "epss_score": 0.00028,
+      "epss_percentile": 7.8
     }
   ]
 }
