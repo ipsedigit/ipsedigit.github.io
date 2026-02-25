@@ -437,34 +437,54 @@ def fetch_preview(entry):
         return None
 
 
-def get_today_subniches():
-    """Read sub-niches already published today. Returns list like ['ai:llm', 'security:malware']."""
+def get_daily_state():
+    """Read today's published state. Returns dict with subniches, niche_counts, type_counts, total."""
+    state = {
+        'subniches': [],
+        'niche_counts': {},
+        'type_counts': {'breaking': 0, 'deep': 0, 'community': 0},
+        'total': 0,
+    }
     try:
         if not os.path.exists(DAILY_CATEGORIES_FILE):
-            return []
+            return state
 
         with open(DAILY_CATEGORIES_FILE, 'r') as f:
             lines = f.read().strip().split('\n')
 
         today_str = date.today().isoformat()
-        entries = []
         for line in lines:
             if not line.startswith(today_str):
                 continue
-            # Format: "2026-02-23:ai:llm" or legacy "2026-02-23:llm"
-            parts = line.split(':', 1)
-            if len(parts) >= 2:
-                entries.append(parts[1])
-        return entries
-    except:
-        return []
+            parts = line[len(today_str) + 1:].split(':')
+            if len(parts) >= 3:
+                niche, subniche, content_type = parts[0], parts[1], parts[2]
+                state['subniches'].append(f"{niche}:{subniche}")
+                state['niche_counts'][niche] = state['niche_counts'].get(niche, 0) + 1
+                if content_type in state['type_counts']:
+                    state['type_counts'][content_type] += 1
+                state['total'] += 1
+            elif len(parts) >= 2:
+                niche, subniche = parts[0], parts[1]
+                state['subniches'].append(f"{niche}:{subniche}")
+                state['niche_counts'][niche] = state['niche_counts'].get(niche, 0) + 1
+                state['total'] += 1
+    except Exception:
+        pass
+
+    return state
 
 
-def track_daily_subniche(niche, subniche):
-    """Track the niche:sub-niche published today."""
+def get_today_subniches():
+    """Legacy wrapper - returns list of sub-niches published today."""
+    return get_daily_state()['subniches']
+
+
+def track_daily_subniche(niche, subniche, content_type='breaking'):
+    """Track the niche:sub-niche:content_type published today."""
     today_str = date.today().isoformat()
     with open(DAILY_CATEGORIES_FILE, 'a') as f:
-        f.write(f"{today_str}:{niche}:{subniche}\n")
+        f.write(f"{today_str}:{niche}:{subniche}:{content_type}\n")
 
 
 def keyword_in_text(text, keyword):
