@@ -371,6 +371,50 @@ def classify_content_type(entry):
     return 'breaking'
 
 
+def _scan_all_sources():
+    """Scan all RSS feeds and return scored, categorized candidate entries."""
+    all_entries = []
+
+    for source_key, source in NEWS_SOURCES.items():
+        try:
+            feed = feedparser.parse(source['feed_url'])
+            entries = extract_entries(feed, source)
+
+            for entry in entries:
+                cat = identify_category(entry)
+                if cat not in NICHE_CATEGORIES:
+                    continue
+
+                subniche = identify_subniche(entry, cat)
+                entry['_category'] = cat
+                entry['_subniche'] = subniche
+                entry['score'] = calculate_score(entry, source)
+                entry['content_type'] = classify_content_type(entry)
+                all_entries.append(entry)
+
+        except Exception as e:
+            print(f"   ⚠️ Error scanning {source.get('name', source_key)}: {e}")
+
+    return all_entries
+
+
+def _build_candidates(min_score=None):
+    """Build sorted list of publishable candidates (not yet published, above score floor)."""
+    if min_score is None:
+        min_score = MIN_SCORE
+
+    published = set(read_text_file(PUBLISHED_NEWS_FILE_NAME))
+    all_entries = _scan_all_sources()
+
+    candidates = [
+        e for e in all_entries
+        if e['link'] not in published and e['score'] >= min_score
+    ]
+
+    candidates.sort(key=lambda x: x['score'], reverse=True)
+    return candidates
+
+
 def generate_why_picked(entry):
     """Generate a brief editorial note explaining why this article was selected."""
     parts = []
