@@ -161,3 +161,4 @@ https://www.docker.com/blog/reduce-vulnerability-noise-with-vex-wiz-docker-harde
 https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html
 https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/
 https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
+https://dev.to/adegiamb/the-internal-consultant-framework-engineering-your-career-sprint-by-sprint-5a16
