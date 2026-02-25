@@ -4,115 +4,151 @@
 .site-header {
   position: relative;
   width: 100%;
-  min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
   background-color: $background-color;
-  border-top: 5px solid $border-color-03;
+  border-top: 3px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+  }
 }
 
-.site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  flex-shrink: 0;
 
-  @include media-query($on-palm) {
-    padding-right: 45px;
+  &:hover {
+    text-decoration: none;
   }
 
-  &,
-  &:visited {
+  &, &:visited {
     color: $site-title-color;
   }
 }
 
-.site-nav {
-  float: right;
-  border: none;
-  background-color: inherit;
+.site-logo {
+  border-radius: 4px;
+}
 
-  label[for="nav-trigger"], #nav-trigger {
+.site-title {
+  @include relative-font-size(1.375);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+
+  .nav-trigger {
     display: none;
   }
 
+  label[for="nav-trigger"] {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
   .nav-item {
+    @include relative-font-size(0.825);
     color: $text-color;
-    &:not(:last-child) {
-      margin-right: $spacing-unit * 0.5;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: $border-color-01;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $text-color;
     }
   }
 
+  .nav-rss {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    margin-left: 2px;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  // Mobile hamburger menu
   @include media-query($on-medium) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit * 0.6;
-    background-color: $background-color;
-    border: 1px solid $border-color-01;
-    border-radius: 5px;
-    text-align: right;
+    position: relative;
 
     label[for="nav-trigger"] {
-      display: block;
-      float: right;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 36px;
       height: 36px;
       cursor: pointer;
+      z-index: 2;
     }
 
     .menu-icon {
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 18px;
-      text-align: center;
-
-      &::before {
-        font-family: "Font Awesome 6 Free";
-        font-weight: 900;
-      }
+      display: flex;
+      align-items: center;
 
       > svg path {
         fill: $border-color-03;
       }
     }
 
-    #nav-trigger {
-      ~ label[for=nav-trigger] .menu-icon {
-        &::before {
-          content: "\f0c9";
-          font-size: 1.25em;
-        }
-      }
-      ~ .nav-items {
-        clear: both;
-        display: none
-      }
-      &:checked {
-      ~ label[for=nav-trigger] .menu-icon {
-        &::before {
-          content: "\f00d";
-          font-size: 1.5em;
-        }
-      }
-        ~ .nav-items {
-          display: block;
-          padding-bottom: 5px;
-          .nav-item {
-            margin-left: 20px;
-            padding: 5px 10px;
-          }
-        }
-      }
+    .nav-items {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      min-width: 160px;
+      background-color: $background-color;
+      border: 1px solid $border-color-01;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 6px 0;
+      z-index: 10;
     }
 
     .nav-item {
       display: block;
-      padding: 5px 0;
-      color: $text-color;
-      line-height: $base-line-height;
+      padding: 8px 16px;
+      border-radius: 0;
+      @include relative-font-size(0.875);
+    }
+
+    .nav-rss {
+      justify-content: flex-start;
+      padding: 8px 16px;
+      margin-left: 0;
+    }
+
+    .nav-trigger:checked ~ .nav-items {
+      display: flex;
     }
   }
 }

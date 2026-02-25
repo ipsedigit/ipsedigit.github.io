@@ -19,7 +19,7 @@
       "Bash(cd /c/repo/ipsedigit.github.io && python -c \"\nimport json\ndata = json.load\\(open\\('docs/_data/cves.json'\\)\\)\nprint\\(f'Total: {data[\\\\\"total\\\\\"]} CVEs'\\)\nfor cve in data['cves'][:10]:\n    print\\(f\\\\\"  {cve['id']}  {cve['severity']}  {cve['score']}\\\\\"\\)\n\" 2>&1)",
       "Bash(find:*)",
       "Bash(git:*)",
-      "Bash(cd:*2)"
+      "Bash(tail:*)"
     ]
   }
 }
