@@ -1,8 +1,8 @@
 ---
 layout: default
-title: TechPulse Daily - Tech News Digest | Notizie Tech | Actualités Tech
-description: "The smartest tech news digest. AI, startups, programming curated from 50+ sources. Le migliori notizie tech. Les meilleures actualités tech. Las mejores noticias tech."
-keywords: "tech news, AI news, startup news, programming, notizie tech, intelligenza artificiale, actualités tech, noticias tech, inteligencia artificial"
+title: "eof.news — Today's tech signal for engineers who build"
+description: "Daily curated tech signal: AI, security, cloud, devtools. For engineers who build. No noise."
+keywords: "tech news, AI news, security news, cloud computing, developer tools, software engineering, devops, kubernetes, programming, trending tech"
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -243,11 +243,15 @@ body {
 
 <div class="page-header">
   <h1>eof.news</h1>
-  <p>Curated tech news from 50+ sources</p>
+  <p>{% if site.tagline %}{{ site.tagline }}{% else %}Today's tech signal for engineers who build.{% endif %}</p>
+  {% if site.tagline_sub %}
+  <p style="margin-top:0.25rem; font-size:0.9rem;">{{ site.tagline_sub }}</p>
+  {% endif %}
   <div class="quick-nav">
-    <a href="/topics/">Browse Topics</a>
-    <a href="/sources/">Our 50+ Sources</a>
-    <a href="/feed.xml">RSS Feed</a>
+    <a href="/topics/">Topics</a>
+    <a href="/creators/">From creators</a>
+    <a href="/sources/">Sources</a>
+    <a href="/feed.xml">RSS</a>
   </div>
 </div>
 

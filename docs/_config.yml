@@ -14,11 +14,13 @@
 #
 # Site settings - BRAND
 title: eof.news
-tagline: "Your daily dose of tech that matters"
+# Value proposition: outcome + audience (see docs/plans/marketing-header-and-creators.md for options)
+tagline: "Today's tech signal for engineers who build"
+tagline_sub: "Curated daily from 50+ sources — AI, security, cloud, devtools."
 email: ipsedigitmail@gmail.com
 description: >- 
-  The smartest tech news digest. AI, startups, programming, and engineering 
-  insights curated daily from top sources. No noise, just signal.
+  Today's tech signal for engineers who build. AI, security, cloud, devtools and 
+  software engineering curated daily. No noise, just signal.
 baseurl: ""
 url: "https://ipsedigit.github.io"
 lang: en
@@ -38,7 +40,7 @@ lang: en
 
 # Social / SEO
 twitter:
-  username: techpulsedaily
+  username: eaborea
   card: summary_large_image
 social:
   name: eof.news

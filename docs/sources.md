@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tech News Sources | Fonti | Sources | Fuentes - TechPulse Daily
+title: Tech News Sources | Fonti | Sources | Fuentes - eof.news
 description: "50+ authoritative tech news sources we monitor. Hacker News, GitHub, Netflix, OpenAI, Google AI, and more. Le nostre fonti tech autorevoli."
 permalink: /sources/
 ---

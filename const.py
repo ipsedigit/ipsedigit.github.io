@@ -5,6 +5,7 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # =============================================================================
 
 MAX_POSTS_PER_NICHE_PER_DAY = 3
+CREATOR_MAX_PER_DAY = 1  # Reserved slot(s) to feed /creators/ from creator-type sources
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
 # Niche focus: 5 niches for topical authority and SEO
@@ -255,6 +256,12 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'community',
     },
+    'techcrunch': {
+        'name': 'TechCrunch',
+        'feed_url': 'https://techcrunch.com/feed/',
+        'min_score': 0,
+        'type': 'news',
+    },
 
     # --- TIER 4: AI/ML Research Blogs (primary-source research content) ---
     'openai_blog': {
@@ -307,6 +314,18 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'security',
     },
+    'threatpost': {
+        'name': 'Threatpost',
+        'feed_url': 'https://threatpost.com/feed/',
+        'min_score': 0,
+        'type': 'security',
+    },
+    'bleepingcomputer': {
+        'name': 'BleepingComputer',
+        'feed_url': 'https://www.bleepingcomputer.com/feed/',
+        'min_score': 0,
+        'type': 'security',
+    },
 
     # --- TIER 6: Startup/Practitioner Insight ---
     'yc_blog': {
@@ -353,6 +372,36 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'corporate_blog',
     },
+    'datadoghq_blog': {
+        'name': 'Datadog Blog',
+        'feed_url': 'https://www.datadoghq.com/blog/feed/',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+    'vercel_blog': {
+        'name': 'Vercel Blog',
+        'feed_url': 'https://vercel.com/blog/feed',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+    'planetscale_blog': {
+        'name': 'PlanetScale Blog',
+        'feed_url': 'https://planetscale.com/blog/feed',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+    'tailscale_blog': {
+        'name': 'Tailscale Blog',
+        'feed_url': 'https://tailscale.com/blog/feed/',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
+    'flyio_blog': {
+        'name': 'Fly.io Blog',
+        'feed_url': 'https://fly.io/blog/feed',
+        'min_score': 0,
+        'type': 'corporate_blog',
+    },
 
     # --- TIER 8: DevTools & Software Engineering ---
     'infoworld': {
@@ -377,13 +426,62 @@ NEWS_SOURCES = {
         'name': 'The Pragmatic Engineer',
         'feed_url': 'https://newsletter.pragmaticengineer.com/feed',
         'min_score': 0,
-        'type': 'se_blog',
+        'type': 'creator',
     },
     'bytebytego': {
         'name': 'ByteByteGo',
         'feed_url': 'https://blog.bytebytego.com/feed',
         'min_score': 0,
         'type': 'se_blog',
+    },
+
+    # --- TIER 9: Creators & newsletters (indie, Substack, Buttondown — reach individuals) ---
+    'softwarearchitectureweekly': {
+        'name': 'Software Architecture Weekly',
+        'feed_url': 'https://softwarearchitectureweekly.substack.com/feed',
+        'min_score': 0,
+        'type': 'creator',
+    },
+    # Indie: personal blogs and small/solo Substacks
+    'juliaevans': {
+        'name': 'Julia Evans',
+        'feed_url': 'https://jvns.ca/atom.xml',
+        'url': 'https://jvns.ca/blog',
+        'min_score': 0,
+        'type': 'creator',
+    },
+    'danluu': {
+        'name': 'Dan Luu',
+        'feed_url': 'https://danluu.com/atom.xml',
+        'url': 'https://danluu.com',
+        'min_score': 0,
+        'type': 'creator',
+    },
+    'computerenhance': {
+        'name': 'Computer, Enhance!',
+        'feed_url': 'https://computerenhance.com/feed',
+        'url': 'https://computerenhance.com',
+        'min_score': 0,
+        'type': 'creator',
+    },
+    'strlen': {
+        'name': "Schopenhauer's Kubernetes cluster",
+        'feed_url': 'https://strlen.substack.com/feed',
+        'url': 'https://strlen.substack.com',
+        'min_score': 0,
+        'type': 'creator',
+    },
+    'indiedeveloperdiaries': {
+        'name': 'Indie Developer Diaries',
+        'feed_url': 'https://indiedeveloperdiaries.substack.com/feed',
+        'min_score': 0,
+        'type': 'creator',
+    },
+    'howtech': {
+        'name': 'How Tech',
+        'feed_url': 'https://howtech.substack.com/feed',
+        'min_score': 0,
+        'type': 'creator',
     },
 }
 

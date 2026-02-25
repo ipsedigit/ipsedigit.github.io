@@ -1,9 +1,11 @@
 import feedparser
+import json
 import uuid
 import requests
 import re
 import os
 from datetime import datetime, timezone, date
+from urllib.parse import urlparse
 from utils import read_text_file, track_published
 from const import (
     NEWS_SOURCES,
@@ -11,6 +13,7 @@ from const import (
     CONTENT_CATEGORIES,
     NICHE_CATEGORIES,
     MAX_POSTS_PER_NICHE_PER_DAY,
+    CREATOR_MAX_PER_DAY,
     DAILY_CATEGORIES_FILE,
     TITLE_BONUS,
     TITLE_PENALTY,
@@ -21,8 +24,29 @@ from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
 
+CREATOR_SOURCES_DATA_PATH = "docs/_data/creator_sources.json"
+
+
+def update_creator_sources_data():
+    """Write docs/_data/creator_sources.json from NEWS_SOURCES (type=='creator') so /creators/ lists them automatically."""
+    creators = []
+    for key, source in NEWS_SOURCES.items():
+        if source.get("type") != "creator":
+            continue
+        name = source.get("name", key)
+        url = source.get("url")
+        if not url and source.get("feed_url"):
+            url = re.sub(r"(/feed|/rss|/feed\.xml|/atom\.xml)(/.*)?$", "", source["feed_url"].rstrip("/"))
+        creators.append({"name": name, "url": url or "#"})
+    os.makedirs(os.path.dirname(CREATOR_SOURCES_DATA_PATH), exist_ok=True)
+    with open(CREATOR_SOURCES_DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(creators, f, indent=2)
+    print(f"📄 Updated {CREATOR_SOURCES_DATA_PATH} ({len(creators)} creator sources)")
+
+
 def publish_news(target_niche=None):
     """Publish the best available post for each niche that hasn't hit its daily limit."""
+    update_creator_sources_data()
     today_entries = get_today_subniches()
     published_any = False
 
@@ -59,16 +83,36 @@ def publish_news(target_niche=None):
         else:
             print(f"❌ [{niche}] No suitable posts found")
 
+    # Creator slot: feed /creators/ with at least one post from creator-type sources per day (when not targeting a single niche)
+    if not target_niche and CREATOR_MAX_PER_DAY > 0:
+        creator_entries = [e for e in get_today_subniches() if e.startswith("creator:")]
+        if len(creator_entries) < CREATOR_MAX_PER_DAY:
+            print(f"📊 [creator] Filling creator slot ({len(creator_entries)}/{CREATOR_MAX_PER_DAY} today)")
+            best_creator = find_best_post(
+                exclude_subniches=today_entries,
+                source_type_filter="creator",
+            )
+            if best_creator:
+                create_post(best_creator)
+                generate_tag_pages()
+                track_published(best_creator["link"], PUBLISHED_NEWS_FILE_NAME)
+                track_daily_subniche("creator", best_creator.get("source", "unknown"))
+                published_any = True
+                print(f"✅ [creator] Published: {best_creator['title']} ({best_creator['source']})")
+            else:
+                print("❌ [creator] No suitable creator post found")
+
     if not published_any:
         print("❌ No posts published this run")
 
 
-def find_best_post(exclude_subniches=None, target_niche=None):
+def find_best_post(exclude_subniches=None, target_niche=None, source_type_filter=None):
     """
     Find the best post across all sources by score.
-    Requires 2+ keyword matches and niche category (AI or Security).
+    Requires 2+ keyword matches and niche category (AI, Security, Cloud, DevTools, or Software Engineering).
     Skips sub-niches already covered today to ensure diversity.
     If target_niche is set, only considers posts from that niche.
+    If source_type_filter is set (e.g. 'creator'), only considers posts from sources of that type.
     """
     if exclude_subniches is None:
         exclude_subniches = []
@@ -77,6 +121,8 @@ def find_best_post(exclude_subniches=None, target_niche=None):
     all_candidates = []
 
     for source_key, source in NEWS_SOURCES.items():
+        if source_type_filter and source.get("type") != source_type_filter:
+            continue
         print(f"🔍 Scanning {source['name']}...")
 
         try:
@@ -98,8 +144,10 @@ def find_best_post(exclude_subniches=None, target_niche=None):
                 entry['_category'] = cat
                 entry['_subniche'] = subniche
 
-                # Skip sub-niches already covered today (format: "niche:subniche")
+                # Skip sub-niches already covered today (format: "niche:subniche" or "creator:SourceName")
                 sub_key = f"{cat}:{subniche}" if subniche else cat
+                if source_type_filter == "creator":
+                    sub_key = f"creator:{source.get('name', source_key)}"
                 if sub_key in exclude_subniches:
                     continue
 
@@ -201,6 +249,8 @@ def calculate_score(entry, source):
         score += 30   # Cloud/infrastructure specialist content
     elif source_type == 'se_blog':
         score += 35   # Software engineering thought leaders
+    elif source_type == 'creator':
+        score += 28   # Indie creators, newsletters (Substack, etc.) — strong signal for individual reach
     elif source_type == 'community':
         score += 10
     # 'news' and 'aggregator' types: rely on community score or title patterns
@@ -284,6 +334,8 @@ def generate_why_picked(entry):
         parts.append(f"cloud infrastructure source: {source_name}")
     elif source_type == 'se_blog':
         parts.append(f"software engineering thought leader: {source_name}")
+    elif source_type == 'creator':
+        parts.append(f"creator & newsletter: {source_name}")
     elif source_type == 'aggregator' and community_score > 0:
         parts.append(f"{community_score} community points on {source_name}")
     else:
@@ -407,6 +459,7 @@ def create_post(news):
         if "image" in news:
             f.write(f'image: {news["image"]}\n')
         f.write(f'source: {source_name}\n')
+        f.write(f'source_type: {news.get("source_type", "news")}\n')
         f.write(f'reading_time: {reading_time}\n')
         f.write(f'niche_category: {category}\n')
         if subniche:
