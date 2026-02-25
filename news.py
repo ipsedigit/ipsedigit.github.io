@@ -38,9 +38,13 @@ def update_creator_sources_data():
         if not url and source.get("feed_url"):
             url = re.sub(r"(/feed|/rss|/feed\.xml|/atom\.xml)(/.*)?$", "", source["feed_url"].rstrip("/"))
         creators.append({"name": name, "url": url or "#"})
+    data = {
+        "sources": creators,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
     os.makedirs(os.path.dirname(CREATOR_SOURCES_DATA_PATH), exist_ok=True)
     with open(CREATOR_SOURCES_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(creators, f, indent=2)
+        json.dump(data, f, indent=2)
     print(f"📄 Updated {CREATOR_SOURCES_DATA_PATH} ({len(creators)} creator sources)")
 
 

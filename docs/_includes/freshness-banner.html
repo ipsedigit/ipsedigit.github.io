@@ -1,0 +1,25 @@
+{% if include.timestamp %}
+<div class="freshness-banner" style="display:flex; align-items:center; gap:0.5em; padding:0.5em 0.75em; margin-bottom:1.5em; background:#f0f9ff; border:1px solid #bae6fd; border-radius:8px; font-size:0.85em; color:#0c4a6e;">
+  <span style="font-size:1.1em;">&#128339;</span>
+  <span>Updated: <time class="freshness-time" datetime="{{ include.timestamp }}">{{ include.timestamp | date: "%b %d, %Y at %H:%M UTC" }}</time></span>
+</div>
+<script>
+(function(){
+  document.querySelectorAll('.freshness-time').forEach(function(el){
+    var dt = new Date(el.getAttribute('datetime'));
+    if(isNaN(dt)) return;
+    var now = new Date();
+    var diff = Math.floor((now - dt) / 1000);
+    var rel;
+    if(diff < 60) rel = 'just now';
+    else if(diff < 3600) rel = Math.floor(diff/60) + 'm ago';
+    else if(diff < 86400) rel = Math.floor(diff/3600) + 'h ago';
+    else if(diff < 604800) rel = Math.floor(diff/86400) + 'd ago';
+    else rel = null;
+    if(rel){
+      el.textContent = el.textContent + ' (' + rel + ')';
+    }
+  });
+})();
+</script>
+{% endif %}

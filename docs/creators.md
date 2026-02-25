@@ -40,10 +40,12 @@ We curate from these creators in our [daily digest](/). When we feature a piece,
 
 </div>
 
+{% include freshness-banner.html timestamp=site.data.creator_sources.generated_at %}
+
 <div class="source-list">
 
-{% if site.data.creator_sources and site.data.creator_sources.size > 0 %}
-{% for src in site.data.creator_sources %}
+{% if site.data.creator_sources.sources and site.data.creator_sources.sources.size > 0 %}
+{% for src in site.data.creator_sources.sources %}
 <div class="source-item">
 <a href="{{ src.url }}" target="_blank" rel="noopener">{{ src.name }}</a>
 <p>Creator source we curate from — posts appear in the digest and below.</p>

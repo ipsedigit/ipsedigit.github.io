@@ -5,6 +5,8 @@ description: "Hot GitHub repositories tracked daily. Stars, forks, languages, an
 permalink: /github/
 ---
 
+{% include freshness-banner.html timestamp=site.data.github.generated_at %}
+
 ## Overview
 
 {% assign repos = site.data.github.repos %}
@@ -228,5 +230,5 @@ new Chart(document.getElementById('activityChart'), {
 ---
 
 <p style="font-size:0.8em; color:#9ca3af;">
-Data from <a href="https://github.com">GitHub</a> Search API &middot; Updated: {{ site.data.github.generated_at }}
+Data from <a href="https://github.com">GitHub</a> Search API
 </p>
