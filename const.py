@@ -8,6 +8,34 @@ MAX_POSTS_PER_NICHE_PER_DAY = 3
 CREATOR_MAX_PER_DAY = 1  # Reserved slot(s) to feed /creators/ from creator-type sources
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
+# --- Two-pass selection budget ---
+MIN_SCORE = 70               # Quality floor (raised from 50)
+MIN_SCORE_FALLBACK = 60      # Fallback floor on slow news days
+DAILY_TARGET = 12            # Hard cap: max posts per day
+DAILY_MINIMUM = 8            # Soft floor: lower quality threshold if below this
+MAX_PER_TYPE = 4             # Max posts of one content type per day
+
+# Content type detection patterns (checked in priority order by classify_content_type)
+CONTENT_TYPE_PATTERNS = {
+    'community': [
+        r'show\s+hn',
+        r'open.?source',
+        r'built\s+a\b',
+        r'side\s+project',
+    ],
+    'breaking': [
+        r'(announce|launch|releas|introduc)',
+        r'(vulnerab|exploit|breach|CVE-|zero.?day)',
+        r'(hack|leak|attack|incident)',
+    ],
+    'deep': [
+        r'(paper|arxiv|research|benchmark)',
+        r'(how\s+we|architecture|deep\s+dive)',
+        r'(tutorial|guide|case\s+study)',
+        r'(system\s+design|scalab|pattern)',
+    ],
+}
+
 # Niche focus: 5 niches for topical authority and SEO
 CONTENT_CATEGORIES = {
     'ai': ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'chatgpt',
