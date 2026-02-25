@@ -55,65 +55,66 @@ def update_creator_sources_data():
 
 
 def publish_news(target_niche=None):
-    """Publish the best available post for each niche that hasn't hit its daily limit."""
+    """Publish articles using two-pass selection.
+
+    If target_niche is given, falls back to single-niche mode (legacy workflow compat).
+    Otherwise, uses full two-pass selection across all niches.
+    """
     update_creator_sources_data()
+
+    if target_niche:
+        _publish_single_niche(target_niche)
+        return
+
+    selected = select_daily_posts()
+    if not selected:
+        print("❌ No posts selected this run")
+        return
+
+    published_count = 0
+    for entry in selected:
+        result = fetch_preview(entry)
+        if not result:
+            print(f"   ⚠️ Preview fetch failed, skipping: {entry['title'][:50]}")
+            continue
+
+        result['why_picked'] = generate_why_picked(result)
+        create_post(result)
+        generate_tag_pages()
+        track_published(result['link'], PUBLISHED_NEWS_FILE_NAME)
+        sub_key = result.get('_subniche') or result.get('_category', 'unknown')
+        ctype = result.get('content_type', 'breaking')
+        track_daily_subniche(result['_category'], sub_key, ctype)
+        published_count += 1
+
+        print(f"✅ [{result['_category']}] [{ctype}] Published: {result['title'][:60]}")
+        print(f"   Score: {result['score']} | Source: {result['source']}")
+
+    print(f"\n📊 Published {published_count} articles this run")
+
+
+def _publish_single_niche(target_niche):
+    """Legacy single-niche publish for backward compatibility with niche-rotation workflow."""
     today_entries = get_today_subniches()
-    published_any = False
 
-    niches_to_process = [target_niche] if target_niche else NICHE_CATEGORIES
+    niche_entries = [e for e in today_entries if e.startswith(f"{target_niche}:") or e == target_niche]
+    niche_count = len(niche_entries)
 
-    for niche in niches_to_process:
-        if niche not in NICHE_CATEGORIES:
-            print(f"⚠️ Unknown niche: {niche}")
-            continue
+    if niche_count >= MAX_POSTS_PER_NICHE_PER_DAY:
+        print(f"⏸️ [{target_niche}] Daily limit reached: {niche_count}/{MAX_POSTS_PER_NICHE_PER_DAY}")
+        return
 
-        niche_entries = [e for e in today_entries if e.startswith(f"{niche}:") or e == niche]
-        niche_count = len(niche_entries)
-
-        if niche_count >= MAX_POSTS_PER_NICHE_PER_DAY:
-            print(f"⏸️ [{niche}] Daily limit reached: {niche_count}/{MAX_POSTS_PER_NICHE_PER_DAY}")
-            continue
-
-        print(f"📊 [{niche}] Posts today: {niche_count}/{MAX_POSTS_PER_NICHE_PER_DAY}")
-
-        best_post = find_best_post(exclude_subniches=today_entries, target_niche=niche)
-
-        if best_post:
-            create_post(best_post)
-            generate_tag_pages()
-            track_published(best_post['link'], PUBLISHED_NEWS_FILE_NAME)
-            sub_key = best_post.get('_subniche') or best_post.get('_category', 'unknown')
-            track_daily_subniche(niche, sub_key)
-            published_any = True
-
-            print(f"✅ [{niche}] Published: {best_post['title']}")
-            print(f"   Source: {best_post['source']}")
-            print(f"   Score: {best_post['score']}")
-            print(f"   Category: {best_post.get('_category')} / {best_post.get('_subniche')}")
-        else:
-            print(f"❌ [{niche}] No suitable posts found")
-
-    # Creator slot: feed /creators/ with at least one post from creator-type sources per day (when not targeting a single niche)
-    if not target_niche and CREATOR_MAX_PER_DAY > 0:
-        creator_entries = [e for e in get_today_subniches() if e.startswith("creator:")]
-        if len(creator_entries) < CREATOR_MAX_PER_DAY:
-            print(f"📊 [creator] Filling creator slot ({len(creator_entries)}/{CREATOR_MAX_PER_DAY} today)")
-            best_creator = find_best_post(
-                exclude_subniches=today_entries,
-                source_type_filter="creator",
-            )
-            if best_creator:
-                create_post(best_creator)
-                generate_tag_pages()
-                track_published(best_creator["link"], PUBLISHED_NEWS_FILE_NAME)
-                track_daily_subniche("creator", best_creator.get("source", "unknown"))
-                published_any = True
-                print(f"✅ [creator] Published: {best_creator['title']} ({best_creator['source']})")
-            else:
-                print("❌ [creator] No suitable creator post found")
-
-    if not published_any:
-        print("❌ No posts published this run")
+    best_post = find_best_post(exclude_subniches=today_entries, target_niche=target_niche)
+    if best_post:
+        create_post(best_post)
+        generate_tag_pages()
+        track_published(best_post['link'], PUBLISHED_NEWS_FILE_NAME)
+        sub_key = best_post.get('_subniche') or best_post.get('_category', 'unknown')
+        ctype = best_post.get('content_type', classify_content_type(best_post))
+        track_daily_subniche(target_niche, sub_key, ctype)
+        print(f"✅ [{target_niche}] Published: {best_post['title']}")
+    else:
+        print(f"❌ [{target_niche}] No suitable posts found")
 
 
 def find_best_post(exclude_subniches=None, target_niche=None, source_type_filter=None):
@@ -663,6 +664,8 @@ def create_post(news):
         f.write(f'niche_category: {category}\n')
         if subniche:
             f.write(f'niche_subniche: {subniche}\n')
+        content_type = news.get('content_type', 'breaking')
+        f.write(f'content_type: {content_type}\n')
         if why_picked:
             f.write(f'why_picked: "{why_picked}"\n')
         f.write(f'score: {news.get("score", 0)}\n')
