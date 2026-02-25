@@ -1,0 +1,77 @@
+{
+  "devs": [
+    {
+      "name": "Alex Xu",
+      "slug": "bytebytego",
+      "url": "https://blog.bytebytego.com",
+      "bio": "ByteByteGo \u2014 system design concepts explained with clear visuals.",
+      "source_name": "ByteByteGo",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "Casey Muratori",
+      "slug": "computer-enhance",
+      "url": "https://computerenhance.com",
+      "bio": "Computer, Enhance! \u2014 performance-aware programming from first principles.",
+      "source_name": "Computer, Enhance!",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "Dan Luu",
+      "slug": "dan-luu",
+      "url": "https://danluu.com",
+      "bio": "Deep dives into performance, hardware, and engineering culture at scale.",
+      "source_name": "Dan Luu",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "Gergely Orosz",
+      "slug": "pragmatic-engineer",
+      "url": "https://newsletter.pragmaticengineer.com",
+      "bio": "The Pragmatic Engineer newsletter \u2014 inside Big Tech and high-growth startups.",
+      "source_name": "The Pragmatic Engineer",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "How Tech",
+      "slug": "how-tech",
+      "url": "https://howtech.substack.com",
+      "bio": "How tech companies work under the hood.",
+      "source_name": "How Tech",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "Indie Developer Diaries",
+      "slug": "indie-developer-diaries",
+      "url": "https://indiedeveloperdiaries.substack.com",
+      "bio": "Stories and lessons from building software independently.",
+      "source_name": "Indie Developer Diaries",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "Julia Evans",
+      "slug": "julia-evans",
+      "url": "https://jvns.ca",
+      "bio": "Writes about Linux, networking, and debugging in a way that makes complex topics approachable.",
+      "source_name": "Julia Evans",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "Oskar Dudycz",
+      "slug": "software-architecture-weekly",
+      "url": "https://softwarearchitectureweekly.substack.com",
+      "bio": "Software Architecture Weekly \u2014 curated links on architecture, DDD, and event sourcing.",
+      "source_name": "Software Architecture Weekly",
+      "featured_since": "2026-02-25"
+    },
+    {
+      "name": "strlen",
+      "slug": "strlen",
+      "url": "https://strlen.substack.com",
+      "bio": "Schopenhauer's Kubernetes cluster \u2014 essays on infrastructure and distributed systems.",
+      "source_name": "Schopenhauer's Kubernetes cluster",
+      "featured_since": "2026-02-25"
+    }
+  ],
+  "generated_at": "2026-02-25T22:28:16Z"
+}

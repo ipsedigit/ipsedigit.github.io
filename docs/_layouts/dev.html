@@ -1,0 +1,76 @@
+---
+layout: base
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "{{ page.dev_name }}",
+    "url": "{{ page.dev_url }}",
+    "description": "{{ page.dev_bio | escape }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "eof.news",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+
+<style>
+.dev-profile { max-width: 640px; }
+.dev-header { margin-bottom: 2rem; }
+.dev-name { font-size: 1.5rem; font-weight: 700; margin: 0 0 0.25rem 0; }
+.dev-bio { color: #555; font-size: 0.95rem; line-height: 1.5; margin: 0.5rem 0; }
+.dev-url a { color: #0066cc; text-decoration: none; font-size: 0.9rem; }
+.dev-url a:hover { text-decoration: underline; }
+.dev-meta { font-size: 0.8rem; color: #999; margin-top: 0.75rem; }
+.dev-posts { margin-top: 2rem; }
+.dev-posts h2 { font-size: 1.1rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid #eee; }
+.dev-post-item { padding: 0.75rem 0; border-bottom: 1px solid #f5f5f5; }
+.dev-post-item:last-child { border-bottom: none; }
+.dev-post-item a { color: #111; text-decoration: none; font-weight: 500; }
+.dev-post-item a:hover { color: #0066cc; }
+.dev-post-meta { font-size: 0.78rem; color: #888; margin-top: 0.2rem; }
+.dev-empty { color: #999; font-size: 0.9rem; font-style: italic; }
+.dev-back { margin-top: 2rem; font-size: 0.9rem; }
+.dev-back a { color: #666; text-decoration: none; }
+.dev-back a:hover { color: #0066cc; }
+</style>
+
+<div class="dev-profile">
+  <div class="dev-header">
+    <h1 class="dev-name">{{ page.dev_name }}</h1>
+    <p class="dev-bio">{{ page.dev_bio }}</p>
+    <p class="dev-url"><a href="{{ page.dev_url }}" target="_blank" rel="noopener">{{ page.dev_url }}</a></p>
+    <p class="dev-meta">Featured on eof.news since {{ page.dev_featured_since }}</p>
+  </div>
+
+  {% assign dev_posts = site.posts | where: "source", page.dev_source_name %}
+
+  <div class="dev-posts">
+    <h2>Posts curated on eof.news</h2>
+
+    {% if dev_posts.size > 0 %}
+      {% for post in dev_posts limit: 20 %}
+      <div class="dev-post-item">
+        {% if post.external_url %}
+        <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+        {% else %}
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% endif %}
+        <div class="dev-post-meta">{{ post.date | date: "%b %d, %Y" }}{% if post.niche_category %} · {{ post.niche_category }}{% endif %}</div>
+      </div>
+      {% endfor %}
+    {% else %}
+      <p class="dev-empty">No posts curated yet. We're monitoring their feed — new articles will appear here automatically.</p>
+    {% endif %}
+  </div>
+
+  <div class="dev-back">
+    <a href="/devs/">&larr; All developers</a> · <a href="/">Home</a>
+  </div>
+</div>
