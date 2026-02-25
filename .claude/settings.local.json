@@ -23,7 +23,14 @@
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Bash(wc:*)",
-      "WebFetch(domain:ipsedigit.github.io)"
+      "WebFetch(domain:ipsedigit.github.io)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_const.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_classify_content_type.py -v 2>&12)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_daily_state.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_build_candidates.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_select_daily.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/test_publish_news.py -v 2>&1)",
+      "Bash(cd /c/repo/ipsedigit.github.io && .venv/Scripts/python.exe -m pytest tests/ -v 2>&1)"
     ]
   }
 }
