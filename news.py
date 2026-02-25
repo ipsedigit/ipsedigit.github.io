@@ -18,6 +18,12 @@ from const import (
     TITLE_BONUS,
     TITLE_PENALTY,
     NICHE_SUBNICHES,
+    CONTENT_TYPE_PATTERNS,
+    MIN_SCORE,
+    MIN_SCORE_FALLBACK,
+    DAILY_TARGET,
+    DAILY_MINIMUM,
+    MAX_PER_TYPE,
 )
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
@@ -317,6 +323,52 @@ def identify_subniche(entry, main_cat):
             best_sub = sub
 
     return best_sub
+
+
+# Security threat keywords for source_type=='security' detection
+_SECURITY_THREAT_RE = re.compile(
+    r'(malware|ransomware|trojan|botnet|campaign|apt|breach|hack|attack|incident|exploit)',
+    re.IGNORECASE,
+)
+
+
+def classify_content_type(entry):
+    """Classify an article as 'breaking', 'deep', or 'community'.
+
+    Priority order:
+    1. creator source_type -> community
+    2. Title matches community patterns -> community
+    3. Title matches breaking patterns -> breaking
+    4. Title matches deep patterns -> deep
+    5. research_blog / se_blog source_type -> deep
+    6. security source with threat keywords -> breaking
+    7. Default -> breaking
+    """
+    source_type = entry.get('source_type', '')
+    title = entry.get('title', '')
+
+    if source_type == 'creator':
+        return 'community'
+
+    for pattern in CONTENT_TYPE_PATTERNS['community']:
+        if re.search(pattern, title, re.IGNORECASE):
+            return 'community'
+
+    for pattern in CONTENT_TYPE_PATTERNS['breaking']:
+        if re.search(pattern, title, re.IGNORECASE):
+            return 'breaking'
+
+    for pattern in CONTENT_TYPE_PATTERNS['deep']:
+        if re.search(pattern, title, re.IGNORECASE):
+            return 'deep'
+
+    if source_type in ('research_blog', 'se_blog'):
+        return 'deep'
+
+    if source_type == 'security' and _SECURITY_THREAT_RE.search(title):
+        return 'breaking'
+
+    return 'breaking'
 
 
 def generate_why_picked(entry):
