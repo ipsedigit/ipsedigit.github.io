@@ -415,6 +415,85 @@ def _build_candidates(min_score=None):
     return candidates
 
 
+def select_daily_posts():
+    """Two-pass article selection. Returns list of selected entries (not yet published/fetched).
+
+    Pass 1: Best article per niche (5 guaranteed slots) + best creator.
+    Pass 2: Fill remaining slots by score, respecting type diversity and niche caps.
+    """
+    state = get_daily_state()
+
+    if state['total'] >= DAILY_TARGET:
+        print(f"⏸️ Daily target reached ({state['total']}/{DAILY_TARGET})")
+        return []
+
+    candidates = _build_candidates(min_score=MIN_SCORE)
+    if not candidates:
+        return []
+
+    selected = []
+    used_links = set()
+    used_subniches = set(state['subniches'])
+    niche_counts = dict(state['niche_counts'])
+    type_counts = dict(state['type_counts'])
+    total = state['total']
+
+    def _can_select(entry):
+        if entry['link'] in used_links:
+            return False
+        niche = entry['_category']
+        subniche = entry.get('_subniche')
+        sub_key = f"{niche}:{subniche}" if subniche else niche
+        if sub_key in used_subniches:
+            return False
+        if niche_counts.get(niche, 0) >= MAX_POSTS_PER_NICHE_PER_DAY:
+            return False
+        return True
+
+    def _select(entry):
+        nonlocal total
+        selected.append(entry)
+        used_links.add(entry['link'])
+        niche = entry['_category']
+        subniche = entry.get('_subniche')
+        sub_key = f"{niche}:{subniche}" if subniche else niche
+        used_subniches.add(sub_key)
+        niche_counts[niche] = niche_counts.get(niche, 0) + 1
+        ctype = entry.get('content_type', 'breaking')
+        type_counts[ctype] = type_counts.get(ctype, 0) + 1
+        total += 1
+
+    # Pass 1: Guaranteed niche slots
+    for niche in NICHE_CATEGORIES:
+        if niche_counts.get(niche, 0) >= MAX_POSTS_PER_NICHE_PER_DAY:
+            continue
+        for c in candidates:
+            if c['_category'] == niche and _can_select(c):
+                _select(c)
+                break
+
+    # Pass 1b: Creator slot
+    for c in candidates:
+        if c['source_type'] == 'creator' and _can_select(c):
+            _select(c)
+            break
+
+    # Pass 2: Open competition
+    remaining_slots = DAILY_TARGET - total
+    for c in candidates:
+        if remaining_slots <= 0:
+            break
+        if not _can_select(c):
+            continue
+        ctype = c.get('content_type', 'breaking')
+        if type_counts.get(ctype, 0) >= MAX_PER_TYPE:
+            continue
+        _select(c)
+        remaining_slots -= 1
+
+    return selected
+
+
 def generate_why_picked(entry):
     """Generate a brief editorial note explaining why this article was selected."""
     parts = []
