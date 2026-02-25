@@ -151,3 +151,4 @@ https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html
 https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html
 https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/
 https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html
+https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/
