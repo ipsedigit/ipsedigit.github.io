@@ -164,3 +164,4 @@ https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
 https://dev.to/adegiamb/the-internal-consultant-framework-engineering-your-career-sprint-by-sprint-5a16
 https://kubernetes.io/blog/2025/09/08/kubernetes-v1-34-volume-attributes-class/
 https://blog.bytebytego.com/p/how-cloudflare-eliminates-cold-starts
+https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/

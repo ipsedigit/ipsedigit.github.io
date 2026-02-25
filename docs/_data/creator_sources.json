@@ -1,0 +1,34 @@
+[
+  {
+    "name": "The Pragmatic Engineer",
+    "url": "https://newsletter.pragmaticengineer.com"
+  },
+  {
+    "name": "Software Architecture Weekly",
+    "url": "https://softwarearchitectureweekly.substack.com"
+  },
+  {
+    "name": "Julia Evans",
+    "url": "https://jvns.ca/blog"
+  },
+  {
+    "name": "Dan Luu",
+    "url": "https://danluu.com"
+  },
+  {
+    "name": "Computer, Enhance!",
+    "url": "https://computerenhance.com"
+  },
+  {
+    "name": "Schopenhauer's Kubernetes cluster",
+    "url": "https://strlen.substack.com"
+  },
+  {
+    "name": "Indie Developer Diaries",
+    "url": "https://indiedeveloperdiaries.substack.com"
+  },
+  {
+    "name": "How Tech",
+    "url": "https://howtech.substack.com"
+  }
+]

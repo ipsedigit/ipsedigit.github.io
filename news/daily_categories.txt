@@ -43,3 +43,4 @@
 2026-02-25:devtools:cicd
 2026-02-25:cloud:aws
 2026-02-25:cloud:serverless
+2026-02-25:devtools:package-managers
