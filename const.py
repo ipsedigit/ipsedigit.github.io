@@ -513,6 +513,23 @@ NEWS_SOURCES = {
 }
 
 # =============================================================================
+# DIRECT LINKS — Developers we link to directly (no platform intermediation)
+# =============================================================================
+# Used by /direct/ page. Add people here; run pipeline or `python main.py --action direct` to update docs/_data/direct_links.json.
+
+DIRECT_LINKS = [
+    {'name': 'Julia Evans', 'url': 'https://jvns.ca/blog', 'description': 'Linux, networking, and debugging — zines and posts.'},
+    {'name': 'Dan Luu', 'url': 'https://danluu.com', 'description': 'Performance, hardware, and engineering culture at scale.'},
+    {'name': 'The Pragmatic Engineer', 'url': 'https://newsletter.pragmaticengineer.com', 'description': 'Inside Big Tech and high-growth startups.'},
+    {'name': 'ByteByteGo', 'url': 'https://blog.bytebytego.com', 'description': 'System design and architecture, clearly explained.'},
+    {'name': 'Computer, Enhance!', 'url': 'https://computerenhance.com', 'description': 'Performance-aware programming from first principles.'},
+    {'name': 'Software Architecture Weekly', 'url': 'https://softwarearchitectureweekly.substack.com', 'description': 'Curated links on architecture, DDD, event sourcing.'},
+    {'name': "Schopenhauer's Kubernetes cluster", 'url': 'https://strlen.substack.com', 'description': 'Infrastructure and distributed systems.'},
+    {'name': 'Indie Developer Diaries', 'url': 'https://indiedeveloperdiaries.substack.com', 'description': 'Stories from building software independently.'},
+    {'name': 'How Tech', 'url': 'https://howtech.substack.com', 'description': 'How tech companies work under the hood.'},
+]
+
+# =============================================================================
 # SCORING
 # =============================================================================
 

@@ -31,8 +31,7 @@ def test_publish_news_calls_create_post_for_each_selected():
                 with patch('news.track_published'):
                     with patch('news.track_daily_subniche'):
                         with patch('news.generate_tag_pages'):
-                            with patch('news.update_creator_sources_data'):
-                                publish_news()
+                            publish_news()
 
     assert mock_create.call_count == 2
 
@@ -54,7 +53,6 @@ def test_publish_news_skips_entries_without_preview():
                 with patch('news.track_published'):
                     with patch('news.track_daily_subniche'):
                         with patch('news.generate_tag_pages'):
-                            with patch('news.update_creator_sources_data'):
-                                publish_news()
+                            publish_news()
 
     assert mock_create.call_count == 1

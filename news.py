@@ -14,6 +14,7 @@ from const import (
     NICHE_CATEGORIES,
     MAX_POSTS_PER_NICHE_PER_DAY,
     DAILY_CATEGORIES_FILE,
+    DIRECT_LINKS,
     TITLE_BONUS,
     TITLE_PENALTY,
     NICHE_SUBNICHES,
@@ -28,6 +29,20 @@ from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
+DIRECT_LINKS_DATA_PATH = "docs/_data/direct_links.json"
+
+
+def update_direct_links_data():
+    """Write docs/_data/direct_links.json from DIRECT_LINKS for the /direct/ page."""
+    data = {
+        "links": list(DIRECT_LINKS),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+    os.makedirs(os.path.dirname(DIRECT_LINKS_DATA_PATH), exist_ok=True)
+    with open(DIRECT_LINKS_DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print(f"Updated {DIRECT_LINKS_DATA_PATH} ({len(DIRECT_LINKS)} links)")
+
 
 def publish_news(target_niche=None):
     """Publish articles using two-pass selection.
@@ -35,6 +50,7 @@ def publish_news(target_niche=None):
     If target_niche is given, falls back to single-niche mode (legacy workflow compat).
     Otherwise, uses full two-pass selection across all niches.
     """
+    update_direct_links_data()
     if target_niche:
         _publish_single_niche(target_niche)
         return
