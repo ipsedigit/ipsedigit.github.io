@@ -513,20 +513,42 @@ NEWS_SOURCES = {
 }
 
 # =============================================================================
-# DIRECT LINKS — Developers we link to directly (no platform intermediation)
+# REFERENCE LIST — Weirdo developers (indie, offbeat, worldwide) we refer to
 # =============================================================================
-# Used by /direct/ page. Add people here; run pipeline or `python main.py --action direct` to update docs/_data/direct_links.json.
+# Single source of truth for who we link to. The /direct/ page and any linking
+# logic refer to this list. Add/remove here; run `python main.py --action direct`
+# to update docs/_data/direct_links.json.
 
-DIRECT_LINKS = [
-    {'name': 'Julia Evans', 'url': 'https://jvns.ca/blog', 'description': 'Linux, networking, and debugging — zines and posts.'},
-    {'name': 'Dan Luu', 'url': 'https://danluu.com', 'description': 'Performance, hardware, and engineering culture at scale.'},
-    {'name': 'The Pragmatic Engineer', 'url': 'https://newsletter.pragmaticengineer.com', 'description': 'Inside Big Tech and high-growth startups.'},
-    {'name': 'ByteByteGo', 'url': 'https://blog.bytebytego.com', 'description': 'System design and architecture, clearly explained.'},
-    {'name': 'Computer, Enhance!', 'url': 'https://computerenhance.com', 'description': 'Performance-aware programming from first principles.'},
+DIRECT_REFERENCE_LIST = [
+    # Personal / indie tech blogs — widely recommended (HN, curated lists, handmade/indie community)
+    {'name': 'Julia Evans', 'url': 'https://jvns.ca/blog', 'description': 'Personal blog: Linux, networking, debugging, zines. One of the most recommended dev blogs.'},
+    {'name': 'Dan Luu', 'url': 'https://danluu.com', 'description': 'Personal blog: systems, performance, CPU architecture, industry critique. Influential indie voice.'},
+    {'name': 'Simon Willison', 'url': 'https://simonwillison.net', 'description': 'Personal blog: Datasette, AI/data tools, Python. Indie OSS, blogging since 2002.'},
+    {'name': 'Casey Muratori', 'url': 'https://computerenhance.com', 'description': 'Computer, Enhance! — performance-aware programming, CPU microarchitecture. Handmade/indie community.'},
+    {'name': 'Terence Eden', 'url': 'https://shkspr.mobi/blog', 'description': 'Personal blog: tech, privacy, standards. In curated indie-blog lists (e.g. Andrea Grandi).'},
+    {'name': 'Nicholas Zakas', 'url': 'https://humanwhocodes.com/blog', 'description': 'Human Who Codes — JavaScript, ESLint creator. Indie author and speaker.'},
+    {'name': 'Jeff Triplett', 'url': 'https://jefftriplett.com', 'description': 'Personal blog: Django, Python. PSF Fellow, Django community; indie dev.'},
+    {'name': 'Marton Trencseni', 'url': 'https://bytepawn.com', 'description': 'Bytepawn — distributed systems, Paxos, algorithms. Deep technical personal blog.'},
+    {'name': 'Fogus', 'url': 'https://blog.fogus.me', 'description': 'Send More Paramedics — programming languages, annual “best of” curation. Clojure, indie.'},
+    # System design & engineering culture — clear value for eof.news readers
+    {'name': 'ByteByteGo', 'url': 'https://blog.bytebytego.com', 'description': 'System design and architecture, clearly explained. Widely shared.'},
+    {'name': 'The Pragmatic Engineer', 'url': 'https://newsletter.pragmaticengineer.com', 'description': 'Inside Big Tech and high-growth startups. Indie newsletter.'},
     {'name': 'Software Architecture Weekly', 'url': 'https://softwarearchitectureweekly.substack.com', 'description': 'Curated links on architecture, DDD, event sourcing.'},
-    {'name': "Schopenhauer's Kubernetes cluster", 'url': 'https://strlen.substack.com', 'description': 'Infrastructure and distributed systems.'},
-    {'name': 'Indie Developer Diaries', 'url': 'https://indiedeveloperdiaries.substack.com', 'description': 'Stories from building software independently.'},
-    {'name': 'How Tech', 'url': 'https://howtech.substack.com', 'description': 'How tech companies work under the hood.'},
+    {'name': "Schopenhauer's Kubernetes cluster", 'url': 'https://strlen.substack.com', 'description': 'Infrastructure and distributed systems. Indie newsletter.'},
+    {'name': 'Indie Developer Diaries', 'url': 'https://indiedeveloperdiaries.substack.com', 'description': 'Stories from building software independently. Fits weirdo-devs niche.'},
+    {'name': 'How Tech', 'url': 'https://howtech.substack.com', 'description': 'How tech companies work under the hood. Indie newsletter.'},
+]
+
+# Direct page and pipeline use this; keep in sync with DIRECT_REFERENCE_LIST.
+DIRECT_LINKS = list(DIRECT_REFERENCE_LIST)
+
+# =============================================================================
+# LINKS BACK — Who links to eof.news (we discover and list them)
+# =============================================================================
+# Add when you find someone linking back; run pipeline or `python main.py --action direct` to update docs/_data/links_back.json.
+
+LINKS_BACK = [
+    # Example: {'name': 'Example Dev', 'url': 'https://exampledev.com'},
 ]
 
 # =============================================================================

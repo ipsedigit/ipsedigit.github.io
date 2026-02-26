@@ -15,6 +15,7 @@ from const import (
     MAX_POSTS_PER_NICHE_PER_DAY,
     DAILY_CATEGORIES_FILE,
     DIRECT_LINKS,
+    LINKS_BACK,
     TITLE_BONUS,
     TITLE_PENALTY,
     NICHE_SUBNICHES,
@@ -30,18 +31,23 @@ from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
 DIRECT_LINKS_DATA_PATH = "docs/_data/direct_links.json"
+LINKS_BACK_DATA_PATH = "docs/_data/links_back.json"
 
 
 def update_direct_links_data():
-    """Write docs/_data/direct_links.json from DIRECT_LINKS for the /direct/ page."""
-    data = {
-        "links": list(DIRECT_LINKS),
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    }
-    os.makedirs(os.path.dirname(DIRECT_LINKS_DATA_PATH), exist_ok=True)
-    with open(DIRECT_LINKS_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print(f"Updated {DIRECT_LINKS_DATA_PATH} ({len(DIRECT_LINKS)} links)")
+    """Write docs/_data/direct_links.json and docs/_data/links_back.json for the /direct/ page."""
+    for data_path, items, key in [
+        (DIRECT_LINKS_DATA_PATH, DIRECT_LINKS, "links"),
+        (LINKS_BACK_DATA_PATH, LINKS_BACK, "links"),
+    ]:
+        data = {
+            key: list(items),
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+        os.makedirs(os.path.dirname(data_path), exist_ok=True)
+        with open(data_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+    print(f"Updated {DIRECT_LINKS_DATA_PATH} ({len(DIRECT_LINKS)} links), {LINKS_BACK_DATA_PATH} ({len(LINKS_BACK)} links back)")
 
 
 def publish_news(target_niche=None):
