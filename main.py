@@ -19,8 +19,8 @@ def main(action: str, niche: str = None):
             from github_trending import publish_github_trending
             publish_github_trending()
         case "direct":
-            from news import update_direct_links_data
-            update_direct_links_data()
+            from news import update_direct_articles_data
+            update_direct_articles_data()
         case "discover-links-back":
             from discover_links_back import main as discover_main
             discover_main()

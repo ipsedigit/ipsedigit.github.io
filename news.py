@@ -14,7 +14,7 @@ from const import (
     NICHE_CATEGORIES,
     MAX_POSTS_PER_NICHE_PER_DAY,
     DAILY_CATEGORIES_FILE,
-    DIRECT_LINKS,
+    DIRECT_FEEDS,
     LINKS_BACK,
     TITLE_BONUS,
     TITLE_PENALTY,
@@ -30,24 +30,62 @@ from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
-DIRECT_LINKS_DATA_PATH = "docs/_data/direct_links.json"
+DIRECT_ARTICLES_DATA_PATH = "docs/_data/direct_articles.json"
 LINKS_BACK_DATA_PATH = "docs/_data/links_back.json"
 
+DIRECT_ARTICLES_LIMIT = 80  # Max articles on Direct page (recent first)
 
-def update_direct_links_data():
-    """Write docs/_data/direct_links.json and docs/_data/links_back.json for the /direct/ page."""
-    for data_path, items, key in [
-        (DIRECT_LINKS_DATA_PATH, DIRECT_LINKS, "links"),
-        (LINKS_BACK_DATA_PATH, LINKS_BACK, "links"),
-    ]:
-        data = {
-            key: list(items),
-            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        }
-        os.makedirs(os.path.dirname(data_path), exist_ok=True)
-        with open(data_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2)
-    print(f"Updated {DIRECT_LINKS_DATA_PATH} ({len(DIRECT_LINKS)} links), {LINKS_BACK_DATA_PATH} ({len(LINKS_BACK)} links back)")
+
+def _parse_feed_date(entry):
+    """Return published/updated date for sorting; fallback to now."""
+    for key in ("published_parsed", "updated_parsed"):
+        p = entry.get(key)
+        if p and len(p) >= 6 and all(x is not None for x in p[:6]):
+            try:
+                return datetime(p[0], p[1], p[2], p[3], p[4], p[5], tzinfo=timezone.utc)
+            except (TypeError, ValueError):
+                pass
+    return datetime.now(timezone.utc)
+
+
+def update_direct_articles_data():
+    """Fetch DIRECT_FEEDS, collect recent articles (title, url, date, source), write direct_articles.json."""
+    articles = []
+    for feed_spec in DIRECT_FEEDS:
+        name = feed_spec.get("name", "?")
+        feed_url = feed_spec.get("feed_url", "").strip()
+        if not feed_url:
+            continue
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries[:15]:
+                title = (entry.get("title") or "").strip()
+                link = (entry.get("link") or "").strip()
+                if not title or not link:
+                    continue
+                articles.append({
+                    "title": title,
+                    "url": link,
+                    "date": _parse_feed_date(entry).strftime("%Y-%m-%d"),
+                    "source": name,
+                })
+        except Exception as e:
+            print(f"   Direct feed {name}: {e}")
+    articles.sort(key=lambda a: a["date"], reverse=True)
+    articles = articles[:DIRECT_ARTICLES_LIMIT]
+    data = {
+        "articles": articles,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+    os.makedirs(os.path.dirname(DIRECT_ARTICLES_DATA_PATH), exist_ok=True)
+    with open(DIRECT_ARTICLES_DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print(f"Updated {DIRECT_ARTICLES_DATA_PATH} ({len(articles)} articles)")
+    # links_back.json
+    lb_data = {"links": list(LINKS_BACK), "generated_at": data["generated_at"]}
+    with open(LINKS_BACK_DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(lb_data, f, indent=2)
+    print(f"Updated {LINKS_BACK_DATA_PATH} ({len(LINKS_BACK)} links back)")
 
 
 def publish_news(target_niche=None):
@@ -56,7 +94,7 @@ def publish_news(target_niche=None):
     If target_niche is given, falls back to single-niche mode (legacy workflow compat).
     Otherwise, uses full two-pass selection across all niches.
     """
-    update_direct_links_data()
+    update_direct_articles_data()
     if target_niche:
         _publish_single_niche(target_niche)
         return
