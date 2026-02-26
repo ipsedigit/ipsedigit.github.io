@@ -1,0 +1,101 @@
+{
+  "snapshots": {
+    "2026-02-26": {
+      "models": {
+        "deepseek-ai/DeepSeek-R1": {
+          "likes": 13023
+        },
+        "black-forest-labs/FLUX.1-dev": {
+          "likes": 12354
+        },
+        "stabilityai/stable-diffusion-xl-base-1.0": {
+          "likes": 7482
+        },
+        "CompVis/stable-diffusion-v1-4": {
+          "likes": 6979
+        },
+        "meta-llama/Meta-Llama-3-8B": {
+          "likes": 6468
+        },
+        "hexgrad/Kokoro-82M": {
+          "likes": 5763
+        },
+        "meta-llama/Llama-3.1-8B-Instruct": {
+          "likes": 5496
+        },
+        "openai/whisper-large-v3": {
+          "likes": 5422
+        },
+        "bigscience/bloom": {
+          "likes": 4985
+        },
+        "stabilityai/stable-diffusion-3-medium": {
+          "likes": 4909
+        },
+        "meta-llama/Llama-2-7b-chat-hf": {
+          "likes": 4712
+        },
+        "black-forest-labs/FLUX.1-schnell": {
+          "likes": 4648
+        },
+        "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+          "likes": 4640
+        },
+        "openai/gpt-oss-120b": {
+          "likes": 4530
+        },
+        "sentence-transformers/all-MiniLM-L6-v2": {
+          "likes": 4515
+        },
+        "meta-llama/Llama-2-7b": {
+          "likes": 4451
+        },
+        "openai/gpt-oss-20b": {
+          "likes": 4404
+        },
+        "meta-llama/Meta-Llama-3-8B-Instruct": {
+          "likes": 4386
+        },
+        "Tongyi-MAI/Z-Image-Turbo": {
+          "likes": 4163
+        },
+        "mistralai/Mistral-7B-v0.1": {
+          "likes": 4044
+        },
+        "deepseek-ai/DeepSeek-V3": {
+          "likes": 4025
+        },
+        "lllyasviel/ControlNet-v1-1": {
+          "likes": 4001
+        },
+        "WarriorMama777/OrangeMixs": {
+          "likes": 3890
+        },
+        "lllyasviel/ControlNet": {
+          "likes": 3789
+        },
+        "deepseek-ai/Janus-Pro-7B": {
+          "likes": 3565
+        },
+        "microsoft/phi-2": {
+          "likes": 3426
+        },
+        "coqui/XTTS-v2": {
+          "likes": 3407
+        },
+        "stabilityai/stable-diffusion-3.5-large": {
+          "likes": 3373
+        },
+        "google/gemma-7b": {
+          "likes": 3275
+        },
+        "stabilityai/stable-video-diffusion-img2vid-xt": {
+          "likes": 3236
+        }
+      }
+    }
+  },
+  "featured_models": {
+    "deepseek-ai/DeepSeek-R1": "2026-02-26"
+  }
+}
