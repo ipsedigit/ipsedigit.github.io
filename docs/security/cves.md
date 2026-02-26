@@ -5,8 +5,6 @@ description: "Latest security vulnerabilities tracked daily. Critical, high, med
 permalink: /security/cves/
 ---
 
-{% include freshness-banner.html timestamp=site.data.cves.generated_at %}
-
 ## Vulnerability Summary
 
 {% assign critical = 0 %}{% assign high = 0 %}{% assign medium = 0 %}{% assign low = 0 %}{% assign exploited = 0 %}
@@ -57,5 +55,5 @@ permalink: /security/cves/
 ---
 
 <p style="font-size:0.8em; color:#9ca3af;">
-Data from <a href="https://nvd.nist.gov/">NVD</a> &middot; <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a> &middot; <a href="https://www.first.org/epss/">EPSS</a>
+Data from <a href="https://nvd.nist.gov/">NVD</a> &middot; <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a> &middot; <a href="https://www.first.org/epss/">EPSS</a> &middot; Updated: {{ site.data.cves.generated_at }}
 </p>
