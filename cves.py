@@ -186,14 +186,14 @@ def _cross_reference(cves, posts):
 
             # Check if CVE ID mentioned
             if cve_id_lower in text or cve_id_lower in body:
-                related.append({"title": post['title'], "url": post['url']})
+                related.append({"title": post['title'], "url": post.get('external_url') or post['url']})
                 continue
 
             # Check product name match in security posts
             if post['niche_category'] == 'security':
                 for prod in product_names:
                     if len(prod) > 2 and prod in text:
-                        related.append({"title": post['title'], "url": post['url']})
+                        related.append({"title": post['title'], "url": post.get('external_url') or post['url']})
                         break
 
         cve['related_posts'] = related[:3]
@@ -276,7 +276,7 @@ def _generate_page():
         "  {% if cve.related_posts.size > 0 %}",
         '  <br><span style="font-size:0.8em;">Related: ',
         "  {% for rp in cve.related_posts %}",
-        '    <a href="{{ rp.url }}">{{ rp.title | truncate: 50 }}</a>{% unless forloop.last %}, {% endunless %}',
+        '    <a href="{{ rp.url }}" target="_blank" rel="noopener">{{ rp.title | truncate: 50 }}</a>{% unless forloop.last %}, {% endunless %}',
         "  {% endfor %}",
         "  </span>",
         "  {% endif %}",
