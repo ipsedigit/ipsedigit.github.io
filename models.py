@@ -58,6 +58,47 @@ CATEGORY_COLORS = {
     "Reinforcement Learning": "#84cc16",
 }
 
+HISTORY_JSON = os.path.join(DATA_DIR, "models_history.json")
+HISTORY_MAX_DAYS = 30
+FEATURED_COOLDOWN_DAYS = 30
+
+
+def _load_history():
+    """Load models history (like snapshots + featured log)."""
+    if os.path.exists(HISTORY_JSON):
+        try:
+            with open(HISTORY_JSON, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"snapshots": {}, "featured_models": {}}
+
+
+def _save_history(history):
+    """Save history, pruning snapshots older than HISTORY_MAX_DAYS."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=HISTORY_MAX_DAYS)).strftime("%Y-%m-%d")
+    history["snapshots"] = {
+        d: v for d, v in history["snapshots"].items() if d >= cutoff
+    }
+    with open(HISTORY_JSON, 'w', encoding='utf-8') as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+
+
+def _compute_like_deltas(models, history):
+    """Compute like gain since last snapshot for each model. Returns dict model_id -> delta."""
+    snapshots = history.get("snapshots", {})
+    if not snapshots:
+        return {}
+    # Use the most recent previous snapshot
+    dates = sorted(snapshots.keys(), reverse=True)
+    prev = snapshots[dates[0]].get("models", {})
+    deltas = {}
+    for m in models:
+        mid = m["model_id"]
+        if mid in prev:
+            deltas[mid] = m["likes"] - prev[mid].get("likes", m["likes"])
+    return deltas
+
 
 def _fetch_models(url):
     """Fetch models from HuggingFace API."""
