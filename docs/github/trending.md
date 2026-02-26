@@ -5,8 +5,6 @@ description: "Hot GitHub repositories tracked daily. Stars, forks, languages, an
 permalink: /github/
 ---
 
-{% include freshness-banner.html timestamp=site.data.github.generated_at %}
-
 ## Overview
 
 {% assign repos = site.data.github.repos %}
@@ -23,19 +21,19 @@ permalink: /github/
 
 <div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">
   <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">
-    <img src="https://avatars.githubusercontent.com/u/9892522?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
-    <strong style="font-size:1.2em;"><a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener">freeCodeCamp/freeCodeCamp</a></strong>
+    <img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
+    <strong style="font-size:1.2em;"><a href="https://github.com/openclaw/openclaw" target="_blank" rel="noopener">openclaw/openclaw</a></strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f;">⭐ Repo of the Day</span>
-    <span style="font-size:0.85em; color:#92400e;">0 stars today</span>
+    <span style="font-size:0.85em; color:#92400e;">+3950 stars today</span>
   </div>
-  <p style="margin:0.3em 0; color:#374151;">freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.</p>
+  <p style="margin:0.3em 0; color:#374151;">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </p>
   <div style="display:flex; gap:1em; font-size:0.85em; color:#6b7280; flex-wrap:wrap;">
-    <span>&#9733; 437,513</span>
-    <span>&#127860; 43,442</span>
+    <span>&#9733; 231,196</span>
+    <span>&#127860; 44,335</span>
     <span>TypeScript</span>
-    <span>BSD-3-Clause</span>
+    <span>MIT</span>
   </div>
-  <div style="margin-top:0.5em;"><span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">careers</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">certification</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">community</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">curriculum</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">d3</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">education</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">freecodecamp</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">javascript</span></div>
+  <div style="margin-top:0.5em;"><span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">ai</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">assistant</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">crustacean</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">molty</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">openclaw</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">own-your-data</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">personal</span></div>
 </div>
 
 ## Charts
@@ -74,26 +72,26 @@ permalink: /github/
   <div style="flex:2; min-width:300px;">
     <h3 style="font-size:1rem; margin-bottom:0.5rem;">Top Topics</h3>
     <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:baseline;">
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f;">ai <sup style="font-size:0.6em;">5</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f;">claude <sup style="font-size:0.6em;">5</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.90); border-radius:8px; font-size:1.74em; color:#1e3a5f;">javascript <sup style="font-size:0.6em;">4</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.90); border-radius:8px; font-size:1.74em; color:#1e3a5f;">ai-agents <sup style="font-size:0.6em;">4</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.90); border-radius:8px; font-size:1.74em; color:#1e3a5f;">claude-code <sup style="font-size:0.6em;">4</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.80); border-radius:8px; font-size:1.48em; color:#1e3a5f;">python <sup style="font-size:0.6em;">3</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.80); border-radius:8px; font-size:1.48em; color:#1e3a5f;">anthropic <sup style="font-size:0.6em;">3</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">curriculum <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">education <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">hacktoberfest <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">computer-science <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">deep-learning <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">machine-learning <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">cli <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">artificial-intelligence <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">automation <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">deepseek <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">gemma <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">glm <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.70); border-radius:8px; font-size:1.22em; color:#1e3a5f;">llm <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f;">ai <sup style="font-size:0.6em;">6</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f;">claude <sup style="font-size:0.6em;">6</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f;">javascript <sup style="font-size:0.6em;">4</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f;">ai-agents <sup style="font-size:0.6em;">4</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f;">claude-code <sup style="font-size:0.6em;">4</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">python <sup style="font-size:0.6em;">3</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">artificial-intelligence <sup style="font-size:0.6em;">3</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">chatgpt <sup style="font-size:0.6em;">3</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">anthropic <sup style="font-size:0.6em;">3</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">curriculum <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">computer-science <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">awesome-list <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">deep-learning <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">machine-learning <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">cli <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">automation <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">deepseek <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">gemma <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">glm <sup style="font-size:0.6em;">2</sup></span>
+      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">llm <sup style="font-size:0.6em;">2</sup></span>
     </div>
   </div>
 </div>
@@ -103,8 +101,8 @@ permalink: /github/
 new Chart(document.getElementById('langChart'), {
   type: 'doughnut',
   data: {
-    labels: ["TypeScript", "Python", "JavaScript", "Shell", "C", "HTML", "C++", "Jupyter Notebook", "Dart", "MDX"],
-    datasets: [{ data: [8, 8, 3, 3, 1, 1, 1, 1, 1, 1], backgroundColor: ["#3178c6", "#3572A5", "#f1e05a", "#89e051", "#555555", "#e34c26", "#f34b7d", "#DA5B0B", "#00B4AB", "#9ca3af"] }]
+    labels: ["TypeScript", "Python", "JavaScript", "Shell", "HTML", "C", "C++", "Jupyter Notebook", "Dart", "MDX"],
+    datasets: [{ data: [8, 8, 3, 3, 2, 1, 1, 1, 1, 1], backgroundColor: ["#3178c6", "#3572A5", "#f1e05a", "#89e051", "#e34c26", "#555555", "#f34b7d", "#DA5B0B", "#00B4AB", "#9ca3af"] }]
   },
   options: {
     responsive: true,
@@ -116,8 +114,8 @@ new Chart(document.getElementById('langChart'), {
 new Chart(document.getElementById('starsChart'), {
   type: 'bar',
   data: {
-    labels: ["freeCodeCamp", "free-programming-boo", "developer-roadmap", "awesome-python", "react", "openclaw", "linux", "computer-science", "tensorflow", "ohmyzsh"],
-    datasets: [{ label: 'Stars', data: [437513, 383034, 349734, 284497, 243351, 227246, 218660, 201703, 193905, 184993], backgroundColor: '#f59e0b', borderRadius: 4 }]
+    labels: ["freeCodeCamp", "developer-roadmap", "awesome-python", "react", "openclaw", "linux", "computer-science", "tensorflow", "ohmyzsh", "vscode"],
+    datasets: [{ label: 'Stars', data: [437545, 349790, 284664, 243374, 231196, 219205, 201739, 193918, 185017, 182089], backgroundColor: '#f59e0b', borderRadius: 4 }]
   },
   options: {
     indexAxis: 'y',
@@ -129,8 +127,8 @@ new Chart(document.getElementById('starsChart'), {
 new Chart(document.getElementById('moversChart'), {
   type: 'bar',
   data: {
-    labels: [],
-    datasets: [{ label: 'Star Change', data: [], backgroundColor: [], borderRadius: 4 }]
+    labels: ["openclaw", "superpowers", "everything-claude-co", "skills", "linux", "ui-ux-pro-max-skill", "awesome-claude-skill", "oh-my-opencode", "claude-mem", "n8n"],
+    datasets: [{ label: 'Star Change', data: [3950, 1461, 1244, 1109, 545, 430, 414, 412, 262, 185], backgroundColor: ["#16a34a", "#16a34a", "#16a34a", "#16a34a", "#16a34a", "#16a34a", "#16a34a", "#16a34a", "#16a34a", "#16a34a"], borderRadius: 4 }]
   },
   options: {
     indexAxis: 'y',
@@ -143,8 +141,8 @@ new Chart(document.getElementById('moversChart'), {
 new Chart(document.getElementById('newEntriesChart'), {
   type: 'bar',
   data: {
-    labels: ["02-25"],
-    datasets: [{ label: 'New Repos', data: [0], backgroundColor: '#8b5cf6', borderRadius: 4 }]
+    labels: ["02-25", "02-26"],
+    datasets: [{ label: 'New Repos', data: [0, 2], backgroundColor: '#8b5cf6', borderRadius: 4 }]
   },
   options: {
     responsive: true,
@@ -156,8 +154,8 @@ new Chart(document.getElementById('newEntriesChart'), {
 new Chart(document.getElementById('langTrendChart'), {
   type: 'line',
   data: {
-    labels: ["02-25"],
-    datasets: [{"label": "TypeScript", "data": [8], "borderColor": "#3572A5", "backgroundColor": "#3572A533", "fill": true, "tension": 0.3}, {"label": "Python", "data": [8], "borderColor": "#f1e05a", "backgroundColor": "#f1e05a33", "fill": true, "tension": 0.3}, {"label": "JavaScript", "data": [3], "borderColor": "#3178c6", "backgroundColor": "#3178c633", "fill": true, "tension": 0.3}, {"label": "Shell", "data": [3], "borderColor": "#dea584", "backgroundColor": "#dea58433", "fill": true, "tension": 0.3}, {"label": "C", "data": [1], "borderColor": "#00ADD8", "backgroundColor": "#00ADD833", "fill": true, "tension": 0.3}]
+    labels: ["02-25", "02-26"],
+    datasets: [{"label": "TypeScript", "data": [8, 8], "borderColor": "#3572A5", "backgroundColor": "#3572A533", "fill": true, "tension": 0.3}, {"label": "Python", "data": [7, 8], "borderColor": "#f1e05a", "backgroundColor": "#f1e05a33", "fill": true, "tension": 0.3}, {"label": "JavaScript", "data": [3, 3], "borderColor": "#3178c6", "backgroundColor": "#3178c633", "fill": true, "tension": 0.3}, {"label": "Shell", "data": [3, 3], "borderColor": "#dea584", "backgroundColor": "#dea58433", "fill": true, "tension": 0.3}, {"label": "HTML", "data": [1, 2], "borderColor": "#00ADD8", "backgroundColor": "#00ADD833", "fill": true, "tension": 0.3}]
   },
   options: {
     responsive: true,
@@ -170,7 +168,7 @@ new Chart(document.getElementById('activityChart'), {
   type: 'bar',
   data: {
     labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-    datasets: [{ label: 'Pushes', data: [4, 4, 18, 2, 1, 1, 0], backgroundColor: ["rgba(59, 130, 246, 0.2222222222222222)", "rgba(59, 130, 246, 0.2222222222222222)", "rgba(59, 130, 246, 1.0)", "rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.2)"], borderRadius: 4 }]
+    datasets: [{ label: 'Pushes', data: [0, 1, 7, 20, 1, 1, 0], backgroundColor: ["rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.35)", "rgba(59, 130, 246, 1.0)", "rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.2)", "rgba(59, 130, 246, 0.2)"], borderRadius: 4 }]
   },
   options: {
     responsive: true,
@@ -230,5 +228,5 @@ new Chart(document.getElementById('activityChart'), {
 ---
 
 <p style="font-size:0.8em; color:#9ca3af;">
-Data from <a href="https://github.com">GitHub</a> Search API
+Data from <a href="https://github.com">GitHub</a> Search API &middot; Updated: {{ site.data.github.generated_at }}
 </p>

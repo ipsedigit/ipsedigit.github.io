@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-25 09:41:29 UTC",
+  "generated_at": "2026-02-26 09:37:35 UTC",
   "total": 30,
   "top_language": "TypeScript",
-  "repo_of_the_day": "freeCodeCamp/freeCodeCamp",
+  "repo_of_the_day": "openclaw/openclaw",
   "repos": [
     {
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stars": 437513,
-      "forks": 43442,
-      "open_issues": 308,
+      "stars": 437545,
+      "forks": 43450,
+      "open_issues": 321,
       "language": "TypeScript",
       "license": "BSD-3-Clause",
-      "last_push": "2026-02-25T09:16:41Z",
+      "last_push": "2026-02-26T08:27:47Z",
       "created_at": "2014-12-24T17:49:19Z",
       "owner_url": "https://github.com/freeCodeCamp",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9892522?v=4",
@@ -29,43 +29,18 @@
         "javascript"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
-    },
-    {
-      "name": "EbookFoundation/free-programming-books",
-      "description": ":books: Freely available programming books",
-      "stars": 383034,
-      "forks": 65933,
-      "open_issues": 71,
-      "language": "Python",
-      "license": "CC-BY-4.0",
-      "last_push": "2026-02-23T02:57:54Z",
-      "created_at": "2013-10-11T06:50:37Z",
-      "owner_url": "https://github.com/EbookFoundation",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/14127308?v=4",
-      "owner_login": "EbookFoundation",
-      "repo_url": "https://github.com/EbookFoundation/free-programming-books",
-      "topics": [
-        "books",
-        "education",
-        "hacktoberfest",
-        "list",
-        "resource"
-      ],
-      "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 32,
+      "badge": null
     },
     {
       "name": "kamranahmedse/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 349734,
-      "forks": 43710,
+      "stars": 349790,
+      "forks": 43718,
       "open_issues": 37,
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "last_push": "2026-02-24T08:19:57Z",
+      "last_push": "2026-02-25T14:57:36Z",
       "created_at": "2017-03-15T13:45:52Z",
       "owner_url": "https://github.com/kamranahmedse",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4921183?v=4",
@@ -82,15 +57,15 @@
         "frontend-roadmap"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 56,
+      "badge": "rising"
     },
     {
       "name": "vinta/awesome-python",
       "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
-      "stars": 284497,
-      "forks": 27246,
-      "open_issues": 18,
+      "stars": 284664,
+      "forks": 27249,
+      "open_issues": 17,
       "language": "Python",
       "license": "NOASSERTION",
       "last_push": "2026-02-25T06:09:33Z",
@@ -108,18 +83,18 @@
         "python-resources"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 167,
+      "badge": "rising"
     },
     {
       "name": "facebook/react",
       "description": "The library for web and native user interfaces.",
-      "stars": 243351,
-      "forks": 50625,
-      "open_issues": 1130,
+      "stars": 243374,
+      "forks": 50630,
+      "open_issues": 1136,
       "language": "JavaScript",
       "license": "MIT",
-      "last_push": "2026-02-25T07:17:37Z",
+      "last_push": "2026-02-26T07:05:57Z",
       "created_at": "2013-05-24T16:15:54Z",
       "owner_url": "https://github.com/facebook",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -134,18 +109,18 @@
         "ui"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 23,
+      "badge": null
     },
     {
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 227246,
-      "forks": 43492,
-      "open_issues": 7521,
+      "stars": 231196,
+      "forks": 44335,
+      "open_issues": 8006,
       "language": "TypeScript",
       "license": "MIT",
-      "last_push": "2026-02-25T09:01:51Z",
+      "last_push": "2026-02-26T09:35:09Z",
       "created_at": "2025-11-24T10:16:47Z",
       "owner_url": "https://github.com/openclaw",
       "owner_avatar": "https://avatars.githubusercontent.com/u/252820863?v=4",
@@ -161,18 +136,18 @@
         "personal"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 3950,
+      "badge": "rising"
     },
     {
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
-      "stars": 218660,
-      "forks": 60609,
+      "stars": 219205,
+      "forks": 60624,
       "open_issues": 3,
       "language": "C",
       "license": "NOASSERTION",
-      "last_push": "2026-02-23T19:46:47Z",
+      "last_push": "2026-02-26T03:27:04Z",
       "created_at": "2011-09-04T22:48:12Z",
       "owner_url": "https://github.com/torvalds",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1024025?v=4",
@@ -180,14 +155,14 @@
       "repo_url": "https://github.com/torvalds/linux",
       "topics": [],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 545,
+      "badge": "rising"
     },
     {
       "name": "ossu/computer-science",
       "description": "🎓 Path to a free self-taught education in Computer Science!",
-      "stars": 201703,
-      "forks": 25059,
+      "stars": 201739,
+      "forks": 25064,
       "open_issues": 17,
       "language": "HTML",
       "license": "MIT",
@@ -204,18 +179,18 @@
         "curriculum"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 36,
+      "badge": null
     },
     {
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 193905,
+      "stars": 193918,
       "forks": 75227,
-      "open_issues": 3515,
+      "open_issues": 3490,
       "language": "C++",
       "license": "Apache-2.0",
-      "last_push": "2026-02-25T09:37:04Z",
+      "last_push": "2026-02-26T09:37:30Z",
       "created_at": "2015-11-07T01:19:20Z",
       "owner_url": "https://github.com/tensorflow",
       "owner_avatar": "https://avatars.githubusercontent.com/u/15658638?v=4",
@@ -232,18 +207,18 @@
         "tensorflow"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 13,
+      "badge": null
     },
     {
       "name": "ohmyzsh/ohmyzsh",
       "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python,",
-      "stars": 184993,
-      "forks": 26295,
-      "open_issues": 520,
+      "stars": 185017,
+      "forks": 26294,
+      "open_issues": 519,
       "language": "Shell",
       "license": "MIT",
-      "last_push": "2026-02-23T10:33:24Z",
+      "last_push": "2026-02-25T10:42:24Z",
       "created_at": "2009-08-28T18:15:37Z",
       "owner_url": "https://github.com/ohmyzsh",
       "owner_avatar": "https://avatars.githubusercontent.com/u/22552083?v=4",
@@ -260,18 +235,18 @@
         "plugins"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 24,
+      "badge": null
     },
     {
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
-      "stars": 182064,
-      "forks": 38134,
-      "open_issues": 14264,
+      "stars": 182089,
+      "forks": 38145,
+      "open_issues": 14297,
       "language": "TypeScript",
       "license": "MIT",
-      "last_push": "2026-02-25T09:09:53Z",
+      "last_push": "2026-02-26T09:29:00Z",
       "created_at": "2015-09-03T20:23:38Z",
       "owner_url": "https://github.com/microsoft",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -285,18 +260,18 @@
         "visual-studio-code"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 25,
+      "badge": null
     },
     {
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 182010,
-      "forks": 46216,
-      "open_issues": 345,
+      "stars": 182030,
+      "forks": 46211,
+      "open_issues": 347,
       "language": "Python",
       "license": "NOASSERTION",
-      "last_push": "2026-02-25T09:22:34Z",
+      "last_push": "2026-02-26T09:35:51Z",
       "created_at": "2023-03-16T09:21:07Z",
       "owner_url": "https://github.com/Significant-Gravitas",
       "owner_avatar": "https://avatars.githubusercontent.com/u/130738209?v=4",
@@ -312,14 +287,14 @@
         "python"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 20,
+      "badge": null
     },
     {
       "name": "jackfrued/Python-100-Days",
       "description": "Python - 100天从新手到大师",
-      "stars": 178964,
-      "forks": 55446,
+      "stars": 179021,
+      "forks": 55451,
       "open_issues": 689,
       "language": "Jupyter Notebook",
       "license": "Unknown",
@@ -331,18 +306,18 @@
       "repo_url": "https://github.com/jackfrued/Python-100-Days",
       "topics": [],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 57,
+      "badge": "rising"
     },
     {
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 176266,
-      "forks": 55172,
-      "open_issues": 1395,
+      "stars": 176451,
+      "forks": 55190,
+      "open_issues": 1405,
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "last_push": "2026-02-25T09:41:21Z",
+      "last_push": "2026-02-26T09:35:57Z",
       "created_at": "2019-06-22T09:24:21Z",
       "owner_url": "https://github.com/n8n-io",
       "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
@@ -359,18 +334,18 @@
         "integrations"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 185,
+      "badge": "rising"
     },
     {
       "name": "flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "stars": 175317,
-      "forks": 30034,
-      "open_issues": 12489,
+      "stars": 175332,
+      "forks": 30043,
+      "open_issues": 12468,
       "language": "Dart",
       "license": "BSD-3-Clause",
-      "last_push": "2026-02-25T09:19:15Z",
+      "last_push": "2026-02-26T07:06:12Z",
       "created_at": "2015-03-06T22:54:58Z",
       "owner_url": "https://github.com/flutter",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14101776?v=4",
@@ -387,18 +362,18 @@
         "flutter-package"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 15,
+      "badge": null
     },
     {
       "name": "twbs/bootstrap",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-      "stars": 174005,
+      "stars": 174004,
       "forks": 79086,
       "open_issues": 576,
       "language": "MDX",
       "license": "MIT",
-      "last_push": "2026-02-24T20:32:41Z",
+      "last_push": "2026-02-26T05:15:50Z",
       "created_at": "2011-07-29T21:19:00Z",
       "owner_url": "https://github.com/twbs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2918581?v=4",
@@ -414,18 +389,18 @@
         "scss"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": -1,
+      "badge": "cooling"
     },
     {
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stars": 163342,
-      "forks": 14657,
-      "open_issues": 2474,
+      "stars": 163449,
+      "forks": 14675,
+      "open_issues": 2483,
       "language": "Go",
       "license": "MIT",
-      "last_push": "2026-02-25T09:09:59Z",
+      "last_push": "2026-02-26T03:28:54Z",
       "created_at": "2023-06-26T19:39:32Z",
       "owner_url": "https://github.com/ollama",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -442,18 +417,18 @@
         "llama"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 107,
+      "badge": "rising"
     },
     {
       "name": "huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 156949,
-      "forks": 32195,
-      "open_issues": 2280,
+      "stars": 157005,
+      "forks": 32204,
+      "open_issues": 2279,
       "language": "Python",
       "license": "Apache-2.0",
-      "last_push": "2026-02-25T09:19:39Z",
+      "last_push": "2026-02-26T09:34:36Z",
       "created_at": "2018-10-29T13:56:00Z",
       "owner_url": "https://github.com/huggingface",
       "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -470,43 +445,15 @@
         "machine-learning"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
-    },
-    {
-      "name": "Snailclimb/JavaGuide",
-      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发与系统设计。准备后端技术面试，首选 JavaGuide！",
-      "stars": 153869,
-      "forks": 46117,
-      "open_issues": 74,
-      "language": "Java",
-      "license": "Apache-2.0",
-      "last_push": "2026-02-23T16:04:41Z",
-      "created_at": "2018-05-07T13:27:00Z",
-      "owner_url": "https://github.com/Snailclimb",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/29880145?v=4",
-      "owner_login": "Snailclimb",
-      "repo_url": "https://github.com/Snailclimb/JavaGuide",
-      "topics": [
-        "algorithms",
-        "distributed-systems",
-        "interview",
-        "java",
-        "jvm",
-        "mysql",
-        "redis",
-        "redisson"
-      ],
-      "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 56,
+      "badge": "rising"
     },
     {
       "name": "airbnb/javascript",
       "description": "JavaScript Style Guide",
-      "stars": 148098,
-      "forks": 26764,
-      "open_issues": 185,
+      "stars": 148090,
+      "forks": 26766,
+      "open_issues": 186,
       "language": "JavaScript",
       "license": "MIT",
       "last_push": "2026-02-24T14:05:16Z",
@@ -526,15 +473,69 @@
         "javascript"
       ],
       "is_discovery": false,
+      "star_delta": -8,
+      "badge": "cooling"
+    },
+    {
+      "name": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "stars": 147908,
+      "forks": 19479,
+      "open_issues": 11,
+      "language": "HTML",
+      "license": "CC0-1.0",
+      "last_push": "2026-02-26T03:51:34Z",
+      "created_at": "2022-12-05T13:54:13Z",
+      "owner_url": "https://github.com/f",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/196477?v=4",
+      "owner_login": "f",
+      "repo_url": "https://github.com/f/prompts.chat",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt"
+      ],
+      "is_discovery": false,
+      "star_delta": 0,
+      "badge": "new_entry"
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "stars": 145076,
+      "forks": 8492,
+      "open_issues": 1064,
+      "language": "Python",
+      "license": "MIT",
+      "last_push": "2026-02-26T05:18:26Z",
+      "created_at": "2023-02-08T22:28:03Z",
+      "owner_url": "https://github.com/langflow-ai",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85702467?v=4",
+      "owner_login": "langflow-ai",
+      "repo_url": "https://github.com/langflow-ai/langflow",
+      "topics": [
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
+      ],
+      "is_discovery": false,
       "star_delta": 0,
       "badge": "new_entry"
     },
     {
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
-      "stars": 75368,
-      "forks": 7800,
-      "open_issues": 339,
+      "stars": 76477,
+      "forks": 7950,
+      "open_issues": 344,
       "language": "Python",
       "license": "Unknown",
       "last_push": "2026-02-25T04:28:41Z",
@@ -547,15 +548,15 @@
         "agent-skills"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 1109,
+      "badge": "rising"
     },
     {
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 61032,
-      "forks": 4663,
-      "open_issues": 155,
+      "stars": 62493,
+      "forks": 4772,
+      "open_issues": 161,
       "language": "Shell",
       "license": "MIT",
       "last_push": "2026-02-21T19:43:05Z",
@@ -566,18 +567,18 @@
       "repo_url": "https://github.com/obra/superpowers",
       "topics": [],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 1461,
+      "badge": "rising"
     },
     {
       "name": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
-      "stars": 51647,
-      "forks": 6393,
-      "open_issues": 19,
+      "stars": 52891,
+      "forks": 6541,
+      "open_issues": 24,
       "language": "JavaScript",
       "license": "MIT",
-      "last_push": "2026-02-24T17:24:41Z",
+      "last_push": "2026-02-25T18:45:34Z",
       "created_at": "2026-01-18T00:51:51Z",
       "owner_url": "https://github.com/affaan-m",
       "owner_avatar": "https://avatars.githubusercontent.com/u/124439313?v=4",
@@ -594,15 +595,15 @@
         "productivity"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 1244,
+      "badge": "rising"
     },
     {
       "name": "karpathy/nanochat",
       "description": "The best ChatGPT that $100 can buy.",
-      "stars": 44015,
-      "forks": 5794,
-      "open_issues": 54,
+      "stars": 44070,
+      "forks": 5796,
+      "open_issues": 56,
       "language": "Python",
       "license": "MIT",
       "last_push": "2026-02-20T16:03:46Z",
@@ -613,15 +614,15 @@
       "repo_url": "https://github.com/karpathy/nanochat",
       "topics": [],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 55,
+      "badge": "rising"
     },
     {
       "name": "ComposioHQ/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "stars": 37521,
-      "forks": 3689,
-      "open_issues": 204,
+      "stars": 37935,
+      "forks": 3737,
+      "open_issues": 210,
       "language": "Python",
       "license": "Unknown",
       "last_push": "2026-02-19T06:22:06Z",
@@ -641,18 +642,18 @@
         "composio"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 414,
+      "badge": "rising"
     },
     {
       "name": "tw93/Mole",
       "description": "🐹 Deep clean and optimize your Mac.",
-      "stars": 36942,
-      "forks": 1008,
+      "stars": 37120,
+      "forks": 1015,
       "open_issues": 3,
       "language": "Shell",
       "license": "MIT",
-      "last_push": "2026-02-25T02:37:37Z",
+      "last_push": "2026-02-26T08:44:25Z",
       "created_at": "2025-09-23T06:38:40Z",
       "owner_url": "https://github.com/tw93",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8736212?v=4",
@@ -669,15 +670,15 @@
         "daisydisk"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 178,
+      "badge": "rising"
     },
     {
       "name": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
-      "stars": 34430,
-      "forks": 3396,
-      "open_issues": 57,
+      "stars": 34860,
+      "forks": 3429,
+      "open_issues": 58,
       "language": "Python",
       "license": "MIT",
       "last_push": "2026-02-12T16:11:34Z",
@@ -697,18 +698,18 @@
         "cursor-ai"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 430,
+      "badge": "rising"
     },
     {
       "name": "code-yeongyu/oh-my-opencode",
       "description": "the best agent harness",
-      "stars": 34149,
-      "forks": 2566,
-      "open_issues": 246,
+      "stars": 34561,
+      "forks": 2604,
+      "open_issues": 256,
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "last_push": "2026-02-25T08:19:44Z",
+      "last_push": "2026-02-26T09:22:45Z",
       "created_at": "2025-12-03T01:40:05Z",
       "owner_url": "https://github.com/code-yeongyu",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11153873?v=4",
@@ -725,18 +726,18 @@
         "claude-skills"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 412,
+      "badge": "rising"
     },
     {
       "name": "thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ses",
-      "stars": 30844,
-      "forks": 2093,
-      "open_issues": 38,
+      "stars": 31106,
+      "forks": 2115,
+      "open_issues": 47,
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "last_push": "2026-02-25T08:54:19Z",
+      "last_push": "2026-02-26T06:25:26Z",
       "created_at": "2025-08-31T20:50:03Z",
       "owner_url": "https://github.com/thedotmack",
       "owner_avatar": "https://avatars.githubusercontent.com/u/683968?v=4",
@@ -753,18 +754,18 @@
         "claude-agent-sdk"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 262,
+      "badge": "rising"
     },
     {
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
-      "stars": 26641,
-      "forks": 1558,
-      "open_issues": 67,
+      "stars": 26750,
+      "forks": 1563,
+      "open_issues": 70,
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "last_push": "2026-02-25T08:39:22Z",
+      "last_push": "2026-02-26T08:32:36Z",
       "created_at": "2025-09-11T10:39:55Z",
       "owner_url": "https://github.com/ChromeDevTools",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -781,8 +782,8 @@
         "puppeteer"
       ],
       "is_discovery": false,
-      "star_delta": 0,
-      "badge": "new_entry"
+      "star_delta": 109,
+      "badge": "rising"
     }
   ]
 }
