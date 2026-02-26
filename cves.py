@@ -16,7 +16,6 @@ DATA_DIR = "docs/_data"
 OUTPUT_JSON = os.path.join(DATA_DIR, "cves.json")
 OUTPUT_DIR = "docs/security"
 OUTPUT_PAGE = os.path.join(OUTPUT_DIR, "cves.md")
-CVE_PAGES_DIR = os.path.join(OUTPUT_DIR, "cves")
 
 NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
@@ -254,7 +253,7 @@ def _generate_page():
         '<div style="margin-bottom:2em; padding:1.25em; border:2px solid {{ f_border }}; border-radius:8px; background:#fff5f5;">',
         '  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.75em;">',
         '    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#b91c1c; color:#fff;">🚨 Top Threat</span>',
-        '    <strong style="font-size:1.15em;"><a href="/security/cves/{{ f.id }}/" style="color:#111;">{{ f.id }}</a></strong>',
+        '    <strong style="font-size:1.15em;"><a href="{{ f.nvd_url }}" target="_blank" rel="noopener" style="color:#111;">{{ f.id }}</a></strong>',
         '    <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.82em; color:#fff; background:{{ f_border }};">{{ f.severity }} {{ f.score }}</span>',
         '    {% if f.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.78em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}',
         '    <span style="font-size:0.8em; color:#9ca3af;">{{ f.published | slice: 0, 10 }}</span>',
@@ -273,8 +272,7 @@ def _generate_page():
         "{% if site.data.cves.cves.size > 0 %}",
         "{% for cve in site.data.cves.cves %}",
         '<div style="margin-bottom:1.5em; padding:0.75em; border-left:4px solid {% if cve.severity == \'CRITICAL\' %}#dc2626{% elsif cve.severity == \'HIGH\' %}#ea580c{% elsif cve.severity == \'MEDIUM\' %}#ca8a04{% else %}#6b7280{% endif %}; background:#f9fafb;">',
-        '  <strong><a href="/security/cves/{{ cve.id }}/">{{ cve.id }}</a></strong>',
-        '  <a href="{{ cve.nvd_url }}" style="font-size:0.75em; color:#6b7280; margin-left:0.5em;" target="_blank" rel="noopener">NVD ↗</a>',
+        '  <strong><a href="{{ cve.nvd_url }}" target="_blank" rel="noopener">{{ cve.id }}</a></strong>',
         '  <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-left:0.5em; color:#fff; background:{% if cve.severity == \'CRITICAL\' %}#dc2626{% elsif cve.severity == \'HIGH\' %}#ea580c{% elsif cve.severity == \'MEDIUM\' %}#ca8a04{% else %}#6b7280{% endif %};">{{ cve.severity }} {{ cve.score }}</span>',
         '  {% if cve.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; margin-left:0.5em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}',
         "  <br>",
@@ -304,30 +302,6 @@ def _generate_page():
     ]
     return "\n".join(lines)
 
-
-def _generate_cve_pages(cves):
-    """Generate individual markdown pages for each CVE."""
-    os.makedirs(CVE_PAGES_DIR, exist_ok=True)
-
-    for cve in cves:
-        cve_id = cve['id']
-        desc_short = cve['description'].replace('"', '\\"').replace('\n', ' ').replace('\r', '')
-        filepath = os.path.join(CVE_PAGES_DIR, f"{cve_id}.md")
-
-        content = (
-            "---\n"
-            "layout: cve\n"
-            f'cve_id: "{cve_id}"\n'
-            f'title: "{cve_id} - {cve["severity"]} ({cve["score"]}) | eof.news"\n'
-            f'description: "{desc_short}"\n'
-            f"permalink: /security/cves/{cve_id}/\n"
-            "---\n"
-        )
-
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(content)
-
-    print(f"✅ {len(cves)} individual CVE pages written to {CVE_PAGES_DIR}")
 
 
 def publish_cves():
@@ -389,4 +363,3 @@ def publish_cves():
         f.write(page_content)
     print(f"✅ CVE page written: {OUTPUT_PAGE}")
 
-    _generate_cve_pages(cves)
