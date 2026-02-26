@@ -321,6 +321,30 @@ def publish_models():
     trending = _cross_reference(trending, posts)
     new_releases = _cross_reference(new_releases, posts)
 
+    # Load history, compute deltas (must happen BEFORE writing today's snapshot)
+    history = _load_history()
+    all_models = trending + new_releases
+    deltas = _compute_like_deltas(all_models, history)
+
+    # Snapshot today's likes
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    history["snapshots"][today] = {
+        "models": {m["model_id"]: {"likes": m["likes"]} for m in all_models}
+    }
+
+    # Pick Model of the Day
+    featured_log = history.get("featured_models", {})
+    featured = _pick_model_of_the_day(trending + new_releases, deltas, featured_log)
+    if featured:
+        history["featured_models"][featured["model_id"]] = today
+        featured["like_delta"] = deltas.get(featured["model_id"], 0)
+
+    _save_history(history)
+
+    # Attach deltas to trending list for display
+    for m in trending:
+        m["like_delta"] = deltas.get(m["model_id"], 0)
+
     # Category stats
     from collections import Counter
     cat_counts = Counter(m['category'] for m in trending)
@@ -330,6 +354,7 @@ def publish_models():
     now = datetime.now(timezone.utc)
     output = {
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "featured_model": featured,
         "trending": trending,
         "new_releases": new_releases[:20],
         "top_categories": top_categories,
