@@ -202,18 +202,11 @@ def _cross_reference(cves, posts):
 
 
 def _pick_featured_cve(cves):
-    """Select the most critical CVE to spotlight: CISA KEV > severity > EPSS > recency."""
+    """Select the most critical CVE to spotlight: most recent date, then highest severity, then score."""
     if not cves:
         return None
-    severity_weight = {"CRITICAL": 40, "HIGH": 30, "MEDIUM": 20, "LOW": 10, "UNKNOWN": 0}
-
-    def score(c):
-        s = severity_weight.get(c['severity'], 0)
-        s += 100 if c.get('cisa_kev') else 0
-        s += c.get('epss_score', 0) * 20
-        return (s, c.get('published') or '')
-
-    return max(cves, key=score)
+    # cves is already sorted by (date desc, severity, score) — first item is the top threat
+    return cves[0]
 
 
 def _generate_page():
