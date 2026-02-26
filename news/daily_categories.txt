@@ -43,3 +43,8 @@
 2026-02-25:devtools:cicd
 2026-02-25:cloud:aws
 2026-02-25:cloud:serverless
+2026-02-26:software-engineering:architecture:breaking
+2026-02-26:security:vulnerability:breaking
+2026-02-26:ai:ai-infrastructure:deep
+2026-02-26:ai:ai-research:deep
+2026-02-26:cloud:kubernetes:deep
