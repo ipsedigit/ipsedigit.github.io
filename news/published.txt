@@ -169,3 +169,4 @@ https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html
 https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud
 https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
 https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/
+https://dev.to/leanvox/introducing-the-leanvox-python-sdk-text-to-speech-in-3-lines-2djj
