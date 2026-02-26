@@ -5,7 +5,6 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # =============================================================================
 
 MAX_POSTS_PER_NICHE_PER_DAY = 3
-CREATOR_MAX_PER_DAY = 1  # Reserved slot(s) to feed /creators/ from creator-type sources
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
 # --- Two-pass selection budget ---
@@ -510,86 +509,6 @@ NEWS_SOURCES = {
         'feed_url': 'https://howtech.substack.com/feed',
         'min_score': 0,
         'type': 'creator',
-    },
-}
-
-# =============================================================================
-# FEATURED DEVELOPERS — Profile pages at /devs/<slug>/
-# =============================================================================
-# source_name must match NEWS_SOURCES[key]['name'] to auto-populate posts.
-
-FEATURED_DEVS = {
-    'juliaevans': {
-        'name': 'Julia Evans',
-        'slug': 'julia-evans',
-        'url': 'https://jvns.ca',
-        'bio': 'Writes about Linux, networking, and debugging in a way that makes complex topics approachable.',
-        'source_name': 'Julia Evans',
-        'featured_since': '2026-02-25',
-    },
-    'danluu': {
-        'name': 'Dan Luu',
-        'slug': 'dan-luu',
-        'url': 'https://danluu.com',
-        'bio': 'Deep dives into performance, hardware, and engineering culture at scale.',
-        'source_name': 'Dan Luu',
-        'featured_since': '2026-02-25',
-    },
-    'pragmatic_eng': {
-        'name': 'Gergely Orosz',
-        'slug': 'pragmatic-engineer',
-        'url': 'https://newsletter.pragmaticengineer.com',
-        'bio': 'The Pragmatic Engineer newsletter — inside Big Tech and high-growth startups.',
-        'source_name': 'The Pragmatic Engineer',
-        'featured_since': '2026-02-25',
-    },
-    'bytebytego': {
-        'name': 'Alex Xu',
-        'slug': 'bytebytego',
-        'url': 'https://blog.bytebytego.com',
-        'bio': 'ByteByteGo — system design concepts explained with clear visuals.',
-        'source_name': 'ByteByteGo',
-        'featured_since': '2026-02-25',
-    },
-    'computerenhance': {
-        'name': 'Casey Muratori',
-        'slug': 'computer-enhance',
-        'url': 'https://computerenhance.com',
-        'bio': 'Computer, Enhance! — performance-aware programming from first principles.',
-        'source_name': 'Computer, Enhance!',
-        'featured_since': '2026-02-25',
-    },
-    'softwarearchitectureweekly': {
-        'name': 'Oskar Dudycz',
-        'slug': 'software-architecture-weekly',
-        'url': 'https://softwarearchitectureweekly.substack.com',
-        'bio': 'Software Architecture Weekly — curated links on architecture, DDD, and event sourcing.',
-        'source_name': 'Software Architecture Weekly',
-        'featured_since': '2026-02-25',
-    },
-    'strlen': {
-        'name': 'strlen',
-        'slug': 'strlen',
-        'url': 'https://strlen.substack.com',
-        'bio': "Schopenhauer's Kubernetes cluster — essays on infrastructure and distributed systems.",
-        'source_name': "Schopenhauer's Kubernetes cluster",
-        'featured_since': '2026-02-25',
-    },
-    'indiedeveloperdiaries': {
-        'name': 'Indie Developer Diaries',
-        'slug': 'indie-developer-diaries',
-        'url': 'https://indiedeveloperdiaries.substack.com',
-        'bio': 'Stories and lessons from building software independently.',
-        'source_name': 'Indie Developer Diaries',
-        'featured_since': '2026-02-25',
-    },
-    'howtech': {
-        'name': 'How Tech',
-        'slug': 'how-tech',
-        'url': 'https://howtech.substack.com',
-        'bio': 'How tech companies work under the hood.',
-        'source_name': 'How Tech',
-        'featured_since': '2026-02-25',
     },
 }
 
