@@ -91,7 +91,7 @@ permalink: /direct/
 
 # Direct
 
-<p>We refer to a single list of weirdo developers (indie, offbeat, worldwide) and link to them directly — to your site, not to a platform — so you know we're linking and can link back if you like. We track who links to us and list them below.</p>
+<p>We link one resource per developer (their blog or site). The list comes from the <a href="https://github.com/outcoldman/hackernews-personal-blogs" target="_blank" rel="noopener">HN personal blogs OPML</a>. We link directly — to your site, not to a platform — so you know we're linking and can link back if you like. We track who links to us and list them below.</p>
 
 <div class="source-category">
 <h2>We link to you</h2>
@@ -108,7 +108,7 @@ permalink: /direct/
 </div>
 {% endfor %}
 {% else %}
-<p>No direct links yet. Add entries to the reference list (<code>DIRECT_REFERENCE_LIST</code>) in <code>const.py</code> and run <code>python main.py --action direct</code>.</p>
+<p>No direct links yet. Refresh from the HN OPML with <code>python refresh_direct_from_hn_opml.py</code>, paste into <code>DIRECT_REFERENCE_LIST</code> in <code>const.py</code>, then run <code>python main.py --action direct</code>.</p>
 {% endif %}
 </div>
 </div>
