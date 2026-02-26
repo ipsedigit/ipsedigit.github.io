@@ -156,6 +156,58 @@ def _cross_reference(models, posts):
     return models
 
 
+def _pick_model_of_the_day(models, deltas, featured_log):
+    """
+    Select Model of the Day using weighted score:
+      +30 created in last 7 days, +15 created in last 30 days (recency)
+      +delta * 2  (momentum: like gain since last run)
+      +10 if category not in last 3 featured categories (novelty)
+    No repeats within FEATURED_COOLDOWN_DAYS.
+    """
+    if not models:
+        return None
+
+    now = datetime.now(timezone.utc)
+    cutoff = (now - timedelta(days=FEATURED_COOLDOWN_DAYS)).strftime("%Y-%m-%d")
+    week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    month_ago = (now - timedelta(days=30)).strftime("%Y-%m-%d")
+
+    # Models featured recently (within cooldown)
+    recent_featured = {mid for mid, date in featured_log.items() if date >= cutoff}
+
+    # Last 3 featured categories (for novelty bonus)
+    recent_by_date = sorted(
+        [(mid, d) for mid, d in featured_log.items() if d >= cutoff],
+        key=lambda x: x[1], reverse=True
+    )[:3]
+    recent_categories = set()
+    for mid, _ in recent_by_date:
+        for m in models:
+            if m["model_id"] == mid:
+                recent_categories.add(m["category"])
+                break
+
+    candidates = [m for m in models if m["model_id"] not in recent_featured]
+    if not candidates:
+        candidates = list(models)
+
+    def score(m):
+        s = 0.0
+        created = m.get("created_at") or ""
+        if created >= week_ago:
+            s += 30
+        elif created >= month_ago:
+            s += 15
+        delta = deltas.get(m["model_id"], 0)
+        s += max(delta, 0) * 2
+        if m.get("category") not in recent_categories:
+            s += 10
+        return s
+
+    candidates.sort(key=score, reverse=True)
+    return candidates[0]
+
+
 def _generate_page():
     """Generate the Jekyll markdown page for AI model tracker."""
     lines = [
