@@ -5,8 +5,6 @@ description: "Rising and falling tech topics, most active sources, and top stori
 permalink: /trends/
 ---
 
-{% include freshness-banner.html timestamp=site.data.trends.generated_at %}
-
 ## Rising Topics
 
 {% if site.data.trends.rising_topics.size > 0 %}
@@ -72,5 +70,6 @@ permalink: /trends/
 ---
 
 <p style="font-size:0.8em; color:#9ca3af;">
+Updated: {{ site.data.trends.generated_at }} &middot; 
 {{ site.data.trends.total_posts_this_week }} posts this week vs {{ site.data.trends.total_posts_prev_week }} last week
 </p>
