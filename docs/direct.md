@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Direct | eof.news
-description: "We link to developers directly — to your site, not to a platform. So you know we're linking; link back if you like. We list who links to us."
+description: "Recent articles from developers we follow. Same as the rest of the site: links to articles, not sites."
 permalink: /direct/
 ---
 
@@ -33,6 +33,36 @@ permalink: /direct/
   margin-bottom: 1rem;
   line-height: 1.5;
 }
+.direct-page .post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.direct-page .post-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+.direct-page .post-list li:last-child {
+  border-bottom: none;
+}
+.direct-page .post-list .date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-right: 0.75rem;
+}
+.direct-page .post-list a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+}
+.direct-page .post-list a:hover {
+  color: #0066cc;
+}
+.direct-page .post-list .source {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: 0.5rem;
+}
 .direct-page .source-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -43,35 +73,14 @@ permalink: /direct/
   border: 1px solid #e5e5e5;
   border-radius: 6px;
   padding: 1rem;
-  transition: all 0.2s;
-}
-.direct-page .source-item:hover {
-  border-color: #999;
-  background: #fff;
 }
 .direct-page .source-item a {
   color: #111;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.95rem;
 }
 .direct-page .source-item a:hover {
   color: #0066cc;
-}
-.direct-page .source-item p {
-  color: #666;
-  font-size: 0.8rem;
-  margin: 0.5rem 0 0 0;
-  line-height: 1.4;
-}
-.direct-page .source-item .type {
-  display: inline-block;
-  background: #e5e5e5;
-  color: #666;
-  font-size: 0.7rem;
-  padding: 2px 6px;
-  border-radius: 3px;
-  margin-top: 0.5rem;
 }
 .direct-page .footer-links {
   margin-top: 2rem;
@@ -82,35 +91,30 @@ permalink: /direct/
   color: #0066cc;
   text-decoration: none;
 }
-.direct-page .footer-links a:hover {
-  text-decoration: underline;
-}
 </style>
 
 <div class="direct-page">
 
 # Direct
 
-<p>We link one resource per developer (their blog or site). The list comes from the <a href="https://github.com/outcoldman/hackernews-personal-blogs" target="_blank" rel="noopener">HN personal blogs OPML</a>. We link directly — to your site, not to a platform — so you know we're linking and can link back if you like. We track who links to us and list them below.</p>
+<p>Recent articles from developers and newsletters we follow. Links go to the <strong>article</strong>, like on Home and the rest of the site — not to a list of sites.</p>
 
 <div class="source-category">
-<h2>We link to you</h2>
-<p class="sub">Each link goes to your site. Indie devs, personal blogs, low-level tinkerers — we link to you. Want to be listed? <a href="/about/">Get in touch</a>.</p>
-<div class="source-list">
-{% if site.data.direct_links.links and site.data.direct_links.links.size > 0 %}
-{% for item in site.data.direct_links.links %}
-<div class="source-item">
-<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
-{% if item.description %}
-<p>{{ item.description }}</p>
-{% endif %}
-<span class="type">Direct</span>
-</div>
+<h2>Recent articles</h2>
+<p class="sub">From our curated feeds (DIRECT_FEEDS in const.py). Run <code>python main.py --action direct</code> to refresh.</p>
+<ul class="post-list">
+{% if site.data.direct_articles and site.data.direct_articles.articles and site.data.direct_articles.articles.size > 0 %}
+{% for art in site.data.direct_articles.articles %}
+<li>
+  <span class="date">{{ art.date }}</span>
+  <a href="{{ art.url }}" target="_blank" rel="noopener">{{ art.title | escape }}</a>
+  <span class="source">{{ art.source }}</span>
+</li>
 {% endfor %}
 {% else %}
-<p>No direct links yet. Refresh from the HN OPML with <code>python refresh_direct_from_hn_opml.py</code>, paste into <code>DIRECT_REFERENCE_LIST</code> in <code>const.py</code>, then run <code>python main.py --action direct</code>.</p>
+<li>No articles yet. Run <code>python main.py --action direct</code> to fetch from DIRECT_FEEDS.</li>
 {% endif %}
-</div>
+</ul>
 </div>
 
 <div class="source-category">
@@ -121,10 +125,6 @@ permalink: /direct/
 {% for item in site.data.links_back.links %}
 <div class="source-item">
 <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
-{% if item.description %}
-<p>{{ item.description }}</p>
-{% endif %}
-<span class="type">Links back</span>
 </div>
 {% endfor %}
 {% else %}
