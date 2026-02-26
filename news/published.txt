@@ -164,3 +164,9 @@ https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
 https://dev.to/adegiamb/the-internal-consultant-framework-engineering-your-career-sprint-by-sprint-5a16
 https://kubernetes.io/blog/2025/09/08/kubernetes-v1-34-volume-attributes-class/
 https://blog.bytebytego.com/p/how-cloudflare-eliminates-cold-starts
+https://kubernetes.io/blog/2025/11/26/kubernetes-v1-35-sneak-peek/
+https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html
+https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud
+https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
+https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/
+https://dev.to/leanvox/introducing-the-leanvox-python-sdk-text-to-speech-in-3-lines-2djj

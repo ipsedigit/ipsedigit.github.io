@@ -1,23 +1,37 @@
 {
-  "generated_at": "2026-02-25 08:05:48 UTC",
-  "period": "2026-02-18 to 2026-02-25",
+  "generated_at": "2026-02-26 08:03:41 UTC",
+  "period": "2026-02-19 to 2026-02-26",
   "rising_topics": [
     {
-      "topic": "artificial intelligence",
-      "count_this_week": 19,
-      "count_prev_week": 3,
-      "change": 16,
-      "velocity": "rising"
-    },
-    {
       "topic": "security",
-      "count_this_week": 13,
-      "count_prev_week": 2,
-      "change": 11,
+      "count_this_week": 18,
+      "count_prev_week": 3,
+      "change": 15,
       "velocity": "rising"
     },
     {
       "topic": "vulnerability",
+      "count_this_week": 12,
+      "count_prev_week": 0,
+      "change": 12,
+      "velocity": "rising"
+    },
+    {
+      "topic": "artificial intelligence",
+      "count_this_week": 18,
+      "count_prev_week": 7,
+      "change": 11,
+      "velocity": "rising"
+    },
+    {
+      "topic": "kubernetes",
+      "count_this_week": 11,
+      "count_prev_week": 1,
+      "change": 10,
+      "velocity": "rising"
+    },
+    {
+      "topic": "software architecture",
       "count_this_week": 5,
       "count_prev_week": 0,
       "change": 5,
@@ -25,16 +39,37 @@
     },
     {
       "topic": "cybersecurity",
+      "count_this_week": 5,
+      "count_prev_week": 0,
+      "change": 5,
+      "velocity": "rising"
+    },
+    {
+      "topic": "llm",
       "count_this_week": 4,
       "count_prev_week": 0,
       "change": 4,
       "velocity": "rising"
     },
     {
-      "topic": "threat-intel",
-      "count_this_week": 3,
+      "topic": "go",
+      "count_this_week": 4,
       "count_prev_week": 0,
-      "change": 3,
+      "change": 4,
+      "velocity": "rising"
+    },
+    {
+      "topic": "ai agents",
+      "count_this_week": 4,
+      "count_prev_week": 0,
+      "change": 4,
+      "velocity": "rising"
+    },
+    {
+      "topic": "cve",
+      "count_this_week": 4,
+      "count_prev_week": 0,
+      "change": 4,
       "velocity": "rising"
     },
     {
@@ -45,21 +80,7 @@
       "velocity": "rising"
     },
     {
-      "topic": "gemini (google ai)",
-      "count_this_week": 3,
-      "count_prev_week": 0,
-      "change": 3,
-      "velocity": "rising"
-    },
-    {
-      "topic": "llm",
-      "count_this_week": 3,
-      "count_prev_week": 0,
-      "change": 3,
-      "velocity": "rising"
-    },
-    {
-      "topic": "ai agents",
+      "topic": "throughput",
       "count_this_week": 3,
       "count_prev_week": 0,
       "change": 3,
@@ -67,64 +88,57 @@
     },
     {
       "topic": "latency",
-      "count_this_week": 2,
+      "count_this_week": 3,
       "count_prev_week": 0,
-      "change": 2,
+      "change": 3,
       "velocity": "rising"
     },
     {
-      "topic": "exploit",
-      "count_this_week": 2,
+      "topic": "threat-intel",
+      "count_this_week": 3,
       "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "threat intelligence",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "cve",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
-      "velocity": "rising"
-    },
-    {
-      "topic": "software architecture",
-      "count_this_week": 2,
-      "count_prev_week": 0,
-      "change": 2,
+      "change": 3,
       "velocity": "rising"
     },
     {
       "topic": "cloud native",
-      "count_this_week": 2,
+      "count_this_week": 3,
       "count_prev_week": 0,
-      "change": 2,
+      "change": 3,
       "velocity": "rising"
     }
   ],
   "falling_topics": [
     {
-      "topic": "github",
+      "topic": "cloud computing",
+      "count_this_week": 1,
+      "count_prev_week": 4,
+      "change": -3,
+      "velocity": "falling"
+    },
+    {
+      "topic": "generative models",
       "count_this_week": 0,
       "count_prev_week": 2,
       "change": -2,
       "velocity": "falling"
     },
     {
-      "topic": "large language models",
+      "topic": "logging",
+      "count_this_week": 0,
+      "count_prev_week": 2,
+      "change": -2,
+      "velocity": "falling"
+    },
+    {
+      "topic": "redis",
       "count_this_week": 0,
       "count_prev_week": 1,
       "change": -1,
       "velocity": "falling"
     },
     {
-      "topic": "docker",
+      "topic": "github",
       "count_this_week": 0,
       "count_prev_week": 1,
       "change": -1,
@@ -138,6 +152,13 @@
       "velocity": "falling"
     },
     {
+      "topic": "mysql",
+      "count_this_week": 0,
+      "count_prev_week": 1,
+      "change": -1,
+      "velocity": "falling"
+    },
+    {
       "topic": "design patterns",
       "count_this_week": 0,
       "count_prev_week": 1,
@@ -145,14 +166,7 @@
       "velocity": "falling"
     },
     {
-      "topic": "redis",
-      "count_this_week": 0,
-      "count_prev_week": 1,
-      "change": -1,
-      "velocity": "falling"
-    },
-    {
-      "topic": "mysql",
+      "topic": "large language models",
       "count_this_week": 0,
       "count_prev_week": 1,
       "change": -1,
@@ -161,14 +175,14 @@
   ],
   "stable_topics": [
     {
-      "topic": "logging",
+      "topic": "docker",
       "count_this_week": 1,
       "count_prev_week": 1,
       "change": 0,
       "velocity": "stable"
     },
     {
-      "topic": "generative models",
+      "topic": "performance",
       "count_this_week": 1,
       "count_prev_week": 1,
       "change": 0,
@@ -178,26 +192,30 @@
   "active_sources": [
     {
       "source": "The Hacker News",
-      "count": 15
-    },
-    {
-      "source": "Google Developers",
-      "count": 4
-    },
-    {
-      "source": "Hugging Face Blog",
-      "count": 3
+      "count": 16
     },
     {
       "source": "Kubernetes Blog",
+      "count": 9
+    },
+    {
+      "source": "Hugging Face Blog",
+      "count": 4
+    },
+    {
+      "source": "Google Developers",
       "count": 2
     },
     {
-      "source": "Schneier on Security",
+      "source": "Docker Blog",
       "count": 1
     },
     {
-      "source": "DeepMind Blog",
+      "source": "freeCodeCamp",
+      "count": 1
+    },
+    {
+      "source": "ByteByteGo",
       "count": 1
     },
     {
@@ -205,7 +223,11 @@
       "count": 1
     },
     {
-      "source": "freeCodeCamp",
+      "source": "dev.to",
+      "count": 1
+    },
+    {
+      "source": "Schneier on Security",
       "count": 1
     }
   ],
@@ -220,6 +242,15 @@
       "niche_category": "software-engineering"
     },
     {
+      "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability S",
+      "url": "/2026/02/21/top-tech-news-1e4d0df8-0f23-11f1-8951-000d3ae4f353.html",
+      "external_url": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+      "score": 125,
+      "source": "The Hacker News",
+      "date": "2026-02-21",
+      "niche_category": "ai"
+    },
+    {
       "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling (2026)",
       "url": "/2026/02/25/top-tech-news-f821cc94-1216-11f1-8951-6045bd37762a.html",
       "external_url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
@@ -229,12 +260,21 @@
       "niche_category": "ai"
     },
     {
-      "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability S",
-      "url": "/2026/02/21/top-tech-news-1e4d0df8-0f23-11f1-8951-000d3ae4f353.html",
-      "external_url": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
-      "score": 125,
-      "source": "The Hacker News",
-      "date": "2026-02-21",
+      "title": "Reduce Vulnerability Noise with VEX: Wiz + Docker Hardened Images",
+      "url": "/2026/02/25/top-tech-news-d7006050-1227-11f1-8951-7ced8d81b5aa.html",
+      "external_url": "https://www.docker.com/blog/reduce-vulnerability-noise-with-vex-wiz-docker-hardened-images/",
+      "score": 115,
+      "source": "Docker Blog",
+      "date": "2026-02-25",
+      "niche_category": "security"
+    },
+    {
+      "title": "Kubernetes v1.34: Introducing CPU Manager Static Policy Option for Unc",
+      "url": "/2026/02/25/top-tech-news-ab267e56-1227-11f1-8951-7ced8d81b5aa.html",
+      "external_url": "https://kubernetes.io/blog/2025/09/02/kubernetes-v1-34-prefer-align-by-uncore-cache-cpumanager-static-policy-optimization/",
+      "score": 115,
+      "source": "Kubernetes Blog",
+      "date": "2026-02-25",
       "niche_category": "ai"
     },
     {
@@ -247,40 +287,13 @@
       "niche_category": "security"
     },
     {
-      "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog (2026)",
-      "url": "/2026/02/22/top-tech-news-2d93ebd8-0fb9-11f1-8951-7ced8d1f6f39.html",
-      "external_url": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
-      "score": 95,
-      "source": "The Hacker News",
-      "date": "2026-02-22",
-      "niche_category": "security"
-    },
-    {
-      "title": "From Exposure to Exploitation: How AI Collapses Your Response Window",
-      "url": "/2026/02/20/top-tech-news-e42a7a6c-0e27-11f1-8951-7ced8dc8eaad.html",
-      "external_url": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
-      "score": 95,
-      "source": "The Hacker News",
-      "date": "2026-02-20",
-      "niche_category": "ai"
-    },
-    {
-      "title": "AI Found Twelve New Vulnerabilities in OpenSSL (2026)",
-      "url": "/2026/02/22/top-tech-news-c2d86696-0fec-11f1-8951-00224844be19.html",
-      "external_url": "https://www.schneier.com/blog/archives/2026/02/ai-found-twelve-new-vulnerabilities-in-openssl.html",
-      "score": 95,
-      "source": "Schneier on Security",
-      "date": "2026-02-22",
-      "niche_category": "ai"
-    },
-    {
-      "title": "Introducing CodeMender: an AI agent for code security (2026)",
-      "url": "/2026/02/21/top-tech-news-c03c8eda-0f5b-11f1-8951-7ced8d7c7c01.html",
-      "external_url": "https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/",
-      "score": 95,
-      "source": "DeepMind Blog",
-      "date": "2026-02-21",
-      "niche_category": "ai"
+      "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
+      "url": "/2026/02/25/top-tech-news-cc620c70-1227-11f1-8951-7ced8d81b5aa.html",
+      "external_url": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
+      "score": 100,
+      "source": "Kubernetes Blog",
+      "date": "2026-02-25",
+      "niche_category": "cloud"
     },
     {
       "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
@@ -292,15 +305,24 @@
       "niche_category": "security"
     },
     {
-      "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Passw",
-      "url": "/2026/02/24/top-tech-news-71e1be56-114d-11f1-8951-7ced8db2d567.html",
-      "external_url": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
-      "score": 85,
+      "title": "CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerabil",
+      "url": "/2026/02/25/top-tech-news-fb0eb006-1230-11f1-8951-7c1e5294bc4b.html",
+      "external_url": "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
+      "score": 95,
       "source": "The Hacker News",
-      "date": "2026-02-24",
-      "niche_category": "ai"
+      "date": "2026-02-25",
+      "niche_category": "security"
+    },
+    {
+      "title": "Kubernetes v1.34: DRA has graduated to GA (2026)",
+      "url": "/2026/02/25/top-tech-news-b6612d0c-1227-11f1-8951-7ced8d81b5aa.html",
+      "external_url": "https://kubernetes.io/blog/2025/09/01/kubernetes-v1-34-dra-updates/",
+      "score": 95,
+      "source": "Kubernetes Blog",
+      "date": "2026-02-25",
+      "niche_category": "software-engineering"
     }
   ],
-  "total_posts_this_week": 28,
-  "total_posts_prev_week": 11
+  "total_posts_this_week": 39,
+  "total_posts_prev_week": 15
 }
