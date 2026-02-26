@@ -101,7 +101,7 @@ permalink: /direct/
 
 <div class="source-category">
 <h2>Recent articles</h2>
-<p class="sub">From our curated feeds (DIRECT_FEEDS in const.py). Run <code>python main.py --action direct</code> to refresh.</p>
+<p class="sub">Latest posts from indie developers and newsletters we follow.</p>
 <ul class="post-list">
 {% if site.data.direct_articles and site.data.direct_articles.articles and site.data.direct_articles.articles.size > 0 %}
 {% for art in site.data.direct_articles.articles %}
