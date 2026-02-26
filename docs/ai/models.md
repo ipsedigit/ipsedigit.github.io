@@ -5,8 +5,6 @@ description: "Trending and newly released AI models from HuggingFace, tracked da
 permalink: /ai/models/
 ---
 
-{% include freshness-banner.html timestamp=site.data.models.generated_at %}
-
 ## Stats
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
@@ -74,5 +72,5 @@ permalink: /ai/models/
 ---
 
 <p style="font-size:0.8em; color:#9ca3af;">
-Data from <a href="https://huggingface.co/">HuggingFace</a>
+Data from <a href="https://huggingface.co/">HuggingFace</a> &middot; Updated: {{ site.data.models.generated_at }}
 </p>
