@@ -1,138 +1,102 @@
 ---
 layout: base
-title: Direct | eof.news
-description: "Recent articles from developers we follow. Same as the rest of the site: links to articles, not sites."
-permalink: /direct/
+title: Indie | eof.news
+description: "Recent articles from indie developers and newsletters. Links to articles, not sites."
+permalink: /indie/
 ---
 
 <style>
-.direct-page h1 {
-  font-size: 1.5rem;
+.post-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.post-item:hover {
+  border-color: #ccc;
+}
+.post-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.post-title a {
+  color: #111;
+  text-decoration: none;
+}
+.post-title a:hover {
+  color: #0066cc;
+}
+.post-meta {
+  font-size: 0.8rem;
+  color: #888;
   margin-bottom: 0.5rem;
-  font-family: 'JetBrains Mono', monospace;
 }
-.direct-page > p {
-  color: #666;
-  margin-bottom: 2rem;
-  font-size: 0.9rem;
-  line-height: 1.6;
+.indie-links-back {
+  margin-top: 2.5rem;
 }
-.direct-page .source-category {
-  margin-bottom: 2.5rem;
-}
-.direct-page .source-category h2 {
+.indie-links-back h2 {
   font-size: 1.1rem;
   color: #333;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #eee;
 }
-.direct-page .source-category p.sub {
+.indie-links-back p.sub {
   color: #666;
   font-size: 0.85rem;
   margin-bottom: 1rem;
-  line-height: 1.5;
 }
-.direct-page .post-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.direct-page .post-list li {
-  padding: 0.6rem 0;
-  border-bottom: 1px solid #eee;
-}
-.direct-page .post-list li:last-child {
-  border-bottom: none;
-}
-.direct-page .post-list .date {
-  font-size: 0.8rem;
-  color: #888;
-  margin-right: 0.75rem;
-}
-.direct-page .post-list a {
-  color: #111;
-  text-decoration: none;
-  font-weight: 500;
-}
-.direct-page .post-list a:hover {
-  color: #0066cc;
-}
-.direct-page .post-list .source {
-  font-size: 0.8rem;
-  color: #666;
-  margin-left: 0.5rem;
-}
-.direct-page .source-list {
+.indie-links-back .source-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 0.75rem;
 }
-.direct-page .source-item {
+.indie-links-back .source-item {
   background: #fafafa;
   border: 1px solid #e5e5e5;
   border-radius: 6px;
   padding: 1rem;
 }
-.direct-page .source-item a {
+.indie-links-back .source-item a {
   color: #111;
   text-decoration: none;
   font-weight: 500;
 }
-.direct-page .source-item a:hover {
+.indie-links-back .source-item a:hover {
   color: #0066cc;
-}
-.direct-page .footer-links {
-  margin-top: 2rem;
-  font-size: 0.9rem;
-  color: #666;
-}
-.direct-page .footer-links a {
-  color: #0066cc;
-  text-decoration: none;
 }
 </style>
 
-<div class="direct-page">
-
-# Direct
-
-<p>Recent articles from developers and newsletters we follow. Links go to the <strong>article</strong>, like on Home and the rest of the site — not to a list of sites.</p>
-
-<div class="source-category">
-<h2>Recent articles</h2>
-<p class="sub">Latest posts from indie developers and newsletters we follow.</p>
-<ul class="post-list">
 {% if site.data.direct_articles and site.data.direct_articles.articles and site.data.direct_articles.articles.size > 0 %}
 {% for art in site.data.direct_articles.articles %}
-<li>
-  <span class="date">{{ art.date }}</span>
-  <a href="{{ art.url }}" target="_blank" rel="noopener">{{ art.title | escape }}</a>
-  <span class="source">{{ art.source }}</span>
-</li>
+<article class="post-item">
+  <h2 class="post-title">
+    <a href="{{ art.url }}" target="_blank" rel="noopener">{{ art.title | escape }}</a>
+  </h2>
+  <div class="post-meta">
+    {{ art.date }} · {{ art.source }}
+  </div>
+</article>
 {% endfor %}
 {% else %}
-<li>No articles yet. Run <code>python main.py --action direct</code> to fetch from DIRECT_FEEDS.</li>
+<p>No articles yet.</p>
 {% endif %}
-</ul>
-</div>
 
-<div class="source-category">
+<div class="indie-links-back">
 <h2>Who links to us</h2>
 <p class="sub">Sites that link back to eof.news. If you link to us, <a href="/about/">tell us</a> and we'll add you here.</p>
 <div class="source-list">
-{% if site.data.links_back.links and site.data.links_back.links.size > 0 %}
+{% if site.data.links_back and site.data.links_back.links and site.data.links_back.links.size > 0 %}
 {% for item in site.data.links_back.links %}
 <div class="source-item">
 <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
 </div>
 {% endfor %}
 {% else %}
-<p>No one listed yet. When we discover or you tell us you link to eof.news, we add you here.</p>
+<p>No one listed yet.</p>
 {% endif %}
 </div>
-</div>
-
-<p class="footer-links"><a href="/">Home</a> · <a href="/sources/">Sources</a> · <a href="/about/">Get in touch</a></p>
-
 </div>
