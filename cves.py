@@ -330,9 +330,9 @@ def publish_cves():
             cve['epss_score'] = 0.0
             cve['epss_percentile'] = 0.0
 
-    # Sort by severity then score
+    # Sort by date descending, then severity, then score
     severity_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3, "UNKNOWN": 4}
-    cves.sort(key=lambda c: (severity_order.get(c['severity'], 5), -c['score']))
+    cves.sort(key=lambda c: (c['published'] or '', severity_order.get(c['severity'], 5), -c['score']), reverse=True)
 
     now = datetime.now(timezone.utc)
     output = {
