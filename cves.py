@@ -202,6 +202,21 @@ def _cross_reference(cves, posts):
     return cves
 
 
+def _pick_featured_cve(cves):
+    """Select the most critical CVE to spotlight: CISA KEV > severity > EPSS > recency."""
+    if not cves:
+        return None
+    severity_weight = {"CRITICAL": 40, "HIGH": 30, "MEDIUM": 20, "LOW": 10, "UNKNOWN": 0}
+
+    def score(c):
+        s = severity_weight.get(c['severity'], 0)
+        s += 100 if c.get('cisa_kev') else 0
+        s += c.get('epss_score', 0) * 20
+        return (s, c.get('published') or '')
+
+    return max(cves, key=score)
+
+
 def _generate_page():
     """Generate the Jekyll markdown page for CVE tracker."""
     lines = [
@@ -231,6 +246,27 @@ def _generate_page():
         '  <span style="padding:4px 12px; border-radius:12px; background:#ca8a04; color:#fff; font-weight:bold;">MEDIUM: {{ medium }}</span>',
         '  <span style="padding:4px 12px; border-radius:12px; background:#6b7280; color:#fff; font-weight:bold;">LOW: {{ low }}</span>',
         "</div>",
+        "",
+        "{% if site.data.cves.featured_cve %}",
+        "{% assign f = site.data.cves.featured_cve %}",
+        "{% assign f_border = '#dc2626' %}",
+        "{% if f.severity == 'HIGH' %}{% assign f_border = '#ea580c' %}{% elsif f.severity == 'MEDIUM' %}{% assign f_border = '#ca8a04' %}{% elsif f.severity == 'LOW' %}{% assign f_border = '#6b7280' %}{% endif %}",
+        '<div style="margin-bottom:2em; padding:1.25em; border:2px solid {{ f_border }}; border-radius:8px; background:#fff5f5;">',
+        '  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.75em;">',
+        '    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#b91c1c; color:#fff;">🚨 Top Threat</span>',
+        '    <strong style="font-size:1.15em;"><a href="/security/cves/{{ f.id }}/" style="color:#111;">{{ f.id }}</a></strong>',
+        '    <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.82em; color:#fff; background:{{ f_border }};">{{ f.severity }} {{ f.score }}</span>',
+        '    {% if f.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.78em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}',
+        '    <span style="font-size:0.8em; color:#9ca3af;">{{ f.published | slice: 0, 10 }}</span>',
+        '  </div>',
+        '  <p style="margin:0 0 0.75em 0; color:#374151;">{{ f.description }}</p>',
+        '  <div style="display:flex; gap:1.5em; flex-wrap:wrap; font-size:0.82em; color:#6b7280;">',
+        '    {% if f.epss_percentile > 0 %}<span>EPSS {{ f.epss_percentile }}th percentile</span>{% endif %}',
+        '    {% if f.products.size > 0 %}<span>{{ f.products | join: ", " | truncate: 80 }}</span>{% endif %}',
+        '    <a href="{{ f.nvd_url }}" target="_blank" rel="noopener" style="color:#6b7280;">NVD ↗</a>',
+        '  </div>',
+        "</div>",
+        "{% endif %}",
         "",
         "## Recent CVEs",
         "",
@@ -334,10 +370,13 @@ def publish_cves():
     severity_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3, "UNKNOWN": 4}
     cves.sort(key=lambda c: (c['published'] or '', severity_order.get(c['severity'], 5), -c['score']), reverse=True)
 
+    featured = _pick_featured_cve(cves)
+
     now = datetime.now(timezone.utc)
     output = {
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
         "total": len(cves),
+        "featured_cve": featured,
         "cves": cves,
     }
 
