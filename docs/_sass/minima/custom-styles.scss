@@ -1,2 +1,36 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Global site styles — applied on every page
+
+* { box-sizing: border-box; }
+
+body {
+  background: #fff !important;
+  color: #111 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.page-content {
+  background: #fff !important;
+  padding-top: 1rem;
+}
+
+.site-header {
+  background: #fff !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+.site-title, .site-title:visited {
+  color: #111 !important;
+  font-weight: 700 !important;
+}
+
+.site-nav .nav-item { color: #666 !important; }
+.site-nav .nav-item:hover { color: #111 !important; }
+
+.site-footer {
+  background: #fafafa !important;
+  border-top: 1px solid #eee !important;
+  color: #666 !important;
+}
+.site-footer a { color: #111 !important; }
