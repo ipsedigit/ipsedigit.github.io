@@ -9,9 +9,6 @@ def main(action: str, niche: str = None):
         case "digest":
             from digest import publish_digest
             publish_digest()
-        case "trends":
-            from trends import publish_trends
-            publish_trends()
         case "cves":
             from cves import publish_cves
             publish_cves()
@@ -28,7 +25,7 @@ def main(action: str, niche: str = None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Publish tech news")
-    parser.add_argument("--action", type=str, default="news", help="Action: news, digest, trends, cves, models, github")
+    parser.add_argument("--action", type=str, default="news", help="Action: news, digest, cves, models, github")
     parser.add_argument("--niche", type=str, default=None, help="Target niche: ai, software-engineering, devtools, cloud, security")
     args = parser.parse_args()
     main(action=args.action, niche=args.niche)
