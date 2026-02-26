@@ -69,7 +69,7 @@ def _load_history():
         try:
             with open(HISTORY_JSON, 'r', encoding='utf-8') as f:
                 return json.load(f)
-        except Exception:
+        except (json.JSONDecodeError, OSError):
             pass
     return {"snapshots": {}, "featured_models": {}}
 
@@ -79,6 +79,9 @@ def _save_history(history):
     cutoff = (datetime.now(timezone.utc) - timedelta(days=HISTORY_MAX_DAYS)).strftime("%Y-%m-%d")
     history["snapshots"] = {
         d: v for d, v in history["snapshots"].items() if d >= cutoff
+    }
+    history["featured_models"] = {
+        k: v for k, v in history.get("featured_models", {}).items() if v >= cutoff
     }
     with open(HISTORY_JSON, 'w', encoding='utf-8') as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
