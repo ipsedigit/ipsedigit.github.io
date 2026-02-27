@@ -48,6 +48,10 @@ CONTENT_CATEGORIES = {
                  'package manager', 'npm', 'cargo', 'pip', 'sdk', 'cli tool', 'debugger',
                  'developer tool', 'dev tool', 'developer experience', 'dx', 'monorepo',
                  'webpack', 'vite', 'eslint', 'prettier', 'formatter'],
+    'ios': ['swift', 'swiftui', 'uikit', 'appkit', 'xcode', 'wwdc', 'ios', 'ipados',
+            'macos', 'watchos', 'tvos', 'visionos', 'app store', 'testflight',
+            'core data', 'combine', 'swift package manager', 'spm', 'objective-c',
+            'apple developer', 'app clip', 'widgetkit', 'live activity'],
     'software-engineering': ['architecture', 'design pattern', 'microservice', 'system design',
                              'distributed system', 'event-driven', 'domain driven', 'ddd',
                              'cqrs', 'event sourcing', 'technical debt', 'refactor', 'clean code',
@@ -56,7 +60,7 @@ CONTENT_CATEGORIES = {
 }
 
 # Niche categories — ordered list for scheduling rotation
-NICHE_CATEGORIES = ['ai', 'software-engineering', 'devtools', 'cloud', 'security']
+NICHE_CATEGORIES = ['ai', 'software-engineering', 'devtools', 'cloud', 'security', 'ios']
 
 # Sub-niches for AI
 AI_SUBNICHES = {
@@ -127,12 +131,27 @@ SE_SUBNICHES = {
                     'latency', 'throughput', 'optimization', 'benchmark', 'concurrency'],
 }
 
+IOS_SUBNICHES = {
+    'swift': ['swift', 'swiftui', 'swift package manager', 'spm', 'combine', 'async await',
+              'swift concurrency', 'swift macros', 'swift evolution'],
+    'xcode': ['xcode', 'instruments', 'simulator', 'xctest', 'xctestplan', 'xcframework',
+              'build system', 'swift compiler'],
+    'appstore': ['app store', 'testflight', 'app review', 'app store connect', 'in-app purchase',
+                 'subscription', 'app store optimization', 'aso', 'indie app'],
+    'apple-platform': ['uikit', 'appkit', 'wwdc', 'visionos', 'watchos', 'tvos',
+                       'core data', 'cloudkit', 'push notification', 'widgetkit', 'live activity',
+                       'app clip', 'metal', 'arkit', 'core ml'],
+    'ios-release': ['ios 18', 'ios 19', 'xcode 16', 'xcode 17', 'swift 6', 'swift 7',
+                    'macos sequoia', 'macos tahoe', 'ipados', 'release notes'],
+}
+
 NICHE_SUBNICHES = {
     'ai': AI_SUBNICHES,
     'security': SECURITY_SUBNICHES,
     'cloud': CLOUD_SUBNICHES,
     'devtools': DEVTOOLS_SUBNICHES,
     'software-engineering': SE_SUBNICHES,
+    'ios': IOS_SUBNICHES,
 }
 
 # =============================================================================
@@ -556,6 +575,29 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'creator',
     },
+
+    # --- TIER 10: iOS & Apple Ecosystem ---
+    'nshipster': {
+        'name': 'NSHipster',
+        'feed_url': 'https://nshipster.com/feed.xml',
+        'min_score': 0,
+        'type': 'ios_blog',
+        'score_boost': 35,
+    },
+    'hackingwithswift': {
+        'name': 'Hacking with Swift',
+        'feed_url': 'https://www.hackingwithswift.com/articles/rss',
+        'min_score': 0,
+        'type': 'ios_blog',
+        'score_boost': 35,
+    },
+    'swiftbysundell': {
+        'name': 'Swift by Sundell',
+        'feed_url': 'https://swiftbysundell.com/feed.rss',
+        'min_score': 0,
+        'type': 'ios_blog',
+        'score_boost': 35,
+    },
 }
 
 # =============================================================================
@@ -605,6 +647,7 @@ TITLE_BONUS = {
     r'(kubernetes|k8s|docker|container|cloud)': 25,    # Cloud & infrastructure
     r'(framework|library|sdk|release|v\d)': 20,        # DevTools signal
     r'(architecture|system design|scalab|pattern)': 20, # Software engineering
+    r'(swift|swiftui|xcode|wwdc|uikit)': 25,           # iOS/Apple signal
 }
 
 TITLE_PENALTY = {
