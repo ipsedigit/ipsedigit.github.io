@@ -1,6 +1,6 @@
 ---
-layout: base
-title: Bootleg | eof.news
+layout: page
+title: "Bootleg"
 description: "Personal blogs by individual developers. Raw, unfiltered, not mainstream."
 permalink: /bootleg/
 ---
