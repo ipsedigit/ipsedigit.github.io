@@ -176,20 +176,15 @@ permalink: /bootleg/
 </div>
 
 <div class="bootleg-filter-bar" id="bootleg-filters">
-  <a class="source-badge source-badge--julia-evans"        data-filter="julia-evans">Julia Evans</a>
-  <a class="source-badge source-badge--dan-luu"            data-filter="dan-luu">Dan Luu</a>
-  <a class="source-badge source-badge--computer-enhance"   data-filter="computer-enhance">Computer, Enhance!</a>
-  <a class="source-badge source-badge--sean-goedecke"      data-filter="sean-goedecke">Sean Goedecke</a>
-  <a class="source-badge source-badge--marc-brooker"       data-filter="marc-brooker">Marc Brooker</a>
-  <a class="source-badge source-badge--rachel-by-the-bay"  data-filter="rachel-by-the-bay">Rachel by the Bay</a>
-  <a class="source-badge source-badge--chris-wellons"      data-filter="chris-wellons">Chris Wellons</a>
-  <a class="source-badge source-badge--armin-ronacher"     data-filter="armin-ronacher">Armin Ronacher</a>
-  <a class="source-badge source-badge--mitchell-hashimoto" data-filter="mitchell-hashimoto">Mitchell Hashimoto</a>
-  <a class="source-badge source-badge--drew-devault"       data-filter="drew-devault">Drew DeVault</a>
-  <a class="source-badge source-badge--antirez"            data-filter="antirez">Antirez</a>
-  <a class="source-badge source-badge--matthew-green"      data-filter="matthew-green">Matthew Green</a>
-  <a class="source-badge source-badge--jessie-frazelle"    data-filter="jessie-frazelle">Jessie Frazelle</a>
-  <a class="source-badge source-badge--ken-shirriff"       data-filter="ken-shirriff">Ken Shirriff</a>
+  {% assign seen_sources = "" %}
+  {% for art in site.data.bootleg_articles.articles %}
+    {% assign src = art.source %}
+    {% unless seen_sources contains src %}
+      {% assign seen_sources = seen_sources | append: src | append: "|" %}
+      {% assign src_slug = src | slugify %}
+      <a class="source-badge source-badge--{{ src_slug }}" data-filter="{{ src_slug }}">{{ src }}</a>
+    {% endunless %}
+  {% endfor %}
 </div>
 
 {% for art in site.data.bootleg_articles.articles offset:1 %}
