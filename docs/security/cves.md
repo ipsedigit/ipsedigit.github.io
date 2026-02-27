@@ -18,11 +18,11 @@ permalink: /security/cves/
 {% endfor %}
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  {% if exploited > 0 %}<span style="padding:4px 12px; border-radius:12px; background:#b91c1c; color:#fff; font-weight:bold;">⚠ EXPLOITED: {{ exploited }}</span>{% endif %}
-  <span style="padding:4px 12px; border-radius:12px; background:#dc2626; color:#fff; font-weight:bold;">CRITICAL: {{ critical }}</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#ea580c; color:#fff; font-weight:bold;">HIGH: {{ high }}</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#ca8a04; color:#fff; font-weight:bold;">MEDIUM: {{ medium }}</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#6b7280; color:#fff; font-weight:bold;">LOW: {{ low }}</span>
+  {% if exploited > 0 %}<a href="#cve-exploited" style="padding:4px 12px; border-radius:12px; background:#b91c1c; color:#fff; font-weight:bold; text-decoration:none; cursor:pointer;">⚠ EXPLOITED: {{ exploited }}</a>{% endif %}
+  <a href="#cve-critical" style="padding:4px 12px; border-radius:12px; background:#dc2626; color:#fff; font-weight:bold; text-decoration:none; cursor:pointer;">CRITICAL: {{ critical }}</a>
+  <a href="#cve-high" style="padding:4px 12px; border-radius:12px; background:#ea580c; color:#fff; font-weight:bold; text-decoration:none; cursor:pointer;">HIGH: {{ high }}</a>
+  <a href="#cve-medium" style="padding:4px 12px; border-radius:12px; background:#ca8a04; color:#fff; font-weight:bold; text-decoration:none; cursor:pointer;">MEDIUM: {{ medium }}</a>
+  <a href="#cve-low" style="padding:4px 12px; border-radius:12px; background:#6b7280; color:#fff; font-weight:bold; text-decoration:none; cursor:pointer;">LOW: {{ low }}</a>
 </div>
 
 {% if site.data.cves.featured_cve %}
@@ -31,10 +31,10 @@ permalink: /security/cves/
 {% if f.severity == 'HIGH' %}{% assign f_border = '#ea580c' %}{% elsif f.severity == 'MEDIUM' %}{% assign f_border = '#ca8a04' %}{% elsif f.severity == 'LOW' %}{% assign f_border = '#6b7280' %}{% endif %}
 <div style="margin-bottom:2em; padding:1.25em; border:2px solid {{ f_border }}; border-radius:8px; background:#fff5f5;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.75em;">
-    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#b91c1c; color:#fff;">🚨 Top Threat</span>
+    <a href="{{ f.nvd_url }}" target="_blank" rel="noopener" style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#b91c1c; color:#fff; text-decoration:none;">🚨 Top Threat</a>
     <strong style="font-size:1.15em;"><a href="{{ f.nvd_url }}" target="_blank" rel="noopener" style="color:#111;">{{ f.id }}</a></strong>
-    <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.82em; color:#fff; background:{{ f_border }};">{{ f.severity }} {{ f.score }}</span>
-    {% if f.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.78em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}
+    <a href="#cve-{{ f.severity | downcase }}" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.82em; color:#fff; text-decoration:none; background:{{ f_border }};">{{ f.severity }} {{ f.score }}</a>
+    {% if f.cisa_kev %}<a href="#cve-exploited" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.78em; color:#fff; text-decoration:none; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</a>{% endif %}
     <span style="font-size:0.8em; color:#9ca3af;">{{ f.published | slice: 0, 10 }}</span>
   </div>
   <p style="margin:0 0 0.75em 0; color:#374151;">{{ f.description }}</p>
@@ -49,11 +49,18 @@ permalink: /security/cves/
 ## Recent CVEs
 
 {% if site.data.cves.cves.size > 0 %}
+{% assign seen_critical = false %}{% assign seen_high = false %}{% assign seen_medium = false %}{% assign seen_low = false %}{% assign seen_exploited = false %}
 {% for cve in site.data.cves.cves %}
-<div style="margin-bottom:1.5em; padding:0.75em; border-left:4px solid {% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %}; background:#f9fafb;">
+{% assign sev_lower = cve.severity | downcase %}
+<div id="{% if cve.cisa_kev and seen_exploited == false %}cve-exploited{% endif %}" style="margin-bottom:1.5em; padding:0.75em; border-left:4px solid {% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %}; background:#f9fafb;">
+{% if sev_lower == 'critical' and seen_critical == false %}<span id="cve-critical"></span>{% assign seen_critical = true %}{% endif %}
+{% if sev_lower == 'high' and seen_high == false %}<span id="cve-high"></span>{% assign seen_high = true %}{% endif %}
+{% if sev_lower == 'medium' and seen_medium == false %}<span id="cve-medium"></span>{% assign seen_medium = true %}{% endif %}
+{% if sev_lower == 'low' and seen_low == false %}<span id="cve-low"></span>{% assign seen_low = true %}{% endif %}
+{% if cve.cisa_kev and seen_exploited == false %}{% assign seen_exploited = true %}{% endif %}
   <strong><a href="{{ cve.nvd_url }}" target="_blank" rel="noopener">{{ cve.id }}</a></strong>
-  <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-left:0.5em; color:#fff; background:{% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %};">{{ cve.severity }} {{ cve.score }}</span>
-  {% if cve.cisa_kev %}<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; margin-left:0.5em; color:#fff; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</span>{% endif %}
+  <a href="#cve-{{ sev_lower }}" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-left:0.5em; color:#fff; text-decoration:none; background:{% if cve.severity == 'CRITICAL' %}#dc2626{% elsif cve.severity == 'HIGH' %}#ea580c{% elsif cve.severity == 'MEDIUM' %}#ca8a04{% else %}#6b7280{% endif %};">{{ cve.severity }} {{ cve.score }}</a>
+  {% if cve.cisa_kev %}<a href="#cve-exploited" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; margin-left:0.5em; color:#fff; text-decoration:none; background:#b91c1c; font-weight:bold;">⚠ EXPLOITED</a>{% endif %}
   <br>
   <span style="font-size:0.9em;">{{ cve.description }}</span>
   {% if cve.products.size > 0 %}

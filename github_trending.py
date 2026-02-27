@@ -362,9 +362,9 @@ def _generate_page(repos, featured, deltas, history=None):
         "{% assign most_starred = repos | first %}",
         "",
         '<div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">',
-        '  <span style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold;">Repos: {{ repos.size }}</span>',
-        '  <span style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold;">Top Language: {{ top_lang }}</span>',
-        '  {% if most_starred %}<span style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold;">Most Starred: {{ most_starred.name }} ({{ most_starred.stars }})</span>{% endif %}',
+        '  <a href="#trending-repositories" style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold; text-decoration:none; cursor:pointer;">Repos: {{ repos.size }}</a>',
+        '  {% assign lang_slug = top_lang | slugify %}<a href="/tags/{{ lang_slug }}/" style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold; text-decoration:none; cursor:pointer;">Top Language: {{ top_lang }}</a>',
+        '  {% if most_starred %}<a href="{{ most_starred.repo_url }}" target="_blank" rel="noopener" style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold; text-decoration:none; cursor:pointer;">Most Starred: {{ most_starred.name }} ({{ most_starred.stars }})</a>{% endif %}',
         "</div>",
         "",
     ]
@@ -377,7 +377,7 @@ def _generate_page(repos, featured, deltas, history=None):
         topic_html = ""
         if featured.get("topics"):
             topic_html = '<div style="margin-top:0.5em;">' + ' '.join(
-                f'<span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">{t}</span>'
+                f'<a href="/tags/{t}/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">{t}</a>'
                 for t in featured["topics"]
             ) + '</div>'
 
@@ -388,7 +388,7 @@ def _generate_page(repos, featured, deltas, history=None):
             '  <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">',
             f'    <img src="{featured["owner_avatar"]}&s=32" alt="" width="32" height="32" style="border-radius:50%;">',
             f'    <strong style="font-size:1.2em;"><a href="{featured["repo_url"]}" target="_blank" rel="noopener">{featured["name"]}</a></strong>',
-            '    <span style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f;">\u2b50 Repo of the Day</span>',
+            f'    <a href="{featured["repo_url"]}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f; text-decoration:none;">\u2b50 Repo of the Day</a>',
             f'    <span style="font-size:0.85em; color:#92400e;">{delta_str} stars today</span>',
             '  </div>',
             f'  <p style="margin:0.3em 0; color:#374151;">{featured["description"]}</p>',
@@ -447,8 +447,8 @@ def _generate_page(repos, featured, deltas, history=None):
         size = 0.7 + (count / max_topic) * 1.3  # 0.7em to 2.0em
         opacity = 0.5 + (count / max_topic) * 0.5
         lines.append(
-            f'      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,{opacity:.2f}); '
-            f'border-radius:8px; font-size:{size:.2f}em; color:#1e3a5f;">{topic} <sup style="font-size:0.6em;">{count}</sup></span>'
+            f'      <a href="/tags/{topic}/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,{opacity:.2f}); '
+            f'border-radius:8px; font-size:{size:.2f}em; color:#1e3a5f; text-decoration:none;">{topic} <sup style="font-size:0.6em;">{count}</sup></a>'
         )
 
     lines += [
@@ -538,7 +538,7 @@ def _generate_page(repos, featured, deltas, history=None):
         "});",
         "</script>",
         "",
-        "## Trending Repositories",
+        "## Trending Repositories {#trending-repositories}",
         "",
         "{% for repo in repos %}",
         '<div style="margin-bottom:1.2em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">',
@@ -546,17 +546,18 @@ def _generate_page(repos, featured, deltas, history=None):
         '    <img src="{{ repo.owner_avatar }}&s=24" alt="" width="24" height="24" style="border-radius:50%;" loading="lazy">',
         '    <strong><a href="{{ repo.repo_url }}" target="_blank" rel="noopener">{{ repo.name }}</a></strong>',
         "    {% if repo.language %}",
-        '      <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; background:{% if repo.language == \'Python\' %}#3572A5{% elsif repo.language == \'JavaScript\' %}#b08800{% elsif repo.language == \'TypeScript\' %}#3178c6{% elsif repo.language == \'Rust\' %}#dea584{% elsif repo.language == \'Go\' %}#00ADD8{% elsif repo.language == \'Java\' %}#b07219{% elsif repo.language == \'C++\' %}#f34b7d{% elsif repo.language == \'C\' %}#555{% elsif repo.language == \'C#\' %}#178600{% elsif repo.language == \'Ruby\' %}#701516{% elsif repo.language == \'Swift\' %}#F05138{% elsif repo.language == \'Kotlin\' %}#A97BFF{% else %}#6b7280{% endif %};">{{ repo.language }}</span>',
+        "      {% assign lang_slug = repo.language | slugify %}",
+        '      <a href="/tags/{{ lang_slug }}/" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; text-decoration:none; background:{% if repo.language == \'Python\' %}#3572A5{% elsif repo.language == \'JavaScript\' %}#b08800{% elsif repo.language == \'TypeScript\' %}#3178c6{% elsif repo.language == \'Rust\' %}#dea584{% elsif repo.language == \'Go\' %}#00ADD8{% elsif repo.language == \'Java\' %}#b07219{% elsif repo.language == \'C++\' %}#f34b7d{% elsif repo.language == \'C\' %}#555{% elsif repo.language == \'C#\' %}#178600{% elsif repo.language == \'Ruby\' %}#701516{% elsif repo.language == \'Swift\' %}#F05138{% elsif repo.language == \'Kotlin\' %}#A97BFF{% else %}#6b7280{% endif %};">{{ repo.language }}</a>',
         "    {% endif %}",
         "    {% if repo.license != 'Unknown' %}",
-        '      <span style="font-size:0.75em; color:#6b7280; border:1px solid #e5e7eb; padding:1px 6px; border-radius:8px;">{{ repo.license }}</span>',
+        '      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="font-size:0.75em; color:#6b7280; border:1px solid #e5e7eb; padding:1px 6px; border-radius:8px; text-decoration:none;">{{ repo.license }}</a>',
         "    {% endif %}",
         '    {% if repo.badge == "new_entry" %}',
-        '      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#dbeafe; color:#1e40af; font-weight:bold;">\U0001f195 NEW</span>',
+        '      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.75em; text-decoration:none; background:#dbeafe; color:#1e40af; font-weight:bold;">\U0001f195 NEW</a>',
         '    {% elsif repo.badge == "rising" %}',
-        '      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#dcfce7; color:#166534; font-weight:bold;">\U0001f4c8 +{{ repo.star_delta }}</span>',
+        '      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.75em; text-decoration:none; background:#dcfce7; color:#166534; font-weight:bold;">\U0001f4c8 +{{ repo.star_delta }}</a>',
         '    {% elsif repo.badge == "cooling" %}',
-        '      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#fee2e2; color:#991b1b; font-weight:bold;">\U0001f4c9 {{ repo.star_delta }}</span>',
+        '      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.75em; text-decoration:none; background:#fee2e2; color:#991b1b; font-weight:bold;">\U0001f4c9 {{ repo.star_delta }}</a>',
         '    {% endif %}',
         "  </div>",
         '  <p style="margin:0.3em 0; font-size:0.9em; color:#374151;">{{ repo.description }}</p>',
@@ -578,7 +579,7 @@ def _generate_page(repos, featured, deltas, history=None):
         "  {% if repo.topics.size > 0 %}",
         '  <br><span style="font-size:0.75em;">',
         "    {% for topic in repo.topics %}",
-        '      <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#f3f4f6; border-radius:6px; color:#374151;">{{ topic }}</span>',
+        '      {% assign topic_slug = topic | slugify %}<a href="/tags/{{ topic_slug }}/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#f3f4f6; border-radius:6px; color:#374151; text-decoration:none;">{{ topic }}</a>',
         "    {% endfor %}",
         "  </span>",
         "  {% endif %}",

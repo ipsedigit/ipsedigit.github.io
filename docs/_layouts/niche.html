@@ -79,7 +79,7 @@ layout: base
 {% endfor %}
 
 <div class="niche-header">
-  <span class="niche-chip niche-badge--{{ niche }}">{{ page.niche_label }}</span>
+  <a href="/niche/{{ niche }}/" class="niche-chip niche-badge--{{ niche }}" style="text-decoration:none;">{{ page.niche_label }}</a>
   <h1>{{ page.niche_label }}</h1>
   <p>{{ post_count }} article{% if post_count != 1 %}s{% endif %}</p>
 </div>
@@ -101,7 +101,7 @@ layout: base
     {{ post.date | date: "%b %d, %Y" }}
     {% if post.source %} · {{ post.source }}{% endif %}
     {% if post.niche_subniche %}
-      · <span class="niche-badge niche-badge--{{ niche }}">{{ post.niche_subniche }}</span>
+      · <a href="/niche/{{ niche }}/" class="niche-badge niche-badge--{{ niche }}">{{ post.niche_subniche }}</a>
     {% endif %}
   </div>
   {% if post.description %}

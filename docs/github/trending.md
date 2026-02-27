@@ -12,9 +12,9 @@ permalink: /github/
 {% assign most_starred = repos | first %}
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  <span style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold;">Repos: {{ repos.size }}</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold;">Top Language: {{ top_lang }}</span>
-  {% if most_starred %}<span style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold;">Most Starred: {{ most_starred.name }} ({{ most_starred.stars }})</span>{% endif %}
+  <a href="#trending-repositories" style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold; text-decoration:none; cursor:pointer;">Repos: {{ repos.size }}</a>
+  {% assign lang_slug = top_lang | slugify %}<a href="/tags/{{ lang_slug }}/" style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold; text-decoration:none; cursor:pointer;">Top Language: {{ top_lang }}</a>
+  {% if most_starred %}<a href="{{ most_starred.repo_url }}" target="_blank" rel="noopener" style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold; text-decoration:none; cursor:pointer;">Most Starred: {{ most_starred.name }} ({{ most_starred.stars }})</a>{% endif %}
 </div>
 
 ## 🏆 Repo of the Day
@@ -23,7 +23,7 @@ permalink: /github/
   <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">
     <img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
     <strong style="font-size:1.2em;"><a href="https://github.com/openclaw/openclaw" target="_blank" rel="noopener">openclaw/openclaw</a></strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f;">⭐ Repo of the Day</span>
+    <a href="https://github.com/openclaw/openclaw" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f; text-decoration:none;">⭐ Repo of the Day</a>
     <span style="font-size:0.85em; color:#92400e;">+3950 stars today</span>
   </div>
   <p style="margin:0.3em 0; color:#374151;">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </p>
@@ -33,7 +33,7 @@ permalink: /github/
     <span>TypeScript</span>
     <span>MIT</span>
   </div>
-  <div style="margin-top:0.5em;"><span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">ai</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">assistant</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">crustacean</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">molty</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">openclaw</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">own-your-data</span> <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em;">personal</span></div>
+  <div style="margin-top:0.5em;"><a href="/tags/ai/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">ai</a> <a href="/tags/assistant/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">assistant</a> <a href="/tags/crustacean/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">crustacean</a> <a href="/tags/molty/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">molty</a> <a href="/tags/openclaw/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">openclaw</a> <a href="/tags/own-your-data/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">own-your-data</a> <a href="/tags/personal/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">personal</a></div>
 </div>
 
 ## Charts
@@ -72,26 +72,26 @@ permalink: /github/
   <div style="flex:2; min-width:300px;">
     <h3 style="font-size:1rem; margin-bottom:0.5rem;">Top Topics</h3>
     <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:baseline;">
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f;">ai <sup style="font-size:0.6em;">6</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f;">claude <sup style="font-size:0.6em;">6</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f;">javascript <sup style="font-size:0.6em;">4</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f;">ai-agents <sup style="font-size:0.6em;">4</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f;">claude-code <sup style="font-size:0.6em;">4</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">python <sup style="font-size:0.6em;">3</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">artificial-intelligence <sup style="font-size:0.6em;">3</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">chatgpt <sup style="font-size:0.6em;">3</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f;">anthropic <sup style="font-size:0.6em;">3</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">curriculum <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">computer-science <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">awesome-list <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">deep-learning <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">machine-learning <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">cli <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">automation <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">deepseek <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">gemma <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">glm <sup style="font-size:0.6em;">2</sup></span>
-      <span style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f;">llm <sup style="font-size:0.6em;">2</sup></span>
+      <a href="/tags/ai/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f; text-decoration:none;">ai <sup style="font-size:0.6em;">6</sup></a>
+      <a href="/tags/claude/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,1.00); border-radius:8px; font-size:2.00em; color:#1e3a5f; text-decoration:none;">claude <sup style="font-size:0.6em;">6</sup></a>
+      <a href="/tags/javascript/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f; text-decoration:none;">javascript <sup style="font-size:0.6em;">4</sup></a>
+      <a href="/tags/ai-agents/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f; text-decoration:none;">ai-agents <sup style="font-size:0.6em;">4</sup></a>
+      <a href="/tags/claude-code/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.83); border-radius:8px; font-size:1.57em; color:#1e3a5f; text-decoration:none;">claude-code <sup style="font-size:0.6em;">4</sup></a>
+      <a href="/tags/python/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f; text-decoration:none;">python <sup style="font-size:0.6em;">3</sup></a>
+      <a href="/tags/artificial-intelligence/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f; text-decoration:none;">artificial-intelligence <sup style="font-size:0.6em;">3</sup></a>
+      <a href="/tags/chatgpt/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f; text-decoration:none;">chatgpt <sup style="font-size:0.6em;">3</sup></a>
+      <a href="/tags/anthropic/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.75); border-radius:8px; font-size:1.35em; color:#1e3a5f; text-decoration:none;">anthropic <sup style="font-size:0.6em;">3</sup></a>
+      <a href="/tags/curriculum/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">curriculum <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/computer-science/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">computer-science <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/awesome-list/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">awesome-list <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/deep-learning/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">deep-learning <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/machine-learning/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">machine-learning <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/cli/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">cli <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/automation/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">automation <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/deepseek/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">deepseek <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/gemma/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">gemma <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/glm/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">glm <sup style="font-size:0.6em;">2</sup></a>
+      <a href="/tags/llm/" style="display:inline-block; padding:3px 10px; background:rgba(59,130,246,0.67); border-radius:8px; font-size:1.13em; color:#1e3a5f; text-decoration:none;">llm <sup style="font-size:0.6em;">2</sup></a>
     </div>
   </div>
 </div>
@@ -178,7 +178,7 @@ new Chart(document.getElementById('activityChart'), {
 });
 </script>
 
-## Trending Repositories
+## Trending Repositories {#trending-repositories}
 
 {% for repo in repos %}
 <div style="margin-bottom:1.2em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">
@@ -186,17 +186,18 @@ new Chart(document.getElementById('activityChart'), {
     <img src="{{ repo.owner_avatar }}&s=24" alt="" width="24" height="24" style="border-radius:50%;" loading="lazy">
     <strong><a href="{{ repo.repo_url }}" target="_blank" rel="noopener">{{ repo.name }}</a></strong>
     {% if repo.language %}
-      <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; background:{% if repo.language == 'Python' %}#3572A5{% elsif repo.language == 'JavaScript' %}#b08800{% elsif repo.language == 'TypeScript' %}#3178c6{% elsif repo.language == 'Rust' %}#dea584{% elsif repo.language == 'Go' %}#00ADD8{% elsif repo.language == 'Java' %}#b07219{% elsif repo.language == 'C++' %}#f34b7d{% elsif repo.language == 'C' %}#555{% elsif repo.language == 'C#' %}#178600{% elsif repo.language == 'Ruby' %}#701516{% elsif repo.language == 'Swift' %}#F05138{% elsif repo.language == 'Kotlin' %}#A97BFF{% else %}#6b7280{% endif %};">{{ repo.language }}</span>
+      {% assign lang_slug = repo.language | slugify %}
+      <a href="/tags/{{ lang_slug }}/" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; text-decoration:none; background:{% if repo.language == 'Python' %}#3572A5{% elsif repo.language == 'JavaScript' %}#b08800{% elsif repo.language == 'TypeScript' %}#3178c6{% elsif repo.language == 'Rust' %}#dea584{% elsif repo.language == 'Go' %}#00ADD8{% elsif repo.language == 'Java' %}#b07219{% elsif repo.language == 'C++' %}#f34b7d{% elsif repo.language == 'C' %}#555{% elsif repo.language == 'C#' %}#178600{% elsif repo.language == 'Ruby' %}#701516{% elsif repo.language == 'Swift' %}#F05138{% elsif repo.language == 'Kotlin' %}#A97BFF{% else %}#6b7280{% endif %};">{{ repo.language }}</a>
     {% endif %}
     {% if repo.license != 'Unknown' %}
-      <span style="font-size:0.75em; color:#6b7280; border:1px solid #e5e7eb; padding:1px 6px; border-radius:8px;">{{ repo.license }}</span>
+      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="font-size:0.75em; color:#6b7280; border:1px solid #e5e7eb; padding:1px 6px; border-radius:8px; text-decoration:none;">{{ repo.license }}</a>
     {% endif %}
     {% if repo.badge == "new_entry" %}
-      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#dbeafe; color:#1e40af; font-weight:bold;">🆕 NEW</span>
+      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.75em; text-decoration:none; background:#dbeafe; color:#1e40af; font-weight:bold;">🆕 NEW</a>
     {% elsif repo.badge == "rising" %}
-      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#dcfce7; color:#166534; font-weight:bold;">📈 +{{ repo.star_delta }}</span>
+      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.75em; text-decoration:none; background:#dcfce7; color:#166534; font-weight:bold;">📈 +{{ repo.star_delta }}</a>
     {% elsif repo.badge == "cooling" %}
-      <span style="padding:2px 8px; border-radius:12px; font-size:0.75em; background:#fee2e2; color:#991b1b; font-weight:bold;">📉 {{ repo.star_delta }}</span>
+      <a href="{{ repo.repo_url }}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.75em; text-decoration:none; background:#fee2e2; color:#991b1b; font-weight:bold;">📉 {{ repo.star_delta }}</a>
     {% endif %}
   </div>
   <p style="margin:0.3em 0; font-size:0.9em; color:#374151;">{{ repo.description }}</p>
@@ -218,7 +219,7 @@ new Chart(document.getElementById('activityChart'), {
   {% if repo.topics.size > 0 %}
   <br><span style="font-size:0.75em;">
     {% for topic in repo.topics %}
-      <span style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#f3f4f6; border-radius:6px; color:#374151;">{{ topic }}</span>
+      {% assign topic_slug = topic | slugify %}<a href="/tags/{{ topic_slug }}/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#f3f4f6; border-radius:6px; color:#374151; text-decoration:none;">{{ topic }}</a>
     {% endfor %}
   </span>
   {% endif %}
