@@ -158,9 +158,9 @@ permalink: /bootleg/
 }
 </style>
 
-{% if site.data.direct_articles and site.data.direct_articles.articles and site.data.direct_articles.articles.size > 0 %}
+{% if site.data.bootleg_articles and site.data.bootleg_articles.articles and site.data.bootleg_articles.articles.size > 0 %}
 
-{% assign hero = site.data.direct_articles.articles | first %}
+{% assign hero = site.data.bootleg_articles.articles | first %}
 
 {% assign hero_slug = hero.source | slugify %}
 <div class="bootleg-hero">
@@ -192,7 +192,7 @@ permalink: /bootleg/
   <a class="source-badge source-badge--ken-shirriff"       data-filter="ken-shirriff">Ken Shirriff</a>
 </div>
 
-{% for art in site.data.direct_articles.articles offset:1 %}
+{% for art in site.data.bootleg_articles.articles offset:1 %}
 {% assign src_slug = art.source | slugify %}
 <article class="post-item bootleg-article" data-source="{{ src_slug }}">
   <h2 class="post-title">

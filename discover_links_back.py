@@ -1,8 +1,7 @@
 """
-Discover who links back to eof.news by checking each DIRECT_FEEDS site (derived from feed URL).
-Run: python main.py --action discover-links-back
+Discover who links back to eof.news by checking each BOOTLEG_FEEDS site (derived from feed URL).
 Output: list of { name, url } that contain a link to eof.news / ipsedigit.github.io.
-Add those to LINKS_BACK in const.py and run --action direct to update the site.
+Add those to LINKS_BACK in const.py and run --action bootleg to update the site.
 """
 import re
 import time
@@ -10,10 +9,10 @@ from urllib.parse import urlparse, urlunparse
 
 import requests
 
-from const import DIRECT_FEEDS
+from const import BOOTLEG_FEEDS
 
 OUR_DOMAINS = ("eof.news", "ipsedigit.github.io")
-USER_AGENT = "eof.news Backlink Discovery (https://ipsedigit.github.io/direct/)"
+USER_AGENT = "eof.news Backlink Discovery (https://ipsedigit.github.io/bootleg/)"
 REQUEST_DELAY_SEC = 2
 TIMEOUT = 15
 
@@ -39,7 +38,7 @@ def page_links_to_us(html: str) -> bool:
 
 def discover_links_back() -> list[dict]:
     found = []
-    for i, feed_spec in enumerate(DIRECT_FEEDS):
+    for i, feed_spec in enumerate(BOOTLEG_FEEDS):
         name = feed_spec.get("name", "?")
         feed_url = feed_spec.get("feed_url", "").strip()
         if not feed_url:
@@ -61,9 +60,9 @@ def discover_links_back() -> list[dict]:
 
 
 def main():
-    print("Checking DIRECT_FEEDS sites for pages that link to eof.news / ipsedigit.github.io ...")
+    print("Checking BOOTLEG_FEEDS sites for pages that link to eof.news / ipsedigit.github.io ...")
     found = discover_links_back()
     print(f"\nFound {len(found)} site(s) that link to us.")
     if found:
-        print("Add them to LINKS_BACK in const.py, then run: python main.py --action direct")
+        print("Add them to LINKS_BACK in const.py, then run: python main.py --action bootleg")
     return found

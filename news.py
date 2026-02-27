@@ -14,7 +14,7 @@ from const import (
     NICHE_CATEGORIES,
     MAX_POSTS_PER_NICHE_PER_DAY,
     DAILY_CATEGORIES_FILE,
-    DIRECT_FEEDS,
+    BOOTLEG_FEEDS,
     LINKS_BACK,
     TITLE_BONUS,
     TITLE_PENALTY,
@@ -30,10 +30,10 @@ from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
-DIRECT_ARTICLES_DATA_PATH = "docs/_data/direct_articles.json"
+BOOTLEG_ARTICLES_DATA_PATH = "docs/_data/bootleg_articles.json"
 LINKS_BACK_DATA_PATH = "docs/_data/links_back.json"
 
-DIRECT_ARTICLES_LIMIT = 80  # Max articles on Direct page (recent first)
+BOOTLEG_ARTICLES_LIMIT = 80  # Max articles on Bootleg page (recent first)
 
 
 def _parse_feed_date(entry):
@@ -48,10 +48,10 @@ def _parse_feed_date(entry):
     return datetime.now(timezone.utc)
 
 
-def update_direct_articles_data():
-    """Fetch DIRECT_FEEDS, collect recent articles (title, url, date, source), write direct_articles.json."""
+def update_bootleg_articles_data():
+    """Fetch BOOTLEG_FEEDS, collect recent articles (title, url, date, source), write bootleg_articles.json."""
     articles = []
-    for feed_spec in DIRECT_FEEDS:
+    for feed_spec in BOOTLEG_FEEDS:
         name = feed_spec.get("name", "?")
         feed_url = feed_spec.get("feed_url", "").strip()
         if not feed_url:
@@ -74,17 +74,17 @@ def update_direct_articles_data():
                     "description": summary,
                 })
         except Exception as e:
-            print(f"   Direct feed {name}: {e}")
+            print(f"   Bootleg feed {name}: {e}")
     articles.sort(key=lambda a: a["date"], reverse=True)
-    articles = articles[:DIRECT_ARTICLES_LIMIT]
+    articles = articles[:BOOTLEG_ARTICLES_LIMIT]
     data = {
         "articles": articles,
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
-    os.makedirs(os.path.dirname(DIRECT_ARTICLES_DATA_PATH), exist_ok=True)
-    with open(DIRECT_ARTICLES_DATA_PATH, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(BOOTLEG_ARTICLES_DATA_PATH), exist_ok=True)
+    with open(BOOTLEG_ARTICLES_DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-    print(f"Updated {DIRECT_ARTICLES_DATA_PATH} ({len(articles)} articles)")
+    print(f"Updated {BOOTLEG_ARTICLES_DATA_PATH} ({len(articles)} articles)")
     # links_back.json
     lb_data = {"links": list(LINKS_BACK), "generated_at": data["generated_at"]}
     with open(LINKS_BACK_DATA_PATH, "w", encoding="utf-8") as f:
@@ -98,7 +98,7 @@ def publish_news(target_niche=None):
     If target_niche is given, falls back to single-niche mode (legacy workflow compat).
     Otherwise, uses full two-pass selection across all niches.
     """
-    update_direct_articles_data()
+    update_bootleg_articles_data()
     if target_niche:
         _publish_single_niche(target_niche)
         return
