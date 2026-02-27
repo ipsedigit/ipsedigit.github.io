@@ -1,0 +1,43 @@
+name: Outages Tracker
+
+on:
+  schedule:
+    - cron: '*/30 5-21 * * *'   # every 30 min, 06:00-22:00 Rome (UTC+1)
+  workflow_dispatch:
+
+jobs:
+  run-outages:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+      with:
+        ref: main
+
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Outages Tracker
+      run: python main.py --action=outages
+
+    - name: Commit and Push changes
+      run: |
+        find . -type d -name "__pycache__" -exec rm -r {} +
+        find . -name "*.pyc" -delete
+        git add .
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+        git commit -m "Auto: outages update at $TIMESTAMP" || echo "No changes to commit"
+        git push origin main

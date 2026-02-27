@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-02-27 22:45:51 UTC",
+  "active_count": 6,
+  "resolved_count": 15,
+  "active": [
+    {
+      "id": "2js3wb445jm0",
+      "name": "Potential service degradation in South America datacenters",
+      "status": "monitoring",
+      "impact": "minor",
+      "started_at": "2026-02-27T21:54:40.614Z",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T21:58:22.762Z",
+      "shortlink": "https://stspg.io/6knfzh589smx",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "tzlnzb58ghvd",
+      "name": "Cloudflare Peering Portal Authentication Issue",
+      "status": "identified",
+      "impact": "minor",
+      "started_at": "2026-02-27T02:27:42.629Z",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T13:24:42.464Z",
+      "shortlink": "https://stspg.io/91mgn4rnv6gh",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "wzny4cj4jd7d",
+      "name": "Customers in Argentina Unable to Authenticate Card in Twilio SendGrid",
+      "status": "monitoring",
+      "impact": "minor",
+      "started_at": "2026-02-27T08:49:28.583-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T14:30:19.961-08:00",
+      "shortlink": "https://stspg.io/7mncr84x75hw",
+      "service": "SendGrid"
+    },
+    {
+      "id": "86q91zjp6521",
+      "name": "Unable to Create Campaigns via Console",
+      "status": "monitoring",
+      "impact": "minor",
+      "started_at": "2026-02-27T10:26:11.926-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T13:16:32.900-08:00",
+      "shortlink": "https://stspg.io/b2jrx8khrhvg",
+      "service": "Twilio"
+    },
+    {
+      "id": "391rky29892m",
+      "name": "Newark (EWR) Datacenter Increase in HTTP Request latency",
+      "status": "monitoring",
+      "impact": "none",
+      "started_at": "2026-02-16T10:19:45.000Z",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T13:40:56.969Z",
+      "shortlink": "https://stspg.io/fdpjyjw6gt0f",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "xmgq69x4brfk",
+      "name": "Users Experiencing Network Connectivity Problems (India Region)",
+      "status": "identified",
+      "impact": "none",
+      "started_at": "2026-02-24T14:46:17.352Z",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T17:39:49.139Z",
+      "shortlink": "https://stspg.io/kcpw1yj9wqzh",
+      "service": "Supabase"
+    }
+  ],
+  "resolved_24h": [
+    {
+      "id": "nzqx41m4y0hv",
+      "name": "Issues creating API tokens involving Zero Trust Write permissions",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T17:21:45.679Z",
+      "resolved_at": "2026-02-27T20:05:13.798Z",
+      "updated_at": "2026-02-27T20:05:13.816Z",
+      "shortlink": "https://stspg.io/2dyc8dnh13gd",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "41E5S3mkTGDfkZuJZH5k",
+      "name": "Vertex AI Gemini API customers experienced increased error rates when accessing the global endpoint.",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T12:36:00+00:00",
+      "resolved_at": "2026-02-27T14:45:00+00:00",
+      "updated_at": "2026-02-27T16:42:13+00:00",
+      "shortlink": "https://status.cloud.google.com/incidents/41E5S3mkTGDfkZuJZH5k",
+      "service": "GCP"
+    },
+    {
+      "id": "zlxmvx3xm2pw",
+      "name": "SMS Delivery Failures from Twilio to A1 Slovenia",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T09:25:54.266-08:00",
+      "resolved_at": "2026-02-27T14:39:03.709-08:00",
+      "updated_at": "2026-02-27T14:39:03.726-08:00",
+      "shortlink": "https://stspg.io/1vlvshxqfg4v",
+      "service": "Twilio"
+    },
+    {
+      "id": "yv3y6xrkxpjm",
+      "name": "Automated Alert: No Customer Impact",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-02-27T13:43:50.762-08:00",
+      "resolved_at": "2026-02-27T14:36:10.073-08:00",
+      "updated_at": "2026-02-27T14:36:10.094-08:00",
+      "shortlink": "https://stspg.io/0bf61xy2v08g",
+      "service": "Twilio"
+    },
+    {
+      "id": "s894gcrd8ybt",
+      "name": "Elevated Error Rates in Connect App",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T10:36:44.511-08:00",
+      "resolved_at": "2026-02-27T13:55:07.000-08:00",
+      "updated_at": "2026-02-27T13:55:41.703-08:00",
+      "shortlink": "https://stspg.io/281k7shqnbrj",
+      "service": "Twilio"
+    },
+    {
+      "id": "2b12d1jcbtw9",
+      "name": "User Authentication Identity SNA and Gateway API Errors for T-Mobile in United States",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T07:39:00.092-08:00",
+      "resolved_at": "2026-02-27T12:25:55.052-08:00",
+      "updated_at": "2026-02-27T12:25:55.071-08:00",
+      "shortlink": "https://stspg.io/10zfnm2tpr0f",
+      "service": "Twilio"
+    },
+    {
+      "id": "nd5mpgld898g",
+      "name": "Customers Using TaskRouter and Flex Would Have Delays in Routing of Calls and Messages to Agents. Insights Data in TaskRouter and Flex Insights May Be Incomplete.",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T11:08:46.975-08:00",
+      "resolved_at": "2026-02-27T11:18:49.456-08:00",
+      "updated_at": "2026-02-27T11:18:49.477-08:00",
+      "shortlink": "https://stspg.io/95rng17j659h",
+      "service": "Twilio"
+    },
+    {
+      "id": "cnlkjjh22z3f",
+      "name": "Cloudflare is investigating dashboard login issues",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T10:03:33.148Z",
+      "resolved_at": "2026-02-27T10:09:37.810Z",
+      "updated_at": "2026-02-27T10:09:37.827Z",
+      "shortlink": "https://stspg.io/hbd46ww0vlq3",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "kv1lzpgzr9yp",
+      "name": "Code view fails to load when content contains some non-ASCII characters",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T03:08:23.495Z",
+      "resolved_at": "2026-02-27T06:04:02.145Z",
+      "updated_at": "2026-02-27T21:04:29.293Z",
+      "shortlink": "https://stspg.io/5zqmjwwn4z1q",
+      "service": "GitHub"
+    },
+    {
+      "id": "d5myb7yb0dm2",
+      "name": "Custom Error Pages Not Applying",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-26T22:41:19.415Z",
+      "resolved_at": "2026-02-27T05:23:36.009Z",
+      "updated_at": "2026-02-27T05:23:36.025Z",
+      "shortlink": "https://stspg.io/b82pc03dw035",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "r88g618tt765",
+      "name": "Degradation in some checkout steps",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-26T22:50:46.222Z",
+      "resolved_at": "2026-02-27T00:17:31.594Z",
+      "updated_at": "2026-02-27T00:17:31.613Z",
+      "shortlink": "https://stspg.io/vmpflb7sk964",
+      "service": "CircleCI"
+    },
+    {
+      "id": "vd3xqfq36rgm",
+      "name": "High latency on webhook API requests",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T00:01:45.135Z",
+      "resolved_at": "2026-02-27T00:04:01.026Z",
+      "updated_at": "2026-02-27T00:04:01.046Z",
+      "shortlink": "https://stspg.io/p4xckctzj9s4",
+      "service": "GitHub"
+    },
+    {
+      "id": "g323hzn9gn6h",
+      "name": "SMS Delivery Delays from Twilio to Claro Chile",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-26T13:17:21.223-08:00",
+      "resolved_at": "2026-02-26T18:02:00.695-08:00",
+      "updated_at": "2026-02-26T18:02:00.709-08:00",
+      "shortlink": "https://stspg.io/w6q5ylw1lt2l",
+      "service": "Twilio"
+    },
+    {
+      "id": "vnd4517p425d",
+      "name": "SMS Delivery Delays from a Subset of Twilio Short Codes to Union Telecom network in  United States",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-26T12:37:22.113-08:00",
+      "resolved_at": "2026-02-26T17:11:21.615-08:00",
+      "updated_at": "2026-02-26T17:11:21.630-08:00",
+      "shortlink": "https://stspg.io/8460361kcxl3",
+      "service": "Twilio"
+    },
+    {
+      "id": "nkncxp0zgypp",
+      "name": "SMS Delivery Delays from Twilio to Orange Cameroon",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-26T08:57:58.287-08:00",
+      "resolved_at": "2026-02-26T16:59:47.732-08:00",
+      "updated_at": "2026-02-26T16:59:47.748-08:00",
+      "shortlink": "https://stspg.io/s8nnf2ggj55r",
+      "service": "Twilio"
+    }
+  ]
+}
