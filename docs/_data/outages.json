@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-27 22:45:51 UTC",
-  "active_count": 6,
-  "resolved_count": 15,
+  "generated_at": "2026-02-27 23:24:21 UTC",
+  "active_count": 5,
+  "resolved_count": 17,
   "active": [
     {
-      "id": "2js3wb445jm0",
-      "name": "Potential service degradation in South America datacenters",
-      "status": "monitoring",
+      "id": "kw5jh58jh24k",
+      "name": "Incident with Copilot agent sessions",
+      "status": "investigating",
       "impact": "minor",
-      "started_at": "2026-02-27T21:54:40.614Z",
+      "started_at": "2026-02-27T23:18:12.408Z",
       "resolved_at": null,
-      "updated_at": "2026-02-27T21:58:22.762Z",
-      "shortlink": "https://stspg.io/6knfzh589smx",
-      "service": "Cloudflare"
+      "updated_at": "2026-02-27T23:18:36.874Z",
+      "shortlink": "https://stspg.io/k350x50r7bt4",
+      "service": "GitHub"
     },
     {
       "id": "tzlnzb58ghvd",
@@ -32,20 +32,9 @@
       "impact": "minor",
       "started_at": "2026-02-27T08:49:28.583-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-27T14:30:19.961-08:00",
+      "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
-    },
-    {
-      "id": "86q91zjp6521",
-      "name": "Unable to Create Campaigns via Console",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-02-27T10:26:11.926-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-02-27T13:16:32.900-08:00",
-      "shortlink": "https://stspg.io/b2jrx8khrhvg",
-      "service": "Twilio"
     },
     {
       "id": "391rky29892m",
@@ -72,6 +61,17 @@
   ],
   "resolved_24h": [
     {
+      "id": "2js3wb445jm0",
+      "name": "Potential service degradation in South America datacenters",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T21:54:40.614Z",
+      "resolved_at": "2026-02-27T23:01:15.865Z",
+      "updated_at": "2026-02-27T23:01:15.893Z",
+      "shortlink": "https://stspg.io/6knfzh589smx",
+      "service": "Cloudflare"
+    },
+    {
       "id": "nzqx41m4y0hv",
       "name": "Issues creating API tokens involving Zero Trust Write permissions",
       "status": "resolved",
@@ -81,6 +81,17 @@
       "updated_at": "2026-02-27T20:05:13.816Z",
       "shortlink": "https://stspg.io/2dyc8dnh13gd",
       "service": "Cloudflare"
+    },
+    {
+      "id": "86q91zjp6521",
+      "name": "Unable to Create Campaigns via Console",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T10:26:11.926-08:00",
+      "resolved_at": "2026-02-27T14:59:10.400-08:00",
+      "updated_at": "2026-02-27T14:59:10.414-08:00",
+      "shortlink": "https://stspg.io/b2jrx8khrhvg",
+      "service": "Twilio"
     },
     {
       "id": "41E5S3mkTGDfkZuJZH5k",

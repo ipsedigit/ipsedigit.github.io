@@ -15,31 +15,21 @@ OUTPUT_DIR = "docs/outages"
 OUTPUT_PAGE = os.path.join(OUTPUT_DIR, "index.md")
 
 # (display_name, status_page_url, incidents_api_url)
-# api_url=None means custom handling or skipped
+# api_url="gcp" means custom GCP handler; None means skipped
 SERVICES = [
-    ("GitHub",        "https://www.githubstatus.com",        "https://www.githubstatus.com/api/v2/incidents.json?limit=5"),
-    ("Vercel",        "https://www.vercel-status.com",       "https://www.vercel-status.com/api/v2/incidents.json?limit=5"),
-    ("Netlify",       "https://www.netlifystatus.com",       "https://www.netlifystatus.com/api/v2/incidents.json?limit=5"),
-    ("npm",           "https://status.npmjs.org",            "https://status.npmjs.org/api/v2/incidents.json?limit=5"),
-    ("Docker Hub",    "https://status.docker.com",           "https://status.docker.com/api/v2/incidents.json?limit=5"),
-    ("Stripe",        "https://status.stripe.com",           "https://status.stripe.com/api/v2/incidents.json?limit=5"),
-    ("Cloudflare",    "https://www.cloudflarestatus.com",    "https://www.cloudflarestatus.com/api/v2/incidents.json?limit=5"),
-    ("Datadog",       "https://status.datadoghq.com",        "https://status.datadoghq.com/api/v2/incidents.json?limit=5"),
-    ("PagerDuty",     "https://status.pagerduty.com",        "https://status.pagerduty.com/api/v2/incidents.json?limit=5"),
-    ("Auth0",         "https://status.auth0.com",            "https://status.auth0.com/api/v2/incidents.json?limit=5"),
-    ("Okta",          "https://status.okta.com",             "https://status.okta.com/api/v2/incidents.json?limit=5"),
-    ("SendGrid",      "https://status.sendgrid.com",         "https://status.sendgrid.com/api/v2/incidents.json?limit=5"),
-    ("MongoDB Atlas", "https://status.mongodb.com",          "https://status.mongodb.com/api/v2/incidents.json?limit=5"),
-    ("Slack",         "https://status.slack.com",            "https://status.slack.com/api/v2/incidents.json?limit=5"),
-    ("Heroku",        "https://status.heroku.com",           "https://status.heroku.com/api/v2/incidents.json?limit=5"),
-    ("CircleCI",      "https://status.circleci.com",         "https://status.circleci.com/api/v2/incidents.json?limit=5"),
-    ("Fastly",        "https://www.fastlystatus.com",        "https://www.fastlystatus.com/api/v2/incidents.json?limit=5"),
-    ("Twilio",        "https://status.twilio.com",           "https://status.twilio.com/api/v2/incidents.json?limit=5"),
-    ("Sentry",        "https://status.sentry.io",            "https://status.sentry.io/api/v2/incidents.json?limit=5"),
-    ("Supabase",      "https://status.supabase.com",         "https://status.supabase.com/api/v2/incidents.json?limit=5"),
+    ("GitHub",        "https://www.githubstatus.com",        "https://www.githubstatus.com/api/v2/incidents.json"),
+    ("Vercel",        "https://www.vercel-status.com",       "https://www.vercel-status.com/api/v2/incidents.json"),
+    ("Netlify",       "https://www.netlifystatus.com",       "https://www.netlifystatus.com/api/v2/incidents.json"),
+    ("npm",           "https://status.npmjs.org",            "https://status.npmjs.org/api/v2/incidents.json"),
+    ("Cloudflare",    "https://www.cloudflarestatus.com",    "https://www.cloudflarestatus.com/api/v2/incidents.json"),
+    ("Datadog",       "https://status.datadoghq.com",        "https://status.datadoghq.com/api/v2/incidents.json"),
+    ("SendGrid",      "https://status.sendgrid.com",         "https://status.sendgrid.com/api/v2/incidents.json"),
+    ("MongoDB Atlas", "https://status.mongodb.com",          "https://status.mongodb.com/api/v2/incidents.json"),
+    ("CircleCI",      "https://status.circleci.com",         "https://status.circleci.com/api/v2/incidents.json"),
+    ("Twilio",        "https://status.twilio.com",           "https://status.twilio.com/api/v2/incidents.json"),
+    ("Sentry",        "https://status.sentry.io",            "https://status.sentry.io/api/v2/incidents.json"),
+    ("Supabase",      "https://status.supabase.com",         "https://status.supabase.com/api/v2/incidents.json"),
     ("GCP",           "https://status.cloud.google.com",     "gcp"),
-    ("AWS",           "https://health.aws.amazon.com/health/status", None),
-    ("Azure",         "https://status.azure.com",            None),
 ]
 
 IMPACT_ORDER = {"critical": 0, "major": 1, "minor": 2, "none": 3, "": 4}
@@ -119,6 +109,19 @@ def _is_recent_resolved(incident, hours=24):
         return False
 
 
+def _is_stale_active(incident, days=7):
+    """Return True if a non-resolved incident hasn't been updated in N days (stale monitoring)."""
+    updated_at = incident.get("updated_at") or incident.get("started_at", "")
+    if not updated_at:
+        return True
+    try:
+        updated_dt = datetime.fromisoformat(updated_at.replace("Z", "+00:00"))
+        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+        return updated_dt < cutoff
+    except (ValueError, AttributeError):
+        return True
+
+
 def _collect_all_incidents():
     """Fetch all services. Returns (active_incidents, recent_resolved)."""
     all_active = []
@@ -138,7 +141,7 @@ def _collect_all_incidents():
             if inc["status"] in ("resolved", "postmortem"):
                 if _is_recent_resolved(inc):
                     all_resolved.append(inc)
-            else:
+            elif not _is_stale_active(inc):
                 all_active.append(inc)
 
         active_count = sum(1 for i in incidents if i["status"] != "resolved")
