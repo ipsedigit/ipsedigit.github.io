@@ -1,776 +1,817 @@
 {
-  "generated_at": "2026-02-26 08:33:58 UTC",
-  "total": 50,
+  "generated_at": "2026-02-27 08:29:48 UTC",
+  "total": 48,
+  "featured_cve": {
+    "id": "CVE-2026-2790",
+    "description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+    "full_description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+    "severity": "CRITICAL",
+    "score": 9.8,
+    "products": [
+      "mozilla/firefox",
+      "mozilla/thunderbird"
+    ],
+    "published": "2026-02-24T14:16:27.473",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2790",
+    "related_posts": [],
+    "cisa_kev": false,
+    "epss_score": 0.00045,
+    "epss_percentile": 13.8
+  },
   "cves": [
     {
-      "id": "CVE-2026-23693",
-      "description": "ElementsKit Elementor Addons – Advanced Widgets & Templates Addons for Elementor (elementskit-lite) WordPress plugin versions prior to 3.7.9 expose the REST endpoint /wp-json/elementskit/v1/widget/mailchimp/subscribe without authentication. The endpoint accepts client-supplied Mailchimp API credenti",
-      "full_description": "ElementsKit Elementor Addons – Advanced Widgets & Templates Addons for Elementor (elementskit-lite) WordPress plugin versions prior to 3.7.9 expose the REST endpoint /wp-json/elementskit/v1/widget/mailchimp/subscribe without authentication. The endpoint accepts client-supplied Mailchimp API credentials and insufficiently validates certain parameters, including the list parameter, when constructing upstream Mailchimp API requests. An unauthenticated attacker can abuse the endpoint as an open proxy to Mailchimp, potentially triggering unauthorized API calls, manipulating subscription data, exhausting API quotas, or causing resource consumption on the affected WordPress site.",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "products": [],
-      "published": "2026-02-23T21:19:10.157",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23693",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00149,
-      "epss_percentile": 35.4
-    },
-    {
-      "id": "CVE-2025-70327",
-      "description": "TOTOLINK X5000R v9.1.0cu_2415_B20250515 contains an argument injection vulnerability in the setDiagnosisCfg handler of the /usr/sbin/lighttpd executable. The ip parameter is retrieved via websGetVar and passed to a ping command through CsteSystem without validating if the input starts with a hyphen ",
-      "full_description": "TOTOLINK X5000R v9.1.0cu_2415_B20250515 contains an argument injection vulnerability in the setDiagnosisCfg handler of the /usr/sbin/lighttpd executable. The ip parameter is retrieved via websGetVar and passed to a ping command through CsteSystem without validating if the input starts with a hyphen (-). This allows remote authenticated attackers to inject arbitrary command-line options into the ping utility, potentially leading to a Denial of Service (DoS) by causing excessive resource consumption or prolonged execution.",
+      "id": "CVE-2026-2790",
+      "description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
       "severity": "CRITICAL",
       "score": 9.8,
       "products": [
-        "totolink/x5000r_firmware",
-        "totolink/x5000r"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T21:19:09.270",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70327",
+      "published": "2026-02-24T14:16:27.473",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2790",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00071,
-      "epss_percentile": 21.6
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
     },
     {
-      "id": "CVE-2026-23552",
-      "description": "Cross-Realm Token Acceptance Bypass in KeycloakSecurityPolicy Apache Camel Keycloak component. \n\nThe Camel-Keycloak KeycloakSecurityPolicy does not validate the iss (issuer) claim of JWT tokens against the configured realm. A token issued by one Keycloak realm is silently accepted by a policy config",
-      "full_description": "Cross-Realm Token Acceptance Bypass in KeycloakSecurityPolicy Apache Camel Keycloak component. \n\nThe Camel-Keycloak KeycloakSecurityPolicy does not validate the iss (issuer) claim of JWT tokens against the configured realm. A token issued by one Keycloak realm is silently accepted by a policy configured for a completely different realm, breaking tenant isolation.\nThis issue affects Apache Camel: from 4.15.0 before 4.18.0.\n\nUsers are recommended to upgrade to version 4.18.0, which fixes the issue.",
+      "id": "CVE-2026-2789",
+      "description": "Use-after-free in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
       "severity": "CRITICAL",
-      "score": 9.1,
-      "products": [],
-      "published": "2026-02-23T09:17:00.857",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23552",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:27.370",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2789",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00015,
-      "epss_percentile": 2.7
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
     },
     {
-      "id": "CVE-2025-70043",
-      "description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in Ayms node-To master. The application disables TLS/SSL certificate validation by setting 'rejectUnauthorized': false in TLS socket options",
-      "full_description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in Ayms node-To master. The application disables TLS/SSL certificate validation by setting 'rejectUnauthorized': false in TLS socket options",
+      "id": "CVE-2026-2788",
+      "description": "Incorrect boundary conditions in the Audio/Video: GMP component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Incorrect boundary conditions in the Audio/Video: GMP component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
       "severity": "CRITICAL",
-      "score": 9.1,
-      "products": [],
-      "published": "2026-02-23T16:29:36.093",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70043",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:27.260",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2788",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00016,
-      "epss_percentile": 3.4
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
     },
     {
-      "id": "CVE-2025-71056",
-      "description": "Improper session management in GCOM EPON 1GE ONU version C00R371V00B01 allows attackers to execute a session hijacking attack via spoofing the IP address of an authenticated user.",
-      "full_description": "Improper session management in GCOM EPON 1GE ONU version C00R371V00B01 allows attackers to execute a session hijacking attack via spoofing the IP address of an authenticated user.",
+      "id": "CVE-2026-2787",
+      "description": "Use-after-free in the DOM: Window and Location component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the DOM: Window and Location component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
       "severity": "CRITICAL",
-      "score": 9.1,
-      "products": [],
-      "published": "2026-02-23T21:19:09.680",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71056",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00017,
-      "epss_percentile": 3.7
-    },
-    {
-      "id": "CVE-2026-2981",
-      "description": "A vulnerability was found in UTT HiPER 810G up to 1.7.7-1711. The affected element is the function strcpy of the file /goform/formTaskEdit_ap. The manipulation of the argument txtMin2 results in buffer overflow. The attack may be launched remotely. The exploit has been made public and could be used.",
-      "full_description": "A vulnerability was found in UTT HiPER 810G up to 1.7.7-1711. The affected element is the function strcpy of the file /goform/formTaskEdit_ap. The manipulation of the argument txtMin2 results in buffer overflow. The attack may be launched remotely. The exploit has been made public and could be used.",
-      "severity": "HIGH",
-      "score": 8.8,
+      "score": 9.8,
       "products": [
-        "utt/810g",
-        "utt/810g_firmware"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T09:17:01.877",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2981",
+      "published": "2026-02-24T14:16:27.157",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2787",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00084,
-      "epss_percentile": 24.4
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
     },
     {
-      "id": "CVE-2026-3015",
-      "description": "A vulnerability was determined in UTT HiPER 810G up to 1.7.7-171114. Impacted is the function strcpy of the file /goform/formPolicyRouteConf. Executing a manipulation of the argument GroupName can lead to buffer overflow. The attack may be launched remotely. The exploit has been publicly disclosed a",
-      "full_description": "A vulnerability was determined in UTT HiPER 810G up to 1.7.7-171114. Impacted is the function strcpy of the file /goform/formPolicyRouteConf. Executing a manipulation of the argument GroupName can lead to buffer overflow. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
-      "severity": "HIGH",
-      "score": 8.8,
+      "id": "CVE-2026-2786",
+      "description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "utt/810g",
-        "utt/810g_firmware"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T16:29:37.950",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3015",
+      "published": "2026-02-24T14:16:27.053",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2786",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00084,
-      "epss_percentile": 24.4
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
     },
     {
-      "id": "CVE-2026-3016",
-      "description": "A vulnerability was identified in UTT HiPER 810G up to 1.7.7-171114. The affected element is the function strcpy of the file /goform/formP2PLimitConfig. The manipulation of the argument except leads to buffer overflow. Remote exploitation of the attack is possible. The exploit is publicly available ",
-      "full_description": "A vulnerability was identified in UTT HiPER 810G up to 1.7.7-171114. The affected element is the function strcpy of the file /goform/formP2PLimitConfig. The manipulation of the argument except leads to buffer overflow. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.",
-      "severity": "HIGH",
-      "score": 8.8,
+      "id": "CVE-2026-2785",
+      "description": "Invalid pointer in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Invalid pointer in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "utt/810g",
-        "utt/810g_firmware"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T16:29:38.170",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3016",
+      "published": "2026-02-24T14:16:26.950",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2785",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00084,
-      "epss_percentile": 24.4
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
     },
     {
-      "id": "CVE-2025-70328",
-      "description": "TOTOLINK X6000R v9.4.0cu.1498_B20250826 contains an OS command injection vulnerability in the NTPSyncWithHost handler of the /usr/sbin/shttpd executable. The host_time parameter is retrieved via sub_40C404 and passed to a date -s shell command through CsteSystem. While the first two tokens of the in",
-      "full_description": "TOTOLINK X6000R v9.4.0cu.1498_B20250826 contains an OS command injection vulnerability in the NTPSyncWithHost handler of the /usr/sbin/shttpd executable. The host_time parameter is retrieved via sub_40C404 and passed to a date -s shell command through CsteSystem. While the first two tokens of the input are validated, the remainder of the string is not sanitized, allowing authenticated attackers to execute arbitrary shell commands via shell metacharacters.",
-      "severity": "HIGH",
-      "score": 8.8,
+      "id": "CVE-2026-2784",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Mitigation bypass in the DOM: Security component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "totolink/x6000r_firmware",
-        "totolink/x6000r"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T21:19:09.393",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70328",
+      "published": "2026-02-24T14:16:26.847",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2784",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00123,
-      "epss_percentile": 31.5
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
     },
     {
-      "id": "CVE-2026-25648",
-      "description": "Versions of the Traccar open-source GPS tracking system starting with 6.11.1 contain an issue in which authenticated users can execute arbitrary JavaScript in the context of other users' browsers by uploading malicious SVG files as device images. The application accepts SVG file uploads without sani",
-      "full_description": "Versions of the Traccar open-source GPS tracking system starting with 6.11.1 contain an issue in which authenticated users can execute arbitrary JavaScript in the context of other users' browsers by uploading malicious SVG files as device images. The application accepts SVG file uploads without sanitization and serves them with the `image/svg+xml` Content-Type, allowing embedded JavaScript to execute when victims view the image. As of time of publication, it is unclear whether a fix is available.",
-      "severity": "HIGH",
-      "score": 8.7,
-      "products": [],
-      "published": "2026-02-23T21:19:10.690",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25648",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00032,
-      "epss_percentile": 9.1
-    },
-    {
-      "id": "CVE-2025-67733",
-      "description": "Valkey is a distributed key-value database. Prior to versions 9.0.2, 8.1.6, 8.0.7, and 7.2.12, a malicious user can use scripting commands to inject arbitrary information into the response stream for the given client, potentially corrupting or returning tampered data to other users on the same conne",
-      "full_description": "Valkey is a distributed key-value database. Prior to versions 9.0.2, 8.1.6, 8.0.7, and 7.2.12, a malicious user can use scripting commands to inject arbitrary information into the response stream for the given client, potentially corrupting or returning tampered data to other users on the same connection. The error handling code for lua scripts does not properly handle null characters. Versions 9.0.2, 8.1.6, 8.0.7, and 7.2.12 fix the issue.",
-      "severity": "HIGH",
-      "score": 8.5,
-      "products": [
-        "lfprojects/valkey"
-      ],
-      "published": "2026-02-23T20:28:53.280",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67733",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.0002,
-      "epss_percentile": 4.9
-    },
-    {
-      "id": "CVE-2025-70329",
-      "description": "TOTOLink X5000R v9.1.0cu_2415_B20250515 contains an OS command injection vulnerability in the setIptvCfg handler of the /usr/sbin/lighttpd executable. The vlanVidLan1 (and other vlanVidLanX) parameters are retrieved via Uci_Get_Str and passed to the CsteSystem function without adequate validation or",
-      "full_description": "TOTOLink X5000R v9.1.0cu_2415_B20250515 contains an OS command injection vulnerability in the setIptvCfg handler of the /usr/sbin/lighttpd executable. The vlanVidLan1 (and other vlanVidLanX) parameters are retrieved via Uci_Get_Str and passed to the CsteSystem function without adequate validation or filtering. This allows an authenticated attacker to execute arbitrary shell commands with root privileges by injecting shell metacharacters into the affected parameters.",
-      "severity": "HIGH",
-      "score": 8.0,
-      "products": [
-        "totolink/x5000r_firmware",
-        "totolink/x5000r"
-      ],
-      "published": "2026-02-23T20:28:53.603",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70329",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00486,
-      "epss_percentile": 64.9
-    },
-    {
-      "id": "CVE-2026-22567",
-      "description": "Improper validation of user-supplied input in the ZIA Admin UI could allow an authenticated administrator to initiate backend functions through specific input fields in limited scenarios.",
-      "full_description": "Improper validation of user-supplied input in the ZIA Admin UI could allow an authenticated administrator to initiate backend functions through specific input fields in limited scenarios.",
-      "severity": "HIGH",
-      "score": 7.6,
-      "products": [],
-      "published": "2026-02-23T17:23:28.913",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22567",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00042,
-      "epss_percentile": 12.6
-    },
-    {
-      "id": "CVE-2025-69700",
-      "description": "Tenda FH1203 V2.0.1.6 contains a stack-based buffer overflow vulnerability in the modify_add_client_prio function, which is reachable via the formSetClientPrio CGI handler.",
-      "full_description": "Tenda FH1203 V2.0.1.6 contains a stack-based buffer overflow vulnerability in the modify_add_client_prio function, which is reachable via the formSetClientPrio CGI handler.",
+      "id": "CVE-2026-2783",
+      "description": "Information disclosure due to JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Information disclosure due to JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
       "severity": "HIGH",
       "score": 7.5,
       "products": [
-        "tenda/fh1203",
-        "tenda/fh1203_firmware"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T14:16:21.233",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69700",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00041,
-      "epss_percentile": 12.2
-    },
-    {
-      "id": "CVE-2026-21863",
-      "description": "Valkey is a distributed key-value database. Prior to versions 9.0.2, 8.1.6, 8.0.7, and 7.2.12, a malicious actor with access to the Valkey clusterbus port can send an invalid packet that may cause an out bound read, which might result in the system crashing. The Valkey clusterbus packet processing c",
-      "full_description": "Valkey is a distributed key-value database. Prior to versions 9.0.2, 8.1.6, 8.0.7, and 7.2.12, a malicious actor with access to the Valkey clusterbus port can send an invalid packet that may cause an out bound read, which might result in the system crashing. The Valkey clusterbus packet processing code does not validate that a clusterbus ping extension packet is located within buffer of the clusterbus packet before attempting to read it. Versions 9.0.2, 8.1.6, 8.0.7, and 7.2.12 fix the issue. As an additional mitigation, don't expose the cluster bus connection directly to end users, and protect the connection with its own network ACLs.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "products": [
-        "lfprojects/valkey"
-      ],
-      "published": "2026-02-23T20:28:53.853",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21863",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00015,
-      "epss_percentile": 2.9
-    },
-    {
-      "id": "CVE-2026-27623",
-      "description": "Valkey is a distributed key-value database. Starting in version 9.0.0 and prior to version 9.0.3, a malicious actor with network access to Valkey can cause the system to abort by triggering an assertion. When processing incoming requests, the Valkey system does not properly reset the networking stat",
-      "full_description": "Valkey is a distributed key-value database. Starting in version 9.0.0 and prior to version 9.0.3, a malicious actor with network access to Valkey can cause the system to abort by triggering an assertion. When processing incoming requests, the Valkey system does not properly reset the networking state after processing an empty request. A malicious actor can then send a request that the server incorrectly identifies as breaking server side invariants, which results in the server shutting down. Version 9.0.3 fixes the issue. As an additional mitigation, properly isolate Valkey deployments so that only trusted users have access.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "products": [
-        "lfprojects/valkey"
-      ],
-      "published": "2026-02-23T20:28:55.217",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27623",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00059,
-      "epss_percentile": 18.4
-    },
-    {
-      "id": "CVE-2025-70045",
-      "description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in jxcore jxm master. The application disables TLS/SSL certificate validation by setting 'rejectUnauthorized': false in HTTPS request options when 'jx_obj.IsSecure' is true",
-      "full_description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in jxcore jxm master. The application disables TLS/SSL certificate validation by setting 'rejectUnauthorized': false in HTTPS request options when 'jx_obj.IsSecure' is true",
-      "severity": "HIGH",
-      "score": 7.4,
-      "products": [],
-      "published": "2026-02-23T16:29:36.323",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70045",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00016,
-      "epss_percentile": 3.4
-    },
-    {
-      "id": "CVE-2025-70058",
-      "description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in YMFE yapi v1.12.0. The application disables TLS/SSL certificate validation by setting 'rejectUnauthorized': false in the HTTPS agent configuration for Axios requests",
-      "full_description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in YMFE yapi v1.12.0. The application disables TLS/SSL certificate validation by setting 'rejectUnauthorized': false in the HTTPS agent configuration for Axios requests",
-      "severity": "HIGH",
-      "score": 7.4,
-      "products": [],
-      "published": "2026-02-23T16:29:36.433",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70058",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.0001,
-      "epss_percentile": 0.9
-    },
-    {
-      "id": "CVE-2025-63945",
-      "description": "A privilege escalation (PE) vulnerability in the Tencent iOA app thru 210.9.28693.621001 on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.",
-      "full_description": "A privilege escalation (PE) vulnerability in the Tencent iOA app thru 210.9.28693.621001 on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.",
-      "severity": "HIGH",
-      "score": 7.4,
-      "products": [],
-      "published": "2026-02-23T20:28:52.910",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63945",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00023,
-      "epss_percentile": 6.1
-    },
-    {
-      "id": "CVE-2025-63946",
-      "description": "A privilege escalation (PE) vulnerability in the Tencent PC Manager app thru 17.10.28554.205 on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.",
-      "full_description": "A privilege escalation (PE) vulnerability in the Tencent PC Manager app thru 17.10.28554.205 on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.",
-      "severity": "HIGH",
-      "score": 7.4,
-      "products": [],
-      "published": "2026-02-23T20:28:53.100",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63946",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00023,
-      "epss_percentile": 6.1
-    },
-    {
-      "id": "CVE-2026-2983",
-      "description": "A vulnerability was determined in SourceCodester Student Result Management System 1.0. The impacted element is an unknown function of the file /admin/core/import_users.php of the component Bulk Import. This manipulation of the argument File causes improper access controls. Remote exploitation of the",
-      "full_description": "A vulnerability was determined in SourceCodester Student Result Management System 1.0. The impacted element is an unknown function of the file /admin/core/import_users.php of the component Bulk Import. This manipulation of the argument File causes improper access controls. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized.",
-      "severity": "HIGH",
-      "score": 7.3,
-      "products": [
-        "munyweki/student_result_management_system"
-      ],
-      "published": "2026-02-23T10:16:58.757",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2983",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00036,
-      "epss_percentile": 10.4
-    },
-    {
-      "id": "CVE-2026-21420",
-      "description": "Dell Repository Manager (DRM), versions prior to 3.4.8, contains an Uncontrolled Search Path Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary code execution and escalation of privileges.",
-      "full_description": "Dell Repository Manager (DRM), versions prior to 3.4.8, contains an Uncontrolled Search Path Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary code execution and escalation of privileges.",
-      "severity": "HIGH",
-      "score": 7.3,
-      "products": [
-        "dell/repository_manager"
-      ],
-      "published": "2026-02-23T14:16:21.823",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21420",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 2.0
-    },
-    {
-      "id": "CVE-2025-61144",
-      "description": "libtiff up to v4.7.1 was discovered to contain a stack overflow via the readSeparateStripsIntoBuffer function.",
-      "full_description": "libtiff up to v4.7.1 was discovered to contain a stack overflow via the readSeparateStripsIntoBuffer function.",
-      "severity": "HIGH",
-      "score": 7.3,
-      "products": [
-        "libtiff/libtiff"
-      ],
-      "published": "2026-02-23T19:22:56.643",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61144",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00011,
-      "epss_percentile": 1.3
-    },
-    {
-      "id": "CVE-2026-2980",
-      "description": "A vulnerability has been found in UTT HiPER 810G up to 1.7.7-1711. Impacted is the function strcpy of the file /goform/setSysAdm. The manipulation of the argument passwd1 leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
-      "full_description": "A vulnerability has been found in UTT HiPER 810G up to 1.7.7-1711. Impacted is the function strcpy of the file /goform/setSysAdm. The manipulation of the argument passwd1 leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
-      "severity": "HIGH",
-      "score": 7.2,
-      "products": [
-        "utt/810g",
-        "utt/810g_firmware"
-      ],
-      "published": "2026-02-23T09:17:01.647",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2980",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00084,
-      "epss_percentile": 24.5
-    },
-    {
-      "id": "CVE-2025-14905",
-      "description": "A flaw was found in the 389-ds-base server. A heap buffer overflow vulnerability exists in the `schema_attr_enum_callback` function within the `schema.c` file. This occurs because the code incorrectly calculates the buffer size by summing alias string lengths without accounting for additional format",
-      "full_description": "A flaw was found in the 389-ds-base server. A heap buffer overflow vulnerability exists in the `schema_attr_enum_callback` function within the `schema.c` file. This occurs because the code incorrectly calculates the buffer size by summing alias string lengths without accounting for additional formatting characters. When a large number of aliases are processed, this oversight can lead to a heap overflow, potentially allowing a remote attacker to cause a Denial of Service (DoS) or achieve Remote Code Execution (RCE).",
-      "severity": "HIGH",
-      "score": 7.2,
-      "products": [],
-      "published": "2026-02-23T16:29:35.620",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14905",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00165,
-      "epss_percentile": 37.5
-    },
-    {
-      "id": "CVE-2025-68930",
-      "description": "Versions of the Traccar open-source GPS tracking system up to and including 6.11.1 contain a Cross-Site WebSocket Hijacking (CSWSH) vulnerability in the `/api/socket` endpoint. The application fails to validate the `Origin` header during the WebSocket handshake. This allows a remote attacker to bypa",
-      "full_description": "Versions of the Traccar open-source GPS tracking system up to and including 6.11.1 contain a Cross-Site WebSocket Hijacking (CSWSH) vulnerability in the `/api/socket` endpoint. The application fails to validate the `Origin` header during the WebSocket handshake. This allows a remote attacker to bypass the Same Origin Policy (SOP) and establish a full-duplex WebSocket connection using a legitimate user's credentials (JSESSIONID). As of time of publication, it is unclear whether a fix is available.",
-      "severity": "HIGH",
-      "score": 7.1,
-      "products": [],
-      "published": "2026-02-23T21:19:08.500",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68930",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00022,
-      "epss_percentile": 5.7
-    },
-    {
-      "id": "CVE-2026-2984",
-      "description": "A vulnerability was identified in SourceCodester Student Result Management System 1.0. This affects an unknown function of the file /admin/core/drop_user.php. Such manipulation of the argument ID leads to denial of service. The attack can be executed remotely. The exploit is publicly available and m",
-      "full_description": "A vulnerability was identified in SourceCodester Student Result Management System 1.0. This affects an unknown function of the file /admin/core/drop_user.php. Such manipulation of the argument ID leads to denial of service. The attack can be executed remotely. The exploit is publicly available and might be used.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [
-        "munyweki/student_result_management_system"
-      ],
-      "published": "2026-02-23T11:16:39.443",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2984",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00076,
-      "epss_percentile": 22.6
-    },
-    {
-      "id": "CVE-2025-70044",
-      "description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in fofolee uTools-quickcommand 5.0.3.",
-      "full_description": "An issue pertaining to CWE-295: Improper Certificate Validation was discovered in fofolee uTools-quickcommand 5.0.3.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [],
-      "published": "2026-02-23T16:29:36.213",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70044",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00015,
-      "epss_percentile": 3.0
-    },
-    {
-      "id": "CVE-2026-27514",
-      "description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a sensitive information exposure vulnerability in the configuration download functionality. The configuration download response includes the router password and administrative password in plaintext. The endpoint also omits approp",
-      "full_description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a sensitive information exposure vulnerability in the configuration download functionality. The configuration download response includes the router password and administrative password in plaintext. The endpoint also omits appropriate Cache-Control directives, which can allow the response to be stored in client-side caches and recovered by other local users or processes with access to cached browser data.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [
-        "tenda/f3_firmware",
-        "tenda/f3"
-      ],
-      "published": "2026-02-23T17:23:30.087",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27514",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00041,
-      "epss_percentile": 12.5
-    },
-    {
-      "id": "CVE-2026-2698",
-      "description": "An improper access control vulnerability exists where an authenticated user could access areas outside of their authorized scope.",
-      "full_description": "An improper access control vulnerability exists where an authenticated user could access areas outside of their authorized scope.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [],
-      "published": "2026-02-23T17:23:30.390",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2698",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00028,
-      "epss_percentile": 7.8
-    },
-    {
-      "id": "CVE-2026-23521",
-      "description": "Versions of the Traccar open-source GPS tracking system up to and including 6.11.1 contain an issue in which authenticated users who can create or edit devices can set a device `uniqueId` to an absolute path. When uploading a device image, Traccar uses that `uniqueId` to build the filesystem path wi",
-      "full_description": "Versions of the Traccar open-source GPS tracking system up to and including 6.11.1 contain an issue in which authenticated users who can create or edit devices can set a device `uniqueId` to an absolute path. When uploading a device image, Traccar uses that `uniqueId` to build the filesystem path without enforcing that the resolved path stays under the media root. This allows writing files outside the media directory. As of time of publication, it is unclear whether a fix is available.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [],
-      "published": "2026-02-23T21:19:09.990",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23521",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00034,
-      "epss_percentile": 9.9
-    },
-    {
-      "id": "CVE-2026-2979",
-      "description": "A flaw has been found in FastApiAdmin up to 2.2.0. This issue affects the function user_avatar_upload_controller of the file /backend/app/api/v1/module_system/user/controller.py of the component Scheduled Task API. Executing a manipulation can lead to unrestricted upload. The attack can be launched ",
-      "full_description": "A flaw has been found in FastApiAdmin up to 2.2.0. This issue affects the function user_avatar_upload_controller of the file /backend/app/api/v1/module_system/user/controller.py of the component Scheduled Task API. Executing a manipulation can lead to unrestricted upload. The attack can be launched remotely. The exploit has been published and may be used.",
-      "severity": "MEDIUM",
-      "score": 6.3,
-      "products": [
-        "fastapiadmin/fastapi-admin"
-      ],
-      "published": "2026-02-23T09:17:01.427",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2979",
+      "published": "2026-02-24T14:16:26.747",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2783",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00034,
       "epss_percentile": 9.6
     },
     {
-      "id": "CVE-2026-2985",
-      "description": "A security flaw has been discovered in Tiandy Video Surveillance System 视频监控平台 7.17.0. This impacts the function downloadImage of the file /com/tiandy/easy7/core/bo/CLSBODownLoad.java. Performing a manipulation of the argument urlPath results in server-side request forgery. The attack is possible to",
-      "full_description": "A security flaw has been discovered in Tiandy Video Surveillance System 视频监控平台 7.17.0. This impacts the function downloadImage of the file /com/tiandy/easy7/core/bo/CLSBODownLoad.java. Performing a manipulation of the argument urlPath results in server-side request forgery. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "severity": "MEDIUM",
-      "score": 6.3,
-      "products": [],
-      "published": "2026-02-23T11:16:39.770",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2985",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00011,
-      "epss_percentile": 1.4
-    },
-    {
-      "id": "CVE-2026-2697",
-      "description": "An Indirect Object Reference (IDOR) in Security Center allows an authenticated remote attacker to escalate privileges via the 'owner' parameter.",
-      "full_description": "An Indirect Object Reference (IDOR) in Security Center allows an authenticated remote attacker to escalate privileges via the 'owner' parameter.",
-      "severity": "MEDIUM",
-      "score": 6.3,
-      "products": [],
-      "published": "2026-02-23T16:29:37.323",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2697",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00089,
-      "epss_percentile": 25.4
-    },
-    {
-      "id": "CVE-2025-61147",
-      "description": "strukturag libde265 commit d9fea9d wa discovered to contain a segmentation fault via the component decoder_context::compute_framedrop_table().",
-      "full_description": "strukturag libde265 commit d9fea9d wa discovered to contain a segmentation fault via the component decoder_context::compute_framedrop_table().",
-      "severity": "MEDIUM",
-      "score": 6.2,
-      "products": [],
-      "published": "2026-02-23T20:28:52.717",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61147",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00012,
-      "epss_percentile": 1.6
-    },
-    {
-      "id": "CVE-2026-27512",
-      "description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a content-type confusion vulnerability in the administrative interface. Responses omit the X-Content-Type-Options: nosniff header and include attacker-influenced content that can be reflected into the response body. Under affecte",
-      "full_description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a content-type confusion vulnerability in the administrative interface. Responses omit the X-Content-Type-Options: nosniff header and include attacker-influenced content that can be reflected into the response body. Under affected browser behaviors, MIME sniffing may cause the response to be interpreted as active HTML, enabling script execution in the context of the administrative interface.",
-      "severity": "MEDIUM",
-      "score": 6.1,
+      "id": "CVE-2026-2782",
+      "description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "tenda/f3_firmware",
-        "tenda/f3"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T17:23:29.687",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27512",
+      "published": "2026-02-24T14:16:26.640",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2782",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00049,
-      "epss_percentile": 15.2
+      "epss_score": 0.00043,
+      "epss_percentile": 13.1
     },
     {
-      "id": "CVE-2026-26464",
-      "description": "Stored Cross-Site Scripting (XSS) was found in the /admin/edit_user.php page of Society Management System Portal V1.0, which allows remote attackers to inject and store arbitrary JavaScript code that is executed in users' browsers. This vulnerability can be exploited via the name parameter in a POST",
-      "full_description": "Stored Cross-Site Scripting (XSS) was found in the /admin/edit_user.php page of Society Management System Portal V1.0, which allows remote attackers to inject and store arbitrary JavaScript code that is executed in users' browsers. This vulnerability can be exploited via the name parameter in a POST HTTP request, leading to execution of malicious scripts when the affected content is viewed by other users, including administrators.",
-      "severity": "MEDIUM",
-      "score": 6.1,
-      "products": [],
-      "published": "2026-02-23T18:25:51.630",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26464",
+      "id": "CVE-2026-2781",
+      "description": "Integer overflow in the Libraries component in NSS. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Integer overflow in the Libraries component in NSS. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:26.533",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2781",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
+    },
+    {
+      "id": "CVE-2026-2780",
+      "description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:26.437",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2780",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00041,
+      "epss_percentile": 12.4
+    },
+    {
+      "id": "CVE-2026-2779",
+      "description": "Incorrect boundary conditions in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Incorrect boundary conditions in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:26.330",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2779",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
+    },
+    {
+      "id": "CVE-2026-2778",
+      "description": "Sandbox escape due to incorrect boundary conditions in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Sandbox escape due to incorrect boundary conditions in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:26.230",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2778",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00054,
+      "epss_percentile": 16.8
+    },
+    {
+      "id": "CVE-2026-2777",
+      "description": "Privilege escalation in the Messaging System component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Privilege escalation in the Messaging System component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:26.123",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2777",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.6
+    },
+    {
+      "id": "CVE-2026-2776",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Telemetry component in External Software. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Sandbox escape due to incorrect boundary conditions in the Telemetry component in External Software. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:26.023",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2776",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00054,
+      "epss_percentile": 16.8
+    },
+    {
+      "id": "CVE-2026-2775",
+      "description": "Mitigation bypass in the DOM: HTML Parser component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Mitigation bypass in the DOM: HTML Parser component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:25.917",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2775",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00046,
-      "epss_percentile": 14.3
+      "epss_percentile": 14.1
     },
     {
-      "id": "CVE-2025-59873",
-      "description": "An information exposure vulnerability exists in\n\nVulnerability in HCL Software ZIE for Web.\n\nThe application transmits sensitive session tokens and authentication identifiers within the URL query parameters . An attacker who gains access to any network log or operates a site linked from the applicat",
-      "full_description": "An information exposure vulnerability exists in\n\nVulnerability in HCL Software ZIE for Web.\n\nThe application transmits sensitive session tokens and authentication identifiers within the URL query parameters . An attacker who gains access to any network log or operates a site linked from the application can hijack user sessions\n\nThis issue affects ZIE for Web: v16.",
-      "severity": "MEDIUM",
-      "score": 5.9,
-      "products": [],
-      "published": "2026-02-23T11:16:21.080",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59873",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00013,
-      "epss_percentile": 2.1
-    },
-    {
-      "id": "CVE-2026-22568",
-      "description": "Improper neutralization of special elements in user-supplied input within the ZIA Admin UI could allow an authenticated administrator to access or retrieve unauthorized internal information in rare conditions.",
-      "full_description": "Improper neutralization of special elements in user-supplied input within the ZIA Admin UI could allow an authenticated administrator to access or retrieve unauthorized internal information in rare conditions.",
-      "severity": "MEDIUM",
-      "score": 5.5,
-      "products": [],
-      "published": "2026-02-23T17:23:29.073",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22568",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00037,
-      "epss_percentile": 10.9
-    },
-    {
-      "id": "CVE-2025-61143",
-      "description": "libtiff up to v4.7.1 was discovered to contain a NULL pointer dereference via the component libtiff/tif_open.c.",
-      "full_description": "libtiff up to v4.7.1 was discovered to contain a NULL pointer dereference via the component libtiff/tif_open.c.",
-      "severity": "MEDIUM",
-      "score": 5.5,
+      "id": "CVE-2026-2774",
+      "description": "Integer overflow in the Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Integer overflow in the Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "libtiff/libtiff"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T19:22:56.517",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61143",
+      "published": "2026-02-24T14:16:25.810",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2774",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00011,
-      "epss_percentile": 1.3
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
     },
     {
-      "id": "CVE-2025-61145",
-      "description": "libtiff up to v4.7.1 was discovered to contain a double free via the component tools/tiffcrop.c.",
-      "full_description": "libtiff up to v4.7.1 was discovered to contain a double free via the component tools/tiffcrop.c.",
-      "severity": "MEDIUM",
-      "score": 5.0,
+      "id": "CVE-2026-2773",
+      "description": "Incorrect boundary conditions in the Web Audio component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Incorrect boundary conditions in the Web Audio component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "libtiff/libtiff"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T19:22:56.757",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61145",
+      "published": "2026-02-24T14:16:25.703",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2773",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00011,
-      "epss_percentile": 1.3
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
     },
     {
-      "id": "CVE-2026-27511",
-      "description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a clickjacking vulnerability in the web-based administrative interface. The interface does not set the X-Frame-Options header, allowing attacker-controlled sites to embed administrative pages in an iframe and trick an authenticat",
-      "full_description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a clickjacking vulnerability in the web-based administrative interface. The interface does not set the X-Frame-Options header, allowing attacker-controlled sites to embed administrative pages in an iframe and trick an authenticated administrator into unintended interactions that may result in unauthorized configuration changes.",
-      "severity": "MEDIUM",
-      "score": 4.3,
+      "id": "CVE-2026-2772",
+      "description": "Use-after-free in the Audio/Video: Playback component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the Audio/Video: Playback component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "products": [
-        "tenda/f3_firmware",
-        "tenda/f3"
+        "mozilla/firefox",
+        "mozilla/thunderbird"
       ],
-      "published": "2026-02-23T17:23:29.473",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27511",
+      "published": "2026-02-24T14:16:25.603",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2772",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2771",
+      "description": "Undefined behavior in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Undefined behavior in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:25.497",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2771",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2770",
+      "description": "Use-after-free in the DOM: Bindings (WebIDL) component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the DOM: Bindings (WebIDL) component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:25.397",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2770",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2769",
+      "description": "Use-after-free in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:25.287",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2769",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00043,
+      "epss_percentile": 12.9
+    },
+    {
+      "id": "CVE-2026-2768",
+      "description": "Sandbox escape in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Sandbox escape in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:25.183",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2768",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00053,
+      "epss_percentile": 16.5
+    },
+    {
+      "id": "CVE-2026-2767",
+      "description": "Use-after-free in the JavaScript: WebAssembly component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the JavaScript: WebAssembly component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:25.080",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2767",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
+    },
+    {
+      "id": "CVE-2026-2766",
+      "description": "Use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.973",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2766",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
+    },
+    {
+      "id": "CVE-2026-2765",
+      "description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.860",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2765",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
+    },
+    {
+      "id": "CVE-2026-2764",
+      "description": "JIT miscompilation, use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "JIT miscompilation, use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.737",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2764",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2763",
+      "description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.620",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2763",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2762",
+      "description": "Integer overflow in the JavaScript: Standard Library component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Integer overflow in the JavaScript: Standard Library component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.480",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2762",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
+    },
+    {
+      "id": "CVE-2026-2761",
+      "description": "Sandbox escape in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Sandbox escape in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.370",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2761",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00054,
+      "epss_percentile": 16.8
+    },
+    {
+      "id": "CVE-2026-2760",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Sandbox escape due to incorrect boundary conditions in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.257",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2760",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00054,
+      "epss_percentile": 16.8
+    },
+    {
+      "id": "CVE-2026-2759",
+      "description": "Incorrect boundary conditions in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Incorrect boundary conditions in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.147",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2759",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2758",
+      "description": "Use-after-free in the JavaScript: GC component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Use-after-free in the JavaScript: GC component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:24.037",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2758",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2757",
+      "description": "Incorrect boundary conditions in the WebRTC: Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "full_description": "Incorrect boundary conditions in the WebRTC: Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox",
+        "mozilla/thunderbird"
+      ],
+      "published": "2026-02-24T14:16:23.927",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2757",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 14.1
+    },
+    {
+      "id": "CVE-2026-2634",
+      "description": "Malicious scripts could cause desynchronization between the address bar and web content before a response is received in Firefox iOS, allowing attacker-controlled pages to be presented under spoofed domains. This vulnerability affects Firefox for iOS < 147.4.",
+      "full_description": "Malicious scripts could cause desynchronization between the address bar and web content before a response is received in Firefox iOS, allowing attacker-controlled pages to be presented under spoofed domains. This vulnerability affects Firefox for iOS < 147.4.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "mozilla/firefox"
+      ],
+      "published": "2026-02-24T14:16:23.810",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2634",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00042,
+      "epss_percentile": 12.6
+    },
+    {
+      "id": "CVE-2026-2460",
+      "description": "A vulnerability exists in REB500 for an authenticated user with low-level privileges to access and alter the content of directories by using the DAC protocol that the user is not authorized to do so.",
+      "full_description": "A vulnerability exists in REB500 for an authenticated user with low-level privileges to access and alter the content of directories by using the DAC protocol that the user is not authorized to do so.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "products": [
+        "hitachienergy/reb500",
+        "hitachienergy/reb500_firmware"
+      ],
+      "published": "2026-02-24T14:16:23.647",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2460",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00038,
+      "epss_percentile": 11.4
+    },
+    {
+      "id": "CVE-2026-2459",
+      "description": "A vulnerability exists in REB500 for an authenticated user with Installer role to access and alter the contents of directories that the role is not authorized to do so.",
+      "full_description": "A vulnerability exists in REB500 for an authenticated user with Installer role to access and alter the contents of directories that the role is not authorized to do so.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "products": [
+        "hitachienergy/reb500",
+        "hitachienergy/reb500_firmware"
+      ],
+      "published": "2026-02-24T14:16:23.477",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2459",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00036,
-      "epss_percentile": 10.4
+      "epss_percentile": 10.3
     },
     {
-      "id": "CVE-2026-27513",
-      "description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a cross-site request forgery (CSRF) vulnerability in the web-based administrative interface. The interface does not implement anti-CSRF protections, allowing an attacker to induce an authenticated administrator to submit state-ch",
-      "full_description": "Shenzhen Tenda F3 Wireless Router firmware V12.01.01.55_multi contains a cross-site request forgery (CSRF) vulnerability in the web-based administrative interface. The interface does not implement anti-CSRF protections, allowing an attacker to induce an authenticated administrator to submit state-changing requests, which can result in unauthorized configuration changes.",
+      "id": "CVE-2026-23984",
+      "description": "An Improper Input Validation vulnerability exists in Apache Superset that allows an authenticated user with SQLLab access to bypass the read-only verification check when using a PostgreSQL database connection.\nWhile the system effectively blocks standard Data Manipulation Language (DML) statements (",
+      "full_description": "An Improper Input Validation vulnerability exists in Apache Superset that allows an authenticated user with SQLLab access to bypass the read-only verification check when using a PostgreSQL database connection.\nWhile the system effectively blocks standard Data Manipulation Language (DML) statements (e.g., INSERT, UPDATE, DELETE) on read-only connections, it fails to detect them in specially crafted SQL statements.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.",
       "severity": "MEDIUM",
-      "score": 4.3,
+      "score": 6.5,
       "products": [
-        "tenda/f3_firmware",
-        "tenda/f3"
+        "apache/superset"
       ],
-      "published": "2026-02-23T17:23:29.890",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27513",
+      "published": "2026-02-24T14:16:23.307",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23984",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.0002,
-      "epss_percentile": 4.8
+      "epss_score": 0.00038,
+      "epss_percentile": 11.4
     },
     {
-      "id": "CVE-2026-26365",
-      "description": "Akamai Ghost on Akamai CDN edge servers before 2026-02-06 mishandles processing of custom hop-by-hop HTTP headers, where an incoming request containing the header \"Connection: Transfer-Encoding\" could result in a forward request with invalid message framing, depending on the Akamai processing path. ",
-      "full_description": "Akamai Ghost on Akamai CDN edge servers before 2026-02-06 mishandles processing of custom hop-by-hop HTTP headers, where an incoming request containing the header \"Connection: Transfer-Encoding\" could result in a forward request with invalid message framing, depending on the Akamai processing path. This could result in the origin server parsing the request body incorrectly, leading to HTTP request smuggling.",
+      "id": "CVE-2026-23983",
+      "description": "A Sensitive Data Exposure vulnerability exists in Apache Superset allowing authenticated users to retrieve sensitive user information. The Tag endpoint (disabled by default) allows users to retrieve a list of objects associated with a specific tag.\nWhen these associated objects include Users, the AP",
+      "full_description": "A Sensitive Data Exposure vulnerability exists in Apache Superset allowing authenticated users to retrieve sensitive user information. The Tag endpoint (disabled by default) allows users to retrieve a list of objects associated with a specific tag.\nWhen these associated objects include Users, the API response improperly serializes and returns sensitive fields, including password hashes (pbkdf2), email addresses, and login statistics. This vulnerability allows authenticated users with low privileges (e.g., Gamma role) to view sensitive authentication data \n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue or make sure TAGGING_SYSTEM is False (Apache Superset current default)",
       "severity": "MEDIUM",
-      "score": 4.0,
-      "products": [],
-      "published": "2026-02-23T09:17:01.210",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26365",
+      "score": 6.5,
+      "products": [
+        "apache/superset"
+      ],
+      "published": "2026-02-24T14:16:23.143",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23983",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00046,
+      "epss_percentile": 13.9
+    },
+    {
+      "id": "CVE-2026-23982",
+      "description": "An Improper Authorization vulnerability exists in Apache Superset that allows a low-privileged user to bypass data access controls. When creating a dataset, Superset enforces permission checks to prevent users from querying unauthorized data. However, an authenticated attacker with permissions to wr",
+      "full_description": "An Improper Authorization vulnerability exists in Apache Superset that allows a low-privileged user to bypass data access controls. When creating a dataset, Superset enforces permission checks to prevent users from querying unauthorized data. However, an authenticated attacker with permissions to write datasets and read charts can bypass these checks by overwriting the SQL query of an existing dataset.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "products": [
+        "apache/superset"
+      ],
+      "published": "2026-02-24T14:16:22.980",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23982",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00035,
+      "epss_percentile": 9.9
+    },
+    {
+      "id": "CVE-2026-23980",
+      "description": "Improper Neutralization of Special Elements used in a SQL Command ('SQL Injection') vulnerability in Apache Superset allows an authenticated user with read access to conduct error-based SQL injection via the sqlExpression or where parameters.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers",
+      "full_description": "Improper Neutralization of Special Elements used in a SQL Command ('SQL Injection') vulnerability in Apache Superset allows an authenticated user with read access to conduct error-based SQL injection via the sqlExpression or where parameters.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "products": [
+        "apache/superset"
+      ],
+      "published": "2026-02-24T14:16:22.807",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23980",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00029,
-      "epss_percentile": 7.9
+      "epss_percentile": 8.2
     },
     {
-      "id": "CVE-2025-61146",
-      "description": "saitoha libsixel until v1.8.7 was discovered to contain a memory leak via the component malloc_stub.c.",
-      "full_description": "saitoha libsixel until v1.8.7 was discovered to contain a memory leak via the component malloc_stub.c.",
+      "id": "CVE-2026-23969",
+      "description": "Apache Superset utilizes a configurable dictionary, DISALLOWED_SQL_FUNCTIONS, to restrict the execution of potentially sensitive SQL functions within SQL Lab and charts. While this feature included restrictions for engines like PostgreSQL, a vulnerability was reported where the default list for the ",
+      "full_description": "Apache Superset utilizes a configurable dictionary, DISALLOWED_SQL_FUNCTIONS, to restrict the execution of potentially sensitive SQL functions within SQL Lab and charts. While this feature included restrictions for engines like PostgreSQL, a vulnerability was reported where the default list for the ClickHouse engine was incomplete.\n\nThis issue affects Apache Superset: before 4.1.2.\n\nUsers are recommended to upgrade to version 4.1.2, which fixes the issue.",
       "severity": "MEDIUM",
-      "score": 4.0,
-      "products": [],
-      "published": "2026-02-23T19:22:56.880",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61146",
+      "score": 6.5,
+      "products": [
+        "apache/superset"
+      ],
+      "published": "2026-02-24T14:16:22.623",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23969",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00012,
-      "epss_percentile": 1.6
+      "epss_score": 0.00069,
+      "epss_percentile": 21.2
     },
     {
-      "id": "CVE-2026-25747",
-      "description": "Deserialization of Untrusted Data vulnerability in Apache Camel LevelDB component.\n\nThe Camel-LevelDB DefaultLevelDBSerializer class deserializes data read from the LevelDB aggregation repository using java.io.ObjectInputStream without applying any ObjectInputFilter or class-loading restrictions. An",
-      "full_description": "Deserialization of Untrusted Data vulnerability in Apache Camel LevelDB component.\n\nThe Camel-LevelDB DefaultLevelDBSerializer class deserializes data read from the LevelDB aggregation repository using java.io.ObjectInputStream without applying any ObjectInputFilter or class-loading restrictions. An attacker who can write to the LevelDB database files used by a Camel application can inject a crafted serialized Java object that, when deserialized during normal aggregation repository operations, results in arbitrary code execution in the context of the application.\nThis issue affects Apache Camel: from 4.10.0 before 4.10.8, from 4.14.0 before 4.14.5, from 4.15.0 before 4.18.0.\n\nUsers are recommended to upgrade to version 4.18.0, which fixes the issue. For the 4.10.x LTS releases, users are recommended to upgrade to 4.10.9, while for 4.14.x LTS releases, users are recommended to upgrade to 4.14.5",
+      "id": "CVE-2026-1773",
+      "description": "IEC 60870-5-104: Potential Denial of Service impact on reception of invalid U-format frame. Product is only affected if IEC 60870-5-104 bi-directional functionality is configured. Enabling secure communication following IEC 62351-3 does not remediate the vulnerability but mitigates the risk of explo",
+      "full_description": "IEC 60870-5-104: Potential Denial of Service impact on reception of invalid U-format frame. Product is only affected if IEC 60870-5-104 bi-directional functionality is configured. Enabling secure communication following IEC 62351-3 does not remediate the vulnerability but mitigates the risk of exploitation.",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-23T09:17:01.043",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25747",
+      "published": "2026-02-24T14:16:22.420",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1773",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00075,
-      "epss_percentile": 22.5
+      "epss_score": 0.00055,
+      "epss_percentile": 17.2
     },
     {
-      "id": "CVE-2025-41002",
-      "description": "SQL injection vulnerability in Infoticketing. This vulnerability allows\n an unauthenticated attacker to retrieve, create, update, and delete the\n database by sending a POST request using the 'code' parameter in '/components/cart/cartApplyDiscount.php'.",
-      "full_description": "SQL injection vulnerability in Infoticketing. This vulnerability allows\n an unauthenticated attacker to retrieve, create, update, and delete the\n database by sending a POST request using the 'code' parameter in '/components/cart/cartApplyDiscount.php'.",
+      "id": "CVE-2026-1772",
+      "description": "RTU500 web interface: An unprivileged user can read user management information. The information cannot be accessed via the RTU500 web user interface but requires further tools like browser development utilities to access them without required privileges.",
+      "full_description": "RTU500 web interface: An unprivileged user can read user management information. The information cannot be accessed via the RTU500 web user interface but requires further tools like browser development utilities to access them without required privileges.",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-23T10:16:17.117",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41002",
+      "published": "2026-02-24T14:16:22.180",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1772",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.0006,
-      "epss_percentile": 18.8
+      "epss_score": 0.00038,
+      "epss_percentile": 11.4
     },
     {
-      "id": "CVE-2025-40701",
-      "description": "Reflected Cross-Site Scripting vulnerability in SOTESHOP, version 8.3.4. THis vulnerability allows an attacker execute JavaScript code in the victim's browser when a malicious URL with the 'id' parameter in '/adsTracker/checkAds' is sent to the victim. The vulnerability can be exploited to steal sen",
-      "full_description": "Reflected Cross-Site Scripting vulnerability in SOTESHOP, version 8.3.4. THis vulnerability allows an attacker execute JavaScript code in the victim's browser when a malicious URL with the 'id' parameter in '/adsTracker/checkAds' is sent to the victim. The vulnerability can be exploited to steal sensitive user information such as session cookies, or to perform actions on their behalf.",
+      "id": "CVE-2025-14577",
+      "description": "Slican NCP/IPL/IPM/IPU devices are vulnerable to PHP Function Injection. An unauthenticated remote attacker is able to execute arbitrary PHP commands by sending specially crafted requests to /webcti/session_ajax.php endpoint.\n\n\nThis issue was fixed in version 1.24.0190 (Slican NCP) and 6.61.0010 (Sl",
+      "full_description": "Slican NCP/IPL/IPM/IPU devices are vulnerable to PHP Function Injection. An unauthenticated remote attacker is able to execute arbitrary PHP commands by sending specially crafted requests to /webcti/session_ajax.php endpoint.\n\n\nThis issue was fixed in version 1.24.0190 (Slican NCP) and 6.61.0010 (Slican IPL/IPM/IPU).",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-23T11:16:20.680",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40701",
+      "published": "2026-02-24T14:16:21.333",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14577",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00015,
-      "epss_percentile": 3.0
+      "epss_score": 0.00133,
+      "epss_percentile": 33.0
     },
     {
-      "id": "CVE-2025-40986",
-      "description": "Reflected Cross-Site Scripting (XSS) vulnerability in PideTuCita. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending him/her a malicious URL using the endpoint 'cookies/indes.php/<XSS>'. This vulnerability can be exploited to steal confidential user d",
-      "full_description": "Reflected Cross-Site Scripting (XSS) vulnerability in PideTuCita. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending him/her a malicious URL using the endpoint 'cookies/indes.php/<XSS>'. This vulnerability can be exploited to steal confidential user data, such as session cookies or to perform actions on behalf of the user.",
+      "id": "CVE-2026-2664",
+      "description": "An out of bounds read vulnerability in the grpcfuse kernel module present in the Linux VM in Docker Desktop for Windows, Linux and macOS up to version 4.61.0 could allow a local attacker to cause an unspecified impact by writing to /proc/docker entries. The issue has been fixed in Docker Desktop 4.6",
+      "full_description": "An out of bounds read vulnerability in the grpcfuse kernel module present in the Linux VM in Docker Desktop for Windows, Linux and macOS up to version 4.61.0 could allow a local attacker to cause an unspecified impact by writing to /proc/docker entries. The issue has been fixed in Docker Desktop 4.62.0 .",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-23T11:16:20.910",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40986",
+      "published": "2026-02-24T10:16:03.090",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2664",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00015,
-      "epss_percentile": 3.0
+      "epss_score": 0.00014,
+      "epss_percentile": 2.5
     },
     {
-      "id": "CVE-2026-23694",
-      "description": "Aruba HiSpeed Cache (aruba-hispeed-cache) WordPress plugin versions prior to 3.0.5 contain a cross-site request forgery (CSRF) vulnerability affecting multiple administrative AJAX actions. The handlers for ahsc_reset_options, ahsc_debug_status, and ahsc_enable_purge perform authentication and capabi",
-      "full_description": "Aruba HiSpeed Cache (aruba-hispeed-cache) WordPress plugin versions prior to 3.0.5 contain a cross-site request forgery (CSRF) vulnerability affecting multiple administrative AJAX actions. The handlers for ahsc_reset_options, ahsc_debug_status, and ahsc_enable_purge perform authentication and capability checks but do not verify a WordPress nonce for state-changing requests. An attacker can induce a logged-in administrator to visit a malicious webpage that submits forged requests to admin-ajax.php, resulting in unauthorized resetting of plugin settings, toggling of the WordPress WP_DEBUG configuration, or modification of cache purging behavior without the administrator’s intent.",
+      "id": "CVE-2025-27555",
+      "description": "Airflow versions before 2.11.1 have a vulnerability that allows authenticated users with audit log access to see sensitive values in audit logs which they should not see. When sensitive connection parameters were set via airflow CLI, values of those variables appeared in the audit log and were store",
+      "full_description": "Airflow versions before 2.11.1 have a vulnerability that allows authenticated users with audit log access to see sensitive values in audit logs which they should not see. When sensitive connection parameters were set via airflow CLI, values of those variables appeared in the audit log and were stored unencrypted in the Airflow database. While this risk is limited to users with audit log access, it is recommended to upgrade to Airflow 2.11.1 or a later version, which addresses this issue. Users who previously used the CLI to set connections should manually delete entries with those connection sensitive values from the log table. This is similar but not the same issue as CVE-2024-50378",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "products": [
+        "apache/airflow"
+      ],
+      "published": "2026-02-24T10:16:02.917",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27555",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00034,
+      "epss_percentile": 9.6
+    },
+    {
+      "id": "CVE-2025-11165",
+      "description": "A sandbox escape vulnerability exists in dotCMS’s Velocity scripting engine (VTools) that allows authenticated users with scripting privileges to bypass class and package restrictions enforced by SecureUberspectorImpl.\n\nBy dynamically modifying the Velocity engine’s runtime configuration and reiniti",
+      "full_description": "A sandbox escape vulnerability exists in dotCMS’s Velocity scripting engine (VTools) that allows authenticated users with scripting privileges to bypass class and package restrictions enforced by SecureUberspectorImpl.\n\nBy dynamically modifying the Velocity engine’s runtime configuration and reinitializing its Uberspect, a malicious actor can remove the introspector.restrict.classes and introspector.restrict.packages protections.\n\nOnce these restrictions are cleared, the attacker can access arbitrary Java classes, including java.lang.Runtime, and execute arbitrary system commands under the privileges of the application process (e.g. dotCMS or Tomcat user).",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-23T21:19:10.377",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23694",
+      "published": "2026-02-24T09:16:12.310",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11165",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00031,
-      "epss_percentile": 8.7
+      "epss_score": 0.00047,
+      "epss_percentile": 14.3
     }
-  ],
-  "featured_cve": {
-    "id": "CVE-2026-23693",
-    "description": "ElementsKit Elementor Addons – Advanced Widgets & Templates Addons for Elementor (elementskit-lite) WordPress plugin versions prior to 3.7.9 expose the REST endpoint /wp-json/elementskit/v1/widget/mailchimp/subscribe without authentication. The endpoint accepts client-supplied Mailchimp API credenti",
-    "full_description": "ElementsKit Elementor Addons – Advanced Widgets & Templates Addons for Elementor (elementskit-lite) WordPress plugin versions prior to 3.7.9 expose the REST endpoint /wp-json/elementskit/v1/widget/mailchimp/subscribe without authentication. The endpoint accepts client-supplied Mailchimp API credentials and insufficiently validates certain parameters, including the list parameter, when constructing upstream Mailchimp API requests. An unauthenticated attacker can abuse the endpoint as an open proxy to Mailchimp, potentially triggering unauthorized API calls, manipulating subscription data, exhausting API quotas, or causing resource consumption on the affected WordPress site.",
-    "severity": "CRITICAL",
-    "score": 10.0,
-    "products": [],
-    "published": "2026-02-23T21:19:10.157",
-    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23693",
-    "related_posts": [],
-    "cisa_kev": false,
-    "epss_score": 0.00149,
-    "epss_percentile": 35.4
-  }
+  ]
 }
