@@ -63,11 +63,15 @@ def update_direct_articles_data():
                 link = (entry.get("link") or "").strip()
                 if not title or not link:
                     continue
+                summary = (entry.get("summary") or entry.get("description") or "").strip()
+                if summary:
+                    summary = re.sub(r"<[^>]+>", "", summary).strip()[:200]
                 articles.append({
                     "title": title,
                     "url": link,
                     "date": _parse_feed_date(entry).strftime("%Y-%m-%d"),
                     "source": name,
+                    "description": summary,
                 })
         except Exception as e:
             print(f"   Direct feed {name}: {e}")
