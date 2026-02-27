@@ -24,9 +24,9 @@ layout: base
       <div class="hero-meta">
         <span class="post-date">{{ hero.date | date: date_format }}</span>
         {%- if hero.niche_subniche -%}
-          <span class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_subniche }}</span>
+          <a href="/niche/{{ hero.niche_category }}/" class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_subniche }}</a>
         {%- elsif hero.niche_category -%}
-          <span class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_category }}</span>
+          <a href="/niche/{{ hero.niche_category }}/" class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_category }}</a>
         {%- endif -%}
         {%- if hero.source -%}
           <span class="hero-source">{{ hero.source }}</span>
@@ -63,9 +63,9 @@ layout: base
           <div class="post-list-meta">
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             {%- if post.niche_subniche -%}
-              <span class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_subniche }}</span>
+              <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_subniche }}</a>
             {%- elsif post.niche_category -%}
-              <span class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_category }}</span>
+              <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_category }}</a>
             {%- endif -%}
           </div>
           <h3>

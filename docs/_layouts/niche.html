@@ -1,0 +1,113 @@
+---
+layout: base
+---
+
+<style>
+.niche-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.niche-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+.niche-header .niche-chip {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.niche-header p {
+  color: #666;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.post-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.post-item:hover { border-color: #ccc; }
+.post-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.post-title a { color: #111; text-decoration: none; }
+.post-title a:hover { color: #0066cc; }
+.post-meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+.post-preview {
+  color: #444;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0;
+  line-height: 1.5;
+}
+.niche-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #fff;
+}
+.niche-badge--ai { background: #7c3aed; }
+.niche-badge--security { background: #dc2626; }
+.niche-badge--cloud { background: #0284c7; }
+.niche-badge--devtools { background: #059669; }
+.niche-badge--software-engineering { background: #d97706; }
+</style>
+
+{% assign niche = page.niche %}
+{% assign post_count = 0 %}
+{% for post in site.posts %}
+  {% if post.niche_category == niche %}
+    {% assign post_count = post_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<div class="niche-header">
+  <span class="niche-chip niche-badge--{{ niche }}">{{ page.niche_label }}</span>
+  <h1>{{ page.niche_label }}</h1>
+  <p>{{ post_count }} article{% if post_count != 1 %}s{% endif %}</p>
+</div>
+
+{% if post_count == 0 %}
+<p>No articles found for this niche.</p>
+{% else %}
+{% for post in site.posts %}
+  {% if post.niche_category == niche %}
+<article class="post-item">
+  <h2 class="post-title">
+    {% if post.external_url %}
+    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title | escape }}</a>
+    {% else %}
+    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    {% endif %}
+  </h2>
+  <div class="post-meta">
+    {{ post.date | date: "%b %d, %Y" }}
+    {% if post.source %} · {{ post.source }}{% endif %}
+    {% if post.niche_subniche %}
+      · <span class="niche-badge niche-badge--{{ niche }}">{{ post.niche_subniche }}</span>
+    {% endif %}
+  </div>
+  {% if post.description %}
+  <p class="post-preview">{{ post.description | truncate: 160 }}</p>
+  {% endif %}
+</article>
+  {% endif %}
+{% endfor %}
+{% endif %}

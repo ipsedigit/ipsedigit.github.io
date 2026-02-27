@@ -6,9 +6,9 @@ layout: base
   <header class="post-header">
     <div class="post-badges">
       {%- if page.niche_subniche -%}
-        <span class="niche-badge niche-{{ page.niche_category }}">{{ page.niche_subniche }}</span>
+        <a href="/niche/{{ page.niche_category }}/" class="niche-badge niche-{{ page.niche_category }}">{{ page.niche_subniche }}</a>
       {%- elsif page.niche_category -%}
-        <span class="niche-badge niche-{{ page.niche_category }}">{{ page.niche_category }}</span>
+        <a href="/niche/{{ page.niche_category }}/" class="niche-badge niche-{{ page.niche_category }}">{{ page.niche_category }}</a>
       {%- endif -%}
       {%- if page.source -%}
         <span class="post-source-label">{{ page.source }}</span>

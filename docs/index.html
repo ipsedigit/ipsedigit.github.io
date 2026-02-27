@@ -165,7 +165,7 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
     {{ post.date | date: "%b %d, %Y" }}
     {% if post.source %} · {{ post.source }}{% endif %}
     {% if post.niche_category %}
-      · <span class="niche-badge niche-badge--{{ post.niche_category }}">{{ post.niche_category }}</span>
+      · <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-badge--{{ post.niche_category }}">{{ post.niche_category }}</a>
     {% endif %}
     {% if post.categories.size > 0 %}
     · <span class="post-tags">
