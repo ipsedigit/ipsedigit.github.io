@@ -263,6 +263,7 @@ def extract_entries(feed, source):
             'link': link,
             'source': source['name'],
             'source_type': source['type'],
+            'source_boost': source.get('score_boost', 0),
             'tags': tags,
             'community_score': community_score,
         })
@@ -303,6 +304,9 @@ def calculate_score(entry, source):
     elif source_type == 'community':
         score += 10
     # 'news' and 'aggregator' types: rely on community score or title patterns
+
+    # Per-source boost
+    score += entry.get('source_boost', 0)
 
     # Niche bonus
     cat = entry.get('_category') or identify_category(entry)
