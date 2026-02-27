@@ -182,14 +182,20 @@ permalink: /bootleg/
     {% unless seen_sources contains src %}
       {% assign seen_sources = seen_sources | append: src | append: "|" %}
       {% assign src_slug = src | slugify %}
-      <a class="source-badge source-badge--{{ src_slug }}" data-filter="{{ src_slug }}">{{ src }}</a>
+      <a class="source-badge source-badge--{{ src_slug }}" href="#{{ src_slug }}" data-filter="{{ src_slug }}">{{ src }}</a>
     {% endunless %}
   {% endfor %}
 </div>
 
+{% assign anchored_sources = "" %}
 {% for art in site.data.bootleg_articles.articles offset:1 %}
 {% assign src_slug = art.source | slugify %}
+{% unless anchored_sources contains src_slug %}
+{% assign anchored_sources = anchored_sources | append: src_slug | append: "|" %}
+<article class="post-item bootleg-article" id="{{ src_slug }}" data-source="{{ src_slug }}">
+{% else %}
 <article class="post-item bootleg-article" data-source="{{ src_slug }}">
+{% endunless %}
   <h2 class="post-title">
     <a href="{{ art.url }}" target="_blank" rel="noopener">{{ art.title | escape }}</a>
   </h2>
@@ -231,11 +237,6 @@ permalink: /bootleg/
   var hero = document.querySelector('.bootleg-hero');
   var active = null;
 
-  function applyHash() {
-    var h = location.hash.replace('#', '');
-    if (h) toggle(h); else showAll();
-  }
-
   function toggle(slug) {
     if (active === slug) { showAll(); return; }
     active = slug;
@@ -253,27 +254,13 @@ permalink: /bootleg/
     articles.forEach(function(a) { a.classList.remove('hidden'); });
     if (hero) hero.style.display = '';
     filters.querySelectorAll('.source-badge').forEach(function(b) { b.classList.remove('active'); });
-    history.replaceState(null, '', location.pathname);
   }
 
   filters.addEventListener('click', function(e) {
     var btn = e.target.closest('[data-filter]');
     if (!btn) return;
     e.preventDefault();
-    var slug = btn.getAttribute('data-filter');
-    if (active === slug) showAll();
-    else { location.hash = slug; toggle(slug); }
+    toggle(btn.getAttribute('data-filter'));
   });
-
-  document.querySelectorAll('.post-meta .source-badge').forEach(function(a) {
-    a.addEventListener('click', function(e) {
-      e.preventDefault();
-      var slug = this.classList.toString().match(/source-badge--([^\s]+)/);
-      if (slug) { location.hash = slug[1]; toggle(slug[1]); }
-    });
-  });
-
-  applyHash();
-  window.addEventListener('hashchange', applyHash);
 })();
 </script>
