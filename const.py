@@ -457,7 +457,7 @@ NEWS_SOURCES = {
         'score_boost': 20,
     },
 
-    # --- TIER 9: Indie — personal blogs by individual developers ---
+    # --- TIER 9: Bootleg — personal blogs by individual developers ---
     'juliaevans': {
         'name': 'Julia Evans',
         'feed_url': 'https://jvns.ca/atom.xml',
