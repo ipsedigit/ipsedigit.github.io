@@ -1,0 +1,111 @@
+{
+  "snapshots": {
+    "2026-02-27": {
+      "repos": {
+        "2dust/v2rayNG": {
+          "stars": 51458,
+          "forks": 6978
+        },
+        "square/okhttp": {
+          "stars": 46905,
+          "forks": 9266
+        },
+        "android/architecture-samples": {
+          "stars": 45585,
+          "forks": 11863
+        },
+        "shadowsocks/shadowsocks-android": {
+          "stars": 36659,
+          "forks": 11539
+        },
+        "gkd-kit/gkd": {
+          "stars": 36338,
+          "forks": 1766
+        },
+        "square/leakcanary": {
+          "stars": 29900,
+          "forks": 3982
+        },
+        "kavishdevar/librepods": {
+          "stars": 25571,
+          "forks": 1379
+        },
+        "JunkFood02/Seal": {
+          "stars": 24830,
+          "forks": 1072
+        },
+        "pppscn/SmsForwarder": {
+          "stars": 24687,
+          "forks": 3136
+        },
+        "CymChad/BaseRecyclerViewAdapterHelper": {
+          "stars": 24622,
+          "forks": 5202
+        },
+        "android/compose-samples": {
+          "stars": 22919,
+          "forks": 5388
+        },
+        "google/iosched": {
+          "stars": 21725,
+          "forks": 6125
+        },
+        "android/nowinandroid": {
+          "stars": 20671,
+          "forks": 4212
+        },
+        "afollestad/material-dialogs": {
+          "stars": 19636,
+          "forks": 3095
+        },
+        "MatsuriDayo/NekoBoxForAndroid": {
+          "stars": 18956,
+          "forks": 1494
+        },
+        "JetBrains/compose-multiplatform": {
+          "stars": 18847,
+          "forks": 1391
+        },
+        "mihonapp/mihon": {
+          "stars": 18799,
+          "forks": 966
+        },
+        "google/flexbox-layout": {
+          "stars": 18354,
+          "forks": 1806
+        },
+        "Kotlin/anko": {
+          "stars": 15814,
+          "forks": 1276
+        },
+        "open-ani/animeko": {
+          "stars": 15600,
+          "forks": 393
+        },
+        "T8RIN/ImageToolbox": {
+          "stars": 11872,
+          "forks": 517
+        },
+        "skydoves/android-developer-roadmap": {
+          "stars": 7709,
+          "forks": 725
+        },
+        "MetrolistGroup/Metrolist": {
+          "stars": 6977,
+          "forks": 378
+        },
+        "OuterTune/OuterTune": {
+          "stars": 4702,
+          "forks": 260
+        },
+        "MM2-0/Kvaesitso": {
+          "stars": 4345,
+          "forks": 202
+        }
+      }
+    }
+  },
+  "featured_repos": {
+    "2dust/v2rayNG": "2026-02-27"
+  }
+}
