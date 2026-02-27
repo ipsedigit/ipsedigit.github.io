@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-02-26 21:52:18 UTC",
+  "generated_at": "2026-02-27 09:06:31 UTC",
   "featured_model": {
-    "model_id": "deepseek-ai/DeepSeek-R1",
-    "author": "deepseek-ai",
-    "downloads": 768096,
-    "likes": 13023,
-    "pipeline_tag": "text-generation",
-    "category": "Language Model",
+    "model_id": "Tongyi-MAI/Z-Image-Turbo",
+    "author": "Tongyi-MAI",
+    "downloads": 1059187,
+    "likes": 4169,
+    "pipeline_tag": "text-to-image",
+    "category": "Image Generation",
     "tags": [
-      "transformers",
+      "diffusers",
       "safetensors",
-      "deepseek_v3",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "arxiv:2501.12948",
-      "license:mit",
-      "eval-results",
-      "text-generation-inference"
+      "text-to-image",
+      "en",
+      "arxiv:2511.22699",
+      "arxiv:2511.22677",
+      "arxiv:2511.13649",
+      "license:apache-2.0",
+      "diffusers:ZImagePipeline",
+      "deploy:azure"
     ],
-    "created_at": "2025-01-20",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "created_at": "2025-11-25",
+    "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
     "related_posts": [],
-    "like_delta": 0
+    "like_delta": 6
   },
   "trending": [
     {
       "model_id": "deepseek-ai/DeepSeek-R1",
       "author": "deepseek-ai",
-      "downloads": 768096,
-      "likes": 13023,
+      "downloads": 830553,
+      "likes": 13042,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -47,13 +47,13 @@
       "created_at": "2025-01-20",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 19
     },
     {
       "model_id": "black-forest-labs/FLUX.1-dev",
       "author": "black-forest-labs",
-      "downloads": 704561,
-      "likes": 12354,
+      "downloads": 728193,
+      "likes": 12356,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -71,13 +71,13 @@
       "created_at": "2024-07-31",
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 2
     },
     {
       "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
       "author": "stabilityai",
-      "downloads": 2089773,
-      "likes": 7482,
+      "downloads": 2156024,
+      "likes": 7486,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -95,12 +95,12 @@
       "created_at": "2023-07-25",
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 4
     },
     {
       "model_id": "CompVis/stable-diffusion-v1-4",
       "author": "CompVis",
-      "downloads": 583587,
+      "downloads": 596170,
       "likes": 6979,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
@@ -124,8 +124,8 @@
     {
       "model_id": "meta-llama/Meta-Llama-3-8B",
       "author": "meta-llama",
-      "downloads": 1932499,
-      "likes": 6468,
+      "downloads": 2102140,
+      "likes": 6470,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -143,13 +143,13 @@
       "created_at": "2024-04-17",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 2
     },
     {
       "model_id": "hexgrad/Kokoro-82M",
       "author": "hexgrad",
-      "downloads": 9582366,
-      "likes": 5763,
+      "downloads": 9822931,
+      "likes": 5768,
       "pipeline_tag": "text-to-speech",
       "category": "Speech",
       "tags": [
@@ -166,12 +166,12 @@
       "created_at": "2024-12-26",
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 5
     },
     {
       "model_id": "meta-llama/Llama-3.1-8B-Instruct",
       "author": "meta-llama",
-      "downloads": 6267408,
+      "downloads": 6505143,
       "likes": 5496,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -195,8 +195,8 @@
     {
       "model_id": "openai/whisper-large-v3",
       "author": "openai",
-      "downloads": 5917182,
-      "likes": 5422,
+      "downloads": 6043056,
+      "likes": 5426,
       "pipeline_tag": "automatic-speech-recognition",
       "category": "Speech",
       "tags": [
@@ -213,13 +213,18 @@
       ],
       "created_at": "2023-11-07",
       "url": "https://huggingface.co/openai/whisper-large-v3",
-      "related_posts": [],
-      "like_delta": 0
+      "related_posts": [
+        {
+          "title": "The Architecture Behind Atlas: OpenAI’s New ChatGPT-based Browser",
+          "url": "/2026/02/27/top-tech-news-89f38511-13af-11f1-94bc-7ced8de13462.html"
+        }
+      ],
+      "like_delta": 4
     },
     {
       "model_id": "bigscience/bloom",
       "author": "bigscience",
-      "downloads": 3639,
+      "downloads": 3793,
       "likes": 4985,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -243,7 +248,7 @@
     {
       "model_id": "stabilityai/stable-diffusion-3-medium",
       "author": "stabilityai",
-      "downloads": 7100,
+      "downloads": 8116,
       "likes": 4909,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
@@ -264,8 +269,8 @@
     {
       "model_id": "meta-llama/Llama-2-7b-chat-hf",
       "author": "meta-llama",
-      "downloads": 308888,
-      "likes": 4712,
+      "downloads": 322287,
+      "likes": 4714,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -283,13 +288,13 @@
       "created_at": "2023-07-13",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 2
     },
     {
       "model_id": "black-forest-labs/FLUX.1-schnell",
       "author": "black-forest-labs",
-      "downloads": 692192,
-      "likes": 4648,
+      "downloads": 709667,
+      "likes": 4649,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -307,12 +312,12 @@
       "created_at": "2024-07-31",
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
       "author": "mistralai",
-      "downloads": 698060,
+      "downloads": 730854,
       "likes": 4640,
       "pipeline_tag": "",
       "category": "Other",
@@ -336,8 +341,8 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "author": "openai",
-      "downloads": 3641876,
-      "likes": 4530,
+      "downloads": 3791158,
+      "likes": 4531,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -354,14 +359,19 @@
       ],
       "created_at": "2025-08-04",
       "url": "https://huggingface.co/openai/gpt-oss-120b",
-      "related_posts": [],
-      "like_delta": 0
+      "related_posts": [
+        {
+          "title": "The Architecture Behind Atlas: OpenAI’s New ChatGPT-based Browser",
+          "url": "/2026/02/27/top-tech-news-89f38511-13af-11f1-94bc-7ced8de13462.html"
+        }
+      ],
+      "like_delta": 1
     },
     {
       "model_id": "sentence-transformers/all-MiniLM-L6-v2",
       "author": "sentence-transformers",
-      "downloads": 175932611,
-      "likes": 4515,
+      "downloads": 181930424,
+      "likes": 4516,
       "pipeline_tag": "sentence-similarity",
       "category": "Embeddings",
       "tags": [
@@ -379,12 +389,12 @@
       "created_at": "2022-03-02",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "meta-llama/Llama-2-7b",
       "author": "meta-llama",
-      "downloads": 203,
+      "downloads": 212,
       "likes": 4451,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -408,7 +418,7 @@
     {
       "model_id": "openai/gpt-oss-20b",
       "author": "openai",
-      "downloads": 5870343,
+      "downloads": 6069244,
       "likes": 4404,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -426,14 +436,19 @@
       ],
       "created_at": "2025-08-04",
       "url": "https://huggingface.co/openai/gpt-oss-20b",
-      "related_posts": [],
+      "related_posts": [
+        {
+          "title": "The Architecture Behind Atlas: OpenAI’s New ChatGPT-based Browser",
+          "url": "/2026/02/27/top-tech-news-89f38511-13af-11f1-94bc-7ced8de13462.html"
+        }
+      ],
       "like_delta": 0
     },
     {
       "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "author": "meta-llama",
-      "downloads": 1264720,
-      "likes": 4386,
+      "downloads": 1305529,
+      "likes": 4387,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -451,13 +466,13 @@
       "created_at": "2024-04-17",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "Tongyi-MAI/Z-Image-Turbo",
       "author": "Tongyi-MAI",
-      "downloads": 1040104,
-      "likes": 4163,
+      "downloads": 1059187,
+      "likes": 4169,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -475,13 +490,13 @@
       "created_at": "2025-11-25",
       "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 6
     },
     {
       "model_id": "mistralai/Mistral-7B-v0.1",
       "author": "mistralai",
-      "downloads": 415166,
-      "likes": 4044,
+      "downloads": 438137,
+      "likes": 4045,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -499,13 +514,13 @@
       "created_at": "2023-09-20",
       "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "deepseek-ai/DeepSeek-V3",
       "author": "deepseek-ai",
-      "downloads": 1338853,
-      "likes": 4025,
+      "downloads": 1372411,
+      "likes": 4026,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -523,7 +538,7 @@
       "created_at": "2024-12-25",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "lllyasviel/ControlNet-v1-1",
@@ -544,8 +559,8 @@
     {
       "model_id": "WarriorMama777/OrangeMixs",
       "author": "WarriorMama777",
-      "downloads": 922,
-      "likes": 3890,
+      "downloads": 1019,
+      "likes": 3889,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -561,7 +576,7 @@
       "created_at": "2022-12-04",
       "url": "https://huggingface.co/WarriorMama777/OrangeMixs",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": -1
     },
     {
       "model_id": "lllyasviel/ControlNet",
@@ -582,7 +597,7 @@
     {
       "model_id": "deepseek-ai/Janus-Pro-7B",
       "author": "deepseek-ai",
-      "downloads": 32727,
+      "downloads": 34820,
       "likes": 3565,
       "pipeline_tag": "any-to-any",
       "category": "Other",
@@ -606,7 +621,7 @@
     {
       "model_id": "microsoft/phi-2",
       "author": "microsoft",
-      "downloads": 1528253,
+      "downloads": 1572183,
       "likes": 3426,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
@@ -630,7 +645,7 @@
     {
       "model_id": "coqui/XTTS-v2",
       "author": "coqui",
-      "downloads": 7633211,
+      "downloads": 7807053,
       "likes": 3407,
       "pipeline_tag": "text-to-speech",
       "category": "Speech",
@@ -648,8 +663,8 @@
     {
       "model_id": "stabilityai/stable-diffusion-3.5-large",
       "author": "stabilityai",
-      "downloads": 42982,
-      "likes": 3373,
+      "downloads": 43958,
+      "likes": 3374,
       "pipeline_tag": "text-to-image",
       "category": "Image Generation",
       "tags": [
@@ -666,13 +681,13 @@
       "created_at": "2024-10-22",
       "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
       "related_posts": [],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "google/gemma-7b",
       "author": "google",
-      "downloads": 110943,
-      "likes": 3275,
+      "downloads": 112803,
+      "likes": 3276,
       "pipeline_tag": "text-generation",
       "category": "Language Model",
       "tags": [
@@ -691,20 +706,20 @@
       "url": "https://huggingface.co/google/gemma-7b",
       "related_posts": [
         {
-          "title": "Conductor Update: Introducing Automated Reviews (2026)",
-          "url": "/2026/02/22/top-tech-news-fc54ee3e-1024-11f1-8951-7ced8d233f72.html"
-        },
-        {
           "title": "Conductor: Introducing context-driven development for Gemini CLI",
           "url": "/2026/02/23/top-tech-news-fef47f86-10b7-11f1-8951-000d3a37d8d7.html"
+        },
+        {
+          "title": "Conductor Update: Introducing Automated Reviews (2026)",
+          "url": "/2026/02/22/top-tech-news-fc54ee3e-1024-11f1-8951-7ced8d233f72.html"
         }
       ],
-      "like_delta": 0
+      "like_delta": 1
     },
     {
       "model_id": "stabilityai/stable-video-diffusion-img2vid-xt",
       "author": "stabilityai",
-      "downloads": 143887,
+      "downloads": 147636,
       "likes": 3236,
       "pipeline_tag": "image-to-video",
       "category": "Other",
