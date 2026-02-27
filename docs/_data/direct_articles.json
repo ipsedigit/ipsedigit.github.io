@@ -15,13 +15,6 @@
       "description": "In this article, we will look at what strong consistency actually means, how systems deliver it, and what it really costs."
     },
     {
-      "title": "Harness Engineering by OpenAI, Supabase Outage, CDC Approaches and Best Practices and more in Architecture Weekly #193",
-      "url": "https://softwarearchitectureweekly.substack.com/p/harness-engineering-by-openai-supabase",
-      "date": "2026-02-26",
-      "source": "Software Architecture Weekly",
-      "description": "Also: Database Federation at Uber, Heartbits in Distributed Systems, The new AI-driven SDLC and All Agentic Architectures."
-    },
-    {
       "title": "Mitchell Hashimoto\u2019s new way of writing code",
       "url": "https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto",
       "date": "2026-02-25",
@@ -34,13 +27,6 @@
       "date": "2026-02-25",
       "source": "ByteByteGo",
       "description": "In this article, we will look at what the algorithm does, how its components fit together, and why the xAI Engineering Team made the design choices they did."
-    },
-    {
-      "title": "Configuring OpenOCD for Embedded RISC-V Debugging",
-      "url": "https://howtech.substack.com/p/configuring-openocd-for-embedded",
-      "date": "2026-02-25",
-      "source": "How Tech",
-      "description": "Understanding the Challenge"
     },
     {
       "title": "The Future of Software Engineering with AI: Six Predictions",
@@ -64,25 +50,11 @@
       "description": "In this article, we&#8217;ll explore three core concepts that have a key impact on the working of LLM"
     },
     {
-      "title": "Debugging Race Conditions in C using Thread Sanitizers (TSAN)",
-      "url": "https://howtech.substack.com/p/debugging-race-conditions-in-c-using",
-      "date": "2026-02-23",
-      "source": "How Tech",
-      "description": "The Problem: Races Hide Until They Don&#8217;t"
-    },
-    {
       "title": "EP203: RabbitMQ vs Kafka vs Pulsar",
       "url": "https://blog.bytebytego.com/p/ep203-rabbitmq-vs-kafka-vs-pulsar",
       "date": "2026-02-21",
       "source": "ByteByteGo",
       "description": "RabbitMQ, Kafka, and Pulsar all move messages, but they solve very different problems under the hood."
-    },
-    {
-      "title": "Using KUnit for Kernel Driver Unit Testing and Dependency Injection",
-      "url": "https://howtech.substack.com/p/using-kunit-for-kernel-driver-unit",
-      "date": "2026-02-21",
-      "source": "How Tech",
-      "description": "Testing kernel code used to mean loading your driver on real hardware and hoping it doesn&#8217;t panic the system."
     },
     {
       "title": "LAST CALL FOR ENROLLMENT: Become an AI Engineer - Cohort 4",
@@ -104,13 +76,6 @@
       "date": "2026-02-19",
       "source": "ByteByteGo",
       "description": "In this article, we will look at what eventual consistency is, why it exists, how to control it, and how to handle the challenges it creates."
-    },
-    {
-      "title": "Profiling User-Space Applications with perf and DWARF Debug Info",
-      "url": "https://howtech.substack.com/p/profiling-user-space-applications",
-      "date": "2026-02-19",
-      "source": "How Tech",
-      "description": "You&#8217;re staring at a latency spike at 2 AM."
     },
     {
       "title": "Notes on clarifying man pages",
@@ -148,13 +113,6 @@
       "description": "Cut Code Review Time & Bugs in Half (Sponsored)"
     },
     {
-      "title": "Mastering Symbol Versioning for Backward Compatibility in Libraries",
-      "url": "https://howtech.substack.com/p/mastering-symbol-versioning-for-backward",
-      "date": "2026-02-17",
-      "source": "How Tech",
-      "description": "Understanding the Problem"
-    },
-    {
       "title": "How OpenAI Scaled to 800 Million Users With Postgres",
       "url": "https://blog.bytebytego.com/p/how-openai-scaled-to-800-million",
       "date": "2026-02-16",
@@ -162,25 +120,11 @@
       "description": "In this article, we will look at the challenges OpenAI faced while scaling Postgres and how the team handled the various scenarios."
     },
     {
-      "title": "Creating a Minimal Static Binary for Container Environments",
-      "url": "https://howtech.substack.com/p/creating-a-minimal-static-binary",
-      "date": "2026-02-15",
-      "source": "How Tech",
-      "description": "Last month, our Kubernetes cluster was spending 40 seconds pulling a 200MB container image for a service that&#8217;s essentially a 50-line C program."
-    },
-    {
       "title": "EP202: MCP vs RAG vs AI Agents",
       "url": "https://blog.bytebytego.com/p/ep202-mcp-vs-rag-vs-ai-agents",
       "date": "2026-02-14",
       "source": "ByteByteGo",
       "description": "Everyone is talking about MCP, RAG, and AI Agents. Most people are still mixing them up."
-    },
-    {
-      "title": "Analyzing Binary Dependencies and Symbols: What nm and objdump Actually Tell You",
-      "url": "https://howtech.substack.com/p/analyzing-binary-dependencies-and",
-      "date": "2026-02-13",
-      "source": "How Tech",
-      "description": "Understanding how programs find and connect to their dependencies at runtime is one of those skills that separates someone who can write code from someone who can debug production systems."
     },
     {
       "title": "The programming language after Kotlin \u2013 with the creator of Kotlin",
@@ -204,20 +148,6 @@
       "description": "In this article, we learn how the OpenAI Engineering Team built OWL and the technical challenges they faced around rendering and inter-process communication."
     },
     {
-      "title": "How to Sell a Technology to Your CTO",
-      "url": "https://softwarearchitectureweekly.substack.com/p/how-to-sell-a-technology-to-your",
-      "date": "2026-02-11",
-      "source": "Software Architecture Weekly",
-      "description": "Without Getting Laughed Out of the Room"
-    },
-    {
-      "title": "Building Extensible Systems using Dynamically Loadable Modules",
-      "url": "https://howtech.substack.com/p/building-extensible-systems-using",
-      "date": "2026-02-11",
-      "source": "How Tech",
-      "description": "The Problem Every System Eventually Faces"
-    },
-    {
       "title": "Steve Yegge on AI Agents and the Future of Software Engineering",
       "url": "https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the",
       "date": "2026-02-10",
@@ -239,34 +169,6 @@
       "description": "This article walks through what it takes to ship a production-ready AI assistant using Yelp Assistant on business pages as a concrete case study."
     },
     {
-      "title": "The Great Software Quality Collapse, Unconventional PostgreSQL Optimizations, Explicit Architecture and more in Architecture Weekly #192.",
-      "url": "https://softwarearchitectureweekly.substack.com/p/the-great-software-quality-collapse",
-      "date": "2026-02-09",
-      "source": "Software Architecture Weekly",
-      "description": "Modernizing MySQL with TiDB at Bolt, a Spreadsheet Engine from Scratch, Without Benchmarking LLMs, You&#8217;re Overpaying and Marc Brooker's take on the current position of Software Engineering."
-    },
-    {
-      "title": "Setting up a Minimal C Development Environment for Kernel Module Building",
-      "url": "https://howtech.substack.com/p/setting-up-a-minimal-c-development",
-      "date": "2026-02-09",
-      "source": "How Tech",
-      "description": "You&#8217;ve compiled thousands of C programs."
-    },
-    {
-      "title": "Implementing Zero-Copy I/O using sendfile and splice for Network Services",
-      "url": "https://howtech.substack.com/p/implementing-zero-copy-io-using-sendfile",
-      "date": "2026-02-07",
-      "source": "How Tech",
-      "description": "The naive approach to serving files over a network burns CPU cycles copying the same bytes multiple times."
-    },
-    {
-      "title": "Debugging System Call Failures with strace and ltrace: Advanced Filtering That Actually Works",
-      "url": "https://howtech.substack.com/p/debugging-system-call-failures-with",
-      "date": "2026-02-05",
-      "source": "How Tech",
-      "description": "You&#8217;re staring at logs showing &#8220;connection refused&#8221; but netstat says the port is listening."
-    },
-    {
       "title": "The third golden age of software engineering \u2013 thanks to AI, with Grady Booch",
       "url": "https://newsletter.pragmaticengineer.com/p/the-third-golden-age-of-software",
       "date": "2026-02-04",
@@ -274,32 +176,11 @@
       "description": "I sit down with Grady Booch to put today&#8217;s AI automation claims in historical context and explain why software engineering is entering another golden age, not disappearing."
     },
     {
-      "title": "Enterprise-grade data source integration at Supplied AI",
-      "url": "https://softwarearchitectureweekly.substack.com/p/enterprise-grade-data-source-integration",
-      "date": "2026-02-04",
-      "source": "Software Architecture Weekly",
-      "description": "Our clients use a wide range of systems from wide-known systems like Salesforce to niche CRMs like Booking Experts and AFAS to mere MySQL databases. Find out our journey of connection 700+ sources."
-    },
-    {
       "title": "Deepdive: How 10 tech companies choose the next generation of dev tools",
       "url": "https://newsletter.pragmaticengineer.com/p/measuring-ai-dev-tools",
       "date": "2026-02-03",
       "source": "The Pragmatic Engineer",
       "description": "Tech businesses from seed-stage startups to publicly-listed companies reveal how they select and roll out next-generation IDEs, CLIs and code review tools. And how they learn which ones work&#8230; an"
-    },
-    {
-      "title": "Handling Process Signals Safely in Rust/C Interoperability",
-      "url": "https://howtech.substack.com/p/handling-process-signals-safely-in",
-      "date": "2026-02-03",
-      "source": "How Tech",
-      "description": "Understanding the Problem"
-    },
-    {
-      "title": "Writing Custom Linux System Calls: A Complete Guide",
-      "url": "https://howtech.substack.com/p/writing-custom-linux-system-calls",
-      "date": "2026-02-01",
-      "source": "How Tech",
-      "description": "Understanding the Syscall Mechanism"
     },
     {
       "title": "The Sitdown: Types of DRAM and the DRAM Shortage",
@@ -314,13 +195,6 @@
       "date": "2026-01-29",
       "source": "The Pragmatic Engineer",
       "description": "Also: AI agents keep changing engineers&#8217; working styles, layoffs at big and profitable companies, &#8220;AI-native&#8221; techies increasingly in demand, and more"
-    },
-    {
-      "title": "Analyzing I/O Wait Latency with Ftrace and Block Tracing",
-      "url": "https://howtech.substack.com/p/analyzing-io-wait-latency-with-ftrace",
-      "date": "2026-01-29",
-      "source": "How Tech",
-      "description": "Your application is slow."
     },
     {
       "title": "The creator of Clawd: \"I ship code I don't read\"",
@@ -351,20 +225,6 @@
       "description": "Answers to questions from the last Q&amp;A thread."
     },
     {
-      "title": "Scaling Postgres at OpenAI, Building Effective AI Agents, The rise of industrial software and more in Architecture Weekly #191",
-      "url": "https://softwarearchitectureweekly.substack.com/p/scaling-postgres-at-openai-building",
-      "date": "2026-01-27",
-      "source": "Software Architecture Weekly",
-      "description": "Also: Holistic Engineering for organic problem solving, Distributed Cache Invalidation with Redis and HybridCache, Operational Maturity is a must now, Foundation vs Instruct vs Thinking Models."
-    },
-    {
-      "title": "Post-Mortem Analysis: Core Dump Generation and Inspection in High-Availability Systems",
-      "url": "https://howtech.substack.com/p/post-mortem-analysis-core-dump-generation",
-      "date": "2026-01-25",
-      "source": "How Tech",
-      "description": "Your service just segfaulted at 3 AM."
-    },
-    {
       "title": "The Pulse #160: Why it\u2019s so dramatic that \u201cwriting code by hand is dead\u201d",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-160-why-its-so-dramatic",
       "date": "2026-01-22",
@@ -377,13 +237,6 @@
       "date": "2026-01-21",
       "source": "The Pragmatic Engineer",
       "description": "A behind-the-scenes look at how Amazon S3 is designed for durability and correctness at massive scale, drawing on over a decade of operating one of the world&#8217;s largest distributed systems with M"
-    },
-    {
-      "title": "Architecture Weekly #190",
-      "url": "https://softwarearchitectureweekly.substack.com/p/architecture-weekly-190",
-      "date": "2026-01-14",
-      "source": "Software Architecture Weekly",
-      "description": "Databases in 2025, Uber's Delivery Search Platform, LLMs for Software Architecture Diagrams and many more!"
     },
     {
       "title": "A data model for Git (and other docs updates)",
@@ -400,13 +253,6 @@
       "description": "Please put the \"root\" back into \"root cause analysis\"."
     },
     {
-      "title": "Architecture Attributes Testing",
-      "url": "https://softwarearchitectureweekly.substack.com/p/architecture-attributes-testing",
-      "date": "2026-01-05",
-      "source": "Software Architecture Weekly",
-      "description": "How do you test Non-Functional requirements? How to ensure the system fulfils all of them? Holistic approach to NFR testing inside."
-    },
-    {
       "title": "Dead Code Elimination Prevention Macros",
       "url": "https://www.computerenhance.com/p/dead-code-elimination-prevention",
       "date": "2025-12-29",
@@ -414,53 +260,11 @@
       "description": "Watch now (26 mins) | This is the eighth video in Part 5 of the Performance-Aware Programming series."
     },
     {
-      "title": "My 2025 in Review",
-      "url": "https://softwarearchitectureweekly.substack.com/p/my-2025-in-review",
-      "date": "2025-12-29",
-      "source": "Software Architecture Weekly",
-      "description": "Personal Projects, Travel and of course work results in 2025."
-    },
-    {
       "title": "Q&A #81 (2025-12-22)",
       "url": "https://www.computerenhance.com/p/q-and-a-81-2025-12-22",
       "date": "2025-12-23",
       "source": "Computer, Enhance!",
       "description": "Answers to questions from the last Q&amp;A thread."
-    },
-    {
-      "title": "Cloudflare Outage Again, Top 5 Engineering Lessons from Replicating Postgres RDS, Durable Lambda Functions. Architecture Weekly #189",
-      "url": "https://softwarearchitectureweekly.substack.com/p/cloudflare-outage-again-top-5-engineering",
-      "date": "2025-12-15",
-      "source": "Software Architecture Weekly",
-      "description": "LLM Evals for engineers, Serverless Sales Analytics Platform, Single Machine Max Request Handling, Cursor migrated CMS to code."
-    },
-    {
-      "title": "Cloudflare Outage, Reward Hacking for LLMs, Ubers Multi-Cloud Secrets. Architecture Weekly #188",
-      "url": "https://softwarearchitectureweekly.substack.com/p/cloudflare-outage-reward-hacking",
-      "date": "2025-12-01",
-      "source": "Software Architecture Weekly",
-      "description": "Also: AWS Lambda Managed Instances, AI Agents with Temporal, Structured Logging, Billions of Emojis and Outbox pattern."
-    },
-    {
-      "title": "The Core of Modern Software Architecture, The Write Last, Read First Rule, Coding by Parallel AI Agents. Architecture Weekly #187",
-      "url": "https://softwarearchitectureweekly.substack.com/p/the-core-of-modern-software-architecture",
-      "date": "2025-11-18",
-      "source": "Software Architecture Weekly",
-      "description": "Fraud Checkpoints at Bolt, Guardrails for LLMs, Race Condition in Aurora RDS, Lambda-to-Lambda calls and picking an IaC solution"
-    },
-    {
-      "title": "How Complex Systems Fail, Replication Redefined at Datadog, Taurus Database. Architecture Weekly #186",
-      "url": "https://softwarearchitectureweekly.substack.com/p/how-complex-systems-fail-replication",
-      "date": "2025-11-10",
-      "source": "Software Architecture Weekly",
-      "description": "Also What Competitive Gaming Taught me about Business, Taxonomy of AI Agents, Moving Tables across PostgreSQL, Architecture Debt is not purely technical and How AI Transformed Infrastructure at Suppli"
-    },
-    {
-      "title": "How AI transformed our Infrastructure at Supplied AI",
-      "url": "https://softwarearchitectureweekly.substack.com/p/how-ai-transformed-our-infrastructure",
-      "date": "2025-11-07",
-      "source": "Software Architecture Weekly",
-      "description": "Approaches to using AI for infra, prompting techniques and lessons learned at Supplied."
     },
     {
       "title": "Our Nemesis Returns",
@@ -475,27 +279,6 @@
       "date": "2025-11-01",
       "source": "Computer, Enhance!",
       "description": "Answers to questions from the last Q&amp;A thread."
-    },
-    {
-      "title": "What competitive gaming taught me about business",
-      "url": "https://softwarearchitectureweekly.substack.com/p/what-competitive-gaming-taught-me",
-      "date": "2025-10-31",
-      "source": "Software Architecture Weekly",
-      "description": "Competitive gaming is a lot like gaming: infinite game where fundamentals, learnings and taking care your physical and mental state are crucial."
-    },
-    {
-      "title": "The large AWS outage, 1 million nodes K8s cluster, Why I code as a CTO. Architecture Weekly #185",
-      "url": "https://softwarearchitectureweekly.substack.com/p/the-large-aws-outage-1-million-nodes",
-      "date": "2025-10-27",
-      "source": "Software Architecture Weekly",
-      "description": "Netflix logging storage with Clickhouse, Why Self-Host, GraphQL myths and many nire"
-    },
-    {
-      "title": "How I Lost My Domain Trying to Save $50",
-      "url": "https://indiedeveloperdiaries.substack.com/p/how-i-lost-my-domain-trying-to-save",
-      "date": "2025-10-27",
-      "source": "Indie Developer Diaries",
-      "description": "Indie Developer Log #12"
     },
     {
       "title": "Better Prevention of Dead Code Elimination - Or Is It?",
@@ -540,13 +323,6 @@
       "description": "After a few unpleasant weeks, there is a backlog of videos to post, and some news about future directions for Computer Enhance."
     },
     {
-      "title": "Better Onboarding, Better Revenue",
-      "url": "https://indiedeveloperdiaries.substack.com/p/better-onboarding-better-revenue",
-      "date": "2025-09-15",
-      "source": "Indie Developer Diaries",
-      "description": "Indie Developer Log #11"
-    },
-    {
       "title": "Reading CPU Diagrams",
       "url": "https://www.computerenhance.com/p/reading-cpu-diagrams",
       "date": "2025-08-20",
@@ -559,7 +335,196 @@
       "date": "2025-08-13",
       "source": "Computer, Enhance!",
       "description": "Carson Gross (the creator of HTMX) joins us to demo his new project, The Montana Mini-Computer, an imaginary retro architecture created to visually show the inner workings of a CPU."
+    },
+    {
+      "title": "My Cyber Rush Week Conversation with Josiah Stearns",
+      "url": "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
+      "date": "2025-07-24",
+      "source": "Computer, Enhance!",
+      "description": "This year I was invited to speak at a US Cyber Games event."
+    },
+    {
+      "title": "New zine: The Secret Rules of the Terminal",
+      "url": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/",
+      "date": "2025-06-26",
+      "source": "Julia Evans",
+      "description": "Hello! After many months of writing deep dive blog posts about the terminal, on\nTuesday I released a new zine called &ldquo;The Secret Rules of the Terminal&rdquo;!\nYou can get it for $12 here:\nhttps:"
+    },
+    {
+      "title": "Using `make` to compile C programs (for non-C-programmers)",
+      "url": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/",
+      "date": "2025-06-10",
+      "source": "Julia Evans",
+      "description": "I have never been a C programmer but every so often I need to compile a C/C++\nprogram from source. This has been kind of a struggle for me: for a\nlong time, my approach was basically &ldquo;install th"
+    },
+    {
+      "title": "Standards for ANSI escape codes",
+      "url": "https://jvns.ca/blog/2025/03/07/escape-code-standards/",
+      "date": "2025-03-07",
+      "source": "Julia Evans",
+      "description": "Hello! Today I want to talk about ANSI escape codes.\nFor a long time I was vaguely aware of ANSI escape codes (&ldquo;that&rsquo;s how you make\ntext red in the terminal and stuff&rdquo;) but I had no "
+    },
+    {
+      "title": "How to add a directory to your PATH",
+      "url": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/",
+      "date": "2025-02-13",
+      "source": "Julia Evans",
+      "description": "I was talking to a friend about how to add a directory to your PATH today. It&rsquo;s\nsomething that feels &ldquo;obvious&rdquo; to me since I&rsquo;ve been using the terminal for a\nlong time, but whe"
+    },
+    {
+      "title": "Some terminal frustrations",
+      "url": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/",
+      "date": "2025-02-05",
+      "source": "Julia Evans",
+      "description": "A few weeks ago I ran a terminal survey (you can read the results here) and at the end I asked:\n\nWhat\u2019s the most frustrating thing about using the terminal for you?\n\n1600 people answered, and I decide"
+    },
+    {
+      "title": "What's involved in getting a \"modern\" terminal setup?",
+      "url": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/",
+      "date": "2025-01-11",
+      "source": "Julia Evans",
+      "description": "Hello! Recently I ran a terminal survey and I asked people what frustrated\nthem. One person commented:\n\nThere are so many pieces to having a modern terminal experience. I wish it\nall came out of the b"
+    },
+    {
+      "title": "\"Rules\" that terminal programs follow",
+      "url": "https://jvns.ca/blog/2024/11/26/terminal-rules/",
+      "date": "2024-12-12",
+      "source": "Julia Evans",
+      "description": "Recently I&rsquo;ve been thinking about how everything that happens in the terminal\nis some combination of:\n\nYour operating system&rsquo;s job\nYour shell&rsquo;s job\nYour terminal emulator&rsquo;s job"
+    },
+    {
+      "title": "Why pipes sometimes get \"stuck\": buffering",
+      "url": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/",
+      "date": "2024-11-29",
+      "source": "Julia Evans",
+      "description": "Here&rsquo;s a niche terminal problem that has bothered me for years but that I never\nreally understood until a few weeks ago. Let&rsquo;s say you&rsquo;re running this command\nto watch for some speci"
+    },
+    {
+      "title": "Importing a frontend Javascript library without a build system",
+      "url": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/",
+      "date": "2024-11-18",
+      "source": "Julia Evans",
+      "description": "I like writing Javascript without a build system\nand for the millionth time yesterday I ran into a problem where I needed to\nfigure out how to import a Javascript library in my code without using a bu"
+    },
+    {
+      "title": "New microblog with TILs",
+      "url": "https://jvns.ca/blog/2024/11/09/new-microblog/",
+      "date": "2024-11-09",
+      "source": "Julia Evans",
+      "description": "I added a new section to this site a couple weeks ago called\nTIL (&ldquo;today I learned&rdquo;).\nthe goal: save interesting tools &amp; facts I posted on social media\nOne kind of thing I like to post"
+    },
+    {
+      "title": "ASCII control characters in my terminal",
+      "url": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/",
+      "date": "2024-10-31",
+      "source": "Julia Evans",
+      "description": "Hello! I&rsquo;ve been thinking about the terminal a lot and yesterday I got curious\nabout all these &ldquo;control codes&rdquo;, like Ctrl-A, Ctrl-C, Ctrl-W, etc. What&rsquo;s\nthe deal with all of th"
+    },
+    {
+      "title": "Steve Ballmer was an underrated CEO",
+      "url": "https://danluu.com/ballmer/",
+      "date": "2024-10-28",
+      "source": "Dan Luu",
+      "description": "There's a common narrative that Microsoft was moribund under Steve Ballmer and then later saved by the miraculous leadership of Satya Nadella. This is the dominant narrative in every online discussion"
+    },
+    {
+      "title": "How good can you be at Codenames without knowing any words?",
+      "url": "https://danluu.com/codenames/",
+      "date": "2024-08-11",
+      "source": "Dan Luu",
+      "description": "About eight years ago, I was playing a game of Codenames where the game state was such that our team would almost certainly lose if we didn't correctly guess all of our remaining words on our turn. Fr"
+    },
+    {
+      "title": "A discussion of discussions on AI bias",
+      "url": "https://danluu.com/ai-bias/",
+      "date": "2024-06-16",
+      "source": "Dan Luu",
+      "description": "There've been regular viral stories about ML/AI bias with LLMs and generative AI for the past couple years. One thing I find interesting about discussions of bias is how different the reaction is in t"
+    },
+    {
+      "title": "What the FTC got wrong in the Google antitrust investigation",
+      "url": "https://danluu.com/ftc-google-antitrust/",
+      "date": "2024-05-26",
+      "source": "Dan Luu",
+      "description": "From 2011-2012, the FTC investigated the possibility of pursuing antitrust action against Google. The FTC decided to close the investigation and not much was publicly known about what happened until P"
+    },
+    {
+      "title": "How web bloat impacts users with slow devices",
+      "url": "https://danluu.com/slow-device/",
+      "date": "2024-03-16",
+      "source": "Dan Luu",
+      "description": "In 2017, we looked at how web bloat affects users with slow connections. Even in the U.S., many users didn't have broadband speeds, making much of the web difficult to use. It's still the case that ma"
+    },
+    {
+      "title": "Diseconomies of scale in fraud, spam, support, and moderation",
+      "url": "https://danluu.com/diseconomies-scale/",
+      "date": "2024-02-18",
+      "source": "Dan Luu",
+      "description": "If I ask myself a question like &quot;I'd like to buy an SD card; who do I trust to sell me a real SD card and not some fake, Amazon or my local Best Buy?&quot;, of course the answer is that I trust m"
+    },
+    {
+      "title": "Why it's impossible to agree on what's allowed",
+      "url": "https://danluu.com/impossible-agree/",
+      "date": "2024-02-07",
+      "source": "Dan Luu",
+      "description": "On large platforms, it's impossible to have policies on things like moderation, spam, fraud, and sexual content that people agree on. David Turner made a simple game to illustrate how difficult this i"
+    },
+    {
+      "title": "Notes on Cruise's pedestrian accident",
+      "url": "https://danluu.com/cruise-report/",
+      "date": "2024-01-29",
+      "source": "Dan Luu",
+      "description": "This is a set of notes on the Quinn Emanuel report on Cruise's handling of the 2023-10-02 accident where a Cruise autonomous vehicle (AV) hit a pedestrian, stopped, and then started moving again with "
+    },
+    {
+      "title": "Why do people post on [bad platform] instead of [good platform]?",
+      "url": "https://danluu.com/why-video/",
+      "date": "2024-01-25",
+      "source": "Dan Luu",
+      "description": "There's a class of comment you often see when someone makes a popular thread on Mastodon/Twitter/Threads/etc., that you also see on videos that's basically &quot;Why make a Twitter thread? This would "
+    },
+    {
+      "title": "How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT",
+      "url": "https://danluu.com/seo-spam/",
+      "date": "2023-12-30",
+      "source": "Dan Luu",
+      "description": "In The birth &amp; death of search engine optimization, Xe suggests\n\n\nHere's a fun experiment to try. Take an open source project such as yt-dlp and try to find it from a very generic term like &quot;"
+    },
+    {
+      "title": "Transcript of Elon Musk on stage with Dave Chapelle",
+      "url": "https://danluu.com/elon-dave-chappelle/",
+      "date": "2022-12-11",
+      "source": "Dan Luu",
+      "description": "This is a transcription of videos Elon Musk's appearance on stage with Dave Chapelle using OpenAI's Whisper model with some manual error corrections and annotations for crowd noise.\n\nAs with the Exhib"
+    },
+    {
+      "title": "Chat log exhibits from Twitter v. Musk case",
+      "url": "https://danluu.com/elon-twitter-texts/",
+      "date": "2022-10-01",
+      "source": "Dan Luu",
+      "description": "This is a scan/OCR of Exhibits H and J from the Twitter v. Musk case, with some of the conversations de-interleaved and of course converted from a fuzzy scan to text to make for easier reading.\n\nI did"
+    },
+    {
+      "title": "Futurist prediction methods and accuracy",
+      "url": "https://danluu.com/futurist-predictions/",
+      "date": "2022-09-12",
+      "source": "Dan Luu",
+      "description": "I've been reading a lot of predictions from people who are looking to understand what problems humanity will face 10-50 years out (and sometimes longer) in order to work in areas that will be instrume"
+    },
+    {
+      "title": "In defense of simple architectures",
+      "url": "https://danluu.com/simple-architectures/",
+      "date": "2022-04-06",
+      "source": "Dan Luu",
+      "description": "Wave is a $1.7B company with 70 engineers1 whose product is a CRUD app that adds and subtracts numbers. In keeping with this, our architecture is a standard CRUD app architecture, a Python monolith on"
+    },
+    {
+      "title": "Why is it so hard to buy things that work well?",
+      "url": "https://danluu.com/nothing-works/",
+      "date": "2022-03-14",
+      "source": "Dan Luu",
+      "description": "There's a cocktail party version of the efficient markets hypothesis I frequently hear that's basically, &quot;markets enforce efficiency, so it's not possible that a company can have some major ineff"
     }
   ],
-  "generated_at": "2026-02-27T00:12:21Z"
+  "generated_at": "2026-02-27T07:39:26Z"
 }
