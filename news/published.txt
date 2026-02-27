@@ -172,3 +172,4 @@ https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/
 https://dev.to/leanvox/introducing-the-leanvox-python-sdk-text-to-speech-in-3-lines-2djj
 https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/
 https://blog.bytebytego.com/p/the-architecture-behind-atlas-openais
+https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html

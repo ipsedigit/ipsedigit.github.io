@@ -51,3 +51,4 @@
 2026-02-26:devtools:languages:breaking
 2026-02-27:cloud:kubernetes:breaking
 2026-02-27:ai:llm:deep
+2026-02-27:security:malware:breaking
