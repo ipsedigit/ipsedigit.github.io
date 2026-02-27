@@ -247,10 +247,135 @@
           "forks": 1563
         }
       }
+    },
+    "2026-02-27": {
+      "repos": {
+        "freeCodeCamp/freeCodeCamp": {
+          "stars": 437563,
+          "forks": 43465
+        },
+        "EbookFoundation/free-programming-books": {
+          "stars": 383155,
+          "forks": 65933
+        },
+        "kamranahmedse/developer-roadmap": {
+          "stars": 349827,
+          "forks": 43715
+        },
+        "vinta/awesome-python": {
+          "stars": 284732,
+          "forks": 27249
+        },
+        "facebook/react": {
+          "stars": 243328,
+          "forks": 50624
+        },
+        "openclaw/openclaw": {
+          "stars": 235034,
+          "forks": 45232
+        },
+        "torvalds/linux": {
+          "stars": 219529,
+          "forks": 60654
+        },
+        "ossu/computer-science": {
+          "stars": 201689,
+          "forks": 25066
+        },
+        "tensorflow/tensorflow": {
+          "stars": 193934,
+          "forks": 75225
+        },
+        "ohmyzsh/ohmyzsh": {
+          "stars": 184990,
+          "forks": 26294
+        },
+        "microsoft/vscode": {
+          "stars": 182115,
+          "forks": 38173
+        },
+        "Significant-Gravitas/AutoGPT": {
+          "stars": 182066,
+          "forks": 46212
+        },
+        "jackfrued/Python-100-Days": {
+          "stars": 179052,
+          "forks": 55464
+        },
+        "n8n-io/n8n": {
+          "stars": 176636,
+          "forks": 55229
+        },
+        "flutter/flutter": {
+          "stars": 175352,
+          "forks": 30054
+        },
+        "twbs/bootstrap": {
+          "stars": 174004,
+          "forks": 79084
+        },
+        "avelino/awesome-go": {
+          "stars": 166138,
+          "forks": 12986
+        },
+        "ollama/ollama": {
+          "stars": 163558,
+          "forks": 14690
+        },
+        "huggingface/transformers": {
+          "stars": 157073,
+          "forks": 32216
+        },
+        "yt-dlp/yt-dlp": {
+          "stars": 148800,
+          "forks": 12062
+        },
+        "anthropics/skills": {
+          "stars": 77959,
+          "forks": 8120
+        },
+        "obra/superpowers": {
+          "stars": 64005,
+          "forks": 4882
+        },
+        "affaan-m/everything-claude-code": {
+          "stars": 53736,
+          "forks": 6649
+        },
+        "karpathy/nanochat": {
+          "stars": 44133,
+          "forks": 5805
+        },
+        "ComposioHQ/awesome-claude-skills": {
+          "stars": 38289,
+          "forks": 3781
+        },
+        "tw93/Mole": {
+          "stars": 37254,
+          "forks": 1021
+        },
+        "nextlevelbuilder/ui-ux-pro-max-skill": {
+          "stars": 35138,
+          "forks": 3455
+        },
+        "code-yeongyu/oh-my-opencode": {
+          "stars": 35008,
+          "forks": 2640
+        },
+        "ChromeDevTools/chrome-devtools-mcp": {
+          "stars": 26869,
+          "forks": 1567
+        },
+        "HKUDS/nanobot": {
+          "stars": 26127,
+          "forks": 4125
+        }
+      }
     }
   },
   "featured_repos": {
     "freeCodeCamp/freeCodeCamp": "2026-02-25",
-    "openclaw/openclaw": "2026-02-26"
+    "openclaw/openclaw": "2026-02-26",
+    "obra/superpowers": "2026-02-27"
   }
 }
