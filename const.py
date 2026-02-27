@@ -559,13 +559,13 @@ NEWS_SOURCES = {
 }
 
 # =============================================================================
-# DIRECT FEEDS — Feeds we follow for the Direct page (article links, like Home)
+# BOOTLEG FEEDS — Personal blogs by individual developers (/bootleg/ page)
 # =============================================================================
-# Our own curation: multiple sources. Direct page shows recent *articles* from
-# these feeds (title → link to article), not a list of sites. Add/remove here.
-# Run `python main.py --action direct` to refresh docs/_data/direct_articles.json.
+# Our own curation. Bootleg page shows recent articles from these feeds
+# (title → link to article), not a list of sites. Add/remove here.
+# Run `python main.py --action bootleg` to refresh docs/_data/bootleg_articles.json.
 
-DIRECT_FEEDS = [
+BOOTLEG_FEEDS = [
     {'name': 'Julia Evans', 'feed_url': 'https://jvns.ca/atom.xml'},
     {'name': 'Dan Luu', 'feed_url': 'https://danluu.com/atom.xml'},
     {'name': 'Computer, Enhance!', 'feed_url': 'https://computerenhance.com/feed'},
@@ -585,7 +585,7 @@ DIRECT_FEEDS = [
 # =============================================================================
 # LINKS BACK — Who links to eof.news (we discover and list them)
 # =============================================================================
-# Add when you find someone linking back; run pipeline or `python main.py --action direct` to update docs/_data/links_back.json.
+# Add when you find someone linking back; run pipeline or `python main.py --action bootleg` to update docs/_data/links_back.json.
 
 LINKS_BACK = [
     # Example: {'name': 'Example Dev', 'url': 'https://exampledev.com'},

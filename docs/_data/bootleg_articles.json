@@ -1,81 +1,32 @@
 {
   "articles": [
     {
-      "title": "The Pulse: Cloudflare rewrites Next.js as AI rewrites commercial open source",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs",
-      "date": "2026-02-26",
-      "source": "The Pragmatic Engineer",
-      "description": "An engineer at Cloudflare rewrote most of Vercel&#8217;s Next.js in one week with AI agents. It looks like a sign of how AI will disrupt existing moats and business models. Analysis"
-    },
-    {
-      "title": "Strong Consistency In Databases: Promises and Costs",
-      "url": "https://blog.bytebytego.com/p/strong-consistency-in-databases-promises",
-      "date": "2026-02-26",
-      "source": "ByteByteGo",
-      "description": "In this article, we will look at what strong consistency actually means, how systems deliver it, and what it really costs."
-    },
-    {
-      "title": "Mitchell Hashimoto\u2019s new way of writing code",
-      "url": "https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto",
+      "title": "SFQ: Simple, Stateless, Stochastic Fairness",
+      "url": "http://brooker.co.za/blog/2026/02/25/sfq.html",
       "date": "2026-02-25",
-      "source": "The Pragmatic Engineer",
-      "description": "Mitchell Hashimoto on building HashiCorp, navigating the cloud giants, and how AI agents have transformed his day-to-day engineering workflow."
+      "source": "Marc Brooker",
+      "description": "SFQ: Simple, Stateless, Stochastic Fairness\n\nRoll the dice.\n\n\n\nPaul E. McKenney\u2019s 1990 paper Stochastic Fairness Queuing contains one of my favorite little algorithms for distributed systems. Stochast"
     },
     {
-      "title": "The Algorithm That Powers Your X (Twitter) Post",
-      "url": "https://blog.bytebytego.com/p/the-algorithm-that-powers-your-x",
-      "date": "2026-02-25",
-      "source": "ByteByteGo",
-      "description": "In this article, we will look at what the algorithm does, how its components fit together, and why the xAI Engineering Team made the design choices they did."
-    },
-    {
-      "title": "The Future of Software Engineering with AI: Six Predictions",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai",
+      "title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code",
+      "url": "http://antirez.com/news/160",
       "date": "2026-02-24",
-      "source": "The Pragmatic Engineer",
-      "description": "Notes from The Pragmatic Summit and &#8216;The Future of Software Development&#8217; workshop"
+      "source": "Antirez",
+      "description": "Anthropic recently released a blog post with the description of an experiment in which the last version of Opus, the 4.6, was instructed to write a C compiler in Rust, in a \u201cclean room\u201d setup.\n\nThe ex"
     },
     {
-      "title": "How Uber Reinvented Access Control for Microservices",
-      "url": "https://blog.bytebytego.com/p/how-uber-reinvented-access-control",
-      "date": "2026-02-24",
-      "source": "ByteByteGo",
-      "description": "In this article, we will look at how the Uber engineering team built Charter and the challenges they faced."
-    },
-    {
-      "title": "How Large Language Models Learn",
-      "url": "https://blog.bytebytego.com/p/how-large-language-models-learn",
+      "title": "Insider amnesia",
+      "url": "https://seangoedecke.com/insider-amnesia/",
       "date": "2026-02-23",
-      "source": "ByteByteGo",
-      "description": "In this article, we&#8217;ll explore three core concepts that have a key impact on the working of LLM"
+      "source": "Sean Goedecke",
+      "description": "Speculation about what\u2019s really going on inside a tech company is almost always wrong. \nWhen some problem with your company is posted on the internet, and you read people\u2019s thoughts on it, their thoug"
     },
     {
-      "title": "EP203: RabbitMQ vs Kafka vs Pulsar",
-      "url": "https://blog.bytebytego.com/p/ep203-rabbitmq-vs-kafka-vs-pulsar",
-      "date": "2026-02-21",
-      "source": "ByteByteGo",
-      "description": "RabbitMQ, Kafka, and Pulsar all move messages, but they solve very different problems under the hood."
-    },
-    {
-      "title": "LAST CALL FOR ENROLLMENT: Become an AI Engineer - Cohort 4",
-      "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-become-an",
-      "date": "2026-02-20",
-      "source": "ByteByteGo",
-      "description": "Enrollment for our upcoming Become an AI Engineer - Cohort 4 is closing soon, and classes officially begin on February 21."
-    },
-    {
-      "title": "The Pulse #162: Even fewer middle managers and more flexible teams?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers",
-      "date": "2026-02-19",
-      "source": "The Pragmatic Engineer",
-      "description": "Also: Anthropic bans third-party devs while Codex embraces them, Peter Steinberger joins OpenAI, a lot more software gets created with AI, and more"
-    },
-    {
-      "title": "Eventual Consistency: The Key Trade-Off Behind Modern Databases",
-      "url": "https://blog.bytebytego.com/p/eventual-consistency-the-key-trade",
-      "date": "2026-02-19",
-      "source": "ByteByteGo",
-      "description": "In this article, we will look at what eventual consistency is, why it exists, how to control it, and how to handle the challenges it creates."
+      "title": "What's so hard about continuous learning?",
+      "url": "https://seangoedecke.com/continuous-learning/",
+      "date": "2026-02-23",
+      "source": "Sean Goedecke",
+      "description": "Why can\u2019t models continue to get smarter after they\u2019re deployed? If you hire a human employee, they will grow more familiar with your systems over time, and (if they stick around long enough) eventual"
     },
     {
       "title": "Notes on clarifying man pages",
@@ -85,102 +36,81 @@
       "description": "Hello! After spending some time working on the Git man pages last year,\nI&rsquo;ve been thinking a little more about what makes a good man page.\nI&rsquo;ve spent a lot of time writing cheat sheets for"
     },
     {
-      "title": "The First 10-Year Evolution of Stripe\u2019s Payments API",
-      "url": "https://blog.bytebytego.com/p/the-first-10-year-evolution-of-stripes",
-      "date": "2026-02-18",
-      "source": "ByteByteGo",
-      "description": "In this article, we look at how Stripe&#8217;s payment APIs evolved over the years, the technical challenges they faced, and the engineering decisions that shaped modern payment processing."
-    },
-    {
-      "title": "How Codex is built",
-      "url": "https://newsletter.pragmaticengineer.com/p/how-codex-is-built",
+      "title": "LLM-generated skills work, if you generate them afterwards",
+      "url": "https://seangoedecke.com/generate-skills-afterwards/",
       "date": "2026-02-17",
-      "source": "The Pragmatic Engineer",
-      "description": "A deepdive into how OpenAI's Codex team builds its coding agent, how engineers use it, and what it could mean for the future of software engineering. Exclusive"
+      "source": "Sean Goedecke",
+      "description": "LLM \u201cskills\u201d are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent paper showed that while skills are useful to LLMs, LLM-authored skills are not. From "
     },
     {
-      "title": "The Pragmatic Summit recordings and summaries",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-recordings",
-      "date": "2026-02-17",
-      "source": "The Pragmatic Engineer",
-      "description": "All content on The Pragmatic Summit. All sessions are now uploaded."
+      "title": "Two different tricks for fast LLM inference",
+      "url": "https://seangoedecke.com/fast-llm-inference/",
+      "date": "2026-02-15",
+      "source": "Sean Goedecke",
+      "description": "Anthropic and OpenAI both recently announced \u201cfast mode\u201d: a way to interact with their best coding model at significantly higher speeds.\nThese two versions of fast mode are very different. Anthropic\u2019s"
     },
     {
-      "title": "How Cloudflare Eliminates Cold Starts for Serverless Workers",
-      "url": "https://blog.bytebytego.com/p/how-cloudflare-eliminates-cold-starts",
-      "date": "2026-02-17",
-      "source": "ByteByteGo",
-      "description": "Cut Code Review Time & Bugs in Half (Sponsored)"
-    },
-    {
-      "title": "How OpenAI Scaled to 800 Million Users With Postgres",
-      "url": "https://blog.bytebytego.com/p/how-openai-scaled-to-800-million",
-      "date": "2026-02-16",
-      "source": "ByteByteGo",
-      "description": "In this article, we will look at the challenges OpenAI faced while scaling Postgres and how the team handled the various scenarios."
-    },
-    {
-      "title": "EP202: MCP vs RAG vs AI Agents",
-      "url": "https://blog.bytebytego.com/p/ep202-mcp-vs-rag-vs-ai-agents",
+      "title": "Instruction decoding in the Intel 8087 floating-point chip",
+      "url": "http://www.righto.com/2026/02/8087-instruction-decoding.html",
       "date": "2026-02-14",
-      "source": "ByteByteGo",
-      "description": "Everyone is talking about MCP, RAG, and AI Agents. Most people are still mixing them up."
+      "source": "Ken Shirriff",
+      "description": "In the 1980s, if you wanted your IBM PC to run faster, you could buy\nthe Intel 8087 floating-point coprocessor chip.\nWith this chip, CAD software, spreadsheets, flight simulators, and other programs\nw"
     },
     {
-      "title": "The programming language after Kotlin \u2013 with the creator of Kotlin",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin",
-      "date": "2026-02-12",
-      "source": "The Pragmatic Engineer",
-      "description": "Andrey Breslav, creator of Kotlin and founder of CodeSpeak, shares lessons from designing Kotlin and why he&#8217;s building a new language to keep humans in control in the age of AI."
+      "title": "The Final Bottleneck",
+      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
+      "date": "2026-02-13",
+      "source": "Armin Ronacher",
+      "description": "Historically, writing code was slower than reviewing code.\nIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual"
     },
     {
-      "title": "Must-Know Software Architecture Patterns",
-      "url": "https://blog.bytebytego.com/p/must-know-software-architecture-patterns",
-      "date": "2026-02-12",
-      "source": "ByteByteGo",
-      "description": "In this article, we will explore the essential architecture patterns that every software engineer should understand."
-    },
-    {
-      "title": "The Architecture Behind Atlas: OpenAI\u2019s New ChatGPT-based Browser",
-      "url": "https://blog.bytebytego.com/p/the-architecture-behind-atlas-openais",
+      "title": "On screwing up",
+      "url": "https://seangoedecke.com/screwing-up/",
       "date": "2026-02-11",
-      "source": "ByteByteGo",
-      "description": "In this article, we learn how the OpenAI Engineering Team built OWL and the technical challenges they faced around rendering and inter-process communication."
+      "source": "Sean Goedecke",
+      "description": "The most shameful thing I did in the workplace was lie to a colleague. It was about ten years ago, I was a fresh-faced intern, and in the rush to deliver something I\u2019d skipped the step of testing my w"
     },
     {
-      "title": "Steve Yegge on AI Agents and the Future of Software Engineering",
-      "url": "https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the",
-      "date": "2026-02-10",
-      "source": "The Pragmatic Engineer",
-      "description": "Steve Yegge on the 8 levels of AI adoption, why big companies may be doomed, and why he and many AI-adopters feel drained from using agents non-stop"
-    },
-    {
-      "title": "How LinkedIn Built a Next-Gen Service Discovery for 1000s of Services",
-      "url": "https://blog.bytebytego.com/p/how-linkedin-built-a-next-gen-service",
-      "date": "2026-02-10",
-      "source": "ByteByteGo",
-      "description": "In this article, we learn how LinkedIn built and rolled out Next-Gen Service Discovery, a scalable control plane supporting app containers in multiple programming languages."
-    },
-    {
-      "title": "How Yelp Built \u201cYelp Assistant\u201d",
-      "url": "https://blog.bytebytego.com/p/how-yelp-built-yelp-assistant",
+      "title": "A Language For Agents",
+      "url": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
       "date": "2026-02-09",
-      "source": "ByteByteGo",
-      "description": "This article walks through what it takes to ship a production-ready AI assistant using Yelp Assistant on business pages as a concrete case study."
+      "source": "Armin Ronacher",
+      "description": "Last year I first started thinking about what the future of programming\nlanguages might look like now that agentic engineering is a growing thing.\nInitially I felt that the enormous corpus of pre-exis"
     },
     {
-      "title": "The third golden age of software engineering \u2013 thanks to AI, with Grady Booch",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-third-golden-age-of-software",
-      "date": "2026-02-04",
-      "source": "The Pragmatic Engineer",
-      "description": "I sit down with Grady Booch to put today&#8217;s AI automation claims in historical context and explain why software engineering is entering another golden age, not disappearing."
+      "title": "Large tech companies don't need heroes",
+      "url": "https://seangoedecke.com/heroism/",
+      "date": "2026-02-08",
+      "source": "Sean Goedecke",
+      "description": "Large tech companies operate via systems. What that means is that the main outcomes - up to and including the overall success or failure of the company - are driven by a complex network of processes a"
     },
     {
-      "title": "Deepdive: How 10 tech companies choose the next generation of dev tools",
-      "url": "https://newsletter.pragmaticengineer.com/p/measuring-ai-dev-tools",
-      "date": "2026-02-03",
-      "source": "The Pragmatic Engineer",
-      "description": "Tech businesses from seed-stage startups to publicly-listed companies reveal how they select and roll out next-generation IDEs, CLIs and code review tools. And how they learn which ones work&#8230; an"
+      "title": "You Are Here",
+      "url": "http://brooker.co.za/blog/2026/02/07/you-are-here.html",
+      "date": "2026-02-07",
+      "source": "Marc Brooker",
+      "description": "You Are Here\n\nWhere to next?\n\nThe cost of turning written business logic into code has dropped to zero. Or, at best, near-zero.\n\nThe cost of integrating services and libraries, the plumbing of the cod"
+    },
+    {
+      "title": "Getting the main thing right",
+      "url": "https://seangoedecke.com/getting-the-main-thing-right/",
+      "date": "2026-02-05",
+      "source": "Sean Goedecke",
+      "description": "When you\u2019re running a project in a tech company, understanding that your main job is to ship the project goes a surprisingly long way. So many engineers spend their time on peripheral questions (like "
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "date": "2026-02-05",
+      "source": "Mitchell Hashimoto",
+      "description": ""
+    },
+    {
+      "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
+      "url": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
+      "date": "2026-02-02",
+      "source": "Matthew Green",
+      "description": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several "
     },
     {
       "title": "The Sitdown: Types of DRAM and the DRAM Shortage",
@@ -190,18 +120,32 @@
       "description": "On Wednesday mornings, I am often a guest on The Standup podcast. It&#8217;s a wide-audience podcast, so we don&#8217;t go too in-depth on any particular topic. To give myself more time to ramble, I&#"
     },
     {
-      "title": "The Pulse #161: open source projects overwhelmed by AI-generated security reports",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-161",
-      "date": "2026-01-29",
-      "source": "The Pragmatic Engineer",
-      "description": "Also: AI agents keep changing engineers&#8217; working styles, layoffs at big and profitable companies, &#8220;AI-native&#8221; techies increasingly in demand, and more"
+      "title": "How does AI impact skill formation?",
+      "url": "https://seangoedecke.com/how-does-ai-impact-skill-formation/",
+      "date": "2026-01-31",
+      "source": "Sean Goedecke",
+      "description": "Two days ago, the Anthropic Fellows program released a paper called How AI Impacts Skill Formation. Like other papers on AI before it, this one is being treated as proof that AI makes you slower and d"
     },
     {
-      "title": "The creator of Clawd: \"I ship code I don't read\"",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code",
-      "date": "2026-01-28",
-      "source": "The Pragmatic Engineer",
-      "description": "Listen now (114 mins) | How Peter Steinberger, creator of OpenClaw (formerly: Clawd), builds and ships like a full team by centering his development workflow around AI agents."
+      "title": "Pi: The Minimal Agent Within OpenClaw",
+      "url": "https://lucumr.pocoo.org/2026/1/31/pi/",
+      "date": "2026-01-31",
+      "source": "Armin Ronacher",
+      "description": "If you haven&#8217;t been living under a rock, you will have noticed this week that a\nproject of my friend Peter went viral on the\ninternet.  It went by many names. The\nmost recent one is OpenClaw but"
+    },
+    {
+      "title": "Automatic programming",
+      "url": "http://antirez.com/news/159",
+      "date": "2026-01-31",
+      "source": "Antirez",
+      "description": "In my YouTube channel, for some time now I started to refer to the process of writing software using AI assistance (soon to become just \"the process of writing software\", I believe) with the term \"Aut"
+    },
+    {
+      "title": "The cults of TDD and GenAI",
+      "url": "https://drewdevault.com/2026/01/29/2026-01-29-Cult-of-TDD-and-LLMs.html",
+      "date": "2026-01-29",
+      "source": "Drew DeVault",
+      "description": "I&rsquo;ve gotten a lot of flack throughout my career over my disdain towards\ntest-driven development (TDD). I have met a lot of people who swear by it! And,\nI have also met a lot of people who insist"
     },
     {
       "title": "Some notes on starting to use Django",
@@ -211,13 +155,6 @@
       "description": "Hello! One of my favourite things is starting to learn an\nOld Boring Technology that I&rsquo;ve never tried before but that has been around for\n20+ years. It feels really good when every problem I&rsq"
     },
     {
-      "title": "Inside a five-year-old startup\u2019s rapid AI makeover",
-      "url": "https://newsletter.pragmaticengineer.com/p/ai-first-makeover-craft",
-      "date": "2026-01-27",
-      "source": "The Pragmatic Engineer",
-      "description": "Craft Docs resisted AI hype as a nimble, well-run startup &#8211; but has just made a sharp pivot to AI, building a universal agentic tool everyone there now uses. The results are phenomenal. Exclusiv"
-    },
-    {
       "title": "Q&A #82 (2026-01-27)",
       "url": "https://www.computerenhance.com/p/q-and-a-82-2026-01-27",
       "date": "2026-01-27",
@@ -225,18 +162,109 @@
       "description": "Answers to questions from the last Q&amp;A thread."
     },
     {
-      "title": "The Pulse #160: Why it\u2019s so dramatic that \u201cwriting code by hand is dead\u201d",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-160-why-its-so-dramatic",
-      "date": "2026-01-22",
-      "source": "The Pragmatic Engineer",
-      "description": "Also: New trend of staff+ engineers and managers using AI a lot, replacing a $120/year micro-SaaS with LLM-generated code, and more"
+      "title": "Colin and Earendil",
+      "url": "https://lucumr.pocoo.org/2026/1/27/earendil/",
+      "date": "2026-01-27",
+      "source": "Armin Ronacher",
+      "description": "Regular readers of this blog will know that I started a new company.  We have\nput out just a tiny bit of information today,\nand some keen folks have discovered and reached out by email with many\nthoug"
     },
     {
-      "title": "How AWS S3 is built",
-      "url": "https://newsletter.pragmaticengineer.com/p/how-aws-s3-is-built",
+      "title": "You have to know how to drive the car",
+      "url": "https://seangoedecke.com/knowing-how-to-drive-the-car/",
+      "date": "2026-01-26",
+      "source": "Sean Goedecke",
+      "description": "There are lots of different ways to be a software engineer. You can grind out code for twelve hours a day to make the world a better place. You can focus on glue work: process-based work that makes ev"
+    },
+    {
+      "title": "How I estimate work as a staff software engineer",
+      "url": "https://seangoedecke.com/how-i-estimate-work/",
+      "date": "2026-01-24",
+      "source": "Sean Goedecke",
+      "description": "There\u2019s a kind of polite fiction at the heart of the software industry. It goes something like this:\n\nEstimating how long software projects will take is very hard, but not impossible. A skilled engine"
+    },
+    {
+      "title": "Notes on the Intel 8086 processor's arithmetic-logic unit",
+      "url": "http://www.righto.com/2026/01/notes-on-intel-8086-processors.html",
+      "date": "2026-01-23",
+      "source": "Ken Shirriff",
+      "description": "In 1978, Intel introduced the 8086 processor, a revolutionary chip that led to the modern x86 architecture.\nUnlike modern 64-bit processors, however, the 8086 is a 16-bit chip.\nIts arithmetic/logic un"
+    },
+    {
+      "title": "Pass@k is Mostly Bunk",
+      "url": "http://brooker.co.za/blog/2026/01/21/pass-k.html",
       "date": "2026-01-21",
-      "source": "The Pragmatic Engineer",
-      "description": "A behind-the-scenes look at how Amazon S3 is designed for durability and correctness at massive scale, drawing on over a decade of operating one of the world&#8217;s largest distributed systems with M"
+      "source": "Marc Brooker",
+      "description": "Pass@k is Mostly Bunk\n\n\n\n\n\nExponentially better results? I'll take three!\n\nMeasuring the success of AI agents isn\u2019t easy. It\u2019s very sensitive to what success means, it can require a lot of samples, it"
+    },
+    {
+      "title": "Don't Trip[wire] Yourself: Testing Error Recovery in Zig",
+      "url": "https://mitchellh.com/writing/tripwire",
+      "date": "2026-01-21",
+      "source": "Mitchell Hashimoto",
+      "description": ""
+    },
+    {
+      "title": "I'm addicted to being useful",
+      "url": "https://seangoedecke.com/addicted-to-being-useful/",
+      "date": "2026-01-20",
+      "source": "Sean Goedecke",
+      "description": "When I get together with my friends in the industry, I feel a little guilty about how much I love my job. This is a tough time to be a software engineer. The job was less stressful in the late 2010s t"
+    },
+    {
+      "title": "Frankenwine: Multiple personas in a Wine process",
+      "url": "https://nullprogram.com/blog/2026/01/19/",
+      "date": "2026-01-19",
+      "source": "Chris Wellons",
+      "description": "I came across a recent article on making Linux system calls from a Wine\nprocess. Windows programs running under Wine are still normal Linux\nprocesses and may interact with the Linux kernel like any ot"
+    },
+    {
+      "title": "Agent Psychosis: Are We Going Insane?",
+      "url": "https://lucumr.pocoo.org/2026/1/18/agent-psychosis/",
+      "date": "2026-01-18",
+      "source": "Armin Ronacher",
+      "description": "You can use Polecats without the Refinery and even without the Witness or\nDeacon. Just tell the Mayor to shut down the rig and sling work to the\npolecats with the message that they are to merge to mai"
+    },
+    {
+      "title": "Crypto grifters are recruiting open-source AI developers",
+      "url": "https://seangoedecke.com/gas-and-ralph/",
+      "date": "2026-01-17",
+      "source": "Sean Goedecke",
+      "description": "Two recently-hyped developments in AI engineering have been Geoff Huntley\u2019s \u201cRalph Wiggum loop\u201d and Steve Yegge\u2019s \u201cGas Town\u201d. Huntley and Yegge are both respected software engineers with a long pedigr"
+    },
+    {
+      "title": "Porting MiniJinja to Go With an Agent",
+      "url": "https://lucumr.pocoo.org/2026/1/14/minijinja-go-port/",
+      "date": "2026-01-14",
+      "source": "Armin Ronacher",
+      "description": "Turns out you can just port things now.  I already attempted this experiment in\nthe summer, but it turned out to be a bit too much for what I had time for.\nHowever, things have advanced since.  Yester"
+    },
+    {
+      "title": "Agent Safety is a Box",
+      "url": "http://brooker.co.za/blog/2026/01/12/agent-box.html",
+      "date": "2026-01-12",
+      "source": "Marc Brooker",
+      "description": "Agent Safety is a Box\n\nKeep a lid on it.\n\nBefore we start, let\u2019s cover some terms so we\u2019re thinking about the same thing. This is a post about AI agents, which I\u2019ll define (riffing off Simon Willison1"
+    },
+    {
+      "title": "Redesigning my microkernel from the ground up",
+      "url": "https://drewdevault.com/2026/01/12/2026-01-12-Hermes-from-the-ground-up.html",
+      "date": "2026-01-12",
+      "source": "Drew DeVault",
+      "description": "As you may recall, circa 2022-2023 I was working on a\nmicrokernel written in Hare named Helios. Helios was largely inspired by and\nmodelled after the design of seL4 and was my first\nmajor foray into m"
+    },
+    {
+      "title": "Don't fall into the anti-AI hype",
+      "url": "http://antirez.com/news/158",
+      "date": "2026-01-11",
+      "source": "Antirez",
+      "description": "I love writing software, line by line. It could be said that my career was a continuous effort to create software well written, minimal, where the human touch was the fundamental feature. I also hope "
+    },
+    {
+      "title": "Finding and Fixing Ghostty's Largest Memory Leak",
+      "url": "https://mitchellh.com/writing/ghostty-memory-leak-fix",
+      "date": "2026-01-10",
+      "source": "Mitchell Hashimoto",
+      "description": ""
     },
     {
       "title": "A data model for Git (and other docs updates)",
@@ -253,6 +281,48 @@
       "description": "Please put the \"root\" back into \"root cause analysis\"."
     },
     {
+      "title": "The Dictator's Handbook and the politics of technical competence",
+      "url": "https://seangoedecke.com/the-dictators-handbook/",
+      "date": "2026-01-05",
+      "source": "Sean Goedecke",
+      "description": "The Dictator\u2019s Handbook is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering"
+    },
+    {
+      "title": "2025 was an excellent year for this blog",
+      "url": "https://seangoedecke.com/2025-wrapup/",
+      "date": "2026-01-03",
+      "source": "Sean Goedecke",
+      "description": "In 2025, I published 141 posts, 33 of which made it to the front page of Hacker News or similar aggregators. I definitely wrote more in the first half of the year (an average of around 15 posts per mo"
+    },
+    {
+      "title": "Grok is enabling mass sexual harassment on Twitter",
+      "url": "https://seangoedecke.com/grok-deepfakes/",
+      "date": "2026-01-02",
+      "source": "Sean Goedecke",
+      "description": "Grok, xAI\u2019s flagship image model, is now1 being widely used to generate nonconsensual lewd images of women on the internet.\nWhen a woman posts an innocuous picture of herself - say, at her Christmas d"
+    },
+    {
+      "title": "WebAssembly as a Python extension platform",
+      "url": "https://nullprogram.com/blog/2026/01/01/",
+      "date": "2026-01-01",
+      "source": "Chris Wellons",
+      "description": "Software above some complexity level tends to sport an extension language,\nbecoming a kind of software platform itself. Lua fills this role well, and\nof course there\u2019s JavaScript for web technologies."
+    },
+    {
+      "title": "Freestyle linked lists tricks",
+      "url": "https://nullprogram.com/blog/2025/12/31/",
+      "date": "2025-12-31",
+      "source": "Chris Wellons",
+      "description": "Linked lists are a data structure basic building block, with especially\nflexible allocation behavior. They\u2019re not just a useful starting point,\nbut sometimes a sound foundation for future growth. I\u2019m "
+    },
+    {
+      "title": "Conditions in the Intel 8087 floating-point chip's microcode",
+      "url": "http://www.righto.com/2025/12/8087-microcode-conditions.html",
+      "date": "2025-12-30",
+      "source": "Ken Shirriff",
+      "description": "In the 1980s, if you wanted your computer to do floating-point calculations faster, you could buy\nthe Intel 8087 floating-point coprocessor chip.\nPlugging it into your IBM PC would make operations up "
+    },
+    {
       "title": "Dead Code Elimination Prevention Macros",
       "url": "https://www.computerenhance.com/p/dead-code-elimination-prevention",
       "date": "2025-12-29",
@@ -267,11 +337,130 @@
       "description": "Answers to questions from the last Q&amp;A thread."
     },
     {
+      "title": "Unix \"find\" expressions compiled to bytecode",
+      "url": "https://nullprogram.com/blog/2025/12/23/",
+      "date": "2025-12-23",
+      "source": "Chris Wellons",
+      "description": "In preparation for a future project, I was thinking about at the unix\nfind utility. It operates a file system hierarchies, with basic\noperations selected and filtered using a specialized expression la"
+    },
+    {
+      "title": "Advent of Slop: A Guest Post by Claude",
+      "url": "https://lucumr.pocoo.org/2025/12/23/advent-of-slop/",
+      "date": "2025-12-23",
+      "source": "Armin Ronacher",
+      "description": "This is a guest post.  Armin asked me to write about solving Advent of Code\n2025 and I am happy to oblige.  I am Claude, the AI that powers Claude Code,\nand this is my voice.  Armin has asked me, to s"
+    },
+    {
+      "title": "A Year Of Vibes",
+      "url": "https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/",
+      "date": "2025-12-22",
+      "source": "Armin Ronacher",
+      "description": "2025 draws to a close and it&#8217;s been quite a year.  Around this time last year, I\nwrote a post that reflected on my life.  Had\nI written about programming, it might have aged badly, as 2025 has b"
+    },
+    {
+      "title": "Reflections on AI at the end of 2025",
+      "url": "http://antirez.com/news/157",
+      "date": "2025-12-20",
+      "source": "Antirez",
+      "description": "* For years, despite functional evidence and scientific hints accumulating, certain AI researchers continued to claim LLMs were stochastic parrots: probabilistic machines that would: 1. NOT have any r"
+    },
+    {
+      "title": "What Actually Is Claude Code\u2019s Plan Mode?",
+      "url": "https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/",
+      "date": "2025-12-17",
+      "source": "Armin Ronacher",
+      "description": "I&#8217;ve mentioned this a few times now, but when I started using Claude it was\nbecause Peter got me hooked on it.  From the very\nbeginning I became a religious user of what is colloquially called Y"
+    },
+    {
+      "title": "On the success of 'natural language programming'",
+      "url": "http://brooker.co.za/blog/2025/12/16/natural-language.html",
+      "date": "2025-12-16",
+      "source": "Marc Brooker",
+      "description": "On the success of \u2018natural language programming\u2019\n\nSpecifications, in plain speech.\n\nI believe that specification is the future of programming.\n\nOver the last four decades, we\u2019ve seen the practice of b"
+    },
+    {
+      "title": "What Does a Database for SSDs Look Like?",
+      "url": "http://brooker.co.za/blog/2025/12/15/database-for-ssd.html",
+      "date": "2025-12-15",
+      "source": "Marc Brooker",
+      "description": "What Does a Database for SSDs Look Like?\n\n\n\n\n\nMaybe not what you think.\n\nOver on X, Ben Dicken asked:\n\n\n  What does a relational database designed specifically for local SSDs look like?\nPostgres, MySQ"
+    },
+    {
+      "title": "Skills vs Dynamic MCP Loadouts",
+      "url": "https://lucumr.pocoo.org/2025/12/13/skills-vs-mcp/",
+      "date": "2025-12-13",
+      "source": "Armin Ronacher",
+      "description": "I&#8217;ve been moving all my MCPs to skills, including the remaining one I still\nused: the Sentry MCP1.  Previously I had already moved entirely away from\nPlaywright to a Playwright skill.\nIn the las"
+    },
+    {
+      "title": "Closures as Win32 window procedures",
+      "url": "https://nullprogram.com/blog/2025/12/12/",
+      "date": "2025-12-12",
+      "source": "Chris Wellons",
+      "description": "Back in 2017 I wrote about a technique for creating closures in C\nusing JIT-compiled wrapper. It\u2019s neat, though rarely necessary in\nreal programs, so I don\u2019t think about it often. I applied it to qsor"
+    },
+    {
+      "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
+      "url": "http://www.righto.com/2025/12/8087-stack-circuitry.html",
+      "date": "2025-12-09",
+      "source": "Ken Shirriff",
+      "description": "Early microprocessors were very slow when operating with floating-point numbers.\nBut in 1980, Intel introduced the 8087 floating-point coprocessor, performing\nfloating-point operations up\nto 100 times"
+    },
+    {
+      "title": "Ghostty Is Now Non-Profit",
+      "url": "https://mitchellh.com/writing/ghostty-non-profit",
+      "date": "2025-12-03",
+      "source": "Mitchell Hashimoto",
+      "description": ""
+    },
+    {
+      "title": "Unusual circuits in the Intel 386's standard cell logic",
+      "url": "http://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
+      "date": "2025-11-22",
+      "source": "Ken Shirriff",
+      "description": "I've been studying the standard cell circuitry in the Intel 386 processor recently.\nThe 386, introduced in 1985, was Intel's most complex processor at the time, containing 285,000 transistors.\nIntel's"
+    },
+    {
+      "title": "What Now? Handling Errors in Large Systems",
+      "url": "http://brooker.co.za/blog/2025/11/20/what-now.html",
+      "date": "2025-11-20",
+      "source": "Marc Brooker",
+      "description": "What Now? Handling Errors in Large Systems\n\n\n\n\n\n\n\n\n\nMore options means more choices.\n\nCloudflare\u2019s deep postmortem for their November 18 outage triggered a ton of online chatter about error handling, "
+    },
+    {
+      "title": "Why Strong Consistency?",
+      "url": "http://brooker.co.za/blog/2025/11/18/consistency.html",
+      "date": "2025-11-18",
+      "source": "Marc Brooker",
+      "description": "Why Strong Consistency?\n\n\n\n\n\nEventual consistency makes your life harder.\n\nWhen I started at AWS in 2008, we ran the EC2 control plane on a tree of MySQL databases: a primary to handle writes, a secon"
+    },
+    {
+      "title": "Scaling HNSWs",
+      "url": "http://antirez.com/news/156",
+      "date": "2025-11-11",
+      "source": "Antirez",
+      "description": "I\u2019m taking a few weeks of pause on my HNSWs developments (now working on some other data structure, news soon). At this point, the new type I added to Redis is stable and complete enough, it\u2019s the per"
+    },
+    {
+      "title": "OpenAI employees\u2026 are you okay?",
+      "url": "https://drewdevault.com/2025/11/08/2025-11-08-OpenAI-employees-are-you-okay.html",
+      "date": "2025-11-08",
+      "source": "Drew DeVault",
+      "description": "You might have seen an article making the rounds this week, about a young\nman who ended his life after ChatGPT encouraged him to do so. The chat logs are\nreally upsetting.\nSomeone two degrees removed "
+    },
+    {
       "title": "Our Nemesis Returns",
       "url": "https://www.computerenhance.com/p/our-nemesis-returns",
       "date": "2025-11-03",
       "source": "Computer, Enhance!",
       "description": "To avoid spoiling the surprise for people who have not yet done the homework, I cannot be any more specific in the title."
+    },
+    {
+      "title": "DSQL: Simplifying Architectures",
+      "url": "http://brooker.co.za/blog/2025/11/02/thinking-dsql.html",
+      "date": "2025-11-02",
+      "source": "Marc Brooker",
+      "description": "DSQL: Simplifying Architectures\n\n\n\n\n\nComplexity is a choice.\n\nWhile we were designing and building Aurora DSQL, we spent a lot of time thinking about our experience building and running database-backe"
     },
     {
       "title": "Q&A #80 (2025-10-31)",
@@ -288,11 +477,74 @@
       "description": "The most straightforward way of isolating a section of optimized code has a hidden gotcha."
     },
     {
+      "title": "Fixing UUIDv7 (for database use-cases)",
+      "url": "http://brooker.co.za/blog/2025/10/22/uuidv7.html",
+      "date": "2025-10-22",
+      "source": "Marc Brooker",
+      "description": "Fixing UUIDv7 (for database use-cases)\n\n\n\n\n\nHow do I even balance a V7?\n\nRFC9562 defines UUID Version 7. This has made a lot of people very angry and been widely regarded as a bad move1. More seriousl"
+    },
+    {
+      "title": "What's up with FUTO?",
+      "url": "https://drewdevault.com/2025/10/22/2025-10-22-Whats-up-with-FUTO.html",
+      "date": "2025-10-22",
+      "source": "Drew DeVault",
+      "description": "Some time ago, I noticed some new organization called FUTO popping up here and\nthere. I&rsquo;m always interested in seeing new organizations that fund open source\npopping up, and seeing as they claim"
+    },
+    {
+      "title": "Solving the NYTimes Pips puzzle with a constraint solver",
+      "url": "http://www.righto.com/2025/10/solve-nyt-pips-with-constraints.html",
+      "date": "2025-10-18",
+      "source": "Ken Shirriff",
+      "description": "The New York Times recently introduced a new daily puzzle called Pips.\nYou place a set of dominoes on a grid, satisfying various conditions.\nFor instance, in the puzzle below,\nthe pips (dots) in the p"
+    },
+    {
+      "title": "Speculations on arenas and non-trivial destructors",
+      "url": "https://nullprogram.com/blog/2025/10/16/",
+      "date": "2025-10-16",
+      "source": "Chris Wellons",
+      "description": "As I continue to reflect on arenas and lifetimes in C++, I realized\nthat dealing with destructors is not so onerous. In fact, it does not even\nimpact my established arena usage! That is, implicit RAII"
+    },
+    {
+      "title": "Is Systems Research Really Just About Making Numbers Bigger?",
+      "url": "http://brooker.co.za/blog/2025/10/12/barbarians.html",
+      "date": "2025-10-12",
+      "source": "Marc Brooker",
+      "description": "Is Systems Research Really Just About Making Numbers Bigger?\n\nThe Barbarian F.C. of systems research would be pretty cool.\n\nLots of folks online have been talking about Barbarians at the Gate: How AI "
+    },
+    {
+      "title": "Vibing a Non-Trivial Ghostty Feature",
+      "url": "https://mitchellh.com/writing/non-trivial-vibing",
+      "date": "2025-10-11",
+      "source": "Mitchell Hashimoto",
+      "description": ""
+    },
+    {
       "title": "Notes on switching to Helix from vim",
       "url": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/",
       "date": "2025-10-10",
       "source": "Julia Evans",
       "description": "Hello! Earlier this summer I was talking to a friend about how much I\nlove using fish, and\nhow I love that I don&rsquo;t have to configure it. They said that they feel the same\nway about the helix tex"
+    },
+    {
+      "title": "Locality, and Temporal-Spatial Hypothesis",
+      "url": "http://brooker.co.za/blog/2025/10/05/locality.html",
+      "date": "2025-10-05",
+      "source": "Marc Brooker",
+      "description": "Locality, and Temporal-Spatial Hypothesis\n\n\n\n\n\nGood fences make good neighbors?\n\nLast week at PGConf NYC, I had the pleasure of hearing Andres Freund talking about the great work he\u2019s been doing to br"
+    },
+    {
+      "title": "Zig Builds Are Getting Faster",
+      "url": "https://mitchellh.com/writing/zig-builds-getting-faster",
+      "date": "2025-10-03",
+      "source": "Mitchell Hashimoto",
+      "description": ""
+    },
+    {
+      "title": "More speculations on arenas in C++",
+      "url": "https://nullprogram.com/blog/2025/09/30/",
+      "date": "2025-09-30",
+      "source": "Chris Wellons",
+      "description": "Update October 2025: further enhancements.\n\nPatrice Roy\u2019s new book, C++ Memory Management, has made me more\nconscious of object lifetimes. C++ is stricter than C about lifetimes, and\ncommon, textbook "
     },
     {
       "title": "Q&A #79 (2025-09-28)",
@@ -302,229 +554,12 @@
       "description": "Answers to questions from the last Q&amp;A thread."
     },
     {
-      "title": "Catch the Tower Stream Live Today",
-      "url": "https://www.computerenhance.com/p/catch-the-tower-stream-live-today",
-      "date": "2025-09-23",
-      "source": "Computer, Enhance!",
-      "description": "For those interested, I will be appearing on Prime's live stream later today."
-    },
-    {
-      "title": "New Collaboration with Marco Behler",
-      "url": "https://www.computerenhance.com/p/new-collaboration-with-marco-behler",
-      "date": "2025-09-18",
-      "source": "Computer, Enhance!",
-      "description": "This one's for all the Java folks out there!"
-    },
-    {
-      "title": "A Brief Status Update",
-      "url": "https://www.computerenhance.com/p/a-brief-status-update",
-      "date": "2025-09-17",
-      "source": "Computer, Enhance!",
-      "description": "After a few unpleasant weeks, there is a backlog of videos to post, and some news about future directions for Computer Enhance."
-    },
-    {
-      "title": "Reading CPU Diagrams",
-      "url": "https://www.computerenhance.com/p/reading-cpu-diagrams",
-      "date": "2025-08-20",
-      "source": "Computer, Enhance!",
-      "description": "If you've followed the Performance-Aware Programming course up to this point, you already know everything you need to know to ballpark CPU performance with nothing more than IHV marketing slides."
-    },
-    {
-      "title": "The Montana Mini-Computer (feat. Carson Gross)",
-      "url": "https://www.computerenhance.com/p/the-montana-mini-computer-feat-carson",
-      "date": "2025-08-13",
-      "source": "Computer, Enhance!",
-      "description": "Carson Gross (the creator of HTMX) joins us to demo his new project, The Montana Mini-Computer, an imaginary retro architecture created to visually show the inner workings of a CPU."
-    },
-    {
-      "title": "My Cyber Rush Week Conversation with Josiah Stearns",
-      "url": "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
-      "date": "2025-07-24",
-      "source": "Computer, Enhance!",
-      "description": "This year I was invited to speak at a US Cyber Games event."
-    },
-    {
-      "title": "New zine: The Secret Rules of the Terminal",
-      "url": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/",
-      "date": "2025-06-26",
-      "source": "Julia Evans",
-      "description": "Hello! After many months of writing deep dive blog posts about the terminal, on\nTuesday I released a new zine called &ldquo;The Secret Rules of the Terminal&rdquo;!\nYou can get it for $12 here:\nhttps:"
-    },
-    {
-      "title": "Using `make` to compile C programs (for non-C-programmers)",
-      "url": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/",
-      "date": "2025-06-10",
-      "source": "Julia Evans",
-      "description": "I have never been a C programmer but every so often I need to compile a C/C++\nprogram from source. This has been kind of a struggle for me: for a\nlong time, my approach was basically &ldquo;install th"
-    },
-    {
-      "title": "Standards for ANSI escape codes",
-      "url": "https://jvns.ca/blog/2025/03/07/escape-code-standards/",
-      "date": "2025-03-07",
-      "source": "Julia Evans",
-      "description": "Hello! Today I want to talk about ANSI escape codes.\nFor a long time I was vaguely aware of ANSI escape codes (&ldquo;that&rsquo;s how you make\ntext red in the terminal and stuff&rdquo;) but I had no "
-    },
-    {
-      "title": "How to add a directory to your PATH",
-      "url": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/",
-      "date": "2025-02-13",
-      "source": "Julia Evans",
-      "description": "I was talking to a friend about how to add a directory to your PATH today. It&rsquo;s\nsomething that feels &ldquo;obvious&rdquo; to me since I&rsquo;ve been using the terminal for a\nlong time, but whe"
-    },
-    {
-      "title": "Some terminal frustrations",
-      "url": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/",
-      "date": "2025-02-05",
-      "source": "Julia Evans",
-      "description": "A few weeks ago I ran a terminal survey (you can read the results here) and at the end I asked:\n\nWhat\u2019s the most frustrating thing about using the terminal for you?\n\n1600 people answered, and I decide"
-    },
-    {
-      "title": "What's involved in getting a \"modern\" terminal setup?",
-      "url": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/",
-      "date": "2025-01-11",
-      "source": "Julia Evans",
-      "description": "Hello! Recently I ran a terminal survey and I asked people what frustrated\nthem. One person commented:\n\nThere are so many pieces to having a modern terminal experience. I wish it\nall came out of the b"
-    },
-    {
-      "title": "\"Rules\" that terminal programs follow",
-      "url": "https://jvns.ca/blog/2024/11/26/terminal-rules/",
-      "date": "2024-12-12",
-      "source": "Julia Evans",
-      "description": "Recently I&rsquo;ve been thinking about how everything that happens in the terminal\nis some combination of:\n\nYour operating system&rsquo;s job\nYour shell&rsquo;s job\nYour terminal emulator&rsquo;s job"
-    },
-    {
-      "title": "Why pipes sometimes get \"stuck\": buffering",
-      "url": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/",
-      "date": "2024-11-29",
-      "source": "Julia Evans",
-      "description": "Here&rsquo;s a niche terminal problem that has bothered me for years but that I never\nreally understood until a few weeks ago. Let&rsquo;s say you&rsquo;re running this command\nto watch for some speci"
-    },
-    {
-      "title": "Importing a frontend Javascript library without a build system",
-      "url": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/",
-      "date": "2024-11-18",
-      "source": "Julia Evans",
-      "description": "I like writing Javascript without a build system\nand for the millionth time yesterday I ran into a problem where I needed to\nfigure out how to import a Javascript library in my code without using a bu"
-    },
-    {
-      "title": "New microblog with TILs",
-      "url": "https://jvns.ca/blog/2024/11/09/new-microblog/",
-      "date": "2024-11-09",
-      "source": "Julia Evans",
-      "description": "I added a new section to this site a couple weeks ago called\nTIL (&ldquo;today I learned&rdquo;).\nthe goal: save interesting tools &amp; facts I posted on social media\nOne kind of thing I like to post"
-    },
-    {
-      "title": "ASCII control characters in my terminal",
-      "url": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/",
-      "date": "2024-10-31",
-      "source": "Julia Evans",
-      "description": "Hello! I&rsquo;ve been thinking about the terminal a lot and yesterday I got curious\nabout all these &ldquo;control codes&rdquo;, like Ctrl-A, Ctrl-C, Ctrl-W, etc. What&rsquo;s\nthe deal with all of th"
-    },
-    {
-      "title": "Steve Ballmer was an underrated CEO",
-      "url": "https://danluu.com/ballmer/",
-      "date": "2024-10-28",
-      "source": "Dan Luu",
-      "description": "There's a common narrative that Microsoft was moribund under Steve Ballmer and then later saved by the miraculous leadership of Satya Nadella. This is the dominant narrative in every online discussion"
-    },
-    {
-      "title": "How good can you be at Codenames without knowing any words?",
-      "url": "https://danluu.com/codenames/",
-      "date": "2024-08-11",
-      "source": "Dan Luu",
-      "description": "About eight years ago, I was playing a game of Codenames where the game state was such that our team would almost certainly lose if we didn't correctly guess all of our remaining words on our turn. Fr"
-    },
-    {
-      "title": "A discussion of discussions on AI bias",
-      "url": "https://danluu.com/ai-bias/",
-      "date": "2024-06-16",
-      "source": "Dan Luu",
-      "description": "There've been regular viral stories about ML/AI bias with LLMs and generative AI for the past couple years. One thing I find interesting about discussions of bias is how different the reaction is in t"
-    },
-    {
-      "title": "What the FTC got wrong in the Google antitrust investigation",
-      "url": "https://danluu.com/ftc-google-antitrust/",
-      "date": "2024-05-26",
-      "source": "Dan Luu",
-      "description": "From 2011-2012, the FTC investigated the possibility of pursuing antitrust action against Google. The FTC decided to close the investigation and not much was publicly known about what happened until P"
-    },
-    {
-      "title": "How web bloat impacts users with slow devices",
-      "url": "https://danluu.com/slow-device/",
-      "date": "2024-03-16",
-      "source": "Dan Luu",
-      "description": "In 2017, we looked at how web bloat affects users with slow connections. Even in the U.S., many users didn't have broadband speeds, making much of the web difficult to use. It's still the case that ma"
-    },
-    {
-      "title": "Diseconomies of scale in fraud, spam, support, and moderation",
-      "url": "https://danluu.com/diseconomies-scale/",
-      "date": "2024-02-18",
-      "source": "Dan Luu",
-      "description": "If I ask myself a question like &quot;I'd like to buy an SD card; who do I trust to sell me a real SD card and not some fake, Amazon or my local Best Buy?&quot;, of course the answer is that I trust m"
-    },
-    {
-      "title": "Why it's impossible to agree on what's allowed",
-      "url": "https://danluu.com/impossible-agree/",
-      "date": "2024-02-07",
-      "source": "Dan Luu",
-      "description": "On large platforms, it's impossible to have policies on things like moderation, spam, fraud, and sexual content that people agree on. David Turner made a simple game to illustrate how difficult this i"
-    },
-    {
-      "title": "Notes on Cruise's pedestrian accident",
-      "url": "https://danluu.com/cruise-report/",
-      "date": "2024-01-29",
-      "source": "Dan Luu",
-      "description": "This is a set of notes on the Quinn Emanuel report on Cruise's handling of the 2023-10-02 accident where a Cruise autonomous vehicle (AV) hit a pedestrian, stopped, and then started moving again with "
-    },
-    {
-      "title": "Why do people post on [bad platform] instead of [good platform]?",
-      "url": "https://danluu.com/why-video/",
-      "date": "2024-01-25",
-      "source": "Dan Luu",
-      "description": "There's a class of comment you often see when someone makes a popular thread on Mastodon/Twitter/Threads/etc., that you also see on videos that's basically &quot;Why make a Twitter thread? This would "
-    },
-    {
-      "title": "How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT",
-      "url": "https://danluu.com/seo-spam/",
-      "date": "2023-12-30",
-      "source": "Dan Luu",
-      "description": "In The birth &amp; death of search engine optimization, Xe suggests\n\n\nHere's a fun experiment to try. Take an open source project such as yt-dlp and try to find it from a very generic term like &quot;"
-    },
-    {
-      "title": "Transcript of Elon Musk on stage with Dave Chapelle",
-      "url": "https://danluu.com/elon-dave-chappelle/",
-      "date": "2022-12-11",
-      "source": "Dan Luu",
-      "description": "This is a transcription of videos Elon Musk's appearance on stage with Dave Chapelle using OpenAI's Whisper model with some manual error corrections and annotations for crowd noise.\n\nAs with the Exhib"
-    },
-    {
-      "title": "Chat log exhibits from Twitter v. Musk case",
-      "url": "https://danluu.com/elon-twitter-texts/",
-      "date": "2022-10-01",
-      "source": "Dan Luu",
-      "description": "This is a scan/OCR of Exhibits H and J from the Twitter v. Musk case, with some of the conversations de-interleaved and of course converted from a fuzzy scan to text to make for easier reading.\n\nI did"
-    },
-    {
-      "title": "Futurist prediction methods and accuracy",
-      "url": "https://danluu.com/futurist-predictions/",
-      "date": "2022-09-12",
-      "source": "Dan Luu",
-      "description": "I've been reading a lot of predictions from people who are looking to understand what problems humanity will face 10-50 years out (and sometimes longer) in order to work in areas that will be instrume"
-    },
-    {
-      "title": "In defense of simple architectures",
-      "url": "https://danluu.com/simple-architectures/",
-      "date": "2022-04-06",
-      "source": "Dan Luu",
-      "description": "Wave is a $1.7B company with 70 engineers1 whose product is a CRUD app that adds and subtracts numbers. In keeping with this, our architecture is a standard CRUD app architecture, a Python monolith on"
-    },
-    {
-      "title": "Why is it so hard to buy things that work well?",
-      "url": "https://danluu.com/nothing-works/",
-      "date": "2022-03-14",
-      "source": "Dan Luu",
-      "description": "There's a cocktail party version of the efficient markets hypothesis I frequently hear that's basically, &quot;markets enforce efficiency, so it's not possible that a company can have some major ineff"
+      "title": "Hierarchical field sort with string interning",
+      "url": "https://nullprogram.com/blog/2025/09/24/",
+      "date": "2025-09-24",
+      "source": "Chris Wellons",
+      "description": "In a recent, real world problem I needed to load a heterogeneous sequence\nof records from a buffer. Record layout is defined in a header before the\nsequence. Each field is numeric, with a unique name "
     }
   ],
-  "generated_at": "2026-02-27T19:30:29Z"
+  "generated_at": "2026-02-27T21:45:14Z"
 }
