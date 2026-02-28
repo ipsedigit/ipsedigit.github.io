@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 10:51:51 UTC",
-  "active_count": 4,
-  "resolved_count": 14,
+  "generated_at": "2026-02-28 11:24:09 UTC",
+  "active_count": 5,
+  "resolved_count": 15,
   "active": [
     {
       "id": "tzlnzb58ghvd",
@@ -24,6 +24,17 @@
       "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
+    },
+    {
+      "id": "w7yszv3vct0h",
+      "name": "SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-02-28T03:09:56.482-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-28T03:16:47.478-08:00",
+      "shortlink": "https://stspg.io/wnq45xh446x8",
+      "service": "Twilio"
     },
     {
       "id": "391rky29892m",
@@ -49,6 +60,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "y5lq12l646nh",
+      "name": "Increased traffic and elevated 5xx errors in Salt Lake City, US region",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-28T10:00:00.000Z",
+      "resolved_at": "2026-02-28T10:00:00.000Z",
+      "updated_at": "2026-02-28T11:01:35.141Z",
+      "shortlink": "https://stspg.io/7183lg4qplqj",
+      "service": "Cloudflare"
+    },
     {
       "id": "dcfq5yq47v0r",
       "name": "Delays Loading Observability, Analytics and Speed Insights Data",
