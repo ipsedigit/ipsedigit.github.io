@@ -49,7 +49,6 @@ title_badge_color: "#4f46e5"
   font-weight: 600;
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
 }
 .source-badge:hover { opacity: 0.85; }
 .source-badge--julia-evans            { background: #059669; }
@@ -112,7 +111,7 @@ title_badge_color: "#4f46e5"
 <div style="margin-bottom:2em; padding:1.25em; border:2px solid #4f46e5; border-radius:8px; background:#eef2ff;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
     <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#4f46e5; color:#fff;">&#9733; Latest</span>
-    <span style="font-size:0.78em; color:#6b7280;"><a href="/devs/#{{ hero_slug }}" class="source-badge source-badge--{{ hero_slug }}">{{ featured.source }}</a> &middot; {{ featured.date }}</span>
+    <span style="font-size:0.78em; color:#6b7280;"><span class="source-badge source-badge--{{ hero_slug }}">{{ featured.source }}</span> &middot; {{ featured.date }}</span>
   </div>
   <div style="font-weight:700; font-size:1.1em; margin-bottom:0.4em;">
     <a href="{{ featured.url }}" target="_blank" rel="noopener" style="color:#4f46e5; text-decoration:none;">{{ featured.title | escape }}</a>
@@ -136,7 +135,7 @@ title_badge_color: "#4f46e5"
   </h2>
   <div class="post-meta">
     {{ art.date }}
-    · <a href="/devs/#{{ src_slug }}" class="source-badge source-badge--{{ src_slug }}">{{ art.source }}</a>
+    · <span class="source-badge source-badge--{{ src_slug }}">{{ art.source }}</span>
   </div>
   {% if art.description and art.description != "" %}
   <p class="post-preview">{{ art.description | truncate: 160 }}</p>
