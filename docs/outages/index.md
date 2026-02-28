@@ -43,7 +43,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/68zmw5265cyw" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 09:42 UTC
+    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 10:41 UTC
   </div>
 </div>
 
@@ -213,14 +213,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 11:18 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Issues with TaskRouter and Flex Insights and Routing</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 18:39:04 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 19:24:36 UTC</p>
