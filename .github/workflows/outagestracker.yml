@@ -2,7 +2,7 @@ name: Outages Tracker
 
 on:
   schedule:
-    - cron: '*/30 5-21 * * *'   # every 30 min, 06:00-22:00 Rome (UTC+1)
+    - cron: '0 * * * *'   # Hourly
   workflow_dispatch:
 
 jobs:
