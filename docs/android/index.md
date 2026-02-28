@@ -6,11 +6,30 @@ permalink: /android/
 ---
 
 {% assign articles = site.data.android.articles %}
+{% assign featured = articles | first %}
 
-<p style="font-size:0.9em; color:#6b7280; margin-bottom:1.5em;">{{ articles.size }} articles &middot; Updated: {{ site.data.android.generated_at }}</p>
+<div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
+  <span style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold;">🤖 Android</span>
+  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ articles.size }} articles</span>
+  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">2 sources</span>
+  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#6b7280; font-size:0.85em;">Updated: {{ site.data.android.generated_at }}</span>
+</div>
 
-{% for article in articles %}
-<div style="margin-bottom:1.25em; padding:0.85em; border:1px solid #e5e7eb; border-radius:8px;">
+{% if featured %}
+<div style="margin-bottom:2em; padding:1.25em; border:2px solid #16a34a; border-radius:8px; background:#f0fdf4;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
+    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#16a34a; color:#fff;">&#9733; Latest</span>
+    <span style="font-size:0.78em; color:#6b7280;">{{ featured.source }} &middot; {{ featured.published | slice: 0, 10 }}</span>
+  </div>
+  <div style="font-weight:700; font-size:1.1em; margin-bottom:0.4em;">
+    <a href="{{ featured.url }}" target="_blank" rel="noopener" style="color:#15803d; text-decoration:none;">{{ featured.title }}</a>
+  </div>
+  <p style="margin:0; font-size:0.88em; color:#374151; line-height:1.5;">{{ featured.excerpt }}</p>
+</div>
+{% endif %}
+
+{% for article in articles offset:1 %}
+<div style="margin-bottom:1.25em; padding:0.85em; border:1px solid #e5e7eb; border-left:3px solid #86efac; border-radius:8px;">
   <div style="margin-bottom:0.3em;">
     <strong><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a></strong>
   </div>
