@@ -171,12 +171,12 @@ title_badge_color: "#0284c7"
 </div>
 {% endif %}
 
+{% if site.adsense_id %}
 <div class="ad-space" id="ad-top">
-  {% if site.adsense_id %}
   <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="TOP" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  {% endif %}
 </div>
+{% endif %}
 
 {% assign post_count = 0 %}
 {% for post in paginator.posts offset:1 %}
@@ -216,12 +216,10 @@ title_badge_color: "#0284c7"
 </article>
 
 {% assign mod = post_count | modulo: 8 %}
-{% if mod == 0 %}
+{% if mod == 0 and site.adsense_id %}
 <div class="ad-space">
-  {% if site.adsense_id %}
   <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="MID" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  {% endif %}
 </div>
 {% endif %}
 
@@ -239,9 +237,9 @@ title_badge_color: "#0284c7"
 </nav>
 {% endif %}
 
+{% if site.adsense_id %}
 <div class="ad-space" id="ad-bottom">
-  {% if site.adsense_id %}
   <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="BOTTOM" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  {% endif %}
 </div>
+{% endif %}
