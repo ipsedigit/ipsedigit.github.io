@@ -561,5 +561,5 @@
       "description": "In a recent, real world problem I needed to load a heterogeneous sequence\nof records from a buffer. Record layout is defined in a header before the\nsequence. Each field is numeric, with a unique name "
     }
   ],
-  "generated_at": "2026-02-28T11:27:52Z"
+  "generated_at": "2026-02-28T15:19:22Z"
 }
