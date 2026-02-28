@@ -11,7 +11,6 @@ permalink: /android/
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
   <span style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold;">🤖 Android</span>
   <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ articles.size }} articles</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">3 sources</span>
   <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#6b7280; font-size:0.85em;">Updated: {{ site.data.android.generated_at }}</span>
 </div>
 

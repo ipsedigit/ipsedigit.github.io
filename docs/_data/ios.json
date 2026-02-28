@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28 07:02:14 UTC",
+  "generated_at": "2026-02-28 17:43:56 UTC",
   "total_articles": 20,
   "articles": [
     {
@@ -15,13 +15,6 @@
       "source": "Apple Developer News",
       "published": "2026-02-24T18:00:48Z",
       "excerpt": "Today we’re providing an update on the tools available for developers to meet their age assurance obligations under upcoming U.S. and regional laws, including in Brazil, Australia, Singapore, Utah, and Louisiana. Updates to the Declared Age Range API are now available in beta for"
-    },
-    {
-      "title": "Announcing Swift System Metrics 1.0: Process-Level Monitoring",
-      "url": "https://swift.org/blog/swift-system-metrics-1.0-released/",
-      "source": "Swift Blog",
-      "published": "2026-02-20T10:00:00Z",
-      "excerpt": "We are excited to announce the 1.0 release of Swift System Metrics, a Swift package that collects process-level system metrics like CPU utilization time and memory usage. Swift System Metrics runs on both Linux and macOS, providing a common API across platforms. Swift System Metr"
     },
     {
       "title": "Get ready with the latest beta releases",
@@ -73,13 +66,6 @@
       "excerpt": "Starting April 28, 2026, apps and games uploaded to App Store Connect need to meet the following minimum requirements: iOS and iPadOS apps must be built with the iOS 26 &amp; iPadOS 26 SDK or later tvOS apps must be built with the tvOS 26 SDK or later visionOS apps must be built "
     },
     {
-      "title": "What's new in Swift: January 2026 Edition",
-      "url": "https://swift.org/blog/whats-new-in-swift-january-2026/",
-      "source": "Swift Blog",
-      "published": "2026-01-30T15:15:00Z",
-      "excerpt": "A Reddit thread earlier this month asked about building web apps with Swift. For this edition of “What’s new in Swift,” we invited a developer to share their experience: Hi, I’m Nick Sloan. I’m the head of engineering at Studioworks, a platform that makes it easy and fun to run y"
-    },
-    {
       "title": "Issue 741",
       "url": "https://iosdevweekly.com/issues/741/",
       "source": "iOS Dev Weekly",
@@ -94,25 +80,11 @@
       "excerpt": "The App Store is designed to make it easy to sell your digital goods and services globally, with support for 43 currencies across 175 storefronts.From time to time, we need to adjust prices or your proceeds due to changes in tax regulations or foreign exchange rates. These adjust"
     },
     {
-      "title": "Announcing the Windows Workgroup",
-      "url": "https://swift.org/blog/announcing-windows-workgroup/",
-      "source": "Swift Blog",
-      "published": "2026-01-26T12:00:00Z",
-      "excerpt": "We are excited to announce the creation of the Windows workgroup! The primary goal is to ensure ongoing support for Swift on Windows, enabling users to develop Windows applications using the Swift programming language and its associated tools. The new Windows workgroup joins a gr"
-    },
-    {
       "title": "Issue 740",
       "url": "https://iosdevweekly.com/issues/740/",
       "source": "iOS Dev Weekly",
       "published": "2026-01-23T00:00:00Z",
       "excerpt": "Want to use an agent, but without launching a terminal or an IDE? 🫨"
-    },
-    {
-      "title": "Improving the usability of C libraries in Swift",
-      "url": "https://swift.org/blog/improving-usability-of-c-libraries-in-swift/",
-      "source": "Swift Blog",
-      "published": "2026-01-22T12:00:00Z",
-      "excerpt": "There are many interesting, useful, and fun C libraries in the software ecosystem. While one could go and rewrite these libraries in Swift, usually there is no need, because Swift provides direct interoperability with C. With a little setup, you can directly use existing C librar"
     },
     {
       "title": "Issue 739",
@@ -141,6 +113,34 @@
       "source": "NSHipster",
       "published": "2025-12-31T08:00:00Z",
       "excerpt": "Fast, reliable API tests without mocks or stale JSON fixtures. Replay records real HTTP traffic once (as HAR) and replays it instantly with Swift Testing so your networking code stays honest and your test suite stays fast."
+    },
+    {
+      "title": "Update on age requirements for apps distributed in Texas",
+      "url": "https://developer.apple.com/news/?id=8jzbigf4",
+      "source": "Apple Developer News",
+      "published": "2025-12-24T00:00:04Z",
+      "excerpt": "A recent injunction issued by a district court suspended enforcement of Texas state law SB2420, which introduced age assurance requirements for app marketplaces and developers. In light of this ruling, Apple will pause previously announced implementation plans and monitor the ong"
+    },
+    {
+      "title": "Issue 737",
+      "url": "https://iosdevweekly.com/issues/737/",
+      "source": "iOS Dev Weekly",
+      "published": "2025-12-19T00:00:00Z",
+      "excerpt": "Last issue of the year, and it’s time for the App Store Awards. 🎉"
+    },
+    {
+      "title": "Changes to iOS in Japan",
+      "url": "https://developer.apple.com/news/?id=074b3wzz",
+      "source": "Apple Developer News",
+      "published": "2025-12-17T23:00:21Z",
+      "excerpt": "To comply with the Mobile Software Competition Act (MSCA), Apple is introducing changes to iOS that create new options for developers' apps in Japan. Beginning with iOS 26.2, developers can distribute apps on alternative app marketplaces, operate alternative app marketplaces, pro"
+    },
+    {
+      "title": "Updated Apple Developer Program License Agreement now available",
+      "url": "https://developer.apple.com/news/?id=76371du6",
+      "source": "Apple Developer News",
+      "published": "2025-12-17T16:00:15Z",
+      "excerpt": "The Apple Developer Program License Agreement has been revised to support new features, updated policies, and to provide clarification. Please review the changes and sign in to your account to accept the updated terms. Section 3.3.3(A): Specified requirement on recordings and pri"
     }
   ]
 }
