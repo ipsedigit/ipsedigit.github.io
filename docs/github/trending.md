@@ -31,8 +31,6 @@ title_badge_color: "#92400e"
   <div style="margin-top:0.5em;"><a href="/tags/agent-skills/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">agent-skills</a></div>
 </div>
 
-## Trending Repositories
-
 {% for repo in repos %}
 <div style="margin-bottom:1.2em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">

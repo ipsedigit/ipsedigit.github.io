@@ -109,8 +109,6 @@ def _generate_page(articles):
         "{% endif %}",
         "",
         # Article list (skip first — already featured)
-        "## Latest News",
-        "",
         "{% for article in articles offset:1 %}",
         '<div style="margin-bottom:1.25em; padding:0.85em; border:1px solid #e5e7eb; border-left:3px solid #86efac; border-radius:8px;">',
         '  <div style="margin-bottom:0.3em;">',

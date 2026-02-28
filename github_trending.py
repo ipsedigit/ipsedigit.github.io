@@ -399,8 +399,6 @@ def _generate_page(repos, featured, deltas, history=None):
         ]
 
     lines += [
-        "## Trending Repositories",
-        "",
         "{% for repo in repos %}",
         '<div style="margin-bottom:1.2em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">',
         '  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">',

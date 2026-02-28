@@ -39,8 +39,6 @@ title_badge_color: "#6d28d9"
 </div>
 {% endif %}
 
-## Trending Models {#trending-models}
-
 {% if site.data.models.trending.size > 0 %}
 {% for model in site.data.models.trending %}
 <div style="margin-bottom:1.2em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">
@@ -67,8 +65,6 @@ title_badge_color: "#6d28d9"
 {% else %}
 <p>No trending models data yet. Check back after the next update.</p>
 {% endif %}
-
-## New Releases (Last 7 Days) {#new-releases}
 
 {% if site.data.models.new_releases.size > 0 %}
 {% for model in site.data.models.new_releases %}
