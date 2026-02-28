@@ -267,7 +267,7 @@ def _generate_page(active, resolved, generated_at):
     lines += [
         "---",
         "",
-        f'<p style="font-size:0.8em; color:#9ca3af;">Updated: {generated_at} &middot; Checks every 30 minutes</p>',
+        f'<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: {generated_at}</p>',
         "",
     ]
 

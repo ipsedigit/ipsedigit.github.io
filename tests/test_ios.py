@@ -12,7 +12,7 @@ def test_generate_page_contains_permalink():
 
 def test_generate_page_contains_liquid_loop():
     page = _generate_page([])
-    assert "{% for article in articles %}" in page
+    assert "{% for article in articles offset:1 %}" in page
     assert "site.data.ios.articles" in page
 
 

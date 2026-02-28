@@ -70,7 +70,7 @@ permalink: /ai/models/
 
 {% if site.data.models.new_releases.size > 0 %}
 {% for model in site.data.models.new_releases %}
-<div style="margin-bottom:1em; padding:0.5em 0; border-bottom:1px solid #e5e7eb;">
+<div style="margin-bottom:1em; padding:0.75em; border:1px solid #e5e7eb; border-radius:8px;">
   <strong><a href="{{ model.url }}" target="_blank" rel="noopener">{{ model.model_id }}</a></strong>
   {% if model.category %}
     {% assign cat_slug = model.category | slugify %}<a href="/ai/models/#{{ cat_slug }}" style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; text-decoration:none; background:{% if model.category == 'Language Model' %}#8b5cf6{% elsif model.category == 'Image Generation' %}#ec4899{% elsif model.category == 'Computer Vision' %}#06b6d4{% elsif model.category == 'Speech' or model.category == 'Audio' %}#f59e0b{% elsif model.category == 'Embeddings' %}#10b981{% else %}#6366f1{% endif %};">{{ model.category }}</a>
