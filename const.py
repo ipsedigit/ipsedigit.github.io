@@ -476,7 +476,7 @@ NEWS_SOURCES = {
         'score_boost': 20,
     },
 
-    # --- TIER 9: Bootleg — personal blogs by individual developers ---
+    # --- TIER 9: Devs — personal blogs by individual developers ---
     'juliaevans': {
         'name': 'Julia Evans',
         'feed_url': 'https://jvns.ca/atom.xml',
@@ -601,13 +601,13 @@ NEWS_SOURCES = {
 }
 
 # =============================================================================
-# BOOTLEG FEEDS — Personal blogs by individual developers (/bootleg/ page)
+# DEVS FEEDS — Personal blogs by individual developers (/devs/ page)
 # =============================================================================
-# Our own curation. Bootleg page shows recent articles from these feeds
+# Our own curation. Devs page shows recent articles from these feeds
 # (title → link to article), not a list of sites. Add/remove here.
-# Run `python main.py --action bootleg` to refresh docs/_data/bootleg_articles.json.
+# Run `python main.py --action devs` to refresh docs/_data/devs_articles.json.
 
-BOOTLEG_FEEDS = [
+DEVS_FEEDS = [
     {'name': 'Julia Evans', 'feed_url': 'https://jvns.ca/atom.xml'},
     {'name': 'Dan Luu', 'feed_url': 'https://danluu.com/atom.xml'},
     {'name': 'Computer, Enhance!', 'feed_url': 'https://computerenhance.com/feed'},
@@ -627,7 +627,7 @@ BOOTLEG_FEEDS = [
 # =============================================================================
 # LINKS BACK — Who links to eof.news (we discover and list them)
 # =============================================================================
-# Add when you find someone linking back; run pipeline or `python main.py --action bootleg` to update docs/_data/links_back.json.
+# Add when you find someone linking back; run pipeline or `python main.py --action devs` to update docs/_data/links_back.json.
 
 LINKS_BACK = [
     # Example: {'name': 'Example Dev', 'url': 'https://exampledev.com'},

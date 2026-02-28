@@ -27,9 +27,9 @@ def main(action: str, niche: str = None):
         case "ios":
             from ios import publish_ios
             publish_ios()
-        case "bootleg":
-            from news import update_bootleg_articles_data
-            update_bootleg_articles_data()
+        case "devs":
+            from news import update_devs_articles_data
+            update_devs_articles_data()
         case _:
             from news import publish_news
             publish_news(target_niche=niche)
@@ -37,7 +37,7 @@ def main(action: str, niche: str = None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Publish tech news")
-    parser.add_argument("--action", type=str, default="news", help="Action: news, digest, cves, models, github, bootleg, outages, android, ios")
+    parser.add_argument("--action", type=str, default="news", help="Action: news, digest, cves, models, github, devs, outages, android, ios")
     parser.add_argument("--niche", type=str, default=None, help="Target niche: ai, software-engineering, devtools, cloud, security")
     args = parser.parse_args()
     main(action=args.action, niche=args.niche)

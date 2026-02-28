@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "Bootleg"
+title: "Devs"
 description: "Personal blogs by individual developers. Raw, unfiltered, not mainstream."
-permalink: /bootleg/
+permalink: /devs/
 ---
 
 <style>
 /* Hero — today's pick */
-.bootleg-hero {
+.devs-hero {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border: 2px solid #111;
   border-radius: 8px;
   background: #f5f5f0;
 }
-.bootleg-hero .hero-badge {
+.devs-hero .hero-badge {
   display: inline-block;
   padding: 3px 10px;
   border-radius: 3px;
@@ -26,20 +26,20 @@ permalink: /bootleg/
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.bootleg-hero h2 {
+.devs-hero h2 {
   margin: 0 0 0.5rem 0;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.3;
 }
-.bootleg-hero h2 a { color: #111; text-decoration: none; }
-.bootleg-hero h2 a:hover { color: #0066cc; }
-.bootleg-hero .hero-meta {
+.devs-hero h2 a { color: #111; text-decoration: none; }
+.devs-hero h2 a:hover { color: #0066cc; }
+.devs-hero .hero-meta {
   font-size: 0.8rem;
   color: #888;
   margin-bottom: 0.5rem;
 }
-.bootleg-hero .hero-desc {
+.devs-hero .hero-desc {
   color: #374151;
   font-size: 0.95rem;
   line-height: 1.5;
@@ -105,79 +105,79 @@ permalink: /bootleg/
 .source-badge--ken-shirriff           { background: #92400e; }
 
 /* Filter bar */
-.bootleg-filter-bar {
+.devs-filter-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
-.bootleg-filter-bar .source-badge {
+.devs-filter-bar .source-badge {
   font-size: 0.75rem;
   padding: 4px 10px;
 }
-.bootleg-filter-bar .source-badge.active {
+.devs-filter-bar .source-badge.active {
   outline: 2px solid #111;
   outline-offset: 1px;
 }
-.bootleg-article.hidden { display: none; }
+.devs-article.hidden { display: none; }
 
 /* Links-back section */
-.bootleg-links-back {
+.devs-links-back {
   margin-top: 2.5rem;
 }
-.bootleg-links-back h2 {
+.devs-links-back h2 {
   font-size: 1.1rem;
   color: #333;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #eee;
 }
-.bootleg-links-back p.sub {
+.devs-links-back p.sub {
   color: #666;
   font-size: 0.85rem;
   margin-bottom: 1rem;
 }
-.bootleg-links-back .source-list {
+.devs-links-back .source-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 0.75rem;
 }
-.bootleg-links-back .source-item {
+.devs-links-back .source-item {
   background: #fafafa;
   border: 1px solid #e5e5e5;
   border-radius: 6px;
   padding: 1rem;
 }
-.bootleg-links-back .source-item a {
+.devs-links-back .source-item a {
   color: #111;
   text-decoration: none;
   font-weight: 500;
 }
-.bootleg-links-back .source-item a:hover {
+.devs-links-back .source-item a:hover {
   color: #0066cc;
 }
 </style>
 
-{% if site.data.bootleg_articles and site.data.bootleg_articles.articles and site.data.bootleg_articles.articles.size > 0 %}
+{% if site.data.devs_articles and site.data.devs_articles.articles and site.data.devs_articles.articles.size > 0 %}
 
-{% assign hero = site.data.bootleg_articles.articles | first %}
+{% assign hero = site.data.devs_articles.articles | first %}
 
 {% assign hero_slug = hero.source | slugify %}
-<div class="bootleg-hero">
-  <a href="{{ hero.url }}" target="_blank" rel="noopener" class="hero-badge" style="text-decoration:none;">Bootleg Pick</a>
+<div class="devs-hero">
+  <a href="{{ hero.url }}" target="_blank" rel="noopener" class="hero-badge" style="text-decoration:none;">Devs Pick</a>
   <h2><a href="{{ hero.url }}" target="_blank" rel="noopener">{{ hero.title | escape }}</a></h2>
   <div class="hero-meta">
     {{ hero.date }}
-    · <a href="/bootleg/#{{ hero_slug }}" class="source-badge source-badge--{{ hero_slug }}">{{ hero.source }}</a>
+    · <a href="/devs/#{{ hero_slug }}" class="source-badge source-badge--{{ hero_slug }}">{{ hero.source }}</a>
   </div>
   {% if hero.description and hero.description != "" %}
   <p class="hero-desc">{{ hero.description | truncate: 200 }}</p>
   {% endif %}
 </div>
 
-<div class="bootleg-filter-bar" id="bootleg-filters">
+<div class="devs-filter-bar" id="devs-filters">
   {% assign seen_sources = "" %}
-  {% for art in site.data.bootleg_articles.articles %}
+  {% for art in site.data.devs_articles.articles %}
     {% assign src = art.source %}
     {% unless seen_sources contains src %}
       {% assign seen_sources = seen_sources | append: src | append: "|" %}
@@ -188,20 +188,20 @@ permalink: /bootleg/
 </div>
 
 {% assign anchored_sources = "" %}
-{% for art in site.data.bootleg_articles.articles offset:1 %}
+{% for art in site.data.devs_articles.articles offset:1 %}
 {% assign src_slug = art.source | slugify %}
 {% unless anchored_sources contains src_slug %}
 {% assign anchored_sources = anchored_sources | append: src_slug | append: "|" %}
-<article class="post-item bootleg-article" id="{{ src_slug }}" data-source="{{ src_slug }}">
+<article class="post-item devs-article" id="{{ src_slug }}" data-source="{{ src_slug }}">
 {% else %}
-<article class="post-item bootleg-article" data-source="{{ src_slug }}">
+<article class="post-item devs-article" data-source="{{ src_slug }}">
 {% endunless %}
   <h2 class="post-title">
     <a href="{{ art.url }}" target="_blank" rel="noopener">{{ art.title | escape }}</a>
   </h2>
   <div class="post-meta">
     {{ art.date }}
-    · <a href="/bootleg/#{{ src_slug }}" class="source-badge source-badge--{{ src_slug }}">{{ art.source }}</a>
+    · <a href="/devs/#{{ src_slug }}" class="source-badge source-badge--{{ src_slug }}">{{ art.source }}</a>
   </div>
   {% if art.description and art.description != "" %}
   <p class="post-preview">{{ art.description | truncate: 160 }}</p>
@@ -213,7 +213,7 @@ permalink: /bootleg/
 <p>No articles yet.</p>
 {% endif %}
 
-<div class="bootleg-links-back">
+<div class="devs-links-back">
 <h2>Who links to us</h2>
 <p class="sub">Sites that link back to eof.news. If you link to us, <a href="/about/">tell us</a> and we'll add you here.</p>
 <div class="source-list">
@@ -231,10 +231,10 @@ permalink: /bootleg/
 
 <script>
 (function() {
-  var filters = document.getElementById('bootleg-filters');
+  var filters = document.getElementById('devs-filters');
   if (!filters) return;
-  var articles = document.querySelectorAll('.bootleg-article');
-  var hero = document.querySelector('.bootleg-hero');
+  var articles = document.querySelectorAll('.devs-article');
+  var hero = document.querySelector('.devs-hero');
   var active = null;
 
   function toggle(slug) {
