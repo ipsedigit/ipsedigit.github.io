@@ -173,3 +173,8 @@ https://dev.to/leanvox/introducing-the-leanvox-python-sdk-text-to-speech-in-3-li
 https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/
 https://blog.bytebytego.com/p/the-architecture-behind-atlas-openais
 https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html
+https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs
+https://www.swiftbysundell.com/podcast/119
+https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/
+https://www.docker.com/blog/context-packing-context-window/
+https://blog.cryptographyengineering.com/2025/02/12/u-k-asks-to-backdoor-icloud-backup-encryption/

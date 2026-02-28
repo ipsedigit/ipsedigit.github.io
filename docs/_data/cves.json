@@ -1,817 +1,772 @@
 {
-  "generated_at": "2026-02-27 08:29:48 UTC",
-  "total": 48,
+  "generated_at": "2026-02-28 08:16:36 UTC",
+  "total": 50,
   "featured_cve": {
-    "id": "CVE-2026-2790",
-    "description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-    "full_description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-    "severity": "CRITICAL",
-    "score": 9.8,
-    "products": [
-      "mozilla/firefox",
-      "mozilla/thunderbird"
-    ],
-    "published": "2026-02-24T14:16:27.473",
-    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2790",
+    "id": "CVE-2026-20010",
+    "description": "A vulnerability in the Link Layer Discovery Protocol (LLDP) feature of Cisco NX-OS Software could allow an unauthenticated, adjacent attacker to cause the LLDP process to restart, which could cause an affected device to reload unexpectedly.\r\n\r\nThis vulnerability is due to improper handling of specif",
+    "full_description": "A vulnerability in the Link Layer Discovery Protocol (LLDP) feature of Cisco NX-OS Software could allow an unauthenticated, adjacent attacker to cause the LLDP process to restart, which could cause an affected device to reload unexpectedly.\r\n\r\nThis vulnerability is due to improper handling of specific fields in an LLDP frame. An attacker could exploit this vulnerability by sending a crafted LLDP packet to an interface of an affected device. A successful exploit could allow the attacker to cause the device to reload, resulting in a denial of service (DoS) condition.\r\nNote:&nbsp;LLDP is a Layer 2 link protocol. To exploit this vulnerability, an attacker would need to be&nbsp;directly connected to an interface of an affected device, either physically or logically (for example, through a Layer 2 Tunnel configured to transport the LLDP protocol).",
+    "severity": "HIGH",
+    "score": 7.4,
+    "products": [],
+    "published": "2026-02-25T17:25:24.110",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20010",
     "related_posts": [],
     "cisa_kev": false,
-    "epss_score": 0.00045,
-    "epss_percentile": 13.8
+    "epss_score": 0.00015,
+    "epss_percentile": 2.6
   },
   "cves": [
     {
-      "id": "CVE-2026-2790",
-      "description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:27.473",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2790",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2789",
-      "description": "Use-after-free in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:27.370",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2789",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2788",
-      "description": "Incorrect boundary conditions in the Audio/Video: GMP component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Incorrect boundary conditions in the Audio/Video: GMP component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:27.260",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2788",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2787",
-      "description": "Use-after-free in the DOM: Window and Location component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the DOM: Window and Location component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:27.157",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2787",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2786",
-      "description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:27.053",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2786",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2785",
-      "description": "Invalid pointer in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Invalid pointer in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.950",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2785",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2784",
-      "description": "Mitigation bypass in the DOM: Security component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Mitigation bypass in the DOM: Security component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.847",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2784",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2783",
-      "description": "Information disclosure due to JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Information disclosure due to JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
+      "id": "CVE-2026-20010",
+      "description": "A vulnerability in the Link Layer Discovery Protocol (LLDP) feature of Cisco NX-OS Software could allow an unauthenticated, adjacent attacker to cause the LLDP process to restart, which could cause an affected device to reload unexpectedly.\r\n\r\nThis vulnerability is due to improper handling of specif",
+      "full_description": "A vulnerability in the Link Layer Discovery Protocol (LLDP) feature of Cisco NX-OS Software could allow an unauthenticated, adjacent attacker to cause the LLDP process to restart, which could cause an affected device to reload unexpectedly.\r\n\r\nThis vulnerability is due to improper handling of specific fields in an LLDP frame. An attacker could exploit this vulnerability by sending a crafted LLDP packet to an interface of an affected device. A successful exploit could allow the attacker to cause the device to reload, resulting in a denial of service (DoS) condition.\r\nNote:&nbsp;LLDP is a Layer 2 link protocol. To exploit this vulnerability, an attacker would need to be&nbsp;directly connected to an interface of an affected device, either physically or logically (for example, through a Layer 2 Tunnel configured to transport the LLDP protocol).",
       "severity": "HIGH",
-      "score": 7.5,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.747",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2783",
+      "score": 7.4,
+      "products": [],
+      "published": "2026-02-25T17:25:24.110",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20010",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00034,
-      "epss_percentile": 9.6
+      "epss_score": 0.00015,
+      "epss_percentile": 2.6
     },
     {
-      "id": "CVE-2026-2782",
-      "description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.640",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2782",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00043,
-      "epss_percentile": 13.1
-    },
-    {
-      "id": "CVE-2026-2781",
-      "description": "Integer overflow in the Libraries component in NSS. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Integer overflow in the Libraries component in NSS. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.533",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2781",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2780",
-      "description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Privilege escalation in the Netmonitor component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.437",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2780",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00041,
-      "epss_percentile": 12.4
-    },
-    {
-      "id": "CVE-2026-2779",
-      "description": "Incorrect boundary conditions in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Incorrect boundary conditions in the Networking: JAR component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.330",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2779",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2778",
-      "description": "Sandbox escape due to incorrect boundary conditions in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Sandbox escape due to incorrect boundary conditions in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.230",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2778",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00054,
-      "epss_percentile": 16.8
-    },
-    {
-      "id": "CVE-2026-2777",
-      "description": "Privilege escalation in the Messaging System component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Privilege escalation in the Messaging System component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.123",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2777",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.6
-    },
-    {
-      "id": "CVE-2026-2776",
-      "description": "Sandbox escape due to incorrect boundary conditions in the Telemetry component in External Software. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Sandbox escape due to incorrect boundary conditions in the Telemetry component in External Software. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:26.023",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2776",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00054,
-      "epss_percentile": 16.8
-    },
-    {
-      "id": "CVE-2026-2775",
-      "description": "Mitigation bypass in the DOM: HTML Parser component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Mitigation bypass in the DOM: HTML Parser component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.917",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2775",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2774",
-      "description": "Integer overflow in the Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Integer overflow in the Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.810",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2774",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2773",
-      "description": "Incorrect boundary conditions in the Web Audio component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Incorrect boundary conditions in the Web Audio component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.703",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2773",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2772",
-      "description": "Use-after-free in the Audio/Video: Playback component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the Audio/Video: Playback component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.603",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2772",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2771",
-      "description": "Undefined behavior in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Undefined behavior in the DOM: Core & HTML component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.497",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2771",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2770",
-      "description": "Use-after-free in the DOM: Bindings (WebIDL) component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the DOM: Bindings (WebIDL) component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.397",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2770",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2769",
-      "description": "Use-after-free in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.287",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2769",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00043,
-      "epss_percentile": 12.9
-    },
-    {
-      "id": "CVE-2026-2768",
-      "description": "Sandbox escape in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Sandbox escape in the Storage: IndexedDB component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.183",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2768",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00053,
-      "epss_percentile": 16.5
-    },
-    {
-      "id": "CVE-2026-2767",
-      "description": "Use-after-free in the JavaScript: WebAssembly component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the JavaScript: WebAssembly component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:25.080",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2767",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2766",
-      "description": "Use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.973",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2766",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2765",
-      "description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.860",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2765",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2764",
-      "description": "JIT miscompilation, use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "JIT miscompilation, use-after-free in the JavaScript Engine: JIT component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.737",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2764",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2763",
-      "description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the JavaScript Engine component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.620",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2763",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2762",
-      "description": "Integer overflow in the JavaScript: Standard Library component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Integer overflow in the JavaScript: Standard Library component. This vulnerability affects Firefox < 148, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.480",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2762",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00045,
-      "epss_percentile": 13.8
-    },
-    {
-      "id": "CVE-2026-2761",
-      "description": "Sandbox escape in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Sandbox escape in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.370",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2761",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00054,
-      "epss_percentile": 16.8
-    },
-    {
-      "id": "CVE-2026-2760",
-      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Sandbox escape due to incorrect boundary conditions in the Graphics: WebRender component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.257",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2760",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00054,
-      "epss_percentile": 16.8
-    },
-    {
-      "id": "CVE-2026-2759",
-      "description": "Incorrect boundary conditions in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Incorrect boundary conditions in the Graphics: ImageLib component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.147",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2759",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2758",
-      "description": "Use-after-free in the JavaScript: GC component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Use-after-free in the JavaScript: GC component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:24.037",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2758",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2757",
-      "description": "Incorrect boundary conditions in the WebRTC: Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "full_description": "Incorrect boundary conditions in the WebRTC: Audio/Video component. This vulnerability affects Firefox < 148, Firefox ESR < 115.33, Firefox ESR < 140.8, Thunderbird < 148, and Thunderbird < 140.8.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox",
-        "mozilla/thunderbird"
-      ],
-      "published": "2026-02-24T14:16:23.927",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2757",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00046,
-      "epss_percentile": 14.1
-    },
-    {
-      "id": "CVE-2026-2634",
-      "description": "Malicious scripts could cause desynchronization between the address bar and web content before a response is received in Firefox iOS, allowing attacker-controlled pages to be presented under spoofed domains. This vulnerability affects Firefox for iOS < 147.4.",
-      "full_description": "Malicious scripts could cause desynchronization between the address bar and web content before a response is received in Firefox iOS, allowing attacker-controlled pages to be presented under spoofed domains. This vulnerability affects Firefox for iOS < 147.4.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "products": [
-        "mozilla/firefox"
-      ],
-      "published": "2026-02-24T14:16:23.810",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2634",
+      "id": "CVE-2026-3206",
+      "description": "Improper Resource Shutdown or Release vulnerability in KrakenD, SLU KrakenD-CE (CircuitBreaker modules), KrakenD, SLU KrakenD-EE (CircuitBreaker modules). This issue affects KrakenD-CE: before 2.13.1; KrakenD-EE: before 2.12.5.",
+      "full_description": "Improper Resource Shutdown or Release vulnerability in KrakenD, SLU KrakenD-CE (CircuitBreaker modules), KrakenD, SLU KrakenD-EE (CircuitBreaker modules). This issue affects KrakenD-CE: before 2.13.1; KrakenD-EE: before 2.12.5.",
+      "severity": "UNKNOWN",
+      "score": 0.0,
+      "products": [],
+      "published": "2026-02-25T16:23:30.423",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3206",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00042,
       "epss_percentile": 12.6
     },
     {
-      "id": "CVE-2026-2460",
-      "description": "A vulnerability exists in REB500 for an authenticated user with low-level privileges to access and alter the content of directories by using the DAC protocol that the user is not authorized to do so.",
-      "full_description": "A vulnerability exists in REB500 for an authenticated user with low-level privileges to access and alter the content of directories by using the DAC protocol that the user is not authorized to do so.",
-      "severity": "HIGH",
-      "score": 8.1,
-      "products": [
-        "hitachienergy/reb500",
-        "hitachienergy/reb500_firmware"
-      ],
-      "published": "2026-02-24T14:16:23.647",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2460",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00038,
-      "epss_percentile": 11.4
-    },
-    {
-      "id": "CVE-2026-2459",
-      "description": "A vulnerability exists in REB500 for an authenticated user with Installer role to access and alter the contents of directories that the role is not authorized to do so.",
-      "full_description": "A vulnerability exists in REB500 for an authenticated user with Installer role to access and alter the contents of directories that the role is not authorized to do so.",
-      "severity": "HIGH",
-      "score": 8.1,
-      "products": [
-        "hitachienergy/reb500",
-        "hitachienergy/reb500_firmware"
-      ],
-      "published": "2026-02-24T14:16:23.477",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2459",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00036,
-      "epss_percentile": 10.3
-    },
-    {
-      "id": "CVE-2026-23984",
-      "description": "An Improper Input Validation vulnerability exists in Apache Superset that allows an authenticated user with SQLLab access to bypass the read-only verification check when using a PostgreSQL database connection.\nWhile the system effectively blocks standard Data Manipulation Language (DML) statements (",
-      "full_description": "An Improper Input Validation vulnerability exists in Apache Superset that allows an authenticated user with SQLLab access to bypass the read-only verification check when using a PostgreSQL database connection.\nWhile the system effectively blocks standard Data Manipulation Language (DML) statements (e.g., INSERT, UPDATE, DELETE) on read-only connections, it fails to detect them in specially crafted SQL statements.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.",
+      "id": "CVE-2026-3188",
+      "description": "A security flaw has been discovered in feiyuchuixue sz-boot-parent up to 1.3.2-beta. This affects an unknown part of the file /api/admin/common/download/templates of the component API. Performing a manipulation of the argument templateName results in path traversal. Remote exploitation of the attack",
+      "full_description": "A security flaw has been discovered in feiyuchuixue sz-boot-parent up to 1.3.2-beta. This affects an unknown part of the file /api/admin/common/download/templates of the component API. Performing a manipulation of the argument templateName results in path traversal. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks. Upgrading to version 1.3.3-beta is able to mitigate this issue. The patch is named aefaabfd7527188bfba3c8c9eee17c316d094802. It is recommended to upgrade the affected component. The project was informed beforehand and acted very professional: \"We have implemented path validity checks on parameters for the template download interface (...)\"",
       "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [
-        "apache/superset"
-      ],
-      "published": "2026-02-24T14:16:23.307",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23984",
+      "score": 4.3,
+      "products": [],
+      "published": "2026-02-25T16:23:30.203",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3188",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00038,
-      "epss_percentile": 11.4
+      "epss_score": 0.00045,
+      "epss_percentile": 13.8
     },
     {
-      "id": "CVE-2026-23983",
-      "description": "A Sensitive Data Exposure vulnerability exists in Apache Superset allowing authenticated users to retrieve sensitive user information. The Tag endpoint (disabled by default) allows users to retrieve a list of objects associated with a specific tag.\nWhen these associated objects include Users, the AP",
-      "full_description": "A Sensitive Data Exposure vulnerability exists in Apache Superset allowing authenticated users to retrieve sensitive user information. The Tag endpoint (disabled by default) allows users to retrieve a list of objects associated with a specific tag.\nWhen these associated objects include Users, the API response improperly serializes and returns sensitive fields, including password hashes (pbkdf2), email addresses, and login statistics. This vulnerability allows authenticated users with low privileges (e.g., Gamma role) to view sensitive authentication data \n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue or make sure TAGGING_SYSTEM is False (Apache Superset current default)",
+      "id": "CVE-2026-27848",
+      "description": "Due to missing neutralization of special elements, OS commands can be injected via the handshake of a TLS-SRP connection, which are ultimately run as the root user.\nThis issue affects MR9600: 1.0.4.205530; MX4200: 1.0.13.210200.",
+      "full_description": "Due to missing neutralization of special elements, OS commands can be injected via the handshake of a TLS-SRP connection, which are ultimately run as the root user.\nThis issue affects MR9600: 1.0.4.205530; MX4200: 1.0.13.210200.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [],
+      "published": "2026-02-25T16:23:29.037",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27848",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00048,
+      "epss_percentile": 14.7
+    },
+    {
+      "id": "CVE-2026-27847",
+      "description": "Due to improper neutralization of special elements, SQL statements can be injected via the handshake of a TLS-SRP connection. This can be used to inject known credentials into the database that can be utilized to successfully complete the handshake and use the protected service.\nThis issue affects M",
+      "full_description": "Due to improper neutralization of special elements, SQL statements can be injected via the handshake of a TLS-SRP connection. This can be used to inject known credentials into the database that can be utilized to successfully complete the handshake and use the protected service.\nThis issue affects MR9600: 1.0.4.205530; MX4200: 1.0.13.210200.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [],
+      "published": "2026-02-25T16:23:28.833",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27847",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00048,
+      "epss_percentile": 14.7
+    },
+    {
+      "id": "CVE-2026-27846",
+      "description": "Due to missing authentication, a user with physical access to the device can misuse the mesh functionality for adding a new mesh device to the network \nto gain access to sensitive information, including the password for admin access to the web interface and the Wi-Fi passwords.This issue affects MR9",
+      "full_description": "Due to missing authentication, a user with physical access to the device can misuse the mesh functionality for adding a new mesh device to the network \nto gain access to sensitive information, including the password for admin access to the web interface and the Wi-Fi passwords.This issue affects MR9600: 1.0.4.205530; MX4200: 1.0.13.210200.",
       "severity": "MEDIUM",
-      "score": 6.5,
+      "score": 6.2,
+      "products": [],
+      "published": "2026-02-25T16:23:28.710",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27846",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00019,
+      "epss_percentile": 4.5
+    },
+    {
+      "id": "CVE-2026-27730",
+      "description": "esm.sh is a no-build content delivery network (CDN) for web development. Versions up to and including 137 have an SSRF vulnerability (CWE-918) in esm.sh’s `/http(s)` fetch route. The service tries to block localhost/internal targets, but the validation is based on hostname string checks and can be b",
+      "full_description": "esm.sh is a no-build content delivery network (CDN) for web development. Versions up to and including 137 have an SSRF vulnerability (CWE-918) in esm.sh’s `/http(s)` fetch route. The service tries to block localhost/internal targets, but the validation is based on hostname string checks and can be bypassed using DNS alias domains. This allows an external requester to make the esm.sh server fetch internal localhost services. As of time of publication, no known patched versions exist.",
+      "severity": "HIGH",
+      "score": 7.5,
       "products": [
-        "apache/superset"
+        "esm/esm.sh"
       ],
-      "published": "2026-02-24T14:16:23.143",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23983",
+      "published": "2026-02-25T16:23:27.123",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27730",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00034,
+      "epss_percentile": 9.8
+    },
+    {
+      "id": "CVE-2026-27704",
+      "description": "The Dart and Flutter SDKs provide software development kits for the Dart programming language. In versions of the Dart SDK prior to 3.11.0 and the Flutter SDK prior to version 3.41.0, when the pub client (`dart pub` and `flutter pub`) extracts a package in the pub cache, a malicious package archive ",
+      "full_description": "The Dart and Flutter SDKs provide software development kits for the Dart programming language. In versions of the Dart SDK prior to 3.11.0 and the Flutter SDK prior to version 3.41.0, when the pub client (`dart pub` and `flutter pub`) extracts a package in the pub cache, a malicious package archive can have files extracted outside the destination directory in the `PUB_CACHE`.  A fix has been landed in commit 26c6985c742593d081f8b58450f463a584a4203a. By normalizing the file path before writing file, the attacker can no longer traverse up via a symlink. This patch is released in Dart 3.11.0 and Flutter 3.41.0.vAll packages on pub.dev have been vetted for this vulnerability. New packages are no longer allowed to contain symlinks. The pub client itself doesn't upload symlinks, but duplicates the linked entry, and has been doing this for years. Those whose dependencies are all from pub.dev, third-party repositories trusted to not contain malicious code, or git dependencies are not affected by this vulnerability.",
+      "severity": "UNKNOWN",
+      "score": 0.0,
+      "products": [],
+      "published": "2026-02-25T16:23:26.960",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27704",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00046,
-      "epss_percentile": 13.9
+      "epss_percentile": 14.2
     },
     {
-      "id": "CVE-2026-23982",
-      "description": "An Improper Authorization vulnerability exists in Apache Superset that allows a low-privileged user to bypass data access controls. When creating a dataset, Superset enforces permission checks to prevent users from querying unauthorized data. However, an authenticated attacker with permissions to wr",
-      "full_description": "An Improper Authorization vulnerability exists in Apache Superset that allows a low-privileged user to bypass data access controls. When creating a dataset, Superset enforces permission checks to prevent users from querying unauthorized data. However, an authenticated attacker with permissions to write datasets and read charts can bypass these checks by overwriting the SQL query of an existing dataset.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [
-        "apache/superset"
-      ],
-      "published": "2026-02-24T14:16:22.980",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23982",
+      "id": "CVE-2026-27702",
+      "description": "Budibase is a low code platform for creating internal tools, workflows, and admin panels. Prior to version 3.30.4, an unsafe `eval()` vulnerability in Budibase's view filtering implementation allows any authenticated user (including free tier accounts) to execute arbitrary JavaScript code on the ser",
+      "full_description": "Budibase is a low code platform for creating internal tools, workflows, and admin panels. Prior to version 3.30.4, an unsafe `eval()` vulnerability in Budibase's view filtering implementation allows any authenticated user (including free tier accounts) to execute arbitrary JavaScript code on the server. This vulnerability ONLY affects Budibase Cloud (SaaS) - self-hosted deployments use native CouchDB views and are not vulnerable. The vulnerability exists in `packages/server/src/db/inMemoryView.ts` where user-controlled view map functions are directly evaluated without sanitization. The primary impact comes from what lives inside the pod's environment: the `app-service` pod runs with secrets baked into its environment variables, including `INTERNAL_API_KEY`, `JWT_SECRET`, CouchDB admin credentials, AWS keys, and more. Using the extracted CouchDB credentials, we verified direct database access, enumerated all tenant databases, and confirmed that user records (email addresses) are readable. Version 3.30.4 contains a patch.",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "products": [],
+      "published": "2026-02-25T16:23:26.777",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27702",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00035,
-      "epss_percentile": 9.9
+      "epss_score": 0.00067,
+      "epss_percentile": 20.8
     },
     {
-      "id": "CVE-2026-23980",
-      "description": "Improper Neutralization of Special Elements used in a SQL Command ('SQL Injection') vulnerability in Apache Superset allows an authenticated user with read access to conduct error-based SQL injection via the sqlExpression or where parameters.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers",
-      "full_description": "Improper Neutralization of Special Elements used in a SQL Command ('SQL Injection') vulnerability in Apache Superset allows an authenticated user with read access to conduct error-based SQL injection via the sqlExpression or where parameters.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [
-        "apache/superset"
-      ],
-      "published": "2026-02-24T14:16:22.807",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23980",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00029,
-      "epss_percentile": 8.2
-    },
-    {
-      "id": "CVE-2026-23969",
-      "description": "Apache Superset utilizes a configurable dictionary, DISALLOWED_SQL_FUNCTIONS, to restrict the execution of potentially sensitive SQL functions within SQL Lab and charts. While this feature included restrictions for engines like PostgreSQL, a vulnerability was reported where the default list for the ",
-      "full_description": "Apache Superset utilizes a configurable dictionary, DISALLOWED_SQL_FUNCTIONS, to restrict the execution of potentially sensitive SQL functions within SQL Lab and charts. While this feature included restrictions for engines like PostgreSQL, a vulnerability was reported where the default list for the ClickHouse engine was incomplete.\n\nThis issue affects Apache Superset: before 4.1.2.\n\nUsers are recommended to upgrade to version 4.1.2, which fixes the issue.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "products": [
-        "apache/superset"
-      ],
-      "published": "2026-02-24T14:16:22.623",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23969",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00069,
-      "epss_percentile": 21.2
-    },
-    {
-      "id": "CVE-2026-1773",
-      "description": "IEC 60870-5-104: Potential Denial of Service impact on reception of invalid U-format frame. Product is only affected if IEC 60870-5-104 bi-directional functionality is configured. Enabling secure communication following IEC 62351-3 does not remediate the vulnerability but mitigates the risk of explo",
-      "full_description": "IEC 60870-5-104: Potential Denial of Service impact on reception of invalid U-format frame. Product is only affected if IEC 60870-5-104 bi-directional functionality is configured. Enabling secure communication following IEC 62351-3 does not remediate the vulnerability but mitigates the risk of exploitation.",
+      "id": "CVE-2026-27701",
+      "description": "LiveCode is an open-source, client-side code playground. Prior to commit e151c64c2bd80d2d53ac1333f1df9429fe6a1a11, LiveCode's `i18n-update-pull` GitHub Actions workflow is vulnerable to JavaScript injection. The title of the Pull Request associated with the triggering issue comment is interpolated d",
+      "full_description": "LiveCode is an open-source, client-side code playground. Prior to commit e151c64c2bd80d2d53ac1333f1df9429fe6a1a11, LiveCode's `i18n-update-pull` GitHub Actions workflow is vulnerable to JavaScript injection. The title of the Pull Request associated with the triggering issue comment is interpolated directly into a `actions/github-script` JavaScript block using a GitHub Actions template expression. An attacker who opens a PR with a crafted title can inject arbitrary JavaScript that executes with the privileges of the CI bot token (`CI_APP_ID` / `CI_APP_PRIVATE_KEY`), enabling exfiltration of repository secrets and unauthorized GitHub API operations. Commit e151c64c2bd80d2d53ac1333f1df9429fe6a1a11 fixes the issue.",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-24T14:16:22.420",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1773",
+      "published": "2026-02-25T16:23:26.613",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27701",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00055,
-      "epss_percentile": 17.2
+      "epss_score": 0.00047,
+      "epss_percentile": 14.5
     },
     {
-      "id": "CVE-2026-1772",
-      "description": "RTU500 web interface: An unprivileged user can read user management information. The information cannot be accessed via the RTU500 web user interface but requires further tools like browser development utilities to access them without required privileges.",
-      "full_description": "RTU500 web interface: An unprivileged user can read user management information. The information cannot be accessed via the RTU500 web user interface but requires further tools like browser development utilities to access them without required privileges.",
+      "id": "CVE-2026-27700",
+      "description": "Hono is a Web application framework that provides support for any JavaScript runtime. In versions 4.12.0 and 4.12.1, when using the AWS Lambda adapter (`hono/aws-lambda`) behind an Application Load Balancer (ALB), the `getConnInfo()` function incorrectly selected the first value from the `X-Forwarde",
+      "full_description": "Hono is a Web application framework that provides support for any JavaScript runtime. In versions 4.12.0 and 4.12.1, when using the AWS Lambda adapter (`hono/aws-lambda`) behind an Application Load Balancer (ALB), the `getConnInfo()` function incorrectly selected the first value from the `X-Forwarded-For` header. Because AWS ALB appends the real client IP address to the end of the `X-Forwarded-For` header, the first value can be attacker-controlled. This could allow IP-based access control mechanisms (such as the `ipRestriction` middleware) to be bypassed. Version 4.12.2 patches the issue.",
+      "severity": "HIGH",
+      "score": 8.2,
+      "products": [],
+      "published": "2026-02-25T16:23:26.440",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27700",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00015,
+      "epss_percentile": 2.7
+    },
+    {
+      "id": "CVE-2026-22866",
+      "description": "Ethereum Name Service (ENS) is a distributed, open, and extensible naming system based on the Ethereum blockchain. In versions 1.6.2 and prior, the `RSASHA256Algorithm` and `RSASHA1Algorithm` contracts fail to validate PKCS#1 v1.5 padding structure when verifying RSA signatures. The contracts only c",
+      "full_description": "Ethereum Name Service (ENS) is a distributed, open, and extensible naming system based on the Ethereum blockchain. In versions 1.6.2 and prior, the `RSASHA256Algorithm` and `RSASHA1Algorithm` contracts fail to validate PKCS#1 v1.5 padding structure when verifying RSA signatures. The contracts only check if the last 32 (or 20) bytes of the decrypted signature match the expected hash. This enables Bleichenbacher's 2006 signature forgery attack against DNS zones using RSA keys with low public exponents (e=3). Two ENS-supported TLDs (.cc and .name) use e=3 for their Key Signing Keys, allowing any domain under these TLDs to be fraudulently claimed on ENS without DNS ownership. Apatch was merged at commit c76c5ad0dc9de1c966443bd946fafc6351f87587. Possible workarounds include deploying the patched contracts and pointing DNSSECImpl.setAlgorithm to the deployed contract.",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-24T14:16:22.180",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1772",
+      "published": "2026-02-25T16:23:25.277",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22866",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00038,
-      "epss_percentile": 11.4
+      "epss_score": 0.00027,
+      "epss_percentile": 7.2
     },
     {
-      "id": "CVE-2025-14577",
-      "description": "Slican NCP/IPL/IPM/IPU devices are vulnerable to PHP Function Injection. An unauthenticated remote attacker is able to execute arbitrary PHP commands by sending specially crafted requests to /webcti/session_ajax.php endpoint.\n\n\nThis issue was fixed in version 1.24.0190 (Slican NCP) and 6.61.0010 (Sl",
-      "full_description": "Slican NCP/IPL/IPM/IPU devices are vulnerable to PHP Function Injection. An unauthenticated remote attacker is able to execute arbitrary PHP commands by sending specially crafted requests to /webcti/session_ajax.php endpoint.\n\n\nThis issue was fixed in version 1.24.0190 (Slican NCP) and 6.61.0010 (Slican IPL/IPM/IPU).",
-      "severity": "UNKNOWN",
-      "score": 0.0,
+      "id": "CVE-2025-69771",
+      "description": "An arbitrary file upload vulnerability in the subtitle loading function of asbplayer v1.13.0 allows attackers to execute arbitrary code via uploading a crafted subtitle file.",
+      "full_description": "An arbitrary file upload vulnerability in the subtitle loading function of asbplayer v1.13.0 allows attackers to execute arbitrary code via uploading a crafted subtitle file.",
+      "severity": "CRITICAL",
+      "score": 9.6,
       "products": [],
-      "published": "2026-02-24T14:16:21.333",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14577",
+      "published": "2026-02-25T16:23:22.273",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69771",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00133,
-      "epss_percentile": 33.0
+      "epss_score": 0.00043,
+      "epss_percentile": 13.0
     },
     {
-      "id": "CVE-2026-2664",
-      "description": "An out of bounds read vulnerability in the grpcfuse kernel module present in the Linux VM in Docker Desktop for Windows, Linux and macOS up to version 4.61.0 could allow a local attacker to cause an unspecified impact by writing to /proc/docker entries. The issue has been fixed in Docker Desktop 4.6",
-      "full_description": "An out of bounds read vulnerability in the grpcfuse kernel module present in the Linux VM in Docker Desktop for Windows, Linux and macOS up to version 4.61.0 could allow a local attacker to cause an unspecified impact by writing to /proc/docker entries. The issue has been fixed in Docker Desktop 4.62.0 .",
-      "severity": "UNKNOWN",
-      "score": 0.0,
-      "products": [],
-      "published": "2026-02-24T10:16:03.090",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2664",
-      "related_posts": [],
-      "cisa_kev": false,
-      "epss_score": 0.00014,
-      "epss_percentile": 2.5
-    },
-    {
-      "id": "CVE-2025-27555",
-      "description": "Airflow versions before 2.11.1 have a vulnerability that allows authenticated users with audit log access to see sensitive values in audit logs which they should not see. When sensitive connection parameters were set via airflow CLI, values of those variables appeared in the audit log and were store",
-      "full_description": "Airflow versions before 2.11.1 have a vulnerability that allows authenticated users with audit log access to see sensitive values in audit logs which they should not see. When sensitive connection parameters were set via airflow CLI, values of those variables appeared in the audit log and were stored unencrypted in the Airflow database. While this risk is limited to users with audit log access, it is recommended to upgrade to Airflow 2.11.1 or a later version, which addresses this issue. Users who previously used the CLI to set connections should manually delete entries with those connection sensitive values from the log table. This is similar but not the same issue as CVE-2024-50378",
-      "severity": "MEDIUM",
-      "score": 6.5,
+      "id": "CVE-2025-50180",
+      "description": "esm.sh is a no-build content delivery network (CDN) for web development. In version 136, esm.sh is vulnerable to a full-response SSRF, allowing an attacker to retrieve information from internal websites through the vulnerability. Version 137 fixes the vulnerability.",
+      "full_description": "esm.sh is a no-build content delivery network (CDN) for web development. In version 136, esm.sh is vulnerable to a full-response SSRF, allowing an attacker to retrieve information from internal websites through the vulnerability. Version 137 fixes the vulnerability.",
+      "severity": "HIGH",
+      "score": 7.5,
       "products": [
-        "apache/airflow"
+        "esm/esm.sh"
       ],
-      "published": "2026-02-24T10:16:02.917",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27555",
+      "published": "2026-02-25T16:23:21.173",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50180",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00049,
+      "epss_percentile": 15.1
+    },
+    {
+      "id": "CVE-2025-1242",
+      "description": "The administrative credentials can be extracted through application API responses, mobile application reverse engineering, and device firmware reverse engineering. The exposure may result in an attacker gaining  full administrative access to the Gardyn IoT Hub exposing connected devices to malicious",
+      "full_description": "The administrative credentials can be extracted through application API responses, mobile application reverse engineering, and device firmware reverse engineering. The exposure may result in an attacker gaining  full administrative access to the Gardyn IoT Hub exposing connected devices to malicious control.",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "products": [],
+      "published": "2026-02-25T16:23:20.930",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1242",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00028,
+      "epss_percentile": 7.8
+    },
+    {
+      "id": "CVE-2026-3203",
+      "description": "RF4CE Profile protocol dissector crash in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service",
+      "full_description": "RF4CE Profile protocol dissector crash in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service",
+      "severity": "MEDIUM",
+      "score": 5.5,
+      "products": [
+        "wireshark/wireshark"
+      ],
+      "published": "2026-02-25T15:20:55.973",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3203",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00016,
+      "epss_percentile": 3.2
+    },
+    {
+      "id": "CVE-2026-3202",
+      "description": "NTS-KE protocol dissector crash in Wireshark 4.6.0 to 4.6.3 allows denial of service",
+      "full_description": "NTS-KE protocol dissector crash in Wireshark 4.6.0 to 4.6.3 allows denial of service",
+      "severity": "MEDIUM",
+      "score": 4.7,
+      "products": [
+        "wireshark/wireshark"
+      ],
+      "published": "2026-02-25T15:20:55.790",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3202",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00016,
+      "epss_percentile": 3.2
+    },
+    {
+      "id": "CVE-2026-3201",
+      "description": "USB HID protocol dissector memory exhaustion in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service",
+      "full_description": "USB HID protocol dissector memory exhaustion in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service",
+      "severity": "MEDIUM",
+      "score": 4.7,
+      "products": [
+        "wireshark/wireshark"
+      ],
+      "published": "2026-02-25T15:20:55.617",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3201",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00015,
+      "epss_percentile": 2.8
+    },
+    {
+      "id": "CVE-2026-3197",
+      "description": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.",
+      "full_description": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.",
+      "severity": "UNKNOWN",
+      "score": 0.0,
+      "products": [],
+      "published": "2026-02-25T15:20:55.520",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3197",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.0,
+      "epss_percentile": 0.0
+    },
+    {
+      "id": "CVE-2026-3187",
+      "description": "A vulnerability was identified in feiyuchuixue sz-boot-parent up to 1.3.2-beta. Affected by this issue is some unknown functionality of the file /api/admin/sys-file/upload of the component API Endpoint. Such manipulation leads to unrestricted upload. The attack may be launched remotely. The exploit ",
+      "full_description": "A vulnerability was identified in feiyuchuixue sz-boot-parent up to 1.3.2-beta. Affected by this issue is some unknown functionality of the file /api/admin/sys-file/upload of the component API Endpoint. Such manipulation leads to unrestricted upload. The attack may be launched remotely. The exploit is publicly available and might be used. Upgrading to version 1.3.3-beta can resolve this issue. The name of the patch is aefaabfd7527188bfba3c8c9eee17c316d094802. Upgrading the affected component is recommended. The project was informed beforehand and acted very professional: \"We have introduced a whitelist restriction on the /api/admin/sys-file/upload endpoint via the oss.allowedExts and oss.allowedMimeTypes configuration options, allowing the specification of permitted file extensions and MIME types for uploads.\"",
+      "severity": "MEDIUM",
+      "score": 6.3,
+      "products": [
+        "szadmin/sz-boot-parent"
+      ],
+      "published": "2026-02-25T15:20:55.277",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3187",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00056,
+      "epss_percentile": 17.4
+    },
+    {
+      "id": "CVE-2026-2878",
+      "description": "In Progress® Telerik® UI for AJAX, versions prior to 2026.1.225, an insufficient entropy vulnerability exists in RadAsyncUpload, where a predictable temporary identifier, based on timestamp and filename, can enable collisions and file content tampering.",
+      "full_description": "In Progress® Telerik® UI for AJAX, versions prior to 2026.1.225, an insufficient entropy vulnerability exists in RadAsyncUpload, where a predictable temporary identifier, based on timestamp and filename, can enable collisions and file content tampering.",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "products": [
+        "progress/telerik_ui_for_asp.net_ajax"
+      ],
+      "published": "2026-02-25T15:20:54.293",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2878",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 9e-05,
+      "epss_percentile": 0.9
+    },
+    {
+      "id": "CVE-2026-27699",
+      "description": "The `basic-ftp` FTP client library for Node.js contains a path traversal vulnerability (CWE-22) in versions prior to 5.2.0 in the `downloadToDir()` method. A malicious FTP server can send directory listings with filenames containing path traversal sequences (`../`) that cause files to be written out",
+      "full_description": "The `basic-ftp` FTP client library for Node.js contains a path traversal vulnerability (CWE-22) in versions prior to 5.2.0 in the `downloadToDir()` method. A malicious FTP server can send directory listings with filenames containing path traversal sequences (`../`) that cause files to be written outside the intended download directory. Version 5.2.0 patches the issue.",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "products": [
+        "patrickjuchli/basic-ftp"
+      ],
+      "published": "2026-02-25T15:20:53.523",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27699",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00056,
+      "epss_percentile": 17.4
+    },
+    {
+      "id": "CVE-2026-27695",
+      "description": "zae-limiter is a rate limiting library using the token bucket algorithm. Prior to version 0.10.1, all rate limit buckets for a single entity share the same DynamoDB partition key (`namespace/ENTITY#{id}`). A high-traffic entity can exceed DynamoDB's per-partition throughput limits (~1,000 WCU/sec), ",
+      "full_description": "zae-limiter is a rate limiting library using the token bucket algorithm. Prior to version 0.10.1, all rate limit buckets for a single entity share the same DynamoDB partition key (`namespace/ENTITY#{id}`). A high-traffic entity can exceed DynamoDB's per-partition throughput limits (~1,000 WCU/sec), causing throttling that degrades service for that entity — and potentially co-located entities in the same partition. Version 0.10.1 fixes the issue.",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "products": [
+        "zeroae/zae-limiter"
+      ],
+      "published": "2026-02-25T15:20:52.907",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27695",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00041,
+      "epss_percentile": 12.2
+    },
+    {
+      "id": "CVE-2026-27692",
+      "description": "iccDEV provides a set of libraries and tools for working with ICC color management profiles. In versions up to and including 2.3.1.4, heap-buffer-overflow read occurs during CIccTagTextDescription::Release() when strlen() reads past a heap buffer while parsing ICC profile XML text description tags, ",
+      "full_description": "iccDEV provides a set of libraries and tools for working with ICC color management profiles. In versions up to and including 2.3.1.4, heap-buffer-overflow read occurs during CIccTagTextDescription::Release() when strlen() reads past a heap buffer while parsing ICC profile XML text description tags, causing a crash. Commit 29d088840b962a7cdd35993dfabc2cb35a049847 fixes the issue. No known workarounds are available.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "products": [
+        "color/iccdev"
+      ],
+      "published": "2026-02-25T15:20:52.727",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27692",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00011,
+      "epss_percentile": 1.2
+    },
+    {
+      "id": "CVE-2026-27691",
+      "description": "iccDEV provides a set of libraries and tools for working with ICC color management profiles. In versions up to and including 2.3.1.4, signed integer overflow in iccFromCube.cpp during multiplication triggers undefined behavior, potentially causing crashes or incorrect ICC profile generation when pro",
+      "full_description": "iccDEV provides a set of libraries and tools for working with ICC color management profiles. In versions up to and including 2.3.1.4, signed integer overflow in iccFromCube.cpp during multiplication triggers undefined behavior, potentially causing crashes or incorrect ICC profile generation when processing crafted/large cube inputs. Commit 43ae18dd69fc70190d3632a18a3af2f3da1e052a fixes the issue. No known workarounds are available.",
+      "severity": "MEDIUM",
+      "score": 6.2,
+      "products": [
+        "color/iccdev"
+      ],
+      "published": "2026-02-25T15:20:52.553",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27691",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00011,
+      "epss_percentile": 1.2
+    },
+    {
+      "id": "CVE-2026-3186",
+      "description": "A vulnerability was determined in feiyuchuixue sz-boot-parent up to 1.3.2-beta. Affected by this vulnerability is an unknown functionality of the file /api/admin/sys-user/reset/password/ of the component Password Reset Handler. This manipulation of the argument userId causes use of default password.",
+      "full_description": "A vulnerability was determined in feiyuchuixue sz-boot-parent up to 1.3.2-beta. Affected by this vulnerability is an unknown functionality of the file /api/admin/sys-user/reset/password/ of the component Password Reset Handler. This manipulation of the argument userId causes use of default password. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized. Upgrading to version 1.3.3-beta addresses this issue. Patch name: aefaabfd7527188bfba3c8c9eee17c316d094802. It is suggested to upgrade the affected component. The project was informed beforehand and acted very professional: \"We have added authorization validation to the password reset interface; now only users with the corresponding permissions are allowed to perform password resets.\"",
+      "severity": "MEDIUM",
+      "score": 6.3,
+      "products": [
+        "szadmin/sz-boot-parent"
+      ],
+      "published": "2026-02-25T14:16:21.767",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3186",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00028,
+      "epss_percentile": 7.5
+    },
+    {
+      "id": "CVE-2026-3185",
+      "description": "A vulnerability was found in feiyuchuixue sz-boot-parent up to 1.3.2-beta. Affected is an unknown function of the file /api/admin/sys-message/ of the component API Endpoint. The manipulation of the argument messageId results in authorization bypass. The attack can be launched remotely. The exploit h",
+      "full_description": "A vulnerability was found in feiyuchuixue sz-boot-parent up to 1.3.2-beta. Affected is an unknown function of the file /api/admin/sys-message/ of the component API Endpoint. The manipulation of the argument messageId results in authorization bypass. The attack can be launched remotely. The exploit has been made public and could be used. Upgrading to version 1.3.3-beta is able to address this issue. The patch is identified as aefaabfd7527188bfba3c8c9eee17c316d094802. The affected component should be upgraded. The project was informed beforehand and acted very professional: \"We have implemented message ownership verification, so that users can only query messages related to themselves.\"",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "products": [
+        "szadmin/sz-boot-parent"
+      ],
+      "published": "2026-02-25T14:16:21.483",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3185",
       "related_posts": [],
       "cisa_kev": false,
       "epss_score": 0.00034,
       "epss_percentile": 9.6
     },
     {
-      "id": "CVE-2025-11165",
-      "description": "A sandbox escape vulnerability exists in dotCMS’s Velocity scripting engine (VTools) that allows authenticated users with scripting privileges to bypass class and package restrictions enforced by SecureUberspectorImpl.\n\nBy dynamically modifying the Velocity engine’s runtime configuration and reiniti",
-      "full_description": "A sandbox escape vulnerability exists in dotCMS’s Velocity scripting engine (VTools) that allows authenticated users with scripting privileges to bypass class and package restrictions enforced by SecureUberspectorImpl.\n\nBy dynamically modifying the Velocity engine’s runtime configuration and reinitializing its Uberspect, a malicious actor can remove the introspector.restrict.classes and introspector.restrict.packages protections.\n\nOnce these restrictions are cleared, the attacker can access arbitrary Java classes, including java.lang.Runtime, and execute arbitrary system commands under the privileges of the application process (e.g. dotCMS or Tomcat user).",
+      "id": "CVE-2026-28196",
+      "description": "In JetBrains TeamCity before 2025.11.3 disabling versioned settings left a credentials config on disk",
+      "full_description": "In JetBrains TeamCity before 2025.11.3 disabling versioned settings left a credentials config on disk",
+      "severity": "LOW",
+      "score": 2.3,
+      "products": [
+        "jetbrains/teamcity"
+      ],
+      "published": "2026-02-25T14:16:21.200",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28196",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 1e-05,
+      "epss_percentile": 0.0
+    },
+    {
+      "id": "CVE-2026-28195",
+      "description": "In JetBrains TeamCity before 2025.11.3 missing authorization allowed project developers to add parameters to build configurations",
+      "full_description": "In JetBrains TeamCity before 2025.11.3 missing authorization allowed project developers to add parameters to build configurations",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "products": [
+        "jetbrains/teamcity"
+      ],
+      "published": "2026-02-25T14:16:21.040",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28195",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 1e-05,
+      "epss_percentile": 0.0
+    },
+    {
+      "id": "CVE-2026-28194",
+      "description": "In JetBrains TeamCity before 2025.11.3 open redirect was possible in the React project creation flow",
+      "full_description": "In JetBrains TeamCity before 2025.11.3 open redirect was possible in the React project creation flow",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "products": [
+        "jetbrains/teamcity"
+      ],
+      "published": "2026-02-25T14:16:20.880",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28194",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 3e-05,
+      "epss_percentile": 0.1
+    },
+    {
+      "id": "CVE-2026-28193",
+      "description": "In JetBrains YouTrack before 2025.3.121962 apps were able to send requests to the app permissions endpoint",
+      "full_description": "In JetBrains YouTrack before 2025.3.121962 apps were able to send requests to the app permissions endpoint",
+      "severity": "HIGH",
+      "score": 8.8,
+      "products": [
+        "jetbrains/youtrack"
+      ],
+      "published": "2026-02-25T14:16:20.597",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28193",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 1e-05,
+      "epss_percentile": 0.0
+    },
+    {
+      "id": "CVE-2026-2624",
+      "description": "Missing Authentication for Critical Function vulnerability in ePati Cyber ​​Security Technologies Inc. Antikor Next Generation Firewall (NGFW) allows Authentication Bypass.This issue affects Antikor Next Generation Firewall (NGFW): from v.2.0.1298 before v.2.0.1301.",
+      "full_description": "Missing Authentication for Critical Function vulnerability in ePati Cyber ​​Security Technologies Inc. Antikor Next Generation Firewall (NGFW) allows Authentication Bypass.This issue affects Antikor Next Generation Firewall (NGFW): from v.2.0.1298 before v.2.0.1301.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "products": [
+        "epati/antikor_next_generation_firewall"
+      ],
+      "published": "2026-02-25T13:16:05.373",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2624",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00078,
+      "epss_percentile": 23.1
+    },
+    {
+      "id": "CVE-2026-21725",
+      "description": "A time-of-create-to-time-of-use (TOCTOU) vulnerability lets recently deleted-then-recreated data sources be re-deleted without permission to do so.\n\nThis requires several very stringent conditions to be met:\n\n- The attacker must have admin access to the specific datasource prior to its first deletio",
+      "full_description": "A time-of-create-to-time-of-use (TOCTOU) vulnerability lets recently deleted-then-recreated data sources be re-deleted without permission to do so.\n\nThis requires several very stringent conditions to be met:\n\n- The attacker must have admin access to the specific datasource prior to its first deletion.\n- Upon deletion, all steps within the attack must happen within the next 30 seconds and on the same pod of Grafana.\n- The attacker must delete the datasource, then someone must recreate it.\n- The new datasource must not have the attacker as an admin.\n- The new datasource must have the same UID as the prior datasource. These are randomised by default.\n- The datasource can now be re-deleted by the attacker.\n- Once 30 seconds are up, the attack is spent and cannot be repeated.\n- No datasource with any other UID can be attacked.",
+      "severity": "LOW",
+      "score": 2.6,
+      "products": [
+        "grafana/grafana"
+      ],
+      "published": "2026-02-25T13:16:05.240",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21725",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00025,
+      "epss_percentile": 6.6
+    },
+    {
+      "id": "CVE-2026-0704",
+      "description": "In affected version of Octopus Deploy it was possible to remove files and/or contents of files on the host using an API endpoint. The field lacked validation which could potentially result in ways to circumvent expected workflows.",
+      "full_description": "In affected version of Octopus Deploy it was possible to remove files and/or contents of files on the host using an API endpoint. The field lacked validation which could potentially result in ways to circumvent expected workflows.",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "products": [
+        "microsoft/windows",
+        "octopus/octopus_server",
+        "linux/linux_kernel"
+      ],
+      "published": "2026-02-25T13:16:04.337",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0704",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00039,
+      "epss_percentile": 11.4
+    },
+    {
+      "id": "CVE-2026-3118",
+      "description": "A security flaw was identified in the Orchestrator Plugin of Red Hat Developer Hub (Backstage). The issue occurs due to insufficient input validation in GraphQL query handling. An authenticated user can inject specially crafted input into API requests, which disrupts backend query processing. This r",
+      "full_description": "A security flaw was identified in the Orchestrator Plugin of Red Hat Developer Hub (Backstage). The issue occurs due to insufficient input validation in GraphQL query handling. An authenticated user can inject specially crafted input into API requests, which disrupts backend query processing. This results in the entire Backstage application crashing and restarting, leading to a platform-wide Denial of Service (DoS). As a result, legitimate users temporarily lose access to the platform.",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "products": [
+        "redhat/developer_hub"
+      ],
+      "published": "2026-02-25T12:16:17.957",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3118",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00044,
+      "epss_percentile": 13.4
+    },
+    {
+      "id": "CVE-2026-25701",
+      "description": "An Insecure Temporary File vulnerability in openSUSE sdbootutil allows local users to pre-create a directory to achieve various effects like:\n  *  gain access to possible private information found in /var/lib/pcrlock.d\n  *  manipulate the data backed up in /tmp/pcrlock.d.bak, therefore violating the",
+      "full_description": "An Insecure Temporary File vulnerability in openSUSE sdbootutil allows local users to pre-create a directory to achieve various effects like:\n  *  gain access to possible private information found in /var/lib/pcrlock.d\n  *  manipulate the data backed up in /tmp/pcrlock.d.bak, therefore violating the integrity of the data should it be restored.\n  *   overwrite protected system files with data from /var/lib/pcrlock.d by placing symlinks to existing files in the directory tree in /tmp/pcrlock.d.bak.\n\n\nThis issue affects sdbootutil: from ? before 5880246d3a02642dc68f5c8cb474bf63cdb56bca.",
       "severity": "UNKNOWN",
       "score": 0.0,
       "products": [],
-      "published": "2026-02-24T09:16:12.310",
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11165",
+      "published": "2026-02-25T12:16:17.763",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25701",
       "related_posts": [],
       "cisa_kev": false,
-      "epss_score": 0.00047,
-      "epss_percentile": 14.3
+      "epss_score": 0.00014,
+      "epss_percentile": 2.5
+    },
+    {
+      "id": "CVE-2026-26104",
+      "description": "A flaw was found in the udisks storage management daemon that allows unprivileged users to back up LUKS encryption headers without authorization. The issue occurs because a privileged D-Bus method responsible for exporting encryption metadata does not perform a policy check. As a result, sensitive c",
+      "full_description": "A flaw was found in the udisks storage management daemon that allows unprivileged users to back up LUKS encryption headers without authorization. The issue occurs because a privileged D-Bus method responsible for exporting encryption metadata does not perform a policy check. As a result, sensitive cryptographic metadata can be read and written to attacker-controlled locations. This weakens the confidentiality guarantees of encrypted storage volumes.",
+      "severity": "MEDIUM",
+      "score": 5.5,
+      "products": [
+        "redhat/enterprise_linux",
+        "freedesktop/udisks"
+      ],
+      "published": "2026-02-25T11:16:03.193",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26104",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 7e-05,
+      "epss_percentile": 0.4
+    },
+    {
+      "id": "CVE-2026-26103",
+      "description": "A flaw was found in the udisks storage management daemon that exposes a privileged D-Bus API for restoring LUKS encryption headers without proper authorization checks. The issue allows a local unprivileged user to instruct the root-owned udisks daemon to overwrite encryption metadata on block device",
+      "full_description": "A flaw was found in the udisks storage management daemon that exposes a privileged D-Bus API for restoring LUKS encryption headers without proper authorization checks. The issue allows a local unprivileged user to instruct the root-owned udisks daemon to overwrite encryption metadata on block devices. This can permanently invalidate encryption keys and render encrypted volumes inaccessible. Successful exploitation results in a denial-of-service condition through irreversible data loss.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "products": [
+        "redhat/enterprise_linux",
+        "freedesktop/udisks"
+      ],
+      "published": "2026-02-25T11:16:02.983",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26103",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 7e-05,
+      "epss_percentile": 0.5
+    },
+    {
+      "id": "CVE-2025-67860",
+      "description": "A vulnerability has been identified in the NeuVector scanner where the scanner process accepts registry and controller credentials as command-line arguments, potentially exposing sensitive credentials to local users.",
+      "full_description": "A vulnerability has been identified in the NeuVector scanner where the scanner process accepts registry and controller credentials as command-line arguments, potentially exposing sensitive credentials to local users.",
+      "severity": "LOW",
+      "score": 3.8,
+      "products": [],
+      "published": "2026-02-25T11:16:02.820",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67860",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00011,
+      "epss_percentile": 1.2
+    },
+    {
+      "id": "CVE-2025-67601",
+      "description": "A vulnerability has been identified within Rancher Manager, where using self-signed CA certificates and passing the -skip-verify flag to the Rancher CLI login command without also passing the –cacert flag results in the CLI attempting to fetch CA certificates stored in Rancher’s setting cacerts.",
+      "full_description": "A vulnerability has been identified within Rancher Manager, where using self-signed CA certificates and passing the -skip-verify flag to the Rancher CLI login command without also passing the –cacert flag results in the CLI attempting to fetch CA certificates stored in Rancher’s setting cacerts.",
+      "severity": "HIGH",
+      "score": 8.3,
+      "products": [],
+      "published": "2026-02-25T11:16:02.643",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67601",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 9e-05,
+      "epss_percentile": 0.8
+    },
+    {
+      "id": "CVE-2025-62878",
+      "description": "A malicious user can manipulate the parameters.pathPattern to create PersistentVolumes in arbitrary locations on the host node, potentially overwriting sensitive files or gaining access to unintended directories.",
+      "full_description": "A malicious user can manipulate the parameters.pathPattern to create PersistentVolumes in arbitrary locations on the host node, potentially overwriting sensitive files or gaining access to unintended directories.",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "products": [],
+      "published": "2026-02-25T11:16:01.747",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62878",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00024,
+      "epss_percentile": 6.1
+    },
+    {
+      "id": "CVE-2026-2410",
+      "description": "The Disable Admin Notices – Hide Dashboard Notifications plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.4.2. This is due to missing nonce validation in the `showPageContent()` function. This makes it possible for unauthenticated attackers to ",
+      "full_description": "The Disable Admin Notices – Hide Dashboard Notifications plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.4.2. This is due to missing nonce validation in the `showPageContent()` function. This makes it possible for unauthenticated attackers to add arbitrary URLs to the blocked redirects list via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "products": [],
+      "published": "2026-02-25T10:16:18.697",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2410",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00012,
+      "epss_percentile": 1.7
+    },
+    {
+      "id": "CVE-2026-2367",
+      "description": "The Secure Copy Content Protection and Content Locking plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ays_block' shortcode in all versions up to, and including, 5.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This mak",
+      "full_description": "The Secure Copy Content Protection and Content Locking plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ays_block' shortcode in all versions up to, and including, 5.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "products": [],
+      "published": "2026-02-25T10:16:18.507",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2367",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.0003,
+      "epss_percentile": 8.5
+    },
+    {
+      "id": "CVE-2026-2301",
+      "description": "The Post Duplicator plugin for WordPress is vulnerable to unauthorized arbitrary protected post meta insertion in all versions up to, and including, 3.0.8. This is due to the `duplicate_post()` function in `includes/api.php` using `$wpdb->insert()` directly to the `wp_postmeta` table instead of Word",
+      "full_description": "The Post Duplicator plugin for WordPress is vulnerable to unauthorized arbitrary protected post meta insertion in all versions up to, and including, 3.0.8. This is due to the `duplicate_post()` function in `includes/api.php` using `$wpdb->insert()` directly to the `wp_postmeta` table instead of WordPress's standard `add_post_meta()` function, which would call `is_protected_meta()` to prevent lower-privileged users from setting protected meta keys (those starting with `_`). This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary protected post meta keys such as `_wp_page_template`, `_wp_attached_file`, and other sensitive meta keys on duplicated posts via the `customMetaData` JSON array parameter in the `/wp-json/post-duplicator/v1/duplicate-post` REST API endpoint.",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "products": [],
+      "published": "2026-02-25T10:16:18.307",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2301",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00026,
+      "epss_percentile": 7.1
+    },
+    {
+      "id": "CVE-2025-14742",
+      "description": "The WP Recipe Maker plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'ajax_search_recipes' and 'ajax_get_recipe' functions in all versions up to, and including, 10.2.3. This makes it possible for authenticated attackers, with Subscriber-level",
+      "full_description": "The WP Recipe Maker plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'ajax_search_recipes' and 'ajax_get_recipe' functions in all versions up to, and including, 10.2.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to retrieve sensitive recipe information including draft, pending, and private recipes that they shouldn't be able to access.",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "products": [],
+      "published": "2026-02-25T10:16:18.087",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14742",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00031,
+      "epss_percentile": 8.8
+    },
+    {
+      "id": "CVE-2026-3171",
+      "description": "A flaw has been found in SourceCodester/Patrick Mvuma Patients Waiting Area Queue Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /queue.php. This manipulation of the argument firstname/lastname causes cross site scripting. The attack is possible to be c",
+      "full_description": "A flaw has been found in SourceCodester/Patrick Mvuma Patients Waiting Area Queue Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /queue.php. This manipulation of the argument firstname/lastname causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been published and may be used.",
+      "severity": "LOW",
+      "score": 3.5,
+      "products": [
+        "pamzey/patients_waiting_area_queue_management_system"
+      ],
+      "published": "2026-02-25T09:16:15.740",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3171",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00027,
+      "epss_percentile": 7.1
+    },
+    {
+      "id": "CVE-2026-2479",
+      "description": "The Responsive Lightbox & Gallery plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.7.1. This is due to the use of `strpos()` for substring-based hostname validation instead of strict host comparison in the `ajax_upload_image()` function. This ",
+      "full_description": "The Responsive Lightbox & Gallery plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.7.1. This is due to the use of `strpos()` for substring-based hostname validation instead of strict host comparison in the `ajax_upload_image()` function. This makes it possible for authenticated attackers, with Author-level access and above, to make web requests to arbitrary locations originating from the web application, which can be used to query and modify information from internal services.",
+      "severity": "MEDIUM",
+      "score": 5.0,
+      "products": [],
+      "published": "2026-02-25T09:16:15.547",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2479",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00028,
+      "epss_percentile": 7.8
+    },
+    {
+      "id": "CVE-2026-2416",
+      "description": "The Geo Mashup plugin for WordPress is vulnerable to SQL Injection via the 'sort' parameter in all versions up to, and including, 1.13.17. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unau",
+      "full_description": "The Geo Mashup plugin for WordPress is vulnerable to SQL Injection via the 'sort' parameter in all versions up to, and including, 1.13.17. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "products": [],
+      "published": "2026-02-25T09:16:15.367",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2416",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00071,
+      "epss_percentile": 21.6
+    },
+    {
+      "id": "CVE-2026-1929",
+      "description": "The Advanced Woo Labels plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.37. This is due to the use of `call_user_func_array()` with user-controlled callback and parameters in the `get_select_option_values()` AJAX handler without an allowlist of per",
+      "full_description": "The Advanced Woo Labels plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.37. This is due to the use of `call_user_func_array()` with user-controlled callback and parameters in the `get_select_option_values()` AJAX handler without an allowlist of permitted callbacks or a capability check. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute arbitrary PHP functions and operating system commands on the server via the 'callback' parameter.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "products": [],
+      "published": "2026-02-25T09:16:15.173",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1929",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00241,
+      "epss_percentile": 47.1
+    },
+    {
+      "id": "CVE-2026-1916",
+      "description": "The WPGSI: Spreadsheet Integration plugin for WordPress is vulnerable to unauthorized modification and loss of data due to missing capability checks and an insecure authentication mechanism on the `wpgsi_callBackFuncAccept` and `wpgsi_callBackFuncUpdate` REST API functions in all versions up to, and",
+      "full_description": "The WPGSI: Spreadsheet Integration plugin for WordPress is vulnerable to unauthorized modification and loss of data due to missing capability checks and an insecure authentication mechanism on the `wpgsi_callBackFuncAccept` and `wpgsi_callBackFuncUpdate` REST API functions in all versions up to, and including, 3.8.3. Both REST endpoints use `permission_callback => '__return_true'`, allowing unauthenticated access. The plugin's custom token-based validation relies on a Base64-encoded JSON object containing the user ID and email address, but is not cryptographically signed. This makes it possible for unauthenticated attackers to forge tokens using publicly enumerable information (admin user ID and email) to create, modify, and delete arbitrary WordPress posts and pages, granted they know the administrator's email address and an active integration ID with remote updates enabled.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "products": [],
+      "published": "2026-02-25T09:16:14.943",
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1916",
+      "related_posts": [],
+      "cisa_kev": false,
+      "epss_score": 0.00097,
+      "epss_percentile": 26.9
     }
   ]
 }

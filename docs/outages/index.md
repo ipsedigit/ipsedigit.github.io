@@ -13,18 +13,6 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>GitHub</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/k350x50r7bt4" target="_blank" rel="noopener" style="color:#111;">Incident with Copilot agent sessions</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 27, 23:18 UTC &nbsp;·&nbsp; Updated: Feb 27, 23:18 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Cloudflare</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
@@ -44,6 +32,18 @@ permalink: /outages/
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7mncr84x75hw" target="_blank" rel="noopener" style="color:#111;">Customers in Argentina Unable to Authenticate Card in Twilio SendGrid</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
     Started: Feb 27, 08:49 UTC &nbsp;·&nbsp; Updated: Feb 27, 15:02 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/869nb37gt8gn" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to MobiFone Vietnam</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 28, 08:27 UTC &nbsp;·&nbsp; Updated: Feb 28, 09:22 UTC
   </div>
 </div>
 
@@ -67,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Feb 27, 17:39 UTC
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 16:02 UTC
   </div>
 </div>
 
@@ -75,9 +75,81 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Supabase</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 14:29 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Increased Edge Function Errors across multiple regions</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 11:00 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Elevated 500 error rate on Cache Purge API requests</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 10:00 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Increased traffic and elevated 5xx errors in Salt Lake City, US region</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 09:01 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 08:44 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Vercel</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 06:28 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delays Loading Observability, Analytics and Speed Insights Data</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 00:38 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Magic Transit Control Plane Issues</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">GitHub</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 23:49 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Incident with Copilot agent sessions</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 23:01 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Potential service degradation in South America datacenters</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 22:24 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India</span>
   </div>
 </div>
 
@@ -91,17 +163,17 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 14:59 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Unable to Create Campaigns via Console</span>
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 17:30 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Increased HTTP 520 Errors in Newark, New Jersey datacenter (EWR)</span>
   </div>
 </div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">GCP</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 14:45 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Vertex AI Gemini API customers experienced increased error rates when accessing the global endpoint.</span>
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 14:59 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Unable to Create Campaigns via Console</span>
   </div>
 </div>
 
@@ -141,74 +213,10 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 11:18 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Customers Using TaskRouter and Flex Would Have Delays in Routing of Calls and Messages to Agents. Insights Data in TaskRouter and Flex Insights May Be Incomplete.</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 10:09 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Cloudflare is investigating dashboard login issues</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">GitHub</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 06:04 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Code view fails to load when content contains some non-ASCII characters</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 05:23 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Custom Error Pages Not Applying</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">CircleCI</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 00:17 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Degradation in some checkout steps</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">GitHub</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 00:04 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">High latency on webhook API requests</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 26, 18:02 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to Claro Chile</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 26, 17:11 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from a Subset of Twilio Short Codes to Union Telecom network in  United States</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 26, 16:59 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to Orange Cameroon</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Issues with TaskRouter and Flex Insights and Routing</span>
   </div>
 </div>
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-27 23:24:21 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 17:24:41 UTC &middot; Checks every 30 minutes</p>
