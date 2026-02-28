@@ -1,6 +1,197 @@
 {
-  "generated_at": "",
-  "spotlight": null,
-  "apple_official": [],
-  "community": []
+  "generated_at": "2026-02-28 00:06:55 UTC",
+  "spotlight": {
+    "title": "Age requirements for apps distributed in Brazil, Australia, Singapore, Utah, and Louisiana",
+    "url": "https://developer.apple.com/news/?id=f5zj08ey",
+    "published": "2026-02-24T17:00:48+00:00",
+    "summary": "Today we’re providing an update on the tools available for developers to meet their age assurance obligations under upcoming U.S. and regional laws, including in Brazil, Australia, Singapore, Utah, an…",
+    "source": "Apple Developer News",
+    "source_key": "apple_dev",
+    "section": "apple_official",
+    "is_spotlight_candidate": true
+  },
+  "apple_official": [
+    {
+      "title": "Age requirements for apps distributed in Brazil, Australia, Singapore, Utah, and Louisiana",
+      "url": "https://developer.apple.com/news/?id=f5zj08ey",
+      "published": "2026-02-24T17:00:48+00:00",
+      "summary": "Today we’re providing an update on the tools available for developers to meet their age assurance obligations under upcoming U.S. and regional laws, including in Brazil, Australia, Singapore, Utah, an…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Get ready with the latest beta releases",
+      "url": "https://developer.apple.com/news/?id=xgkk9w83",
+      "published": "2026-02-16T14:00:14+00:00",
+      "summary": "The beta versions of iOS 26.4, iPadOS 26.4, macOS 26.4, tvOS 26.4, visionOS 26.4, and watchOS 26.4 are now available. Get your apps ready by confirming they work as expected on these releases. And mak…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Updated App Review Guidelines now available",
+      "url": "https://developer.apple.com/news/?id=d75yllv4",
+      "published": "2026-02-06T15:00:56+00:00",
+      "summary": "The App Review Guidelines have been revised to clarify that apps with random or anonymous chat are subject to the 1.2 User-Generated Content guideline.Translations of the guidelines will be available …",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Swift Student Challenge submissions are now open",
+      "url": "https://developer.apple.com/news/?id=f0xw4t5r",
+      "published": "2026-02-06T13:00:56+00:00",
+      "summary": "The Swift Student Challenge is here! Submissions are now open through February 28, and students from all over the world are invited to submit their app playgrounds.Learn more about the ChallengeKey th…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Hello Developer: February 2026",
+      "url": "https://developer.apple.com/news/?id=6iajkgmp",
+      "published": "2026-02-03T16:00:16+00:00",
+      "summary": "In this edition: Big news about agentic coding in Xcode. Plus:\nJoin us for an online code-along about coding intelligence.\nGet your Swift Student Challenge submissions ready.\nBrowse new developer acti…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Upcoming SDK minimum requirements",
+      "url": "https://developer.apple.com/news/?id=ueeok6yw",
+      "published": "2026-02-03T13:00:30+00:00",
+      "summary": "Starting April 28, 2026, apps and games uploaded to App Store Connect need to meet the following minimum requirements:\niOS and iPadOS apps must be built with the iOS 26 &amp; iPadOS 26 SDK or later\ntv…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Price updates for apps, In-App Purchases, and subscriptions",
+      "url": "https://developer.apple.com/news/?id=gvnljl3f",
+      "published": "2026-01-29T18:00:26+00:00",
+      "summary": "The App Store is designed to make it easy to sell your digital goods and services globally, with support for 43 currencies across 175 storefronts.From time to time, we need to adjust prices or your pr…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    },
+    {
+      "title": "Hello Developer: January 2026",
+      "url": "https://developer.apple.com/news/?id=zni5qkkl",
+      "published": "2026-01-06T16:00:16+00:00",
+      "summary": "We‘re hitting the ground running in 2026. In this edition:\nA special SwiftUI activity in Cupertino.\nMore ways to connect with us about Liquid Glass.\nA snappy video recap of Apple design resources.\nAll…",
+      "source": "Apple Developer News",
+      "source_key": "apple_dev",
+      "section": "apple_official",
+      "is_spotlight_candidate": true
+    }
+  ],
+  "community": [
+    {
+      "title": "Issue 744",
+      "url": "https://iosdevweekly.com/issues/744/",
+      "published": "2026-02-26T23:00:00+00:00",
+      "summary": "How do we avoid software being average if we let AI write everything? 🎢",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 743",
+      "url": "https://iosdevweekly.com/issues/743/",
+      "published": "2026-02-12T23:00:00+00:00",
+      "summary": "Should an agent and your instructions to it live in the sidebar, or should it be front and center? 🤖",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 742",
+      "url": "https://iosdevweekly.com/issues/742/",
+      "published": "2026-02-05T23:00:00+00:00",
+      "summary": "Did I find a new flagship project for Swift on Windows? Maybe! 🫨",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 741",
+      "url": "https://iosdevweekly.com/issues/741/",
+      "published": "2026-01-29T23:00:00+00:00",
+      "summary": "Forget about Windows and Wasm, what’s the flagship project for macOS and iOS?! 😂",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 740",
+      "url": "https://iosdevweekly.com/issues/740/",
+      "published": "2026-01-22T23:00:00+00:00",
+      "summary": "Want to use an agent, but without launching a terminal or an IDE? 🫨",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 739",
+      "url": "https://iosdevweekly.com/issues/739/",
+      "published": "2026-01-15T23:00:00+00:00",
+      "summary": "Cupertino? Isn’t that a city in California? 🐻",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 738",
+      "url": "https://iosdevweekly.com/issues/738/",
+      "published": "2026-01-08T23:00:00+00:00",
+      "summary": "Alternate browser engines come to the Japanese App Store, but what will it take to see this in use? 🤔",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Replay",
+      "url": "https://nshipster.com/replay/",
+      "published": "2025-12-31T07:00:00+00:00",
+      "summary": "Fast, reliable API tests without mocks or stale JSON fixtures. Replay records real HTTP traffic once (as HAR) and replays it instantly with Swift Testing so your networking code stays honest and your …",
+      "source": "NSHipster",
+      "source_key": "nshipster",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "Issue 737",
+      "url": "https://iosdevweekly.com/issues/737/",
+      "published": "2025-12-18T23:00:00+00:00",
+      "summary": "Last issue of the year, and it’s time for the App Store Awards. 🎉",
+      "source": "iOS Dev Weekly",
+      "source_key": "iosdevweekly",
+      "section": "community",
+      "is_spotlight_candidate": false
+    },
+    {
+      "title": "What to fix in AI-generated Swift code",
+      "url": "https://www.hackingwithswift.com/articles/281/what-to-fix-in-ai-generated-swift-code",
+      "published": "2025-12-04T14:24:04+00:00",
+      "summary": "As AI-assisted coding increases in popularity, here are a handful of things I would suggest you look out for – and what to replace them with instead.",
+      "source": "Hacking with Swift",
+      "source_key": "hackingwithswift",
+      "section": "community",
+      "is_spotlight_candidate": false
+    }
+  ]
 }
