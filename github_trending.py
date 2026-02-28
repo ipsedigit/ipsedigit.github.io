@@ -379,13 +379,10 @@ def _generate_page(repos, featured, deltas, history=None):
             ) + '</div>'
 
         lines += [
-            "## \U0001f3c6 Repo of the Day",
-            "",
             '<div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">',
             '  <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">',
             f'    <img src="{featured["owner_avatar"]}&s=32" alt="" width="32" height="32" style="border-radius:50%;">',
             f'    <strong style="font-size:1.2em;"><a href="{featured["repo_url"]}" target="_blank" rel="noopener">{featured["name"]}</a></strong>',
-            f'    <a href="{featured["repo_url"]}" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f; text-decoration:none;">\u2b50 Repo of the Day</a>',
             f'    <span style="font-size:0.85em; color:#92400e;">{delta_str} stars today</span>',
             '  </div>',
             f'  <p style="margin:0.3em 0; color:#374151;">{featured["description"]}</p>',

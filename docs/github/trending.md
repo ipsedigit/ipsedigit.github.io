@@ -14,13 +14,10 @@ permalink: /github/
   <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ repos.size }} repos</span>
 </div>
 
-## 🏆 Repo of the Day
-
 <div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">
   <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">
     <img src="https://avatars.githubusercontent.com/u/76263028?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
     <strong style="font-size:1.2em;"><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">anthropics/skills</a></strong>
-    <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener" style="padding:2px 8px; border-radius:12px; font-size:0.8em; background:#fbbf24; color:#78350f; text-decoration:none;">⭐ Repo of the Day</a>
     <span style="font-size:0.85em; color:#92400e;">+1103 stars today</span>
   </div>
   <p style="margin:0.3em 0; color:#374151;">Public repository for Agent Skills</p>
