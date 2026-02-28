@@ -175,4 +175,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 10:28:39 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 10:51:51 UTC &middot; Checks every 30 minutes</p>
