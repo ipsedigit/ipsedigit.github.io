@@ -3,48 +3,12 @@ layout: page
 title: "Devs"
 description: "Personal blogs by individual developers. Raw, unfiltered, not mainstream."
 permalink: /devs/
+title_badge: "✍️ Devs"
+title_badge_bg: "#f3f4f6"
+title_badge_color: "#374151"
 ---
 
 <style>
-/* Hero — today's pick */
-.devs-hero {
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border: 2px solid #111;
-  border-radius: 8px;
-  background: #f5f5f0;
-}
-.devs-hero .hero-badge {
-  display: inline-block;
-  padding: 3px 10px;
-  border-radius: 3px;
-  font-size: 0.78em;
-  font-weight: bold;
-  background: #111;
-  color: #fff;
-  margin-bottom: 0.75rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.devs-hero h2 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.3;
-}
-.devs-hero h2 a { color: #111; text-decoration: none; }
-.devs-hero h2 a:hover { color: #0066cc; }
-.devs-hero .hero-meta {
-  font-size: 0.8rem;
-  color: #888;
-  margin-bottom: 0.5rem;
-}
-.devs-hero .hero-desc {
-  color: #374151;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin: 0;
-}
 
 /* Post cards */
 .post-item {
@@ -160,18 +124,19 @@ permalink: /devs/
 
 {% if site.data.devs_articles and site.data.devs_articles.articles and site.data.devs_articles.articles.size > 0 %}
 
-{% assign hero = site.data.devs_articles.articles | first %}
+{% assign featured = site.data.devs_articles.articles | first %}
+{% assign hero_slug = featured.source | slugify %}
 
-{% assign hero_slug = hero.source | slugify %}
-<div class="devs-hero">
-  <a href="{{ hero.url }}" target="_blank" rel="noopener" class="hero-badge" style="text-decoration:none;">Devs Pick</a>
-  <h2><a href="{{ hero.url }}" target="_blank" rel="noopener">{{ hero.title | escape }}</a></h2>
-  <div class="hero-meta">
-    {{ hero.date }}
-    · <a href="/devs/#{{ hero_slug }}" class="source-badge source-badge--{{ hero_slug }}">{{ hero.source }}</a>
+<div data-devs-hero style="margin-bottom:2em; padding:1.25em; border:2px solid #374151; border-radius:8px; background:#f9fafb;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
+    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#374151; color:#fff;">&#9733; Latest</span>
+    <span style="font-size:0.78em; color:#6b7280;"><a href="/devs/#{{ hero_slug }}" class="source-badge source-badge--{{ hero_slug }}">{{ featured.source }}</a> &middot; {{ featured.date }}</span>
   </div>
-  {% if hero.description and hero.description != "" %}
-  <p class="hero-desc">{{ hero.description | truncate: 200 }}</p>
+  <div style="font-weight:700; font-size:1.1em; margin-bottom:0.4em;">
+    <a href="{{ featured.url }}" target="_blank" rel="noopener" style="color:#111; text-decoration:none;">{{ featured.title | escape }}</a>
+  </div>
+  {% if featured.description and featured.description != "" %}
+  <p style="margin:0; font-size:0.88em; color:#374151; line-height:1.5;">{{ featured.description | truncate: 200 }}</p>
   {% endif %}
 </div>
 
@@ -234,7 +199,7 @@ permalink: /devs/
   var filters = document.getElementById('devs-filters');
   if (!filters) return;
   var articles = document.querySelectorAll('.devs-article');
-  var hero = document.querySelector('.devs-hero');
+  var hero = document.querySelector('[data-devs-hero]');
   var active = null;
 
   function toggle(slug) {
