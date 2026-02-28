@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 5 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 4 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -32,18 +32,6 @@ permalink: /outages/
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7mncr84x75hw" target="_blank" rel="noopener" style="color:#111;">Customers in Argentina Unable to Authenticate Card in Twilio SendGrid</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
     Started: Feb 27, 08:49 UTC &nbsp;·&nbsp; Updated: Feb 27, 15:02 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/pzx5d3nzpd8q" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 27, 19:35 UTC &nbsp;·&nbsp; Updated: Feb 27, 20:35 UTC
   </div>
 </div>
 
@@ -75,6 +63,14 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Vercel</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 06:28 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delays Loading Observability, Analytics and Speed Insights Data</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 00:38 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Magic Transit Control Plane Issues</span>
@@ -94,6 +90,14 @@ permalink: /outages/
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 23:01 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Potential service degradation in South America datacenters</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 22:24 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India</span>
   </div>
 </div>
 
@@ -177,14 +181,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">GitHub</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 06:04 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Code view fails to load when content contains some non-ASCII characters</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 05:36:06 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 06:45:29 UTC &middot; Checks every 30 minutes</p>

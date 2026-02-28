@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 05:36:06 UTC",
-  "active_count": 5,
-  "resolved_count": 14,
+  "generated_at": "2026-02-28 06:45:29 UTC",
+  "active_count": 4,
+  "resolved_count": 15,
   "active": [
     {
       "id": "tzlnzb58ghvd",
@@ -24,17 +24,6 @@
       "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
-    },
-    {
-      "id": "yypvh9n0834s",
-      "name": "SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-02-27T19:35:34.824-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-02-27T20:35:21.955-08:00",
-      "shortlink": "https://stspg.io/pzx5d3nzpd8q",
-      "service": "Twilio"
     },
     {
       "id": "391rky29892m",
@@ -60,6 +49,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "dcfq5yq47v0r",
+      "name": "Delays Loading Observability, Analytics and Speed Insights Data",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-02-28T05:46:25.338Z",
+      "resolved_at": "2026-02-28T06:28:07.687Z",
+      "updated_at": "2026-02-28T06:28:07.703Z",
+      "shortlink": "https://stspg.io/zbz3rzpd7vwq",
+      "service": "Vercel"
+    },
     {
       "id": "ybx14rhks0fp",
       "name": "Magic Transit Control Plane Issues",
@@ -92,6 +92,17 @@
       "updated_at": "2026-02-27T23:01:15.893Z",
       "shortlink": "https://stspg.io/6knfzh589smx",
       "service": "Cloudflare"
+    },
+    {
+      "id": "yypvh9n0834s",
+      "name": "SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T19:35:34.824-08:00",
+      "resolved_at": "2026-02-27T22:24:27.291-08:00",
+      "updated_at": "2026-02-27T22:24:27.308-08:00",
+      "shortlink": "https://stspg.io/pzx5d3nzpd8q",
+      "service": "Twilio"
     },
     {
       "id": "nzqx41m4y0hv",
@@ -202,17 +213,6 @@
       "updated_at": "2026-02-27T10:09:37.827Z",
       "shortlink": "https://stspg.io/hbd46ww0vlq3",
       "service": "Cloudflare"
-    },
-    {
-      "id": "kv1lzpgzr9yp",
-      "name": "Code view fails to load when content contains some non-ASCII characters",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T03:08:23.495Z",
-      "resolved_at": "2026-02-27T06:04:02.145Z",
-      "updated_at": "2026-02-27T21:04:29.293Z",
-      "shortlink": "https://stspg.io/5zqmjwwn4z1q",
-      "service": "GitHub"
     }
   ]
 }
