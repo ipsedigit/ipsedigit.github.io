@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: base
 title: "eof.news — Today's tech signal for engineers who build"
 description: "Daily curated tech signal: AI, security, cloud, devtools. For engineers who build. No noise."
 keywords: "tech news, AI news, security news, cloud computing, developer tools, software engineering, devops, kubernetes, programming, trending tech"
-title_badge: "📰 Latest"
-title_badge_bg: "#f0f9ff"
-title_badge_color: "#0284c7"
 ---
 
 
@@ -144,6 +141,11 @@ title_badge_color: "#0284c7"
 }
 </style>
 
+<div style="background:#111; margin: -1.5rem -1rem 2rem -1rem; padding: 2.5rem 1rem; text-align:center;">
+  <div style="font-family:'JetBrains Mono', monospace; font-size:2rem; font-weight:700; letter-spacing:0.02em; line-height:1;">
+    <span style="color:#fff;">eof</span><span style="color:#555;">.news</span>
+  </div>
+</div>
 
 {% assign featured = paginator.posts | first %}
 {% if featured %}
