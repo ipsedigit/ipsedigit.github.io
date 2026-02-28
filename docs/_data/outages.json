@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-02-28 12:54:47 UTC",
-  "active_count": 6,
+  "generated_at": "2026-02-28 13:39:27 UTC",
+  "active_count": 7,
   "resolved_count": 16,
   "active": [
+    {
+      "id": "fk3nr6tg8cft",
+      "name": "Increased Edge Function Errors across multiple regions",
+      "status": "investigating",
+      "impact": "major",
+      "started_at": "2026-02-28T13:03:11.062Z",
+      "resolved_at": null,
+      "updated_at": "2026-02-28T13:05:29.120Z",
+      "shortlink": "https://stspg.io/y9rwllctz9ry",
+      "service": "Supabase"
+    },
     {
       "id": "tzlnzb58ghvd",
       "name": "Cloudflare Peering Portal Authentication Issue",
@@ -65,7 +76,7 @@
       "impact": "none",
       "started_at": "2026-02-24T14:46:17.352Z",
       "resolved_at": null,
-      "updated_at": "2026-02-27T17:39:49.139Z",
+      "updated_at": "2026-02-28T13:03:11.117Z",
       "shortlink": "https://stspg.io/kcpw1yj9wqzh",
       "service": "Supabase"
     }

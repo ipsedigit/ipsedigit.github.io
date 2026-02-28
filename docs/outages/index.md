@@ -6,10 +6,22 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 6 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
 </div>
 
 ## Active Incidents
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Supabase</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/y9rwllctz9ry" target="_blank" rel="noopener" style="color:#111;">Increased Edge Function Errors across multiple regions</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 28, 13:03 UTC &nbsp;·&nbsp; Updated: Feb 28, 13:05 UTC
+  </div>
+</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -79,7 +91,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Feb 27, 17:39 UTC
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 13:03 UTC
   </div>
 </div>
 
@@ -215,4 +227,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 12:54:47 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 13:39:27 UTC &middot; Checks every 30 minutes</p>
