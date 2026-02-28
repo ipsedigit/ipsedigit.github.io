@@ -55,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/68zmw5265cyw" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 10:41 UTC
+    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 12:41 UTC
   </div>
 </div>
 
@@ -211,4 +211,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 20:31:13 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 21:25:55 UTC</p>

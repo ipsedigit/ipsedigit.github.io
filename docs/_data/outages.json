@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28 20:31:13 UTC",
+  "generated_at": "2026-02-28 21:25:55 UTC",
   "active_count": 7,
   "resolved_count": 14,
   "active": [
@@ -43,7 +43,7 @@
       "impact": "minor",
       "started_at": "2026-02-28T09:28:14.822-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T10:41:43.916-08:00",
+      "updated_at": "2026-02-28T12:41:14.248-08:00",
       "shortlink": "https://stspg.io/68zmw5265cyw",
       "service": "Twilio"
     },
