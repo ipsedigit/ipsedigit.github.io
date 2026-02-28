@@ -1,3 +1,34 @@
+# Homepage Fix Implementation Plan
+
+> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+
+**Goal:** Make the homepage consistent with iOS/Android/Devs pages by adding a page header with badge and a featured hero card.
+
+**Architecture:** Single-file change to `docs/index.html`. Switch from `layout: base` to `layout: page` (renders title + badge), add a hero card using the first post from `paginator.posts`, then move the top ad below the hero so content shows first.
+
+**Tech Stack:** Jekyll/Liquid, GitHub Pages, Minima theme
+
+---
+
+### Task 1: Update front matter
+
+**Files:**
+- Modify: `docs/index.html` lines 1-6
+
+**Step 1: Change layout and add badge metadata**
+
+Replace the current front matter:
+```yaml
+---
+layout: base
+title: "eof.news — Today's tech signal for engineers who build"
+description: "Daily curated tech signal: AI, security, cloud, devtools. For engineers who build. No noise."
+keywords: "tech news, AI news, security news, cloud computing, developer tools, software engineering, devops, kubernetes, programming, trending tech"
+---
+```
+
+With:
+```yaml
 ---
 layout: page
 title: "eof.news — Today's tech signal for engineers who build"
@@ -7,144 +38,46 @@ title_badge: "📰 Latest"
 title_badge_bg: "#f0f9ff"
 title_badge_color: "#0284c7"
 ---
+```
 
+**Step 2: Verify**
 
-<style>
-/* Post */
-.post-item {
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 6px;
-  background: #fafafa;
-}
-.post-item:hover {
-  border-color: #ccc;
-}
+The `docs/_layouts/page.html` wraps content in `<article class="post">` with `<h1>` showing the title + badge. This is the same pattern used by iOS, Android, and Devs pages.
 
-.post-title {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.4;
-}
-.post-title a { 
-  color: #111; 
-  text-decoration: none; 
-}
-.post-title a:hover { 
-  color: #0066cc; 
-}
+---
 
-.post-meta {
-  font-size: 0.8rem;
-  color: #888;
-  margin-bottom: 0.5rem;
-}
+### Task 2: Add hero card and reorder content
 
-.post-tags {
-  display: inline;
-}
-.post-tags a {
-  color: #666;
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-.post-tags a:hover {
-  color: #0066cc;
-}
-.post-tags a::before {
-  content: "#";
-}
-.post-tags a + a {
-  margin-left: 0.5rem;
-}
+**Files:**
+- Modify: `docs/index.html` — replace everything after the `<style>` block
 
-.post-preview {
-  color: #444;
-  font-size: 0.9rem;
-  margin: 0.5rem 0 0 0;
-  line-height: 1.5;
-}
+**Step 1: Replace the content section**
 
-.post-image {
-  margin-top: 0.75rem;
-}
-.post-image img {
-  max-width: 100%;
-  max-height: 180px;
-  object-fit: cover;
-  border-radius: 4px;
-}
+Find this block (lines 145–219, everything after `</style>`):
+```liquid
+<div class="ad-space" id="ad-top">
+  {% if site.adsense_id %}
+  ...
+  {% endif %}
+</div>
 
-/* Ad */
-.ad-space {
-  background: #fafafa;
-  border: 1px solid #eee;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  text-align: center;
-  min-height: 90px;
-}
+{% assign post_count = 0 %}
+{% for post in paginator.posts %}
+...
+{% endfor %}
 
-/* Quick nav */
-.quick-nav {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.75rem;
-  font-size: 0.85rem;
-}
-.quick-nav a {
-  color: #666;
-  text-decoration: none;
-}
-.quick-nav a:hover {
-  color: #0066cc;
-}
+{% if paginator.total_pages > 1 %}
+...
+{% endif %}
 
-/* Niche badge */
-.niche-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: #fff;
-  text-decoration: none;
-}
-.niche-badge:hover { opacity: 0.85; }
-.niche-badge--ai { background: #7c3aed; }
-.niche-badge--security { background: #dc2626; }
-.niche-badge--cloud { background: #0284c7; }
-.niche-badge--devtools { background: #059669; }
-.niche-badge--software-engineering { background: #d97706; }
+<div class="ad-space" id="ad-bottom">
+...
+</div>
+```
 
-/* Pagination */
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin: 2rem 0;
-  font-size: 0.9rem;
-}
-.pagination a {
-  color: #111;
-  text-decoration: none;
-  padding: 6px 14px;
-  border: 1px solid #e5e5e5;
-  border-radius: 6px;
-}
-.pagination a:hover {
-  background: #f5f5f5;
-  border-color: #ccc;
-}
-.pagination .current-page {
-  color: #888;
-}
-</style>
+Replace with:
 
-
+```liquid
 {% assign featured = paginator.posts | first %}
 {% if featured %}
 <div style="margin-bottom:2em; padding:1.25em; border:2px solid #0284c7; border-radius:8px; background:#f0f9ff;">
@@ -245,3 +178,31 @@ title_badge_color: "#0284c7"
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   {% endif %}
 </div>
+```
+
+**Step 2: Verify the key changes**
+
+- Hero card appears before the ad
+- Article loop uses `offset:1` (skips the hero post)
+- `post_count` resets to 0 for the offset loop — mid-ad fires every 8 articles in the list
+- Pagination and bottom ad unchanged
+
+---
+
+### Task 3: Manual verification
+
+**Step 1: Build locally (if Jekyll is available)**
+```bash
+cd docs && bundle exec jekyll serve --incremental
+```
+Open `http://localhost:4000` and confirm:
+- Page title `eof.news — Today's tech signal for engineers who build` renders with badge `📰 Latest`
+- Hero card shows in blue border before the ad
+- Article list starts with the second post
+
+**Step 2: If no local Jekyll, push and check GitHub Pages**
+Commit and push, wait ~30s, verify at `https://ipsedigit.github.io`.
+
+---
+
+> **Note:** No tests to write — this is a Liquid template change. Verification is visual.
