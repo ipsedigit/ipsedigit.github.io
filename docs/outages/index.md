@@ -55,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/869nb37gt8gn" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to MobiFone Vietnam</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 08:27 UTC &nbsp;·&nbsp; Updated: Feb 28, 09:22 UTC
+    Started: Feb 28, 08:27 UTC &nbsp;·&nbsp; Updated: Feb 28, 10:20 UTC
   </div>
 </div>
 
@@ -223,4 +223,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 17:58:11 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 18:39:04 UTC</p>
