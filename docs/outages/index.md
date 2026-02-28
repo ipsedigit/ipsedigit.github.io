@@ -39,11 +39,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/zyr884r3s84v" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 03:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 05:47 UTC
+    Started: Feb 28, 03:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 07:02 UTC
   </div>
 </div>
 
@@ -209,10 +209,10 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 11:18 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Customers Using TaskRouter and Flex Would Have Delays in Routing of Calls and Messages to Agents. Insights Data in TaskRouter and Flex Insights May Be Incomplete.</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Issues with TaskRouter and Flex Insights and Routing</span>
   </div>
 </div>
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 14:49:54 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 15:27:30 UTC &middot; Checks every 30 minutes</p>

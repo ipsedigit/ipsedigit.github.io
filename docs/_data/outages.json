@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28 14:49:54 UTC",
+  "generated_at": "2026-02-28 15:27:30 UTC",
   "active_count": 6,
   "resolved_count": 16,
   "active": [
@@ -28,11 +28,11 @@
     {
       "id": "zv3q3n37blrz",
       "name": "SMS Delivery Delays and Failures from Twilio to Ncell Nepal",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-02-28T03:46:56.589-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T05:47:49.723-08:00",
+      "updated_at": "2026-02-28T07:02:40.205-08:00",
       "shortlink": "https://stspg.io/zyr884r3s84v",
       "service": "Twilio"
     },
@@ -238,12 +238,12 @@
     },
     {
       "id": "nd5mpgld898g",
-      "name": "Customers Using TaskRouter and Flex Would Have Delays in Routing of Calls and Messages to Agents. Insights Data in TaskRouter and Flex Insights May Be Incomplete.",
+      "name": "Issues with TaskRouter and Flex Insights and Routing",
       "status": "resolved",
       "impact": "minor",
       "started_at": "2026-02-27T11:08:46.975-08:00",
       "resolved_at": "2026-02-27T11:18:49.456-08:00",
-      "updated_at": "2026-02-27T11:18:49.477-08:00",
+      "updated_at": "2026-02-28T07:07:55.553-08:00",
       "shortlink": "https://stspg.io/95rng17j659h",
       "service": "Twilio"
     }
