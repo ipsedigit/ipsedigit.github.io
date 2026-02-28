@@ -15,11 +15,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Supabase</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/y9rwllctz9ry" target="_blank" rel="noopener" style="color:#111;">Increased Edge Function Errors across multiple regions</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 13:03 UTC &nbsp;·&nbsp; Updated: Feb 28, 13:05 UTC
+    Started: Feb 28, 13:03 UTC &nbsp;·&nbsp; Updated: Feb 28, 14:17 UTC
   </div>
 </div>
 
@@ -55,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/zyr884r3s84v" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 03:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 03:46 UTC
+    Started: Feb 28, 03:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 05:47 UTC
   </div>
 </div>
 
@@ -63,11 +63,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/wnq45xh446x8" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 03:09 UTC &nbsp;·&nbsp; Updated: Feb 28, 04:01 UTC
+    Started: Feb 28, 03:09 UTC &nbsp;·&nbsp; Updated: Feb 28, 05:48 UTC
   </div>
 </div>
 
@@ -227,4 +227,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 13:39:27 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 14:27:04 UTC &middot; Checks every 30 minutes</p>
