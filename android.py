@@ -22,6 +22,9 @@ RSS_SOURCES = [
     {"name": "Android Authority",        "url": "https://www.androidauthority.com/feed/"},
     {"name": "Kotlin Blog",              "url": "https://blog.jetbrains.com/kotlin/feed/"},
     {"name": "Android Weekly",           "url": "https://androidweekly.net/issues/rss"},
+    {"name": "Kodeco Android",           "url": "https://www.kodeco.com/android/feed"},
+    {"name": "Fragmented Podcast",       "url": "https://fragmentedpodcast.com/feed/"},
+    {"name": "Jake Wharton",             "url": "https://jakewharton.com/atom.xml"},
 ]
 
 
