@@ -12,7 +12,6 @@ permalink: /github/
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
   <span style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold;">&#11088; GitHub</span>
   <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ repos.size }} repos</span>
-  {% if top_lang %}<span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ top_lang }}</span>{% endif %}
 </div>
 
 ## 🏆 Repo of the Day
