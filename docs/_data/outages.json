@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 09:30:40 UTC",
+  "generated_at": "2026-02-28 10:28:39 UTC",
   "active_count": 4,
-  "resolved_count": 15,
+  "resolved_count": 14,
   "active": [
     {
       "id": "tzlnzb58ghvd",
@@ -202,17 +202,6 @@
       "updated_at": "2026-02-27T11:18:49.477-08:00",
       "shortlink": "https://stspg.io/95rng17j659h",
       "service": "Twilio"
-    },
-    {
-      "id": "cnlkjjh22z3f",
-      "name": "Cloudflare is investigating dashboard login issues",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T10:03:33.148Z",
-      "resolved_at": "2026-02-27T10:09:37.810Z",
-      "updated_at": "2026-02-27T10:09:37.827Z",
-      "shortlink": "https://stspg.io/hbd46ww0vlq3",
-      "service": "Cloudflare"
     }
   ]
 }

@@ -173,14 +173,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 10:09 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Cloudflare is investigating dashboard login issues</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 09:30:40 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 10:28:39 UTC &middot; Checks every 30 minutes</p>
