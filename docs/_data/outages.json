@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-02-28 14:27:04 UTC",
-  "active_count": 7,
+  "generated_at": "2026-02-28 14:49:54 UTC",
+  "active_count": 6,
   "resolved_count": 16,
   "active": [
-    {
-      "id": "fk3nr6tg8cft",
-      "name": "Increased Edge Function Errors across multiple regions",
-      "status": "monitoring",
-      "impact": "major",
-      "started_at": "2026-02-28T13:03:11.062Z",
-      "resolved_at": null,
-      "updated_at": "2026-02-28T14:17:58.697Z",
-      "shortlink": "https://stspg.io/y9rwllctz9ry",
-      "service": "Supabase"
-    },
     {
       "id": "tzlnzb58ghvd",
       "name": "Cloudflare Peering Portal Authentication Issue",
@@ -82,6 +71,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "fk3nr6tg8cft",
+      "name": "Increased Edge Function Errors across multiple regions",
+      "status": "resolved",
+      "impact": "major",
+      "started_at": "2026-02-28T13:03:11.062Z",
+      "resolved_at": "2026-02-28T14:29:50.706Z",
+      "updated_at": "2026-02-28T14:29:50.727Z",
+      "shortlink": "https://stspg.io/y9rwllctz9ry",
+      "service": "Supabase"
+    },
     {
       "id": "ct0pn2kwtfn1",
       "name": "Elevated 500 error rate on Cache Purge API requests",
@@ -191,17 +191,6 @@
       "updated_at": "2026-02-27T14:59:10.414-08:00",
       "shortlink": "https://stspg.io/b2jrx8khrhvg",
       "service": "Twilio"
-    },
-    {
-      "id": "41E5S3mkTGDfkZuJZH5k",
-      "name": "Vertex AI Gemini API customers experienced increased error rates when accessing the global endpoint.",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T12:36:00+00:00",
-      "resolved_at": "2026-02-27T14:45:00+00:00",
-      "updated_at": "2026-02-27T16:42:13+00:00",
-      "shortlink": "https://status.cloud.google.com/incidents/41E5S3mkTGDfkZuJZH5k",
-      "service": "GCP"
     },
     {
       "id": "zlxmvx3xm2pw",

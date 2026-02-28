@@ -6,22 +6,10 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 6 active incidents</strong>
 </div>
 
 ## Active Incidents
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Supabase</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/y9rwllctz9ry" target="_blank" rel="noopener" style="color:#111;">Increased Edge Function Errors across multiple regions</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 13:03 UTC &nbsp;·&nbsp; Updated: Feb 28, 14:17 UTC
-  </div>
-</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -96,6 +84,14 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Supabase</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 14:29 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Increased Edge Function Errors across multiple regions</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -179,14 +175,6 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">GCP</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 14:45 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Vertex AI Gemini API customers experienced increased error rates when accessing the global endpoint.</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 14:39 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Failures from Twilio to A1 Slovenia</span>
@@ -227,4 +215,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 14:27:04 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 14:49:54 UTC &middot; Checks every 30 minutes</p>
