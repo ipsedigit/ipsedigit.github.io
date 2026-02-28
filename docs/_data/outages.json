@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 17:24:41 UTC",
-  "active_count": 5,
-  "resolved_count": 18,
+  "generated_at": "2026-02-28 17:46:45 UTC",
+  "active_count": 6,
+  "resolved_count": 17,
   "active": [
     {
       "id": "tzlnzb58ghvd",
@@ -24,6 +24,17 @@
       "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
+    },
+    {
+      "id": "1hktpg06yhfh",
+      "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
+      "status": "identified",
+      "impact": "minor",
+      "started_at": "2026-02-28T09:28:14.822-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-28T09:42:22.426-08:00",
+      "shortlink": "https://stspg.io/68zmw5265cyw",
+      "service": "Twilio"
     },
     {
       "id": "1h9mv91p8nps",
@@ -179,17 +190,6 @@
       "resolved_at": "2026-02-27T20:05:13.798Z",
       "updated_at": "2026-02-27T20:05:13.816Z",
       "shortlink": "https://stspg.io/2dyc8dnh13gd",
-      "service": "Cloudflare"
-    },
-    {
-      "id": "rtywttksnzvg",
-      "name": "Increased HTTP 520 Errors in Newark, New Jersey datacenter (EWR)",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-02-27T17:30:00.000Z",
-      "resolved_at": "2026-02-27T17:30:00.000Z",
-      "updated_at": "2026-02-27T23:26:10.037Z",
-      "shortlink": "https://stspg.io/qhfwndyqwcnr",
       "service": "Cloudflare"
     },
     {
