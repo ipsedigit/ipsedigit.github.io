@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 11:43:54 UTC",
-  "active_count": 5,
-  "resolved_count": 15,
+  "generated_at": "2026-02-28 12:54:47 UTC",
+  "active_count": 6,
+  "resolved_count": 16,
   "active": [
     {
       "id": "tzlnzb58ghvd",
@@ -26,13 +26,24 @@
       "service": "SendGrid"
     },
     {
+      "id": "zv3q3n37blrz",
+      "name": "SMS Delivery Delays and Failures from Twilio to Ncell Nepal",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-02-28T03:46:56.589-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-28T03:46:56.729-08:00",
+      "shortlink": "https://stspg.io/zyr884r3s84v",
+      "service": "Twilio"
+    },
+    {
       "id": "w7yszv3vct0h",
       "name": "SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-02-28T03:09:56.482-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T03:16:47.478-08:00",
+      "updated_at": "2026-02-28T04:01:28.761-08:00",
       "shortlink": "https://stspg.io/wnq45xh446x8",
       "service": "Twilio"
     },
@@ -60,6 +71,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "ct0pn2kwtfn1",
+      "name": "Elevated 500 error rate on Cache Purge API requests",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-28T11:00:00.000Z",
+      "resolved_at": "2026-02-28T11:00:00.000Z",
+      "updated_at": "2026-02-28T12:02:45.315Z",
+      "shortlink": "https://stspg.io/qfpk4tcr7jcv",
+      "service": "Cloudflare"
+    },
     {
       "id": "y5lq12l646nh",
       "name": "Increased traffic and elevated 5xx errors in Salt Lake City, US region",
