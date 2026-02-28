@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-02-27 23:24:21 UTC",
+  "generated_at": "2026-02-28 05:36:06 UTC",
   "active_count": 5,
-  "resolved_count": 17,
+  "resolved_count": 14,
   "active": [
-    {
-      "id": "kw5jh58jh24k",
-      "name": "Incident with Copilot agent sessions",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-02-27T23:18:12.408Z",
-      "resolved_at": null,
-      "updated_at": "2026-02-27T23:18:36.874Z",
-      "shortlink": "https://stspg.io/k350x50r7bt4",
-      "service": "GitHub"
-    },
     {
       "id": "tzlnzb58ghvd",
       "name": "Cloudflare Peering Portal Authentication Issue",
@@ -35,6 +24,17 @@
       "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
+    },
+    {
+      "id": "yypvh9n0834s",
+      "name": "SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India",
+      "status": "monitoring",
+      "impact": "minor",
+      "started_at": "2026-02-27T19:35:34.824-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-27T20:35:21.955-08:00",
+      "shortlink": "https://stspg.io/pzx5d3nzpd8q",
+      "service": "Twilio"
     },
     {
       "id": "391rky29892m",
@@ -61,6 +61,28 @@
   ],
   "resolved_24h": [
     {
+      "id": "ybx14rhks0fp",
+      "name": "Magic Transit Control Plane Issues",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-02-27T23:32:50.000Z",
+      "resolved_at": "2026-02-28T00:38:49.336Z",
+      "updated_at": "2026-02-28T00:38:54.504Z",
+      "shortlink": "https://stspg.io/xnl7bb2gl556",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "kw5jh58jh24k",
+      "name": "Incident with Copilot agent sessions",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T23:18:12.408Z",
+      "resolved_at": "2026-02-27T23:49:05.426Z",
+      "updated_at": "2026-02-27T23:49:05.444Z",
+      "shortlink": "https://stspg.io/k350x50r7bt4",
+      "service": "GitHub"
+    },
+    {
       "id": "2js3wb445jm0",
       "name": "Potential service degradation in South America datacenters",
       "status": "resolved",
@@ -80,6 +102,17 @@
       "resolved_at": "2026-02-27T20:05:13.798Z",
       "updated_at": "2026-02-27T20:05:13.816Z",
       "shortlink": "https://stspg.io/2dyc8dnh13gd",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "rtywttksnzvg",
+      "name": "Increased HTTP 520 Errors in Newark, New Jersey datacenter (EWR)",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-02-27T17:30:00.000Z",
+      "resolved_at": "2026-02-27T17:30:00.000Z",
+      "updated_at": "2026-02-27T23:26:10.037Z",
+      "shortlink": "https://stspg.io/qhfwndyqwcnr",
       "service": "Cloudflare"
     },
     {
@@ -180,72 +213,6 @@
       "updated_at": "2026-02-27T21:04:29.293Z",
       "shortlink": "https://stspg.io/5zqmjwwn4z1q",
       "service": "GitHub"
-    },
-    {
-      "id": "d5myb7yb0dm2",
-      "name": "Custom Error Pages Not Applying",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-26T22:41:19.415Z",
-      "resolved_at": "2026-02-27T05:23:36.009Z",
-      "updated_at": "2026-02-27T05:23:36.025Z",
-      "shortlink": "https://stspg.io/b82pc03dw035",
-      "service": "Cloudflare"
-    },
-    {
-      "id": "r88g618tt765",
-      "name": "Degradation in some checkout steps",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-26T22:50:46.222Z",
-      "resolved_at": "2026-02-27T00:17:31.594Z",
-      "updated_at": "2026-02-27T00:17:31.613Z",
-      "shortlink": "https://stspg.io/vmpflb7sk964",
-      "service": "CircleCI"
-    },
-    {
-      "id": "vd3xqfq36rgm",
-      "name": "High latency on webhook API requests",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T00:01:45.135Z",
-      "resolved_at": "2026-02-27T00:04:01.026Z",
-      "updated_at": "2026-02-27T00:04:01.046Z",
-      "shortlink": "https://stspg.io/p4xckctzj9s4",
-      "service": "GitHub"
-    },
-    {
-      "id": "g323hzn9gn6h",
-      "name": "SMS Delivery Delays from Twilio to Claro Chile",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-26T13:17:21.223-08:00",
-      "resolved_at": "2026-02-26T18:02:00.695-08:00",
-      "updated_at": "2026-02-26T18:02:00.709-08:00",
-      "shortlink": "https://stspg.io/w6q5ylw1lt2l",
-      "service": "Twilio"
-    },
-    {
-      "id": "vnd4517p425d",
-      "name": "SMS Delivery Delays from a Subset of Twilio Short Codes to Union Telecom network in  United States",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-26T12:37:22.113-08:00",
-      "resolved_at": "2026-02-26T17:11:21.615-08:00",
-      "updated_at": "2026-02-26T17:11:21.630-08:00",
-      "shortlink": "https://stspg.io/8460361kcxl3",
-      "service": "Twilio"
-    },
-    {
-      "id": "nkncxp0zgypp",
-      "name": "SMS Delivery Delays from Twilio to Orange Cameroon",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-26T08:57:58.287-08:00",
-      "resolved_at": "2026-02-26T16:59:47.732-08:00",
-      "updated_at": "2026-02-26T16:59:47.748-08:00",
-      "shortlink": "https://stspg.io/s8nnf2ggj55r",
-      "service": "Twilio"
     }
   ]
 }
