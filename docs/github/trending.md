@@ -13,10 +13,13 @@ title_badge_color: "#92400e"
 {% assign most_starred = repos | first %}
 
 <div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
+    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#f59e0b; color:#fff;">&#9733; Latest</span>
+    <span style="font-size:0.78em; color:#6b7280;">+1103 stars today</span>
+  </div>
   <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">
     <img src="https://avatars.githubusercontent.com/u/76263028?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
     <strong style="font-size:1.2em;"><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">anthropics/skills</a></strong>
-    <span style="font-size:0.85em; color:#92400e;">+1103 stars today</span>
   </div>
   <p style="margin:0.3em 0; color:#374151;">Public repository for Agent Skills</p>
   <div style="display:flex; gap:1em; font-size:0.85em; color:#6b7280; flex-wrap:wrap;">
