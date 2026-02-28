@@ -3,15 +3,13 @@ layout: page
 title: "Android Dev News"
 description: "Curated news for Android developers. Kotlin, Jetpack Compose, and the Android ecosystem — updated daily."
 permalink: /android/
+title_badge: "🤖 Android"
+title_badge_bg: "#dcfce7"
+title_badge_color: "#166534"
 ---
 
 {% assign articles = site.data.android.articles %}
 {% assign featured = articles | first %}
-
-<div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  <span style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold;">🤖 Android</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ articles.size }} articles</span>
-</div>
 
 {% if featured %}
 <div style="margin-bottom:2em; padding:1.25em; border:2px solid #16a34a; border-radius:8px; background:#f0fdf4;">

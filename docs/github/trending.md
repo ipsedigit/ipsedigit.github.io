@@ -3,16 +3,14 @@ layout: page
 title: "GitHub Hot Repos"
 description: "Hot GitHub repositories tracked daily. Stars, forks, languages, and contributors — the hottest open source projects right now."
 permalink: /github/
+title_badge: "⭐ GitHub"
+title_badge_bg: "#fef3c7"
+title_badge_color: "#92400e"
 ---
 
 {% assign repos = site.data.github.repos %}
 {% assign top_lang = site.data.github.top_language %}
 {% assign most_starred = repos | first %}
-
-<div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  <span style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold;">&#11088; GitHub</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ repos.size }} repos</span>
-</div>
 
 <div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">
   <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">

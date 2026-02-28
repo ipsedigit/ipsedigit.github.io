@@ -3,15 +3,13 @@ layout: page
 title: "iOS Dev News"
 description: "Curated news for iOS developers. Swift, SwiftUI, Xcode, and the Apple dev ecosystem — updated daily."
 permalink: /ios/
+title_badge: "🍎 iOS"
+title_badge_bg: "#dbeafe"
+title_badge_color: "#1e40af"
 ---
 
 {% assign articles = site.data.ios.articles %}
 {% assign featured = articles | first %}
-
-<div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  <span style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold;">🍎 iOS</span>
-  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ articles.size }} articles</span>
-</div>
 
 {% if featured %}
 <div style="margin-bottom:2em; padding:1.25em; border:2px solid #0071e3; border-radius:8px; background:#f0f7ff;">
