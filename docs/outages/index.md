@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 5 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -39,35 +39,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/869nb37gt8gn" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to MobiFone Vietnam</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 08:27 UTC &nbsp;·&nbsp; Updated: Feb 28, 08:27 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/zyr884r3s84v" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 03:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 07:02 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/wnq45xh446x8" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 03:09 UTC &nbsp;·&nbsp; Updated: Feb 28, 07:48 UTC
+    Started: Feb 28, 08:27 UTC &nbsp;·&nbsp; Updated: Feb 28, 09:22 UTC
   </div>
 </div>
 
@@ -118,6 +94,22 @@ permalink: /outages/
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 10:00 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Increased traffic and elevated 5xx errors in Salt Lake City, US region</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 09:01 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 08:44 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan</span>
   </div>
 </div>
 
@@ -227,4 +219,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 16:32:09 UTC &middot; Checks every 30 minutes</p>
+<p style="font-size:0.8em; color:#9ca3af;">Updated: 2026-02-28 17:24:41 UTC &middot; Checks every 30 minutes</p>
