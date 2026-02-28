@@ -2,7 +2,8 @@ name: iOS Tracker
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # 08:00 UTC daily (09:00 Rome)
+    - cron: '30 6 * * *'   # 07:30 Rome
+    - cron: '30 18 * * *'  # 19:30 Rome
   workflow_dispatch:
 
 jobs:

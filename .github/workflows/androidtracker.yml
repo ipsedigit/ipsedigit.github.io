@@ -2,7 +2,8 @@ name: Android Dev Tracker
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # 08:00 UTC = 09:00 Rome - Daily
+    - cron: '0 6 * * *'    # 07:00 Rome
+    - cron: '0 18 * * *'   # 19:00 Rome
   workflow_dispatch:
 
 jobs:
