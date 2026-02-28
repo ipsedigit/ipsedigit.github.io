@@ -4,12 +4,11 @@ title: "Devs"
 description: "Personal blogs by individual developers. Raw, unfiltered, not mainstream."
 permalink: /devs/
 title_badge: "✍️ Devs"
-title_badge_bg: "#f3f4f6"
-title_badge_color: "#374151"
+title_badge_bg: "#eef2ff"
+title_badge_color: "#4f46e5"
 ---
 
 <style>
-
 /* Post cards */
 .post-item {
   padding: 1.25rem;
@@ -28,7 +27,7 @@ title_badge_color: "#374151"
   line-height: 1.4;
 }
 .post-title a { color: #111; text-decoration: none; }
-.post-title a:hover { color: #0066cc; }
+.post-title a:hover { color: #4f46e5; }
 .post-meta {
   font-size: 0.8rem;
   color: #888;
@@ -68,23 +67,6 @@ title_badge_color: "#374151"
 .source-badge--jessie-frazelle        { background: #0f766e; }
 .source-badge--ken-shirriff           { background: #92400e; }
 
-/* Filter bar */
-.devs-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-.devs-filter-bar .source-badge {
-  font-size: 0.75rem;
-  padding: 4px 10px;
-}
-.devs-filter-bar .source-badge.active {
-  outline: 2px solid #111;
-  outline-offset: 1px;
-}
-.devs-article.hidden { display: none; }
-
 /* Links-back section */
 .devs-links-back {
   margin-top: 2.5rem;
@@ -118,7 +100,7 @@ title_badge_color: "#374151"
   font-weight: 500;
 }
 .devs-links-back .source-item a:hover {
-  color: #0066cc;
+  color: #4f46e5;
 }
 </style>
 
@@ -127,29 +109,17 @@ title_badge_color: "#374151"
 {% assign featured = site.data.devs_articles.articles | first %}
 {% assign hero_slug = featured.source | slugify %}
 
-<div data-devs-hero style="margin-bottom:2em; padding:1.25em; border:2px solid #374151; border-radius:8px; background:#f9fafb;">
+<div style="margin-bottom:2em; padding:1.25em; border:2px solid #4f46e5; border-radius:8px; background:#eef2ff;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
-    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#374151; color:#fff;">&#9733; Latest</span>
+    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#4f46e5; color:#fff;">&#9733; Latest</span>
     <span style="font-size:0.78em; color:#6b7280;"><a href="/devs/#{{ hero_slug }}" class="source-badge source-badge--{{ hero_slug }}">{{ featured.source }}</a> &middot; {{ featured.date }}</span>
   </div>
   <div style="font-weight:700; font-size:1.1em; margin-bottom:0.4em;">
-    <a href="{{ featured.url }}" target="_blank" rel="noopener" style="color:#111; text-decoration:none;">{{ featured.title | escape }}</a>
+    <a href="{{ featured.url }}" target="_blank" rel="noopener" style="color:#4f46e5; text-decoration:none;">{{ featured.title | escape }}</a>
   </div>
   {% if featured.description and featured.description != "" %}
   <p style="margin:0; font-size:0.88em; color:#374151; line-height:1.5;">{{ featured.description | truncate: 200 }}</p>
   {% endif %}
-</div>
-
-<div class="devs-filter-bar" id="devs-filters">
-  {% assign seen_sources = "" %}
-  {% for art in site.data.devs_articles.articles %}
-    {% assign src = art.source %}
-    {% unless seen_sources contains src %}
-      {% assign seen_sources = seen_sources | append: src | append: "|" %}
-      {% assign src_slug = src | slugify %}
-      <a class="source-badge source-badge--{{ src_slug }}" href="#{{ src_slug }}" data-filter="{{ src_slug }}">{{ src }}</a>
-    {% endunless %}
-  {% endfor %}
 </div>
 
 {% assign anchored_sources = "" %}
@@ -157,9 +127,9 @@ title_badge_color: "#374151"
 {% assign src_slug = art.source | slugify %}
 {% unless anchored_sources contains src_slug %}
 {% assign anchored_sources = anchored_sources | append: src_slug | append: "|" %}
-<article class="post-item devs-article" id="{{ src_slug }}" data-source="{{ src_slug }}">
+<article class="post-item" id="{{ src_slug }}">
 {% else %}
-<article class="post-item devs-article" data-source="{{ src_slug }}">
+<article class="post-item">
 {% endunless %}
   <h2 class="post-title">
     <a href="{{ art.url }}" target="_blank" rel="noopener">{{ art.title | escape }}</a>
@@ -193,39 +163,3 @@ title_badge_color: "#374151"
 {% endif %}
 </div>
 </div>
-
-<script>
-(function() {
-  var filters = document.getElementById('devs-filters');
-  if (!filters) return;
-  var articles = document.querySelectorAll('.devs-article');
-  var hero = document.querySelector('[data-devs-hero]');
-  var active = null;
-
-  function toggle(slug) {
-    if (active === slug) { showAll(); return; }
-    active = slug;
-    articles.forEach(function(a) {
-      a.classList.toggle('hidden', a.getAttribute('data-source') !== slug);
-    });
-    if (hero) hero.style.display = 'none';
-    filters.querySelectorAll('.source-badge').forEach(function(b) {
-      b.classList.toggle('active', b.getAttribute('data-filter') === slug);
-    });
-  }
-
-  function showAll() {
-    active = null;
-    articles.forEach(function(a) { a.classList.remove('hidden'); });
-    if (hero) hero.style.display = '';
-    filters.querySelectorAll('.source-badge').forEach(function(b) { b.classList.remove('active'); });
-  }
-
-  filters.addEventListener('click', function(e) {
-    var btn = e.target.closest('[data-filter]');
-    if (!btn) return;
-    e.preventDefault();
-    toggle(btn.getAttribute('data-filter'));
-  });
-})();
-</script>
