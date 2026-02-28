@@ -3,6 +3,9 @@ layout: page
 title: "AI Model Tracker"
 description: "Trending and newly released AI models from HuggingFace, tracked daily with cross-references to eof.news coverage."
 permalink: /ai/models/
+title_badge: "✦ AI Models"
+title_badge_bg: "#ede9fe"
+title_badge_color: "#6d28d9"
 ---
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
