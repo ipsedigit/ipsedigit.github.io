@@ -3,56 +3,180 @@ layout: page
 title: "Service Outages"
 description: "Real-time outage tracker for major developer services. GitHub, AWS, GCP, Cloudflare, Stripe, and more."
 permalink: /outages/
-title_badge: "⚠ Outages"
-title_badge_bg: "#fef2f2"
-title_badge_color: "#b91c1c"
 ---
 
-{% assign active = site.data.outages.active %}
-{% assign resolved = site.data.outages.resolved_24h %}
-{% assign featured = active | first %}
-
-{% if featured %}
-<div style="margin-bottom:2em; padding:1.25em; border:2px solid #dc2626; border-radius:8px; background:#fef2f2;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
-    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#dc2626; color:#fff;">⚠ Active Incident</span>
-    <span style="font-size:0.78em; color:#6b7280;">{{ featured.service }} &middot; Started {{ featured.started_at | slice: 0, 16 | replace: 'T', ' ' }} UTC</span>
-  </div>
-  <div style="font-weight:700; font-size:1.1em; margin-bottom:0.4em;">
-    <a href="{{ featured.shortlink }}" target="_blank" rel="noopener" style="color:#b91c1c; text-decoration:none;">{{ featured.name }}</a>
-    <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; text-decoration:none; margin-left:0.4em; background:{% if featured.impact == 'critical' %}#7f1d1d{% elsif featured.impact == 'major' %}#dc2626{% elsif featured.impact == 'minor' %}#ca8a04{% else %}#6b7280{% endif %};">{{ featured.impact | upcase }}</span>
-  </div>
-  <p style="margin:0; font-size:0.88em; color:#374151; line-height:1.5;">{{ featured.status | capitalize }} &middot; Updated {{ featured.updated_at | slice: 0, 16 | replace: 'T', ' ' }} UTC</p>
+<div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
+  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
 </div>
-{% endif %}
 
-{% if active.size > 0 %}
-<h3 style="margin-top:0; margin-bottom:0.75em; font-size:1em; color:#b91c1c;">Active Incidents ({{ site.data.outages.active_count }})</h3>
-{% for incident in active %}
-<div style="margin-bottom:1.25em; padding:0.85em; border:1px solid #fca5a5; border-left:3px solid {% if incident.impact == 'critical' %}#7f1d1d{% elsif incident.impact == 'major' %}#dc2626{% elsif incident.impact == 'minor' %}#ca8a04{% else %}#6b7280{% endif %}; border-radius:8px;">
-  <div style="margin-bottom:0.3em;">
-    <strong><a href="{{ incident.shortlink }}" target="_blank" rel="noopener">{{ incident.name }}</a></strong>
-    <span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75em; color:#fff; margin-left:0.4em; background:{% if incident.impact == 'critical' %}#7f1d1d{% elsif incident.impact == 'major' %}#dc2626{% elsif incident.impact == 'minor' %}#ca8a04{% else %}#6b7280{% endif %};">{{ incident.impact | upcase }}</span>
-  </div>
-  <span style="font-size:0.78em; color:#9ca3af;">{{ incident.service }} &middot; {{ incident.status | capitalize }} &middot; Started {{ incident.started_at | slice: 0, 16 | replace: 'T', ' ' }} UTC</span>
-</div>
-{% endfor %}
-{% else %}
-<p style="color:#16a34a; font-weight:bold;">✅ All systems operational</p>
-{% endif %}
+## Active Incidents
 
-{% if resolved.size > 0 %}
-<h3 style="margin-top:2em; margin-bottom:0.75em; font-size:1em; color:#6b7280;">Resolved (last 24h)</h3>
-{% for incident in resolved %}
-<div style="margin-bottom:1.25em; padding:0.85em; border:1px solid #e5e7eb; border-left:3px solid #d1d5db; border-radius:8px; opacity:0.85;">
-  <div style="margin-bottom:0.3em;">
-    <strong><a href="{{ incident.shortlink }}" target="_blank" rel="noopener" style="color:#374151;">{{ incident.name }}</a></strong>
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>MongoDB Atlas</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <span style="font-size:0.78em; color:#9ca3af;">{{ incident.service }} &middot; ✅ Resolved {{ incident.resolved_at | slice: 0, 16 | replace: 'T', ' ' }} UTC</span>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dxd0y34wps83" target="_blank" rel="noopener" style="color:#111;">MongoDB App Services: Connectivity issues</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 28, 19:53 UTC &nbsp;·&nbsp; Updated: Feb 28, 19:53 UTC
+  </div>
 </div>
-{% endfor %}
-{% endif %}
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Cloudflare</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/91mgn4rnv6gh" target="_blank" rel="noopener" style="color:#111;">Cloudflare Peering Portal Authentication Issue</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 27, 02:27 UTC &nbsp;·&nbsp; Updated: Feb 27, 13:24 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>SendGrid</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7mncr84x75hw" target="_blank" rel="noopener" style="color:#111;">Customers in Argentina Unable to Authenticate Card in Twilio SendGrid</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 27, 08:49 UTC &nbsp;·&nbsp; Updated: Feb 27, 15:02 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Feb 28, 15:14 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/68zmw5265cyw" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 12:41 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #6b7280; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Cloudflare</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#6b7280; color:#fff;">NONE</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/fdpjyjw6gt0f" target="_blank" rel="noopener" style="color:#111;">Newark (EWR) Datacenter Increase in HTTP Request latency</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 16, 10:19 UTC &nbsp;·&nbsp; Updated: Feb 27, 13:40 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #6b7280; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Supabase</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#6b7280; color:#fff;">NONE</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 16:02 UTC
+  </div>
+</div>
+
+## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 15:02 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to MobiFone Vietnam</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Supabase</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 14:29 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Increased Edge Function Errors across multiple regions</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 11:00 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Elevated 500 error rate on Cache Purge API requests</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 10:00 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Increased traffic and elevated 5xx errors in Salt Lake City, US region</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 09:01 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 08:44 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Vercel</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 06:28 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delays Loading Observability, Analytics and Speed Insights Data</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 00:38 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Magic Transit Control Plane Issues</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">GitHub</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 23:49 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Incident with Copilot agent sessions</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 22:24 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India</span>
+  </div>
+</div>
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: {{ site.data.outages.generated_at }}</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 23:26:07 UTC</p>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 21:44:57 UTC",
+  "generated_at": "2026-02-28 23:26:07 UTC",
   "active_count": 7,
-  "resolved_count": 14,
+  "resolved_count": 10,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -37,6 +37,17 @@
       "service": "SendGrid"
     },
     {
+      "id": "wl0ysv5m4bjh",
+      "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-02-28T15:07:28.086-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-02-28T15:14:00.002-08:00",
+      "shortlink": "https://stspg.io/qh5vds5hr437",
+      "service": "Twilio"
+    },
+    {
       "id": "1hktpg06yhfh",
       "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
       "status": "identified",
@@ -45,17 +56,6 @@
       "resolved_at": null,
       "updated_at": "2026-02-28T12:41:14.248-08:00",
       "shortlink": "https://stspg.io/68zmw5265cyw",
-      "service": "Twilio"
-    },
-    {
-      "id": "1h9mv91p8nps",
-      "name": "SMS Delivery Delays from Twilio to MobiFone Vietnam",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-02-28T08:27:23.860-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-02-28T12:21:31.632-08:00",
-      "shortlink": "https://stspg.io/869nb37gt8gn",
       "service": "Twilio"
     },
     {
@@ -82,6 +82,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "1h9mv91p8nps",
+      "name": "SMS Delivery Delays from Twilio to MobiFone Vietnam",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-28T08:27:23.860-08:00",
+      "resolved_at": "2026-02-28T15:02:47.575-08:00",
+      "updated_at": "2026-02-28T15:02:47.590-08:00",
+      "shortlink": "https://stspg.io/869nb37gt8gn",
+      "service": "Twilio"
+    },
     {
       "id": "fk3nr6tg8cft",
       "name": "Increased Edge Function Errors across multiple regions",
@@ -171,17 +182,6 @@
       "service": "GitHub"
     },
     {
-      "id": "2js3wb445jm0",
-      "name": "Potential service degradation in South America datacenters",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T21:54:40.614Z",
-      "resolved_at": "2026-02-27T23:01:15.865Z",
-      "updated_at": "2026-02-27T23:01:15.893Z",
-      "shortlink": "https://stspg.io/6knfzh589smx",
-      "service": "Cloudflare"
-    },
-    {
       "id": "yypvh9n0834s",
       "name": "SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India",
       "status": "resolved",
@@ -190,50 +190,6 @@
       "resolved_at": "2026-02-27T22:24:27.291-08:00",
       "updated_at": "2026-02-27T22:24:27.308-08:00",
       "shortlink": "https://stspg.io/pzx5d3nzpd8q",
-      "service": "Twilio"
-    },
-    {
-      "id": "86q91zjp6521",
-      "name": "Unable to Create Campaigns via Console",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T10:26:11.926-08:00",
-      "resolved_at": "2026-02-27T14:59:10.400-08:00",
-      "updated_at": "2026-02-27T14:59:10.414-08:00",
-      "shortlink": "https://stspg.io/b2jrx8khrhvg",
-      "service": "Twilio"
-    },
-    {
-      "id": "zlxmvx3xm2pw",
-      "name": "SMS Delivery Failures from Twilio to A1 Slovenia",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T09:25:54.266-08:00",
-      "resolved_at": "2026-02-27T14:39:03.709-08:00",
-      "updated_at": "2026-02-27T14:39:03.726-08:00",
-      "shortlink": "https://stspg.io/1vlvshxqfg4v",
-      "service": "Twilio"
-    },
-    {
-      "id": "yv3y6xrkxpjm",
-      "name": "Automated Alert: No Customer Impact",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-02-27T13:43:50.762-08:00",
-      "resolved_at": "2026-02-27T14:36:10.073-08:00",
-      "updated_at": "2026-02-27T14:36:10.094-08:00",
-      "shortlink": "https://stspg.io/0bf61xy2v08g",
-      "service": "Twilio"
-    },
-    {
-      "id": "s894gcrd8ybt",
-      "name": "Elevated Error Rates in Connect App",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T10:36:44.511-08:00",
-      "resolved_at": "2026-02-27T13:55:07.000-08:00",
-      "updated_at": "2026-02-27T13:55:41.703-08:00",
-      "shortlink": "https://stspg.io/281k7shqnbrj",
       "service": "Twilio"
     }
   ]
