@@ -5,16 +5,14 @@ description: "Hot GitHub repositories tracked daily. Stars, forks, languages, an
 permalink: /github/
 ---
 
-## Overview
-
 {% assign repos = site.data.github.repos %}
 {% assign top_lang = site.data.github.top_language %}
 {% assign most_starred = repos | first %}
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  <a href="#trending-repositories" style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold; text-decoration:none; cursor:pointer;">Repos: {{ repos.size }}</a>
-  {% assign lang_slug = top_lang | slugify %}<a href="/tags/{{ lang_slug }}/" style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold; text-decoration:none; cursor:pointer;">Top Language: {{ top_lang }}</a>
-  {% if most_starred %}<a href="{{ most_starred.repo_url }}" target="_blank" rel="noopener" style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold; text-decoration:none; cursor:pointer;">Most Starred: {{ most_starred.name }} ({{ most_starred.stars }})</a>{% endif %}
+  <span style="padding:4px 12px; border-radius:12px; background:#fef3c7; color:#92400e; font-weight:bold;">&#11088; GitHub</span>
+  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ repos.size }} repos</span>
+  {% if top_lang %}<span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ top_lang }}</span>{% endif %}
 </div>
 
 ## 🏆 Repo of the Day
