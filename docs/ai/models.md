@@ -5,11 +5,10 @@ description: "Trending and newly released AI models from HuggingFace, tracked da
 permalink: /ai/models/
 ---
 
-## Stats
-
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin-bottom:1.5em;">
-  <a href="#trending-models" style="padding:4px 12px; border-radius:12px; background:#dbeafe; color:#1e40af; font-weight:bold; text-decoration:none; cursor:pointer;">Trending: {{ site.data.models.trending | size }}</a>
-  <a href="#new-releases" style="padding:4px 12px; border-radius:12px; background:#dcfce7; color:#166534; font-weight:bold; text-decoration:none; cursor:pointer;">New Releases: {{ site.data.models.new_releases | size }}</a>
+  <span style="padding:4px 12px; border-radius:12px; background:#ede9fe; color:#6d28d9; font-weight:bold;">✦ AI Models</span>
+  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ site.data.models.trending | size }} trending</span>
+  <span style="padding:4px 12px; border-radius:12px; background:#f3f4f6; color:#374151; font-weight:bold;">{{ site.data.models.new_releases | size }} new</span>
 </div>
 
 {% if site.data.models.featured_model %}
