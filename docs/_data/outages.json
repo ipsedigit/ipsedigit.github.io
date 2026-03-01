@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-01 04:56:40 UTC",
+  "generated_at": "2026-03-01 05:55:59 UTC",
   "active_count": 7,
   "resolved_count": 8,
   "active": [
     {
       "id": "yw96wbq7mtz1",
       "name": "MongoDB App Services: Connectivity issues",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "major",
       "started_at": "2026-02-28T19:53:36.768Z",
       "resolved_at": null,
-      "updated_at": "2026-02-28T19:53:36.881Z",
+      "updated_at": "2026-03-01T05:37:28.632Z",
       "shortlink": "https://stspg.io/dxd0y34wps83",
       "service": "MongoDB Atlas"
     },

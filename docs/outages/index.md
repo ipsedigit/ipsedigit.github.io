@@ -15,11 +15,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>MongoDB Atlas</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dxd0y34wps83" target="_blank" rel="noopener" style="color:#111;">MongoDB App Services: Connectivity issues</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 19:53 UTC &nbsp;·&nbsp; Updated: Feb 28, 19:53 UTC
+    Started: Feb 28, 19:53 UTC &nbsp;·&nbsp; Updated: Mar 01, 05:37 UTC
   </div>
 </div>
 
@@ -163,4 +163,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 04:56:40 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 05:55:59 UTC</p>
