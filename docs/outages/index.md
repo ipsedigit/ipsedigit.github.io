@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -65,9 +65,21 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/4n650b83qtxv" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures From Twilio to MTS Kazakhstan</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 01, 08:11 UTC &nbsp;·&nbsp; Updated: Mar 01, 08:16 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
+  </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Mar 01, 07:20 UTC
+    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Mar 01, 07:30 UTC
   </div>
 </div>
 
@@ -131,4 +143,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 15:27:47 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 16:33:29 UTC</p>

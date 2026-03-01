@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01 15:27:47 UTC",
-  "active_count": 7,
+  "generated_at": "2026-03-01 16:33:29 UTC",
+  "active_count": 8,
   "resolved_count": 4,
   "active": [
     {
@@ -48,13 +48,24 @@
       "service": "MongoDB Atlas"
     },
     {
+      "id": "jl73k6w9tqdj",
+      "name": "SMS Delivery Failures From Twilio to MTS Kazakhstan",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-01T08:11:45.810-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-01T08:16:13.633-08:00",
+      "shortlink": "https://stspg.io/4n650b83qtxv",
+      "service": "Twilio"
+    },
+    {
       "id": "wl0ysv5m4bjh",
       "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-02-28T15:07:28.086-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T07:20:02.335-08:00",
+      "updated_at": "2026-03-01T07:30:22.450-08:00",
       "shortlink": "https://stspg.io/qh5vds5hr437",
       "service": "Twilio"
     },
