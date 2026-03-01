@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01 09:33:47 UTC",
+  "generated_at": "2026-03-01 10:29:10 UTC",
   "active_count": 7,
-  "resolved_count": 6,
+  "resolved_count": 5,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -113,17 +113,6 @@
       "resolved_at": "2026-02-28T11:00:00.000Z",
       "updated_at": "2026-02-28T12:02:45.315Z",
       "shortlink": "https://stspg.io/qfpk4tcr7jcv",
-      "service": "Cloudflare"
-    },
-    {
-      "id": "y5lq12l646nh",
-      "name": "Increased traffic and elevated 5xx errors in Salt Lake City, US region",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-28T10:00:00.000Z",
-      "resolved_at": "2026-02-28T10:00:00.000Z",
-      "updated_at": "2026-02-28T11:01:35.141Z",
-      "shortlink": "https://stspg.io/7183lg4qplqj",
       "service": "Cloudflare"
     },
     {
