@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Redis patterns for coding",
+      "url": "http://antirez.com/news/161",
+      "date": "2026-03-01",
+      "source": "Antirez",
+      "description": "Here LLM and coding agents can find:\n\n1. Exhaustive documentation about Redis commands and data types.\n2. Patterns commonly used.\n3. Configuration hints.\n4. Algorithms that can be mounted using Redis "
+    },
+    {
       "title": "SFQ: Simple, Stateless, Stochastic Fairness",
       "url": "http://brooker.co.za/blog/2026/02/25/sfq.html",
       "date": "2026-02-25",
@@ -552,14 +559,7 @@
       "date": "2025-09-29",
       "source": "Computer, Enhance!",
       "description": "Answers to questions from the last Q&amp;A thread."
-    },
-    {
-      "title": "Hierarchical field sort with string interning",
-      "url": "https://nullprogram.com/blog/2025/09/24/",
-      "date": "2025-09-24",
-      "source": "Chris Wellons",
-      "description": "In a recent, real world problem I needed to load a heterogeneous sequence\nof records from a buffer. Record layout is defined in a header before the\nsequence. Each field is numeric, with a unique name "
     }
   ],
-  "generated_at": "2026-03-01T07:29:15Z"
+  "generated_at": "2026-03-01T11:28:55Z"
 }
