@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01 17:25:21 UTC",
-  "active_count": 8,
-  "resolved_count": 2,
+  "generated_at": "2026-03-01 18:38:35 UTC",
+  "active_count": 7,
+  "resolved_count": 3,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -59,17 +59,6 @@
       "service": "Twilio"
     },
     {
-      "id": "wl0ysv5m4bjh",
-      "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-02-28T15:07:28.086-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-01T07:30:22.450-08:00",
-      "shortlink": "https://stspg.io/qh5vds5hr437",
-      "service": "Twilio"
-    },
-    {
       "id": "391rky29892m",
       "name": "Newark (EWR) Datacenter Increase in HTTP Request latency",
       "status": "monitoring",
@@ -93,6 +82,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "wl0ysv5m4bjh",
+      "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-28T15:07:28.086-08:00",
+      "resolved_at": "2026-03-01T09:28:18.000-08:00",
+      "updated_at": "2026-03-01T09:29:12.513-08:00",
+      "shortlink": "https://stspg.io/qh5vds5hr437",
+      "service": "Twilio"
+    },
     {
       "id": "1hktpg06yhfh",
       "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
