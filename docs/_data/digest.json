@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-02-27 23:00:48 UTC",
-  "week_of": "February 27, 2026",
+  "generated_at": "2026-03-01 08:33:30 UTC",
+  "week_of": "March 01, 2026",
   "story_count": 10,
   "stories": [
-    {
-      "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability S",
-      "url": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
-      "description": "Anthropic unveils Claude Code Security, an AI tool scanning codebases for vulnerabilities with human-reviewed patch suggestions.",
-      "source": "The Hacker News",
-      "niche": "ai",
-      "niche_label": "AI",
-      "score": 125
-    },
     {
       "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling (2026)",
       "url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
@@ -20,6 +11,15 @@
       "niche": "ai",
       "niche_label": "AI",
       "score": 125
+    },
+    {
+      "title": "Kubernetes v1.34: Introducing CPU Manager Static Policy Option for Unc",
+      "url": "https://kubernetes.io/blog/2025/09/02/kubernetes-v1-34-prefer-align-by-uncore-cache-cpumanager-static-policy-optimization/",
+      "description": "A new CPU Manager Static Policy Option called prefer-align-cpus-by-uncorecache was introduced in Kubernetes v1.32 as an alpha feature, and has graduated to",
+      "source": "Kubernetes Blog",
+      "niche": "ai",
+      "niche_label": "AI",
+      "score": 115
     },
     {
       "title": "Kubernetes v1.35: Timbernetes (The World Tree Release) (2026)",
@@ -67,9 +67,9 @@
       "score": 100
     },
     {
-      "title": "Kubernetes v1.34: VolumeAttributesClass for Volume Modification GA",
-      "url": "https://kubernetes.io/blog/2025/09/08/kubernetes-v1-34-volume-attributes-class/",
-      "description": "The VolumeAttributesClass API, which empowers users to dynamically modify volume attributes, has officially graduated to General Availability (GA) in Kuber",
+      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
+      "url": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
+      "description": "The PersistentVolume node affinity API dates back to Kubernetes v1.10. It is widely used to express that volumes may not be equally accessible by all nodes",
       "source": "Kubernetes Blog",
       "niche": "cloud",
       "niche_label": "Cloud & Infrastructure",
@@ -85,13 +85,13 @@
       "score": 115
     },
     {
-      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 V",
-      "url": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
-      "description": "Active exploitation of BeyondTrust  enables unauthenticated RCE as CISA adds Apple, Microsoft, SolarWinds, and Notepad++ flaws to KEV list.",
+      "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
+      "url": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
+      "description": "Researchers uncover wormable XMRig campaign using BYOVD exploit and LLM-built React2Shell attacks hitting 90+ hosts.",
       "source": "The Hacker News",
       "niche": "security",
       "niche_label": "Security",
-      "score": 105
+      "score": 95
     }
   ]
 }
