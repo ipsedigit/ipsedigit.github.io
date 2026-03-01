@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28 18:28:31 UTC",
+  "generated_at": "2026-03-01 06:53:50 UTC",
   "total_articles": 20,
   "articles": [
     {
@@ -87,6 +87,13 @@
       "excerpt": "The startup confirms a 4nm Dimensity 8300 chip and a commitment to provide updates through Android 20."
     },
     {
+      "title": "Practical Android AI [SUBSCRIBER]",
+      "url": "https://www.kodeco.com/books/practical-android-ai",
+      "source": "Kodeco Android",
+      "published": "2026-02-28T00:00:00Z",
+      "excerpt": "In this book, you’ll learn how to build intelligent Android applications using today’s most powerful AI and ML tools — from on-device capabilities with ML Kit and MediaPipe to cloud-powered generative models like Gemini and Firebase AI Logic. You’ll explore real-world examples th"
+    },
+    {
       "title": "Deal: UGREEN Nexode Power Bank 20,000mAh 130W hits record-low price",
       "url": "https://www.androidauthority.com/ugreen-nexode-power-bank-20000mah-130w-deal-3644744/",
       "source": "Android Authority",
@@ -134,13 +141,6 @@
       "source": "Android Developers Blog",
       "published": "2026-02-26T21:08:00Z",
       "excerpt": "Posted by Matthew McCullough, VP Product Management, Android Developer Today we're releasing the second beta of Android 17, continuing our work to build a platform that prioritizes privacy, security, and refined performance. This update delivers a range of new capabilities, inclu"
-    },
-    {
-      "title": "15 Things To Do Before, During, and After KotlinConf’26",
-      "url": "https://blog.jetbrains.com/kotlin/2026/02/15-things-to-do-before-during-and-after-kotlinconf-26/",
-      "source": "Kotlin Blog",
-      "published": "2026-02-26T12:40:38Z",
-      "excerpt": "So, you’re coming to KotlinConf’26? Maybe it’s your first time in Munich, or even your first time at KotlinConf. You have your tickets, you’ve learned the schedule by heart, but it might still feel a little overwhelming. Let me show you how you can have the best possible experien"
     }
   ]
 }
