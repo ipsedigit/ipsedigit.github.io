@@ -67,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/4n650b83qtxv" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures From Twilio to MTS Kazakhstan</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 08:11 UTC &nbsp;·&nbsp; Updated: Mar 01, 09:11 UTC
+    Started: Mar 01, 08:11 UTC &nbsp;·&nbsp; Updated: Mar 01, 11:11 UTC
   </div>
 </div>
 
@@ -123,4 +123,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 18:38:35 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 19:25:32 UTC</p>
