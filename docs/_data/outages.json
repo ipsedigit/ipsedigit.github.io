@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-03-01 20:31:11 UTC",
-  "active_count": 8,
+  "generated_at": "2026-03-01 21:26:53 UTC",
+  "active_count": 9,
   "resolved_count": 3,
   "active": [
+    {
+      "id": "rw896k7wm3nf",
+      "name": "Deployments are failing for customers using Static IPs in Dubai region (dxb1)",
+      "status": "identified",
+      "impact": "major",
+      "started_at": "2026-03-01T21:17:54.470Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-01T21:17:54.557Z",
+      "shortlink": "https://stspg.io/00p520t0xnfv",
+      "service": "Vercel"
+    },
     {
       "id": "yw96wbq7mtz1",
       "name": "MongoDB App Services: Connectivity issues",

@@ -6,10 +6,22 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 9 active incidents</strong>
 </div>
 
 ## Active Incidents
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Vercel</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/00p520t0xnfv" target="_blank" rel="noopener" style="color:#111;">Deployments are failing for customers using Static IPs in Dubai region (dxb1)</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 01, 21:17 UTC &nbsp;·&nbsp; Updated: Mar 01, 21:17 UTC
+  </div>
+</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -135,4 +147,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 20:31:11 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 21:26:53 UTC</p>
