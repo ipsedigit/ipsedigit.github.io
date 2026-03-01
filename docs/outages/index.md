@@ -91,7 +91,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/4n650b83qtxv" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures From Twilio to MTS Kazakhstan</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 08:11 UTC &nbsp;·&nbsp; Updated: Mar 01, 11:11 UTC
+    Started: Mar 01, 08:11 UTC &nbsp;·&nbsp; Updated: Mar 01, 15:03 UTC
   </div>
 </div>
 
@@ -137,14 +137,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 15:02 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to MobiFone Vietnam</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 22:28:15 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 23:27:44 UTC</p>
