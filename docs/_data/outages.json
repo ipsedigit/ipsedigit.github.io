@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01 13:41:49 UTC",
-  "active_count": 6,
+  "generated_at": "2026-03-01 14:27:48 UTC",
+  "active_count": 7,
   "resolved_count": 5,
   "active": [
     {
@@ -35,6 +35,17 @@
       "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
+    },
+    {
+      "id": "7g5qmxgkc2y4",
+      "name": "Delayed Cluster Operations – AWS me-central-1 (United Arab Emirates)",
+      "status": "identified",
+      "impact": "minor",
+      "started_at": "2026-03-01T13:48:14.360Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-01T13:48:14.437Z",
+      "shortlink": "https://stspg.io/mg7m971rdhw8",
+      "service": "MongoDB Atlas"
     },
     {
       "id": "wl0ysv5m4bjh",
