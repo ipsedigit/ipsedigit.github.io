@@ -178,3 +178,6 @@ https://www.swiftbysundell.com/podcast/119
 https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/
 https://www.docker.com/blog/context-packing-context-window/
 https://blog.cryptographyengineering.com/2025/02/12/u-k-asks-to-backdoor-icloud-backup-encryption/
+https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/
+https://newsletter.pragmaticengineer.com/p/the-pulse-160-why-its-so-dramatic
+https://blog.jessfraz.com/post/installing-and-using-wireguard/
