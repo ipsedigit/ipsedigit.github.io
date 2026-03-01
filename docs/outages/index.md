@@ -79,7 +79,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dbk0dvty64w8" target="_blank" rel="noopener" style="color:#111;">MMS Delivery Delays From Twilio to Altice United States</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 11:43 UTC &nbsp;·&nbsp; Updated: Mar 01, 12:24 UTC
+    Started: Mar 01, 11:43 UTC &nbsp;·&nbsp; Updated: Mar 01, 14:21 UTC
   </div>
 </div>
 
@@ -147,4 +147,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 21:26:53 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 22:28:15 UTC</p>
