@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-28 23:26:07 UTC",
+  "generated_at": "2026-03-01 02:38:27 UTC",
   "active_count": 7,
-  "resolved_count": 10,
+  "resolved_count": 8,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -38,12 +38,12 @@
     },
     {
       "id": "wl0ysv5m4bjh",
-      "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
+      "name": "SMS Delivery Delays from Twilio to Moov in Côte d'Ivoire",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-02-28T15:07:28.086-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T15:14:00.002-08:00",
+      "updated_at": "2026-02-28T16:07:11.091-08:00",
       "shortlink": "https://stspg.io/qh5vds5hr437",
       "service": "Twilio"
     },
@@ -54,7 +54,7 @@
       "impact": "minor",
       "started_at": "2026-02-28T09:28:14.822-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T12:41:14.248-08:00",
+      "updated_at": "2026-02-28T16:41:14.012-08:00",
       "shortlink": "https://stspg.io/68zmw5265cyw",
       "service": "Twilio"
     },
@@ -158,28 +158,6 @@
       "updated_at": "2026-02-28T06:28:07.703Z",
       "shortlink": "https://stspg.io/zbz3rzpd7vwq",
       "service": "Vercel"
-    },
-    {
-      "id": "ybx14rhks0fp",
-      "name": "Magic Transit Control Plane Issues",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-02-27T23:32:50.000Z",
-      "resolved_at": "2026-02-28T00:38:49.336Z",
-      "updated_at": "2026-02-28T00:38:54.504Z",
-      "shortlink": "https://stspg.io/xnl7bb2gl556",
-      "service": "Cloudflare"
-    },
-    {
-      "id": "kw5jh58jh24k",
-      "name": "Incident with Copilot agent sessions",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T23:18:12.408Z",
-      "resolved_at": "2026-02-27T23:49:05.426Z",
-      "updated_at": "2026-02-27T23:49:05.444Z",
-      "shortlink": "https://stspg.io/k350x50r7bt4",
-      "service": "GitHub"
     },
     {
       "id": "yypvh9n0834s",

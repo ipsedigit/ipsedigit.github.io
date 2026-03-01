@@ -53,9 +53,9 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Moov in Côte d'Ivoire</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Feb 28, 15:14 UTC
+    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Feb 28, 16:07 UTC
   </div>
 </div>
 
@@ -67,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/68zmw5265cyw" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 12:41 UTC
+    Started: Feb 28, 09:28 UTC &nbsp;·&nbsp; Updated: Feb 28, 16:41 UTC
   </div>
 </div>
 
@@ -155,22 +155,6 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 00:38 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Magic Transit Control Plane Issues</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">GitHub</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 23:49 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Incident with Copilot agent sessions</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 27, 22:24 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India</span>
@@ -179,4 +163,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-02-28 23:26:07 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 02:38:27 UTC</p>
