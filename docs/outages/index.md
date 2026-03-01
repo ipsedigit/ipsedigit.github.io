@@ -55,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Moov in Côte d'Ivoire</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Feb 28, 16:07 UTC
+    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Feb 28, 19:19 UTC
   </div>
 </div>
 
@@ -163,4 +163,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 02:38:27 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 04:56:40 UTC</p>
