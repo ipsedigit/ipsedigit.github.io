@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01 05:55:59 UTC",
+  "generated_at": "2026-03-01 06:54:17 UTC",
   "active_count": 7,
-  "resolved_count": 8,
+  "resolved_count": 6,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -50,11 +50,11 @@
     {
       "id": "1hktpg06yhfh",
       "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
-      "status": "identified",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-02-28T09:28:14.822-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T16:41:14.012-08:00",
+      "updated_at": "2026-02-28T22:42:11.807-08:00",
       "shortlink": "https://stspg.io/68zmw5265cyw",
       "service": "Twilio"
     },
@@ -146,28 +146,6 @@
       "resolved_at": "2026-02-28T08:44:00.666-08:00",
       "updated_at": "2026-02-28T08:44:00.686-08:00",
       "shortlink": "https://stspg.io/wnq45xh446x8",
-      "service": "Twilio"
-    },
-    {
-      "id": "dcfq5yq47v0r",
-      "name": "Delays Loading Observability, Analytics and Speed Insights Data",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-02-28T05:46:25.338Z",
-      "resolved_at": "2026-02-28T06:28:07.687Z",
-      "updated_at": "2026-02-28T06:28:07.703Z",
-      "shortlink": "https://stspg.io/zbz3rzpd7vwq",
-      "service": "Vercel"
-    },
-    {
-      "id": "yypvh9n0834s",
-      "name": "SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in India",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T19:35:34.824-08:00",
-      "resolved_at": "2026-02-27T22:24:27.291-08:00",
-      "updated_at": "2026-02-27T22:24:27.308-08:00",
-      "shortlink": "https://stspg.io/pzx5d3nzpd8q",
       "service": "Twilio"
     }
   ]
