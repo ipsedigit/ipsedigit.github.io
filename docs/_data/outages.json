@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01 16:33:29 UTC",
+  "generated_at": "2026-03-01 17:25:21 UTC",
   "active_count": 8,
-  "resolved_count": 4,
+  "resolved_count": 2,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -54,7 +54,7 @@
       "impact": "minor",
       "started_at": "2026-03-01T08:11:45.810-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T08:16:13.633-08:00",
+      "updated_at": "2026-03-01T09:11:07.116-08:00",
       "shortlink": "https://stspg.io/4n650b83qtxv",
       "service": "Twilio"
     },
@@ -113,28 +113,6 @@
       "resolved_at": "2026-02-28T15:02:47.575-08:00",
       "updated_at": "2026-02-28T15:02:47.590-08:00",
       "shortlink": "https://stspg.io/869nb37gt8gn",
-      "service": "Twilio"
-    },
-    {
-      "id": "zv3q3n37blrz",
-      "name": "SMS Delivery Delays and Failures from Twilio to Ncell Nepal",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-28T03:46:56.589-08:00",
-      "resolved_at": "2026-02-28T09:01:30.938-08:00",
-      "updated_at": "2026-02-28T09:01:30.952-08:00",
-      "shortlink": "https://stspg.io/zyr884r3s84v",
-      "service": "Twilio"
-    },
-    {
-      "id": "w7yszv3vct0h",
-      "name": "SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-28T03:09:56.482-08:00",
-      "resolved_at": "2026-02-28T08:44:00.666-08:00",
-      "updated_at": "2026-02-28T08:44:00.686-08:00",
-      "shortlink": "https://stspg.io/wnq45xh446x8",
       "service": "Twilio"
     }
   ]
