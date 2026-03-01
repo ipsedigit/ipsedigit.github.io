@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01 10:29:10 UTC",
-  "active_count": 7,
+  "generated_at": "2026-03-01 11:23:59 UTC",
+  "active_count": 6,
   "resolved_count": 5,
   "active": [
     {
@@ -48,17 +48,6 @@
       "service": "Twilio"
     },
     {
-      "id": "1hktpg06yhfh",
-      "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-02-28T09:28:14.822-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-01T00:40:57.642-08:00",
-      "shortlink": "https://stspg.io/68zmw5265cyw",
-      "service": "Twilio"
-    },
-    {
       "id": "391rky29892m",
       "name": "Newark (EWR) Datacenter Increase in HTTP Request latency",
       "status": "monitoring",
@@ -83,6 +72,17 @@
   ],
   "resolved_24h": [
     {
+      "id": "1hktpg06yhfh",
+      "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-28T09:28:14.822-08:00",
+      "resolved_at": "2026-03-01T02:29:30.171-08:00",
+      "updated_at": "2026-03-01T02:29:30.187-08:00",
+      "shortlink": "https://stspg.io/68zmw5265cyw",
+      "service": "Twilio"
+    },
+    {
       "id": "1h9mv91p8nps",
       "name": "SMS Delivery Delays from Twilio to MobiFone Vietnam",
       "status": "resolved",
@@ -103,17 +103,6 @@
       "updated_at": "2026-02-28T14:29:50.727Z",
       "shortlink": "https://stspg.io/y9rwllctz9ry",
       "service": "Supabase"
-    },
-    {
-      "id": "ct0pn2kwtfn1",
-      "name": "Elevated 500 error rate on Cache Purge API requests",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-28T11:00:00.000Z",
-      "resolved_at": "2026-02-28T11:00:00.000Z",
-      "updated_at": "2026-02-28T12:02:45.315Z",
-      "shortlink": "https://stspg.io/qfpk4tcr7jcv",
-      "service": "Cloudflare"
     },
     {
       "id": "zv3q3n37blrz",
