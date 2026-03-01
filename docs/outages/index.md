@@ -55,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Delayed Cluster Operations – AWS me-central-1 (United Arab Emirates)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 01, 13:48 UTC
+    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 01, 14:55 UTC
   </div>
 </div>
 
@@ -65,9 +65,9 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Moov in Côte d'Ivoire</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/qh5vds5hr437" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Feb 28, 23:23 UTC
+    Started: Feb 28, 15:07 UTC &nbsp;·&nbsp; Updated: Mar 01, 07:20 UTC
   </div>
 </div>
 
@@ -115,14 +115,6 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Supabase</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 14:29 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Increased Edge Function Errors across multiple regions</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Feb 28, 09:01 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures from Twilio to Ncell Nepal</span>
@@ -139,4 +131,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 14:27:48 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 15:27:47 UTC</p>

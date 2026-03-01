@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01 14:27:48 UTC",
+  "generated_at": "2026-03-01 15:27:47 UTC",
   "active_count": 7,
-  "resolved_count": 5,
+  "resolved_count": 4,
   "active": [
     {
       "id": "yw96wbq7mtz1",
@@ -43,18 +43,18 @@
       "impact": "minor",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-01T13:48:14.437Z",
+      "updated_at": "2026-03-01T14:55:50.763Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
     },
     {
       "id": "wl0ysv5m4bjh",
-      "name": "SMS Delivery Delays from Twilio to Moov in Côte d'Ivoire",
+      "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-02-28T15:07:28.086-08:00",
       "resolved_at": null,
-      "updated_at": "2026-02-28T23:23:34.558-08:00",
+      "updated_at": "2026-03-01T07:20:02.335-08:00",
       "shortlink": "https://stspg.io/qh5vds5hr437",
       "service": "Twilio"
     },
@@ -103,17 +103,6 @@
       "updated_at": "2026-02-28T15:02:47.590-08:00",
       "shortlink": "https://stspg.io/869nb37gt8gn",
       "service": "Twilio"
-    },
-    {
-      "id": "fk3nr6tg8cft",
-      "name": "Increased Edge Function Errors across multiple regions",
-      "status": "resolved",
-      "impact": "major",
-      "started_at": "2026-02-28T13:03:11.062Z",
-      "resolved_at": "2026-02-28T14:29:50.706Z",
-      "updated_at": "2026-02-28T14:29:50.727Z",
-      "shortlink": "https://stspg.io/y9rwllctz9ry",
-      "service": "Supabase"
     },
     {
       "id": "zv3q3n37blrz",
