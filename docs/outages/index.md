@@ -6,10 +6,22 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
 </div>
 
 ## Active Incidents
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #b91c1c; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Vercel</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#b91c1c; color:#fff;">CRITICAL</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/zlddb1nrtlgw" target="_blank" rel="noopener" style="color:#111;">Dubai region (dxb1) is unavailable</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 02, 15:29 UTC &nbsp;·&nbsp; Updated: Mar 02, 15:29 UTC
+  </div>
+</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -20,30 +32,6 @@ permalink: /outages/
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
     Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 09:21 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Vercel</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/2dfvhs9ymqym" target="_blank" rel="noopener" style="color:#111;">Elevated deployment and function invocations failures in Dubai region (dxb1)</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 06:06 UTC &nbsp;·&nbsp; Updated: Mar 02, 13:00 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Cloudflare</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/k1zfrt82mfkh" target="_blank" rel="noopener" style="color:#111;">Unable to view logs in Durable Objects dashboard</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 11:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 12:10 UTC
   </div>
 </div>
 
@@ -79,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7tc348mgkc4j" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 05:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 05:58 UTC
+    Started: Mar 02, 05:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 07:01 UTC
   </div>
 </div>
 
@@ -108,6 +96,22 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Vercel</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 15:20 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Elevated deployment and function invocations failures</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 15:14 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Unable to view logs in Durable Objects dashboard</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -183,4 +187,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 14:45:39 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 15:45:37 UTC</p>
