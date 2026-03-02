@@ -15,20 +15,20 @@ title_badge_color: "#92400e"
 <div style="margin-bottom:1.5em; padding:1em; border:2px solid #f59e0b; border-radius:12px; background:#fffbeb;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
     <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#f59e0b; color:#fff;">&#9733; Latest</span>
-    <span style="font-size:0.78em; color:#6b7280;">+908 stars today</span>
+    <span style="font-size:0.78em; color:#6b7280;">+560 stars today</span>
   </div>
   <div style="display:flex; align-items:center; gap:0.5em; margin-bottom:0.5em; flex-wrap:wrap;">
-    <img src="https://avatars.githubusercontent.com/u/124439313?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
-    <strong style="font-size:1.2em;"><a href="https://github.com/affaan-m/everything-claude-code" target="_blank" rel="noopener">affaan-m/everything-claude-code</a></strong>
+    <img src="https://avatars.githubusercontent.com/u/128464815?v=4&s=32" alt="" width="32" height="32" style="border-radius:50%;">
+    <strong style="font-size:1.2em;"><a href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener">ComposioHQ/awesome-claude-skills</a></strong>
   </div>
-  <p style="margin:0.3em 0; color:#374151;">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond.</p>
+  <p style="margin:0.3em 0; color:#374151;">A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows</p>
   <div style="display:flex; gap:1em; font-size:0.85em; color:#6b7280; flex-wrap:wrap;">
-    <span>&#9733; 55,288</span>
-    <span>&#127860; 6,809</span>
-    <span>JavaScript</span>
-    <span>MIT</span>
+    <span>&#9733; 39,458</span>
+    <span>&#127860; 3,910</span>
+    <span>Python</span>
+    <span>Unknown</span>
   </div>
-  <div style="margin-top:0.5em;"><a href="/tags/ai-agents/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">ai-agents</a> <a href="/tags/anthropic/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">anthropic</a> <a href="/tags/claude/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">claude</a> <a href="/tags/claude-code/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">claude-code</a> <a href="/tags/developer-tools/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">developer-tools</a> <a href="/tags/llm/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">llm</a> <a href="/tags/mcp/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">mcp</a> <a href="/tags/productivity/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">productivity</a></div>
+  <div style="margin-top:0.5em;"><a href="/tags/agent-skills/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">agent-skills</a> <a href="/tags/ai-agents/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">ai-agents</a> <a href="/tags/antigravity/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">antigravity</a> <a href="/tags/automation/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">automation</a> <a href="/tags/claude/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">claude</a> <a href="/tags/claude-code/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">claude-code</a> <a href="/tags/codex/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">codex</a> <a href="/tags/composio/" style="display:inline-block; padding:1px 6px; margin:2px 2px 0 0; background:#fef3c7; border-radius:6px; color:#92400e; font-size:0.75em; text-decoration:none;">composio</a></div>
 </div>
 
 {% for repo in repos %}
