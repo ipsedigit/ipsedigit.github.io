@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-02 17:50:36 UTC",
-  "active_count": 8,
-  "resolved_count": 11,
+  "generated_at": "2026-03-02 18:54:28 UTC",
+  "active_count": 7,
+  "resolved_count": 13,
   "active": [
     {
       "id": "20v5r3njkcwc",
-      "name": "Dubai region (dxb1) is unavailable",
-      "status": "identified",
+      "name": "Dubai region (dxb1) is unavailable and traffic is being re-routed",
+      "status": "monitoring",
       "impact": "critical",
-      "started_at": "2026-03-02T15:29:37.541Z",
+      "started_at": "2026-03-02T15:29:37.000Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T15:29:37.621Z",
+      "updated_at": "2026-03-02T18:23:53.558Z",
       "shortlink": "https://stspg.io/zlddb1nrtlgw",
       "service": "Vercel"
     },
@@ -24,17 +24,6 @@
       "updated_at": "2026-03-02T16:18:24.134Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
-    },
-    {
-      "id": "tzlnzb58ghvd",
-      "name": "Cloudflare Peering Portal Authentication Issue",
-      "status": "identified",
-      "impact": "minor",
-      "started_at": "2026-02-27T02:27:42.629Z",
-      "resolved_at": null,
-      "updated_at": "2026-02-27T13:24:42.464Z",
-      "shortlink": "https://stspg.io/91mgn4rnv6gh",
-      "service": "Cloudflare"
     },
     {
       "id": "wzny4cj4jd7d",
@@ -54,7 +43,7 @@
       "impact": "minor",
       "started_at": "2026-03-02T08:27:50.309-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T09:27:03.164-08:00",
+      "updated_at": "2026-03-02T10:27:01.194-08:00",
       "shortlink": "https://stspg.io/yv0kd9bkhy3x",
       "service": "Twilio"
     },
@@ -72,11 +61,11 @@
     {
       "id": "c8hbcy3nf5cc",
       "name": "SMS Delivery Delays from Twilio to Access Malawi",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-03-01T20:25:55.300-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T02:12:20.729-08:00",
+      "updated_at": "2026-03-02T10:12:03.854-08:00",
       "shortlink": "https://stspg.io/dzp0km1ndkdf",
       "service": "Twilio"
     },
@@ -93,6 +82,28 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "lg8x09p2d2n3",
+      "name": "docker not working in cimg:*",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-02T17:59:14.000Z",
+      "resolved_at": "2026-03-02T18:21:06.106Z",
+      "updated_at": "2026-03-02T18:21:06.123Z",
+      "shortlink": "https://stspg.io/wqmcz2chv2f6",
+      "service": "CircleCI"
+    },
+    {
+      "id": "tzlnzb58ghvd",
+      "name": "Cloudflare Peering Portal Authentication Issue",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T02:27:42.629Z",
+      "resolved_at": "2026-03-02T18:09:47.015Z",
+      "updated_at": "2026-03-02T18:09:47.033Z",
+      "shortlink": "https://stspg.io/91mgn4rnv6gh",
+      "service": "Cloudflare"
+    },
     {
       "id": "sx5zh206myxg",
       "name": "MongoDB Atlas: Email notifications may be failing",
