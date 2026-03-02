@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02 04:50:31 UTC",
-  "active_count": 8,
-  "resolved_count": 5,
+  "generated_at": "2026-03-02 05:55:05 UTC",
+  "active_count": 7,
+  "resolved_count": 6,
   "active": [
     {
       "id": "tzlnzb58ghvd",
@@ -43,7 +43,7 @@
       "impact": "minor",
       "started_at": "2026-03-01T20:25:55.300-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T20:25:55.360-08:00",
+      "updated_at": "2026-03-01T21:18:52.229-08:00",
       "shortlink": "https://stspg.io/dzp0km1ndkdf",
       "service": "Twilio"
     },
@@ -56,17 +56,6 @@
       "resolved_at": null,
       "updated_at": "2026-03-01T20:37:13.544-08:00",
       "shortlink": "https://stspg.io/ws9n4h1b35vj",
-      "service": "Twilio"
-    },
-    {
-      "id": "jl73k6w9tqdj",
-      "name": "SMS Delivery Failures From Twilio to MTS Kazakhstan",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-03-01T08:11:45.810-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-01T15:03:14.559-08:00",
-      "shortlink": "https://stspg.io/4n650b83qtxv",
       "service": "Twilio"
     },
     {
@@ -114,6 +103,17 @@
       "updated_at": "2026-03-02T00:22:31.957Z",
       "shortlink": "https://stspg.io/00p520t0xnfv",
       "service": "Vercel"
+    },
+    {
+      "id": "jl73k6w9tqdj",
+      "name": "SMS Delivery Failures From Twilio to MTS Kazakhstan",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-01T08:11:45.000-08:00",
+      "resolved_at": "2026-03-01T21:16:56.208-08:00",
+      "updated_at": "2026-03-01T21:16:56.225-08:00",
+      "shortlink": "https://stspg.io/4n650b83qtxv",
+      "service": "Twilio"
     },
     {
       "id": "66jfhsgwqyfs",
