@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02 09:55:18 UTC",
-  "active_count": 7,
-  "resolved_count": 8,
+  "generated_at": "2026-03-02 10:48:29 UTC",
+  "active_count": 8,
+  "resolved_count": 7,
   "active": [
     {
       "id": "7g5qmxgkc2y4",
@@ -32,9 +32,20 @@
       "impact": "minor",
       "started_at": "2026-03-02T06:06:28.469Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T08:40:45.647Z",
+      "updated_at": "2026-03-02T10:40:14.157Z",
       "shortlink": "https://stspg.io/2dfvhs9ymqym",
       "service": "Vercel"
+    },
+    {
+      "id": "2t6m4wzx4snp",
+      "name": "Challenge Pages issues with HTTP connections",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-02T10:34:24.277Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T10:34:24.393Z",
+      "shortlink": "https://stspg.io/z1hntzs8n4l2",
+      "service": "Cloudflare"
     },
     {
       "id": "tzlnzb58ghvd",
@@ -65,7 +76,7 @@
       "impact": "minor",
       "started_at": "2026-03-01T20:25:55.300-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T22:25:18.465-08:00",
+      "updated_at": "2026-03-02T02:12:20.729-08:00",
       "shortlink": "https://stspg.io/dzp0km1ndkdf",
       "service": "Twilio"
     },
@@ -157,17 +168,6 @@
       "resolved_at": "2026-03-01T09:28:18.000-08:00",
       "updated_at": "2026-03-01T09:29:12.513-08:00",
       "shortlink": "https://stspg.io/qh5vds5hr437",
-      "service": "Twilio"
-    },
-    {
-      "id": "1hktpg06yhfh",
-      "name": "SMS Delivery Failures from Twilio to du and Etisalat United Arab Emirates",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-28T09:28:14.822-08:00",
-      "resolved_at": "2026-03-01T02:29:30.171-08:00",
-      "updated_at": "2026-03-01T02:29:30.187-08:00",
-      "shortlink": "https://stspg.io/68zmw5265cyw",
       "service": "Twilio"
     }
   ]
