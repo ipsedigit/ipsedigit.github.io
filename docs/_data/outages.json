@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02 15:45:37 UTC",
-  "active_count": 7,
-  "resolved_count": 11,
+  "generated_at": "2026-03-02 16:54:36 UTC",
+  "active_count": 8,
+  "resolved_count": 12,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -21,7 +21,7 @@
       "impact": "major",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T09:21:19.610Z",
+      "updated_at": "2026-03-02T16:18:24.134Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
     },
@@ -46,6 +46,17 @@
       "updated_at": "2026-02-27T15:02:03.830-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
+    },
+    {
+      "id": "b3ct7v13wz6l",
+      "name": "SMS Delivery Delays from Twilio to Rakuten Japan",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-02T08:27:50.309-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T08:27:50.453-08:00",
+      "shortlink": "https://stspg.io/yv0kd9bkhy3x",
+      "service": "Twilio"
     },
     {
       "id": "8xtj4sg11bdd",
@@ -82,6 +93,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "sx5zh206myxg",
+      "name": "MongoDB Atlas: Email notifications may be failing",
+      "status": "resolved",
+      "impact": "major",
+      "started_at": "2026-03-02T15:50:09.328Z",
+      "resolved_at": "2026-03-02T16:28:53.503Z",
+      "updated_at": "2026-03-02T16:28:53.518Z",
+      "shortlink": "https://stspg.io/3fx0hpw59xhw",
+      "service": "MongoDB Atlas"
+    },
     {
       "id": "nt2llc4k0p41",
       "name": "Elevated deployment and function invocations failures",
