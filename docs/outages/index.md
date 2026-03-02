@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -77,6 +77,18 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7tc348mgkc4j" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 02, 05:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 05:58 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+  </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dzp0km1ndkdf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Access Malawi</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
     Started: Mar 01, 20:25 UTC &nbsp;·&nbsp; Updated: Mar 02, 02:12 UTC
@@ -91,7 +103,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Feb 28, 16:02 UTC
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 02, 14:22 UTC
   </div>
 </div>
 
@@ -171,4 +183,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 13:06:28 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 14:45:39 UTC</p>

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02 13:06:28 UTC",
-  "active_count": 7,
+  "generated_at": "2026-03-02 14:45:39 UTC",
+  "active_count": 8,
   "resolved_count": 9,
   "active": [
     {
@@ -59,6 +59,17 @@
       "service": "SendGrid"
     },
     {
+      "id": "8xtj4sg11bdd",
+      "name": "SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-02T05:58:58.986-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T05:58:59.042-08:00",
+      "shortlink": "https://stspg.io/7tc348mgkc4j",
+      "service": "Twilio"
+    },
+    {
       "id": "c8hbcy3nf5cc",
       "name": "SMS Delivery Delays from Twilio to Access Malawi",
       "status": "investigating",
@@ -76,7 +87,7 @@
       "impact": "none",
       "started_at": "2026-02-24T14:46:17.352Z",
       "resolved_at": null,
-      "updated_at": "2026-02-28T16:02:03.176Z",
+      "updated_at": "2026-03-02T14:22:13.031Z",
       "shortlink": "https://stspg.io/kcpw1yj9wqzh",
       "service": "Supabase"
     }
