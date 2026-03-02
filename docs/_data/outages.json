@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02 19:39:21 UTC",
-  "active_count": 7,
+  "generated_at": "2026-03-02 20:41:18 UTC",
+  "active_count": 8,
   "resolved_count": 14,
   "active": [
     {
@@ -21,7 +21,7 @@
       "impact": "major",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T16:18:24.134Z",
+      "updated_at": "2026-03-02T19:58:09.520Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
     },
@@ -32,18 +32,18 @@
       "impact": "minor",
       "started_at": "2026-03-02T19:11:22.749Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T19:23:30.992Z",
+      "updated_at": "2026-03-02T20:02:29.782Z",
       "shortlink": "https://stspg.io/z2ppmbl0njn0",
       "service": "GitHub"
     },
     {
       "id": "b3ct7v13wz6l",
       "name": "SMS Delivery Delays from Twilio to Rakuten Japan",
-      "status": "identified",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-03-02T08:27:50.309-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T10:27:01.194-08:00",
+      "updated_at": "2026-03-02T11:58:55.753-08:00",
       "shortlink": "https://stspg.io/yv0kd9bkhy3x",
       "service": "Twilio"
     },
@@ -65,9 +65,20 @@
       "impact": "minor",
       "started_at": "2026-03-01T20:25:55.300-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T10:12:03.854-08:00",
+      "updated_at": "2026-03-02T12:04:31.724-08:00",
       "shortlink": "https://stspg.io/dzp0km1ndkdf",
       "service": "Twilio"
+    },
+    {
+      "id": "k04743v35s5k",
+      "name": "Ingestion delays in US and EU regions",
+      "status": "monitoring",
+      "impact": "none",
+      "started_at": "2026-03-02T19:57:50.501Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T20:29:22.063Z",
+      "shortlink": "https://stspg.io/pff838sg68w4",
+      "service": "Sentry"
     },
     {
       "id": "xmgq69x4brfk",

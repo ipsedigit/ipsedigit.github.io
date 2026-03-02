@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -31,7 +31,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 16:18 UTC
+    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 19:58 UTC
   </div>
 </div>
 
@@ -43,7 +43,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/z2ppmbl0njn0" target="_blank" rel="noopener" style="color:#111;">Incident with Pull Requests /pulls</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 19:11 UTC &nbsp;·&nbsp; Updated: Mar 02, 19:23 UTC
+    Started: Mar 02, 19:11 UTC &nbsp;·&nbsp; Updated: Mar 02, 20:02 UTC
   </div>
 </div>
 
@@ -51,11 +51,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/yv0kd9bkhy3x" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Rakuten Japan</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 08:27 UTC &nbsp;·&nbsp; Updated: Mar 02, 10:27 UTC
+    Started: Mar 02, 08:27 UTC &nbsp;·&nbsp; Updated: Mar 02, 11:58 UTC
   </div>
 </div>
 
@@ -79,7 +79,19 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dzp0km1ndkdf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Access Malawi</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 20:25 UTC &nbsp;·&nbsp; Updated: Mar 02, 10:12 UTC
+    Started: Mar 01, 20:25 UTC &nbsp;·&nbsp; Updated: Mar 02, 12:04 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #6b7280; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Sentry</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#6b7280; color:#fff;">NONE</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/pff838sg68w4" target="_blank" rel="noopener" style="color:#111;">Ingestion delays in US and EU regions</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 02, 19:57 UTC &nbsp;·&nbsp; Updated: Mar 02, 20:29 UTC
   </div>
 </div>
 
@@ -211,4 +223,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 19:39:21 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 20:41:18 UTC</p>
