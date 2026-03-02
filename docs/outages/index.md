@@ -63,11 +63,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/yv0kd9bkhy3x" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Rakuten Japan</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 08:27 UTC &nbsp;·&nbsp; Updated: Mar 02, 08:27 UTC
+    Started: Mar 02, 08:27 UTC &nbsp;·&nbsp; Updated: Mar 02, 09:27 UTC
   </div>
 </div>
 
@@ -79,7 +79,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7tc348mgkc4j" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 05:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 07:01 UTC
+    Started: Mar 02, 05:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 09:00 UTC
   </div>
 </div>
 
@@ -103,7 +103,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 02, 14:22 UTC
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 02, 17:03 UTC
   </div>
 </div>
 
@@ -197,14 +197,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 01, 09:28 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 16:54:36 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 17:50:36 UTC</p>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02 16:54:36 UTC",
+  "generated_at": "2026-03-02 17:50:36 UTC",
   "active_count": 8,
-  "resolved_count": 12,
+  "resolved_count": 11,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -50,11 +50,11 @@
     {
       "id": "b3ct7v13wz6l",
       "name": "SMS Delivery Delays from Twilio to Rakuten Japan",
-      "status": "investigating",
+      "status": "identified",
       "impact": "minor",
       "started_at": "2026-03-02T08:27:50.309-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T08:27:50.453-08:00",
+      "updated_at": "2026-03-02T09:27:03.164-08:00",
       "shortlink": "https://stspg.io/yv0kd9bkhy3x",
       "service": "Twilio"
     },
@@ -65,7 +65,7 @@
       "impact": "minor",
       "started_at": "2026-03-02T05:58:58.986-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T07:01:47.670-08:00",
+      "updated_at": "2026-03-02T09:00:14.915-08:00",
       "shortlink": "https://stspg.io/7tc348mgkc4j",
       "service": "Twilio"
     },
@@ -87,7 +87,7 @@
       "impact": "none",
       "started_at": "2026-02-24T14:46:17.352Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T14:22:13.031Z",
+      "updated_at": "2026-03-02T17:03:54.244Z",
       "shortlink": "https://stspg.io/kcpw1yj9wqzh",
       "service": "Supabase"
     }
@@ -212,17 +212,6 @@
       "resolved_at": "2026-03-01T20:20:35.577-08:00",
       "updated_at": "2026-03-01T20:20:35.596-08:00",
       "shortlink": "https://stspg.io/dbk0dvty64w8",
-      "service": "Twilio"
-    },
-    {
-      "id": "wl0ysv5m4bjh",
-      "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-28T15:07:28.086-08:00",
-      "resolved_at": "2026-03-01T09:28:18.000-08:00",
-      "updated_at": "2026-03-01T09:29:12.513-08:00",
-      "shortlink": "https://stspg.io/qh5vds5hr437",
       "service": "Twilio"
     }
   ]
