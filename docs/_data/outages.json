@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-03-02 02:27:47 UTC",
+  "generated_at": "2026-03-02 04:50:31 UTC",
   "active_count": 8,
-  "resolved_count": 3,
+  "resolved_count": 5,
   "active": [
-    {
-      "id": "yw96wbq7mtz1",
-      "name": "MongoDB App Services: Connectivity issues",
-      "status": "monitoring",
-      "impact": "major",
-      "started_at": "2026-02-28T19:53:36.768Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-01T05:37:28.632Z",
-      "shortlink": "https://stspg.io/dxd0y34wps83",
-      "service": "MongoDB Atlas"
-    },
     {
       "id": "tzlnzb58ghvd",
       "name": "Cloudflare Peering Portal Authentication Issue",
@@ -48,14 +37,25 @@
       "service": "MongoDB Atlas"
     },
     {
-      "id": "66jfhsgwqyfs",
-      "name": "MMS Delivery Delays From Twilio to Altice United States",
+      "id": "c8hbcy3nf5cc",
+      "name": "SMS Delivery Delays from Twilio to Access Malawi",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-01T20:25:55.300-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-01T20:25:55.360-08:00",
+      "shortlink": "https://stspg.io/dzp0km1ndkdf",
+      "service": "Twilio"
+    },
+    {
+      "id": "bkmy080x1lx6",
+      "name": "SMS Delivery Delays from Twilio to Lycamobile United Kingdom",
       "status": "monitoring",
       "impact": "minor",
-      "started_at": "2026-03-01T11:43:44.390-08:00",
+      "started_at": "2026-03-01T19:54:08.067-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T18:21:07.676-08:00",
-      "shortlink": "https://stspg.io/dbk0dvty64w8",
+      "updated_at": "2026-03-01T20:37:13.544-08:00",
+      "shortlink": "https://stspg.io/ws9n4h1b35vj",
       "service": "Twilio"
     },
     {
@@ -94,6 +94,17 @@
   ],
   "resolved_24h": [
     {
+      "id": "yw96wbq7mtz1",
+      "name": "MongoDB App Services: Connectivity issues",
+      "status": "resolved",
+      "impact": "major",
+      "started_at": "2026-02-28T19:53:36.768Z",
+      "resolved_at": "2026-03-02T03:05:05.384Z",
+      "updated_at": "2026-03-02T03:05:05.399Z",
+      "shortlink": "https://stspg.io/dxd0y34wps83",
+      "service": "MongoDB Atlas"
+    },
+    {
       "id": "rw896k7wm3nf",
       "name": "Deployments are failing for customers using Static IPs in Dubai region (dxb1)",
       "status": "resolved",
@@ -103,6 +114,17 @@
       "updated_at": "2026-03-02T00:22:31.957Z",
       "shortlink": "https://stspg.io/00p520t0xnfv",
       "service": "Vercel"
+    },
+    {
+      "id": "66jfhsgwqyfs",
+      "name": "MMS Delivery Delays From Twilio to Altice United States",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-01T11:43:44.390-08:00",
+      "resolved_at": "2026-03-01T20:20:35.577-08:00",
+      "updated_at": "2026-03-01T20:20:35.596-08:00",
+      "shortlink": "https://stspg.io/dbk0dvty64w8",
+      "service": "Twilio"
     },
     {
       "id": "wl0ysv5m4bjh",
