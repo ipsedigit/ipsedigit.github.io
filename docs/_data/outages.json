@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-03-02 05:55:05 UTC",
-  "active_count": 7,
-  "resolved_count": 6,
+  "generated_at": "2026-03-02 07:03:29 UTC",
+  "active_count": 8,
+  "resolved_count": 7,
   "active": [
+    {
+      "id": "0gvst51d9c21",
+      "name": "Degraded Logs and Traces in Dubai region (dxb1)",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-02T06:54:02.765Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T06:54:02.884Z",
+      "shortlink": "https://stspg.io/09mvq05fl5lb",
+      "service": "Vercel"
+    },
+    {
+      "id": "nt2llc4k0p41",
+      "name": "Elevated deployment and function invocations failures in Dubai region (dxb1)",
+      "status": "identified",
+      "impact": "minor",
+      "started_at": "2026-03-02T06:06:28.469Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T06:24:47.119Z",
+      "shortlink": "https://stspg.io/2dfvhs9ymqym",
+      "service": "Vercel"
+    },
     {
       "id": "tzlnzb58ghvd",
       "name": "Cloudflare Peering Portal Authentication Issue",
@@ -43,19 +65,8 @@
       "impact": "minor",
       "started_at": "2026-03-01T20:25:55.300-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T21:18:52.229-08:00",
+      "updated_at": "2026-03-01T22:25:18.465-08:00",
       "shortlink": "https://stspg.io/dzp0km1ndkdf",
-      "service": "Twilio"
-    },
-    {
-      "id": "bkmy080x1lx6",
-      "name": "SMS Delivery Delays from Twilio to Lycamobile United Kingdom",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-03-01T19:54:08.067-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-01T20:37:13.544-08:00",
-      "shortlink": "https://stspg.io/ws9n4h1b35vj",
       "service": "Twilio"
     },
     {
@@ -103,6 +114,17 @@
       "updated_at": "2026-03-02T00:22:31.957Z",
       "shortlink": "https://stspg.io/00p520t0xnfv",
       "service": "Vercel"
+    },
+    {
+      "id": "bkmy080x1lx6",
+      "name": "SMS Delivery Delays from Twilio to Lycamobile United Kingdom",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-01T19:54:08.067-08:00",
+      "resolved_at": "2026-03-01T22:27:43.091-08:00",
+      "updated_at": "2026-03-01T22:27:43.108-08:00",
+      "shortlink": "https://stspg.io/ws9n4h1b35vj",
+      "service": "Twilio"
     },
     {
       "id": "jl73k6w9tqdj",
