@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-03-01 18:28:41 UTC",
+  "generated_at": "2026-03-02 07:04:59 UTC",
   "total_articles": 20,
   "articles": [
+    {
+      "title": "Snapdragon Wear Elite is here: The first Elite chip for watches and AI gadgets",
+      "url": "https://www.androidauthority.com/snapdragon-wear-elite-smartwatch-chip-3643432/",
+      "source": "Android Authority",
+      "published": "2026-03-02T07:00:12Z",
+      "excerpt": "The Snapdragon Wear Elite also brings on-device AI models to smartwatches and AI gadgets."
+    },
+    {
+      "title": "Motorola goes for the foldable crown with the new Razr Fold at MWC",
+      "url": "https://www.androidauthority.com/motorola-razr-fold-3645523/",
+      "source": "Android Authority",
+      "published": "2026-03-02T05:00:03Z",
+      "excerpt": "With a Snapdragon 8 Gen 5 and a triple 50MP camera system, Motorola’s first book-style foldable means business."
+    },
+    {
+      "title": "I tried Lenovo’s wild modular ThinkBook at MWC, and now my laptop feels outdated",
+      "url": "https://www.androidauthority.com/lenovo-thinkbook-modular-ai-pc-mwc-2026-3645382/",
+      "source": "Android Authority",
+      "published": "2026-03-01T23:01:51Z",
+      "excerpt": "Hands-on with a modular laptop that doesn't feel like a science experiment."
+    },
+    {
+      "title": "I saw a physical AI assistant at MWC 2026, and I’m not sure we need one",
+      "url": "https://www.androidauthority.com/lenovo-ai-workmate-mwc-2026-3645414/",
+      "source": "Android Authority",
+      "published": "2026-03-01T23:01:48Z",
+      "excerpt": "It can scan, project, and even sign documents for you, but it also proves AI doesn't always need a body."
+    },
+    {
+      "title": "Lenovo’s latest rugged tablet does what most Android tablets won’t: Removable battery",
+      "url": "https://www.androidauthority.com/lenovo-think-tab-x11-idea-tab-gen-2-3644373/",
+      "source": "Android Authority",
+      "published": "2026-03-01T23:01:43Z",
+      "excerpt": "Lenovo’s ThinkTab X11 is a work tablet you don't have to throw away when the battery dies."
+    },
+    {
+      "title": "A Snapdragon 8 Elite Android tablet with a 9,000mAh battery? Lenovo heard gamers",
+      "url": "https://www.androidauthority.com/lenovo-legion-tab-gen-5-3645206/",
+      "source": "Android Authority",
+      "published": "2026-03-01T23:01:26Z",
+      "excerpt": "Big on silicon and stamina, the Lenovo Legion Tab Gen 5 is designed to keep demanding gaming sessions going longer."
+    },
+    {
+      "title": "Lenovo’s Legion Go Fold is the “why not?” of gaming handhelds",
+      "url": "https://www.androidauthority.com/lenovo-legion-go-fold-concept-3645085/",
+      "source": "Android Authority",
+      "published": "2026-03-01T23:01:19Z",
+      "excerpt": "Forget carrying a laptop and a handheld; Lenovo’s latest concept foldable bridges the gap between both."
+    },
+    {
+      "title": "Motorola has a tiny new black box at MWC that wants to kill Android Auto cables",
+      "url": "https://www.androidauthority.com/motorola-ma2-wireless-android-auto-adapter-3645480/",
+      "source": "Android Authority",
+      "published": "2026-03-01T18:33:45Z",
+      "excerpt": "The Motorola MA2 is coming soon, with a new design and meaningful upgrades for broader vehicle compatibility."
+    },
     {
       "title": "Download the Samsung Galaxy S26 wallpapers here",
       "url": "https://www.androidauthority.com/download-samsung-galaxy-s26-wallpapers-3644829/",
@@ -85,62 +141,6 @@
       "source": "Android Authority",
       "published": "2026-02-28T14:30:59Z",
       "excerpt": "The company also brought its Leica edition Xiaomi 17 Ultra to global markets, albeit with a sky-high price tag."
-    },
-    {
-      "title": "USB-C fast charging is still a nightmare, but this phone finally gets it right",
-      "url": "https://www.androidauthority.com/xiaomi-17-ultra-fast-charging-3637990/",
-      "source": "Android Authority",
-      "published": "2026-02-28T14:30:50Z",
-      "excerpt": "One day Apple, Google, and Samsung will catch up. Won't they?"
-    },
-    {
-      "title": "I’ve tested countless camera phones, and this is the best one so far",
-      "url": "https://www.androidauthority.com/xiaomi-17-ultra-review-3642790/",
-      "source": "Android Authority",
-      "published": "2026-02-28T14:30:23Z",
-      "excerpt": "Who needs a mirrorless camera when you can buy Xiaomi's Ultra."
-    },
-    {
-      "title": "This new Wear OS smartwatch brings gesture controls to your wrist and lasts for days",
-      "url": "https://www.androidauthority.com/xiaomi-watch-5-mwc-launch-3645335/",
-      "source": "Android Authority",
-      "published": "2026-02-28T14:30:09Z",
-      "excerpt": "The global Xiaomi Watch 5 is a feature-heavy upgrade focused on hands-free control and AI."
-    },
-    {
-      "title": "The Xiaomi 17 is the most iPhone-like Android phone I’ve used yet (and not in a good way)",
-      "url": "https://www.androidauthority.com/xiaomi-17-hands-on-3641517/",
-      "source": "Android Authority",
-      "published": "2026-02-28T14:30:01Z",
-      "excerpt": "The Xiaomi 17 might be a low point for original design, but do the upgrades make it worth buying?"
-    },
-    {
-      "title": "This affordable running watch is an awesome Garmin alternative",
-      "url": "https://www.androidauthority.com/huawei-watch-gt-runner-2-review-3644729/",
-      "source": "Android Authority",
-      "published": "2026-02-28T11:30:57Z",
-      "excerpt": "Better in every way, but still requires some patience to get going."
-    },
-    {
-      "title": "5 Android phones you should buy instead of the Samsung Galaxy S26",
-      "url": "https://www.androidauthority.com/samsung-galaxy-s26-alternatives-3644622/",
-      "source": "Android Authority",
-      "published": "2026-02-28T11:00:44Z",
-      "excerpt": "$900 for the Galaxy S26? I don't think so."
-    },
-    {
-      "title": "These 6 Google apps are irreplaceable on my Android phone",
-      "url": "https://www.androidauthority.com/irreplaceable-best-google-apps-3644097/",
-      "source": "Android Authority",
-      "published": "2026-02-28T10:30:07Z",
-      "excerpt": "I couldn't imagine using Android without these Google apps."
-    },
-    {
-      "title": "Practical Android AI [SUBSCRIBER]",
-      "url": "https://www.kodeco.com/books/practical-android-ai",
-      "source": "Kodeco Android",
-      "published": "2026-02-28T00:00:00Z",
-      "excerpt": "In this book, you’ll learn how to build intelligent Android applications using today’s most powerful AI and ML tools — from on-device capabilities with ML Kit and MediaPipe to cloud-powered generative models like Gemini and Firebase AI Logic. You’ll explore real-world examples th"
     }
   ]
 }
