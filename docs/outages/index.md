@@ -11,15 +11,15 @@ permalink: /outages/
 
 ## Active Incidents
 
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #b91c1c; border-radius:0 8px 8px 0; background:#fafafa;">
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Vercel</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#b91c1c; color:#fff;">CRITICAL</span>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/zlddb1nrtlgw" target="_blank" rel="noopener" style="color:#111;">Dubai region (dxb1) is unavailable and traffic is being re-routed</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 15:29 UTC &nbsp;·&nbsp; Updated: Mar 02, 18:23 UTC
+    Started: Mar 02, 15:29 UTC &nbsp;·&nbsp; Updated: Mar 02, 19:10 UTC
   </div>
 </div>
 
@@ -37,13 +37,13 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>SendGrid</strong>
+    <strong>GitHub</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7mncr84x75hw" target="_blank" rel="noopener" style="color:#111;">Customers in Argentina Unable to Authenticate Card in Twilio SendGrid</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/z2ppmbl0njn0" target="_blank" rel="noopener" style="color:#111;">Incident with Pull Requests /pulls</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 27, 08:49 UTC &nbsp;·&nbsp; Updated: Feb 27, 15:02 UTC
+    Started: Mar 02, 19:11 UTC &nbsp;·&nbsp; Updated: Mar 02, 19:23 UTC
   </div>
 </div>
 
@@ -155,6 +155,14 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">SendGrid</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 11:06 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Customers in Argentina Unable to Authenticate Card in Twilio SendGrid</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 09:15 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Newark (EWR) Datacenter Increase in HTTP Request latency</span>
@@ -203,4 +211,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 18:54:28 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 19:39:21 UTC</p>

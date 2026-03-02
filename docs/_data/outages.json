@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-02 18:54:28 UTC",
+  "generated_at": "2026-03-02 19:39:21 UTC",
   "active_count": 7,
-  "resolved_count": 13,
+  "resolved_count": 14,
   "active": [
     {
       "id": "20v5r3njkcwc",
       "name": "Dubai region (dxb1) is unavailable and traffic is being re-routed",
       "status": "monitoring",
-      "impact": "critical",
+      "impact": "major",
       "started_at": "2026-03-02T15:29:37.000Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T18:23:53.558Z",
+      "updated_at": "2026-03-02T19:10:57.085Z",
       "shortlink": "https://stspg.io/zlddb1nrtlgw",
       "service": "Vercel"
     },
@@ -26,15 +26,15 @@
       "service": "MongoDB Atlas"
     },
     {
-      "id": "wzny4cj4jd7d",
-      "name": "Customers in Argentina Unable to Authenticate Card in Twilio SendGrid",
-      "status": "monitoring",
+      "id": "vhpmx9vc93m0",
+      "name": "Incident with Pull Requests /pulls",
+      "status": "investigating",
       "impact": "minor",
-      "started_at": "2026-02-27T08:49:28.583-08:00",
+      "started_at": "2026-03-02T19:11:22.749Z",
       "resolved_at": null,
-      "updated_at": "2026-02-27T15:02:03.830-08:00",
-      "shortlink": "https://stspg.io/7mncr84x75hw",
-      "service": "SendGrid"
+      "updated_at": "2026-03-02T19:23:30.992Z",
+      "shortlink": "https://stspg.io/z2ppmbl0njn0",
+      "service": "GitHub"
     },
     {
       "id": "b3ct7v13wz6l",
@@ -158,6 +158,17 @@
       "updated_at": "2026-03-02T12:08:39.204Z",
       "shortlink": "https://stspg.io/09mvq05fl5lb",
       "service": "Vercel"
+    },
+    {
+      "id": "wzny4cj4jd7d",
+      "name": "Customers in Argentina Unable to Authenticate Card in Twilio SendGrid",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-02-27T08:49:28.583-08:00",
+      "resolved_at": "2026-03-02T11:06:00.288-08:00",
+      "updated_at": "2026-03-02T11:06:00.304-08:00",
+      "shortlink": "https://stspg.io/7mncr84x75hw",
+      "service": "SendGrid"
     },
     {
       "id": "391rky29892m",
