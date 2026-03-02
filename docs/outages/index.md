@@ -15,11 +15,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Vercel</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/09mvq05fl5lb" target="_blank" rel="noopener" style="color:#111;">Degraded Logs and Traces in Dubai region (dxb1)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 06:54 UTC &nbsp;·&nbsp; Updated: Mar 02, 06:54 UTC
+    Started: Mar 02, 06:54 UTC &nbsp;·&nbsp; Updated: Mar 02, 08:49 UTC
   </div>
 </div>
 
@@ -31,7 +31,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/2dfvhs9ymqym" target="_blank" rel="noopener" style="color:#111;">Elevated deployment and function invocations failures in Dubai region (dxb1)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 06:06 UTC &nbsp;·&nbsp; Updated: Mar 02, 06:24 UTC
+    Started: Mar 02, 06:06 UTC &nbsp;·&nbsp; Updated: Mar 02, 08:40 UTC
   </div>
 </div>
 
@@ -167,4 +167,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 07:03:29 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 08:51:53 UTC</p>

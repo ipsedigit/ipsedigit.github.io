@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-02 07:03:29 UTC",
+  "generated_at": "2026-03-02 08:51:53 UTC",
   "active_count": 8,
   "resolved_count": 7,
   "active": [
     {
       "id": "0gvst51d9c21",
       "name": "Degraded Logs and Traces in Dubai region (dxb1)",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-03-02T06:54:02.765Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T06:54:02.884Z",
+      "updated_at": "2026-03-02T08:49:38.572Z",
       "shortlink": "https://stspg.io/09mvq05fl5lb",
       "service": "Vercel"
     },
@@ -21,7 +21,7 @@
       "impact": "minor",
       "started_at": "2026-03-02T06:06:28.469Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T06:24:47.119Z",
+      "updated_at": "2026-03-02T08:40:45.647Z",
       "shortlink": "https://stspg.io/2dfvhs9ymqym",
       "service": "Vercel"
     },
