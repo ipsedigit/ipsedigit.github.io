@@ -43,7 +43,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/2dfvhs9ymqym" target="_blank" rel="noopener" style="color:#111;">Elevated deployment and function invocations failures in Dubai region (dxb1)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 06:06 UTC &nbsp;·&nbsp; Updated: Mar 02, 10:40 UTC
+    Started: Mar 02, 06:06 UTC &nbsp;·&nbsp; Updated: Mar 02, 10:50 UTC
   </div>
 </div>
 
@@ -167,4 +167,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 10:48:29 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 11:34:01 UTC</p>
