@@ -6,10 +6,22 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
 </div>
 
 ## Active Incidents
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>MongoDB Atlas</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 09:21 UTC
+  </div>
+</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -61,18 +73,6 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>MongoDB Atlas</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Delayed Cluster Operations – AWS me-central-1 (United Arab Emirates)</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 02:17 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
@@ -80,18 +80,6 @@ permalink: /outages/
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dzp0km1ndkdf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Access Malawi</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
     Started: Mar 01, 20:25 UTC &nbsp;·&nbsp; Updated: Mar 01, 22:25 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #6b7280; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Cloudflare</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#6b7280; color:#fff;">NONE</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/fdpjyjw6gt0f" target="_blank" rel="noopener" style="color:#111;">Newark (EWR) Datacenter Increase in HTTP Request latency</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 16, 10:19 UTC &nbsp;·&nbsp; Updated: Feb 27, 13:40 UTC
   </div>
 </div>
 
@@ -108,6 +96,14 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 09:15 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Newark (EWR) Datacenter Increase in HTTP Request latency</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -167,4 +163,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 08:51:53 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 09:55:18 UTC</p>

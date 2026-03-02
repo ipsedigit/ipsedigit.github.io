@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-03-02 08:51:53 UTC",
-  "active_count": 8,
-  "resolved_count": 7,
+  "generated_at": "2026-03-02 09:55:18 UTC",
+  "active_count": 7,
+  "resolved_count": 8,
   "active": [
+    {
+      "id": "7g5qmxgkc2y4",
+      "name": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
+      "status": "identified",
+      "impact": "major",
+      "started_at": "2026-03-01T13:48:14.360Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-02T09:21:19.610Z",
+      "shortlink": "https://stspg.io/mg7m971rdhw8",
+      "service": "MongoDB Atlas"
+    },
     {
       "id": "0gvst51d9c21",
       "name": "Degraded Logs and Traces in Dubai region (dxb1)",
@@ -48,17 +59,6 @@
       "service": "SendGrid"
     },
     {
-      "id": "7g5qmxgkc2y4",
-      "name": "Delayed Cluster Operations – AWS me-central-1 (United Arab Emirates)",
-      "status": "identified",
-      "impact": "minor",
-      "started_at": "2026-03-01T13:48:14.360Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-02T02:17:40.794Z",
-      "shortlink": "https://stspg.io/mg7m971rdhw8",
-      "service": "MongoDB Atlas"
-    },
-    {
       "id": "c8hbcy3nf5cc",
       "name": "SMS Delivery Delays from Twilio to Access Malawi",
       "status": "investigating",
@@ -68,17 +68,6 @@
       "updated_at": "2026-03-01T22:25:18.465-08:00",
       "shortlink": "https://stspg.io/dzp0km1ndkdf",
       "service": "Twilio"
-    },
-    {
-      "id": "391rky29892m",
-      "name": "Newark (EWR) Datacenter Increase in HTTP Request latency",
-      "status": "monitoring",
-      "impact": "none",
-      "started_at": "2026-02-16T10:19:45.000Z",
-      "resolved_at": null,
-      "updated_at": "2026-02-27T13:40:56.969Z",
-      "shortlink": "https://stspg.io/fdpjyjw6gt0f",
-      "service": "Cloudflare"
     },
     {
       "id": "xmgq69x4brfk",
@@ -93,6 +82,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "391rky29892m",
+      "name": "Newark (EWR) Datacenter Increase in HTTP Request latency",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-02-16T10:19:45.000Z",
+      "resolved_at": "2026-03-02T09:15:57.129Z",
+      "updated_at": "2026-03-02T09:15:57.152Z",
+      "shortlink": "https://stspg.io/fdpjyjw6gt0f",
+      "service": "Cloudflare"
+    },
     {
       "id": "yw96wbq7mtz1",
       "name": "MongoDB App Services: Connectivity issues",
