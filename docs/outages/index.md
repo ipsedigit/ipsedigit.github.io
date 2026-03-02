@@ -6,22 +6,10 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 9 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
 </div>
 
 ## Active Incidents
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Vercel</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/00p520t0xnfv" target="_blank" rel="noopener" style="color:#111;">Deployments are failing for customers using Static IPs in Dubai region (dxb1)</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 21:17 UTC &nbsp;·&nbsp; Updated: Mar 01, 21:17 UTC
-  </div>
-</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -67,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Delayed Cluster Operations – AWS me-central-1 (United Arab Emirates)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 01, 19:35 UTC
+    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 02:17 UTC
   </div>
 </div>
 
@@ -75,11 +63,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dbk0dvty64w8" target="_blank" rel="noopener" style="color:#111;">MMS Delivery Delays From Twilio to Altice United States</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 11:43 UTC &nbsp;·&nbsp; Updated: Mar 01, 14:21 UTC
+    Started: Mar 01, 11:43 UTC &nbsp;·&nbsp; Updated: Mar 01, 18:21 UTC
   </div>
 </div>
 
@@ -123,6 +111,14 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Vercel</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 00:22 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Deployments are failing for customers using Static IPs in Dubai region (dxb1)</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 01, 09:28 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire</span>
@@ -139,4 +135,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-01 23:27:44 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 02:27:47 UTC</p>

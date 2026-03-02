@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-03-01 23:27:44 UTC",
-  "active_count": 9,
-  "resolved_count": 2,
+  "generated_at": "2026-03-02 02:27:47 UTC",
+  "active_count": 8,
+  "resolved_count": 3,
   "active": [
-    {
-      "id": "rw896k7wm3nf",
-      "name": "Deployments are failing for customers using Static IPs in Dubai region (dxb1)",
-      "status": "identified",
-      "impact": "major",
-      "started_at": "2026-03-01T21:17:54.470Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-01T21:17:54.557Z",
-      "shortlink": "https://stspg.io/00p520t0xnfv",
-      "service": "Vercel"
-    },
     {
       "id": "yw96wbq7mtz1",
       "name": "MongoDB App Services: Connectivity issues",
@@ -54,18 +43,18 @@
       "impact": "minor",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-01T19:35:38.109Z",
+      "updated_at": "2026-03-02T02:17:40.794Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
     },
     {
       "id": "66jfhsgwqyfs",
       "name": "MMS Delivery Delays From Twilio to Altice United States",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-03-01T11:43:44.390-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-01T14:21:05.370-08:00",
+      "updated_at": "2026-03-01T18:21:07.676-08:00",
       "shortlink": "https://stspg.io/dbk0dvty64w8",
       "service": "Twilio"
     },
@@ -104,6 +93,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "rw896k7wm3nf",
+      "name": "Deployments are failing for customers using Static IPs in Dubai region (dxb1)",
+      "status": "resolved",
+      "impact": "major",
+      "started_at": "2026-03-01T21:17:54.470Z",
+      "resolved_at": "2026-03-02T00:22:31.935Z",
+      "updated_at": "2026-03-02T00:22:31.957Z",
+      "shortlink": "https://stspg.io/00p520t0xnfv",
+      "service": "Vercel"
+    },
     {
       "id": "wl0ysv5m4bjh",
       "name": "SMS Delivery Delays From Twilio to Moov in Côte d'Ivoire",
