@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 17:47:09 UTC",
-  "active_count": 4,
-  "resolved_count": 19,
+  "generated_at": "2026-03-03 18:56:19 UTC",
+  "active_count": 5,
+  "resolved_count": 17,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -27,14 +27,25 @@
     },
     {
       "id": "80qvc1mrnr8f",
-      "name": "Delays Loading Observability, Analytics, and Speed Insights Data",
+      "name": "Delays Loading Observability, Usage, Analytics, and Speed Insights Data",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-03-03T17:10:19.134Z",
       "resolved_at": null,
-      "updated_at": "2026-03-03T17:10:19.252Z",
+      "updated_at": "2026-03-03T17:50:37.676Z",
       "shortlink": "https://stspg.io/5nl125t7byw4",
       "service": "Vercel"
+    },
+    {
+      "id": "9pzmp5kgwhj6",
+      "name": "SMS Delivery Failures from Twilio to Datora Brazil",
+      "status": "identified",
+      "impact": "minor",
+      "started_at": "2026-03-03T10:19:05.490-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T10:45:10.098-08:00",
+      "shortlink": "https://stspg.io/q0cv4kmpxk42",
+      "service": "Twilio"
     },
     {
       "id": "xmgq69x4brfk",
@@ -158,28 +169,6 @@
       "updated_at": "2026-03-02T21:09:45.723Z",
       "shortlink": "https://stspg.io/pff838sg68w4",
       "service": "Sentry"
-    },
-    {
-      "id": "lg8x09p2d2n3",
-      "name": "docker not working in cimg:*",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T17:59:14.000Z",
-      "resolved_at": "2026-03-02T18:21:06.106Z",
-      "updated_at": "2026-03-02T18:21:06.123Z",
-      "shortlink": "https://stspg.io/wqmcz2chv2f6",
-      "service": "CircleCI"
-    },
-    {
-      "id": "tzlnzb58ghvd",
-      "name": "Cloudflare Peering Portal Authentication Issue",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T02:27:42.629Z",
-      "resolved_at": "2026-03-02T18:09:47.015Z",
-      "updated_at": "2026-03-02T18:09:47.033Z",
-      "shortlink": "https://stspg.io/91mgn4rnv6gh",
-      "service": "Cloudflare"
     },
     {
       "id": "8xtj4sg11bdd",

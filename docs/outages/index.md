@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 4 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 5 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -41,9 +41,21 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/5nl125t7byw4" target="_blank" rel="noopener" style="color:#111;">Delays Loading Observability, Analytics, and Speed Insights Data</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/5nl125t7byw4" target="_blank" rel="noopener" style="color:#111;">Delays Loading Observability, Usage, Analytics, and Speed Insights Data</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 17:10 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:10 UTC
+    Started: Mar 03, 17:10 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:50 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/q0cv4kmpxk42" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to Datora Brazil</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 03, 10:45 UTC
   </div>
 </div>
 
@@ -143,22 +155,6 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">CircleCI</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 18:21 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">docker not working in cimg:*</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 18:09 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Cloudflare Peering Portal Authentication Issue</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:23 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</span>
@@ -215,4 +211,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 17:47:09 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 18:56:19 UTC</p>
