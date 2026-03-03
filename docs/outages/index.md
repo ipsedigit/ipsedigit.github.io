@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 4 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -37,61 +37,13 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>GitHub</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/z2ppmbl0njn0" target="_blank" rel="noopener" style="color:#111;">Incident with Pull Requests /pulls</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 19:11 UTC &nbsp;·&nbsp; Updated: Mar 02, 20:02 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/yv0kd9bkhy3x" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Rakuten Japan</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/6mhkdwqs7dvs" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays From Twilio to Tune Talk Malaysia</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 08:27 UTC &nbsp;·&nbsp; Updated: Mar 02, 11:58 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/7tc348mgkc4j" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 05:58 UTC &nbsp;·&nbsp; Updated: Mar 02, 09:00 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/dzp0km1ndkdf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Access Malawi</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 20:25 UTC &nbsp;·&nbsp; Updated: Mar 02, 12:04 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #6b7280; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Sentry</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#6b7280; color:#fff;">NONE</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/pff838sg68w4" target="_blank" rel="noopener" style="color:#111;">Ingestion delays in US and EU regions</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 02, 19:57 UTC &nbsp;·&nbsp; Updated: Mar 02, 20:29 UTC
+    Started: Mar 03, 02:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 03:17 UTC
   </div>
 </div>
 
@@ -111,6 +63,70 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 10:46 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Performance degradation in Paris, France</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Supabase</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 06:31 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Database issues in us-east-2</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">GitHub</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 05:54 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delayed visibility of newly added issues on project boards</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Netlify</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 01:25 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delayed Builds on Free Accounts</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">GitHub</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 22:04 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Incident with Pull Requests /pulls</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 21:55 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 21:48 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Workers and Pages builds, Pages API unavailable</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Sentry</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 21:09 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Ingestion delays in US and EU regions</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">CircleCI</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 18:21 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">docker not working in cimg:*</span>
@@ -127,9 +143,41 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:23 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">SendGrid</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:17 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delay in Events being sent to Global Stats</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">SendGrid</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:05 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Mail delivery delays</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">MongoDB Atlas</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 16:28 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">MongoDB Atlas: Email notifications may be failing</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 16:11 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Event Streams Facing Delivery Delays</span>
   </div>
 </div>
 
@@ -151,17 +199,17 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 12:24 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Challenge Pages issues with HTTP connections</span>
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 14:05 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to Access Malawi</span>
   </div>
 </div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Vercel</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 12:08 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Degraded Logs and Traces in Dubai region (dxb1)</span>
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 13:57 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to Rakuten Japan</span>
   </div>
 </div>
 
@@ -173,54 +221,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 09:15 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Newark (EWR) Datacenter Increase in HTTP Request latency</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">MongoDB Atlas</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 03:05 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">MongoDB App Services: Connectivity issues</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Vercel</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 00:22 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Deployments are failing for customers using Static IPs in Dubai region (dxb1)</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 01, 22:27 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays from Twilio to Lycamobile United Kingdom</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 01, 21:16 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Failures From Twilio to MTS Kazakhstan</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 01, 20:20 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">MMS Delivery Delays From Twilio to Altice United States</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-02 20:41:18 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 13:04:55 UTC</p>
