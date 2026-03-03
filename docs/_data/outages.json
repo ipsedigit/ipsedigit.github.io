@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 20:36:50 UTC",
-  "active_count": 6,
-  "resolved_count": 17,
+  "generated_at": "2026-03-03 21:37:15 UTC",
+  "active_count": 4,
+  "resolved_count": 19,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -24,28 +24,6 @@
       "updated_at": "2026-03-03T17:20:01.260Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
-    },
-    {
-      "id": "nglcmhr2kfb0",
-      "name": "Claude Opus 4.6 Fast not appearing for some Copilot users",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-03-03T20:31:39.439Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T20:31:39.513Z",
-      "shortlink": "https://stspg.io/lktk63ssmfwx",
-      "service": "GitHub"
-    },
-    {
-      "id": "80qvc1mrnr8f",
-      "name": "Delays Loading Observability, Usage, Analytics, and Speed Insights Data",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-03-03T17:10:19.000Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T19:14:59.120Z",
-      "shortlink": "https://stspg.io/5nl125t7byw4",
-      "service": "Vercel"
     },
     {
       "id": "9pzmp5kgwhj6",
@@ -71,6 +49,39 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "d16lvqqfbgl6",
+      "name": "Pages builds unable to start",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T21:03:30.249Z",
+      "resolved_at": "2026-03-03T21:29:35.491Z",
+      "updated_at": "2026-03-03T21:29:35.510Z",
+      "shortlink": "https://stspg.io/6jtz4tly4q6v",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "nglcmhr2kfb0",
+      "name": "Claude Opus 4.6 Fast not appearing for some Copilot users",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T20:31:39.439Z",
+      "resolved_at": "2026-03-03T21:11:30.921Z",
+      "updated_at": "2026-03-03T21:11:30.942Z",
+      "shortlink": "https://stspg.io/lktk63ssmfwx",
+      "service": "GitHub"
+    },
+    {
+      "id": "80qvc1mrnr8f",
+      "name": "Delays Loading Observability, Usage, Analytics, and Speed Insights Data",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T17:10:19.000Z",
+      "resolved_at": "2026-03-03T21:10:27.055Z",
+      "updated_at": "2026-03-03T21:10:27.074Z",
+      "shortlink": "https://stspg.io/5nl125t7byw4",
+      "service": "Vercel"
+    },
     {
       "id": "n07yy1bk6kc4",
       "name": "Incident with Copilot and Actions",
@@ -180,17 +191,6 @@
       "updated_at": "2026-03-02T21:48:23.366Z",
       "shortlink": "https://stspg.io/pj853pjpk84f",
       "service": "Cloudflare"
-    },
-    {
-      "id": "k04743v35s5k",
-      "name": "Ingestion delays in US and EU regions",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-03-02T19:57:50.501Z",
-      "resolved_at": "2026-03-02T21:09:45.705Z",
-      "updated_at": "2026-03-02T21:09:45.723Z",
-      "shortlink": "https://stspg.io/pff838sg68w4",
-      "service": "Sentry"
     },
     {
       "id": "8xtj4sg11bdd",
