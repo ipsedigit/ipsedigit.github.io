@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 14:47:28 UTC",
-  "active_count": 4,
-  "resolved_count": 20,
+  "generated_at": "2026-03-03 15:51:03 UTC",
+  "active_count": 3,
+  "resolved_count": 19,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -26,17 +26,6 @@
       "service": "MongoDB Atlas"
     },
     {
-      "id": "kwm5c0c03hxx",
-      "name": "SMS Delivery Delays From Twilio to Tune Talk Malaysia",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-03-03T02:28:45.907-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T05:10:26.994-08:00",
-      "shortlink": "https://stspg.io/6mhkdwqs7dvs",
-      "service": "Twilio"
-    },
-    {
       "id": "xmgq69x4brfk",
       "name": "Users Experiencing Network Connectivity Problems (India Region)",
       "status": "identified",
@@ -59,6 +48,17 @@
       "updated_at": "2026-03-03T10:46:33.468Z",
       "shortlink": "https://stspg.io/sjxbl3dw4pzz",
       "service": "Cloudflare"
+    },
+    {
+      "id": "kwm5c0c03hxx",
+      "name": "SMS Delivery Delays From Twilio to Tune Talk Malaysia",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T02:28:45.907-08:00",
+      "resolved_at": "2026-03-03T06:59:42.838-08:00",
+      "updated_at": "2026-03-03T06:59:42.855-08:00",
+      "shortlink": "https://stspg.io/6mhkdwqs7dvs",
+      "service": "Twilio"
     },
     {
       "id": "ktlmc2pqh6k7",
@@ -213,28 +213,6 @@
       "updated_at": "2026-03-02T16:11:05.944-08:00",
       "shortlink": "https://stspg.io/frqxxljwtd7n",
       "service": "Twilio"
-    },
-    {
-      "id": "nt2llc4k0p41",
-      "name": "Elevated deployment and function invocations failures",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T06:06:28.000Z",
-      "resolved_at": "2026-03-02T15:20:31.134Z",
-      "updated_at": "2026-03-02T15:20:31.151Z",
-      "shortlink": "https://stspg.io/2dfvhs9ymqym",
-      "service": "Vercel"
-    },
-    {
-      "id": "d6yvhvqy3b2f",
-      "name": "Unable to view logs in Durable Objects dashboard",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T11:58:43.027Z",
-      "resolved_at": "2026-03-02T15:14:12.934Z",
-      "updated_at": "2026-03-02T15:14:12.953Z",
-      "shortlink": "https://stspg.io/k1zfrt82mfkh",
-      "service": "Cloudflare"
     },
     {
       "id": "c8hbcy3nf5cc",
