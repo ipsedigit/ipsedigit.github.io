@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 15:51:03 UTC",
-  "active_count": 3,
-  "resolved_count": 19,
+  "generated_at": "2026-03-03 16:54:11 UTC",
+  "active_count": 4,
+  "resolved_count": 18,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -24,6 +24,17 @@
       "updated_at": "2026-03-02T19:58:09.520Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
+    },
+    {
+      "id": "7msnpn3f09fm",
+      "name": "Cloudflare Zero Trust: Gateway Issues",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-03T16:44:40.665Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T16:44:40.756Z",
+      "shortlink": "https://stspg.io/9yzq749vl4jx",
+      "service": "Cloudflare"
     },
     {
       "id": "xmgq69x4brfk",
@@ -191,17 +202,6 @@
       "updated_at": "2026-03-02T17:05:32.863-08:00",
       "shortlink": "https://stspg.io/cx5dfs9tyg9y",
       "service": "SendGrid"
-    },
-    {
-      "id": "sx5zh206myxg",
-      "name": "MongoDB Atlas: Email notifications may be failing",
-      "status": "resolved",
-      "impact": "major",
-      "started_at": "2026-03-02T15:50:09.328Z",
-      "resolved_at": "2026-03-02T16:28:53.503Z",
-      "updated_at": "2026-03-02T16:28:53.518Z",
-      "shortlink": "https://stspg.io/3fx0hpw59xhw",
-      "service": "MongoDB Atlas"
     },
     {
       "id": "t8qtfkxmvl6d",
