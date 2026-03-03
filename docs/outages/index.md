@@ -6,10 +6,22 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 5 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 6 active incidents</strong>
 </div>
 
 ## Active Incidents
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>GitHub</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/9dmdz253g6n1" target="_blank" rel="noopener" style="color:#111;">Incident with Copilot and Actions</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 03, 18:59 UTC &nbsp;·&nbsp; Updated: Mar 03, 19:36 UTC
+  </div>
+</div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
@@ -39,11 +51,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Vercel</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/5nl125t7byw4" target="_blank" rel="noopener" style="color:#111;">Delays Loading Observability, Usage, Analytics, and Speed Insights Data</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 17:10 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:50 UTC
+    Started: Mar 03, 17:10 UTC &nbsp;·&nbsp; Updated: Mar 03, 19:14 UTC
   </div>
 </div>
 
@@ -63,11 +75,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Supabase</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#6b7280; color:#fff;">NONE</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 03, 14:42 UTC
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 03, 19:12 UTC
   </div>
 </div>
 
@@ -201,14 +213,6 @@ permalink: /outages/
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">SendGrid</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 11:06 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Customers in Argentina Unable to Authenticate Card in Twilio SendGrid</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 18:56:19 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 19:42:42 UTC</p>

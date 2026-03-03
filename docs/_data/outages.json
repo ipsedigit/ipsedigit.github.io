@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-03-03 18:56:19 UTC",
-  "active_count": 5,
-  "resolved_count": 17,
+  "generated_at": "2026-03-03 19:42:42 UTC",
+  "active_count": 6,
+  "resolved_count": 16,
   "active": [
+    {
+      "id": "n07yy1bk6kc4",
+      "name": "Incident with Copilot and Actions",
+      "status": "investigating",
+      "impact": "major",
+      "started_at": "2026-03-03T18:59:49.439Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T19:36:42.007Z",
+      "shortlink": "https://stspg.io/9dmdz253g6n1",
+      "service": "GitHub"
+    },
     {
       "id": "20v5r3njkcwc",
       "name": "Dubai region (dxb1) is unavailable and traffic is being re-routed",
@@ -28,11 +39,11 @@
     {
       "id": "80qvc1mrnr8f",
       "name": "Delays Loading Observability, Usage, Analytics, and Speed Insights Data",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
-      "started_at": "2026-03-03T17:10:19.134Z",
+      "started_at": "2026-03-03T17:10:19.000Z",
       "resolved_at": null,
-      "updated_at": "2026-03-03T17:50:37.676Z",
+      "updated_at": "2026-03-03T19:14:59.120Z",
       "shortlink": "https://stspg.io/5nl125t7byw4",
       "service": "Vercel"
     },
@@ -50,11 +61,11 @@
     {
       "id": "xmgq69x4brfk",
       "name": "Users Experiencing Network Connectivity Problems (India Region)",
-      "status": "identified",
+      "status": "monitoring",
       "impact": "none",
       "started_at": "2026-02-24T14:46:17.352Z",
       "resolved_at": null,
-      "updated_at": "2026-03-03T14:42:06.131Z",
+      "updated_at": "2026-03-03T19:12:47.928Z",
       "shortlink": "https://stspg.io/kcpw1yj9wqzh",
       "service": "Supabase"
     }
@@ -235,17 +246,6 @@
       "updated_at": "2026-03-02T13:57:48.550-08:00",
       "shortlink": "https://stspg.io/yv0kd9bkhy3x",
       "service": "Twilio"
-    },
-    {
-      "id": "wzny4cj4jd7d",
-      "name": "Customers in Argentina Unable to Authenticate Card in Twilio SendGrid",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-02-27T08:49:28.583-08:00",
-      "resolved_at": "2026-03-02T11:06:00.288-08:00",
-      "updated_at": "2026-03-02T11:06:00.304-08:00",
-      "shortlink": "https://stspg.io/7mncr84x75hw",
-      "service": "SendGrid"
     }
   ]
 }
