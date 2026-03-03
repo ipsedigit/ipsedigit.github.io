@@ -31,19 +31,19 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 02, 19:58 UTC
+    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:20 UTC
   </div>
 </div>
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Cloudflare</strong>
+    <strong>Vercel</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/9yzq749vl4jx" target="_blank" rel="noopener" style="color:#111;">Cloudflare Zero Trust: Gateway Issues</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/5nl125t7byw4" target="_blank" rel="noopener" style="color:#111;">Delays Loading Observability, Analytics, and Speed Insights Data</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 16:44 UTC &nbsp;·&nbsp; Updated: Mar 03, 16:44 UTC
+    Started: Mar 03, 17:10 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:10 UTC
   </div>
 </div>
 
@@ -60,6 +60,14 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 17:34 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Cloudflare Zero Trust: Gateway Issues</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -207,4 +215,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 16:54:11 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 17:47:09 UTC</p>

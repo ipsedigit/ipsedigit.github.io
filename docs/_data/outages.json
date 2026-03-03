@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 16:54:11 UTC",
+  "generated_at": "2026-03-03 17:47:09 UTC",
   "active_count": 4,
-  "resolved_count": 18,
+  "resolved_count": 19,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -21,20 +21,20 @@
       "impact": "major",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T19:58:09.520Z",
+      "updated_at": "2026-03-03T17:20:01.260Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
     },
     {
-      "id": "7msnpn3f09fm",
-      "name": "Cloudflare Zero Trust: Gateway Issues",
+      "id": "80qvc1mrnr8f",
+      "name": "Delays Loading Observability, Analytics, and Speed Insights Data",
       "status": "investigating",
       "impact": "minor",
-      "started_at": "2026-03-03T16:44:40.665Z",
+      "started_at": "2026-03-03T17:10:19.134Z",
       "resolved_at": null,
-      "updated_at": "2026-03-03T16:44:40.756Z",
-      "shortlink": "https://stspg.io/9yzq749vl4jx",
-      "service": "Cloudflare"
+      "updated_at": "2026-03-03T17:10:19.252Z",
+      "shortlink": "https://stspg.io/5nl125t7byw4",
+      "service": "Vercel"
     },
     {
       "id": "xmgq69x4brfk",
@@ -49,6 +49,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "7msnpn3f09fm",
+      "name": "Cloudflare Zero Trust: Gateway Issues",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T16:44:40.665Z",
+      "resolved_at": "2026-03-03T17:34:29.365Z",
+      "updated_at": "2026-03-03T17:34:29.383Z",
+      "shortlink": "https://stspg.io/9yzq749vl4jx",
+      "service": "Cloudflare"
+    },
     {
       "id": "g8hkdx298xsr",
       "name": "Performance degradation in Paris, France",
