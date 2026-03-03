@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02 20:41:18 UTC",
-  "active_count": 8,
-  "resolved_count": 14,
+  "generated_at": "2026-03-03 13:04:55 UTC",
+  "active_count": 4,
+  "resolved_count": 20,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -26,59 +26,15 @@
       "service": "MongoDB Atlas"
     },
     {
-      "id": "vhpmx9vc93m0",
-      "name": "Incident with Pull Requests /pulls",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-03-02T19:11:22.749Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-02T20:02:29.782Z",
-      "shortlink": "https://stspg.io/z2ppmbl0njn0",
-      "service": "GitHub"
-    },
-    {
-      "id": "b3ct7v13wz6l",
-      "name": "SMS Delivery Delays from Twilio to Rakuten Japan",
+      "id": "kwm5c0c03hxx",
+      "name": "SMS Delivery Delays From Twilio to Tune Talk Malaysia",
       "status": "monitoring",
       "impact": "minor",
-      "started_at": "2026-03-02T08:27:50.309-08:00",
+      "started_at": "2026-03-03T02:28:45.907-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-02T11:58:55.753-08:00",
-      "shortlink": "https://stspg.io/yv0kd9bkhy3x",
+      "updated_at": "2026-03-03T03:17:21.115-08:00",
+      "shortlink": "https://stspg.io/6mhkdwqs7dvs",
       "service": "Twilio"
-    },
-    {
-      "id": "8xtj4sg11bdd",
-      "name": "SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-03-02T05:58:58.986-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-02T09:00:14.915-08:00",
-      "shortlink": "https://stspg.io/7tc348mgkc4j",
-      "service": "Twilio"
-    },
-    {
-      "id": "c8hbcy3nf5cc",
-      "name": "SMS Delivery Delays from Twilio to Access Malawi",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-03-01T20:25:55.300-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-02T12:04:31.724-08:00",
-      "shortlink": "https://stspg.io/dzp0km1ndkdf",
-      "service": "Twilio"
-    },
-    {
-      "id": "k04743v35s5k",
-      "name": "Ingestion delays in US and EU regions",
-      "status": "monitoring",
-      "impact": "none",
-      "started_at": "2026-03-02T19:57:50.501Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-02T20:29:22.063Z",
-      "shortlink": "https://stspg.io/pff838sg68w4",
-      "service": "Sentry"
     },
     {
       "id": "xmgq69x4brfk",
@@ -93,6 +49,94 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "g8hkdx298xsr",
+      "name": "Performance degradation in Paris, France",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T09:17:03.795Z",
+      "resolved_at": "2026-03-03T10:46:33.454Z",
+      "updated_at": "2026-03-03T10:46:33.468Z",
+      "shortlink": "https://stspg.io/sjxbl3dw4pzz",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "ktlmc2pqh6k7",
+      "name": "Database issues in us-east-2",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T02:10:36.205Z",
+      "resolved_at": "2026-03-03T06:31:05.147Z",
+      "updated_at": "2026-03-03T06:31:05.162Z",
+      "shortlink": "https://stspg.io/07b1m5ykt36p",
+      "service": "Supabase"
+    },
+    {
+      "id": "0yjbtp1d2cpc",
+      "name": "Delayed visibility of newly added issues on project boards",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-02T23:10:28.140Z",
+      "resolved_at": "2026-03-03T05:54:17.975Z",
+      "updated_at": "2026-03-03T05:54:17.993Z",
+      "shortlink": "https://stspg.io/9ynj2pcf723l",
+      "service": "GitHub"
+    },
+    {
+      "id": "skkbqw7qchyz",
+      "name": "Delayed Builds on Free Accounts",
+      "status": "resolved",
+      "impact": "major",
+      "started_at": "2026-03-03T00:51:09.003Z",
+      "resolved_at": "2026-03-03T01:25:22.974Z",
+      "updated_at": "2026-03-03T01:25:22.990Z",
+      "shortlink": "https://stspg.io/blpcm210yd8d",
+      "service": "Netlify"
+    },
+    {
+      "id": "vhpmx9vc93m0",
+      "name": "Incident with Pull Requests /pulls",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-02T19:11:22.749Z",
+      "resolved_at": "2026-03-02T22:04:27.487Z",
+      "updated_at": "2026-03-02T22:04:27.502Z",
+      "shortlink": "https://stspg.io/z2ppmbl0njn0",
+      "service": "GitHub"
+    },
+    {
+      "id": "wqczl3kbdkbh",
+      "name": "MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-02T13:02:50.865-08:00",
+      "resolved_at": "2026-03-02T21:55:22.109-08:00",
+      "updated_at": "2026-03-02T21:55:22.126-08:00",
+      "shortlink": "https://stspg.io/s1581jf605lw",
+      "service": "Twilio"
+    },
+    {
+      "id": "8vw91kg0nx5h",
+      "name": "Workers and Pages builds, Pages API unavailable",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-02T20:45:38.000Z",
+      "resolved_at": "2026-03-02T21:48:23.350Z",
+      "updated_at": "2026-03-02T21:48:23.366Z",
+      "shortlink": "https://stspg.io/pj853pjpk84f",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "k04743v35s5k",
+      "name": "Ingestion delays in US and EU regions",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-02T19:57:50.501Z",
+      "resolved_at": "2026-03-02T21:09:45.705Z",
+      "updated_at": "2026-03-02T21:09:45.723Z",
+      "shortlink": "https://stspg.io/pff838sg68w4",
+      "service": "Sentry"
+    },
     {
       "id": "lg8x09p2d2n3",
       "name": "docker not working in cimg:*",
@@ -116,6 +160,39 @@
       "service": "Cloudflare"
     },
     {
+      "id": "8xtj4sg11bdd",
+      "name": "SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-02T05:58:58.986-08:00",
+      "resolved_at": "2026-03-02T17:23:14.990-08:00",
+      "updated_at": "2026-03-02T17:23:15.007-08:00",
+      "shortlink": "https://stspg.io/7tc348mgkc4j",
+      "service": "Twilio"
+    },
+    {
+      "id": "3w2lh937yyct",
+      "name": "Delay in Events being sent to Global Stats",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-02T17:17:42.892-08:00",
+      "resolved_at": "2026-03-02T17:17:42.936-08:00",
+      "updated_at": "2026-03-02T17:17:42.945-08:00",
+      "shortlink": "https://stspg.io/khqpl2lqzl4f",
+      "service": "SendGrid"
+    },
+    {
+      "id": "1xnrz77h9995",
+      "name": "Mail delivery delays",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-02T17:05:32.803-08:00",
+      "resolved_at": "2026-03-02T17:05:32.853-08:00",
+      "updated_at": "2026-03-02T17:05:32.863-08:00",
+      "shortlink": "https://stspg.io/cx5dfs9tyg9y",
+      "service": "SendGrid"
+    },
+    {
       "id": "sx5zh206myxg",
       "name": "MongoDB Atlas: Email notifications may be failing",
       "status": "resolved",
@@ -125,6 +202,17 @@
       "updated_at": "2026-03-02T16:28:53.518Z",
       "shortlink": "https://stspg.io/3fx0hpw59xhw",
       "service": "MongoDB Atlas"
+    },
+    {
+      "id": "t8qtfkxmvl6d",
+      "name": "Event Streams Facing Delivery Delays",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-02T14:23:49.000-08:00",
+      "resolved_at": "2026-03-02T16:11:05.926-08:00",
+      "updated_at": "2026-03-02T16:11:05.944-08:00",
+      "shortlink": "https://stspg.io/frqxxljwtd7n",
+      "service": "Twilio"
     },
     {
       "id": "nt2llc4k0p41",
@@ -149,26 +237,26 @@
       "service": "Cloudflare"
     },
     {
-      "id": "2t6m4wzx4snp",
-      "name": "Challenge Pages issues with HTTP connections",
+      "id": "c8hbcy3nf5cc",
+      "name": "SMS Delivery Delays from Twilio to Access Malawi",
       "status": "resolved",
       "impact": "minor",
-      "started_at": "2026-03-02T10:34:24.277Z",
-      "resolved_at": "2026-03-02T12:24:09.363Z",
-      "updated_at": "2026-03-02T12:24:09.380Z",
-      "shortlink": "https://stspg.io/z1hntzs8n4l2",
-      "service": "Cloudflare"
+      "started_at": "2026-03-01T20:25:55.300-08:00",
+      "resolved_at": "2026-03-02T14:05:23.024-08:00",
+      "updated_at": "2026-03-02T14:05:23.039-08:00",
+      "shortlink": "https://stspg.io/dzp0km1ndkdf",
+      "service": "Twilio"
     },
     {
-      "id": "0gvst51d9c21",
-      "name": "Degraded Logs and Traces in Dubai region (dxb1)",
+      "id": "b3ct7v13wz6l",
+      "name": "SMS Delivery Delays from Twilio to Rakuten Japan",
       "status": "resolved",
       "impact": "minor",
-      "started_at": "2026-03-02T06:54:02.765Z",
-      "resolved_at": "2026-03-02T12:08:39.190Z",
-      "updated_at": "2026-03-02T12:08:39.204Z",
-      "shortlink": "https://stspg.io/09mvq05fl5lb",
-      "service": "Vercel"
+      "started_at": "2026-03-02T08:27:50.309-08:00",
+      "resolved_at": "2026-03-02T13:57:48.535-08:00",
+      "updated_at": "2026-03-02T13:57:48.550-08:00",
+      "shortlink": "https://stspg.io/yv0kd9bkhy3x",
+      "service": "Twilio"
     },
     {
       "id": "wzny4cj4jd7d",
@@ -180,72 +268,6 @@
       "updated_at": "2026-03-02T11:06:00.304-08:00",
       "shortlink": "https://stspg.io/7mncr84x75hw",
       "service": "SendGrid"
-    },
-    {
-      "id": "391rky29892m",
-      "name": "Newark (EWR) Datacenter Increase in HTTP Request latency",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-02-16T10:19:45.000Z",
-      "resolved_at": "2026-03-02T09:15:57.129Z",
-      "updated_at": "2026-03-02T09:15:57.152Z",
-      "shortlink": "https://stspg.io/fdpjyjw6gt0f",
-      "service": "Cloudflare"
-    },
-    {
-      "id": "yw96wbq7mtz1",
-      "name": "MongoDB App Services: Connectivity issues",
-      "status": "resolved",
-      "impact": "major",
-      "started_at": "2026-02-28T19:53:36.768Z",
-      "resolved_at": "2026-03-02T03:05:05.384Z",
-      "updated_at": "2026-03-02T03:05:05.399Z",
-      "shortlink": "https://stspg.io/dxd0y34wps83",
-      "service": "MongoDB Atlas"
-    },
-    {
-      "id": "rw896k7wm3nf",
-      "name": "Deployments are failing for customers using Static IPs in Dubai region (dxb1)",
-      "status": "resolved",
-      "impact": "major",
-      "started_at": "2026-03-01T21:17:54.470Z",
-      "resolved_at": "2026-03-02T00:22:31.935Z",
-      "updated_at": "2026-03-02T00:22:31.957Z",
-      "shortlink": "https://stspg.io/00p520t0xnfv",
-      "service": "Vercel"
-    },
-    {
-      "id": "bkmy080x1lx6",
-      "name": "SMS Delivery Delays from Twilio to Lycamobile United Kingdom",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-01T19:54:08.067-08:00",
-      "resolved_at": "2026-03-01T22:27:43.091-08:00",
-      "updated_at": "2026-03-01T22:27:43.108-08:00",
-      "shortlink": "https://stspg.io/ws9n4h1b35vj",
-      "service": "Twilio"
-    },
-    {
-      "id": "jl73k6w9tqdj",
-      "name": "SMS Delivery Failures From Twilio to MTS Kazakhstan",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-01T08:11:45.000-08:00",
-      "resolved_at": "2026-03-01T21:16:56.208-08:00",
-      "updated_at": "2026-03-01T21:16:56.225-08:00",
-      "shortlink": "https://stspg.io/4n650b83qtxv",
-      "service": "Twilio"
-    },
-    {
-      "id": "66jfhsgwqyfs",
-      "name": "MMS Delivery Delays From Twilio to Altice United States",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-01T11:43:44.390-08:00",
-      "resolved_at": "2026-03-01T20:20:35.577-08:00",
-      "updated_at": "2026-03-01T20:20:35.596-08:00",
-      "shortlink": "https://stspg.io/dbk0dvty64w8",
-      "service": "Twilio"
     }
   ]
 }
