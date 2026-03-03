@@ -98,7 +98,7 @@ def publish_news(target_niche=None):
     If target_niche is given, falls back to single-niche mode (legacy workflow compat).
     Otherwise, uses full two-pass selection across all niches.
     """
-    update_devs_articles_data()
+
     if target_niche:
         _publish_single_niche(target_niche)
         return
