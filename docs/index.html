@@ -24,13 +24,64 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
-.post-title a { 
-  color: #111; 
-  text-decoration: none; 
+.post-title a {
+  color: #111;
+  text-decoration: none;
 }
-.post-title a:hover { 
-  color: #0066cc; 
+.post-title a:hover {
+  color: #0066cc;
+}
+
+/* Featured / Latest post */
+.post-featured {
+  margin-bottom: 2em;
+  padding: 1.25em;
+  border: 1px solid #e5e5e5;
+  border-left: 3px solid #111;
+  border-radius: 6px;
+  background: #fff;
+}
+.post-featured-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 0.6em;
+}
+.badge-latest {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.78em;
+  font-weight: bold;
+  background: #111;
+  color: #fff;
+}
+.post-featured-meta-text {
+  font-size: 0.78em;
+  color: #6b7280;
+}
+.post-featured-title {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.post-featured-title a {
+  color: #111;
+  text-decoration: none;
+}
+.post-featured-title a:hover {
+  color: #0066cc;
+}
+.post-featured-desc {
+  margin: 0;
+  font-size: 0.88em;
+  color: #374151;
+  line-height: 1.5;
 }
 
 .post-meta {
@@ -143,10 +194,10 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
 
 {% assign featured = paginator.posts | first %}
 {% if featured %}
-<div style="margin-bottom:2em; padding:1.25em; border:2px solid #0284c7; border-radius:8px; background:#f0f9ff;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.6em;">
-    <span style="padding:3px 10px; border-radius:12px; font-size:0.78em; font-weight:bold; background:#0284c7; color:#fff;">&#9733; Latest</span>
-    <span style="font-size:0.78em; color:#6b7280;">
+<div class="post-featured">
+  <div class="post-featured-meta">
+    <span class="badge-latest">&#9733; Latest</span>
+    <span class="post-featured-meta-text">
       {% if featured.source %}{{ featured.source }} &middot; {% endif %}
       {{ featured.date | date: "%b %d, %Y" }}
       {% if featured.niche_category %}
@@ -154,15 +205,15 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
       {% endif %}
     </span>
   </div>
-  <div style="font-weight:700; font-size:1.1em; margin-bottom:0.4em;">
+  <div class="post-featured-title">
     {% if featured.external_url %}
-    <a href="{{ featured.external_url }}" target="_blank" rel="noopener" style="color:#0284c7; text-decoration:none;">{{ featured.title }}</a>
+    <a href="{{ featured.external_url }}" target="_blank" rel="noopener">{{ featured.title }}</a>
     {% else %}
-    <a href="{{ featured.url | relative_url }}" style="color:#0284c7; text-decoration:none;">{{ featured.title }}</a>
+    <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
     {% endif %}
   </div>
   {% if featured.description %}
-  <p style="margin:0; font-size:0.88em; color:#374151; line-height:1.5;">{{ featured.description | truncate: 200 }}</p>
+  <p class="post-featured-desc">{{ featured.description | truncate: 200 }}</p>
   {% endif %}
 </div>
 {% endif %}
