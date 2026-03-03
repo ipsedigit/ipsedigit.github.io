@@ -13,18 +13,6 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>GitHub</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/9dmdz253g6n1" target="_blank" rel="noopener" style="color:#111;">Incident with Copilot and Actions</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 18:59 UTC &nbsp;·&nbsp; Updated: Mar 03, 19:36 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #dc2626; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Vercel</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#dc2626; color:#fff;">MAJOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
@@ -49,6 +37,18 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>GitHub</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/lktk63ssmfwx" target="_blank" rel="noopener" style="color:#111;">Claude Opus 4.6 Fast not appearing for some Copilot users</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 03, 20:31 UTC &nbsp;·&nbsp; Updated: Mar 03, 20:31 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Vercel</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
@@ -67,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/q0cv4kmpxk42" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to Datora Brazil</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 03, 10:45 UTC
+    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 03, 11:45 UTC
   </div>
 </div>
 
@@ -84,6 +84,14 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">GitHub</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 20:09 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Incident with Copilot and Actions</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -215,4 +223,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 19:42:42 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 20:36:50 UTC</p>

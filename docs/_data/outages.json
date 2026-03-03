@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-03-03 19:42:42 UTC",
+  "generated_at": "2026-03-03 20:36:50 UTC",
   "active_count": 6,
-  "resolved_count": 16,
+  "resolved_count": 17,
   "active": [
-    {
-      "id": "n07yy1bk6kc4",
-      "name": "Incident with Copilot and Actions",
-      "status": "investigating",
-      "impact": "major",
-      "started_at": "2026-03-03T18:59:49.439Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T19:36:42.007Z",
-      "shortlink": "https://stspg.io/9dmdz253g6n1",
-      "service": "GitHub"
-    },
     {
       "id": "20v5r3njkcwc",
       "name": "Dubai region (dxb1) is unavailable and traffic is being re-routed",
@@ -37,6 +26,17 @@
       "service": "MongoDB Atlas"
     },
     {
+      "id": "nglcmhr2kfb0",
+      "name": "Claude Opus 4.6 Fast not appearing for some Copilot users",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-03T20:31:39.439Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T20:31:39.513Z",
+      "shortlink": "https://stspg.io/lktk63ssmfwx",
+      "service": "GitHub"
+    },
+    {
       "id": "80qvc1mrnr8f",
       "name": "Delays Loading Observability, Usage, Analytics, and Speed Insights Data",
       "status": "monitoring",
@@ -54,7 +54,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T10:19:05.490-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T10:45:10.098-08:00",
+      "updated_at": "2026-03-03T11:45:08.974-08:00",
       "shortlink": "https://stspg.io/q0cv4kmpxk42",
       "service": "Twilio"
     },
@@ -71,6 +71,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "n07yy1bk6kc4",
+      "name": "Incident with Copilot and Actions",
+      "status": "resolved",
+      "impact": "major",
+      "started_at": "2026-03-03T18:59:49.439Z",
+      "resolved_at": "2026-03-03T20:09:16.863Z",
+      "updated_at": "2026-03-03T20:09:16.880Z",
+      "shortlink": "https://stspg.io/9dmdz253g6n1",
+      "service": "GitHub"
+    },
     {
       "id": "7msnpn3f09fm",
       "name": "Cloudflare Zero Trust: Gateway Issues",
