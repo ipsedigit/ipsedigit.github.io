@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 21:37:15 UTC",
-  "active_count": 4,
-  "resolved_count": 19,
+  "generated_at": "2026-03-03 22:33:09 UTC",
+  "active_count": 7,
+  "resolved_count": 15,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -26,13 +26,46 @@
       "service": "MongoDB Atlas"
     },
     {
+      "id": "t2skq2t69g5s",
+      "name": "WAF Challenge requests incorrectly forwarded to origin",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-03T22:15:50.566Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T22:15:50.665Z",
+      "shortlink": "https://stspg.io/nbq74p9xl42b",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "8r12r4423z47",
+      "name": "RCS Sender Registration Errors via Google and Supported Countries",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-03T14:25:13.699-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T14:31:20.991-08:00",
+      "shortlink": "https://stspg.io/196t6jllr1zp",
+      "service": "Twilio"
+    },
+    {
+      "id": "s6jfpzj5zys1",
+      "name": "MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-03T14:17:55.474-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T14:17:55.582-08:00",
+      "shortlink": "https://stspg.io/cq06414s1nxz",
+      "service": "Twilio"
+    },
+    {
       "id": "9pzmp5kgwhj6",
       "name": "SMS Delivery Failures from Twilio to Datora Brazil",
       "status": "identified",
       "impact": "minor",
       "started_at": "2026-03-03T10:19:05.490-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T11:45:08.974-08:00",
+      "updated_at": "2026-03-03T13:43:18.229-08:00",
       "shortlink": "https://stspg.io/q0cv4kmpxk42",
       "service": "Twilio"
     },
@@ -160,17 +193,6 @@
       "service": "Netlify"
     },
     {
-      "id": "vhpmx9vc93m0",
-      "name": "Incident with Pull Requests /pulls",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T19:11:22.749Z",
-      "resolved_at": "2026-03-02T22:04:27.487Z",
-      "updated_at": "2026-03-02T22:04:27.502Z",
-      "shortlink": "https://stspg.io/z2ppmbl0njn0",
-      "service": "GitHub"
-    },
-    {
       "id": "wqczl3kbdkbh",
       "name": "MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States",
       "status": "resolved",
@@ -180,17 +202,6 @@
       "updated_at": "2026-03-02T21:55:22.126-08:00",
       "shortlink": "https://stspg.io/s1581jf605lw",
       "service": "Twilio"
-    },
-    {
-      "id": "8vw91kg0nx5h",
-      "name": "Workers and Pages builds, Pages API unavailable",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T20:45:38.000Z",
-      "resolved_at": "2026-03-02T21:48:23.350Z",
-      "updated_at": "2026-03-02T21:48:23.366Z",
-      "shortlink": "https://stspg.io/pj853pjpk84f",
-      "service": "Cloudflare"
     },
     {
       "id": "8xtj4sg11bdd",
@@ -234,28 +245,6 @@
       "resolved_at": "2026-03-02T16:11:05.926-08:00",
       "updated_at": "2026-03-02T16:11:05.944-08:00",
       "shortlink": "https://stspg.io/frqxxljwtd7n",
-      "service": "Twilio"
-    },
-    {
-      "id": "c8hbcy3nf5cc",
-      "name": "SMS Delivery Delays from Twilio to Access Malawi",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-01T20:25:55.300-08:00",
-      "resolved_at": "2026-03-02T14:05:23.024-08:00",
-      "updated_at": "2026-03-02T14:05:23.039-08:00",
-      "shortlink": "https://stspg.io/dzp0km1ndkdf",
-      "service": "Twilio"
-    },
-    {
-      "id": "b3ct7v13wz6l",
-      "name": "SMS Delivery Delays from Twilio to Rakuten Japan",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T08:27:50.309-08:00",
-      "resolved_at": "2026-03-02T13:57:48.535-08:00",
-      "updated_at": "2026-03-02T13:57:48.550-08:00",
-      "shortlink": "https://stspg.io/yv0kd9bkhy3x",
       "service": "Twilio"
     }
   ]
