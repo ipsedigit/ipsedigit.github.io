@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03 13:04:55 UTC",
+  "generated_at": "2026-03-03 14:47:28 UTC",
   "active_count": 4,
   "resolved_count": 20,
   "active": [
@@ -32,7 +32,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T02:28:45.907-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T03:17:21.115-08:00",
+      "updated_at": "2026-03-03T05:10:26.994-08:00",
       "shortlink": "https://stspg.io/6mhkdwqs7dvs",
       "service": "Twilio"
     },
@@ -43,7 +43,7 @@
       "impact": "none",
       "started_at": "2026-02-24T14:46:17.352Z",
       "resolved_at": null,
-      "updated_at": "2026-03-02T17:03:54.244Z",
+      "updated_at": "2026-03-03T14:42:06.131Z",
       "shortlink": "https://stspg.io/kcpw1yj9wqzh",
       "service": "Supabase"
     }

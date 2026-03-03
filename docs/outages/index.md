@@ -43,7 +43,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/6mhkdwqs7dvs" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays From Twilio to Tune Talk Malaysia</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 02:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 03:17 UTC
+    Started: Mar 03, 02:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 05:10 UTC
   </div>
 </div>
 
@@ -55,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kcpw1yj9wqzh" target="_blank" rel="noopener" style="color:#111;">Users Experiencing Network Connectivity Problems (India Region)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 02, 17:03 UTC
+    Started: Feb 24, 14:46 UTC &nbsp;·&nbsp; Updated: Mar 03, 14:42 UTC
   </div>
 </div>
 
@@ -223,4 +223,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 13:04:55 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 14:47:28 UTC</p>
