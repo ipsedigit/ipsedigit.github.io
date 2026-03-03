@@ -62,3 +62,6 @@
 2026-03-01:cloud:cloud:community
 2026-03-02:cloud:kubernetes:breaking
 2026-03-02:cloud:gcp-azure:community
+2026-03-03:security:security:breaking
+2026-03-03:security:vulnerability:breaking
+2026-03-03:cloud:cloud:community

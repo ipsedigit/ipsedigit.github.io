@@ -183,3 +183,6 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-160-why-its-so-dramatic
 https://blog.jessfraz.com/post/installing-and-using-wireguard/
 https://kubernetes.io/blog/2025/12/22/kubernetes-v1-35-kubelet-config-drop-in-directory-ga/
 https://blog.jessfraz.com/post/building-container-images-securely-on-kubernetes/
+https://blog.cloudflare.com/remediation-in-cloudflare-casb/
+https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html
+https://blog.jessfraz.com/post/containers-zones-jails-vms/
