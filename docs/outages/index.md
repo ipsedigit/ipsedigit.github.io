@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 7 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -31,7 +31,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mg7m971rdhw8" target="_blank" rel="noopener" style="color:#111;">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:20 UTC
+    Started: Mar 01, 13:48 UTC &nbsp;·&nbsp; Updated: Mar 03, 22:54 UTC
   </div>
 </div>
 
@@ -53,9 +53,21 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/196t6jllr1zp" target="_blank" rel="noopener" style="color:#111;">RCS Sender Registration Errors via Google and Supported Countries</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mnlbzyhgfd93" target="_blank" rel="noopener" style="color:#111;">Delay in Transcription Completion Resulting from PrivateAI Timeouts</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 14:25 UTC &nbsp;·&nbsp; Updated: Mar 03, 14:31 UTC
+    Started: Mar 03, 15:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 15:28 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+  </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/196t6jllr1zp" target="_blank" rel="noopener" style="color:#111;">RCS Compliance Registration Onboarding is failing to load in Console</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 03, 14:25 UTC &nbsp;·&nbsp; Updated: Mar 03, 15:14 UTC
   </div>
 </div>
 
@@ -67,7 +79,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/cq06414s1nxz" target="_blank" rel="noopener" style="color:#111;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 14:17 UTC
+    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 15:19 UTC
   </div>
 </div>
 
@@ -219,4 +231,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 22:33:09 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 23:31:22 UTC</p>

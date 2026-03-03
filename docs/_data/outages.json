@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-03 22:33:09 UTC",
-  "active_count": 7,
+  "generated_at": "2026-03-03 23:31:22 UTC",
+  "active_count": 8,
   "resolved_count": 15,
   "active": [
     {
@@ -21,7 +21,7 @@
       "impact": "major",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-03T17:20:01.260Z",
+      "updated_at": "2026-03-03T22:54:43.432Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
     },
@@ -37,13 +37,24 @@
       "service": "Cloudflare"
     },
     {
+      "id": "30zcpdh7m5ts",
+      "name": "Delay in Transcription Completion Resulting from PrivateAI Timeouts",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-03T15:28:00.697-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-03T15:28:00.829-08:00",
+      "shortlink": "https://stspg.io/mnlbzyhgfd93",
+      "service": "Twilio"
+    },
+    {
       "id": "8r12r4423z47",
-      "name": "RCS Sender Registration Errors via Google and Supported Countries",
+      "name": "RCS Compliance Registration Onboarding is failing to load in Console",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-03-03T14:25:13.699-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T14:31:20.991-08:00",
+      "updated_at": "2026-03-03T15:14:58.331-08:00",
       "shortlink": "https://stspg.io/196t6jllr1zp",
       "service": "Twilio"
     },
@@ -54,7 +65,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T14:17:55.474-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T14:17:55.582-08:00",
+      "updated_at": "2026-03-03T15:19:58.889-08:00",
       "shortlink": "https://stspg.io/cq06414s1nxz",
       "service": "Twilio"
     },
@@ -100,7 +111,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T20:31:39.439Z",
       "resolved_at": "2026-03-03T21:11:30.921Z",
-      "updated_at": "2026-03-03T21:11:30.942Z",
+      "updated_at": "2026-03-03T23:03:29.889Z",
       "shortlink": "https://stspg.io/lktk63ssmfwx",
       "service": "GitHub"
     },
