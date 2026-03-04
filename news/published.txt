@@ -186,3 +186,6 @@ https://blog.jessfraz.com/post/building-container-images-securely-on-kubernetes/
 https://blog.cloudflare.com/remediation-in-cloudflare-casb/
 https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html
 https://blog.jessfraz.com/post/containers-zones-jails-vms/
+https://dev.to/brutalstrike2/codexui-npm-release-termux-bootstrap-readme-migrationscreenshots-attachmentsmarkdown-2dk6
+https://www.bleepingcomputer.com/news/security/microsoft-hackers-abuse-oauth-error-flows-to-spread-malware/
+https://thenewstack.io/how-webassembly-plugins-are-simplifying-kubernetes-extensibility/
