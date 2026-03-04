@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 6 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -37,37 +37,13 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Cloudflare</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/nbq74p9xl42b" target="_blank" rel="noopener" style="color:#111;">WAF Challenge requests incorrectly forwarded to origin</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 22:15 UTC &nbsp;·&nbsp; Updated: Mar 03, 22:15 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mnlbzyhgfd93" target="_blank" rel="noopener" style="color:#111;">Delay in Transcription Completion Resulting from PrivateAI Timeouts</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mnlbzyhgfd93" target="_blank" rel="noopener" style="color:#111;">Delays in Transcription Completion</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 15:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 15:28 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/196t6jllr1zp" target="_blank" rel="noopener" style="color:#111;">RCS Compliance Registration Onboarding is failing to load in Console</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 14:25 UTC &nbsp;·&nbsp; Updated: Mar 03, 15:14 UTC
+    Started: Mar 03, 15:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 18:15 UTC
   </div>
 </div>
 
@@ -79,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/cq06414s1nxz" target="_blank" rel="noopener" style="color:#111;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 15:19 UTC
+    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:13 UTC
   </div>
 </div>
 
@@ -91,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/q0cv4kmpxk42" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to Datora Brazil</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 03, 13:43 UTC
+    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:39 UTC
   </div>
 </div>
 
@@ -108,6 +84,14 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Cloudflare</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 23:42 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">WAF Challenge requests incorrectly forwarded to origin</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -151,6 +135,22 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 16:37 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Temporary Increase in 4xx Errors When Sending Messages</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 16:13 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">RCS Compliance Registration Onboarding is failing to load in Console</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 10:46 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Performance degradation in Paris, France</span>
@@ -183,52 +183,12 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Netlify</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 01:25 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Delayed Builds on Free Accounts</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 21:55 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</span>
   </div>
 </div>
 
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:23 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">SendGrid</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:17 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Delay in Events being sent to Global Stats</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">SendGrid</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 17:05 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Mail delivery delays</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Twilio</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 02, 16:11 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Event Streams Facing Delivery Delays</span>
-  </div>
-</div>
-
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-03 23:31:22 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 02:23:43 UTC</p>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03 23:31:22 UTC",
-  "active_count": 8,
-  "resolved_count": 15,
+  "generated_at": "2026-03-04 02:23:43 UTC",
+  "active_count": 6,
+  "resolved_count": 13,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -26,36 +26,14 @@
       "service": "MongoDB Atlas"
     },
     {
-      "id": "t2skq2t69g5s",
-      "name": "WAF Challenge requests incorrectly forwarded to origin",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-03-03T22:15:50.566Z",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T22:15:50.665Z",
-      "shortlink": "https://stspg.io/nbq74p9xl42b",
-      "service": "Cloudflare"
-    },
-    {
       "id": "30zcpdh7m5ts",
-      "name": "Delay in Transcription Completion Resulting from PrivateAI Timeouts",
+      "name": "Delays in Transcription Completion",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-03-03T15:28:00.697-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T15:28:00.829-08:00",
+      "updated_at": "2026-03-03T18:15:57.902-08:00",
       "shortlink": "https://stspg.io/mnlbzyhgfd93",
-      "service": "Twilio"
-    },
-    {
-      "id": "8r12r4423z47",
-      "name": "RCS Compliance Registration Onboarding is failing to load in Console",
-      "status": "investigating",
-      "impact": "minor",
-      "started_at": "2026-03-03T14:25:13.699-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T15:14:58.331-08:00",
-      "shortlink": "https://stspg.io/196t6jllr1zp",
       "service": "Twilio"
     },
     {
@@ -65,7 +43,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T14:17:55.474-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T15:19:58.889-08:00",
+      "updated_at": "2026-03-03T17:13:14.820-08:00",
       "shortlink": "https://stspg.io/cq06414s1nxz",
       "service": "Twilio"
     },
@@ -76,7 +54,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T10:19:05.490-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T13:43:18.229-08:00",
+      "updated_at": "2026-03-03T17:39:16.040-08:00",
       "shortlink": "https://stspg.io/q0cv4kmpxk42",
       "service": "Twilio"
     },
@@ -93,6 +71,17 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "t2skq2t69g5s",
+      "name": "WAF Challenge requests incorrectly forwarded to origin",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T22:15:50.566Z",
+      "resolved_at": "2026-03-03T23:42:13.539Z",
+      "updated_at": "2026-03-03T23:42:13.555Z",
+      "shortlink": "https://stspg.io/nbq74p9xl42b",
+      "service": "Cloudflare"
+    },
     {
       "id": "d16lvqqfbgl6",
       "name": "Pages builds unable to start",
@@ -149,6 +138,28 @@
       "service": "Cloudflare"
     },
     {
+      "id": "43xc3kydkg09",
+      "name": "Temporary Increase in 4xx Errors When Sending Messages",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-03T16:37:35.850-08:00",
+      "resolved_at": "2026-03-03T16:37:35.892-08:00",
+      "updated_at": "2026-03-03T16:37:35.901-08:00",
+      "shortlink": "https://stspg.io/crrmdfs139rw",
+      "service": "Twilio"
+    },
+    {
+      "id": "8r12r4423z47",
+      "name": "RCS Compliance Registration Onboarding is failing to load in Console",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T14:25:13.699-08:00",
+      "resolved_at": "2026-03-03T16:13:11.126-08:00",
+      "updated_at": "2026-03-03T16:13:11.143-08:00",
+      "shortlink": "https://stspg.io/196t6jllr1zp",
+      "service": "Twilio"
+    },
+    {
       "id": "g8hkdx298xsr",
       "name": "Performance degradation in Paris, France",
       "status": "resolved",
@@ -193,17 +204,6 @@
       "service": "GitHub"
     },
     {
-      "id": "skkbqw7qchyz",
-      "name": "Delayed Builds on Free Accounts",
-      "status": "resolved",
-      "impact": "major",
-      "started_at": "2026-03-03T00:51:09.003Z",
-      "resolved_at": "2026-03-03T01:25:22.974Z",
-      "updated_at": "2026-03-03T01:25:22.990Z",
-      "shortlink": "https://stspg.io/blpcm210yd8d",
-      "service": "Netlify"
-    },
-    {
       "id": "wqczl3kbdkbh",
       "name": "MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States",
       "status": "resolved",
@@ -212,50 +212,6 @@
       "resolved_at": "2026-03-02T21:55:22.109-08:00",
       "updated_at": "2026-03-02T21:55:22.126-08:00",
       "shortlink": "https://stspg.io/s1581jf605lw",
-      "service": "Twilio"
-    },
-    {
-      "id": "8xtj4sg11bdd",
-      "name": "SMS Delivery Delays and Failures From Twilio Alphanumeric Sender IDs to Multiple Networks in United Arab Emirates",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-02T05:58:58.986-08:00",
-      "resolved_at": "2026-03-02T17:23:14.990-08:00",
-      "updated_at": "2026-03-02T17:23:15.007-08:00",
-      "shortlink": "https://stspg.io/7tc348mgkc4j",
-      "service": "Twilio"
-    },
-    {
-      "id": "3w2lh937yyct",
-      "name": "Delay in Events being sent to Global Stats",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-03-02T17:17:42.892-08:00",
-      "resolved_at": "2026-03-02T17:17:42.936-08:00",
-      "updated_at": "2026-03-02T17:17:42.945-08:00",
-      "shortlink": "https://stspg.io/khqpl2lqzl4f",
-      "service": "SendGrid"
-    },
-    {
-      "id": "1xnrz77h9995",
-      "name": "Mail delivery delays",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-03-02T17:05:32.803-08:00",
-      "resolved_at": "2026-03-02T17:05:32.853-08:00",
-      "updated_at": "2026-03-02T17:05:32.863-08:00",
-      "shortlink": "https://stspg.io/cx5dfs9tyg9y",
-      "service": "SendGrid"
-    },
-    {
-      "id": "t8qtfkxmvl6d",
-      "name": "Event Streams Facing Delivery Delays",
-      "status": "resolved",
-      "impact": "none",
-      "started_at": "2026-03-02T14:23:49.000-08:00",
-      "resolved_at": "2026-03-02T16:11:05.926-08:00",
-      "updated_at": "2026-03-02T16:11:05.944-08:00",
-      "shortlink": "https://stspg.io/frqxxljwtd7n",
       "service": "Twilio"
     }
   ]
