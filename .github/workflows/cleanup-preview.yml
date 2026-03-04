@@ -1,0 +1,30 @@
+name: Cleanup Preview
+
+on:
+  delete:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Sanitize branch name
+        run: |
+          BRANCH=$(echo "${{ github.event.ref }}" | tr '/' '-' | tr '_' '-' | tr '[:upper:]' '[:lower:]')
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+
+      - name: Remove preview directory
+        run: |
+          if [ -d "${{ env.BRANCH }}" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git rm -r "${{ env.BRANCH }}"
+            git commit -m "cleanup: remove preview ${{ env.BRANCH }}"
+            git push origin gh-pages
+          else
+            echo "No preview directory found for ${{ env.BRANCH }}, nothing to clean."
+          fi

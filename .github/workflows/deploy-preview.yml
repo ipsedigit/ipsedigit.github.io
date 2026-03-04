@@ -1,0 +1,40 @@
+name: Deploy Preview
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - gh-pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sanitize branch name
+        run: |
+          BRANCH=$(echo "${{ github.ref_name }}" | tr '/' '-' | tr '_' '-' | tr '[:upper:]' '[:lower:]')
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          working-directory: docs
+
+      - name: Build Jekyll
+        run: |
+          cd docs
+          bundle exec jekyll build --baseurl "/${{ env.BRANCH }}" -d ../_site
+
+      - name: Deploy to gh-pages subdirectory
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: _site
+          target-folder: ${{ env.BRANCH }}
+          clean: true
