@@ -743,6 +743,130 @@
           "forks": 1585
         }
       }
+    },
+    "2026-03-04": {
+      "repos": {
+        "freeCodeCamp/freeCodeCamp": {
+          "stars": 437730,
+          "forks": 43509
+        },
+        "kamranahmedse/developer-roadmap": {
+          "stars": 350112,
+          "forks": 43735
+        },
+        "vinta/awesome-python": {
+          "stars": 285471,
+          "forks": 27286
+        },
+        "openclaw/openclaw": {
+          "stars": 257825,
+          "forks": 49418
+        },
+        "facebook/react": {
+          "stars": 243559,
+          "forks": 50648
+        },
+        "torvalds/linux": {
+          "stars": 220723,
+          "forks": 60752
+        },
+        "TheAlgorithms/Python": {
+          "stars": 218290,
+          "forks": 50127
+        },
+        "ossu/computer-science": {
+          "stars": 202074,
+          "forks": 25116
+        },
+        "tensorflow/tensorflow": {
+          "stars": 193970,
+          "forks": 75210
+        },
+        "ohmyzsh/ohmyzsh": {
+          "stars": 185066,
+          "forks": 26302
+        },
+        "microsoft/vscode": {
+          "stars": 182251,
+          "forks": 38262
+        },
+        "Significant-Gravitas/AutoGPT": {
+          "stars": 182182,
+          "forks": 46211
+        },
+        "n8n-io/n8n": {
+          "stars": 177470,
+          "forks": 55396
+        },
+        "flutter/flutter": {
+          "stars": 175422,
+          "forks": 30078
+        },
+        "twbs/bootstrap": {
+          "stars": 174019,
+          "forks": 79069
+        },
+        "avelino/awesome-go": {
+          "stars": 166481,
+          "forks": 13000
+        },
+        "ollama/ollama": {
+          "stars": 164012,
+          "forks": 14754
+        },
+        "AUTOMATIC1111/stable-diffusion-webui": {
+          "stars": 161455,
+          "forks": 30114
+        },
+        "huggingface/transformers": {
+          "stars": 157332,
+          "forks": 32277
+        },
+        "Snailclimb/JavaGuide": {
+          "stars": 154027,
+          "forks": 46124
+        },
+        "anthropics/skills": {
+          "stars": 83160,
+          "forks": 8739
+        },
+        "obra/superpowers": {
+          "stars": 70026,
+          "forks": 5380
+        },
+        "affaan-m/everything-claude-code": {
+          "stars": 59662,
+          "forks": 7385
+        },
+        "karpathy/nanochat": {
+          "stars": 44481,
+          "forks": 5873
+        },
+        "ComposioHQ/awesome-claude-skills": {
+          "stars": 40465,
+          "forks": 4013
+        },
+        "tw93/Mole": {
+          "stars": 37942,
+          "forks": 1040
+        },
+        "nextlevelbuilder/ui-ux-pro-max-skill": {
+          "stars": 36788,
+          "forks": 3585
+        },
+        "code-yeongyu/oh-my-opencode": {
+          "stars": 36718,
+          "forks": 2771
+        },
+        "koala73/worldmonitor": {
+          "stars": 28566,
+          "forks": 4680
+        },
+        "HKUDS/nanobot": {
+          "stars": 28537,
+          "forks": 4604
+        }
+      }
     }
   },
   "featured_repos": {
@@ -751,6 +875,7 @@
     "obra/superpowers": "2026-02-27",
     "anthropics/skills": "2026-02-28",
     "affaan-m/everything-claude-code": "2026-03-01",
-    "ComposioHQ/awesome-claude-skills": "2026-03-02"
+    "ComposioHQ/awesome-claude-skills": "2026-03-02",
+    "kamranahmedse/developer-roadmap": "2026-03-04"
   }
 }
