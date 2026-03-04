@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 8 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 9 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -53,9 +53,21 @@ permalink: /outages/
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/j3fvtx4tydqf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays To MTN Network In Cameroon</a></div>
+  <div style="font-size:0.82em; color:#6b7280;">
+    Started: Mar 04, 11:01 UTC &nbsp;·&nbsp; Updated: Mar 04, 11:07 UTC
+  </div>
+</div>
+
+<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
+    <strong>Twilio</strong>
+    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
+  </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/vq32wj8g9htr" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays from Twilio to Lycamobile France</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 04, 10:27 UTC &nbsp;·&nbsp; Updated: Mar 04, 10:32 UTC
+    Started: Mar 04, 10:27 UTC &nbsp;·&nbsp; Updated: Mar 04, 11:27 UTC
   </div>
 </div>
 
@@ -239,4 +251,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 18:56:29 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 19:40:42 UTC</p>
