@@ -469,6 +469,100 @@
           "likes": 3236
         }
       }
+    },
+    "2026-03-04": {
+      "models": {
+        "deepseek-ai/DeepSeek-R1": {
+          "likes": 13108
+        },
+        "black-forest-labs/FLUX.1-dev": {
+          "likes": 12385
+        },
+        "stabilityai/stable-diffusion-xl-base-1.0": {
+          "likes": 7500
+        },
+        "CompVis/stable-diffusion-v1-4": {
+          "likes": 6983
+        },
+        "meta-llama/Meta-Llama-3-8B": {
+          "likes": 6473
+        },
+        "hexgrad/Kokoro-82M": {
+          "likes": 5792
+        },
+        "meta-llama/Llama-3.1-8B-Instruct": {
+          "likes": 5518
+        },
+        "openai/whisper-large-v3": {
+          "likes": 5444
+        },
+        "bigscience/bloom": {
+          "likes": 4986
+        },
+        "stabilityai/stable-diffusion-3-medium": {
+          "likes": 4909
+        },
+        "meta-llama/Llama-2-7b-chat-hf": {
+          "likes": 4716
+        },
+        "black-forest-labs/FLUX.1-schnell": {
+          "likes": 4658
+        },
+        "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+          "likes": 4641
+        },
+        "openai/gpt-oss-120b": {
+          "likes": 4542
+        },
+        "sentence-transformers/all-MiniLM-L6-v2": {
+          "likes": 4532
+        },
+        "meta-llama/Llama-2-7b": {
+          "likes": 4452
+        },
+        "openai/gpt-oss-20b": {
+          "likes": 4421
+        },
+        "meta-llama/Meta-Llama-3-8B-Instruct": {
+          "likes": 4391
+        },
+        "Tongyi-MAI/Z-Image-Turbo": {
+          "likes": 4199
+        },
+        "mistralai/Mistral-7B-v0.1": {
+          "likes": 4046
+        },
+        "deepseek-ai/DeepSeek-V3": {
+          "likes": 4027
+        },
+        "lllyasviel/ControlNet-v1-1": {
+          "likes": 4002
+        },
+        "WarriorMama777/OrangeMixs": {
+          "likes": 3888
+        },
+        "lllyasviel/ControlNet": {
+          "likes": 3791
+        },
+        "deepseek-ai/Janus-Pro-7B": {
+          "likes": 3565
+        },
+        "microsoft/phi-2": {
+          "likes": 3429
+        },
+        "coqui/XTTS-v2": {
+          "likes": 3415
+        },
+        "stabilityai/stable-diffusion-3.5-large": {
+          "likes": 3381
+        },
+        "google/gemma-7b": {
+          "likes": 3282
+        },
+        "stabilityai/stable-video-diffusion-img2vid-xt": {
+          "likes": 3237
+        }
+      }
     }
   },
   "featured_models": {
@@ -476,6 +570,7 @@
     "Tongyi-MAI/Z-Image-Turbo": "2026-02-27",
     "hexgrad/Kokoro-82M": "2026-02-28",
     "sentence-transformers/all-MiniLM-L6-v2": "2026-03-01",
-    "meta-llama/Llama-3.1-8B-Instruct": "2026-03-02"
+    "meta-llama/Llama-3.1-8B-Instruct": "2026-03-02",
+    "black-forest-labs/FLUX.1-dev": "2026-03-04"
   }
 }
