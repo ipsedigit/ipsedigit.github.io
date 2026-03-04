@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04 15:46:13 UTC",
-  "active_count": 6,
-  "resolved_count": 14,
+  "generated_at": "2026-03-04 16:53:02 UTC",
+  "active_count": 7,
+  "resolved_count": 15,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -21,9 +21,20 @@
       "impact": "major",
       "started_at": "2026-03-01T13:48:14.360Z",
       "resolved_at": null,
-      "updated_at": "2026-03-04T06:03:24.946Z",
+      "updated_at": "2026-03-04T16:33:33.629Z",
       "shortlink": "https://stspg.io/mg7m971rdhw8",
       "service": "MongoDB Atlas"
+    },
+    {
+      "id": "30nh3w30gzqm",
+      "name": "CNI Degraded Performance",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-04T16:30:14.044Z",
+      "resolved_at": null,
+      "updated_at": "2026-03-04T16:30:14.157Z",
+      "shortlink": "https://stspg.io/nkqrhrxnmbfn",
+      "service": "Cloudflare"
     },
     {
       "id": "jc0z34vytcqg",
@@ -32,7 +43,7 @@
       "impact": "minor",
       "started_at": "2026-03-04T07:23:08.006-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-04T07:40:51.765-08:00",
+      "updated_at": "2026-03-04T08:26:30.541-08:00",
       "shortlink": "https://stspg.io/l1zyss3yjght",
       "service": "Twilio"
     },
@@ -103,6 +114,17 @@
       "updated_at": "2026-03-04T10:26:32.426Z",
       "shortlink": "https://stspg.io/f39g9blvb925",
       "service": "Netlify"
+    },
+    {
+      "id": "05k6gtjyv50s",
+      "name": "v3 Timezones Update Delay",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-04T08:44:25.806-08:00",
+      "resolved_at": "2026-03-04T08:44:25.840-08:00",
+      "updated_at": "2026-03-04T08:44:25.848-08:00",
+      "shortlink": "https://stspg.io/16gypydr92mh",
+      "service": "SendGrid"
     },
     {
       "id": "30zcpdh7m5ts",
