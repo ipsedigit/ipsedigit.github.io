@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04 14:39:43 UTC",
-  "active_count": 5,
-  "resolved_count": 15,
+  "generated_at": "2026-03-04 15:46:13 UTC",
+  "active_count": 6,
+  "resolved_count": 14,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -26,13 +26,24 @@
       "service": "MongoDB Atlas"
     },
     {
+      "id": "jc0z34vytcqg",
+      "name": "SMS Delivery Failures from Multiple Networks in Czech to Twilio numbers",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-04T07:23:08.006-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-04T07:40:51.765-08:00",
+      "shortlink": "https://stspg.io/l1zyss3yjght",
+      "service": "Twilio"
+    },
+    {
       "id": "qjtwmc0pgtp0",
       "name": "SMS Delivery Delays and Failures From Twilio to Megafon Tajikistan",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-03-04T06:00:29.685-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-04T06:00:29.790-08:00",
+      "updated_at": "2026-03-04T07:00:09.766-08:00",
       "shortlink": "https://stspg.io/0dmx34bdgzpg",
       "service": "Twilio"
     },
@@ -212,17 +223,6 @@
       "resolved_at": "2026-03-03T16:13:11.126-08:00",
       "updated_at": "2026-03-03T16:13:11.143-08:00",
       "shortlink": "https://stspg.io/196t6jllr1zp",
-      "service": "Twilio"
-    },
-    {
-      "id": "kwm5c0c03hxx",
-      "name": "SMS Delivery Delays From Twilio to Tune Talk Malaysia",
-      "status": "resolved",
-      "impact": "minor",
-      "started_at": "2026-03-03T02:28:45.907-08:00",
-      "resolved_at": "2026-03-03T06:59:42.838-08:00",
-      "updated_at": "2026-03-03T06:59:42.855-08:00",
-      "shortlink": "https://stspg.io/6mhkdwqs7dvs",
       "service": "Twilio"
     }
   ]
