@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-03-04 07:12:10 UTC",
+  "generated_at": "2026-03-04 19:11:15 UTC",
   "total_articles": 20,
   "articles": [
+    {
+      "title": "Hello Developer: March 2026",
+      "url": "https://developer.apple.com/news/?id=zmqipz05",
+      "source": "Apple Developer News",
+      "published": "2026-03-03T14:00:16Z",
+      "excerpt": "In this edition: Join Apple at GDC. Get tips on privacy and security in a new developer activity. Dive deep on coding intelligence in Xcode 26. Learn how the Speechify team is going all in on AI. Catch up on the latest news and updates. Read now"
+    },
     {
       "title": "What's new in Swift: February 2026 Edition",
       "url": "https://swift.org/blog/whats-new-in-swift-february-2026/",
@@ -134,13 +141,6 @@
       "source": "iOS Dev Weekly",
       "published": "2026-01-09T00:00:00Z",
       "excerpt": "Alternate browser engines come to the Japanese App Store, but what will it take to see this in use? 🤔"
-    },
-    {
-      "title": "Hello Developer: January 2026",
-      "url": "https://developer.apple.com/news/?id=zni5qkkl",
-      "source": "Apple Developer News",
-      "published": "2026-01-06T17:00:16Z",
-      "excerpt": "We‘re hitting the ground running in 2026. In this edition: A special SwiftUI activity in Cupertino. More ways to connect with us about Liquid Glass. A snappy video recap of Apple design resources. All-new Develop in Swift Tutorials. A new article about taking full advantage of fo"
     }
   ]
 }
