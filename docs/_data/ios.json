@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-03-02 19:10:44 UTC",
+  "generated_at": "2026-03-04 07:12:10 UTC",
   "total_articles": 20,
   "articles": [
+    {
+      "title": "What's new in Swift: February 2026 Edition",
+      "url": "https://swift.org/blog/whats-new-in-swift-february-2026/",
+      "source": "Swift Blog",
+      "published": "2026-03-02T14:05:00Z",
+      "excerpt": "Welcome to this edition of “What’s New in Swift,” where we share interesting projects and updates in the Swift community that deserve visibility to a broader audience. FOSDEM is the largest open source conference in the world, and this year Swift was featured in talks across mult"
+    },
     {
       "title": "Issue 744",
       "url": "https://iosdevweekly.com/issues/744/",
@@ -134,13 +141,6 @@
       "source": "Apple Developer News",
       "published": "2026-01-06T17:00:16Z",
       "excerpt": "We‘re hitting the ground running in 2026. In this edition: A special SwiftUI activity in Cupertino. More ways to connect with us about Liquid Glass. A snappy video recap of Apple design resources. All-new Develop in Swift Tutorials. A new article about taking full advantage of fo"
-    },
-    {
-      "title": "Replay",
-      "url": "https://nshipster.com/replay/",
-      "source": "NSHipster",
-      "published": "2025-12-31T08:00:00Z",
-      "excerpt": "Fast, reliable API tests without mocks or stale JSON fixtures. Replay records real HTTP traffic once (as HAR) and replays it instantly with Swift Testing so your networking code stays honest and your test suite stays fast."
     }
   ]
 }
