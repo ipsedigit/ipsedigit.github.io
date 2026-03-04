@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04 08:43:14 UTC",
-  "active_count": 6,
-  "resolved_count": 11,
+  "generated_at": "2026-03-04 09:45:44 UTC",
+  "active_count": 5,
+  "resolved_count": 13,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -26,26 +26,15 @@
       "service": "MongoDB Atlas"
     },
     {
-      "id": "rqnhs8vpgxdz",
-      "name": "SMS Delivery Delays to Telcel Network in Mexico",
-      "status": "monitoring",
+      "id": "b2y6gjtq6s4s",
+      "name": "Domain Registration unavailable",
+      "status": "investigating",
       "impact": "minor",
-      "started_at": "2026-03-03T22:35:16.327-08:00",
+      "started_at": "2026-03-04T09:38:50.909Z",
       "resolved_at": null,
-      "updated_at": "2026-03-03T23:21:16.394-08:00",
-      "shortlink": "https://stspg.io/kyv5xtqt3dhf",
-      "service": "Twilio"
-    },
-    {
-      "id": "30zcpdh7m5ts",
-      "name": "Delays in Transcription Completion",
-      "status": "monitoring",
-      "impact": "minor",
-      "started_at": "2026-03-03T15:28:00.697-08:00",
-      "resolved_at": null,
-      "updated_at": "2026-03-03T22:45:24.543-08:00",
-      "shortlink": "https://stspg.io/mnlbzyhgfd93",
-      "service": "Twilio"
+      "updated_at": "2026-03-04T09:38:50.996Z",
+      "shortlink": "https://stspg.io/l3d3ndgvxxvv",
+      "service": "Cloudflare"
     },
     {
       "id": "9pzmp5kgwhj6",
@@ -54,7 +43,7 @@
       "impact": "minor",
       "started_at": "2026-03-03T10:19:05.490-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T17:39:16.040-08:00",
+      "updated_at": "2026-03-04T01:28:15.678-08:00",
       "shortlink": "https://stspg.io/q0cv4kmpxk42",
       "service": "Twilio"
     },
@@ -71,6 +60,28 @@
     }
   ],
   "resolved_24h": [
+    {
+      "id": "30zcpdh7m5ts",
+      "name": "Delays in Transcription Completion",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T15:28:00.697-08:00",
+      "resolved_at": "2026-03-04T01:29:20.855-08:00",
+      "updated_at": "2026-03-04T01:29:20.873-08:00",
+      "shortlink": "https://stspg.io/mnlbzyhgfd93",
+      "service": "Twilio"
+    },
+    {
+      "id": "rqnhs8vpgxdz",
+      "name": "SMS Delivery Delays to Telcel Network in Mexico",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-03T22:35:16.327-08:00",
+      "resolved_at": "2026-03-04T01:14:15.236-08:00",
+      "updated_at": "2026-03-04T01:14:15.250-08:00",
+      "shortlink": "https://stspg.io/kyv5xtqt3dhf",
+      "service": "Twilio"
+    },
     {
       "id": "t2skq2t69g5s",
       "name": "WAF Challenge requests incorrectly forwarded to origin",

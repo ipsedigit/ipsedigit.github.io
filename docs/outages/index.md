@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 6 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 5 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -37,25 +37,13 @@ permalink: /outages/
 
 <div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
+    <strong>Cloudflare</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
+    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
   </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kyv5xtqt3dhf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays to Telcel Network in Mexico</a></div>
+  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/l3d3ndgvxxvv" target="_blank" rel="noopener" style="color:#111;">Domain Registration unavailable</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 22:35 UTC &nbsp;·&nbsp; Updated: Mar 03, 23:21 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mnlbzyhgfd93" target="_blank" rel="noopener" style="color:#111;">Delays in Transcription Completion</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 15:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 22:45 UTC
+    Started: Mar 04, 09:38 UTC &nbsp;·&nbsp; Updated: Mar 04, 09:38 UTC
   </div>
 </div>
 
@@ -67,7 +55,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/q0cv4kmpxk42" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to Datora Brazil</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:39 UTC
+    Started: Mar 03, 10:19 UTC &nbsp;·&nbsp; Updated: Mar 04, 01:28 UTC
   </div>
 </div>
 
@@ -84,6 +72,22 @@ permalink: /outages/
 </div>
 
 ## Resolved (last 24h)
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 04, 01:29 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">Delays in Transcription Completion</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 04, 01:14 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">SMS Delivery Delays to Telcel Network in Mexico</span>
+  </div>
+</div>
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
@@ -175,4 +179,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 08:43:14 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 09:45:44 UTC</p>
