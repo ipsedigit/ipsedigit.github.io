@@ -6,7 +6,7 @@ permalink: /outages/
 ---
 
 <div style="padding:0.75em 1em; border-radius:8px; background:#fef2f2; border:1px solid #fca5a5; margin-bottom:1.5em;">
-  <strong style="color:#b91c1c;">⚠ 6 active incidents</strong>
+  <strong style="color:#b91c1c;">⚠ 5 active incidents</strong>
 </div>
 
 ## Active Incidents
@@ -51,18 +51,6 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
-  </div>
-  <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/cq06414s1nxz" target="_blank" rel="noopener" style="color:#111;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</a></div>
-  <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 19:41 UTC
-  </div>
-</div>
-
-<div style="margin-bottom:1em; padding:1em; border-left:4px solid #ca8a04; border-radius:0 8px 8px 0; background:#fafafa;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
-    <strong>Twilio</strong>
-    <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
     <span style="font-size:0.82em; color:#6b7280;">🟠 Identified</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/q0cv4kmpxk42" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Failures from Twilio to Datora Brazil</a></div>
@@ -90,6 +78,14 @@ permalink: /outages/
     <strong style="color:#374151;">Cloudflare</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 23:42 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">WAF Challenge requests incorrectly forwarded to origin</span>
+  </div>
+</div>
+
+<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
+  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
+    <strong style="color:#374151;">Twilio</strong>
+    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 21:36 UTC</span>
+    <span style="font-size:0.82em; color:#9ca3af;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</span>
   </div>
 </div>
 
@@ -191,4 +187,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 04:43:06 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 05:47:25 UTC</p>
