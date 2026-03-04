@@ -39,11 +39,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/mnlbzyhgfd93" target="_blank" rel="noopener" style="color:#111;">Delays in Transcription Completion</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 15:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 18:15 UTC
+    Started: Mar 03, 15:28 UTC &nbsp;·&nbsp; Updated: Mar 03, 20:36 UTC
   </div>
 </div>
 
@@ -51,11 +51,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/cq06414s1nxz" target="_blank" rel="noopener" style="color:#111;">MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 17:13 UTC
+    Started: Mar 03, 14:17 UTC &nbsp;·&nbsp; Updated: Mar 03, 19:41 UTC
   </div>
 </div>
 
@@ -191,4 +191,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 02:23:43 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 04:43:06 UTC</p>

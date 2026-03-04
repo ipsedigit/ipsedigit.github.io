@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04 02:23:43 UTC",
+  "generated_at": "2026-03-04 04:43:06 UTC",
   "active_count": 6,
   "resolved_count": 13,
   "active": [
@@ -28,22 +28,22 @@
     {
       "id": "30zcpdh7m5ts",
       "name": "Delays in Transcription Completion",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-03-03T15:28:00.697-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T18:15:57.902-08:00",
+      "updated_at": "2026-03-03T20:36:23.235-08:00",
       "shortlink": "https://stspg.io/mnlbzyhgfd93",
       "service": "Twilio"
     },
     {
       "id": "s6jfpzj5zys1",
       "name": "MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States",
-      "status": "investigating",
+      "status": "monitoring",
       "impact": "minor",
       "started_at": "2026-03-03T14:17:55.474-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-03T17:13:14.820-08:00",
+      "updated_at": "2026-03-03T19:41:56.114-08:00",
       "shortlink": "https://stspg.io/cq06414s1nxz",
       "service": "Twilio"
     },
