@@ -39,11 +39,11 @@ permalink: /outages/
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap; margin-bottom:0.4em;">
     <strong>Twilio</strong>
     <span style="padding:2px 8px; border-radius:12px; font-size:0.78em; background:#ca8a04; color:#fff;">MINOR</span>
-    <span style="font-size:0.82em; color:#6b7280;">🔴 Investigating</span>
+    <span style="font-size:0.82em; color:#6b7280;">🟡 Monitoring</span>
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/kyv5xtqt3dhf" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays to Telcel Network in Mexico</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 03, 22:35 UTC &nbsp;·&nbsp; Updated: Mar 03, 22:35 UTC
+    Started: Mar 03, 22:35 UTC &nbsp;·&nbsp; Updated: Mar 03, 23:21 UTC
   </div>
 </div>
 
@@ -175,4 +175,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 06:53:53 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 07:39:44 UTC</p>
