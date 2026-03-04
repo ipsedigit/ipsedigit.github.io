@@ -36,7 +36,10 @@ docs/                     # Jekyll site (GitHub Pages)
   index.html              # homepage (paginated reverse-chron feed)
 
 .github/workflows/
-  dailynewspublisher.yml  # runs news pipeline 8x/day
+  dailynewspublisher.yml   # runs news pipeline 8x/day on main
+  deploy-production.yml    # push to main → Jekyll build → gh-pages root
+  deploy-preview.yml       # push to branch xyz → Jekyll build → gh-pages/xyz/
+  cleanup-preview.yml      # delete branch xyz → removes gh-pages/xyz/
 
 .claude/skills/
   update-claude-md/       # skill: keep CLAUDE.md current after significant changes
@@ -83,6 +86,8 @@ Everything except the core news pipeline has been pruned:
 - What remains: `news.py` pipeline + Jekyll front-end + daily workflow
 
 The site is back to fundamentals. The next features should be built deliberately, one at a time, with clear purpose.
+
+Branch preview deployments added (2026-03-04): push to any non-main branch → site live at `/branchname/`. GitHub Pages now serves from `gh-pages` branch (manual setup required before first deploy).
 
 ---
 
