@@ -67,7 +67,7 @@ permalink: /outages/
   </div>
   <div style="font-weight:600; margin-bottom:0.25em;"><a href="https://stspg.io/0dmx34bdgzpg" target="_blank" rel="noopener" style="color:#111;">SMS Delivery Delays and Failures From Twilio to Megafon Tajikistan</a></div>
   <div style="font-size:0.82em; color:#6b7280;">
-    Started: Mar 04, 06:00 UTC &nbsp;·&nbsp; Updated: Mar 04, 07:00 UTC
+    Started: Mar 04, 06:00 UTC &nbsp;·&nbsp; Updated: Mar 04, 09:00 UTC
   </div>
 </div>
 
@@ -195,14 +195,6 @@ permalink: /outages/
 
 <div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
   <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
-    <strong style="color:#374151;">Cloudflare</strong>
-    <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 17:34 UTC</span>
-    <span style="font-size:0.82em; color:#9ca3af;">Cloudflare Zero Trust: Gateway Issues</span>
-  </div>
-</div>
-
-<div style="margin-bottom:0.75em; padding:0.75em 1em; border-left:4px solid #d1d5db; border-radius:0 8px 8px 0; background:#f9fafb; opacity:0.8;">
-  <div style="display:flex; align-items:center; gap:0.5em; flex-wrap:wrap;">
     <strong style="color:#374151;">Twilio</strong>
     <span style="font-size:0.78em; color:#6b7280;">✅ Resolved Mar 03, 16:37 UTC</span>
     <span style="font-size:0.82em; color:#9ca3af;">Temporary Increase in 4xx Errors When Sending Messages</span>
@@ -219,4 +211,4 @@ permalink: /outages/
 
 ---
 
-<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 16:53:02 UTC</p>
+<p style="font-size:0.8em; color:#9ca3af;">Data from statuspage.io APIs &middot; Updated: 2026-03-04 17:41:54 UTC</p>
