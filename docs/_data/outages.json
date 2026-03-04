@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04 17:41:54 UTC",
-  "active_count": 7,
-  "resolved_count": 14,
+  "generated_at": "2026-03-04 18:56:29 UTC",
+  "active_count": 8,
+  "resolved_count": 16,
   "active": [
     {
       "id": "20v5r3njkcwc",
@@ -37,13 +37,24 @@
       "service": "Cloudflare"
     },
     {
+      "id": "q4gfq25gqgnq",
+      "name": "SMS Delivery Delays from Twilio to Lycamobile France",
+      "status": "investigating",
+      "impact": "minor",
+      "started_at": "2026-03-04T10:27:32.517-08:00",
+      "resolved_at": null,
+      "updated_at": "2026-03-04T10:32:26.133-08:00",
+      "shortlink": "https://stspg.io/vq32wj8g9htr",
+      "service": "Twilio"
+    },
+    {
       "id": "jc0z34vytcqg",
       "name": "SMS Delivery Failures from Multiple Networks in Czech to Twilio numbers",
       "status": "investigating",
       "impact": "minor",
       "started_at": "2026-03-04T07:23:08.006-08:00",
       "resolved_at": null,
-      "updated_at": "2026-03-04T08:26:30.541-08:00",
+      "updated_at": "2026-03-04T10:24:24.817-08:00",
       "shortlink": "https://stspg.io/l1zyss3yjght",
       "service": "Twilio"
     },
@@ -83,6 +94,17 @@
   ],
   "resolved_24h": [
     {
+      "id": "xl7s60h7nmzg",
+      "name": "Cloudflare Dashboard displaying incorrect API token type",
+      "status": "resolved",
+      "impact": "minor",
+      "started_at": "2026-03-04T18:13:54.530Z",
+      "resolved_at": "2026-03-04T18:45:25.466Z",
+      "updated_at": "2026-03-04T18:45:25.481Z",
+      "shortlink": "https://stspg.io/5575w0gbnr6x",
+      "service": "Cloudflare"
+    },
+    {
       "id": "m52hrr7th0mj",
       "name": "Supabase Dashboard and Management API inaccessible",
       "status": "resolved",
@@ -102,6 +124,17 @@
       "resolved_at": "2026-03-04T12:14:14.247Z",
       "updated_at": "2026-03-04T12:14:14.262Z",
       "shortlink": "https://stspg.io/l3d3ndgvxxvv",
+      "service": "Cloudflare"
+    },
+    {
+      "id": "4dxj1cn1gcjl",
+      "name": "Cloudflare GraphQL API outage for DNS metrics",
+      "status": "resolved",
+      "impact": "none",
+      "started_at": "2026-03-04T12:00:00.000Z",
+      "resolved_at": "2026-03-04T12:00:00.000Z",
+      "updated_at": "2026-03-04T18:53:17.225Z",
+      "shortlink": "https://stspg.io/1tbtct0yc92h",
       "service": "Cloudflare"
     },
     {
