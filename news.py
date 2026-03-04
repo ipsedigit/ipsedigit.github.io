@@ -14,8 +14,6 @@ from const import (
     NICHE_CATEGORIES,
     MAX_POSTS_PER_NICHE_PER_DAY,
     DAILY_CATEGORIES_FILE,
-    DEVS_FEEDS,
-    LINKS_BACK,
     TITLE_BONUS,
     TITLE_PENALTY,
     NICHE_SUBNICHES,
@@ -30,12 +28,6 @@ from keywords import KEYWORDS
 from bs4 import BeautifulSoup
 from tags import generate_tag_pages
 
-DEVS_ARTICLES_DATA_PATH = "docs/_data/devs_articles.json"
-LINKS_BACK_DATA_PATH = "docs/_data/links_back.json"
-
-DEVS_ARTICLES_LIMIT = 80  # Max articles on Devs page (recent first)
-
-
 def _parse_feed_date(entry):
     """Return published/updated date for sorting; fallback to now."""
     for key in ("published_parsed", "updated_parsed"):
@@ -46,50 +38,6 @@ def _parse_feed_date(entry):
             except (TypeError, ValueError):
                 pass
     return datetime.now(timezone.utc)
-
-
-def update_devs_articles_data():
-    """Fetch DEVS_FEEDS, collect recent articles (title, url, date, source), write devs_articles.json."""
-    articles = []
-    for feed_spec in DEVS_FEEDS:
-        name = feed_spec.get("name", "?")
-        feed_url = feed_spec.get("feed_url", "").strip()
-        if not feed_url:
-            continue
-        try:
-            feed = feedparser.parse(feed_url)
-            for entry in feed.entries[:15]:
-                title = (entry.get("title") or "").strip()
-                link = (entry.get("link") or "").strip()
-                if not title or not link:
-                    continue
-                summary = (entry.get("summary") or entry.get("description") or "").strip()
-                if summary:
-                    summary = re.sub(r"<[^>]+>", "", summary).strip()[:200]
-                articles.append({
-                    "title": title,
-                    "url": link,
-                    "date": _parse_feed_date(entry).strftime("%Y-%m-%d"),
-                    "source": name,
-                    "description": summary,
-                })
-        except Exception as e:
-            print(f"   Devs feed {name}: {e}")
-    articles.sort(key=lambda a: a["date"], reverse=True)
-    articles = articles[:DEVS_ARTICLES_LIMIT]
-    data = {
-        "articles": articles,
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    }
-    os.makedirs(os.path.dirname(DEVS_ARTICLES_DATA_PATH), exist_ok=True)
-    with open(DEVS_ARTICLES_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print(f"Updated {DEVS_ARTICLES_DATA_PATH} ({len(articles)} articles)")
-    # links_back.json
-    lb_data = {"links": list(LINKS_BACK), "generated_at": data["generated_at"]}
-    with open(LINKS_BACK_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(lb_data, f, indent=2)
-    print(f"Updated {LINKS_BACK_DATA_PATH} ({len(LINKS_BACK)} links back)")
 
 
 def publish_news(target_niche=None):
