@@ -7,10 +7,10 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages
+      - name: Checkout main
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: main
 
       - name: Sanitize branch name
         run: |
@@ -19,12 +19,12 @@ jobs:
 
       - name: Remove preview directory
         run: |
-          if [ -d "${{ env.BRANCH }}" ]; then
+          if [ -d "docs/${{ env.BRANCH }}" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git rm -r "${{ env.BRANCH }}"
+            git rm -rf "docs/${{ env.BRANCH }}"
             git commit -m "cleanup: remove preview ${{ env.BRANCH }}"
-            git push origin gh-pages
+            git push origin main
           else
-            echo "No preview directory found for ${{ env.BRANCH }}, nothing to clean."
+            echo "No preview found for ${{ env.BRANCH }}, nothing to do."
           fi

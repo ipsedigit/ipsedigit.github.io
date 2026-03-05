@@ -4,14 +4,13 @@ on:
   push:
     branches-ignore:
       - main
-      - gh-pages
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.actor != 'github-actions[bot]'
     steps:
-      - name: Checkout
+      - name: Checkout branch
         uses: actions/checkout@v4
 
       - name: Sanitize branch name
@@ -32,10 +31,23 @@ jobs:
           bundle exec jekyll build --baseurl "/${{ env.BRANCH }}" -d ../_site
           touch ../_site/.nojekyll
 
-      - name: Deploy to gh-pages subdirectory
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: _site
-          target-folder: ${{ env.BRANCH }}
-          clean: true
+      - name: Commit preview to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          cp -r _site /tmp/preview-site
+
+          git fetch origin main
+          git checkout main
+          git pull origin main
+
+          rm -rf docs/${{ env.BRANCH }}
+          mkdir -p docs/${{ env.BRANCH }}
+          cp -r /tmp/preview-site/. docs/${{ env.BRANCH }}/
+
+          git add docs/${{ env.BRANCH }}
+          if ! git diff --cached --quiet; then
+            git commit -m "preview: update ${{ env.BRANCH }}"
+            git push origin main
+          fi
