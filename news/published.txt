@@ -192,3 +192,4 @@ https://thenewstack.io/how-webassembly-plugins-are-simplifying-kubernetes-extens
 https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
 https://kubernetes.io/blog/2025/12/18/kubernetes-v1-35-job-managedby-for-jobs-goes-ga/
 https://blog.cloudflare.com/cloudflare-threat-intelligence-platform/
+https://developers.googleblog.com/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/
