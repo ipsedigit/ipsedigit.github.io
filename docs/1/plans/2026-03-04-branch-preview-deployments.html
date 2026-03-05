@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Branch Preview Deployments Implementation Plan | eof.news</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Branch Preview Deployments Implementation Plan" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Today’s tech signal for engineers who build. AI, security, cloud, devtools and software engineering curated daily. No noise, just signal." />
+<meta property="og:description" content="Today’s tech signal for engineers who build. AI, security, cloud, devtools and software engineering curated daily. No noise, just signal." />
+<link rel="canonical" href="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html" />
+<meta property="og:url" content="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html" />
+<meta property="og:site_name" content="eof.news" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Branch Preview Deployments Implementation Plan" />
+<meta name="twitter:site" content="@eaborea" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Today’s tech signal for engineers who build. AI, security, cloud, devtools and software engineering curated daily. No noise, just signal.","headline":"Branch Preview Deployments Implementation Plan","url":"https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/1/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="https://ipsedigit.github.io/1/feed.xml" title="eof.news" /><!-- Canonical URL -->
+<link rel="canonical" href="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html">
+
+<!-- Hreflang (single-language site) -->
+<link rel="alternate" hreflang="en" href="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html">
+<link rel="alternate" hreflang="x-default" href="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html">
+
+<!-- Preconnect & DNS Prefetch -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+<!-- Preload critical font -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- AdSense -->
+
+
+<!-- SEO Meta -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="eof.news">
+<meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="tech news, AI news, startup news, programming, cybersecurity, hacker news, artificial intelligence, machine learning, software engineering">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="eof.news">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Branch Preview Deployments Implementation Plan">
+<meta property="og:url" content="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html">
+<meta property="og:description" content="Today's tech signal for engineers who build. AI, security, cloud, devtools and  software engineering curated daily. No noise, just signal.">
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@eaborea">
+<meta name="twitter:title" content="Branch Preview Deployments Implementation Plan">
+<meta name="twitter:description" content="Today's tech signal for engineers who build. AI, security, cloud, devtools and  software engineering curated daily. No noise, just signal.">
+
+
+<!-- Schema.org JSON-LD -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "eof.news",
+  "url": "https://ipsedigit.github.io",
+  "description": "Today&#39;s tech signal for engineers who build. AI, security, cloud, devtools and  software engineering curated daily. No noise, just signal.",
+  "inLanguage": "en",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://ipsedigit.github.io/topics/"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- Organization schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "eof.news",
+  "url": "https://ipsedigit.github.io",
+  "logo": "https://ipsedigit.github.io/assets/images/logo.png",
+  "description": "Today&#39;s tech signal for engineers who build. AI, security, cloud, devtools and  software engineering curated daily. No noise, just signal.",
+  "sameAs": [
+    "https://github.com/ipsedigit"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "ipsedigitmail@gmail.com",
+    "contactType": "customer support"
+  }
+}
+</script>
+
+
+<!-- Google News specific -->
+<meta name="news_keywords" content="tech, AI, artificial intelligence, startups, programming, cybersecurity">
+<meta name="syndication-source" content="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html">
+<meta name="original-source" content="https://ipsedigit.github.io/1/plans/2026-03-04-branch-preview-deployments.html">
+<link rel="icon" href="/1/assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YESPZ0Z0CB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YESPZ0Z0CB');
+  </script>
+</head>
+<body><header class="site-header">
+  <div class="wrapper">
+    <a class="site-brand" href="/1/">
+      <img class="site-logo" src="/assets/images/logo.svg" alt="eof.news" width="28" height="28" />
+      <span class="site-title">eof.news</span>
+    </a>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="nav-items">
+        <a class="nav-item" href="/">Home</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Branch Preview Deployments Implementation Plan</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="branch-preview-deployments-implementation-plan">Branch Preview Deployments Implementation Plan</h1>
+
+<blockquote>
+  <p><strong>For Claude:</strong> REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.</p>
+</blockquote>
+
+<p><strong>Goal:</strong> Push to any branch <code class="language-plaintext highlighter-rouge">xyz</code> → homepage live at <code class="language-plaintext highlighter-rouge">https://ipsedigit.github.io/xyz/</code>. Delete branch → preview removed automatically.</p>
+
+<p><strong>Architecture:</strong> Switch GitHub Pages source from <code class="language-plaintext highlighter-rouge">docs/</code> on <code class="language-plaintext highlighter-rouge">main</code> to a <code class="language-plaintext highlighter-rouge">gh-pages</code> branch. Three workflows handle production deploy, preview deploy (on push), and preview cleanup (on branch delete). Jekyll is built manually in Actions using <code class="language-plaintext highlighter-rouge">--baseurl</code> override. The <code class="language-plaintext highlighter-rouge">JamesIves/github-pages-deploy-action@v4</code> action deploys into scoped subdirectories, so production and previews coexist without interfering.</p>
+
+<p><strong>Tech Stack:</strong> GitHub Actions, Jekyll (via <code class="language-plaintext highlighter-rouge">github-pages</code> gem), <code class="language-plaintext highlighter-rouge">JamesIves/github-pages-deploy-action@v4</code>, <code class="language-plaintext highlighter-rouge">ruby/setup-ruby@v1</code></p>
+
+<hr />
+
+<h2 id="prerequisites-manual--do-before-running-any-workflow">Prerequisites (manual — do before running any workflow)</h2>
+
+<h3 id="step-1-create-the-gh-pages-branch-locally">Step 1: Create the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch locally</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">--orphan</span> gh-pages
+git reset <span class="nt">--hard</span>
+git commit <span class="nt">--allow-empty</span> <span class="nt">-m</span> <span class="s2">"init gh-pages"</span>
+git push origin gh-pages
+git checkout main
+</code></pre></div></div>
+
+<h3 id="step-2-change-github-pages-source-in-repo-settings">Step 2: Change GitHub Pages source in repo settings</h3>
+
+<p>Go to: <code class="language-plaintext highlighter-rouge">https://github.com/ipsedigit/ipsedigit.github.io/settings/pages</code></p>
+
+<ul>
+  <li>Source: <strong>Deploy from a branch</strong></li>
+  <li>Branch: <strong>gh-pages</strong> / <strong>/ (root)</strong></li>
+  <li>Save</li>
+</ul>
+
+<blockquote>
+  <p>The site will temporarily show a blank page until the production deploy workflow runs for the first time (next step).</p>
+</blockquote>
+
+<hr />
+
+<h2 id="task-1-production-deploy-workflow">Task 1: Production deploy workflow</h2>
+
+<p><strong>Files:</strong></p>
+<ul>
+  <li>Create: <code class="language-plaintext highlighter-rouge">.github/workflows/deploy-production.yml</code></li>
+</ul>
+
+<p><strong>Step 1: Create the file</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Deploy Production</span>
+
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">main</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">deploy</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v4</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Set up Ruby</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span>
+          <span class="na">working-directory</span><span class="pi">:</span> <span class="s">docs</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build Jekyll</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">cd docs</span>
+          <span class="s">bundle exec jekyll build --baseurl "" -d ../_site</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to gh-pages root</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">JamesIves/github-pages-deploy-action@v4</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">branch</span><span class="pi">:</span> <span class="s">gh-pages</span>
+          <span class="na">folder</span><span class="pi">:</span> <span class="s">_site</span>
+          <span class="na">clean</span><span class="pi">:</span> <span class="no">true</span>
+          <span class="na">clean-exclude</span><span class="pi">:</span> <span class="pi">|</span>
+            <span class="s">**/</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">clean-exclude: **/</code> tells the action to clean only root-level files, not subdirectories — so preview folders survive a production deploy.</p>
+</blockquote>
+
+<p><strong>Step 2: Commit and push</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .github/workflows/deploy-production.yml
+git commit <span class="nt">-m</span> <span class="s2">"ci: add production deploy workflow"</span>
+git push origin main
+</code></pre></div></div>
+
+<p><strong>Step 3: Verify</strong></p>
+
+<ul>
+  <li>Go to <code class="language-plaintext highlighter-rouge">https://github.com/ipsedigit/ipsedigit.github.io/actions</code></li>
+  <li>The <code class="language-plaintext highlighter-rouge">Deploy Production</code> workflow should run and pass</li>
+  <li>Visit <code class="language-plaintext highlighter-rouge">https://ipsedigit.github.io/</code> — site should load as before</li>
+</ul>
+
+<hr />
+
+<h2 id="task-2-preview-deploy-workflow">Task 2: Preview deploy workflow</h2>
+
+<p><strong>Files:</strong></p>
+<ul>
+  <li>Create: <code class="language-plaintext highlighter-rouge">.github/workflows/deploy-preview.yml</code></li>
+</ul>
+
+<p><strong>Step 1: Create the file</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Deploy Preview</span>
+
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches-ignore</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">main</span>
+      <span class="pi">-</span> <span class="s">gh-pages</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">deploy</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="c1"># Skip if this push was made by the Actions bot (prevents loops)</span>
+    <span class="na">if</span><span class="pi">:</span> <span class="s">github.actor != 'github-actions[bot]'</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v4</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Sanitize branch name</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">BRANCH=$(echo "$" | tr '/' '-' | tr '_' '-' | tr '[:upper:]' '[:lower:]')</span>
+          <span class="s">echo "BRANCH=$BRANCH" &gt;&gt; $GITHUB_ENV</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Set up Ruby</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span>
+          <span class="na">working-directory</span><span class="pi">:</span> <span class="s">docs</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build Jekyll</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">cd docs</span>
+          <span class="s">bundle exec jekyll build --baseurl "/$" -d ../_site</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to gh-pages subdirectory</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">JamesIves/github-pages-deploy-action@v4</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">branch</span><span class="pi">:</span> <span class="s">gh-pages</span>
+          <span class="na">folder</span><span class="pi">:</span> <span class="s">_site</span>
+          <span class="na">target-folder</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">clean</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p><strong>Step 2: Commit and push</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .github/workflows/deploy-preview.yml
+git commit <span class="nt">-m</span> <span class="s2">"ci: add preview deploy workflow"</span>
+git push origin main
+</code></pre></div></div>
+
+<p><strong>Step 3: Verify</strong></p>
+
+<p>Create a test branch and push it:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> test-preview
+git push origin test-preview
+</code></pre></div></div>
+
+<ul>
+  <li>Go to Actions — <code class="language-plaintext highlighter-rouge">Deploy Preview</code> workflow should run and pass</li>
+  <li>Visit <code class="language-plaintext highlighter-rouge">https://ipsedigit.github.io/test-preview/</code> — homepage should appear with styles intact</li>
+</ul>
+
+<hr />
+
+<h2 id="task-3-preview-cleanup-workflow">Task 3: Preview cleanup workflow</h2>
+
+<p><strong>Files:</strong></p>
+<ul>
+  <li>Create: <code class="language-plaintext highlighter-rouge">.github/workflows/cleanup-preview.yml</code></li>
+</ul>
+
+<p><strong>Step 1: Create the file</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Cleanup Preview</span>
+
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">delete</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">cleanup</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout gh-pages</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v4</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ref</span><span class="pi">:</span> <span class="s">gh-pages</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Sanitize branch name</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">BRANCH=$(echo "$" | tr '/' '-' | tr '_' '-' | tr '[:upper:]' '[:lower:]')</span>
+          <span class="s">echo "BRANCH=$BRANCH" &gt;&gt; $GITHUB_ENV</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Remove preview directory</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">if [ -d "$" ]; then</span>
+            <span class="s">git config user.name "github-actions[bot]"</span>
+            <span class="s">git config user.email "github-actions[bot]@users.noreply.github.com"</span>
+            <span class="s">git rm -r "$"</span>
+            <span class="s">git commit -m "cleanup: remove preview $"</span>
+            <span class="s">git push origin gh-pages</span>
+          <span class="s">else</span>
+            <span class="s">echo "No preview directory found for $, nothing to clean."</span>
+          <span class="s">fi</span>
+</code></pre></div></div>
+
+<p><strong>Step 2: Commit and push</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .github/workflows/cleanup-preview.yml
+git commit <span class="nt">-m</span> <span class="s2">"ci: add preview cleanup workflow"</span>
+git push origin main
+</code></pre></div></div>
+
+<p><strong>Step 3: Verify</strong></p>
+
+<p>Delete the test branch created in Task 2:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin <span class="nt">--delete</span> test-preview
+git branch <span class="nt">-d</span> test-preview
+</code></pre></div></div>
+
+<ul>
+  <li>Go to Actions — <code class="language-plaintext highlighter-rouge">Cleanup Preview</code> workflow should run and pass</li>
+  <li>Visit <code class="language-plaintext highlighter-rouge">https://ipsedigit.github.io/test-preview/</code> — should return 404</li>
+</ul>
+
+<hr />
+
+<h2 id="task-4-disable-github-pages-auto-build-prevent-conflicts">Task 4: Disable GitHub Pages auto-build (prevent conflicts)</h2>
+
+<p>GitHub Pages may still try to auto-build Jekyll from <code class="language-plaintext highlighter-rouge">docs/</code> on <code class="language-plaintext highlighter-rouge">main</code> alongside the new Actions-based build. Disable it by adding a <code class="language-plaintext highlighter-rouge">.nojekyll</code> file to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch root.</p>
+
+<p><strong>Step 1: Add <code class="language-plaintext highlighter-rouge">.nojekyll</code> to production deploy</strong></p>
+
+<p>The <code class="language-plaintext highlighter-rouge">JamesIves</code> action respects <code class="language-plaintext highlighter-rouge">.nojekyll</code> if present in the build output. Add it to <code class="language-plaintext highlighter-rouge">docs/</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">touch </span>docs/.nojekyll
+git add docs/.nojekyll
+git commit <span class="nt">-m</span> <span class="s2">"ci: disable Jekyll auto-build on gh-pages"</span>
+git push origin main
+</code></pre></div></div>
+
+<blockquote>
+  <p>This tells GitHub Pages not to run Jekyll on the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch — our Actions workflows do the build instead.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li><strong>Branch naming:</strong> Slashes and underscores in branch names are normalized to hyphens. <code class="language-plaintext highlighter-rouge">feature/new-home</code> becomes <code class="language-plaintext highlighter-rouge">https://ipsedigit.github.io/feature-new-home/</code>.</li>
+  <li><strong>Multiple previews:</strong> All preview subdirectories coexist on <code class="language-plaintext highlighter-rouge">gh-pages</code>. A production deploy (push to <code class="language-plaintext highlighter-rouge">main</code>) does not wipe them.</li>
+  <li><strong>Content:</strong> Preview branches use whatever <code class="language-plaintext highlighter-rouge">_posts/</code> are on the branch (inherited from <code class="language-plaintext highlighter-rouge">main</code> at branch creation). No pipeline runs.</li>
+  <li><strong>styles:</strong> Full Jekyll build means CSS/fonts/images are deployed under <code class="language-plaintext highlighter-rouge">/branchname/assets/</code> and load correctly.</li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/1/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Today&#39;s tech signal for engineers who build. AI, security, cloud, devtools and  software engineering curated daily. No noise, just signal.</p>
+      </div>
+    </div>
+
+    <div class="footer-nav" style="margin-top:1em; padding-top:1em; border-top:1px solid #e5e7eb; font-size:0.85em;">
+      <a href="/sources/" style="margin-right:1em;">Sources</a>
+      <a href="/about/" style="margin-right:1em;">About</a>
+      <a href="/topics/" style="margin-right:1em;">Topics</a>
+      <a href="/feed.xml" style="margin-right:1em;">RSS</a>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://ipsedigit.github.io/1/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

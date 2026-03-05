@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://ipsedigit.github.io/1/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ipsedigit.github.io/1/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-05T22:06:07+00:00</updated><id>https://ipsedigit.github.io/1/feed.xml</id><title type="html">eof.news</title><subtitle>Today&apos;s tech signal for engineers who build. AI, security, cloud, devtools and  software engineering curated daily. No noise, just signal.</subtitle><entry><title type="html">Evolving Cloudflare’s Threat Intelligence Platform: actionable, scalab</title><link href="https://ipsedigit.github.io/1/security/threat%20intelligence/2026/03/05/top-tech-news-4e2d5fda-1844-11f1-bc25-000d3a36fe9a.html" rel="alternate" type="text/html" title="Evolving Cloudflare’s Threat Intelligence Platform: actionable, scalab" /><published>2026-03-05T03:35:07+00:00</published><updated>2026-03-05T03:35:07+00:00</updated><id>https://ipsedigit.github.io/1/security/threat%20intelligence/2026/03/05/top-tech-news-4e2d5fda-1844-11f1-bc25-000d3a36fe9a</id><content type="html" xml:base="https://ipsedigit.github.io/1/security/threat%20intelligence/2026/03/05/top-tech-news-4e2d5fda-1844-11f1-bc25-000d3a36fe9a.html"><![CDATA[<blockquote>
+  <p>Stop managing ETL pipelines and start threat hunting. Introducing new visualization, automation, and enrichment tools in the Cloudflare Threat Intelligence Platform to turn massive telemetry into inst</p>
+</blockquote>
+
+<p><img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4Rtb4ndJgavt1N0BsHaL12/2882d44e7093abb38030668819d21d27/Evolving_Cloudflare%C3%A2__s_Threat_Intelligence_Platform-_actionable__scalable__and_ETL-less-OG.png" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://blog.cloudflare.com/cloudflare-threat-intelligence-platform/">Cloudflare Blog</a></td>
+      <td><strong>Category:</strong> security / threat-intel</td>
+      <td><strong>Published:</strong> March 05, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Security" /><category term="Threat Intelligence" /><summary type="html"><![CDATA[Stop managing ETL pipelines and start threat hunting. Introducing new visualization, automation, and enrichment tools in the Cloudflare Threat Intelligence]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4Rtb4ndJgavt1N0BsHaL12/2882d44e7093abb38030668819d21d27/Evolving_Cloudflare%C3%A2__s_Threat_Intelligence_Platform-_actionable__scalable__and_ETL-less-OG.png" /><media:content medium="image" url="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4Rtb4ndJgavt1N0BsHaL12/2882d44e7093abb38030668819d21d27/Evolving_Cloudflare%C3%A2__s_Threat_Intelligence_Platform-_actionable__scalable__and_ETL-less-OG.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kubernetes v1.35: Job Managed By Goes GA (2026)</title><link href="https://ipsedigit.github.io/1/software%20architecture/kubernetes/2026/03/05/top-tech-news-4caff033-1844-11f1-bc25-000d3a36fe9a.html" rel="alternate" type="text/html" title="Kubernetes v1.35: Job Managed By Goes GA (2026)" /><published>2026-03-05T03:35:05+00:00</published><updated>2026-03-05T03:35:05+00:00</updated><id>https://ipsedigit.github.io/1/software%20architecture/kubernetes/2026/03/05/top-tech-news-4caff033-1844-11f1-bc25-000d3a36fe9a</id><content type="html" xml:base="https://ipsedigit.github.io/1/software%20architecture/kubernetes/2026/03/05/top-tech-news-4caff033-1844-11f1-bc25-000d3a36fe9a.html"><![CDATA[<blockquote>
+  <p>In Kubernetes v1.35, the ability to specify an external Job controller (through .spec.managedBy) graduates to General Availability.
+This feature allows external controllers to take full responsibility</p>
+</blockquote>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://kubernetes.io/blog/2025/12/18/kubernetes-v1-35-job-managedby-for-jobs-goes-ga/">Kubernetes Blog</a></td>
+      <td><strong>Category:</strong> cloud / kubernetes</td>
+      <td><strong>Published:</strong> March 05, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Software Architecture" /><category term="Kubernetes" /><summary type="html"><![CDATA[In Kubernetes v1.35, the ability to specify an external Job controller (through .spec.managedBy) graduates to General Availability. This feature allows ext]]></summary></entry><entry><title type="html">Mail2Shell zero-click attack lets hackers hijack FreeScout mail server</title><link href="https://ipsedigit.github.io/1/vulnerability/authentication/2026/03/05/top-tech-news-4caff032-1844-11f1-bc25-000d3a36fe9a.html" rel="alternate" type="text/html" title="Mail2Shell zero-click attack lets hackers hijack FreeScout mail server" /><published>2026-03-05T03:35:04+00:00</published><updated>2026-03-05T03:35:04+00:00</updated><id>https://ipsedigit.github.io/1/vulnerability/authentication/2026/03/05/top-tech-news-4caff032-1844-11f1-bc25-000d3a36fe9a</id><content type="html" xml:base="https://ipsedigit.github.io/1/vulnerability/authentication/2026/03/05/top-tech-news-4caff032-1844-11f1-bc25-000d3a36fe9a.html"><![CDATA[<blockquote>
+  <p>A maximum severity vulnerability in the FreeScout helpdesk platform allows hackers to achieve remote code execution without any user interaction or authentication.</p>
+</blockquote>
+
+<p><img src="https://www.bleepstatic.com/content/hl-images/2024/10/21/email.jpg" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/">BleepingComputer</a></td>
+      <td><strong>Category:</strong> security</td>
+      <td><strong>Published:</strong> March 05, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Vulnerability" /><category term="Authentication" /><summary type="html"><![CDATA[A maximum severity vulnerability in the FreeScout helpdesk platform allows hackers to achieve remote code execution without any user interaction or authent]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bleepstatic.com/content/hl-images/2024/10/21/email.jpg" /><media:content medium="image" url="https://www.bleepstatic.com/content/hl-images/2024/10/21/email.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How WebAssembly plugins simplify Kubernetes extensibility (2026)</title><link href="https://ipsedigit.github.io/1/kubernetes/helm/cdn/2026/03/04/top-tech-news-2036affc-177a-11f1-94bc-7ced8d7c2933.html" rel="alternate" type="text/html" title="How WebAssembly plugins simplify Kubernetes extensibility (2026)" /><published>2026-03-04T03:27:51+00:00</published><updated>2026-03-04T03:27:51+00:00</updated><id>https://ipsedigit.github.io/1/kubernetes/helm/cdn/2026/03/04/top-tech-news-2036affc-177a-11f1-94bc-7ced8d7c2933</id><content type="html" xml:base="https://ipsedigit.github.io/1/kubernetes/helm/cdn/2026/03/04/top-tech-news-2036affc-177a-11f1-94bc-7ced8d7c2933.html"><![CDATA[<blockquote>
+  <p>Helm 4’s new WebAssembly plugin system adds sandboxed isolation and cross-architecture portability to Kubernetes tooling.</p>
+</blockquote>
+
+<p><img src="https://cdn.thenewstack.io/media/2026/02/39fe68bf-taufik-ramadhan-8pee7qluxpi-unsplash-1.jpg" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://thenewstack.io/how-webassembly-plugins-are-simplifying-kubernetes-extensibility/">The New Stack</a></td>
+      <td><strong>Category:</strong> cloud / kubernetes</td>
+      <td><strong>Published:</strong> March 04, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Kubernetes" /><category term="Helm" /><category term="CDN" /><summary type="html"><![CDATA[Helm 4's new WebAssembly plugin system adds sandboxed isolation and cross-architecture portability to Kubernetes tooling.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.thenewstack.io/media/2026/02/39fe68bf-taufik-ramadhan-8pee7qluxpi-unsplash-1.jpg" /><media:content medium="image" url="https://cdn.thenewstack.io/media/2026/02/39fe68bf-taufik-ramadhan-8pee7qluxpi-unsplash-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CodexUI npm release &amp;amp; Termux bootstrap, README migration/screenshots,</title><link href="https://ipsedigit.github.io/1/vite/npm/2026/03/04/top-tech-news-1e9a2de0-177a-11f1-94bc-7ced8d7c2933.html" rel="alternate" type="text/html" title="CodexUI npm release &amp;amp; Termux bootstrap, README migration/screenshots," /><published>2026-03-04T03:27:49+00:00</published><updated>2026-03-04T03:27:49+00:00</updated><id>https://ipsedigit.github.io/1/vite/npm/2026/03/04/top-tech-news-1e9a2de0-177a-11f1-94bc-7ced8d7c2933</id><content type="html" xml:base="https://ipsedigit.github.io/1/vite/npm/2026/03/04/top-tech-news-1e9a2de0-177a-11f1-94bc-7ced8d7c2933.html"><![CDATA[<blockquote>
+  <p>Daily digest covering the CodexUI npm release, Termux onboarding hardening, README migration with new screenshots, attachment UX upgrades, CLI logging fixes, and a Snake game demo.</p>
+</blockquote>
+
+<p><img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkk2cmb0avldgwonfstls.png" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://dev.to/brutalstrike2/codexui-npm-release-termux-bootstrap-readme-migrationscreenshots-attachmentsmarkdown-2dk6">dev.to</a></td>
+      <td><strong>Category:</strong> devtools / package-managers</td>
+      <td><strong>Published:</strong> March 04, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Vite" /><category term="npm" /><summary type="html"><![CDATA[Daily digest covering the CodexUI npm release, Termux onboarding hardening, README migration with new screenshots, attachment UX upgrades, CLI logging fixe]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkk2cmb0avldgwonfstls.png" /><media:content medium="image" url="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkk2cmb0avldgwonfstls.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microsoft: Hackers abuse OAuth error flows to spread malware (2026)</title><link href="https://ipsedigit.github.io/1/malware/phishing/oauth/2026/03/04/top-tech-news-1e9a2de1-177a-11f1-94bc-7ced8d7c2933.html" rel="alternate" type="text/html" title="Microsoft: Hackers abuse OAuth error flows to spread malware (2026)" /><published>2026-03-04T03:27:49+00:00</published><updated>2026-03-04T03:27:49+00:00</updated><id>https://ipsedigit.github.io/1/malware/phishing/oauth/2026/03/04/top-tech-news-1e9a2de1-177a-11f1-94bc-7ced8d7c2933</id><content type="html" xml:base="https://ipsedigit.github.io/1/malware/phishing/oauth/2026/03/04/top-tech-news-1e9a2de1-177a-11f1-94bc-7ced8d7c2933.html"><![CDATA[<blockquote>
+  <p>Hackers are abusing the legitimate OAuth redirection mechanism to bypass phishing protections in email and browsers to take users to malicious pages.</p>
+</blockquote>
+
+<p><img src="https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://www.bleepingcomputer.com/news/security/microsoft-hackers-abuse-oauth-error-flows-to-spread-malware/">BleepingComputer</a></td>
+      <td><strong>Category:</strong> security / malware</td>
+      <td><strong>Published:</strong> March 04, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Malware" /><category term="Phishing" /><category term="OAuth" /><summary type="html"><![CDATA[Hackers are abusing the legitimate OAuth redirection mechanism to bypass phishing protections in email and browsers to take users to malicious pages.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg" /><media:content medium="image" url="https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Setting the Record Straight: containers vs. Zones vs. Jails vs. VMs</title><link href="https://ipsedigit.github.io/1/go/docker/2026/03/03/top-tech-news-f710f0c2-1717-11f1-94bc-70a8a51c7c8d.html" rel="alternate" type="text/html" title="Setting the Record Straight: containers vs. Zones vs. Jails vs. VMs" /><published>2026-03-03T15:45:12+00:00</published><updated>2026-03-03T15:45:12+00:00</updated><id>https://ipsedigit.github.io/1/go/docker/2026/03/03/top-tech-news-f710f0c2-1717-11f1-94bc-70a8a51c7c8d</id><content type="html" xml:base="https://ipsedigit.github.io/1/go/docker/2026/03/03/top-tech-news-f710f0c2-1717-11f1-94bc-70a8a51c7c8d.html"><![CDATA[<blockquote>
+  <p>Design differences of containers, Zones, Jails and VMs.</p>
+</blockquote>
+
+<p><img src="/img/share.png" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://blog.jessfraz.com/post/containers-zones-jails-vms/">Jessie Frazelle</a></td>
+      <td><strong>Category:</strong> cloud</td>
+      <td><strong>Published:</strong> March 03, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Go" /><category term="Docker" /><summary type="html"><![CDATA[Design differences of containers, Zones, Jails and VMs.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ipsedigit.github.io/1/img/share.png" /><media:content medium="image" url="https://ipsedigit.github.io/1/img/share.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">See risk, fix risk: introducing Remediation in Cloudflare CASB (2026)</title><link href="https://ipsedigit.github.io/1/go/security/2026/03/03/top-tech-news-f5ee96b8-1717-11f1-94bc-70a8a51c7c8d.html" rel="alternate" type="text/html" title="See risk, fix risk: introducing Remediation in Cloudflare CASB (2026)" /><published>2026-03-03T15:45:10+00:00</published><updated>2026-03-03T15:45:10+00:00</updated><id>https://ipsedigit.github.io/1/go/security/2026/03/03/top-tech-news-f5ee96b8-1717-11f1-94bc-70a8a51c7c8d</id><content type="html" xml:base="https://ipsedigit.github.io/1/go/security/2026/03/03/top-tech-news-f5ee96b8-1717-11f1-94bc-70a8a51c7c8d.html"><![CDATA[<blockquote>
+  <p>Cloudflare CASB Remediation lets security teams go beyond visibility to fix risky file sharing in Microsoft 365 and Google Workspace directly from Cloudflare One, all in just a few clicks.</p>
+</blockquote>
+
+<p><img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6lHofCog3FZUg09uvD05ye/afa1a566718d74484ce902f065da17fa/See_risk__fix_risk-_introducing_Remediation_in_Cloudflare_CASB-OG.png" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://blog.cloudflare.com/remediation-in-cloudflare-casb/">Cloudflare Blog</a></td>
+      <td><strong>Category:</strong> security</td>
+      <td><strong>Published:</strong> March 03, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Go" /><category term="Security" /><summary type="html"><![CDATA[Cloudflare CASB Remediation lets security teams go beyond visibility to fix risky file sharing in Microsoft 365 and Google Workspace directly from Cloudfla]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6lHofCog3FZUg09uvD05ye/afa1a566718d74484ce902f065da17fa/See_risk__fix_risk-_introducing_Remediation_in_Cloudflare_CASB-OG.png" /><media:content medium="image" url="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6lHofCog3FZUg09uvD05ye/afa1a566718d74484ce902f065da17fa/See_risk__fix_risk-_introducing_Remediation_in_Cloudflare_CASB-OG.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited</title><link href="https://ipsedigit.github.io/1/security/vulnerability/cve/2026/03/03/top-tech-news-f5ee96b9-1717-11f1-94bc-70a8a51c7c8d.html" rel="alternate" type="text/html" title="Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited" /><published>2026-03-03T15:45:10+00:00</published><updated>2026-03-03T15:45:10+00:00</updated><id>https://ipsedigit.github.io/1/security/vulnerability/cve/2026/03/03/top-tech-news-f5ee96b9-1717-11f1-94bc-70a8a51c7c8d</id><content type="html" xml:base="https://ipsedigit.github.io/1/security/vulnerability/cve/2026/03/03/top-tech-news-f5ee96b9-1717-11f1-94bc-70a8a51c7c8d.html"><![CDATA[<blockquote>
+  <p>Google’s March 2026 Android update patches 129 vulnerabilities, including exploited Qualcomm flaw CVE-2026-21385 and critical RCE CVE-2026-0006.</p>
+</blockquote>
+
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR_pPCmiYZpBkIhumuW9B55rXBX7U9PZto5xPxHsLBbx5EstbqXgUI-XLZkQQV8OCsdaOi5RuSapl0V4LPKX9B_8MDBqSteyX83vXpj7G8-87BBhyphenhyphen75Os_0RhTFWBL_yxr7JVwXXtZ-qdbbugAlw9MoC5mFEx0hfQMncgnDRR8tLlEMXsLiPmim2sTjzNO/s1600/android-exploit.jpg" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html">The Hacker News</a></td>
+      <td><strong>Category:</strong> security / vulnerability</td>
+      <td><strong>Published:</strong> March 03, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Security" /><category term="Vulnerability" /><category term="CVE" /><summary type="html"><![CDATA[Google’s March 2026 Android update patches 129 vulnerabilities, including exploited Qualcomm flaw CVE-2026-21385 and critical RCE CVE-2026-0006.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR_pPCmiYZpBkIhumuW9B55rXBX7U9PZto5xPxHsLBbx5EstbqXgUI-XLZkQQV8OCsdaOi5RuSapl0V4LPKX9B_8MDBqSteyX83vXpj7G8-87BBhyphenhyphen75Os_0RhTFWBL_yxr7JVwXXtZ-qdbbugAlw9MoC5mFEx0hfQMncgnDRR8tLlEMXsLiPmim2sTjzNO/s1600/android-exploit.jpg" /><media:content medium="image" url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR_pPCmiYZpBkIhumuW9B55rXBX7U9PZto5xPxHsLBbx5EstbqXgUI-XLZkQQV8OCsdaOi5RuSapl0V4LPKX9B_8MDBqSteyX83vXpj7G8-87BBhyphenhyphen75Os_0RhTFWBL_yxr7JVwXXtZ-qdbbugAlw9MoC5mFEx0hfQMncgnDRR8tLlEMXsLiPmim2sTjzNO/s1600/android-exploit.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Building Container Images Securely on Kubernetes (2026)</title><link href="https://ipsedigit.github.io/1/go/kubernetes/docker/azure/security/advanced%20persistent%20threat/2026/03/02/top-tech-news-c35dfaa2-15e8-11f1-94bc-7ced8d53c94e.html" rel="alternate" type="text/html" title="Building Container Images Securely on Kubernetes (2026)" /><published>2026-03-02T03:34:47+00:00</published><updated>2026-03-02T03:34:47+00:00</updated><id>https://ipsedigit.github.io/1/go/kubernetes/docker/azure/security/advanced%20persistent%20threat/2026/03/02/top-tech-news-c35dfaa2-15e8-11f1-94bc-7ced8d53c94e</id><content type="html" xml:base="https://ipsedigit.github.io/1/go/kubernetes/docker/azure/security/advanced%20persistent%20threat/2026/03/02/top-tech-news-c35dfaa2-15e8-11f1-94bc-7ced8d53c94e.html"><![CDATA[<blockquote>
+  <p>A post covering how to build container images securely on Kubernetes and why this was even a hard problem in the first place.</p>
+</blockquote>
+
+<p><img src="/img/share.png" alt="Preview" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source:</strong> <a href="https://blog.jessfraz.com/post/building-container-images-securely-on-kubernetes/">Jessie Frazelle</a></td>
+      <td><strong>Category:</strong> cloud / gcp-azure</td>
+      <td><strong>Published:</strong> March 02, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>This article was curated by eof.news — signal for engineers who build.</em></p>]]></content><author><name>ipsedigit</name></author><category term="Go" /><category term="Kubernetes" /><category term="Docker" /><category term="Azure" /><category term="Security" /><category term="Advanced Persistent Threat" /><summary type="html"><![CDATA[A post covering how to build container images securely on Kubernetes and why this was even a hard problem in the first place.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ipsedigit.github.io/1/img/share.png" /><media:content medium="image" url="https://ipsedigit.github.io/1/img/share.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
