@@ -23,6 +23,7 @@ jobs:
         run: |
           cd docs
           bundle exec jekyll build --baseurl "" -d ../_site
+          touch ../_site/.nojekyll
 
       - name: Deploy to gh-pages root
         uses: JamesIves/github-pages-deploy-action@v4
