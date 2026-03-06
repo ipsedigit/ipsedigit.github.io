@@ -76,3 +76,5 @@
 2026-03-06:security:cryptography:breaking
 2026-03-06:devtools:frameworks:deep
 2026-03-06:security:malware:breaking
+2026-03-06:devtools:languages:community
+2026-03-06:ai:llm:deep
