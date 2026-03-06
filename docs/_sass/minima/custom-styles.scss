@@ -1,47 +1,222 @@
-// Global site styles — applied on every page
+// eof.news — dark theme
+// black bg · amber brand · worn niche colors · JetBrains Mono
 
 * { box-sizing: border-box; }
 
 body {
-  background: #fff !important;
-  color: #111 !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  background: #000000 !important;
+  color: #ffffff !important;
+  font-family: 'JetBrains Mono', monospace !important;
   line-height: 1.6;
   font-size: 14px;
 }
 
-// Keep monospace for structural/display elements only
-h1, h2, h3,
-.site-title,
-.site-nav .nav-item,
-code, pre,
-.niche-badge,
-.btn-read,
-.badge-latest {
-  font-family: 'JetBrains Mono', monospace;
-}
-
 .page-content {
-  background: #fff !important;
+  background: #000000 !important;
   padding-top: 1rem;
 }
 
+// ── Header ───────────────────────────────────────────────────────────────────
+
 .site-header {
-  background: #fff !important;
-  border-bottom: 1px solid #eee !important;
+  background: #000000 !important;
+  border-bottom: 2px solid #ffb000 !important;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
 }
 
 .site-title, .site-title:visited {
-  color: #111 !important;
+  color: #ffb000 !important;
   font-weight: 700 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  text-shadow: 0 0 8px rgba(255,176,0,0.3);
+  letter-spacing: 0.02em;
 }
 
-.site-nav .nav-item { color: #666 !important; }
-.site-nav .nav-item:hover { color: #111 !important; }
+.site-nav .nav-item,
+.site-nav .page-link {
+  color: rgba(255,255,255,0.5) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.78rem !important;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+.site-nav .nav-item:hover,
+.site-nav .page-link:hover {
+  color: #ffb000 !important;
+  text-decoration: none !important;
+}
+
+// ── Footer ───────────────────────────────────────────────────────────────────
 
 .site-footer {
-  background: #fafafa !important;
-  border-top: 1px solid #eee !important;
-  color: #666 !important;
+  background: #000000 !important;
+  border-top: 1px solid #2a2a2a !important;
+  color: #555555 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.75rem !important;
 }
-.site-footer a { color: #111 !important; }
+.site-footer a { color: #555555 !important; }
+.site-footer a:hover { color: #ffffff !important; }
+.site-footer .footer-col-wrapper { color: #555555 !important; }
+
+// ── Typography ───────────────────────────────────────────────────────────────
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', monospace !important;
+  color: #ffffff;
+}
+
+a { color: #ffffff; text-decoration: none; }
+a:hover { color: #ffb000; }
+
+p { color: #999999; }
+
+// ── Niche badges ─────────────────────────────────────────────────────────────
+
+.niche-badge {
+  display: inline-block;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: none !important;
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.03em;
+}
+.niche-badge::before { content: "["; opacity: 0.45; }
+.niche-badge::after  { content: "]"; opacity: 0.45; }
+.niche-badge:hover { opacity: 0.8; }
+
+.niche-badge--ai,
+.niche-ai                        { color: #c8982a !important; background: none !important; }
+.niche-badge--security,
+.niche-security                  { color: #9e2828 !important; background: none !important; }
+.niche-badge--cloud,
+.niche-cloud                     { color: #3a6e9e !important; background: none !important; }
+.niche-badge--devtools,
+.niche-devtools                  { color: #2e8a8a !important; background: none !important; }
+.niche-badge--software-engineering,
+.niche-software-engineering      { color: #7a3d9e !important; background: none !important; }
+
+// ── Post cards (shared: homepage + niche pages) ───────────────────────────────
+
+.post-item {
+  background: #111111 !important;
+  border: 1px solid #2a2a2a !important;
+  border-left: 3px solid transparent !important;
+  border-radius: 2px !important;
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+.post-item:hover {
+  background: #1a1a1a !important;
+  border-color: #3a3a3a !important;
+}
+
+.post-item--ai:hover                      { border-left-color: #c8982a !important; }
+.post-item--security:hover                { border-left-color: #9e2828 !important; }
+.post-item--cloud:hover                   { border-left-color: #3a6e9e !important; }
+.post-item--devtools:hover                { border-left-color: #2e8a8a !important; }
+.post-item--software-engineering:hover    { border-left-color: #7a3d9e !important; }
+
+.post-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.97rem;
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.post-title a { color: #ffffff !important; text-decoration: none; }
+.post-title a:hover { color: #ffb000 !important; }
+
+.post-meta { font-size: 0.75rem; color: #666666 !important; margin-bottom: 0.4rem; }
+.post-preview { color: #999999 !important; font-size: 0.82rem; line-height: 1.5; margin: 0.3rem 0 0 0; }
+
+// ── Related posts / tag lists ─────────────────────────────────────────────────
+
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #2a2a2a !important;
+}
+.related-posts h3 { font-size: 0.85rem !important; color: #555555 !important; margin-bottom: 1rem; }
+.related-posts ul { list-style: none; padding: 0; margin: 0; }
+.related-posts li { padding: 0.5rem 0; border-bottom: 1px solid #1a1a1a !important; }
+.related-posts a { color: #999999 !important; }
+.related-posts a:hover { color: #ffb000 !important; }
+
+// ── Source citation ───────────────────────────────────────────────────────────
+
+.source-citation {
+  background: #111111 !important;
+  border-left: 3px solid #ffb000 !important;
+  padding: 1rem;
+  margin: 2rem 0;
+  font-size: 0.85rem;
+}
+.source-citation a { color: #ffb000 !important; }
+.source-citation a:hover { text-decoration: underline; }
+.source-citation .source-name { color: #666666 !important; }
+
+// ── Post why-picked ───────────────────────────────────────────────────────────
+
+.post-why-picked {
+  font-size: 0.78rem;
+  color: #777777 !important;
+  font-style: italic;
+  margin: 0.5rem 0 0 0;
+  padding: 0.4rem 0.75rem;
+  border-left: 2px solid #2e8a8a !important;
+}
+.post-why-picked::before {
+  content: "why this: ";
+  font-weight: 600;
+  font-style: normal;
+  color: #555555 !important;
+}
+
+// ── Tag/niche page headers ────────────────────────────────────────────────────
+
+.tag-header, .niche-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2a2a2a !important;
+}
+.tag-header h1, .niche-header h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #ffffff !important;
+}
+.tag-header p, .niche-header p { color: #666666 !important; margin: 0; font-size: 0.85rem; }
+
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { padding: 0.75rem 0; border-bottom: 1px solid #1a1a1a !important; }
+.post-list li:last-child { border-bottom: none !important; }
+.post-list .date { color: #555555 !important; font-size: 0.8rem; margin-right: 0.75rem; }
+.post-list a { color: #cccccc !important; }
+.post-list a:hover { color: #ffb000 !important; }
+
+// ── Niche chip (niche page header pill) ──────────────────────────────────────
+
+.niche-chip {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: none !important;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 0.5rem;
+}
+.niche-chip::before { content: "["; opacity: 0.45; }
+.niche-chip::after  { content: "]"; opacity: 0.45; }

@@ -53,38 +53,7 @@ layout: base
     margin-bottom: 0.6rem;
     flex-wrap: wrap;
   }
-  .niche-badge {
-    display: inline-block;
-    padding: 0.12rem 0.45rem;
-    border-radius: 3px;
-    font-size: 0.68rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-  .niche-ai       { background: #7c3aed; color: #fff; }
-  .niche-security { background: #dc2626; color: #fff; }
-  .niche-cloud    { background: #0284c7; color: #fff; }
-  .niche-devtools { background: #059669; color: #fff; }
-  .niche-software-engineering { background: #d97706; color: #fff; }
-  .post-source-label {
-    font-size: 0.78rem;
-    color: #999;
-  }
-  .post-why-picked {
-    font-size: 0.78rem;
-    color: #888;
-    font-style: italic;
-    margin: 0.5rem 0 0 0;
-    padding: 0.4rem 0.75rem;
-    border-left: 2px solid #ddd;
-  }
-  .post-why-picked::before {
-    content: "Why this: ";
-    font-weight: 600;
-    font-style: normal;
-    color: #666;
-  }
+  .post-source-label { font-size: 0.75rem; color: #555555; }
   </style>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -104,26 +73,6 @@ layout: base
       {% endif %}
     </p>
   </div>
-  <style>
-  .source-citation {
-    background: #f5f5f5;
-    border-left: 3px solid #0066cc;
-    padding: 1rem;
-    margin: 2rem 0;
-    font-size: 0.9rem;
-  }
-  .source-citation a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-  .source-citation a:hover {
-    text-decoration: underline;
-  }
-  .source-citation .source-name {
-    color: #666;
-    margin-left: 0.5rem;
-  }
-  </style>
   {% endif %}
 
   <!-- Related Posts -->
@@ -152,34 +101,6 @@ layout: base
     </ul>
   </div>
 
-  <style>
-  .related-posts {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid #eee;
-  }
-  .related-posts h3 {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 1rem;
-  }
-  .related-posts ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .related-posts li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #f5f5f5;
-  }
-  .related-posts a {
-    color: #111;
-    text-decoration: none;
-  }
-  .related-posts a:hover {
-    color: #0066cc;
-  }
-  </style>
 
   {% if jekyll.environment == 'production' -%}
     {% if page.comments == false -%}

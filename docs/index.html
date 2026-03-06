@@ -7,190 +7,155 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
 
 
 <style>
-/* Post */
-.post-item {
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 6px;
-  background: #fafafa;
-}
-.post-item:hover {
-  border-color: #ccc;
-}
-
-.post-title {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.4;
-  word-break: break-word;
-  overflow-wrap: anywhere;
-}
-.post-title a {
-  color: #111;
-  text-decoration: none;
-}
-.post-title a:hover {
-  color: #0066cc;
+/* ── ASCII brand ── */
+.ascii-brand {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  line-height: 1.3;
+  color: #ffb000;
+  margin-bottom: 2.5rem;
+  opacity: 0.8;
+  user-select: none;
+  overflow-x: auto;
 }
 
-/* Featured / Latest post */
+/* ── Featured post ── */
 .post-featured {
-  margin-bottom: 2em;
-  padding: 1.25em;
-  border: 1px solid #e5e5e5;
-  border-left: 3px solid #111;
-  border-radius: 6px;
-  background: #fff;
+  margin-bottom: 2rem;
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid #ffb000;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: background 0.15s;
 }
+.post-featured:hover { background: #1a1a1a; }
+
+.post-featured-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  opacity: 0.88;
+}
+.post-featured-body { padding: 1.25rem; }
 .post-featured-meta {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.65rem;
 }
 .badge-latest {
-  padding: 3px 10px;
-  border-radius: 12px;
-  font-size: 0.78em;
-  font-weight: bold;
-  background: #111;
-  color: #fff;
-}
-.post-featured-meta-text {
-  font-size: 0.78em;
-  color: #6b7280;
-}
-.post-featured-title {
-  font-size: 1.1em;
+  font-size: 0.7rem;
   font-weight: 700;
-  margin-bottom: 0.4em;
+  color: #ffb000;
+  letter-spacing: 0.05em;
+}
+.badge-latest::before { content: "★ "; }
+.post-featured-meta-text { font-size: 0.75rem; color: #666666; }
+.post-meta-sep { color: #333333; font-size: 0.75rem; }
+
+.post-featured-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
   word-break: break-word;
   overflow-wrap: anywhere;
 }
-.post-featured-title a {
-  color: #111;
-  text-decoration: none;
-}
-.post-featured-title a:hover {
-  color: #0066cc;
-}
-.post-featured-desc {
-  margin: 0;
-  font-size: 0.88em;
-  color: #374151;
-  line-height: 1.5;
-}
+.post-featured-title a { color: #ffffff; text-decoration: none; }
+.post-featured-title a:hover { color: #ffb000; }
+.post-featured-desc { font-size: 0.83rem; color: #999999; line-height: 1.55; margin: 0; }
 
-.post-meta {
-  font-size: 0.8rem;
-  color: #888;
-  margin-bottom: 0.5rem;
+/* ── List cards ── */
+.post-item {
+  display: flex;
+  gap: 0;
+  overflow: hidden;
 }
-
-.post-tags {
-  display: inline;
-}
-.post-tags a {
-  color: #666;
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-.post-tags a:hover {
-  color: #0066cc;
-}
-.post-tags a::before {
-  content: "#";
-}
-.post-tags a + a {
-  margin-left: 0.5rem;
-}
-
-.post-preview {
-  color: #444;
-  font-size: 0.9rem;
-  margin: 0.5rem 0 0 0;
-  line-height: 1.5;
-}
-
-.post-image {
-  margin-top: 0.75rem;
-}
-.post-image img {
-  max-width: 100%;
-  max-height: 180px;
+.post-item-thumb {
+  width: 130px;
+  min-width: 130px;
+  min-height: 100px;
   object-fit: cover;
-  border-radius: 4px;
+  display: block;
+  opacity: 0.88;
+  border-right: 1px solid #2a2a2a;
+}
+.post-item-body { padding: 0.85rem 1rem; flex: 1; min-width: 0; }
+.post-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.35rem;
 }
 
-/* Ad */
+/* ── Section dividers ── */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2rem 0 1rem;
+}
+.section-header-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-header-line { flex: 1; height: 1px; background: #222222; }
+
+/* ── Post tags ── */
+.post-tags { display: inline; }
+.post-tags a { color: #555555; text-decoration: none; font-size: 0.75rem; }
+.post-tags a:hover { color: #ffb000; }
+.post-tags a::before { content: "#"; }
+.post-tags a + a { margin-left: 0.5rem; }
+
+/* ── Post image (fallback for no-thumb layout) ── */
+.post-image { margin-top: 0.75rem; }
+.post-image img { max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 2px; }
+
+/* ── Ad ── */
 .ad-space {
-  background: #fafafa;
-  border: 1px solid #eee;
+  background: #0d0d0d;
+  border: 1px solid #1f1f1f;
   padding: 1rem;
   margin: 1.5rem 0;
   text-align: center;
   min-height: 90px;
 }
 
-/* Quick nav */
-.quick-nav {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.75rem;
-  font-size: 0.85rem;
-}
-.quick-nav a {
-  color: #666;
-  text-decoration: none;
-}
-.quick-nav a:hover {
-  color: #0066cc;
-}
-
-/* Niche badge */
-.niche-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: #fff;
-  text-decoration: none;
-}
-.niche-badge:hover { opacity: 0.85; }
-.niche-badge--ai { background: #7c3aed; }
-.niche-badge--security { background: #dc2626; }
-.niche-badge--cloud { background: #0284c7; }
-.niche-badge--devtools { background: #059669; }
-.niche-badge--software-engineering { background: #d97706; }
-
-/* Pagination */
+/* ── Pagination ── */
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   margin: 2rem 0;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
 }
 .pagination a {
-  color: #111;
+  color: #555555;
   text-decoration: none;
-  padding: 6px 14px;
-  border: 1px solid #e5e5e5;
-  border-radius: 6px;
+  padding: 5px 14px;
+  border: 1px solid #2a2a2a;
+  border-radius: 2px;
+  transition: color 0.15s, border-color 0.15s;
 }
-.pagination a:hover {
-  background: #f5f5f5;
-  border-color: #ccc;
-}
-.pagination .current-page {
-  color: #888;
-}
+.pagination a:hover { color: #ffffff; border-color: #3a3a3a; }
+.pagination .current-page { color: #444444; }
 </style>
+
+<pre class="ascii-brand">
+              __
+   ___  ___  / _| _ __   _____      _____
+  / _ \/ _ \| |_ | '_ \ / _ \ \ /\ / / __|
+ |  __/ (_) |  _|| | | |  __/\ V  V /\__ \
+  \___|\___/|_|(_)_| |_|\___| \_/\_/ |___/
+</pre>
 
 {% assign featured = paginator.posts | first %}
 {% if featured %}
