@@ -14,6 +14,10 @@ DAILY_TARGET = 12            # Hard cap: max posts per day
 DAILY_MINIMUM = 8            # Soft floor: lower quality threshold if below this
 MAX_PER_TYPE = 4             # Max posts of one content type per day
 
+# --- Niche category weighting (soft preference, not hard filter) ---
+NICHE_CATEGORY_BONUS = 15    # Bonus for preferred niches (AI, Security, Cloud, DevTools, SE)
+OTHER_CATEGORY_PENALTY = 0   # No penalty for non-preferred categories (open to all topics)
+
 # Content type detection patterns (checked in priority order by classify_content_type)
 CONTENT_TYPE_PATTERNS = {
     'community': [

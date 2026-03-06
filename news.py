@@ -23,6 +23,8 @@ from const import (
     DAILY_TARGET,
     DAILY_MINIMUM,
     MAX_PER_TYPE,
+    NICHE_CATEGORY_BONUS,
+    OTHER_CATEGORY_PENALTY,
 )
 from keywords import KEYWORDS
 from bs4 import BeautifulSoup
@@ -105,7 +107,7 @@ def _publish_single_niche(target_niche):
 def find_best_post(exclude_subniches=None, target_niche=None, source_type_filter=None):
     """
     Find the best post across all sources by score.
-    Requires 2+ keyword matches and niche category (AI, Security, Cloud, DevTools, or Software Engineering).
+    Requires 2+ keyword matches. Preferred niches (AI, Security, Cloud, DevTools, SE) get a score bonus.
     Skips sub-niches already covered today to ensure diversity.
     If target_niche is set, only considers posts from that niche.
     If source_type_filter is set (e.g. 'creator'), only considers posts from sources of that type.
@@ -130,8 +132,6 @@ def find_best_post(exclude_subniches=None, target_niche=None, source_type_filter
                     continue
 
                 cat = identify_category(entry)
-                if cat not in NICHE_CATEGORIES:
-                    continue
 
                 if target_niche and cat != target_niche:
                     continue
@@ -256,10 +256,12 @@ def calculate_score(entry, source):
     # Per-source boost
     score += entry.get('source_boost', 0)
 
-    # Niche bonus
+    # Niche category weighting (soft preference for our 5 focus niches)
     cat = entry.get('_category') or identify_category(entry)
     if cat in NICHE_CATEGORIES:
-        score += 10
+        score += NICHE_CATEGORY_BONUS  # Bonus for preferred niches (AI, Security, Cloud, DevTools, SE)
+    else:
+        score += OTHER_CATEGORY_PENALTY  # No penalty for other topics — open to all quality content
 
     # Title pattern bonuses/penalties
     for pattern, bonus in TITLE_BONUS.items():
@@ -373,8 +375,6 @@ def _scan_all_sources():
 
             for entry in entries:
                 cat = identify_category(entry)
-                if cat not in NICHE_CATEGORIES:
-                    continue
 
                 subniche = identify_subniche(entry, cat)
                 entry['_category'] = cat
