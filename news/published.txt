@@ -199,3 +199,5 @@ https://dev.to/cometchat_official_account/how-to-implement-in-app-chat-using-a-c
 https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html
 https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/
 https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/
+https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/
+https://www.infoq.com/news/2026/03/cloudflare-crawler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
