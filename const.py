@@ -4,15 +4,15 @@ PUBLISHED_NEWS_FILE_NAME = "news/published.txt"
 # PUBLISHING STRATEGY
 # =============================================================================
 
-MAX_POSTS_PER_NICHE_PER_DAY = 20  # Increased for testing (was 3)
+MAX_POSTS_PER_NICHE_PER_DAY = 3  # Max 3 posts per niche per day
 DAILY_CATEGORIES_FILE = "news/daily_categories.txt"
 
 # --- Two-pass selection budget ---
 MIN_SCORE = 70               # Quality floor (raised from 50)
 MIN_SCORE_FALLBACK = 60      # Fallback floor on slow news days
-DAILY_TARGET = 100           # Hard cap: max posts per day (increased for testing, was 12)
+DAILY_TARGET = 12            # Hard cap: max posts per day
 DAILY_MINIMUM = 8            # Soft floor: lower quality threshold if below this
-MAX_PER_TYPE = 20            # Max posts of one content type per day (increased for testing, was 4)
+MAX_PER_TYPE = 4             # Max posts of one content type per day
 
 # --- Niche category weighting (soft preference, not hard filter) ---
 NICHE_CATEGORY_BONUS = 15    # Bonus for preferred niches (AI, Security, Cloud, DevTools, SE)
