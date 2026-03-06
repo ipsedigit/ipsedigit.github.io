@@ -1,8 +1,292 @@
 ---
-layout: home
-title: "eof.news — Tech signal for engineers"
-description: "Curated tech news: AI, security, cloud, devtools. No noise."
-keywords: "tech news, AI, security, cloud, devtools, software engineering"
-list_title: "archive"
+layout: base
+title: "eof.news — Today's tech signal for engineers who build"
+description: "Daily curated tech signal: AI, security, cloud, devtools. For engineers who build. No noise."
+keywords: "tech news, AI news, security news, cloud computing, developer tools, software engineering, devops, kubernetes, programming, trending tech"
 ---
 
+
+<style>
+/* Post */
+.post-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.post-item:hover {
+  border-color: #ccc;
+}
+
+.post-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.post-title a {
+  color: #111;
+  text-decoration: none;
+}
+.post-title a:hover {
+  color: #0066cc;
+}
+
+/* Featured / Latest post */
+.post-featured {
+  margin-bottom: 2em;
+  padding: 1.25em;
+  border: 1px solid #e5e5e5;
+  border-left: 3px solid #111;
+  border-radius: 6px;
+  background: #fff;
+}
+.post-featured-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 0.6em;
+}
+.badge-latest {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.78em;
+  font-weight: bold;
+  background: #111;
+  color: #fff;
+}
+.post-featured-meta-text {
+  font-size: 0.78em;
+  color: #6b7280;
+}
+.post-featured-title {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.post-featured-title a {
+  color: #111;
+  text-decoration: none;
+}
+.post-featured-title a:hover {
+  color: #0066cc;
+}
+.post-featured-desc {
+  margin: 0;
+  font-size: 0.88em;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.post-tags {
+  display: inline;
+}
+.post-tags a {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.post-tags a:hover {
+  color: #0066cc;
+}
+.post-tags a::before {
+  content: "#";
+}
+.post-tags a + a {
+  margin-left: 0.5rem;
+}
+
+.post-preview {
+  color: #444;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0;
+  line-height: 1.5;
+}
+
+.post-image {
+  margin-top: 0.75rem;
+}
+.post-image img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Ad */
+.ad-space {
+  background: #fafafa;
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  min-height: 90px;
+}
+
+/* Quick nav */
+.quick-nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+}
+.quick-nav a {
+  color: #666;
+  text-decoration: none;
+}
+.quick-nav a:hover {
+  color: #0066cc;
+}
+
+/* Niche badge */
+.niche-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.niche-badge:hover { opacity: 0.85; }
+.niche-badge--ai { background: #7c3aed; }
+.niche-badge--security { background: #dc2626; }
+.niche-badge--cloud { background: #0284c7; }
+.niche-badge--devtools { background: #059669; }
+.niche-badge--software-engineering { background: #d97706; }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+}
+.pagination a {
+  color: #111;
+  text-decoration: none;
+  padding: 6px 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+.pagination a:hover {
+  background: #f5f5f5;
+  border-color: #ccc;
+}
+.pagination .current-page {
+  color: #888;
+}
+</style>
+
+{% assign featured = paginator.posts | first %}
+{% if featured %}
+<div class="post-featured">
+  <div class="post-featured-meta">
+    <span class="badge-latest">&#9733; Latest</span>
+    <span class="post-featured-meta-text">
+      {% if featured.source %}{{ featured.source }} &middot; {% endif %}
+      {{ featured.date | date: "%b %d, %Y" }}
+      {% if featured.niche_category %}
+        &middot; <a href="/niche/{{ featured.niche_category }}/" class="niche-badge niche-badge--{{ featured.niche_category }}">{{ featured.niche_category }}</a>
+      {% endif %}
+    </span>
+  </div>
+  <div class="post-featured-title">
+    {% if featured.external_url %}
+    <a href="{{ featured.external_url }}" target="_blank" rel="noopener">{{ featured.title }}</a>
+    {% else %}
+    <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+    {% endif %}
+  </div>
+  {% if featured.description %}
+  <p class="post-featured-desc">{{ featured.description | truncate: 200 }}</p>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if site.adsense_id %}
+<div class="ad-space" id="ad-top">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="TOP" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}
+
+{% assign post_count = 0 %}
+{% for post in paginator.posts offset:1 %}
+{% assign post_count = post_count | plus: 1 %}
+
+<article class="post-item">
+  <h2 class="post-title">
+    {% if post.external_url %}
+    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    {% else %}
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h2>
+  <div class="post-meta">
+    {{ post.date | date: "%b %d, %Y" }}
+    {% if post.source %} · {{ post.source }}{% endif %}
+    {% if post.niche_category %}
+      · <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-badge--{{ post.niche_category }}">{{ post.niche_category }}</a>
+    {% endif %}
+    {% if post.categories.size > 0 %}
+    · <span class="post-tags">
+      {% for category in post.categories %}
+      {% assign tag_slug = category | slugify: "latin" %}
+      <a href="/tags/{{ tag_slug }}/">{{ category }}</a>
+      {% endfor %}
+    </span>
+    {% endif %}
+  </div>
+  {% if post.description %}
+  <p class="post-preview">{{ post.description | truncate: 160 }}</p>
+  {% endif %}
+  {% if post.image %}
+  <div class="post-image">
+    <img src="{{ post.image }}" alt="" loading="lazy">
+  </div>
+  {% endif %}
+</article>
+
+{% assign mod = post_count | modulo: 8 %}
+{% if mod == 0 and site.adsense_id %}
+<div class="ad-space">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="MID" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&#8592; Newer</a>
+  {% endif %}
+  <span class="current-page">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Older &#8594;</a>
+  {% endif %}
+</nav>
+{% endif %}
+
+{% if site.adsense_id %}
+<div class="ad-space" id="ad-bottom">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense_id }}" data-ad-slot="BOTTOM" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}
