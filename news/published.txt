@@ -193,3 +193,4 @@ https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets
 https://kubernetes.io/blog/2025/12/18/kubernetes-v1-35-job-managedby-for-jobs-goes-ga/
 https://blog.cloudflare.com/cloudflare-threat-intelligence-platform/
 https://developers.googleblog.com/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/
+https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/
