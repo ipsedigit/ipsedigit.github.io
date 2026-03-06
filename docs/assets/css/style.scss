@@ -1,39 +1,74 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Retro Minimal Nerd Theme - Terminal Aesthetic
 ---
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+/* ============================================================================
+   RETRO TERMINAL THEME - Minimal Nerd Aesthetic
+   ============================================================================ */
+
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
+  background: #0a0a0a;
+  color: #e8e8e8;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.wrapper {
+  max-width: 900px !important;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============================================================================
+   HEADER - Terminal Prompt Style
+   ============================================================================ */
+
 .site-header {
-  border-top: none !important;
+  background: #111;
+  border-top: 3px solid #00ff00 !important;
+  border-bottom: 1px solid #333;
+  padding: 1rem 0;
 }
 
 .site-header .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 1rem;
-}
-
-.logo {
-  margin-right: 0.5rem;
-  display: flex;
-  align-items: center;
 }
 
 .site-brand {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.site-logo {
+  display: none; /* Hide logo for ultra minimal look */
 }
 
 .site-title {
-  float: none !important;
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'IBM Plex Mono', monospace !important;
   font-weight: 700 !important;
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
+  color: #00ff00 !important;
   letter-spacing: -0.5px;
+  float: none !important;
+}
+
+.site-title::before {
+  content: '$ ';
+  color: #666;
 }
 
 .site-nav {
@@ -41,15 +76,378 @@
   position: static !important;
   display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 
-.site-nav .page-link {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.85rem;
-  color: #666 !important;
+.nav-trigger,
+.menu-icon {
+  display: none !important;
+}
+
+.nav-items {
+  display: flex !important;
+  gap: 1rem;
+}
+
+.nav-item {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: #888 !important;
   text-decoration: none;
+  border: 1px solid #333;
+  padding: 0.25rem 0.75rem;
+  transition: all 0.2s;
 }
 
-.site-nav .page-link:hover {
-  color: #111 !important;
+.nav-item:hover {
+  color: #00ff00 !important;
+  border-color: #00ff00;
+  background: rgba(0, 255, 0, 0.05);
+}
+
+/* ============================================================================
+   MAIN CONTENT - Terminal Output Style
+   ============================================================================ */
+
+.page-content {
+  background: #0a0a0a;
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
+}
+
+/* Hero Post - Featured Terminal Block */
+.hero-post {
+  background: #111;
+  border: 1px solid #333;
+  border-left: 3px solid #00ff00;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.hero-post::before {
+  content: '▶';
+  position: absolute;
+  left: -2px;
+  top: 1.5rem;
+  color: #00ff00;
+  font-size: 0.7rem;
+}
+
+.hero-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  color: #666;
+  flex-wrap: wrap;
+}
+
+.post-date {
+  color: #888;
+}
+
+.niche-badge {
+  background: rgba(0, 255, 0, 0.1);
+  color: #00ff00;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid #00ff00;
+  text-decoration: none;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.niche-badge:hover {
+  background: rgba(0, 255, 0, 0.2);
+}
+
+.hero-source {
+  color: #666;
+  font-style: italic;
+}
+
+.hero-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 1rem 0;
+}
+
+.hero-title a {
+  color: #e8e8e8;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.hero-title a:hover {
+  border-bottom-color: #00ff00;
+}
+
+.hero-description {
+  color: #aaa;
+  margin: 0.75rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.why-picked {
+  font-size: 0.75rem;
+  color: #666;
+  border-left: 2px solid #333;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.hero-actions {
+  margin-top: 1rem;
+}
+
+.btn-read {
+  display: inline-block;
+  background: transparent;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.btn-read:hover {
+  background: rgba(0, 255, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+/* Archive List - Terminal Log Style */
+.post-list-heading {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #222;
+}
+
+.post-list-heading::before {
+  content: '// ';
+  color: #444;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #1a1a1a;
+  transition: padding-left 0.2s;
+}
+
+.post-list li:hover {
+  padding-left: 1rem;
+  background: rgba(0, 255, 0, 0.02);
+}
+
+.post-list-meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.post-meta {
+  color: #666;
+}
+
+.post-list h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  line-height: 1.4;
+}
+
+.post-link {
+  color: #e8e8e8;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.post-link:hover {
+  color: #00ff00;
+  border-bottom-color: #00ff00;
+}
+
+.post-link::before {
+  content: '→ ';
+  color: #444;
+  margin-right: 0.25rem;
+}
+
+.post-list li:hover .post-link::before {
+  color: #00ff00;
+}
+
+.post-source {
+  font-size: 0.7rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Pagination - Terminal Style */
+.pager {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.pagination {
+  display: inline-flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline;
+}
+
+.pagination a,
+.current-page,
+.pager-edge {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  background: #111;
+  border: 1px solid #333;
+  color: #888;
+  text-decoration: none;
+  font-size: 0.8rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+.pagination a:hover {
+  background: rgba(0, 255, 0, 0.1);
+  border-color: #00ff00;
+  color: #00ff00;
+}
+
+.current-page {
+  background: rgba(0, 255, 0, 0.1);
+  border-color: #00ff00;
+  color: #00ff00;
+}
+
+/* ============================================================================
+   FOOTER - Terminal End
+   ============================================================================ */
+
+.site-footer {
+  background: #111;
+  border-top: 1px solid #333;
+  padding: 2rem 0 1rem 0;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+}
+
+.footer-col-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-col {
+  color: #666;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.25rem;
+}
+
+.footer-col a {
+  color: #888;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.footer-col a:hover {
+  color: #00ff00;
+  border-bottom-color: #00ff00;
+}
+
+.footer-nav {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #222;
+}
+
+.footer-nav a {
+  color: #666;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-size: 0.75rem;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.footer-nav a:hover {
+  color: #00ff00;
+  border-bottom-color: #00ff00;
+}
+
+.social-links {
+  margin-top: 1rem;
+  opacity: 0.5;
+}
+
+/* ============================================================================
+   RESPONSIVE
+   ============================================================================ */
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .site-header .wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-col-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hero-post {
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.2rem;
+  }
 }
