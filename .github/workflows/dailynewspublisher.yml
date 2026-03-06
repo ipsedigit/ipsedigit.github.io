@@ -2,15 +2,8 @@ name: Daily News Publisher
 
 on:
   schedule:
-    # Run 8 times/day: every 4 hours around the clock (UTC)
-    - cron: '0 1 * * *'
-    - cron: '0 3 * * *'
-    - cron: '0 5 * * *'
-    - cron: '0 7 * * *'
-    - cron: '0 11 * * *'
-    - cron: '0 15 * * *'
-    - cron: '0 19 * * *'
-    - cron: '0 23 * * *'
+    # Run every 10 minutes for fast testing (temporary schedule)
+    - cron: '*/10 * * * *'
   workflow_dispatch:
     inputs:
       niche:
