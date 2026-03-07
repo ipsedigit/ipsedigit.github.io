@@ -8,6 +8,8 @@
 
 .site-header {
   border-top: none !important;
+  background: #000000 !important;
+  border-bottom: 2px solid #ffb000 !important;
 }
 
 .site-header .wrapper {
@@ -33,7 +35,9 @@
   font-family: 'JetBrains Mono', monospace !important;
   font-weight: 700 !important;
   font-size: 1.1rem !important;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.02em;
+  color: #ffb000 !important;
+  text-shadow: 0 0 8px rgba(255,176,0,0.3);
 }
 
 .site-nav {
@@ -45,11 +49,11 @@
 
 .site-nav .page-link {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.85rem;
-  color: #666 !important;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5) !important;
   text-decoration: none;
 }
 
 .site-nav .page-link:hover {
-  color: #111 !important;
+  color: #ffb000 !important;
 }
