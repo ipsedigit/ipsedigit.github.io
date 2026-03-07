@@ -202,3 +202,5 @@ https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemi
 https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/
 https://www.infoq.com/news/2026/03/cloudflare-crawler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/
+https://dev.to/vitalii_petrenko_dev/i-checked-what-security-vulnerabilities-ai-coding-tools-actually-introduce-1cjd
+https://dev.to/rafacalderon/how-i-built-a-crdt-engine-for-a-collaborative-whiteboard-in-rust-41kl
