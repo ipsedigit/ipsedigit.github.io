@@ -201,3 +201,4 @@ https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/
 https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/
 https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/
 https://www.infoq.com/news/2026/03/cloudflare-crawler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/
