@@ -3,12 +3,48 @@
 
 * { box-sizing: border-box; }
 
+// Override Minima's CSS variables — this is what actually controls _base.scss colors
+:root {
+  --minima-background-color:      #000000;
+  --minima-code-background-color: #111111;
+  --minima-text-color:            #ffffff;
+  --minima-heading-color:         #ffffff;
+  --minima-link-base-color:       #ffffff;
+  --minima-link-visited-color:    #ffffff;
+  --minima-link-hover-color:      #ffb000;
+  --minima-brand-color:           #555555;
+  --minima-brand-color-light:     #333333;
+  --minima-brand-color-dark:      #888888;
+  --minima-site-title-color:      #ffb000;
+  --minima-border-color-01:       #2a2a2a;
+  --minima-border-color-02:       #2a2a2a;
+  --minima-border-color-03:       #3a3a3a;
+}
+
+html {
+  background: #000000;
+}
+
 body {
   background: #000000 !important;
   color: #ffffff !important;
   font-family: 'JetBrains Mono', monospace !important;
   line-height: 1.6;
   font-size: 14px;
+}
+
+// Kill the grey pre/code background from Minima
+pre, code {
+  background-color: #111111 !important;
+  border: 1px solid #2a2a2a !important;
+  color: #cccccc !important;
+}
+
+// The ASCII art pre specifically needs transparent/black bg
+pre.ascii-brand {
+  background: #000000 !important;
+  border: none !important;
+  color: #ffb000 !important;
 }
 
 .page-content {
