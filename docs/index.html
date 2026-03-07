@@ -125,9 +125,9 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
 
 /* ── Mobile ── */
 @media (max-width: 640px) {
-  .post-featured-img { height: 140px; }
   .post-featured-title { font-size: 1rem; }
   .post-image img { height: 140px; }
+  .post-image--featured img { height: 160px; }
 }
 
 /* ── Pagination ── */
@@ -181,6 +181,11 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
   </div>
   {% if featured.description %}
   <p class="post-featured-desc">{{ featured.description | truncate: 200 }}</p>
+  {% endif %}
+  {% if featured.image %}
+  <div class="post-image post-image--featured">
+    <img src="{{ featured.image }}" alt="" loading="lazy">
+  </div>
   {% endif %}
 </div>
 {% endif %}
