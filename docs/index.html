@@ -130,6 +130,20 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
   min-height: 90px;
 }
 
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .post-item { flex-direction: column; }
+  .post-item-thumb {
+    width: 100%;
+    min-width: unset;
+    height: 130px;
+    border-right: none;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .post-featured-img { height: 140px; }
+  .post-featured-title { font-size: 1rem; }
+}
+
 /* ── Pagination ── */
 .pagination {
   display: flex;
