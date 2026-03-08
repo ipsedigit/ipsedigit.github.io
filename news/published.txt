@@ -204,3 +204,5 @@ https://www.infoq.com/news/2026/03/cloudflare-crawler/?utm_campaign=infoq_conten
 https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/
 https://dev.to/vitalii_petrenko_dev/i-checked-what-security-vulnerabilities-ai-coding-tools-actually-introduce-1cjd
 https://dev.to/rafacalderon/how-i-built-a-crdt-engine-for-a-collaborative-whiteboard-in-rust-41kl
+https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html
+https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/
