@@ -206,3 +206,4 @@ https://dev.to/vitalii_petrenko_dev/i-checked-what-security-vulnerabilities-ai-c
 https://dev.to/rafacalderon/how-i-built-a-crdt-engine-for-a-collaborative-whiteboard-in-rust-41kl
 https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html
 https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/
+https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/
