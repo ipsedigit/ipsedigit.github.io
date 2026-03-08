@@ -207,3 +207,5 @@ https://dev.to/rafacalderon/how-i-built-a-crdt-engine-for-a-collaborative-whiteb
 https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html
 https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/
 https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/
+https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/
