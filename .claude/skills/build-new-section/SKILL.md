@@ -51,6 +51,15 @@ Work top-to-bottom. All steps are required.
 - New CSS goes in `docs/_sass/minima/custom-styles.scss` only if truly needed
 - Keep parity with the homepage visual structure: card or list of items, meta row (date · source), optional badge
 
+#### Visual and structural consistency (mandatory)
+
+The page must look and feel like the homepage when rendered. This is non-negotiable.
+
+- **Do not modify `header.html`, `base.html`, or any shared include** to add section-specific elements. The header is an invariant across all pages.
+- **Do not add section-specific chrome above the content** (no extra hero blocks, no duplicate title bars, no decorative elements that only appear on one page).
+- The section layout controls only the content area — the wrapper between `<main>` tags. Everything outside it (header, footer, nav) is shared and must remain untouched.
+- Before shipping, open the homepage and the new section side by side and verify: same header, same nav, same footer, same font, same background, same spacing feel.
+
 ### 4. Landing page (`docs/<section>/index.md`)
 
 ```yaml
@@ -94,6 +103,8 @@ Copy the structure from `dailynewspublisher.yml`. Key fields to set:
 | Permalink in landing page doesn't match nav link href | They must be identical |
 | Adding the section to `main.py` but not to a workflow | Without a workflow, the data never refreshes |
 | External Python deps | Stdlib + feedparser + bs4 + requests only |
+| Modifying `header.html` or `base.html` for a section | Never touch shared includes for section-specific needs |
+| Section looks different from the homepage | Reuse existing classes; open both pages side by side before finishing |
 
 ---
 
