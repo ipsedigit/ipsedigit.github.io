@@ -297,3 +297,21 @@ p { color: #999999; }
   .pagination { font-size: 0.72rem; gap: 0.6rem; }
   .pagination a { padding: 4px 10px; }
 }
+
+// ── Devlogs page ──────────────────────────────────────────────────────────────
+
+.devlogs-header { margin-bottom: 1.5rem; }
+.devlogs-title { font-size: 1.3rem; font-weight: 700; margin: 0 0 0.4rem 0; color: #ffffff !important; }
+.devlogs-subtitle { color: #666666 !important; font-size: 0.85rem; margin: 0; }
+.devlogs-empty { color: #555555 !important; font-size: 0.85rem; }
+.devlogs-updated { color: #444444 !important; font-size: 0.75rem; margin-top: 2rem; }
+
+.author-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #5a9a8a !important;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.author-badge:hover { color: #7abcac !important; }

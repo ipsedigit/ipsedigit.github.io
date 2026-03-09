@@ -1,0 +1,36 @@
+---
+layout: base
+---
+<div class="devlogs-page">
+
+  <div class="devlogs-header">
+    <h1 class="devlogs-title">Devlogs</h1>
+    <p class="devlogs-subtitle">Fresh posts from individual developer blogs, updated daily.</p>
+  </div>
+
+  {% if site.data.devlogs.items and site.data.devlogs.items.size > 0 %}
+    <div class="post-list">
+      {% for item in site.data.devlogs.items %}
+      <article class="post-item">
+        <h2 class="post-title">
+          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        </h2>
+        <div class="post-meta">
+          <a class="author-badge" href="{{ item.author_url }}" target="_blank" rel="noopener">{{ item.author }}</a>
+          &nbsp;·&nbsp;{{ item.date }}
+        </div>
+        {% if item.summary %}
+        <p class="post-preview">{{ item.summary }}</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="devlogs-empty">No posts yet — check back soon.</p>
+  {% endif %}
+
+  {% if site.data.devlogs.generated_at != "" %}
+  <p class="devlogs-updated">Last updated: {{ site.data.devlogs.generated_at | date: "%b %d, %Y" }}</p>
+  {% endif %}
+
+</div>

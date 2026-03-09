@@ -6,6 +6,9 @@ def main(action: str, niche: str = None):
         case "news":
             from news import publish_news
             publish_news(target_niche=niche)
+        case "devlogs":
+            from devlogs import publish_devlogs
+            publish_devlogs()
         case _:
             from news import publish_news
             publish_news(target_niche=niche)

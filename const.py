@@ -661,6 +661,9 @@ NEWS_SOURCES = {
 
 }
 
+# Devlogs section: personal blogs by individual developers (TIER 9)
+DEVLOGS_SOURCES = {k: v for k, v in NEWS_SOURCES.items() if v.get('type') == 'creator'}
+
 # =============================================================================
 # SCORING
 # =============================================================================
