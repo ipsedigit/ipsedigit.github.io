@@ -5,6 +5,8 @@
 
   <div class="wrapper">
 
+    <p style="margin-bottom:0.5em;">{{ site.description | escape }}</p>
+
     <div class="footer-col-wrapper">
       <div class="footer-col">
       {%- if site.author %}
@@ -17,9 +19,6 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
