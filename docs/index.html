@@ -160,7 +160,7 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
 </pre>
 
 {% assign featured = paginator.posts | first %}
-{% if featured %}
+{% if featured and featured.title and featured.title != "" %}
 <div class="post-featured">
   <div class="post-featured-meta">
     <span class="badge-latest">&#9733; Latest</span>

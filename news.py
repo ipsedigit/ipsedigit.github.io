@@ -618,7 +618,7 @@ def create_post(news):
 
     raw_title = news["title"]
     seo_title = _seo_title(raw_title, now.year)
-    safe_title = seo_title.replace('"', "'")
+    safe_title = seo_title.replace('\\', '').replace('"', "'")
     description = news.get("preview", "")[:155].replace('"', "'").replace("\n", " ")
     why_picked = news.get("why_picked", "")
 
