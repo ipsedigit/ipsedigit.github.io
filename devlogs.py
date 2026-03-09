@@ -51,6 +51,8 @@ def _scan_devlogs(published, cutoff):
                 tags = [label for kw, label in KEYWORDS.items()
                         if re.search(rf'\b{re.escape(kw)}\b', combined, re.IGNORECASE)]
 
+                rss_summary = re.sub(r'<[^>]+>', '', summary).strip()[:200]
+
                 entry = {
                     'title': title,
                     'link': link,
@@ -61,6 +63,7 @@ def _scan_devlogs(published, cutoff):
                     'community_score': 0,
                     '_category': 'devlogs',
                     'content_type': 'community',
+                    '_rss_summary': rss_summary,
                 }
                 entry['score'] = calculate_score(entry, source)
                 candidates.append(entry)
@@ -89,17 +92,18 @@ def publish_devlogs():
     rotated = [e for e in candidates if e['source'] != last_author]
     pick_from = rotated if rotated else candidates
 
-    for entry in pick_from:
-        result = fetch_preview(entry)
-        if not result:
-            continue
+    entry = pick_from[0]
+    rss_summary = entry.pop('_rss_summary', '')
 
-        result['section'] = 'devlogs'
-        create_post(result)
-        track_published(result['link'], PUBLISHED_NEWS_FILE_NAME)
-        _write_last_author(result['source'])
+    result = fetch_preview(entry)
+    if not result:
+        # Fall back to RSS summary — personal blogs often lack OG meta tags
+        entry['preview'] = rss_summary
+        result = entry
 
-        print(f"✅ [devlogs] {result['source']}: {result['title'][:60]}")
-        return
+    result['section'] = 'devlogs'
+    create_post(result)
+    track_published(result['link'], PUBLISHED_NEWS_FILE_NAME)
+    _write_last_author(result['source'])
 
-    print("❌ Could not fetch preview for any devlog candidate")
+    print(f"✅ [devlogs] {result['source']}: {result['title'][:60]}")
