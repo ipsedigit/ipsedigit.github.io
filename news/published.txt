@@ -215,3 +215,4 @@ https://blog.cloudflare.com/vulnerability-scanner/
 https://dev.to/ritam369/a-gentle-introduction-to-the-foundation-of-nodejs-architecture-bfe
 https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything
 http://antirez.com/news/161
+https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything
