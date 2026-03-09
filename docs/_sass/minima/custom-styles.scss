@@ -277,7 +277,7 @@ p { color: #999999; }
   .wrapper { padding: 1rem !important; }
 
   // ASCII art: scale down on mobile instead of hiding
-  .ascii-brand { font-size: clamp(0.38rem, 1.7vw, 0.82rem); overflow-x: auto; }
+  .ascii-brand { font-size: 0.6rem; overflow-x: auto; }
 
   // Featured post: shorter image on mobile
   .post-featured-img { height: 140px; }
