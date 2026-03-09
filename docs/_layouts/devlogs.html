@@ -8,29 +8,27 @@ layout: base
     <p class="devlogs-subtitle">Fresh posts from individual developer blogs, updated daily.</p>
   </div>
 
-  {% if site.data.devlogs.items and site.data.devlogs.items.size > 0 %}
+  {% assign devlog_posts = site.posts | where: "section", "devlogs" %}
+
+  {% if devlog_posts.size > 0 %}
     <div class="post-list">
-      {% for item in site.data.devlogs.items %}
+      {% for post in devlog_posts limit: 30 %}
       <article class="post-item">
         <h2 class="post-title">
-          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+          <a href="{{ post.external_url | default: post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
         </h2>
         <div class="post-meta">
-          <a class="author-badge" href="{{ item.author_url }}" target="_blank" rel="noopener">{{ item.author }}</a>
-          &nbsp;·&nbsp;{{ item.date }}
+          <a class="author-badge" href="{{ post.external_url | default: post.url }}" target="_blank" rel="noopener">{{ post.source }}</a>
+          &nbsp;·&nbsp;{{ post.date | date: "%b %d, %Y" }}
         </div>
-        {% if item.summary %}
-        <p class="post-preview">{{ item.summary }}</p>
+        {% if post.description %}
+        <p class="post-preview">{{ post.description }}</p>
         {% endif %}
       </article>
       {% endfor %}
     </div>
   {% else %}
     <p class="devlogs-empty">No posts yet — check back soon.</p>
-  {% endif %}
-
-  {% if site.data.devlogs.generated_at != "" %}
-  <p class="devlogs-updated">Last updated: {{ site.data.devlogs.generated_at | date: "%b %d, %Y" }}</p>
   {% endif %}
 
 </div>
