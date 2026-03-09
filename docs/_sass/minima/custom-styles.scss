@@ -40,11 +40,20 @@ pre, code {
   color: #cccccc !important;
 }
 
-// The ASCII art pre specifically needs transparent/black bg
+// The ASCII art pre — consistent across all pages
 pre.ascii-brand {
   background: #000000 !important;
   border: none !important;
   color: #ffb000 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.82rem;
+  line-height: 1.3;
+  opacity: 0.8;
+  user-select: none;
+  overflow-x: auto;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 176, 0, 0.15) !important;
 }
 
 .page-content {
@@ -57,6 +66,12 @@ pre.ascii-brand {
 .site-header {
   background: #000000 !important;
   border-bottom: 2px solid #ffb000 !important;
+
+  .wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
 }
 
 .site-brand {
