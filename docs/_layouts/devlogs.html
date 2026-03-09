@@ -8,7 +8,7 @@ layout: base
     <p class="devlogs-subtitle">Fresh posts from individual developer blogs, updated daily.</p>
   </div>
 
-  {% assign devlog_posts = site.posts | where: "section", "devlogs" %}
+  {% assign devlog_posts = site.devlogs | sort: "date" | reverse %}
 
   {% if devlog_posts.size > 0 %}
     <div class="post-list">

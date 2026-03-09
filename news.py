@@ -653,8 +653,6 @@ def create_post(news):
         if why_picked:
             f.write(f'why_picked: "{why_picked}"\n')
         f.write(f'score: {news.get("score", 0)}\n')
-        if news.get('section'):
-            f.write(f'section: {news["section"]}\n')
         f.write("---\n\n")
         f.write(f"> {news.get('preview', '')}\n\n")
         if "image" in news:

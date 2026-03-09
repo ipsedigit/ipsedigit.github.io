@@ -57,6 +57,11 @@ defaults:
       layout: "post"
       author: "ipsedigit"
 
+# Collections
+collections:
+  devlogs:
+    output: false   # no individual post pages needed
+
 # Build settings
 theme: minima
 paginate: 15

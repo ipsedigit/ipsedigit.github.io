@@ -1,14 +1,43 @@
 import feedparser
 import os
 import re
+import uuid
 from datetime import datetime, timezone, timedelta
 from utils import read_text_file, track_published
 from const import DEVLOGS_SOURCES, PUBLISHED_NEWS_FILE_NAME
-from news import fetch_preview, create_post, calculate_score, _parse_feed_date
+from news import fetch_preview, calculate_score, _parse_feed_date
 from keywords import KEYWORDS
 
 DEVLOGS_LAST_AUTHOR_FILE = "news/devlogs_last_author.txt"
 LOOKBACK_DAYS = 30
+
+
+def _create_devlog_post(entry):
+    """Write a Jekyll document to docs/_devlogs/ (separate collection, never shown on home)."""
+    now = datetime.now(timezone.utc)
+    post_id = str(uuid.uuid1())
+    os.makedirs('docs/_devlogs', exist_ok=True)
+    file_name = f"docs/_devlogs/{now.strftime('%Y-%m-%d')}-{post_id}.md"
+
+    safe_title = entry['title'].replace('\\', '').replace('"', "'")
+    description = entry.get('preview', '')[:155].replace('"', "'").replace('\n', ' ')
+    external_url = entry['link']
+    source_name = entry.get('source', '')
+    tags = entry.get('tags', [])
+
+    with open(file_name, 'w', encoding='utf-8') as f:
+        f.write('---\n')
+        f.write(f'title: "{safe_title}"\n')
+        f.write(f'date: {now.strftime("%Y-%m-%d %H:%M:%S %z")}\n')
+        f.write(f'external_url: {external_url}\n')
+        f.write(f'source: {source_name}\n')
+        f.write(f'description: "{description}"\n')
+        if 'image' in entry:
+            f.write(f'image: {entry["image"]}\n')
+        f.write('categories:\n')
+        for tag in tags:
+            f.write(f'  - {tag}\n')
+        f.write('---\n')
 
 
 def _read_last_author():
@@ -101,8 +130,7 @@ def publish_devlogs():
         entry['preview'] = rss_summary
         result = entry
 
-    result['section'] = 'devlogs'
-    create_post(result)
+    _create_devlog_post(result)
     track_published(result['link'], PUBLISHED_NEWS_FILE_NAME)
     _write_last_author(result['source'])
 
