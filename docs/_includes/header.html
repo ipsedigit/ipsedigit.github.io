@@ -1,10 +1,9 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-brand" href="{{ '/' | relative_url }}" style="text-decoration:none;"><pre class="ascii-brand" style="margin:0;">              __
-   ___  ___  / _| _ __   _____      _____
-  / _ \/ _ \| |_ | '_ \ / _ \ \ /\ / / __|
- |  __/ (_) |  _|| | | |  __/\ V  V /\__ \
-  \___|\___/|_|(_)_| |_|\___| \_/\_/ |___/</pre></a>
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <img class="site-logo" src="/assets/images/logo.svg" alt="{{ site.title | escape }}" width="28" height="28" />
+      <span class="site-title">{{ site.title | escape }}</span>
+    </a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
