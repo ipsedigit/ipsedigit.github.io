@@ -213,3 +213,4 @@ https://kubernetes.io/blog/2025/09/16/kubernetes-v1-34-volume-group-snapshot-bet
 https://thenewstack.io/openai-launches-gpt-5-4/
 https://blog.cloudflare.com/vulnerability-scanner/
 https://dev.to/ritam369/a-gentle-introduction-to-the-foundation-of-nodejs-architecture-bfe
+https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything
