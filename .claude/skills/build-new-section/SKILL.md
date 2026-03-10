@@ -60,6 +60,10 @@ The page must look and feel like the homepage when rendered. This is non-negotia
 - The section layout controls only the content area — the wrapper between `<main>` tags. Everything outside it (header, footer, nav) is shared and must remain untouched.
 - Before shipping, open the homepage and the new section side by side and verify: same header, same nav, same footer, same font, same background, same spacing feel.
 
+#### Workflow consistency (mandatory)
+
+update CLAUDE.md file with the new structure of the project
+
 ### 4. Landing page (`docs/<section>/index.md`)
 
 ```yaml
