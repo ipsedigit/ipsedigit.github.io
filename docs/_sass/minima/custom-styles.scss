@@ -432,3 +432,50 @@ p { color: #999999; }
 .news-header { margin-bottom: 1.5rem; }
 .news-title { font-size: 1.3rem; font-weight: 700; margin: 0 0 0.4rem; color: #ffffff; }
 .news-subtitle { color: #666666; font-size: 0.85rem; margin: 0; }
+
+// ── Pagination controls (News: server-side; Devlogs/Logbook: JS) ──
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid #2a2a2a;
+}
+
+.pagination-btn {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #ffb000;
+  border: 1px solid #ffb000;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+  background: transparent;
+
+  &:hover {
+    background: #ffb000;
+    color: #000000;
+  }
+}
+
+.pagination-btn--disabled {
+  color: #444444;
+  border-color: #2a2a2a;
+  cursor: default;
+
+  &:hover {
+    background: transparent;
+    color: #444444;
+  }
+}
+
+.pagination-info {
+  font-size: 0.78rem;
+  color: #666666;
+  white-space: nowrap;
+}

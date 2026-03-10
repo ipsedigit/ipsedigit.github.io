@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="logbook-feed">
+<div class="logbook-feed" id="logbook-feed">
 
   {% assign entries = site.logbook | sort: 'date' | reverse %}
 
@@ -10,7 +10,7 @@ layout: base
     <p class="logbook-empty">No entries yet.</p>
   {% else %}
     {% for entry in entries %}
-    <article class="logbook-item">
+    <article class="logbook-item" data-index="{{ forloop.index0 }}">
 
       <div class="logbook-item-meta">
         <span class="logbook-item-date">{{ entry.date | date: "%Y-%m-%d" }}</span>
@@ -39,3 +39,8 @@ layout: base
   {% endif %}
 
 </div>
+
+<nav id="logbook-feed-pagination" class="pagination-controls" aria-label="Logbook pagination"></nav>
+
+<script src="{{ '/assets/js/paginate.js' | relative_url }}"></script>
+<script>initPaginator({ listId: 'logbook-feed', pageSize: 20 });</script>

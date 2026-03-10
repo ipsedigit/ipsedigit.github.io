@@ -75,7 +75,7 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
 </style>
 
 
-{% assign all_posts = site.posts | limit: 30 %}
+{% assign all_posts = paginator.posts %}
 {% assign featured = all_posts | first %}
 
 {% if featured and featured.title and featured.title != "" %}
@@ -134,3 +134,21 @@ keywords: "tech news, AI news, security news, cloud computing, developer tools, 
   {% endif %}
 </article>
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination-controls" aria-label="News pagination">
+  {% if paginator.previous_page %}
+    <a class="pagination-btn" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
+  {% else %}
+    <span class="pagination-btn pagination-btn--disabled">&larr; Newer</span>
+  {% endif %}
+
+  <span class="pagination-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a class="pagination-btn" href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
+  {% else %}
+    <span class="pagination-btn pagination-btn--disabled">Older &rarr;</span>
+  {% endif %}
+</nav>
+{% endif %}

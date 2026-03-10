@@ -69,10 +69,17 @@ collections:
 # Build settings
 theme: minima
 
+paginate: 20
+paginate_path: /page/:num/
+
+exclude:
+  - superpowers/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 
 # Exclude from processing.

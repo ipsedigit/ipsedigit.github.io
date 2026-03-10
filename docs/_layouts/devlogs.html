@@ -11,9 +11,9 @@ layout: base
   {% assign devlog_posts = site.devlogs | sort: "date" | reverse %}
 
   {% if devlog_posts.size > 0 %}
-    <div class="post-list">
-      {% for post in devlog_posts limit: 30 %}
-      <article class="post-item">
+    <div class="post-list" id="devlogs-list">
+      {% for post in devlog_posts %}
+      <article class="post-item" data-index="{{ forloop.index0 }}">
         <h2 class="post-title">
           <a href="{{ post.external_url | default: post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
         </h2>
@@ -27,8 +27,12 @@ layout: base
       </article>
       {% endfor %}
     </div>
+    <nav id="devlogs-list-pagination" class="pagination-controls" aria-label="Devlogs pagination"></nav>
   {% else %}
     <p class="devlogs-empty">No posts yet — check back soon.</p>
   {% endif %}
 
 </div>
+
+<script src="{{ '/assets/js/paginate.js' | relative_url }}"></script>
+<script>initPaginator({ listId: 'devlogs-list', pageSize: 20 });</script>
