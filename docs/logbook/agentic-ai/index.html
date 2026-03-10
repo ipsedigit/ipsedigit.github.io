@@ -1,0 +1,37 @@
+---
+layout: base
+title: "logbook/agentic-ai — eof.news"
+description: "Notes and observations on building with agentic AI."
+---
+
+<div class="logbook-cat-header">
+  <p class="logbook-cat-label">[logbook/agentic-ai]</p>
+  <p class="logbook-cat-desc">Experiments, observations, and learnings on building with AI agents.</p>
+</div>
+
+{% assign entries = site.logbook | where: "category", "logbook/agentic-ai" | sort: "date" | reverse %}
+
+{% if entries.size == 0 %}
+  <p class="logbook-empty">No entries yet.</p>
+{% else %}
+  {% for entry in entries %}
+  <article class="logbook-item">
+    <div class="logbook-item-meta">
+      <span class="logbook-item-date">{{ entry.date | date: "%Y-%m-%d" }}</span>
+      {% if entry.languages %}
+      <span class="logbook-item-langs">· {{ entry.languages | join: " / " | upcase }}</span>
+      {% endif %}
+    </div>
+    {% if entry.title and entry.title != "" %}
+    <h2 class="logbook-item-title">
+      <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+    </h2>
+    {% endif %}
+    {% if entry.excerpt %}
+    <div class="logbook-item-excerpt">
+      {{ entry.excerpt | strip_html | truncate: 240 }}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+{% endif %}

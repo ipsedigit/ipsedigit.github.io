@@ -330,3 +330,105 @@ p { color: #999999; }
   letter-spacing: 0.03em;
 }
 .author-badge:hover { color: #7abcac !important; }
+
+// ── Logbook ───────────────────────────────────────────────────────────────────
+
+.logbook-entry-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.logbook-entry-meta {
+  font-size: 0.72rem;
+  color: #555555;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #1a1a1a;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.logbook-cat { color: #c8982a; font-weight: 600; }
+
+.logbook-entry-body p { color: #bbbbbb; margin-bottom: 1.2rem; }
+.logbook-entry-body h2 { font-size: 1rem; color: #ffffff; margin: 1.5rem 0 0.5rem; }
+
+// Language toggle
+.lang-toggle {
+  display: flex;
+  width: fit-content;
+  border: 1px solid #2a2a2a;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.lang-btn {
+  padding: 0.3rem 0.85rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #555555;
+  transition: background 0.12s, color 0.12s;
+}
+
+.lang-btn:first-child { border-right: 1px solid #2a2a2a; }
+.lang-btn--active { background: #ffb000; color: #000000; }
+.lang-btn:hover:not(.lang-btn--active) { color: #ffffff; }
+
+.lang-block { display: none; }
+.lang-block--visible { display: block; }
+.lang-block p { color: #bbbbbb; margin-bottom: 1.2rem; }
+.lang-block h2 { font-size: 1rem; color: #ffffff; margin: 1.5rem 0 0.5rem; }
+
+// Logbook feed
+.logbook-feed { margin-top: 0.5rem; }
+
+.logbook-item {
+  border-bottom: 1px solid #1a1a1a;
+  padding: 1.5rem 0;
+}
+.logbook-item:last-child { border-bottom: none; }
+
+.logbook-item-meta {
+  font-size: 0.72rem;
+  color: #555555;
+  margin-bottom: 0.6rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logbook-item-cat { color: #c8982a; font-weight: 600; text-decoration: none; }
+.logbook-item-cat:hover { color: #ffb000; }
+.logbook-item-langs { color: #444444; }
+
+.logbook-item-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+.logbook-item-title a { color: #ffffff; text-decoration: none; }
+.logbook-item-title a:hover { color: #ffb000; }
+
+.logbook-item-excerpt { color: #999999; font-size: 0.85rem; line-height: 1.65; }
+.logbook-empty { color: #555555; font-size: 0.85rem; }
+
+// Logbook category page
+.logbook-cat-header { margin-bottom: 1.5rem; }
+.logbook-cat-label { color: #c8982a; font-size: 0.85rem; font-weight: 600; margin: 0 0 0.3rem; }
+.logbook-cat-desc { color: #666666; font-size: 0.85rem; margin: 0; }
+
+// News page
+.news-header { margin-bottom: 1.5rem; }
+.news-title { font-size: 1.3rem; font-weight: 700; margin: 0 0 0.4rem; color: #ffffff; }
+.news-subtitle { color: #666666; font-size: 0.85rem; margin: 0; }

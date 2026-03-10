@@ -1,0 +1,50 @@
+---
+layout: base
+---
+
+<article class="logbook-entry-full">
+
+  {% if page.title and page.title != "" %}
+  <h1 class="logbook-entry-title">{{ page.title }}</h1>
+  {% endif %}
+
+  <div class="logbook-entry-meta">
+    <span class="logbook-entry-date">{{ page.date | date: "%Y-%m-%d" }}</span>
+    {% if page.category %}
+    <span class="logbook-cat">[{{ page.category }}]</span>
+    {% endif %}
+  </div>
+
+  {% if page.languages %}
+    {% assign parts = content | split: "<!-- lang-split -->" %}
+    {% assign content_en = parts[0] %}
+    {% assign content_it = parts[1] %}
+
+    <div class="lang-toggle">
+      <button class="lang-btn lang-btn--active" onclick="setLang('en', this)" aria-pressed="true">EN</button>
+      <button class="lang-btn" onclick="setLang('it', this)" aria-pressed="false">IT</button>
+    </div>
+
+    <div class="lang-block lang-block--en lang-block--visible">{{ content_en }}</div>
+    <div class="lang-block lang-block--it">{{ content_it }}</div>
+
+    <script>
+      function setLang(lang, btn) {
+        document.querySelectorAll('.lang-btn').forEach(function(b) {
+          b.classList.remove('lang-btn--active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('lang-btn--active');
+        btn.setAttribute('aria-pressed', 'true');
+        document.querySelectorAll('.lang-block').forEach(function(b) {
+          b.classList.remove('lang-block--visible');
+        });
+        document.querySelector('.lang-block--' + lang).classList.add('lang-block--visible');
+      }
+    </script>
+
+  {% else %}
+    <div class="logbook-entry-body">{{ content }}</div>
+  {% endif %}
+
+</article>

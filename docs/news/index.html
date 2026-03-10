@@ -1,0 +1,33 @@
+---
+layout: base
+title: "News — eof.news"
+description: "Daily curated tech news: AI, security, cloud, devtools, software engineering."
+---
+
+<div class="news-header">
+  <h1 class="news-title">News</h1>
+  <p class="news-subtitle">Daily signal from AI, security, cloud, devtools, and software engineering.</p>
+</div>
+
+{% assign news_posts = site.posts | limit: 30 %}
+{% for post in news_posts %}
+<article class="post-item">
+  <h2 class="post-title">
+    {% if post.external_url %}
+    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    {% else %}
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h2>
+  <div class="post-meta">
+    {{ post.date | date: "%b %d, %Y" }}
+    {% if post.source %} · {{ post.source }}{% endif %}
+    {% if post.niche_category %}
+      · <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-badge--{{ post.niche_category }}">{{ post.niche_category }}</a>
+    {% endif %}
+  </div>
+  {% if post.description %}
+  <p class="post-preview">{{ post.description | truncate: 160 }}</p>
+  {% endif %}
+</article>
+{% endfor %}

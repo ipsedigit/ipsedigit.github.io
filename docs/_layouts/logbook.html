@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+<div class="logbook-feed">
+
+  {% assign entries = site.logbook | sort: 'date' | reverse %}
+
+  {% if entries.size == 0 %}
+    <p class="logbook-empty">No entries yet.</p>
+  {% else %}
+    {% for entry in entries %}
+    <article class="logbook-item">
+
+      <div class="logbook-item-meta">
+        <span class="logbook-item-date">{{ entry.date | date: "%Y-%m-%d" }}</span>
+        {% if entry.category %}
+        <a href="/{{ entry.category }}/" class="logbook-item-cat">[{{ entry.category }}]</a>
+        {% endif %}
+        {% if entry.languages %}
+        <span class="logbook-item-langs">· {{ entry.languages | join: " / " | upcase }}</span>
+        {% endif %}
+      </div>
+
+      {% if entry.title and entry.title != "" %}
+      <h2 class="logbook-item-title">
+        <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+      </h2>
+      {% endif %}
+
+      {% if entry.excerpt %}
+      <div class="logbook-item-excerpt">
+        {{ entry.excerpt | strip_html | truncate: 240 }}
+      </div>
+      {% endif %}
+
+    </article>
+    {% endfor %}
+  {% endif %}
+
+</div>
