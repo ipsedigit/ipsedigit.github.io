@@ -97,3 +97,4 @@
 2026-03-10:software-engineering:architecture:breaking
 2026-03-10:ai:ai:breaking
 2026-03-10:ai:ai:breaking
+2026-03-10:cloud:cloud:community
