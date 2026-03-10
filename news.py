@@ -121,6 +121,8 @@ def find_best_post(exclude_subniches=None, target_niche=None, source_type_filter
     for source_key, source in NEWS_SOURCES.items():
         if source_type_filter and source.get("type") != source_type_filter:
             continue
+        if not source_type_filter and source.get("type") == "creator":
+            continue  # Creators belong in Devlogs, not the main news feed
         print(f"🔍 Scanning {source['name']}...")
 
         try:
