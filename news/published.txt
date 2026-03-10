@@ -221,3 +221,4 @@ https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
 https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0
 https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7
 https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything
+https://seangoedecke.com/will-my-job-still-exist/
