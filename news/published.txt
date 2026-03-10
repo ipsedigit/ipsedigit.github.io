@@ -218,3 +218,4 @@ http://antirez.com/news/161
 https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything
 https://kubernetes.io/blog/2025/09/11/kubernetes-v1-34-mutable-csi-node-allocatable-count/
 https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
+https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0
