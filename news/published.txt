@@ -222,3 +222,4 @@ https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0
 https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7
 https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything
 https://seangoedecke.com/will-my-job-still-exist/
+https://www.infoq.com/news/2026/03/cloudflare-vinext-experimental/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
