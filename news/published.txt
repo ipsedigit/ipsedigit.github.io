@@ -227,3 +227,4 @@ https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html
 http://brooker.co.za/blog/2026/02/25/sfq.html
 https://feeds.hanselman.com/~/676711904/0/scotthanselman~Using-Home-Assistant-to-integrate-a-Unifi-Protect-G-Doorbell-and-Amazon-Alexa-to-announce-visitors
 https://seangoedecke.com/giving-llms-a-personality/
+https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/
