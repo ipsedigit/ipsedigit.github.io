@@ -287,6 +287,12 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'community',
     },
+    'hackernoon': {
+        'name': 'HackerNoon',
+        'feed_url': 'https://hackernoon.com/feed',
+        'min_score': 0,
+        'type': 'news',
+    },
     'techcrunch': {
         'name': 'TechCrunch',
         'feed_url': 'https://techcrunch.com/feed/',
