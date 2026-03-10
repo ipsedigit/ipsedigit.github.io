@@ -224,3 +224,4 @@ https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#ato
 https://seangoedecke.com/will-my-job-still-exist/
 https://www.infoq.com/news/2026/03/cloudflare-vinext-experimental/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html
+http://brooker.co.za/blog/2026/02/25/sfq.html
