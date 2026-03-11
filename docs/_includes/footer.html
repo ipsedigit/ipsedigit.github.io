@@ -2,37 +2,18 @@
 
 <footer class="site-footer h-card">
   <data class="u-url" value="{{ '/' | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <p style="margin-bottom:0.5em;">{{ site.description | escape }}</p>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-    </div>
-
-    <div class="footer-nav" style="margin-top:1em; padding-top:1em; border-top:1px solid #e5e7eb; font-size:0.85em;">
-      <a href="/sources/" style="margin-right:1em;">Sources</a>
-      <a href="/about/" style="margin-right:1em;">About</a>
-      <a href="/topics/" style="margin-right:1em;">Topics</a>
-      <a href="/feed.xml" style="margin-right:1em;">RSS</a>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
-
+  <div class="wrapper" style="padding:2rem 1.5rem;text-align:center;">
+    <p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);margin-bottom:1rem;">
+      eof.news — Today's <span style="color:var(--accent)">tech signal</span> for engineers who build
+    </p>
+    <nav style="display:flex;justify-content:center;gap:1rem;align-items:center;">
+      <a href="/sources/" style="font-family:var(--font-mono);font-size:0.68rem;color:var(--text-muted);letter-spacing:0.04em;">Sources</a>
+      <span style="color:var(--border-hover);font-size:0.6rem;">·</span>
+      <a href="/about/" style="font-family:var(--font-mono);font-size:0.68rem;color:var(--text-muted);letter-spacing:0.04em;">About</a>
+      <span style="color:var(--border-hover);font-size:0.6rem;">·</span>
+      <a href="/tags/" style="font-family:var(--font-mono);font-size:0.68rem;color:var(--text-muted);letter-spacing:0.04em;">Topics</a>
+      <span style="color:var(--border-hover);font-size:0.6rem;">·</span>
+      <a href="/feed.xml" style="font-family:var(--font-mono);font-size:0.68rem;color:var(--text-muted);letter-spacing:0.04em;">RSS</a>
+    </nav>
   </div>
-
 </footer>

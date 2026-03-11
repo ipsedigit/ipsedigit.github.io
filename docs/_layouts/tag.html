@@ -7,37 +7,18 @@ layout: base
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "{{ site.url }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Topics",
-      "item": "{{ site.url }}/topics/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "{{ page.tag }}"
-    }
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}"},
+    {"@type":"ListItem","position":2,"name":"Topics","item":"{{ site.url }}/topics/"},
+    {"@type":"ListItem","position":3,"name":"{{ page.tag }}"}
   ]
 }
 </script>
 
-
 {% assign current_tag = page.tag %}
 {% assign post_count = 0 %}
-{% assign matching_posts = "" | split: "," %}
-
 {% for post in site.posts %}
   {% for category in post.categories %}
-    {% if category == current_tag %}
-      {% assign post_count = post_count | plus: 1 %}
-    {% endif %}
+    {% if category == current_tag %}{% assign post_count = post_count | plus: 1 %}{% endif %}
   {% endfor %}
 {% endfor %}
 
@@ -47,26 +28,24 @@ layout: base
 </div>
 
 {% if post_count == 0 %}
-<p>No articles found for this tag.</p>
+  <p style="color:var(--text-muted);font-size:0.85rem;">No articles found for this tag.</p>
 {% else %}
-<ul class="post-list">
-{% for post in site.posts %}
-  {% assign show = false %}
-  {% for category in post.categories %}
-    {% if category == current_tag %}
-      {% assign show = true %}
-    {% endif %}
-  {% endfor %}
-  {% if show %}
-  <li>
-    <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
-    {% if post.external_url %}
-    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
-    {% else %}
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% endif %}
-  </li>
-  {% endif %}
-{% endfor %}
-</ul>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% assign show = false %}
+      {% for category in post.categories %}
+        {% if category == current_tag %}{% assign show = true %}{% endif %}
+      {% endfor %}
+      {% if show %}
+      <li>
+        <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+        {% if post.external_url %}
+          <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endif %}

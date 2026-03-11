@@ -11,20 +11,11 @@ layout: base
   {% assign devlog_posts = site.devlogs | sort: "date" | reverse %}
 
   {% if devlog_posts.size > 0 %}
-    <div class="post-list" id="devlogs-list">
+    <div class="card-list" id="devlogs-list">
       {% for post in devlog_posts %}
-      <article class="post-item" data-index="{{ forloop.index0 }}">
-        <h2 class="post-title">
-          <a href="{{ post.external_url | default: post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
-        </h2>
-        <div class="post-meta">
-          <a class="author-badge" href="{{ post.external_url | default: post.url }}" target="_blank" rel="noopener">{{ post.source }}</a>
-          &nbsp;·&nbsp;{{ post.date | date: "%b %d, %Y" }}
+        <div data-index="{{ forloop.index0 }}" style="display:contents">
+          {% include post-card.html %}
         </div>
-        {% if post.description %}
-        <p class="post-preview">{{ post.description }}</p>
-        {% endif %}
-      </article>
       {% endfor %}
     </div>
     <nav id="devlogs-list-pagination" class="pagination-controls" aria-label="Devlogs pagination"></nav>

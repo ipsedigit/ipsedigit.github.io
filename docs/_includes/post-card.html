@@ -1,0 +1,32 @@
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% assign post_url = post.external_url | default: post.url %}
+{% assign source_initial = post.source | slice: 0 | upcase | default: "?" %}
+
+<a href="{{ post_url }}"{% if post.external_url %} target="_blank" rel="noopener"{% endif %} class="post-card{% if featured %} post-card--featured{% endif %}">
+  {%- if post.image -%}
+    <img class="post-card__thumb" src="{{ post.image }}" alt="" loading="lazy"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="post-card__placeholder" style="display:none">{{ source_initial }}</div>
+  {%- else -%}
+    <div class="post-card__placeholder">{{ source_initial }}</div>
+  {%- endif -%}
+  <div class="post-card__body">
+    <div class="post-card__meta">
+      {%- if post.niche_subniche -%}
+        <span class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_subniche }}</span>
+      {%- elsif post.niche_category -%}
+        <span class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_category }}</span>
+      {%- endif -%}
+      {%- if post.source -%}
+        <span class="post-card__dot">·</span>
+        <span class="post-card__source">{{ post.source }}</span>
+      {%- endif -%}
+      <span class="post-card__dot">·</span>
+      <span class="post-card__date">{{ post.date | date: date_format }}</span>
+    </div>
+    <div class="post-card__title">{{ post.title | escape }}</div>
+    {%- if post.description -%}
+      <div class="post-card__desc">{{ post.description | truncate: 180 }}</div>
+    {%- endif -%}
+  </div>
+</a>

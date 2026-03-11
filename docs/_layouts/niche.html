@@ -2,7 +2,6 @@
 layout: base
 ---
 
-
 {% assign niche = page.niche %}
 {% assign post_count = 0 %}
 {% for post in site.posts %}
@@ -12,35 +11,19 @@ layout: base
 {% endfor %}
 
 <div class="niche-header">
-  <a href="/niche/{{ niche }}/" class="niche-chip niche-badge--{{ niche }}" style="text-decoration:none;">{{ page.niche_label }}</a>
+  <a href="/niche/{{ niche }}/" class="niche-badge niche-{{ niche }}" style="text-decoration:none;margin-bottom:0.75rem;display:inline-flex;">{{ page.niche_label }}</a>
   <h1>{{ page.niche_label }}</h1>
   <p>{{ post_count }} article{% if post_count != 1 %}s{% endif %}</p>
 </div>
 
 {% if post_count == 0 %}
-<p>No articles found for this niche.</p>
+  <p style="color:var(--text-muted);font-size:0.85rem;">No articles found for this niche.</p>
 {% else %}
-{% for post in site.posts %}
-  {% if post.niche_category == niche %}
-<article class="post-item">
-  <h2 class="post-title">
-    {% if post.external_url %}
-    <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title | escape }}</a>
-    {% else %}
-    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    {% endif %}
-  </h2>
-  <div class="post-meta">
-    {{ post.date | date: "%b %d, %Y" }}
-    {% if post.source %} · {{ post.source }}{% endif %}
-    {% if post.niche_subniche %}
-      · <a href="/niche/{{ niche }}/" class="niche-badge niche-badge--{{ niche }}">{{ post.niche_subniche }}</a>
-    {% endif %}
+  <div class="card-list">
+    {% for post in site.posts %}
+      {% if post.niche_category == niche %}
+        {% include post-card.html %}
+      {% endif %}
+    {% endfor %}
   </div>
-  {% if post.description %}
-  <p class="post-preview">{{ post.description | truncate: 160 }}</p>
-  {% endif %}
-</article>
-  {% endif %}
-{% endfor %}
 {% endif %}

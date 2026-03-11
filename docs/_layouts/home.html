@@ -3,11 +3,6 @@ layout: base
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -16,196 +11,65 @@ layout: base
   {% endif %}
 
   {%- if posts.size > 0 -%}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- assign hero = posts | first -%}
+    {%- assign hero_post = posts | first -%}
 
-    <!-- Today's Pick: hero card -->
-    <div class="hero-post">
-      <div class="hero-meta">
-        <span class="post-date">{{ hero.date | date: date_format }}</span>
-        {%- if hero.niche_subniche -%}
-          <a href="/niche/{{ hero.niche_category }}/" class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_subniche }}</a>
-        {%- elsif hero.niche_category -%}
-          <a href="/niche/{{ hero.niche_category }}/" class="niche-badge niche-{{ hero.niche_category }}">{{ hero.niche_category }}</a>
-        {%- endif -%}
-        {%- if hero.source -%}
-          <span class="hero-source">{{ hero.source }}</span>
-        {%- endif -%}
+    <!-- Hero -->
+    <section class="page-hero">
+      <div class="page-hero-eyebrow">// daily briefing</div>
+      <h1 class="page-hero-title">Today's <span class="accent">tech signal</span></h1>
+      <p class="page-hero-subtitle">Engineers who build. No noise, just signal.</p>
+      <hr class="page-hero-divider">
+      <div class="page-hero-filters">
+        <a href="/niche/ai/" class="niche-badge niche-ai">AI</a>
+        <a href="/niche/security/" class="niche-badge niche-security">Security</a>
+        <a href="/niche/cloud/" class="niche-badge niche-cloud">Cloud</a>
+        <a href="/niche/devtools/" class="niche-badge niche-devtools">DevTools</a>
+        <a href="/niche/software-engineering/" class="niche-badge niche-software-engineering">SWE</a>
       </div>
+    </section>
 
-      <h2 class="hero-title">
-        <a href="{% if hero.external_url %}{{ hero.external_url }}{% else %}{{ hero.url | relative_url }}{% endif %}"{% if hero.external_url %} target="_blank" rel="noopener"{% endif %}>{{ hero.title | escape }}</a>
-      </h2>
-
-      {%- if hero.description -%}
-        <p class="hero-description">{{ hero.description }}</p>
-      {%- endif -%}
-
-      {%- if hero.why_picked -%}
-        <p class="why-picked">{{ hero.why_picked }}</p>
-      {%- endif -%}
-
-      <div class="hero-actions">
-        {%- if hero.external_url -%}
-          <a class="btn-read" href="{{ hero.external_url }}" target="_blank" rel="noopener">Read article ↗</a>
-        {%- else -%}
-          <a class="btn-read" href="{{ hero.url | relative_url }}">Read article →</a>
-        {%- endif -%}
-      </div>
+    <!-- Featured post -->
+    <div class="section-head">
+      <span class="section-label">Top pick</span>
+      <div class="section-line"></div>
+    </div>
+    <div class="card-list" style="margin-bottom:2rem;">
+      {% assign post = hero_post %}
+      {% assign featured = true %}
+      {% include post-card.html %}
+      {% assign featured = false %}
     </div>
 
     <!-- Archive -->
     {%- if posts.size > 1 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Archive" }}</h2>
-      <ul class="post-list">
+      <div class="section-head">
+        <span class="section-label">Archive</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="card-list">
         {%- for post in posts offset: 1 -%}
-        <li>
-          <div class="post-list-meta">
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            {%- if post.niche_subniche -%}
-              <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_subniche }}</a>
-            {%- elsif post.niche_category -%}
-              <a href="/niche/{{ post.niche_category }}/" class="niche-badge niche-{{ post.niche_category }}">{{ post.niche_category }}</a>
-            {%- endif -%}
-          </div>
-          <h3>
-            <a class="post-link" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url | relative_url }}{% endif %}"{% if post.external_url %} target="_blank" rel="noopener"{% endif %}>
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if post.source -%}
-            <span class="post-source">{{ post.source }}</span>
-          {%- endif -%}
-        </li>
+          {% include post-card.html %}
         {%- endfor -%}
-      </ul>
+      </div>
     {%- endif -%}
 
+    <!-- Pagination -->
     {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
+      <nav class="pagination-controls" aria-label="Page navigation">
         {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+          <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-btn">← Newer</a>
         {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <span class="pagination-btn pagination-btn--disabled">← Newer</span>
         {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
+        <span class="pagination-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
         {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+          <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-btn">Older →</a>
         {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <span class="pagination-btn pagination-btn--disabled">Older →</span>
         {%- endif %}
-        </ul>
-      </div>
+      </nav>
     {%- endif %}
 
   {%- endif -%}
 
 </div>
-
-<style>
-/* ── Hero Post ─────────────────────────────────────────── */
-.hero-post {
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  padding: 1.5rem;
-  margin-bottom: 2.5rem;
-  background: #fafafa;
-}
-.hero-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin-bottom: 0.75rem;
-  flex-wrap: wrap;
-}
-.hero-title {
-  font-size: 1.35rem;
-  margin: 0 0 0.75rem 0;
-  line-height: 1.3;
-}
-.hero-title a {
-  color: #111;
-  text-decoration: none;
-}
-.hero-title a:hover { color: #0066cc; }
-.hero-description {
-  color: #444;
-  margin: 0 0 0.75rem 0;
-  font-size: 0.95rem;
-  line-height: 1.55;
-}
-.why-picked {
-  font-size: 0.78rem;
-  color: #888;
-  font-style: italic;
-  margin: 0 0 1rem 0;
-  padding: 0.4rem 0.75rem;
-  border-left: 2px solid #ddd;
-}
-.why-picked::before {
-  content: "Why this: ";
-  font-weight: 600;
-  font-style: normal;
-  color: #666;
-}
-.hero-source {
-  font-size: 0.78rem;
-  color: #999;
-}
-.hero-actions {
-  display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-.btn-read {
-  display: inline-block;
-  padding: 0.4rem 0.9rem;
-  background: #111;
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.82rem;
-  border-radius: 3px;
-}
-.btn-read:hover { background: #0066cc; color: #fff; }
-.btn-secondary {
-  display: inline-block;
-  padding: 0.4rem 0.9rem;
-  border: 1px solid #ccc;
-  color: #555;
-  text-decoration: none;
-  font-size: 0.82rem;
-  border-radius: 3px;
-}
-.btn-secondary:hover { border-color: #0066cc; color: #0066cc; }
-
-/* ── Niche Badges ──────────────────────────────────────── */
-.niche-badge {
-  display: inline-block;
-  padding: 0.12rem 0.45rem;
-  border-radius: 3px;
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-.niche-ai      { background: #7c3aed; color: #fff; }
-.niche-security { background: #dc2626; color: #fff; }
-.niche-cloud    { background: #0284c7; color: #fff; }
-.niche-devtools { background: #059669; color: #fff; }
-.niche-software-engineering { background: #d97706; color: #fff; }
-
-/* ── Archive list ──────────────────────────────────────── */
-.post-list-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-.post-source {
-  font-size: 0.74rem;
-  color: #aaa;
-  display: block;
-  margin-top: 0.1rem;
-}
-</style>
