@@ -232,3 +232,4 @@ https://www.infoworld.com/article/4143186/typescript-6-0-reaches-release-candida
 https://kubernetes.io/blog/2025/09/10/kubernetes-v1-34-env-files/
 https://seangoedecke.com/continuous-learning/
 http://antirez.com/news/160
+https://seangoedecke.com/generate-skills-afterwards/
