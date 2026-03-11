@@ -664,6 +664,13 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'creator',
     },
+    'karpathy': {
+        'name': 'Andrej Karpathy',
+        'feed_url': 'https://karpathy.bearblog.dev/feed/',
+        'url': 'https://karpathy.bearblog.dev',
+        'min_score': 0,
+        'type': 'creator',
+    },
 
 }
 
