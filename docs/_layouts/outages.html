@@ -27,9 +27,9 @@ layout: base
             <div class="outage-pills">
               {%- for svc in live_svcs -%}
                 <a class="outage-pill outage-pill--{{ svc.status }}"
-                   href="https://{{ svc.domain }}"
+                   href="{% if svc.incident_url != '' %}{{ svc.incident_url }}{% else %}https://{{ svc.domain }}{% endif %}"
                    target="_blank" rel="noopener"
-                   title="{% if svc.description != '' %}{{ svc.description }}{% else %}{{ svc.name }}{% endif %}">
+                   title="{% if svc.incident_url != '' %}{{ svc.description }}{% else %}{{ svc.name }}{% endif %}">
                   <span class="pill-dot pill-dot--{{ svc.status }}"></span>
                   {{ svc.name }}
                 </a>
