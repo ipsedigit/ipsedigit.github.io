@@ -100,3 +100,4 @@
 2026-03-10:cloud:cloud:community
 2026-03-11:devtools:languages:breaking
 2026-03-11:cloud:kubernetes:breaking
+2026-03-11:ai:ai:breaking

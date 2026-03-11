@@ -233,3 +233,4 @@ https://kubernetes.io/blog/2025/09/10/kubernetes-v1-34-env-files/
 https://seangoedecke.com/continuous-learning/
 http://antirez.com/news/160
 https://seangoedecke.com/generate-skills-afterwards/
+https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html
