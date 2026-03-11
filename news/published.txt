@@ -231,3 +231,4 @@ https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/
 https://www.infoworld.com/article/4143186/typescript-6-0-reaches-release-candidate-stage.html
 https://kubernetes.io/blog/2025/09/10/kubernetes-v1-34-env-files/
 https://seangoedecke.com/continuous-learning/
+http://antirez.com/news/160
