@@ -235,3 +235,4 @@ http://antirez.com/news/160
 https://seangoedecke.com/generate-skills-afterwards/
 https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html
 https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html
+https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/
