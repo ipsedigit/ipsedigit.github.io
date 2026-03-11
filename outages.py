@@ -362,7 +362,7 @@ def publish_outages() -> None:
     now_utc = datetime.now(timezone.utc)
     active = []
     for svc in services:
-        if svc["status"] in ("degraded", "outage") and svc["description"]:
+        if svc["status"] in ("degraded", "outage") and svc["description"] and svc.get("incident_url"):
             active.append({
                 "service":     svc["name"],
                 "name":        svc["description"],
