@@ -671,6 +671,13 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'creator',
     },
+    'evilsocket': {
+        'name': 'Simone Margaritelli',
+        'feed_url': 'https://www.evilsocket.net/atom.xml',
+        'url': 'https://www.evilsocket.net',
+        'min_score': 0,
+        'type': 'creator',
+    },
 
 }
 
