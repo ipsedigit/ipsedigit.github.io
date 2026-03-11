@@ -1,14 +1,9 @@
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 {% assign post_url = post.external_url | default: post.url %}
-{% assign source_initial = post.source | slice: 0 | upcase | default: "?" %}
 
 <a href="{{ post_url }}"{% if post.external_url %} target="_blank" rel="noopener"{% endif %} class="post-card{% if featured %} post-card--featured{% endif %}">
   {%- if post.image -%}
-    <img class="post-card__thumb" src="{{ post.image }}" alt="" loading="lazy"
-         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-    <div class="post-card__placeholder" style="display:none">{{ source_initial }}</div>
-  {%- else -%}
-    <div class="post-card__placeholder">{{ source_initial }}</div>
+    <img class="post-card__thumb" src="{{ post.image }}" alt="" loading="lazy">
   {%- endif -%}
   <div class="post-card__body">
     <div class="post-card__meta">
