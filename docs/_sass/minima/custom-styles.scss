@@ -588,3 +588,166 @@ p { color: var(--text-dim); }
 @media (min-width: 641px) and (max-width: 1024px) {
   .post-card__thumb { height: 160px; }
 }
+
+// ── Outages dashboard ─────────────────────────────────────────────────────────
+
+.outage-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  border: 1px solid;
+}
+.outage-banner--ok   { background: #0a1f12; color: #00e878; border-color: rgba(0,232,120,0.25); }
+.outage-banner--warn { background: #201800; color: #ffcc00; border-color: rgba(255,204,0,0.25); }
+.outage-banner--down { background: #2a0a0a; color: #ff4444; border-color: rgba(255,68,68,0.25); }
+
+.outage-section { margin-bottom: 2rem; }
+
+.outage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.outage-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.82rem;
+  transition: border-color 0.15s;
+  &:hover { border-color: var(--accent); }
+}
+.outage-item--resolved { opacity: 0.6; }
+
+.outage-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.outage-dot--active   { background: #ffcc00; box-shadow: 0 0 6px rgba(255,204,0,0.5); }
+.outage-dot--resolved { background: #555; }
+
+.outage-service {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--text);
+  min-width: 120px;
+  font-size: 0.78rem;
+}
+
+.outage-impact {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.impact-critical, .impact-major { background: #2a0a0a; color: #ff4444; }
+.impact-minor { background: #201800; color: #ffcc00; }
+
+.outage-name {
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  flex: 1;
+}
+
+.outage-grid { margin-bottom: 2rem; }
+.outage-grid-group { margin-bottom: 1.25rem; }
+.outage-grid-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+.outage-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.outage-pill {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-dim);
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: border-color 0.15s;
+  &:hover { border-color: var(--accent); color: var(--text); }
+}
+.outage-pill--degraded { border-color: rgba(255,204,0,0.4); color: #ffcc00; }
+.outage-pill--outage   { border-color: rgba(255,68,68,0.4);  color: #ff4444; }
+.outage-pill--static   { opacity: 0.5; font-style: italic; }
+
+.pill-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.pill-dot--operational { background: #00e878; }
+.pill-dot--degraded    { background: #ffcc00; }
+.pill-dot--outage      { background: #ff4444; }
+.pill-dot--static      { background: #444; }
+
+.outage-community { margin-bottom: 2rem; }
+.outage-community-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+}
+.outage-community-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #1a1a1a;
+  text-decoration: none;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  &:hover { color: var(--accent); }
+  &:last-child { border-bottom: none; }
+}
+.community-pts {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  min-width: 40px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.community-ago {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.outage-timestamp {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,75 @@
+---
+layout: base
+---
+<div class="outage-page">
+
+  {% assign data = site.data.outages %}
+
+  {% if data %}
+
+    {%- comment -%} Incidents section (pre-rendered HTML from Python) {%- endcomment -%}
+    {{ data.incidents_html }}
+
+    {%- comment -%} Services grid grouped by category {%- endcomment -%}
+    <div class="outage-grid">
+      <div class="section-head">
+        <span class="section-label">All Services</span>
+        <div class="section-line"></div>
+      </div>
+
+      {%- assign categories = "cloud,cdn,devtools,observability,communication,payments,identity,data,ai,saas" | split: "," -%}
+      {%- for cat in categories -%}
+        {%- assign live_svcs = data.services | where: "category", cat -%}
+        {%- assign static_svcs = data.static_services | where: "category", cat -%}
+        {%- if live_svcs.size > 0 or static_svcs.size > 0 -%}
+          <div class="outage-grid-group">
+            <div class="outage-grid-label">{{ cat | replace: "-", " " }}</div>
+            <div class="outage-pills">
+              {%- for svc in live_svcs -%}
+                <a class="outage-pill outage-pill--{{ svc.status }}"
+                   href="https://{{ svc.domain }}"
+                   target="_blank" rel="noopener"
+                   title="{% if svc.description != '' %}{{ svc.description }}{% else %}{{ svc.name }}{% endif %}">
+                  <span class="pill-dot pill-dot--{{ svc.status }}"></span>
+                  {{ svc.name }}
+                </a>
+              {%- endfor -%}
+              {%- for svc in static_svcs -%}
+                <a class="outage-pill outage-pill--static"
+                   href="{{ svc.domain }}"
+                   target="_blank" rel="noopener"
+                   title="Status page (not monitored)">
+                  <span class="pill-dot pill-dot--static"></span>
+                  {{ svc.name }}
+                </a>
+              {%- endfor -%}
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    {%- comment -%} Community reports {%- endcomment -%}
+    {%- if data.community.size > 0 -%}
+      <div class="outage-community">
+        <div class="section-head">
+          <span class="section-label">Community Reports (HN · last 3h)</span>
+          <div class="section-line"></div>
+        </div>
+        <div class="outage-community-list">
+          {%- for post in data.community -%}
+            <a class="outage-community-item" href="{{ post.url }}" target="_blank" rel="noopener">
+              <span class="community-pts">{{ post.points }}pt</span>
+              <span>{{ post.title }}</span>
+              <span class="community-ago">{{ post.ago }}</span>
+            </a>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+  {% else %}
+    <p class="outage-timestamp">No data yet. Run <code>python main.py --action=outages</code> locally to seed the data file.</p>
+  {% endif %}
+
+</div>
