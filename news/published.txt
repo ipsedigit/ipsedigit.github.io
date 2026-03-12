@@ -242,3 +242,4 @@ https://thenewstack.io/anthropic-launches-a-multi-agent-code-review-tool-for-cla
 http://www.righto.com/2026/02/8087-instruction-decoding.html
 https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything
 https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html
+https://dev.to/ohmygod/the-defi-opsec-playbook-7-lessons-from-135m-in-2026-protocol-hacks-2l7e
