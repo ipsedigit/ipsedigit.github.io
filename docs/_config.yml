@@ -60,9 +60,6 @@ defaults:
 
 # Collections
 collections:
-  logbook:
-    output: true
-    permalink: /logbook/:year/:month/:day/:title/
   devlogs:
     output: false   # no individual post pages needed
 
