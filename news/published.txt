@@ -246,3 +246,4 @@ https://dev.to/ohmygod/the-defi-opsec-playbook-7-lessons-from-135m-in-2026-proto
 https://xeiaso.net/blog/2026/ai-abstraction/
 https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything
+https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/
