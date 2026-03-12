@@ -237,3 +237,5 @@ https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html
 https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html
 https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/
 https://seangoedecke.com/fast-llm-inference/
+https://kubernetes.io/blog/2025/09/09/kubernetes-v1-34-snapshottable-api-server-cache/
+https://thenewstack.io/anthropic-launches-a-multi-agent-code-review-tool-for-claude-code/
