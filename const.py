@@ -678,6 +678,13 @@ NEWS_SOURCES = {
         'min_score': 0,
         'type': 'creator',
     },
+    'dhh': {
+        'name': 'DHH',
+        'feed_url': 'https://world.hey.com/dhh/feed.atom',
+        'url': 'https://world.hey.com/dhh',
+        'min_score': 0,
+        'type': 'creator',
+    },
 
 }
 
