@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-12T19:31:19.845131+00:00",
+  "generated_at": "2026-03-12T20:04:18.518990+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 3,
     "outage": 3,
     "unknown": 0
   },
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -202,27 +202,27 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "outage",
-      "description": "AWS - Middle East (UAE): INC0152681",
-      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
-      "updated_at": "2026-03-05T04:39:37.974Z"
+      "description": "INC0153465",
+      "incident_url": "https://stspg.io/jz39kjt462dv",
+      "updated_at": "2026-03-12T19:42:20.086Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors on Claude Sonnet 4.6",
-      "incident_url": "https://stspg.io/d35c0tm17mfh",
-      "updated_at": "2026-03-12T16:34:27.628Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Some user seeing \"No Accessible Workspaces\" when attempting to login",
+      "description": "Some users seeing \"No Accessible Workspaces\" when attempting to login via SSO",
       "incident_url": "",
-      "updated_at": "2026-03-12T19:17:51Z"
+      "updated_at": "2026-03-12T19:40:08Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7sn2nmywf0jh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudchamber Service Degradation</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d35c0tm17mfh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Claude Sonnet 4.6</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-12 19:31 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7sn2nmywf0jh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudchamber Service Degradation</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jz39kjt462dv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC0153465</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-12 20:04 UTC</p>",
   "community": []
 }
