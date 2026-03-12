@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-12T03:12:47.133271+00:00",
+  "generated_at": "2026-03-12T04:58:54.782134+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 19,
+    "degraded": 4,
     "outage": 3,
     "unknown": 0
   },
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Actions failures to download (401 Unauthorized)",
+      "incident_url": "https://stspg.io/8t1nfjvmmtqj",
+      "updated_at": "2026-03-12T04:46:20.137Z"
     },
     {
       "name": "Netlify",
@@ -166,9 +166,9 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia",
-      "incident_url": "https://stspg.io/2bkpn7rgwfkj",
-      "updated_at": "2026-03-11T19:53:21.550-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2bkpn7rgwfkj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q0cv4kmpxk42\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-12 03:12 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8t1nfjvmmtqj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Actions failures to download (401 Unauthorized)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q0cv4kmpxk42\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-12 04:58 UTC</p>",
   "community": []
 }
