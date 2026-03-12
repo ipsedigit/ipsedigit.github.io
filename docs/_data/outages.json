@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T16:44:14.718667+00:00",
+  "generated_at": "2026-03-12T17:38:11.025931+00:00",
   "summary": {
     "total": 26,
     "operational": 17,
@@ -69,7 +69,7 @@
       "status": "degraded",
       "description": "Degraded Codespaces experience",
       "incident_url": "https://stspg.io/lq4q8bqfnkqn",
-      "updated_at": "2026-03-12T16:09:52.751Z"
+      "updated_at": "2026-03-12T17:20:20.623Z"
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Airtel Nigeria",
-      "incident_url": "https://stspg.io/vwkxhqhnblq6",
-      "updated_at": "2026-03-12T08:47:24.478-07:00"
+      "description": "SMS Delivery Delays from Twilio to Vodacom Tanzania",
+      "incident_url": "https://stspg.io/bj83wpc9q6t8",
+      "updated_at": "2026-03-12T10:26:34.676-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7sn2nmywf0jh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudchamber Service Degradation</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lq4q8bqfnkqn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded Codespaces experience</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vwkxhqhnblq6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Airtel Nigeria</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d35c0tm17mfh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Claude Sonnet 4.6</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-12 16:44 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7sn2nmywf0jh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudchamber Service Degradation</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lq4q8bqfnkqn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded Codespaces experience</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bj83wpc9q6t8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Vodacom Tanzania</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d35c0tm17mfh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Claude Sonnet 4.6</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-12 17:38 UTC</p>",
   "community": []
 }
