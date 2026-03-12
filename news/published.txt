@@ -245,3 +245,4 @@ https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html
 https://dev.to/ohmygod/the-defi-opsec-playbook-7-lessons-from-135m-in-2026-protocol-hacks-2l7e
 https://xeiaso.net/blog/2026/ai-abstraction/
 https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
+https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything
