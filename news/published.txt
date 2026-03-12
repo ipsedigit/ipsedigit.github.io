@@ -239,3 +239,4 @@ https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-ill
 https://seangoedecke.com/fast-llm-inference/
 https://kubernetes.io/blog/2025/09/09/kubernetes-v1-34-snapshottable-api-server-cache/
 https://thenewstack.io/anthropic-launches-a-multi-agent-code-review-tool-for-claude-code/
+http://www.righto.com/2026/02/8087-instruction-decoding.html
