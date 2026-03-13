@@ -255,3 +255,4 @@ https://simonwillison.net/2026/Mar/13/liquid/#atom-everything
 https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html
 https://xeiaso.net/blog/2026/hospital-advice/
 https://jvns.ca/blog/2026/02/18/man-pages/
+https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything
