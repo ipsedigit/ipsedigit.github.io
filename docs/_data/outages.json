@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-13T20:03:01.807857+00:00",
+  "generated_at": "2026-03-13T20:54:12.634572+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 6,
+    "operational": 18,
+    "degraded": 5,
     "outage": 3,
     "unknown": 0
   },
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures on Du and Etisalat Network in United Arab Emirates",
-      "incident_url": "https://stspg.io/mdcnm13wyy4g",
-      "updated_at": "2026-03-12T23:49:19.445-07:00"
+      "description": "SMS Delivery Delays From a Subset of Twilio Short Codes to Verizon, T-Mobile and AT&T United States",
+      "incident_url": "https://stspg.io/kg644bml5vnk",
+      "updated_at": "2026-03-13T13:53:00.117-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Responses API errors when using background mode",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-03-13T19:38:07Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mdcnm13wyy4g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures on Du and Etisalat Network in United Arab Emirates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ns5813nph8zs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Claude Opus 4.6 and Sonnet 4.6</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-13 20:03 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zlddb1nrtlgw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Dubai region (dxb1) is unavailable and traffic is being re-routed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kg644bml5vnk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From a Subset of Twilio Short Codes to Verizon, T-Mobile and AT&T United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ns5813nph8zs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Claude Opus 4.6 and Sonnet 4.6</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-13 20:54 UTC</p>",
   "community": []
 }
