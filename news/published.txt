@@ -253,3 +253,4 @@ https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything
 https://xeiaso.net/blog/2026/surgery-recovery-clankers/
 https://simonwillison.net/2026/Mar/13/liquid/#atom-everything
 https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html
+https://xeiaso.net/blog/2026/hospital-advice/
