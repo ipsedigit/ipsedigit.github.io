@@ -248,3 +248,4 @@ https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnera
 https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything
 https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/
 https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
+https://kubernetes.io/blog/2025/09/04/kubernetes-v1-34-introducing-psi-metrics-beta/
