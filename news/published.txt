@@ -252,3 +252,4 @@ https://kubernetes.io/blog/2025/09/04/kubernetes-v1-34-introducing-psi-metrics-b
 https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything
 https://xeiaso.net/blog/2026/surgery-recovery-clankers/
 https://simonwillison.net/2026/Mar/13/liquid/#atom-everything
+https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html
