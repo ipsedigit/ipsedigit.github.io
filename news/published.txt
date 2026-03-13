@@ -250,3 +250,4 @@ https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/
 https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
 https://kubernetes.io/blog/2025/09/04/kubernetes-v1-34-introducing-psi-metrics-beta/
 https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything
+https://xeiaso.net/blog/2026/surgery-recovery-clankers/
