@@ -268,3 +268,4 @@ https://www.infoq.com/news/2026/03/elastic-9-3-gpu-vector-indexing/?utm_campaign
 http://antirez.com/news/162
 https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything
 https://dev.to/padawanabhi/reinforcement-learning-for-robotics-a-comprehensive-2025-guide-5cg8
+https://xeiaso.net/blog/2026/some-thorns-have-roses/
