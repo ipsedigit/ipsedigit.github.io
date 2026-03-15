@@ -269,3 +269,4 @@ http://antirez.com/news/162
 https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything
 https://dev.to/padawanabhi/reinforcement-learning-for-robotics-a-comprehensive-2025-guide-5cg8
 https://xeiaso.net/blog/2026/some-thorns-have-roses/
+https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything
