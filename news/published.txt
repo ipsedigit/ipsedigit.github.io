@@ -277,3 +277,4 @@ https://xeiaso.net/blog/2026/killing-my-inner-necron/
 https://www.docker.com/blog/run-claude-code-with-docker/
 https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything
 https://xeiaso.net/blog/2026/portable-monitors-are-good/
+https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything
