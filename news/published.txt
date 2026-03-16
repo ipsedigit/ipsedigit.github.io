@@ -274,3 +274,4 @@ https://xeiaso.net/blog/2026/seroquel-xanax-trip-report/
 https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything
 https://dev.to/denesbeck/cloudgoat-data-secrets-write-up-exploiting-ec2-user-data-and-imds-to-escalate-privileges-3pnj
 https://xeiaso.net/blog/2026/killing-my-inner-necron/
+https://www.docker.com/blog/run-claude-code-with-docker/
