@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-16T19:13:29.736935+00:00",
+  "generated_at": "2026-03-16T19:57:22.792932+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 3,
     "outage": 2,
     "unknown": 0
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Cloudflare Analytics Availability Issues",
-      "incident_url": "https://stspg.io/yy2dm59pyrwr",
-      "updated_at": "2026-03-16T18:55:37.649Z"
+      "description": "Cloudflare Zero Trust: Gateway Issues",
+      "incident_url": "https://stspg.io/2y1x2f19xmq4",
+      "updated_at": "2026-03-16T19:54:34.272Z"
     },
     {
       "name": "CircleCI",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Real Time Media Streams (RTMS)",
-      "incident_url": "https://stspg.io/23nfdwhg9mby",
-      "updated_at": "2026-03-16T11:48:08.288-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Issues with Status CallBack Webhooks for WhatsApp",
-      "incident_url": "https://stspg.io/fzs3dyxxsn88",
-      "updated_at": "2026-03-16T12:00:47.922-07:00"
+      "description": "SMS Delivery Delays and Failures to Algar Telecom in Brazil",
+      "incident_url": "https://stspg.io/q77g0vz5zrgy",
+      "updated_at": "2026-03-16T10:16:05.481-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
       "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-03-09T15:01:24.451Z"
+      "updated_at": "2026-03-16T19:46:39.145Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yy2dm59pyrwr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Analytics Availability Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/23nfdwhg9mby\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Real Time Media Streams (RTMS)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fzs3dyxxsn88\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with Status CallBack Webhooks for WhatsApp</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-16 19:13 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2y1x2f19xmq4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Zero Trust: Gateway Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q77g0vz5zrgy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures to Algar Telecom in Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-16 19:57 UTC</p>",
   "community": []
 }
