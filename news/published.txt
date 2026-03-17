@@ -278,3 +278,6 @@ https://www.docker.com/blog/run-claude-code-with-docker/
 https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything
 https://xeiaso.net/blog/2026/portable-monitors-are-good/
 https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything
+https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/
+https://www.docker.com/blog/docker-model-runner-vllm-metal-macos/
+https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/
