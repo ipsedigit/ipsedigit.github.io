@@ -286,3 +286,4 @@ https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure
 https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything
 https://www.hillelwayne.com/post/z3-examples/
 https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything
+https://dev.to/fbio_reis_355b87b508598e/drogon-the-c-framework-that-tops-http2-benchmarks-and-where-it-struggles-3d20
