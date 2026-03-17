@@ -282,3 +282,4 @@ https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/
 https://www.docker.com/blog/docker-model-runner-vllm-metal-macos/
 https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/
 https://xeiaso.net/notes/2026/life-update-medical-leave/
+https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure/
