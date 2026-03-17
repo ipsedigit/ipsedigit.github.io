@@ -284,3 +284,4 @@ https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/
 https://xeiaso.net/notes/2026/life-update-medical-leave/
 https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure/
 https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything
+https://www.hillelwayne.com/post/z3-examples/
