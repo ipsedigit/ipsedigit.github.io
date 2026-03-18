@@ -293,3 +293,4 @@ https://kubernetes.io/blog/2025/09/17/kubernetes-v1-34-pods-report-dra-resource-
 https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html
 https://www.troyhunt.com/weekly-update-495/
 https://kubernetes.io/blog/2025/09/05/kubernetes-v1-34-pod-replacement-policy-for-jobs-goes-ga/
+https://thenewstack.io/ai-cloud-taxonomy-2026/
