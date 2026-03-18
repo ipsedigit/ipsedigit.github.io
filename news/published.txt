@@ -296,3 +296,4 @@ https://kubernetes.io/blog/2025/09/05/kubernetes-v1-34-pod-replacement-policy-fo
 https://thenewstack.io/ai-cloud-taxonomy-2026/
 https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything
 https://www.hillelwayne.com/comments/z3-examples/
+https://xeiaso.net/notes/2026/dns-fight/
