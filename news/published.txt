@@ -297,3 +297,4 @@ https://thenewstack.io/ai-cloud-taxonomy-2026/
 https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything
 https://www.hillelwayne.com/comments/z3-examples/
 https://xeiaso.net/notes/2026/dns-fight/
+https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything
