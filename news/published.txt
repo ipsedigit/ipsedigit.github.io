@@ -301,3 +301,4 @@ https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything
 http://brooker.co.za/blog/2026/03/18/apprentice.html
 https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/
 https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html
+https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything
