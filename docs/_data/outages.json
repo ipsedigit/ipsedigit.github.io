@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-19T14:30:27.757787+00:00",
+  "generated_at": "2026-03-19T15:37:59.766172+00:00",
   "summary": {
     "total": 26,
-    "operational": 14,
-    "degraded": 1,
-    "outage": 0,
-    "unknown": 11
+    "operational": 21,
+    "degraded": 3,
+    "outage": 2,
+    "unknown": 0
   },
   "services": [
     {
@@ -39,10 +39,10 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "operational",
+      "description": "Certificate Provisioning System (CPS) recurrence of issues in Akamai Control Center Portal",
+      "incident_url": "https://stspg.io/h3ts47254k79",
+      "updated_at": "2026-03-04T21:22:28.392Z"
     },
     {
       "name": "Cloudflare",
@@ -51,13 +51,13 @@
       "status": "degraded",
       "description": "Increased HTTP 530 Errors in Atlanta (ATL)",
       "incident_url": "https://stspg.io/c8zd1g0lz0xb",
-      "updated_at": "2026-03-19T11:36:38.855Z"
+      "updated_at": "2026-03-19T15:29:00.028Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -67,15 +67,15 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Issues with Copilot Coding Agent",
-      "incident_url": "https://stspg.io/2wv8jbdygp2k",
-      "updated_at": "2026-03-19T14:06:44.688Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -102,7 +102,7 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -120,7 +120,7 @@
       "name": "New Relic",
       "domain": "status.newrelic.com",
       "category": "observability",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -129,7 +129,7 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -174,37 +174,37 @@
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Voice Call Failures from Network Subscribers to Twilio Trinidad and Tobago Phone Numbers",
+      "incident_url": "https://stspg.io/0cnm20m91qzk",
+      "updated_at": "2026-03-19T07:55:25.541-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "outage",
+      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
+      "incident_url": "https://stspg.io/w6dmrtc20hz7",
+      "updated_at": "2026-03-16T19:46:39.145Z"
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "MongoDB Atlas for Government: SSO login failures for some users",
+      "incident_url": "https://stspg.io/nhvz9t2hs7s2",
+      "updated_at": "2026-03-19T00:24:26.324Z"
     },
     {
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "outage",
+      "description": "AWS - Middle East (UAE): INC0152681",
+      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
+      "updated_at": "2026-03-05T04:39:37.974Z"
     },
     {
       "name": "Anthropic",
@@ -237,10 +237,10 @@
       "name": "Notion",
       "domain": "status.notion.so",
       "category": "saas",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "operational",
+      "description": "Images failing to load for few users on android",
+      "incident_url": "https://stspg.io/qvl0cqjjf2mp",
+      "updated_at": "2026-03-18T23:43:31.544-07:00"
     }
   ],
   "static_services": [
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 1 active incident</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c8zd1g0lz0xb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased HTTP 530 Errors in Atlanta (ATL)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-19 14:30 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c8zd1g0lz0xb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased HTTP 530 Errors in Atlanta (ATL)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0cnm20m91qzk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Network Subscribers to Twilio Trinidad and Tobago Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nhvz9t2hs7s2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas for Government: SSO login failures for some users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-19 15:37 UTC</p>",
   "community": []
 }
