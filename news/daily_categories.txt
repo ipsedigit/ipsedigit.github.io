@@ -123,3 +123,5 @@
 2026-03-18:security:malware:breaking
 2026-03-18:ai:ai:breaking
 2026-03-18:ai:ai:deep
+2026-03-19:security:malware:breaking
+2026-03-19:ai:ai:breaking
