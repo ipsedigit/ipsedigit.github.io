@@ -303,3 +303,4 @@ https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-
 https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html
 https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything
 https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development
+https://www.troyhunt.com/weekly-update-494/
