@@ -305,3 +305,4 @@ https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything
 https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development
 https://www.troyhunt.com/weekly-update-494/
 https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything
+https://thenewstack.io/kubernetes-native-ai-infrastructure/
