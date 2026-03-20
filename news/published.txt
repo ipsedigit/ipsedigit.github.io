@@ -317,3 +317,4 @@ https://dev.to/_d7eb1c1703182e3ce1782/docker-vs-podman-developer-guide-to-contai
 https://world.hey.com/dhh/once-again-3e99f755
 https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything
 https://world.hey.com/dhh/omacon-comes-to-new-york-e6ee93cb
+http://brooker.co.za/blog/2026/03/20/ic-leadership.html
