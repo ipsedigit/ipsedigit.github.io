@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T16:09:37.173646+00:00",
+  "generated_at": "2026-03-20T17:03:58.865166+00:00",
   "summary": {
     "total": 26,
     "operational": 18,
@@ -21,10 +21,10 @@
       "name": "Azure",
       "domain": "https://azure.status.microsoft/en-us/status/feed/",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Mitigated - Multiple Azure Services Experienced Degraded Service in East US",
+      "incident_url": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
+      "updated_at": "Fri, 20 Mar 2026 16:37:05 Z"
     },
     {
       "name": "Google Cloud",
@@ -120,10 +120,10 @@
       "name": "New Relic",
       "domain": "status.newrelic.com",
       "category": "observability",
-      "status": "degraded",
-      "description": "Data Irregularities - US Region",
-      "incident_url": "https://stspg.io/fq13x5n7y6xv",
-      "updated_at": "2026-03-20T15:59:39.994Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Sentry",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Call Failures from network subscribers in Multiple Caribbean Islands to Twilio Phone Numbers",
-      "incident_url": "https://stspg.io/0cnm20m91qzk",
-      "updated_at": "2026-03-20T08:27:44.910-07:00"
+      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Viaero United States",
+      "incident_url": "https://stspg.io/ndlvvvdfh58f",
+      "updated_at": "2026-03-20T09:40:27.793-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9sbk906c8b9x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues With OpenJDK</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/v1gwd539gmvb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Jakarta</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fq13x5n7y6xv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">New Relic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Irregularities - US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0cnm20m91qzk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Call Failures from network subscribers in Multiple Caribbean Islands to Twilio Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nhvz9t2hs7s2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas for Government: SSO login failures for some users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-20 16:09 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodncus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Mitigated - Multiple Azure Services Experienced Degraded Service in East US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9sbk906c8b9x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues With OpenJDK</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/v1gwd539gmvb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Jakarta</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ndlvvvdfh58f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Viaero United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nhvz9t2hs7s2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas for Government: SSO login failures for some users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-20 17:03 UTC</p>",
   "community": []
 }
