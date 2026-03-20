@@ -315,3 +315,4 @@ https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything
 https://newsletter.pragmaticengineer.com/p/the-pulse-is-the-fde-role-becoming
 https://dev.to/_d7eb1c1703182e3ce1782/docker-vs-podman-developer-guide-to-container-runtimes-2026-4e1i
 https://world.hey.com/dhh/once-again-3e99f755
+https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything
