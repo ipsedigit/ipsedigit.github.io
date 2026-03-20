@@ -319,3 +319,4 @@ https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-ev
 https://world.hey.com/dhh/omacon-comes-to-new-york-e6ee93cb
 http://brooker.co.za/blog/2026/03/20/ic-leadership.html
 https://dev.to/ankitaloni369/how-to-build-a-playwright-framework-with-excel-data-driven-testing-l94
+https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything
