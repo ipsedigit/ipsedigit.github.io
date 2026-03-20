@@ -311,3 +311,4 @@ https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything
 https://www.troyhunt.com/weekly-update-492/
 https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html
 https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html
+https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything
