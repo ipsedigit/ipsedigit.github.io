@@ -312,3 +312,5 @@ https://www.troyhunt.com/weekly-update-492/
 https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html
 https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html
 https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything
+https://newsletter.pragmaticengineer.com/p/the-pulse-is-the-fde-role-becoming
+https://dev.to/_d7eb1c1703182e3ce1782/docker-vs-podman-developer-guide-to-container-runtimes-2026-4e1i
