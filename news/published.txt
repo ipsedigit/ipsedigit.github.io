@@ -326,3 +326,4 @@ https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything
 https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin
 https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything
 https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/
+https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html
