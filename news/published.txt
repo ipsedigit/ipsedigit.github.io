@@ -327,3 +327,8 @@ https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin
 https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything
 https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/
 https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html
+https://hackernoon.com/a-guide-on-how-to-develop-and-benchmark-the-same-feature-in-node-and-go?source=rss
+https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/
+https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything
+https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/
+https://dev.to/rickcogley/cloudflare-pages-vs-workers-in-2026-migration-guide-ka7

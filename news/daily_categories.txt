@@ -136,3 +136,8 @@
 2026-03-21:ai:ai:deep
 2026-03-21:ai:ai:deep
 2026-03-21:security:security:breaking
+2026-03-22:devtools:languages:deep
+2026-03-22:security:malware:breaking
+2026-03-22:ai:llm:community
+2026-03-22:ai:ai:deep
+2026-03-22:devtools:frameworks:deep
