@@ -339,3 +339,4 @@ https://simonwillison.net/2026/Mar/22/starlette/#atom-everything
 https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html
 https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/
 https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything
+https://world.hey.com/dhh/denmark-desperately-needs-more-inequality-8e84a8d0
