@@ -333,3 +333,4 @@ https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everythi
 https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/
 https://dev.to/rickcogley/cloudflare-pages-vs-workers-in-2026-migration-guide-ka7
 https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything
+https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything
