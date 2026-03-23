@@ -335,3 +335,4 @@ https://dev.to/rickcogley/cloudflare-pages-vs-workers-in-2026-migration-guide-ka
 https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything
 https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything
 https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything
+https://simonwillison.net/2026/Mar/22/starlette/#atom-everything
