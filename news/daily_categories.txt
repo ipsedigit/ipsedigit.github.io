@@ -141,3 +141,5 @@
 2026-03-22:ai:llm:community
 2026-03-22:ai:ai:deep
 2026-03-22:devtools:frameworks:deep
+2026-03-23:security:malware:breaking
+2026-03-23:ai:ai:deep

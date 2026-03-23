@@ -336,3 +336,5 @@ https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-cod
 https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything
 https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything
 https://simonwillison.net/2026/Mar/22/starlette/#atom-everything
+https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html
+https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/
