@@ -347,3 +347,4 @@ https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything
 https://www.troyhunt.com/weekly-update-496/
 https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything
 https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything
+https://thenewstack.io/ai2-launches-molmoweb-an-open-source-web-agent/
