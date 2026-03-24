@@ -344,3 +344,4 @@ https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything
 https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
 https://dev.to/jonoherrington/how-to-write-architecture-decision-records-that-actually-get-used-4i2
 https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything
+https://www.troyhunt.com/weekly-update-496/
