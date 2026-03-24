@@ -143,3 +143,5 @@
 2026-03-22:devtools:frameworks:deep
 2026-03-23:security:malware:breaking
 2026-03-23:ai:ai:deep
+2026-03-24:security:malware:breaking
+2026-03-24:software-engineering:api-design:deep
