@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-25T13:51:04.785304+00:00",
+  "generated_at": "2026-03-25T15:07:39.860368+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 15,
+    "degraded": 9,
     "outage": 2,
     "unknown": 0
   },
@@ -42,7 +42,7 @@
       "status": "degraded",
       "description": "Edge Delivery Issues",
       "incident_url": "https://stspg.io/zffn872t5ld0",
-      "updated_at": "2026-03-25T04:34:59.116Z"
+      "updated_at": "2026-03-25T14:02:43.121Z"
     },
     {
       "name": "Cloudflare",
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -84,10 +84,10 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Some Render Workflows tasks are not being scheduled",
+      "incident_url": "https://stspg.io/1hnjx38c7qxc",
+      "updated_at": "2026-03-25T14:45:59.939Z"
     },
     {
       "name": "Vercel",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Failures From Network Subscribers to a Subset of Twilio Denmark Phone Numbers",
       "incident_url": "https://stspg.io/8z0lkvgdxpyv",
-      "updated_at": "2026-03-25T06:08:33.930-07:00"
+      "updated_at": "2026-03-25T07:26:52.094-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "Elevated Errors on claude.ai",
-      "incident_url": "https://stspg.io/pjj05p7lrfxg",
-      "updated_at": "2026-03-25T13:45:25.585Z"
+      "status": "degraded",
+      "description": "Elevated errors on Claude Opus 4.6",
+      "incident_url": "https://stspg.io/dv1mb1z3pwj2",
+      "updated_at": "2026-03-25T15:04:00.072Z"
     },
     {
       "name": "OpenAI",
@@ -237,10 +237,10 @@
       "name": "Notion",
       "domain": "status.notion.so",
       "category": "saas",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Notion Mail login not working on iOS, desktop app",
+      "incident_url": "https://stspg.io/wctsf8gp2w9f",
+      "updated_at": "2026-03-25T08:07:18.754-07:00"
     }
   ],
   "static_services": [
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zffn872t5ld0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vbrybjpxdrsm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Analytics Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8z0lkvgdxpyv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures From Network Subscribers to a Subset of Twilio Denmark Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nhvz9t2hs7s2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas for Government: SSO login failures for some users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-25 13:51 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 9 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zffn872t5ld0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vbrybjpxdrsm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Analytics Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1hnjx38c7qxc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Some Render Workflows tasks are not being scheduled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8z0lkvgdxpyv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures From Network Subscribers to a Subset of Twilio Denmark Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nhvz9t2hs7s2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas for Government: SSO login failures for some users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dv1mb1z3pwj2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Claude Opus 4.6</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wctsf8gp2w9f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Notion</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Notion Mail login not working on iOS, desktop app</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-25 15:07 UTC</p>",
   "community": []
 }
