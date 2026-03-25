@@ -356,3 +356,5 @@ https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything
 https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything
 https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything
 https://drewdevault.com/2026/03/25/2026-03-25-Forking-vim.html
+https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything
+https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/
