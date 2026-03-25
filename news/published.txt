@@ -355,3 +355,4 @@ https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything
 https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything
 https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything
 https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything
+https://drewdevault.com/2026/03/25/2026-03-25-Forking-vim.html
