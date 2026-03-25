@@ -350,3 +350,4 @@ https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything
 https://thenewstack.io/ai2-launches-molmoweb-an-open-source-web-agent/
 https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything
 https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything
+https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html
