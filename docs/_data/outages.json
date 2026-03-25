@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-25T19:35:27.081554+00:00",
+  "generated_at": "2026-03-25T20:23:08.538426+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 7,
+    "operational": 18,
+    "degraded": 5,
     "outage": 3,
     "unknown": 0
   },
@@ -141,7 +141,7 @@
       "status": "outage",
       "description": "Issues connecting to Discord",
       "incident_url": "https://stspg.io/61fw0d5ddysp",
-      "updated_at": "2026-03-25T12:21:47.198-07:00"
+      "updated_at": "2026-03-25T13:07:21.199-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Twilio Phone Numbers to Telcel/Radiomovil Mexico",
-      "incident_url": "https://stspg.io/m178kfhjr8tz",
-      "updated_at": "2026-03-25T12:00:27.335-07:00"
+      "description": "Increase errors in whatsapp channel for verify",
+      "incident_url": "https://stspg.io/md40tdjqv4s2",
+      "updated_at": "2026-03-25T13:08:14.692-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -213,16 +213,16 @@
       "status": "degraded",
       "description": "Elevated connection reset errors in Cowork",
       "incident_url": "https://stspg.io/5zt95qbyf06z",
-      "updated_at": "2026-03-25T16:58:51.243Z"
+      "updated_at": "2026-03-25T20:08:20.726Z"
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Unable to download or preview project files",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-03-25T18:37:27Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -237,10 +237,10 @@
       "name": "Notion",
       "domain": "status.notion.so",
       "category": "saas",
-      "status": "degraded",
-      "description": "Notion Mail login not working on iOS, desktop app",
-      "incident_url": "https://stspg.io/wctsf8gp2w9f",
-      "updated_at": "2026-03-25T08:29:52.706-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     }
   ],
   "static_services": [
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vbrybjpxdrsm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Analytics Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/61fw0d5ddysp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Discord</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issues connecting to Discord</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m178kfhjr8tz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to Telcel/Radiomovil Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5zt95qbyf06z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated connection reset errors in Cowork</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wctsf8gp2w9f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Notion</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Notion Mail login not working on iOS, desktop app</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-25 19:35 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vbrybjpxdrsm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Analytics Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/61fw0d5ddysp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Discord</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issues connecting to Discord</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/md40tdjqv4s2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increase errors in whatsapp channel for verify</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5zt95qbyf06z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated connection reset errors in Cowork</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-25 20:23 UTC</p>",
   "community": []
 }
