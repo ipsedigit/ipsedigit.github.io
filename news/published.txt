@@ -361,3 +361,4 @@ https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-i
 https://simonwillison.net/2026/Mar/22/dns/#atom-everything
 https://thenewstack.io/pihole-docker-network-adblocking/
 https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
+https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything
