@@ -363,3 +363,4 @@ https://thenewstack.io/pihole-docker-network-adblocking/
 https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
 https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything
 https://seangoedecke.com/simple-work-gets-rewarded/
+https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything
