@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-25T23:20:56.058128+00:00",
+  "generated_at": "2026-03-26T00:00:33.484234+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 6,
+    "operational": 19,
+    "degraded": 5,
     "outage": 2,
     "unknown": 0
   },
@@ -102,10 +102,10 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Issue with npm website and login.",
-      "incident_url": "https://stspg.io/64sps5l1qm0t",
-      "updated_at": "2026-03-25T23:10:48.986Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Datadog",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Delayed Account Reactivations",
       "incident_url": "https://stspg.io/lctw1q80w24g",
-      "updated_at": "2026-03-25T15:41:49.132-07:00"
+      "updated_at": "2026-03-25T16:34:19.701-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -195,7 +195,7 @@
       "status": "degraded",
       "description": "Intermittent 503 Errors on Atlas Admin API and Automation Tooling",
       "incident_url": "https://stspg.io/jzjbn35bsc7r",
-      "updated_at": "2026-03-25T21:31:18.204Z"
+      "updated_at": "2026-03-25T23:39:37.539Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1slz0nd3jhmt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Access for Infrastructure RDP intermittent connectivity issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/64sps5l1qm0t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issue with npm website and login.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lctw1q80w24g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Account Reactivations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jzjbn35bsc7r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent 503 Errors on Atlas Admin API and Automation Tooling</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5zt95qbyf06z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated connection reset errors in Cowork</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-25 23:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1slz0nd3jhmt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Access for Infrastructure RDP intermittent connectivity issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lctw1q80w24g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Account Reactivations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jzjbn35bsc7r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent 503 Errors on Atlas Admin API and Automation Tooling</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5zt95qbyf06z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated connection reset errors in Cowork</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-26 00:00 UTC</p>",
   "community": []
 }
