@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-26T15:45:39.085887+00:00",
+  "generated_at": "2026-03-26T17:11:22.962106+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 2,
     "unknown": 0
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Error Logging Issues",
-      "incident_url": "https://stspg.io/xlrzvfwj4hyv",
-      "updated_at": "2026-03-25T20:36:39.696Z"
+      "description": "Incorrect IP source information in spectrum HTTP/HTTPS apps",
+      "incident_url": "https://stspg.io/wxt5wc65s0r9",
+      "updated_at": "2026-03-26T17:08:56.860Z"
     },
     {
       "name": "CircleCI",
@@ -114,7 +114,7 @@
       "status": "degraded",
       "description": "Delayed Monitors Notifications",
       "incident_url": "https://stspg.io/vl9tsrk9z2ld",
-      "updated_at": "2026-03-26T11:32:11.302-04:00"
+      "updated_at": "2026-03-26T12:48:29.042-04:00"
     },
     {
       "name": "New Relic",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "degraded",
-      "description": "Trouble connecting to Slack",
-      "incident_url": "https://slack-status.com/2026-03/8269f159feb011e3",
-      "updated_at": "2026-03-26T08:40:54-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from a Subset of Twilio Long Codes to Vodafone Italy",
-      "incident_url": "https://stspg.io/m575cqpq6dm6",
-      "updated_at": "2026-03-26T08:12:56.211-07:00"
+      "description": "SMS Delivery Delays From a Subset of Twilio Short Codes to Cellcom United States",
+      "incident_url": "https://stspg.io/q13yp7ymf50l",
+      "updated_at": "2026-03-26T10:01:42.505-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xlrzvfwj4hyv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Error Logging Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vl9tsrk9z2ld\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Monitors Notifications</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-03/8269f159feb011e3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble connecting to Slack</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m575cqpq6dm6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Long Codes to Vodafone Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n5h2y719bzw2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issue creating new projects in GCP europe-west3</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jzjbn35bsc7r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent 503 Errors on Atlas Admin API and Automation Tooling</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-26 15:45 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wxt5wc65s0r9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect IP source information in spectrum HTTP/HTTPS apps</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vl9tsrk9z2ld\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Monitors Notifications</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q13yp7ymf50l\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From a Subset of Twilio Short Codes to Cellcom United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n5h2y719bzw2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issue creating new projects in GCP europe-west3</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jzjbn35bsc7r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent 503 Errors on Atlas Admin API and Automation Tooling</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-26 17:11 UTC</p>",
   "community": []
 }
