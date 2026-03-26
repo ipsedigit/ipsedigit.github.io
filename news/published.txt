@@ -360,3 +360,4 @@ https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything
 https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/
 https://simonwillison.net/2026/Mar/22/dns/#atom-everything
 https://thenewstack.io/pihole-docker-network-adblocking/
+https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
