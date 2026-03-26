@@ -365,3 +365,4 @@ https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything
 https://seangoedecke.com/simple-work-gets-rewarded/
 https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything
 https://dev.to/ch_talha_1e8d6779deffb4b6/react-native-in-2026-the-new-architecture-revolution-what-you-need-to-know-4blc
+https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything
