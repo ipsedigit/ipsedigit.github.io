@@ -371,3 +371,4 @@ https://thehackernews.com/2026/03/coruna-ios-kit-reuses-2023.html
 http://brooker.co.za/blog/2026/03/25/ic-junior.html
 https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html
 https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything
+https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything
