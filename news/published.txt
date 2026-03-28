@@ -381,3 +381,4 @@ https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html
 https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything
 https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html
 https://thenewstack.io/anthropic-march-2026-roundup/
+https://drewdevault.com/2026/03/28/2026-03-28-rsync-without-rsync.html
