@@ -376,3 +376,4 @@ https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything
 https://thenewstack.io/betterleaks-open-source-secret-scanner/
 https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything
 https://seangoedecke.com/working-on-products-people-hate/
+https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything
