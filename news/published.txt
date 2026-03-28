@@ -377,3 +377,4 @@ https://thenewstack.io/betterleaks-open-source-secret-scanner/
 https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything
 https://seangoedecke.com/working-on-products-people-hate/
 https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything
+https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html
