@@ -388,3 +388,4 @@ https://dev.to/bhawana127/real-device-cloud-vs-emulators-a-developers-guide-mbo
 https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything
 https://nullprogram.com/blog/2026/03/29/
 https://simonwillison.net/2026/Mar/29/pretext/#atom-everything
+https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything
