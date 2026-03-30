@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T21:03:05.832154+00:00",
+  "generated_at": "2026-03-30T21:59:10.181000+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -76,9 +76,9 @@
       "domain": "netlifystatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Environment Variables Issues",
-      "incident_url": "https://stspg.io/sfvt32tjln6r",
-      "updated_at": "2026-03-30T19:38:13.779Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Render",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal",
       "incident_url": "https://stspg.io/cwnqstgpxzg3",
-      "updated_at": "2026-03-30T06:50:40.707-07:00"
+      "updated_at": "2026-03-30T14:50:20.472-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,18 +193,18 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "degraded",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-03-26T21:35:42.110Z"
+      "description": "Delays in cluster creation and adding new cluster nodes in Azure East US 2 region",
+      "incident_url": "https://stspg.io/3vjd3s0kkmlm",
+      "updated_at": "2026-03-30T21:47:40.558Z"
     },
     {
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "outage",
-      "description": "INC0154408",
-      "incident_url": "https://stspg.io/z2618428w3cz",
-      "updated_at": "2026-03-30T17:10:03.994Z"
+      "description": "AWS - Middle East (UAE): INC0152681",
+      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
+      "updated_at": "2026-03-05T04:39:37.974Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cwnqstgpxzg3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/z2618428w3cz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC0154408</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-30 21:03 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cwnqstgpxzg3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3vjd3s0kkmlm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in cluster creation and adding new cluster nodes in Azure East US 2 region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-03-30 21:59 UTC</p>",
   "community": []
 }
