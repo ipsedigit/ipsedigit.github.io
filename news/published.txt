@@ -391,3 +391,4 @@ https://simonwillison.net/2026/Mar/29/pretext/#atom-everything
 https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything
 https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/
 https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything
+https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/
