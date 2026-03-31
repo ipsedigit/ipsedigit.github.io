@@ -393,3 +393,4 @@ https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/
 https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything
 https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/
 https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancements-bulk-domain-verification-api/
+https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
