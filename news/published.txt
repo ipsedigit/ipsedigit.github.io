@@ -397,3 +397,5 @@ https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
 https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything
 https://www.troyhunt.com/weekly-update-497/
 https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything
+https://www.infoq.com/news/2026/03/cloudflare-api-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://www.infoq.com/articles/event-driven-banking-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
