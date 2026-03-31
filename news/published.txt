@@ -399,3 +399,4 @@ https://www.troyhunt.com/weekly-update-497/
 https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything
 https://www.infoq.com/news/2026/03/cloudflare-api-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://www.infoq.com/articles/event-driven-banking-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything
