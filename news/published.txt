@@ -395,3 +395,4 @@ https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems
 https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancements-bulk-domain-verification-api/
 https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
 https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything
+https://www.troyhunt.com/weekly-update-497/
