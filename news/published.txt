@@ -396,3 +396,4 @@ https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancement
 https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
 https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything
 https://www.troyhunt.com/weekly-update-497/
+https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything
