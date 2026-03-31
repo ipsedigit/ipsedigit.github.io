@@ -402,3 +402,4 @@ https://www.infoq.com/articles/event-driven-banking-architecture/?utm_campaign=i
 https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything
 https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html
 https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/
+https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything
