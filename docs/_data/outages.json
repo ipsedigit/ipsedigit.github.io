@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-01T10:11:10.441685+00:00",
+  "generated_at": "2026-04-01T11:15:41.640200+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 6,
+    "operational": 21,
+    "degraded": 3,
     "outage": 2,
     "unknown": 0
   },
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "Incident with Copilot",
       "incident_url": "https://stspg.io/2xwjn4t1r8jy",
-      "updated_at": "2026-04-01T10:00:26.917Z"
+      "updated_at": "2026-04-01T10:56:30.511Z"
     },
     {
       "name": "Netlify",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors on requests to Claude Opus 4.6",
-      "incident_url": "https://stspg.io/6mq5vq24mwm8",
-      "updated_at": "2026-04-01T09:28:28.139Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9cvyvlft94s8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Content Purge and Edge Delivery Issues for Customers Using Enhanced mTLS</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2xwjn4t1r8jy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incident with Copilot</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/l15n9klx502w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6mq5vq24mwm8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on requests to Claude Opus 4.6</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-01 10:11 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9cvyvlft94s8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Content Purge and Edge Delivery Issues for Customers Using Enhanced mTLS</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/l15n9klx502w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-01 11:15 UTC</p>",
   "community": []
 }
