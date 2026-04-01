@@ -411,3 +411,4 @@ https://dev.to/childrentime/we-benchmarked-our-ssr-framework-against-nextjs-here
 https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything
 https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything
 https://xeiaso.net/notes/2026/claude-code-wins-april-fools/
+https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers
