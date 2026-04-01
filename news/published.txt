@@ -406,3 +406,4 @@ https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything
 https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything
 https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/
 https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html
+https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything
