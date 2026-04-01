@@ -413,3 +413,4 @@ https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything
 https://xeiaso.net/notes/2026/claude-code-wins-april-fools/
 https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers
 https://www.hillelwayne.com/post/pizza/
+https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything
