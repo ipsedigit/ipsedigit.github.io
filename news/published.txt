@@ -419,3 +419,4 @@ https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html
 https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything
 https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything
 https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything
+https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html

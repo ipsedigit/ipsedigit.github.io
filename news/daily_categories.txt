@@ -171,3 +171,4 @@
 2026-04-01:ai:ai:deep
 2026-04-02:ai:llm:breaking
 2026-04-02:security:vulnerability:breaking
+2026-04-02:security:malware:breaking
