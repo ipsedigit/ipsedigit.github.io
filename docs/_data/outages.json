@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-02T18:36:42.595241+00:00",
+  "generated_at": "2026-04-02T19:37:07.656613+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 2,
     "unknown": 0
   },
@@ -49,18 +49,18 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Elevated latency uploading Workers Static Assets",
-      "incident_url": "https://stspg.io/lj19hs21t69j",
-      "updated_at": "2026-04-02T17:39:48.531Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Usage API data for 4/1 is incomplete with multiple columns showing null values. Data prior to 4/1 is unaffected. We are investigating.",
+      "incident_url": "https://stspg.io/78v0qz8pybdn",
+      "updated_at": "2026-04-02T19:19:49.012Z"
     },
     {
       "name": "GitHub",
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Disruption with some GitHub services",
       "incident_url": "https://stspg.io/5b7098zw5zw7",
-      "updated_at": "2026-04-02T18:25:50.680Z"
+      "updated_at": "2026-04-02T19:28:43.922Z"
     },
     {
       "name": "Netlify",
@@ -94,9 +94,9 @@
       "domain": "vercel-status.com",
       "category": "devtools",
       "status": "degraded",
-      "description": "Elevated errors (SIGSEGV) for Vercel Functions running Node.js 20 in cle1 and dub1 regions",
-      "incident_url": "https://stspg.io/2zy4m92qfj2n",
-      "updated_at": "2026-04-02T18:09:23.570Z"
+      "description": "Elevated INTERNAL_UNEXPECTED_ERROR error rates for some deployments",
+      "incident_url": "https://stspg.io/drc0srj06t3t",
+      "updated_at": "2026-04-02T19:26:35.356Z"
     },
     {
       "name": "npm",
@@ -166,9 +166,9 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation for a subset of users Affecting Zoom Client in the North America Region",
+      "description": "Service Degradation for a subset of users Affecting Zoom Client in the North America",
       "incident_url": "https://stspg.io/t0gg4gdwt4pt",
-      "updated_at": "2026-04-02T11:03:57.322-07:00"
+      "updated_at": "2026-04-02T11:56:32.621-07:00"
     },
     {
       "name": "Twilio",
@@ -240,7 +240,7 @@
       "status": "operational",
       "description": "Notion AI Queries",
       "incident_url": "https://stspg.io/7hdrsgl64bbg",
-      "updated_at": "2026-04-02T10:53:26.856-07:00"
+      "updated_at": "2026-04-02T12:00:31.239-07:00"
     }
   ],
   "static_services": [
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lj19hs21t69j\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated latency uploading Workers Static Assets</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2zy4m92qfj2n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors (SIGSEGV) for Vercel Functions running Node.js 20 in cle1 and dub1 regions</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t0gg4gdwt4pt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation for a subset of users Affecting Zoom Client in the North America Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xfm1gz57fr8y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Ufone Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-02 18:36 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/78v0qz8pybdn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Usage API data for 4/1 is incomplete with multiple columns showing null values. Data prior to 4/1 is unaffected. We are investigating.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drc0srj06t3t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated INTERNAL_UNEXPECTED_ERROR error rates for some deployments</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t0gg4gdwt4pt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation for a subset of users Affecting Zoom Client in the North America</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xfm1gz57fr8y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Ufone Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-02 19:37 UTC</p>",
   "community": []
 }
