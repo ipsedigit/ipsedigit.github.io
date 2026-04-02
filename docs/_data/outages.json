@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-02T12:38:33.662682+00:00",
+  "generated_at": "2026-04-02T14:10:23.966381+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 18,
+    "degraded": 6,
     "outage": 2,
     "unknown": 0
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Issues with creating Managed Rules exceptions via the Cloudflare Dashboard",
+      "incident_url": "https://stspg.io/f0pmlm7by9ch",
+      "updated_at": "2026-04-02T14:07:09.582Z"
     },
     {
       "name": "CircleCI",
@@ -75,10 +75,10 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Investigating errors on the Standard Edge Network",
+      "incident_url": "https://stspg.io/wzpxgykcp6zj",
+      "updated_at": "2026-04-02T13:35:40.535Z"
     },
     {
       "name": "Render",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated errors (SIGSEGV) for Vercel Functions running Node.js 20",
+      "incident_url": "https://stspg.io/2zy4m92qfj2n",
+      "updated_at": "2026-04-02T14:10:14.877Z"
     },
     {
       "name": "npm",
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation for a subset of users Affecting Zoom Client in the North America Region",
       "incident_url": "https://stspg.io/t0gg4gdwt4pt",
-      "updated_at": "2026-04-02T01:28:24.660-07:00"
+      "updated_at": "2026-04-02T06:51:37.122-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal",
-      "incident_url": "https://stspg.io/yds8mdsc5k8p",
-      "updated_at": "2026-04-02T04:32:07.451-07:00"
+      "description": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to ETMTN Ethiopia",
+      "incident_url": "https://stspg.io/1n93x09g780v",
+      "updated_at": "2026-04-02T07:03:53.557-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9cvyvlft94s8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Content Purge and Edge Delivery Issues for Customers Using Enhanced mTLS</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t0gg4gdwt4pt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation for a subset of users Affecting Zoom Client in the North America Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yds8mdsc5k8p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-02 12:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9cvyvlft94s8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Content Purge and Edge Delivery Issues for Customers Using Enhanced mTLS</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f0pmlm7by9ch\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with creating Managed Rules exceptions via the Cloudflare Dashboard</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wzpxgykcp6zj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Investigating errors on the Standard Edge Network</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2zy4m92qfj2n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors (SIGSEGV) for Vercel Functions running Node.js 20</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t0gg4gdwt4pt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation for a subset of users Affecting Zoom Client in the North America Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1n93x09g780v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Phone Numbers to ETMTN Ethiopia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-02 14:10 UTC</p>",
   "community": []
 }
