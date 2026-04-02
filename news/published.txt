@@ -422,3 +422,4 @@ https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everythin
 https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html
 https://www.evilsocket.net/2026/04/02/Mongoose-Preauth-Remote-Code-Execution-and-mTLS-Bypass/
 https://dev.to/jacksonkasi/im-sick-of-200-saas-boilerplates-that-leak-tenant-data-here-is-how-to-build-real-isolation-41oo
+https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything
