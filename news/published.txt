@@ -414,3 +414,5 @@ https://xeiaso.net/notes/2026/claude-code-wins-april-fools/
 https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers
 https://www.hillelwayne.com/post/pizza/
 https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything
+https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html
+https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html
