@@ -425,3 +425,4 @@ https://dev.to/jacksonkasi/im-sick-of-200-saas-boilerplates-that-leak-tenant-dat
 https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything
 https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything
 https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
+https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything
