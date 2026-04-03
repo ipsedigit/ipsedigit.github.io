@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-03T00:00:23.527774+00:00",
+  "generated_at": "2026-04-03T03:28:34.220467+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 21,
+    "degraded": 3,
     "outage": 2,
     "unknown": 0
   },
@@ -57,10 +57,10 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Usage API data for 4/1 is incomplete with multiple columns showing null values. Data prior to 4/1 is unaffected. We are investigating.",
-      "incident_url": "https://stspg.io/78v0qz8pybdn",
-      "updated_at": "2026-04-02T21:23:34.938Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation Affecting A Subset of Users with Zoom Chat in the North America Region",
       "incident_url": "https://stspg.io/t0gg4gdwt4pt",
-      "updated_at": "2026-04-02T13:21:48.980-07:00"
+      "updated_at": "2026-04-02T17:53:42.284-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failure from Twilio to Ufone Pakistan",
-      "incident_url": "https://stspg.io/xfm1gz57fr8y",
-      "updated_at": "2026-04-02T16:37:32.105-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal",
+      "incident_url": "https://stspg.io/yds8mdsc5k8p",
+      "updated_at": "2026-04-02T16:13:04.524-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Voice conversations not shown in Claude.ai sidebar",
-      "incident_url": "https://stspg.io/79w4tpxntqbv",
-      "updated_at": "2026-04-02T23:29:03.106Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/78v0qz8pybdn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Usage API data for 4/1 is incomplete with multiple columns showing null values. Data prior to 4/1 is unaffected. We are investigating.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t0gg4gdwt4pt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting A Subset of Users with Zoom Chat in the North America Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xfm1gz57fr8y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failure from Twilio to Ufone Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79w4tpxntqbv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice conversations not shown in Claude.ai sidebar</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-03 00:00 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t0gg4gdwt4pt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting A Subset of Users with Zoom Chat in the North America Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yds8mdsc5k8p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange/Sonatel Senegal</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-03 03:28 UTC</p>",
   "community": []
 }
