@@ -428,3 +428,4 @@ https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
 https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything
 https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything
 https://seangoedecke.com/programming-with-ai-agents-as-theory-building/
+https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
