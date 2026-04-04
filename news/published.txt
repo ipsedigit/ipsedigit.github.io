@@ -432,3 +432,5 @@ https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=info
 https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything
 https://www.computerenhance.com/p/my-thoughts-on-notchs-dlss-post
 https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything
+https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything
+https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html
