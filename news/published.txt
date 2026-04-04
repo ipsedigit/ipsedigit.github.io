@@ -436,3 +436,4 @@ https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-ever
 https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html
 https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything
 https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything
+https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything
