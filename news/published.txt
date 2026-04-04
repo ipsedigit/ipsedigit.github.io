@@ -434,3 +434,4 @@ https://www.computerenhance.com/p/my-thoughts-on-notchs-dlss-post
 https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything
 https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything
 https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html
+https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything
