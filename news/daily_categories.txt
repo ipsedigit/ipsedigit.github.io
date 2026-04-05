@@ -178,3 +178,4 @@
 2026-04-04:security:cryptography:community
 2026-04-04:security:vulnerability:breaking
 2026-04-05:security:vulnerability:breaking
+2026-04-05:ai:llm:community
