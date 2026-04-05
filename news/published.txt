@@ -447,3 +447,4 @@ https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything
 https://dev.to/_350df62777eb55e1/i-built-a-cross-platform-price-comparison-tool-for-retail-arbitrage-5fpc
 https://www.smartlab.at/run-openclaw-ai-agent-on-a-synology-disk/
 https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything
+https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything
