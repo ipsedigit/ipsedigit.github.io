@@ -440,3 +440,4 @@ https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything
 https://lucumr.pocoo.org/2026/4/4/absurd-in-production/
 https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything
 https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything
+https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything
