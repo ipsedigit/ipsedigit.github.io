@@ -442,3 +442,4 @@ https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything
 https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything
 https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything
 https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html
+https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything
