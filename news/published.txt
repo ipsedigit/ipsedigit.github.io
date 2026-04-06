@@ -450,3 +450,4 @@ https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything
 https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything
 https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/
 https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything
+https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything
