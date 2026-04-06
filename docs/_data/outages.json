@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T19:31:04.236394+00:00",
+  "generated_at": "2026-04-06T20:24:34.639608+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -39,19 +39,19 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "degraded",
+      "status": "operational",
       "description": "Edge Delivery Issues in Chicago, Illinois",
       "incident_url": "https://stspg.io/bccsx5r9p4rb",
-      "updated_at": "2026-04-06T18:57:11.973Z"
+      "updated_at": "2026-04-06T19:46:23.270Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Digital experience Logpush delay",
-      "incident_url": "https://stspg.io/p4h4mf6fr9jf",
-      "updated_at": "2026-04-06T17:40:58.579Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "Error & Span processing delays in US",
       "incident_url": "https://stspg.io/mpvyglzgq0vt",
-      "updated_at": "2026-04-06T19:04:27.444Z"
+      "updated_at": "2026-04-06T20:04:48.802Z"
     },
     {
       "name": "Discord",
@@ -174,7 +174,7 @@
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bccsx5r9p4rb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues in Chicago, Illinois</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p4h4mf6fr9jf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Digital experience Logpush delay</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mpvyglzgq0vt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Error & Span processing delays in US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mq1zxhymc8nn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Synthetics service may not run on schedule (us-east-4)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-06 19:31 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mpvyglzgq0vt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Error & Span processing delays in US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mq1zxhymc8nn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Synthetics service may not run on schedule (us-east-4)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-06 20:24 UTC</p>",
   "community": []
 }
