@@ -181,3 +181,4 @@
 2026-04-05:ai:llm:community
 2026-04-06:security:vulnerability:breaking
 2026-04-06:security:malware:breaking
+2026-04-06:software-engineering:architecture:breaking
