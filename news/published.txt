@@ -452,3 +452,4 @@ https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw
 https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything
 https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything
 https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything
+https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html
