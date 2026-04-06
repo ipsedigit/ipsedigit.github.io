@@ -454,3 +454,4 @@ https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything
 https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything
 https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html
 https://dev.to/paudang/boilerplate-scaffold-pro-nodejs-apps-with-kafka-graphql-redis-in-30s-1ji9
+https://world.hey.com/dhh/panther-lake-is-the-real-deal-4bd731f1
