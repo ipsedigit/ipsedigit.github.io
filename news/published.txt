@@ -461,3 +461,4 @@ https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-blue
 https://nullprogram.com/blog/2026/04/07/
 https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything
 https://www.troyhunt.com/weekly-update-498/
+https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
