@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-07T19:33:25.921602+00:00",
+  "generated_at": "2026-04-07T20:26:56.622483+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 22,
+    "degraded": 2,
     "outage": 2,
     "unknown": 0
   },
@@ -174,10 +174,10 @@
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
-      "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to MTN Benin",
-      "incident_url": "https://stspg.io/q1p6zzzbn8f9",
-      "updated_at": "2026-04-07T11:53:00.245-07:00"
+      "status": "operational",
+      "description": "SMS Delivery Delays from Twilio to Vodafone Egypt",
+      "incident_url": "https://stspg.io/tsd3hc9z5bx9",
+      "updated_at": "2026-04-07T12:58:39.116-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -204,7 +204,7 @@
       "status": "outage",
       "description": "Azure - East US 2 (Virginia): INC0155020",
       "incident_url": "https://stspg.io/yqgmkmg47jhn",
-      "updated_at": "2026-04-07T19:13:02.977Z"
+      "updated_at": "2026-04-07T20:08:37.445Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vb4djvjkk7mj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment Issues in Property Manager</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q1p6zzzbn8f9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTN Benin</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yqgmkmg47jhn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Azure - East US 2 (Virginia): INC0155020</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-07 19:33 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vb4djvjkk7mj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment Issues in Property Manager</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yqgmkmg47jhn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Azure - East US 2 (Virginia): INC0155020</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-07 20:26 UTC</p>",
   "community": []
 }
