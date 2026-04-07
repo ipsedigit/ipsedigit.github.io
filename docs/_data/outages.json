@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T18:09:57.495657+00:00",
+  "generated_at": "2026-04-07T19:33:25.921602+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Data Services- Reporting Issues",
-      "incident_url": "https://stspg.io/xpzrg3s87bf1",
-      "updated_at": "2026-04-07T12:31:34.379Z"
+      "description": "Configuration Deployment Issues in Property Manager",
+      "incident_url": "https://stspg.io/vb4djvjkk7mj",
+      "updated_at": "2026-04-07T19:15:22.420Z"
     },
     {
       "name": "Cloudflare",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Elevated queue times for deployments on the Hobby plan",
-      "incident_url": "https://stspg.io/th8dzywxmplp",
-      "updated_at": "2026-04-07T18:06:45.651Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "npm",
@@ -174,10 +174,10 @@
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
-      "status": "operational",
-      "description": "SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries",
-      "incident_url": "https://stspg.io/60ryn2jhmmtl",
-      "updated_at": "2026-04-07T10:58:48.073-07:00"
+      "status": "degraded",
+      "description": "SMS Delivery Delays from Twilio to MTN Benin",
+      "incident_url": "https://stspg.io/q1p6zzzbn8f9",
+      "updated_at": "2026-04-07T11:53:00.245-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "outage",
-      "description": "AWS - Middle East (UAE): INC0152681",
-      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
-      "updated_at": "2026-03-05T04:39:37.974Z"
+      "description": "Azure - East US 2 (Virginia): INC0155020",
+      "incident_url": "https://stspg.io/yqgmkmg47jhn",
+      "updated_at": "2026-04-07T19:13:02.977Z"
     },
     {
       "name": "Anthropic",
@@ -335,13 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services- Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/th8dzywxmplp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated queue times for deployments on the Hobby plan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-07 18:09 UTC</p>",
-  "community": [
-    {
-      "title": "Ask HN: Why isn't Anthropic eating their own dogfood? A Max subscriber's view",
-      "url": "https://news.ycombinator.com/item?id=47677184",
-      "points": 2,
-      "ago": "2h"
-    }
-  ]
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vb4djvjkk7mj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment Issues in Property Manager</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q1p6zzzbn8f9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTN Benin</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yqgmkmg47jhn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Azure - East US 2 (Virginia): INC0155020</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-07 19:33 UTC</p>",
+  "community": []
 }
