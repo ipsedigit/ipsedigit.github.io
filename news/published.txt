@@ -458,3 +458,4 @@ https://world.hey.com/dhh/panther-lake-is-the-real-deal-4bd731f1
 https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything
 https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything
 https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/
+https://nullprogram.com/blog/2026/04/07/
