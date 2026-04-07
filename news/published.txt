@@ -460,3 +460,4 @@ https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything
 https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/
 https://nullprogram.com/blog/2026/04/07/
 https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything
+https://www.troyhunt.com/weekly-update-498/
