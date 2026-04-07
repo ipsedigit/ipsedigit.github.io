@@ -464,3 +464,4 @@ https://www.troyhunt.com/weekly-update-498/
 https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
 https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything
 https://mitchellh.com/writing/building-block-economy
+https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything
