@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T17:09:02.459008+00:00",
+  "generated_at": "2026-04-07T18:09:57.495657+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated queue times for deployments on the Hobby plan",
+      "incident_url": "https://stspg.io/th8dzywxmplp",
+      "updated_at": "2026-04-07T18:06:45.651Z"
     },
     {
       "name": "npm",
@@ -174,10 +174,10 @@
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
-      "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Vodafone Egypt",
-      "incident_url": "https://stspg.io/tsd3hc9z5bx9",
-      "updated_at": "2026-04-07T09:53:49.356-07:00"
+      "status": "operational",
+      "description": "SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries",
+      "incident_url": "https://stspg.io/60ryn2jhmmtl",
+      "updated_at": "2026-04-07T10:58:48.073-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,13 +335,13 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services- Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tsd3hc9z5bx9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Vodafone Egypt</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-07 17:09 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services- Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/th8dzywxmplp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated queue times for deployments on the Hobby plan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-07 18:09 UTC</p>",
   "community": [
     {
       "title": "Ask HN: Why isn't Anthropic eating their own dogfood? A Max subscriber's view",
       "url": "https://news.ycombinator.com/item?id=47677184",
       "points": 2,
-      "ago": "1h"
+      "ago": "2h"
     }
   ]
 }
