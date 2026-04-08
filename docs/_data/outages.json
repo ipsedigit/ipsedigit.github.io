@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-08T12:04:00.464577+00:00",
+  "generated_at": "2026-04-08T14:02:56.078529+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 19,
+    "degraded": 4,
     "outage": 3,
     "unknown": 0
   },
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Configuration Deployment Issues in Property Manager",
-      "incident_url": "https://stspg.io/vb4djvjkk7mj",
-      "updated_at": "2026-04-08T12:00:25.380Z"
+      "description": "Data Services - Reporting Issues",
+      "incident_url": "https://stspg.io/xpzrg3s87bf1",
+      "updated_at": "2026-04-08T09:46:36.193Z"
     },
     {
       "name": "Cloudflare",
@@ -57,10 +57,10 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Delays in Workflow and Job data in the Usage API",
+      "incident_url": "https://stspg.io/b6482c23v6nr",
+      "updated_at": "2026-04-08T13:20:12.787Z"
     },
     {
       "name": "GitHub",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to AT&T Mexico",
-      "incident_url": "https://stspg.io/9nbw1wcryscg",
-      "updated_at": "2026-04-08T04:17:13.115-07:00"
+      "description": "User Authentication Identity SNA Missing Redirects for Odido T-Mobile in Netherlands",
+      "incident_url": "https://stspg.io/5mm2n5rp8f1n",
+      "updated_at": "2026-04-07T23:45:18.305-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vb4djvjkk7mj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment Issues in Property Manager</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/g7knh2152gv0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Disruption affecting the provisioning of new instances in Singapore</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9nbw1wcryscg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to AT&T Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-08 12:04 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services - Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b6482c23v6nr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in Workflow and Job data in the Usage API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/g7knh2152gv0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Disruption affecting the provisioning of new instances in Singapore</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5mm2n5rp8f1n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for Odido T-Mobile in Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-08 14:02 UTC</p>",
   "community": []
 }
