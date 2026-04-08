@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-08T18:41:42.255444+00:00",
+  "generated_at": "2026-04-08T19:49:52.649354+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 5,
-    "outage": 3,
-    "unknown": 0
+    "operational": 10,
+    "degraded": 3,
+    "outage": 0,
+    "unknown": 13
   },
   "services": [
     {
@@ -39,10 +39,10 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "degraded",
-      "description": "Data Services - Reporting Issues",
-      "incident_url": "https://stspg.io/xpzrg3s87bf1",
-      "updated_at": "2026-04-08T09:46:36.193Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Cloudflare",
@@ -57,16 +57,16 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Delays in Workflow and Job data in the Usage API",
-      "incident_url": "https://stspg.io/b6482c23v6nr",
-      "updated_at": "2026-04-08T13:20:12.787Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -84,16 +84,16 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "outage",
+      "status": "operational",
       "description": "Disruption affecting the provisioning of new instances in Singapore and partially in Oregon",
       "incident_url": "https://stspg.io/g7knh2152gv0",
-      "updated_at": "2026-04-08T18:08:13.794Z"
+      "updated_at": "2026-04-08T19:44:27.047Z"
     },
     {
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -102,7 +102,7 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -111,7 +111,7 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -120,7 +120,7 @@
       "name": "New Relic",
       "domain": "status.newrelic.com",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -129,7 +129,7 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -138,7 +138,7 @@
       "name": "Discord",
       "domain": "discordstatus.com",
       "category": "communication",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -183,10 +183,10 @@
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
-      "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-04-02T00:00:11.650Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "MongoDB Atlas",
@@ -201,10 +201,10 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "outage",
-      "description": "AWS - Middle East (UAE): INC0152681",
-      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
-      "updated_at": "2026-03-05T04:39:37.974Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
@@ -228,7 +228,7 @@
       "name": "Atlassian",
       "domain": "status.atlassian.com",
       "category": "saas",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -237,7 +237,7 @@
       "name": "Notion",
       "domain": "status.notion.so",
       "category": "saas",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services - Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b6482c23v6nr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in Workflow and Job data in the Usage API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/g7knh2152gv0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Disruption affecting the provisioning of new instances in Singapore and partially in Oregon</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5mm2n5rp8f1n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for Odido T-Mobile in Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-08 18:41 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5mm2n5rp8f1n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for Odido T-Mobile in Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-08 19:49 UTC</p>",
   "community": []
 }
