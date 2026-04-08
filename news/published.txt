@@ -466,3 +466,4 @@ https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything
 https://mitchellh.com/writing/building-block-economy
 https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything
 https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html
+https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything
