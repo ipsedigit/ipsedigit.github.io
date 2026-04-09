@@ -189,3 +189,4 @@
 2026-04-08:ai:ai:breaking
 2026-04-08:security:security:breaking
 2026-04-09:general:general:breaking
+2026-04-09:security:vulnerability:breaking
