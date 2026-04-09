@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T14:56:57.407030+00:00",
+  "generated_at": "2026-04-09T16:22:56.196608+00:00",
   "summary": {
     "total": 26,
     "operational": 18,
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Disruption with some GitHub services",
+      "incident_url": "https://stspg.io/h8kh83zv9jyr",
+      "updated_at": "2026-04-09T16:20:12.475Z"
     },
     {
       "name": "Netlify",
@@ -159,7 +159,7 @@
       "status": "degraded",
       "description": "Trouble with Slackbot and AI-powered features",
       "incident_url": "https://slack-status.com/2026-04/2e11633c5821fcd0",
-      "updated_at": "2026-04-09T07:52:26-07:00"
+      "updated_at": "2026-04-09T08:55:14-07:00"
     },
     {
       "name": "Zoom",
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to T-Mobile Czech Republic",
-      "incident_url": "https://stspg.io/fbqt962b87v6",
-      "updated_at": "2026-04-09T07:28:55.407-07:00"
+      "description": "Voice Call Failures between a Subset of Twilio Colombia Phone Numbers and Multiple Networks in Colombia",
+      "incident_url": "https://stspg.io/z3nsngsdppfl",
+      "updated_at": "2026-04-09T09:07:29.606-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-04-02T00:00:11.650Z"
+      "description": "Connection issue to Kibana via the Cloud UI SSO",
+      "incident_url": "https://stspg.io/xtyzzm4k08pc",
+      "updated_at": "2026-04-09T16:21:40.457Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bccsx5r9p4rb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues in Chicago, Illinois</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qjnnt1gnspw7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">New Relic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Synthetics Manager</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-04/2e11633c5821fcd0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble with Slackbot and AI-powered features</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fbqt962b87v6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to T-Mobile Czech Republic</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-09 14:56 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bccsx5r9p4rb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues in Chicago, Illinois</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qjnnt1gnspw7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">New Relic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Synthetics Manager</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-04/2e11633c5821fcd0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble with Slackbot and AI-powered features</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/z3nsngsdppfl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures between a Subset of Twilio Colombia Phone Numbers and Multiple Networks in Colombia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xtyzzm4k08pc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connection issue to Kibana via the Cloud UI SSO</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-09 16:22 UTC</p>",
   "community": []
 }
