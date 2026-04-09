@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T19:53:17.007163+00:00",
+  "generated_at": "2026-04-09T20:58:49.104029+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Disruption with some GitHub services",
-      "incident_url": "https://stspg.io/h8kh83zv9jyr",
-      "updated_at": "2026-04-09T19:52:45.030Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -121,9 +121,9 @@
       "domain": "status.newrelic.com",
       "category": "observability",
       "status": "operational",
-      "description": "Synthetics Manager",
-      "incident_url": "https://stspg.io/qjnnt1gnspw7",
-      "updated_at": "2026-04-09T16:48:09.080Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Sentry",
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "User Authentication Identity SNA Missing Redirects for Orido T-Mobile in Netherlands",
-      "incident_url": "https://stspg.io/5mm2n5rp8f1n",
-      "updated_at": "2026-04-09T12:16:06.246-07:00"
+      "description": "SMS Delivery Delays from Twilio to Claro Peru",
+      "incident_url": "https://stspg.io/6zbfrtvn0y73",
+      "updated_at": "2026-04-09T13:28:02.095-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Connection issue to Kibana via the Cloud UI SSO",
-      "incident_url": "https://stspg.io/xtyzzm4k08pc",
-      "updated_at": "2026-04-09T19:50:05.830Z"
+      "description": "Privatelink hostnames reported by API are incorrect",
+      "incident_url": "https://stspg.io/ycwz074xy7tr",
+      "updated_at": "2026-04-09T20:46:43.908Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services- Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5mm2n5rp8f1n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for Orido T-Mobile in Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xtyzzm4k08pc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connection issue to Kibana via the Cloud UI SSO</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-09 19:53 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzrg3s87bf1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Services- Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6zbfrtvn0y73\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Claro Peru</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ycwz074xy7tr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Privatelink hostnames reported by API are incorrect</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-09 20:58 UTC</p>",
   "community": []
 }
