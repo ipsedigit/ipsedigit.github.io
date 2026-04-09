@@ -474,3 +474,4 @@ https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-addr
 https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything
 https://www.docker.com/blog/reclaim-developer-hours-through-smarter-vulnerability-prioritization-with-docker-and-mend-io/
 https://blog.cloudflare.com/gen13-launch/
+https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything
