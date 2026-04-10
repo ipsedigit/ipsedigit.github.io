@@ -478,3 +478,4 @@ https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything
 https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html
 https://thenewstack.io/the-next-stages-of-ai-conformance-in-the-cloud-native-open-source-world/
 http://brooker.co.za/blog/2026/04/09/waterfall-vs-spec.html
+https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything
