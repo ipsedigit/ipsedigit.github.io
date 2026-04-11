@@ -484,3 +484,4 @@ https://dev.to/huckler/friday-shipped-scarred-3-pc-workman-171-the-foundation-gr
 https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything
 https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything
 https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html
+https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/
