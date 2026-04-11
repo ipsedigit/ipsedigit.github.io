@@ -483,3 +483,4 @@ https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything
 https://dev.to/huckler/friday-shipped-scarred-3-pc-workman-171-the-foundation-great-release-10aj
 https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything
 https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything
+https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html
