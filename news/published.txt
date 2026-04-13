@@ -492,3 +492,4 @@ https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
 https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything
 https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything
 https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html
+https://dev.to/viklogix/fixing-abstraction-leakage-standardizing-error-handling-across-layered-services-4apk

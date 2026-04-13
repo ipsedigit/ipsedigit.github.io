@@ -196,3 +196,4 @@
 2026-04-12:software-engineering:performance:breaking
 2026-04-13:security:vulnerability:breaking
 2026-04-13:security:malware:breaking
+2026-04-13:software-engineering:architecture:breaking
