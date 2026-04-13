@@ -489,3 +489,4 @@ https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything
 https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything
 https://dev.to/dylan_dumont_266378d98367/rate-limiting-deep-dive-token-bucket-vs-leaky-bucket-vs-sliding-window-47b7
 https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
+https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything
