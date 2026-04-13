@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-13T19:22:20.899213+00:00",
+  "generated_at": "2026-04-13T20:31:57.785990+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 18,
+    "degraded": 6,
     "outage": 2,
     "unknown": 0
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Increased KV latency and timeouts",
+      "incident_url": "https://stspg.io/4d8jkt4xxbjq",
+      "updated_at": "2026-04-13T20:15:54.363Z"
     },
     {
       "name": "CircleCI",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Incident with Pages",
+      "incident_url": "https://stspg.io/4fgzqt720l93",
+      "updated_at": "2026-04-13T20:30:10.969Z"
     },
     {
       "name": "Netlify",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
-      "description": "Data ingestion and alerts delayed for US customers",
-      "incident_url": "https://stspg.io/96mlzcrnvr26",
-      "updated_at": "2026-04-13T19:13:44.106Z"
+      "status": "degraded",
+      "description": "SSO login broken with Chormium browser",
+      "incident_url": "https://stspg.io/55dz6xh4k89g",
+      "updated_at": "2026-04-13T20:31:49.144Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "User Authentication Identity API Errors for T-Mobile in United States",
-      "incident_url": "https://stspg.io/29jszd5z4vsf",
-      "updated_at": "2026-04-13T11:58:20.143-07:00"
+      "description": "On Call Engineers are Investigating an Issue Leading to 503 Errors",
+      "incident_url": "https://stspg.io/qyk92n341hc7",
+      "updated_at": "2026-04-13T13:13:38.432-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -222,7 +222,7 @@
       "status": "operational",
       "description": "Elevated 401 errors for API endpoints",
       "incident_url": "",
-      "updated_at": "2026-04-13T17:10:06Z"
+      "updated_at": "2026-04-13T20:14:02Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/29jszd5z4vsf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity API Errors for T-Mobile in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7g1yc0jl2jv3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Notion</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Status Site migration notice</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-13 19:22 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4d8jkt4xxbjq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased KV latency and timeouts</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/55dz6xh4k89g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SSO login broken with Chormium browser</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qyk92n341hc7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">On Call Engineers are Investigating an Issue Leading to 503 Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7g1yc0jl2jv3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Notion</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Status Site migration notice</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-13 20:31 UTC</p>",
   "community": []
 }
