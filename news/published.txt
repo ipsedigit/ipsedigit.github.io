@@ -498,3 +498,4 @@ https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-
 https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything
 https://www.troyhunt.com/weekly-update-499/
 https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
+https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything
