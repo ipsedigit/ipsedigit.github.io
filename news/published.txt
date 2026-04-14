@@ -497,3 +497,4 @@ https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything
 https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/
 https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything
 https://www.troyhunt.com/weekly-update-499/
+https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
