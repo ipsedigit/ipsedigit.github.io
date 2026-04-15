@@ -501,3 +501,4 @@ https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
 https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything
 https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html
 https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html
+https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything
