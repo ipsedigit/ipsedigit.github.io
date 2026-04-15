@@ -503,3 +503,4 @@ https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html
 https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html
 https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything
 https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything
+https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything
