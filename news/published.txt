@@ -504,3 +504,4 @@ https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai
 https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything
 https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything
 https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything
+https://world.hey.com/dhh/the-malleable-computer-7c187a9b
