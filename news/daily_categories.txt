@@ -203,3 +203,4 @@
 2026-04-15:security:threat-intel:breaking
 2026-04-16:security:vulnerability:breaking
 2026-04-16:ai:llm:breaking
+2026-04-16:cloud:cloud:deep
