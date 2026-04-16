@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-16T08:05:03.776544+00:00",
+  "generated_at": "2026-04-16T09:50:54.821709+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 4,
+    "operational": 20,
+    "degraded": 3,
     "outage": 2,
     "unknown": 1
   },
@@ -165,10 +165,10 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "Service Degradation Affecting Meeting Joins for Users with WEBRTC 2.0 feature in Amsterdam and Germany.",
       "incident_url": "https://stspg.io/0nfhj88kfyqr",
-      "updated_at": "2026-04-16T00:16:31.382-07:00"
+      "updated_at": "2026-04-16T02:02:23.370-07:00"
     },
     {
       "name": "Twilio",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0nfhj88kfyqr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Meeting Joins for Users with WEBRTC 2.0 feature in Amsterdam and Germany.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/018pfl7txck7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-16 08:05 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/018pfl7txck7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-16 09:50 UTC</p>",
   "community": []
 }
