@@ -515,3 +515,4 @@ http://antirez.com/news/163
 https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/
 https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything
 https://dev.to/tosh2308/handling-midnight-sdk-breaking-changes-a-developers-survival-guide-56kb
+https://www.computerenhance.com/p/am-i-crazy
