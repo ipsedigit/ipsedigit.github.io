@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-16T14:16:36.315291+00:00",
+  "generated_at": "2026-04-16T16:06:50.830292+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
-    "outage": 2,
+    "operational": 18,
+    "degraded": 4,
+    "outage": 3,
     "unknown": 1
   },
   "services": [
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "API Analytics Delays",
+      "incident_url": "https://stspg.io/r2wt6gb0g1qb",
+      "updated_at": "2026-04-16T15:32:24.081Z"
     },
     {
       "name": "CircleCI",
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "outage",
+      "description": "Incident with Codespaces",
+      "incident_url": "https://stspg.io/1pw46p8cqh5s",
+      "updated_at": "2026-04-16T15:49:13.294Z"
     },
     {
       "name": "Netlify",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
+      "status": "degraded",
       "description": "Span Ingestion Delayed in the EU region",
       "incident_url": "https://stspg.io/vqg8dbj3z6y3",
-      "updated_at": "2026-04-16T13:36:39.498Z"
+      "updated_at": "2026-04-16T15:05:53.614Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Algar Telecom Brazil",
-      "incident_url": "https://stspg.io/v90prz6j76vd",
-      "updated_at": "2026-04-16T05:09:11.581-07:00"
+      "description": "SMS Delivery Delays From Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora Brazil",
+      "incident_url": "https://stspg.io/018pfl7txck7",
+      "updated_at": "2026-04-16T07:35:53.540-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "outage",
-      "description": "GCP - US Central 1 (Iowa): INC0155608",
-      "incident_url": "https://stspg.io/vx546sd87qjx",
-      "updated_at": "2026-04-16T14:08:34.333Z"
+      "description": "AWS - Middle East (UAE): INC0152681",
+      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
+      "updated_at": "2026-03-05T04:39:37.974Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/v90prz6j76vd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Algar Telecom Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vx546sd87qjx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">GCP - US Central 1 (Iowa): INC0155608</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-16 14:16 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/r2wt6gb0g1qb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">API Analytics Delays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1pw46p8cqh5s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Incident with Codespaces</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vqg8dbj3z6y3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Span Ingestion Delayed in the EU region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/018pfl7txck7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-16 16:06 UTC</p>",
   "community": []
 }
