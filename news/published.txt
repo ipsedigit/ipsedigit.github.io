@@ -509,3 +509,4 @@ https://mitchellh.com/writing/simdutf-no-libcxx
 https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html
 https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html
 https://www.computerenhance.com/p/in-order-interleaving
+https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything
