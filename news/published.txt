@@ -506,3 +506,5 @@ https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everythi
 https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything
 https://world.hey.com/dhh/the-malleable-computer-7c187a9b
 https://mitchellh.com/writing/simdutf-no-libcxx
+https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html
+https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html
