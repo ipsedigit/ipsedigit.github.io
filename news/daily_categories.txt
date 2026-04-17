@@ -207,3 +207,4 @@
 2026-04-16:devtools:package-managers:deep
 2026-04-17:security:malware:breaking
 2026-04-17:ai:llm:deep
+2026-04-17:security:vulnerability:breaking

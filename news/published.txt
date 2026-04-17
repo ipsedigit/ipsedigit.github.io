@@ -519,3 +519,4 @@ https://www.computerenhance.com/p/am-i-crazy
 https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/
 https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird
 https://www.troyhunt.com/heres-what-agentic-ai-can-do-with-have-i-been-pwneds-apis/
+https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html
