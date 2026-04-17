@@ -521,3 +521,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird
 https://www.troyhunt.com/heres-what-agentic-ai-can-do-with-have-i-been-pwneds-apis/
 https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html
 https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html
+https://simonwillison.net/2026/Apr/17/datasette/#atom-everything
