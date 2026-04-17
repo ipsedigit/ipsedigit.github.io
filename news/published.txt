@@ -516,3 +516,5 @@ https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxe
 https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything
 https://dev.to/tosh2308/handling-midnight-sdk-breaking-changes-a-developers-survival-guide-56kb
 https://www.computerenhance.com/p/am-i-crazy
+https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/
+https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird
