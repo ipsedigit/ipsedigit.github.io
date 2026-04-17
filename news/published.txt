@@ -525,3 +525,4 @@ https://simonwillison.net/2026/Apr/17/datasette/#atom-everything
 https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything
 https://simonwillison.net/2026/Apr/15/datasette/#atom-everything
 https://blog.cryptographyengineering.com/2026/04/17/anonymous-credentials-an-illustrated-primer-part-2/
+https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything
