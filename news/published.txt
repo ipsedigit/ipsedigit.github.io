@@ -531,3 +531,4 @@ https://seangoedecke.com/many-anti-ai-arguments-are-conservative/
 https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything
 https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything
 http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
+https://dev.to/debatesylhetbd/how-to-use-nakshora-css-framework-that-devoleped-rizwan-rahim-chowdhury-3h7i
