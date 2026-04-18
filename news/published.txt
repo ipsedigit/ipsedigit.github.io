@@ -530,3 +530,4 @@ https://www.infoq.com/news/2026/04/cloudflare-code-mode-mcp-server/?utm_campaign
 https://seangoedecke.com/many-anti-ai-arguments-are-conservative/
 https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything
 https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything
+http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
