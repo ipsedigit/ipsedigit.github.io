@@ -528,3 +528,4 @@ https://blog.cryptographyengineering.com/2026/04/17/anonymous-credentials-an-ill
 https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything
 https://www.infoq.com/news/2026/04/cloudflare-code-mode-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://seangoedecke.com/many-anti-ai-arguments-are-conservative/
+https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything
