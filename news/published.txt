@@ -534,3 +534,4 @@ http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
 https://dev.to/debatesylhetbd/how-to-use-nakshora-css-framework-that-devoleped-rizwan-rahim-chowdhury-3h7i
 https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything
 https://dev.to/artanidos/we-just-released-a-lovin-compiler-4jjc
+https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything
