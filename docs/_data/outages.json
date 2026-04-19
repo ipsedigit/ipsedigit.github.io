@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-18T23:52:18.006650+00:00",
+  "generated_at": "2026-04-19T03:32:47.099777+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 19,
+    "degraded": 4,
     "outage": 2,
     "unknown": 1
   },
@@ -139,9 +139,9 @@
       "domain": "discordstatus.com",
       "category": "communication",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "User Profile Errors",
+      "incident_url": "https://stspg.io/jvy2q3ghtcyn",
+      "updated_at": "2026-04-18T19:37:27.083-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -165,7 +165,7 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Multiple Networks in India",
-      "incident_url": "https://stspg.io/qs1jp8lb2nx2",
-      "updated_at": "2026-04-18T14:54:31.583-07:00"
+      "description": "Voice Call Failures from Network Subscribers to Twilio Norway Phone Numbers",
+      "incident_url": "https://stspg.io/jg1k25sl54kz",
+      "updated_at": "2026-04-18T19:55:46.925-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/325rcprhq75l\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">WARP connectivity</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qs1jp8lb2nx2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Multiple Networks in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gg0lkx6qf43g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas BI Connector: Connections and queries fail</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-18 23:52 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/325rcprhq75l\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">WARP connectivity</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jg1k25sl54kz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Network Subscribers to Twilio Norway Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gg0lkx6qf43g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas BI Connector: Connections and queries fail</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-19 03:32 UTC</p>",
   "community": []
 }
