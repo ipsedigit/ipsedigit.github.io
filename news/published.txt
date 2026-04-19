@@ -539,3 +539,4 @@ https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything
 https://dev.to/yash_step2dev/docker-container-keeps-restarting-diagnosis-and-fix-guide-39ic
 https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything
 https://drewdevault.com/blog/Future-of-everything-is-lies/
+https://dev.to/libintombaby/clean-architecture-in-net-a-practical-real-world-guide-2k9o

@@ -213,3 +213,4 @@
 2026-04-18:devtools:languages:breaking
 2026-04-19:devtools:languages:breaking
 2026-04-19:cloud:cloud:deep
+2026-04-19:software-engineering:architecture:deep
