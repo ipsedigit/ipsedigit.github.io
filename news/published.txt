@@ -548,3 +548,4 @@ https://drewdevault.com/blog/rsync-without-rsync/
 https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html
 https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything
 https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
+https://www.infoq.com/presentations/patterns-payment-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
