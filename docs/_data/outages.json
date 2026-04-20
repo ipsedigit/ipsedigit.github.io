@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T08:29:01.782998+00:00",
+  "generated_at": "2026-04-20T10:19:38.295652+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "HTTP Log Analytics Issue",
-      "incident_url": "https://stspg.io/z7555fn7b5zz",
-      "updated_at": "2026-04-20T01:00:03.627Z"
+      "description": "Rulesets Rate Limiting accuracy",
+      "incident_url": "https://stspg.io/3mmqvlvvynx0",
+      "updated_at": "2026-04-20T10:13:18.668Z"
     },
     {
       "name": "CircleCI",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Unaccessible runtime logs in the dashboard",
+      "incident_url": "https://stspg.io/m6czdx9vzjnz",
+      "updated_at": "2026-04-20T10:10:28.978Z"
     },
     {
       "name": "npm",
@@ -165,10 +165,10 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Live Transcriptions in Zoom Client 7.0.0 and Above",
-      "incident_url": "https://stspg.io/wjdnf9j0lmfp",
-      "updated_at": "2026-04-20T01:14:48.377-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "EIS elevated 5xx error rates for model google-gemini-embedding-001",
       "incident_url": "https://stspg.io/s3pp2pw4503w",
-      "updated_at": "2026-04-20T06:37:06.582Z"
+      "updated_at": "2026-04-20T09:50:10.842Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -222,7 +222,7 @@
       "status": "operational",
       "description": "Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour",
       "incident_url": "",
-      "updated_at": "2026-04-20T07:13:42Z"
+      "updated_at": "2026-04-20T09:43:35Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/z7555fn7b5zz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">HTTP Log Analytics Issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wjdnf9j0lmfp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Live Transcriptions in Zoom Client 7.0.0 and Above</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/018pfl7txck7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Short Codes and Long Codes to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s3pp2pw4503w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">EIS elevated 5xx error rates for model google-gemini-embedding-001</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gg0lkx6qf43g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas BI Connector: Connections and queries fail</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-20 08:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3mmqvlvvynx0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Rulesets Rate Limiting accuracy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m6czdx9vzjnz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Unaccessible runtime logs in the dashboard</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/018pfl7txck7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Short Codes and Long Codes to Datora Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s3pp2pw4503w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">EIS elevated 5xx error rates for model google-gemini-embedding-001</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gg0lkx6qf43g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas BI Connector: Connections and queries fail</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-20 10:19 UTC</p>",
   "community": []
 }
