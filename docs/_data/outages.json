@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-20T16:42:05.236182+00:00",
+  "generated_at": "2026-04-20T17:43:49.281308+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
+    "operational": 19,
     "degraded": 4,
-    "outage": 3,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Partial degradation for code scanning default setup and for code quality",
       "incident_url": "https://stspg.io/qxk1qwhj9xdd",
-      "updated_at": "2026-04-20T16:16:24.960Z"
+      "updated_at": "2026-04-20T17:32:37.161Z"
     },
     {
       "name": "Netlify",
@@ -96,7 +96,7 @@
       "status": "degraded",
       "description": "Observability Alerts degraded",
       "incident_url": "https://stspg.io/8pbf2k5stwjl",
-      "updated_at": "2026-04-20T14:10:47.555Z"
+      "updated_at": "2026-04-20T16:51:40.230Z"
     },
     {
       "name": "npm",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN Ghana",
-      "incident_url": "https://stspg.io/h8qzc12n9y1q",
-      "updated_at": "2026-04-20T08:51:32.695-07:00"
+      "description": "Generic Update for Identified Status",
+      "incident_url": "https://stspg.io/sc8nm669lcy7",
+      "updated_at": "2026-04-20T10:33:55.567-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "outage",
-      "description": "Users unable to load ChatGPT, Codex and API Platform",
+      "status": "operational",
+      "description": "Elevated errors for ChatGPT conversations in Europe",
       "incident_url": "",
-      "updated_at": "2026-04-20T16:03:14Z"
+      "updated_at": "2026-04-20T17:29:30Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3mmqvlvvynx0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Rulesets Rate Limiting accuracy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8pbf2k5stwjl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Observability Alerts degraded</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h8qzc12n9y1q\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN Ghana</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gg0lkx6qf43g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas BI Connector: Connections and queries fail</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-20 16:42 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3mmqvlvvynx0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Rulesets Rate Limiting accuracy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8pbf2k5stwjl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Observability Alerts degraded</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sc8nm669lcy7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Generic Update for Identified Status</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gg0lkx6qf43g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MongoDB Atlas BI Connector: Connections and queries fail</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-20 17:43 UTC</p>",
   "community": []
 }
