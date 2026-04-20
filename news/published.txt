@@ -551,3 +551,4 @@ https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
 https://www.infoq.com/presentations/patterns-payment-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://drewdevault.com/blog/Forking-vim/
 https://blog.cloudflare.com/agents-week-in-review/
+https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything
