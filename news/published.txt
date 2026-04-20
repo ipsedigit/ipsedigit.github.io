@@ -542,3 +542,4 @@ https://drewdevault.com/blog/Future-of-everything-is-lies/
 https://dev.to/libintombaby/clean-architecture-in-net-a-practical-real-world-guide-2k9o
 https://simonwillison.net/2026/Apr/15/kyle-kingsbury/#atom-everything
 https://drewdevault.com/blog/Rewrite-with-zine/
+https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/
