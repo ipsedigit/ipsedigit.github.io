@@ -552,3 +552,4 @@ https://www.infoq.com/presentations/patterns-payment-system/?utm_campaign=infoq_
 https://drewdevault.com/blog/Forking-vim/
 https://blog.cloudflare.com/agents-week-in-review/
 https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything
+https://blog.codinghorror.com/thank-you-for-being-a-friend/
