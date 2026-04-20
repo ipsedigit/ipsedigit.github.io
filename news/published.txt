@@ -546,3 +546,4 @@ https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in
 https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything
 https://drewdevault.com/blog/rsync-without-rsync/
 https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html
+https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything
