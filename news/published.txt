@@ -556,3 +556,4 @@ https://blog.codinghorror.com/thank-you-for-being-a-friend/
 https://thenewstack.io/anthropic-claude-design-launch/
 https://www.computerenhance.com/p/q-and-a-84-2026-04-20
 https://simonwillison.net/2026/Apr/15/datasette-ports/#atom-everything
+https://drewdevault.com/blog/Addressing-harassment/
