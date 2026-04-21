@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-21T14:10:08.489059+00:00",
+  "generated_at": "2026-04-21T15:44:16.865617+00:00",
   "summary": {
     "total": 26,
     "operational": 18,
-    "degraded": 5,
-    "outage": 2,
+    "degraded": 4,
+    "outage": 3,
     "unknown": 1
   },
   "services": [
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Cloudflare Access Availability Issues",
-      "incident_url": "https://stspg.io/f3wd3n0mh3br",
-      "updated_at": "2026-04-21T12:58:49.885Z"
+      "description": "Log Explorer Issues",
+      "incident_url": "https://stspg.io/1mk2pp00c8wq",
+      "updated_at": "2026-04-21T15:02:55.229Z"
     },
     {
       "name": "CircleCI",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Disruption with projects service",
+      "incident_url": "https://stspg.io/z7byhh6vyyrb",
+      "updated_at": "2026-04-21T15:07:30.721Z"
     },
     {
       "name": "Netlify",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Elevated errors on Vercel Dashboard",
-      "incident_url": "https://stspg.io/xnv54x757ns7",
-      "updated_at": "2026-04-21T13:51:39.817Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "npm",
@@ -129,7 +129,7 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
+      "status": "outage",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays From a Subset of Twilio Short Codes and Long Codes to United States",
-      "incident_url": "https://stspg.io/7jfy19g07w8x",
-      "updated_at": "2026-04-21T06:48:27.934-07:00"
+      "description": "Issue with Phone Number Port In",
+      "incident_url": "https://stspg.io/zj7yvmxf6l6g",
+      "updated_at": "2026-04-21T08:29:10.095-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f3wd3n0mh3br\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access Availability Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xnv54x757ns7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Vercel Dashboard</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-04/be1299791e068265\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Custom status not expiring</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7jfy19g07w8x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From a Subset of Twilio Short Codes and Long Codes to United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-21 14:10 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1mk2pp00c8wq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Log Explorer Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-04/be1299791e068265\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Custom status not expiring</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zj7yvmxf6l6g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issue with Phone Number Port In</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-21 15:44 UTC</p>",
   "community": []
 }
