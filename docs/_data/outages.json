@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T19:21:23.342078+00:00",
+  "generated_at": "2026-04-21T20:27:50.235054+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Investigating potential impact to Realtime services in Bombay",
-      "incident_url": "https://stspg.io/lh8twdj7dxvy",
-      "updated_at": "2026-04-21T18:37:22.395Z"
+      "description": "Cloudflare Access Availability Issues",
+      "incident_url": "https://stspg.io/f3wd3n0mh3br",
+      "updated_at": "2026-04-21T20:21:04.267Z"
     },
     {
       "name": "CircleCI",
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Disruption with projects service",
       "incident_url": "https://stspg.io/z7byhh6vyyrb",
-      "updated_at": "2026-04-21T17:21:33.100Z"
+      "updated_at": "2026-04-21T19:41:18.908Z"
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Degraded service for Voice and Video",
-      "incident_url": "https://stspg.io/b7jp0dx37wd9",
-      "updated_at": "2026-04-21T11:54:46.444-07:00"
+      "description": "SMS Delivery Delays from Twilio to MTN Benin",
+      "incident_url": "https://stspg.io/n3x1r5vyz16x",
+      "updated_at": "2026-04-21T12:47:06.592-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lh8twdj7dxvy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Investigating potential impact to Realtime services in Bombay</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b7jp0dx37wd9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded service for Voice and Video</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-21 19:21 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f3wd3n0mh3br\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access Availability Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n3x1r5vyz16x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTN Benin</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-21 20:27 UTC</p>",
   "community": []
 }
