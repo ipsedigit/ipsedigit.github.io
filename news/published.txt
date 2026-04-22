@@ -559,3 +559,4 @@ https://simonwillison.net/2026/Apr/15/datasette-ports/#atom-everything
 https://drewdevault.com/blog/Addressing-harassment/
 https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything
 https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568
+https://thenewstack.io/chatgpt-images-20-openai/
