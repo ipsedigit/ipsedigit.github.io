@@ -565,3 +565,4 @@ https://seangoedecke.com/luddites-and-ai-datacenters/
 https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything
 https://www.troyhunt.com/weekly-update-500/
 https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything
+https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything
