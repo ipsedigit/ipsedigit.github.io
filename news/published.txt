@@ -563,3 +563,4 @@ https://thenewstack.io/chatgpt-images-20-openai/
 https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything
 https://seangoedecke.com/luddites-and-ai-datacenters/
 https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything
+https://www.troyhunt.com/weekly-update-500/
