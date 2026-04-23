@@ -571,3 +571,4 @@ https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything
 https://simonwillison.net/2026/Apr/21/scosman/#atom-everything
 https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything
 https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html
+https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html
