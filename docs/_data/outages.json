@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-23T09:59:14.651802+00:00",
+  "generated_at": "2026-04-23T11:19:35.740717+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
+    "operational": 14,
     "degraded": 3,
-    "outage": 2,
-    "unknown": 1
+    "outage": 1,
+    "unknown": 8
   },
   "services": [
     {
@@ -39,7 +39,7 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Cloudflare Dashboard API Issues Affecting R2 Buckets",
+      "incident_url": "https://stspg.io/dr2wr5zr3gn4",
+      "updated_at": "2026-04-23T10:37:30.143Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -75,7 +75,7 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -129,7 +129,7 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -138,7 +138,7 @@
       "name": "Discord",
       "domain": "discordstatus.com",
       "category": "communication",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -183,10 +183,10 @@
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
-      "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-04-20T17:46:35.105Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "MongoDB Atlas",
@@ -228,7 +228,7 @@
       "name": "Atlassian",
       "domain": "status.atlassian.com",
       "category": "saas",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zqm5fb0mtjzg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Orange Cameroon</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-23 09:59 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dr2wr5zr3gn4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Dashboard API Issues Affecting R2 Buckets</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zqm5fb0mtjzg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Orange Cameroon</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-23 11:19 UTC</p>",
   "community": []
 }
