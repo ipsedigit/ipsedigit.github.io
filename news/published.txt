@@ -579,3 +579,4 @@ https://thenewstack.io/openai-launches-gpt-5-5-calling-it-a-new-class-of-intelli
 https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/
 https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything
 https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/
+https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything
