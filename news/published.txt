@@ -584,3 +584,4 @@ https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything
 https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything
 https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/
 https://simonwillison.net/2026/Apr/24/llm/#atom-everything
+https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
