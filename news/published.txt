@@ -586,3 +586,4 @@ https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-auth
 https://simonwillison.net/2026/Apr/24/llm/#atom-everything
 https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
 https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
+https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html
