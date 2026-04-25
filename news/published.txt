@@ -588,3 +588,4 @@ https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
 https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
 https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html
 https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything
+https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything
