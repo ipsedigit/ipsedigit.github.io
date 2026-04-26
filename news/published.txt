@@ -592,3 +592,4 @@ https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything
 https://nullprogram.com/blog/2026/04/25/
 https://thenewstack.io/openai-chatgpt-gpt-5-5-security/
 https://simonwillison.net/2026/Apr/24/weekly/#atom-everything
+https://nullprogram.com/blog/2026/04/26/
