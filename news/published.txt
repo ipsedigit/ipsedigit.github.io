@@ -594,3 +594,4 @@ https://thenewstack.io/openai-chatgpt-gpt-5-5-security/
 https://simonwillison.net/2026/Apr/24/weekly/#atom-everything
 https://nullprogram.com/blog/2026/04/26/
 https://simonwillison.net/2026/Apr/24/honker/#atom-everything
+https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything
