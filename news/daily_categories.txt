@@ -233,3 +233,4 @@
 2026-04-27:ai:llm:deep
 2026-04-28:ai:ai-research:breaking
 2026-04-28:cloud:aws:breaking
+2026-04-28:cloud:kubernetes:breaking
