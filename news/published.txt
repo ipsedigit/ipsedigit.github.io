@@ -604,3 +604,4 @@ https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything
 https://thenewstack.io/paper-compute-agent-infrastructure/
 https://simonwillison.net/2026/Apr/28/talkie/#atom-everything
 https://www.troyhunt.com/weekly-update-501/
+https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything
