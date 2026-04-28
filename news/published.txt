@@ -608,3 +608,5 @@ https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything
 https://dev.to/johalputt/retrospective-2-years-of-devsecops-at-stripe-reducing-vulnerabilities-by-70-489j
 https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything
 https://thenewstack.io/broadcom-vcf-kubernetes-platform/
+https://dev.to/johalputt/deep-dive-how-sentry-80-captures-stack-traces-for-rust-192-and-react-19-apps-2220
+https://thenewstack.io/terraform-state-infrastructure-drift/
