@@ -603,3 +603,4 @@ https://dev.to/johalputt/redis-9-vs-dragonfly-120-throughput-and-memory-efficien
 https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything
 https://thenewstack.io/paper-compute-agent-infrastructure/
 https://simonwillison.net/2026/Apr/28/talkie/#atom-everything
+https://www.troyhunt.com/weekly-update-501/
