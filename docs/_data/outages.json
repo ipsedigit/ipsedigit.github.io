@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-28T12:02:30.073125+00:00",
+  "generated_at": "2026-04-28T16:29:42.391775+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 17,
+    "degraded": 6,
     "outage": 2,
     "unknown": 1
   },
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Delay in Traffic by Hostname reports",
-      "incident_url": "https://stspg.io/vptk52dj0m1w",
-      "updated_at": "2026-04-28T07:18:11.484Z"
+      "description": "Edge Delivery- HTTP Content Delivery in Europe",
+      "incident_url": "https://stspg.io/dkpwdrwxdwsn",
+      "updated_at": "2026-04-28T16:02:22.570Z"
     },
     {
       "name": "Cloudflare",
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Incomplete pull request results in repositories",
+      "incident_url": "https://stspg.io/87w0vmv3sz1r",
+      "updated_at": "2026-04-28T15:58:40.536Z"
     },
     {
       "name": "Netlify",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Errors Deploying Templates",
+      "incident_url": "https://stspg.io/qcg7qnr3xj1z",
+      "updated_at": "2026-04-28T16:15:29.804Z"
     },
     {
       "name": "npm",
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio Phone Numbers to Orange Cameroon",
-      "incident_url": "https://stspg.io/tw0bwb92mpmh",
-      "updated_at": "2026-04-28T02:26:33.598-07:00"
+      "description": "User Authentication Identity Gateway API High Latency for T-Mobile in United States",
+      "incident_url": "https://stspg.io/yhxlwbhb99yn",
+      "updated_at": "2026-04-28T08:51:44.842-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-04-20T17:46:35.105Z"
+      "description": "Missing Metrics in Cloud Console — US East (us-east-1)",
+      "incident_url": "https://stspg.io/r99hn9c1nj8v",
+      "updated_at": "2026-04-28T15:57:33.151Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vptk52dj0m1w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delay in Traffic by Hostname reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tw0bwb92mpmh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to Orange Cameroon</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-28 12:02 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dkpwdrwxdwsn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery- HTTP Content Delivery in Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/87w0vmv3sz1r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incomplete pull request results in repositories</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qcg7qnr3xj1z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Errors Deploying Templates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yhxlwbhb99yn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity Gateway API High Latency for T-Mobile in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/r99hn9c1nj8v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Missing Metrics in Cloud Console — US East (us-east-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-28 16:29 UTC</p>",
   "community": []
 }
