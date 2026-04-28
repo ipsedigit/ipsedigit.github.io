@@ -602,3 +602,4 @@ https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-r
 https://dev.to/johalputt/redis-9-vs-dragonfly-120-throughput-and-memory-efficiency-benchmarks-for-caching-layers-42nd
 https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything
 https://thenewstack.io/paper-compute-agent-infrastructure/
+https://simonwillison.net/2026/Apr/28/talkie/#atom-everything
