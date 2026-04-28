@@ -606,3 +606,4 @@ https://simonwillison.net/2026/Apr/28/talkie/#atom-everything
 https://www.troyhunt.com/weekly-update-501/
 https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything
 https://dev.to/johalputt/retrospective-2-years-of-devsecops-at-stripe-reducing-vulnerabilities-by-70-489j
+https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything
