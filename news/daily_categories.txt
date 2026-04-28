@@ -236,3 +236,4 @@
 2026-04-28:cloud:kubernetes:breaking
 2026-04-28:devtools:languages:deep
 2026-04-28:cloud:networking-iaas:breaking
+2026-04-28:devtools:ides-editors:deep

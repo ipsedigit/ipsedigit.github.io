@@ -611,3 +611,4 @@ https://thenewstack.io/broadcom-vcf-kubernetes-platform/
 https://dev.to/johalputt/deep-dive-how-sentry-80-captures-stack-traces-for-rust-192-and-react-19-apps-2220
 https://thenewstack.io/terraform-state-infrastructure-drift/
 https://lucumr.pocoo.org/2026/4/28/before-github/
+https://dev.to/kanta13jp1/supabase-realtime-x-flutter-complete-guide-to-real-time-sync-patterns-4abd
