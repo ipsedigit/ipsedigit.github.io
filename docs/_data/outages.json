@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-28T16:29:42.391775+00:00",
+  "generated_at": "2026-04-28T18:08:04.837001+00:00",
   "summary": {
     "total": 26,
     "operational": 17,
-    "degraded": 6,
-    "outage": 2,
+    "degraded": 5,
+    "outage": 3,
     "unknown": 1
   },
   "services": [
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Edge Delivery- HTTP Content Delivery in Europe",
-      "incident_url": "https://stspg.io/dkpwdrwxdwsn",
-      "updated_at": "2026-04-28T16:02:22.570Z"
+      "description": "Intermittent Edge Delivery Delays in Chennai, IN (MAA) Region",
+      "incident_url": "https://stspg.io/sw6l254w5py2",
+      "updated_at": "2026-04-28T17:44:46.175Z"
     },
     {
       "name": "Cloudflare",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Errors Deploying Templates",
-      "incident_url": "https://stspg.io/qcg7qnr3xj1z",
-      "updated_at": "2026-04-28T16:15:29.804Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "npm",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "User Authentication Identity Gateway API High Latency for T-Mobile in United States",
       "incident_url": "https://stspg.io/yhxlwbhb99yn",
-      "updated_at": "2026-04-28T08:51:44.842-07:00"
+      "updated_at": "2026-04-28T10:42:22.066-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Missing Metrics in Cloud Console — US East (us-east-1)",
       "incident_url": "https://stspg.io/r99hn9c1nj8v",
-      "updated_at": "2026-04-28T15:57:33.151Z"
+      "updated_at": "2026-04-28T17:39:09.641Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "outage",
+      "description": "Claude.ai unavailable and elevated errors on the API",
+      "incident_url": "https://stspg.io/mz37pbn6yt3w",
+      "updated_at": "2026-04-28T17:51:36.937Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dkpwdrwxdwsn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery- HTTP Content Delivery in Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/87w0vmv3sz1r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incomplete pull request results in repositories</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qcg7qnr3xj1z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Errors Deploying Templates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yhxlwbhb99yn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity Gateway API High Latency for T-Mobile in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/r99hn9c1nj8v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Missing Metrics in Cloud Console — US East (us-east-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-28 16:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sw6l254w5py2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent Edge Delivery Delays in Chennai, IN (MAA) Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/87w0vmv3sz1r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incomplete pull request results in repositories</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yhxlwbhb99yn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity Gateway API High Latency for T-Mobile in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/r99hn9c1nj8v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Missing Metrics in Cloud Console — US East (us-east-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mz37pbn6yt3w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Claude.ai unavailable and elevated errors on the API</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-28 18:08 UTC</p>",
   "community": []
 }
