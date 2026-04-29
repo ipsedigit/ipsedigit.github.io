@@ -612,3 +612,4 @@ https://dev.to/johalputt/deep-dive-how-sentry-80-captures-stack-traces-for-rust-
 https://thenewstack.io/terraform-state-infrastructure-drift/
 https://lucumr.pocoo.org/2026/4/28/before-github/
 https://dev.to/kanta13jp1/supabase-realtime-x-flutter-complete-guide-to-real-time-sync-patterns-4abd
+https://www.computerenhance.com/p/block-interleaving
