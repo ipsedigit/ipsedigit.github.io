@@ -619,3 +619,4 @@ https://www.darkreading.com/application-security/vercel-employees-ai-tool-access
 https://www.darkreading.com/vulnerabilities-threats/nist-revamps-cve-framework-to-focus-on-high-impact-vulnerabilities
 https://medium.com/pinterest-engineering/unified-context-intent-embeddings-for-scalable-text-to-sql-793635e60aac?source=rss----4c5a5f6279b6---4
 https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything
+https://www.darkreading.com/vulnerabilities-threats/every-old-vulnerability-ai-vulnerability
