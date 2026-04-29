@@ -614,3 +614,4 @@ https://lucumr.pocoo.org/2026/4/28/before-github/
 https://dev.to/kanta13jp1/supabase-realtime-x-flutter-complete-guide-to-real-time-sync-patterns-4abd
 https://www.computerenhance.com/p/block-interleaving
 https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/
+https://mitchellh.com/writing/ghostty-leaving-github
