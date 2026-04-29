@@ -620,3 +620,4 @@ https://www.darkreading.com/vulnerabilities-threats/nist-revamps-cve-framework-t
 https://medium.com/pinterest-engineering/unified-context-intent-embeddings-for-scalable-text-to-sql-793635e60aac?source=rss----4c5a5f6279b6---4
 https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything
 https://www.darkreading.com/vulnerabilities-threats/every-old-vulnerability-ai-vulnerability
+https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything
