@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-29T15:20:47.878087+00:00",
+  "generated_at": "2026-04-29T17:06:23.568336+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 5,
+    "operational": 16,
+    "degraded": 7,
     "outage": 2,
     "unknown": 1
   },
@@ -102,10 +102,10 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Degraded Performance in View Package and Login on npmjs.com",
+      "incident_url": "https://stspg.io/l7v8c09r84v3",
+      "updated_at": "2026-04-29T16:48:33.282Z"
     },
     {
       "name": "Datadog",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service Degradation Affecting Zoom Clinical Notes in United States",
+      "incident_url": "https://stspg.io/cvqxb6v914ym",
+      "updated_at": "2026-04-29T08:45:59.058-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Sweden Network Subscribers to Twilio Sweden Numbers",
+      "description": "Voice Call Failures from Network Subscribers to Twilio Sweden Phone Numbers",
       "incident_url": "https://stspg.io/smvzhc7nc9g3",
-      "updated_at": "2026-04-29T06:59:08.530-07:00"
+      "updated_at": "2026-04-29T08:59:59.507-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m6b7j2mhc1j7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic report</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/87w0vmv3sz1r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incomplete pull request results in repositories</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/smvzhc7nc9g3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Sweden Network Subscribers to Twilio Sweden Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-29 15:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m6b7j2mhc1j7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic report</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/87w0vmv3sz1r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incomplete pull request results in repositories</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/l7v8c09r84v3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded Performance in View Package and Login on npmjs.com</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cvqxb6v914ym\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Clinical Notes in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/smvzhc7nc9g3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Network Subscribers to Twilio Sweden Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-04-29 17:06 UTC</p>",
   "community": []
 }
