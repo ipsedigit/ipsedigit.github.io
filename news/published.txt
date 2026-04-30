@@ -623,3 +623,6 @@ https://www.darkreading.com/vulnerabilities-threats/every-old-vulnerability-ai-v
 https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything
 https://simonwillison.net/2026/Apr/29/llm/#atom-everything
 https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/
+https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/
+https://thehackernews.com/2026/04/researchers-discover-critical-github.html
+https://www.darkreading.com/cloud-security/unc6692-social-engineering-malware-cloud-abuse
