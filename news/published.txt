@@ -629,3 +629,4 @@ https://www.darkreading.com/cloud-security/unc6692-social-engineering-malware-cl
 https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything
 https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/
 https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything
+https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything
