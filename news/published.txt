@@ -627,3 +627,4 @@ https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-s
 https://thehackernews.com/2026/04/researchers-discover-critical-github.html
 https://www.darkreading.com/cloud-security/unc6692-social-engineering-malware-cloud-abuse
 https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything
+https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/
