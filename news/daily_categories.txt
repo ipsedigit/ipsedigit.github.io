@@ -247,3 +247,4 @@
 2026-04-30:security:vulnerability:breaking
 2026-04-30:security:malware:breaking
 2026-04-30:ai:ai:breaking
+2026-04-30:cloud:aws:deep
