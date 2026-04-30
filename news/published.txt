@@ -633,3 +633,4 @@ https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything
 https://dev.to/johalputt/benchmark-cloudflare-waf-30-vs-aws-waf-2026-vs-modsecurity-30-request-blocking-accuracy-491n
 https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/
 https://www.docker.com/blog/how-to-analyze-hugging-face-for-arm64-readiness/
+http://brooker.co.za/blog/2026/04/30/be-right.html
