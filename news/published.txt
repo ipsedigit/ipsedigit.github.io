@@ -645,3 +645,4 @@ https://drewdevault.com/blog/I-cant-cancel-Copilot/
 https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html
 https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything
 https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything
+https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything
