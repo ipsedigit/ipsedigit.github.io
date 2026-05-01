@@ -643,3 +643,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks
 https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything
 https://drewdevault.com/blog/I-cant-cancel-Copilot/
 https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html
+https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything
