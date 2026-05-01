@@ -635,3 +635,6 @@ https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernete
 https://www.docker.com/blog/how-to-analyze-hugging-face-for-arm64-readiness/
 http://brooker.co.za/blog/2026/04/30/be-right.html
 https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything
+https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html
+https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/
+https://blog.cloudflare.com/flagship/
