@@ -640,3 +640,4 @@ https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resourc
 https://blog.cloudflare.com/flagship/
 https://karpathy.bearblog.dev/sequoia-ascent-2026/
 https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks
+https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything
