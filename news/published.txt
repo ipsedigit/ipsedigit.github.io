@@ -639,3 +639,4 @@ https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html
 https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/
 https://blog.cloudflare.com/flagship/
 https://karpathy.bearblog.dev/sequoia-ascent-2026/
+https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks

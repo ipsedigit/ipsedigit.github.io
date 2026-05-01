@@ -253,3 +253,4 @@
 2026-05-01:security:vulnerability:breaking
 2026-05-01:cloud:kubernetes:breaking
 2026-05-01:ai:ai:breaking
+2026-05-01:ai:ai:deep
