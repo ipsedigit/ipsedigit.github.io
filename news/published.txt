@@ -651,3 +651,4 @@ https://aws.amazon.com/blogs/aws/top-announcements-of-the-whats-next-with-aws-20
 https://thenewstack.io/anthropics-claude-security-beta/
 https://dev.to/bosschaos/compact-standard-library-a-practical-guide-to-every-export-11dh
 https://dev.to/johalputt/benchmark-azure-sentinel-vs-splunk-100-vs-aws-security-hub-for-siem-in-multi-cloud-environments-4inl
+https://kubernetes.io/blog/2025/10/20/seven-kubernetes-pitfalls-and-how-to-avoid/
