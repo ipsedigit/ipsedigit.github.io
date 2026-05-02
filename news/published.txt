@@ -654,3 +654,4 @@ https://dev.to/johalputt/benchmark-azure-sentinel-vs-splunk-100-vs-aws-security-
 https://kubernetes.io/blog/2025/10/20/seven-kubernetes-pitfalls-and-how-to-avoid/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/
+https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/
