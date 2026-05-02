@@ -653,3 +653,4 @@ https://dev.to/bosschaos/compact-standard-library-a-practical-guide-to-every-exp
 https://dev.to/johalputt/benchmark-azure-sentinel-vs-splunk-100-vs-aws-security-hub-for-siem-in-multi-cloud-environments-4inl
 https://kubernetes.io/blog/2025/10/20/seven-kubernetes-pitfalls-and-how-to-avoid/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
+https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/
