@@ -650,3 +650,4 @@ https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html
 https://aws.amazon.com/blogs/aws/top-announcements-of-the-whats-next-with-aws-2026/
 https://thenewstack.io/anthropics-claude-security-beta/
 https://dev.to/bosschaos/compact-standard-library-a-practical-guide-to-every-export-11dh
+https://dev.to/johalputt/benchmark-azure-sentinel-vs-splunk-100-vs-aws-security-hub-for-siem-in-multi-cloud-environments-4inl
