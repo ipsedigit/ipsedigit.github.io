@@ -646,3 +646,6 @@ https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html
 https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything
 https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything
 https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything
+https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html
+https://aws.amazon.com/blogs/aws/top-announcements-of-the-whats-next-with-aws-2026/
+https://thenewstack.io/anthropics-claude-security-beta/
