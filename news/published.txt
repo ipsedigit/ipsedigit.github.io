@@ -660,3 +660,4 @@ https://simonwillison.net/2026/May/2/sightings/#atom-everything
 https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html
 https://aws.amazon.com/blogs/aws/20-years-in-the-aws-cloud-how-time-flies/
 https://www.docker.com/blog/gemma4-dockerhub/
+https://seangoedecke.com/staff-engineer-archetypes/
