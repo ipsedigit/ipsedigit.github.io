@@ -667,3 +667,4 @@ https://www.infoq.com/news/2026/04/cloudflare-agent-memory-beta/?utm_campaign=in
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 http://antirez.com/news/164
 https://dev.to/johalputt/where-misunderstood-with-monoliths-and-kubernetes-benchmark-pdl
+https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything
