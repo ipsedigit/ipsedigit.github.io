@@ -670,3 +670,4 @@ https://dev.to/johalputt/where-misunderstood-with-monoliths-and-kubernetes-bench
 https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything
 https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/
 https://dev.to/asterview/how-to-deploy-multi-agent-systems-cross-cloudpython-576a
+https://jvns.ca/blog/2026/05/04/css-colour-palettes/
