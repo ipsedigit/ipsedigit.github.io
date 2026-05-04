@@ -666,3 +666,4 @@ https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html
 https://www.infoq.com/news/2026/04/cloudflare-agent-memory-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 http://antirez.com/news/164
+https://dev.to/johalputt/where-misunderstood-with-monoliths-and-kubernetes-benchmark-pdl
