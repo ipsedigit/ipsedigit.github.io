@@ -668,3 +668,4 @@ https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sa
 http://antirez.com/news/164
 https://dev.to/johalputt/where-misunderstood-with-monoliths-and-kubernetes-benchmark-pdl
 https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything
+https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/
