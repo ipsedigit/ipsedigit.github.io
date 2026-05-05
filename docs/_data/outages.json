@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-05T17:53:25.289864+00:00",
+  "generated_at": "2026-05-05T19:43:16.039612+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 6,
+    "operational": 19,
+    "degraded": 4,
     "outage": 2,
     "unknown": 1
   },
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Delayed Network Analytics and Alerting",
-      "incident_url": "https://stspg.io/b0tgsjhjnlv4",
-      "updated_at": "2026-05-05T17:49:10.630Z"
+      "description": "Issues with Cloudflare Tunnel connections and Browser Isolation sessions",
+      "incident_url": "https://stspg.io/4z73p51zp7bm",
+      "updated_at": "2026-05-05T19:19:47.829Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,16 +66,16 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Increased Latency and Failures for SSH Git Operations",
-      "incident_url": "https://stspg.io/x8fvngz3t6ck",
-      "updated_at": "2026-05-05T17:26:03.501Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -111,10 +111,10 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Delays in APM-based Monitor Notifications",
+      "incident_url": "https://stspg.io/rww57bn61jkp",
+      "updated_at": "2026-05-05T14:44:24.494-04:00"
     },
     {
       "name": "New Relic",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "User Authentication Identity SNA Failure Increase for Smartfren in Indonesia",
-      "incident_url": "https://stspg.io/n69jtxymkv5p",
-      "updated_at": "2026-05-05T10:03:27.569-07:00"
+      "description": "SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States",
+      "incident_url": "https://stspg.io/8j5x8d31gfhv",
+      "updated_at": "2026-05-05T04:43:01.621-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b0tgsjhjnlv4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Network Analytics and Alerting</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x8fvngz3t6ck\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased Latency and Failures for SSH Git Operations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w0b29c0hbblr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Failures to load data across multiple services on the Vercel dashboard, API, and CLI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n69jtxymkv5p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Failure Increase for Smartfren in Indonesia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 17:53 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4z73p51zp7bm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with Cloudflare Tunnel connections and Browser Isolation sessions</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w0b29c0hbblr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Failures to load data across multiple services on the Vercel dashboard, API, and CLI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rww57bn61jkp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in APM-based Monitor Notifications</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8j5x8d31gfhv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 19:43 UTC</p>",
   "community": []
 }
