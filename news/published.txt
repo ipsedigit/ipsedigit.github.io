@@ -680,3 +680,4 @@ https://simonwillison.net/2026/May/5/john-gruber/#atom-everything
 https://dev.to/johalputt/performance-test-tailwind-40-vs-unocss-060-vs-css-modules-for-100-component-styles-bundle-size-177g
 https://dev.to/jtorchia/bun-migrates-from-zig-to-rust-what-my-real-benchmarks-say-about-whether-it-matters-3fm7
 https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything
+https://simonwillison.net/2026/May/5/llm-echo/#atom-everything
