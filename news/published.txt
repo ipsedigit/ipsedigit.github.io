@@ -675,3 +675,4 @@ https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html
 https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html
 https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/
 https://www.computerenhance.com/p/lets-answer-rays-question
+https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/
