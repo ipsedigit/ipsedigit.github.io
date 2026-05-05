@@ -273,3 +273,6 @@
 2026-05-04:cloud:aws:deep
 2026-05-04:cloud:kubernetes:breaking
 2026-05-04:cloud:gcp-azure:breaking
+2026-05-05:security:vulnerability:breaking
+2026-05-05:ai:ai:breaking
+2026-05-05:security:cryptography:breaking

@@ -671,3 +671,6 @@ https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything
 https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/
 https://dev.to/asterview/how-to-deploy-multi-agent-systems-cross-cloudpython-576a
 https://jvns.ca/blog/2026/05/04/css-colour-palettes/
+https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html
+https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html
+https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/
