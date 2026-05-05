@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T01:20:40.968967+00:00",
+  "generated_at": "2026-05-05T04:45:04.329640+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network hardware failure in Hong Kong",
-      "incident_url": "https://stspg.io/gdn86x6pkms5",
-      "updated_at": "2026-05-05T00:57:54.712Z"
+      "description": "Cloudflare Access processing delayed audit logs",
+      "incident_url": "https://stspg.io/p29ylwrzpp01",
+      "updated_at": "2026-05-04T22:02:51.324Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Failures from a Subset of Twilio Long Codes to Liberty Media Puerto Rico",
-      "incident_url": "https://stspg.io/pwxxjdcxtlhw",
-      "updated_at": "2026-05-04T17:47:38.878-07:00"
+      "description": "SMS Delivery Failures from Twilio Phone Numbers to Viva Bolivia",
+      "incident_url": "https://stspg.io/82xdcm1hlvyq",
+      "updated_at": "2026-05-04T21:43:15.697-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "outage",
-      "description": "AWS - Middle East (UAE): INC0152681",
-      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
-      "updated_at": "2026-03-05T04:39:37.974Z"
+      "description": "Azure - West US 2 (Washington): INC0156645",
+      "incident_url": "https://stspg.io/4zg61gshk8c5",
+      "updated_at": "2026-05-05T04:21:04.020Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gdn86x6pkms5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network hardware failure in Hong Kong</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pwxxjdcxtlhw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Failures from a Subset of Twilio Long Codes to Liberty Media Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 01:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p29ylwrzpp01\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access processing delayed audit logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/82xdcm1hlvyq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Phone Numbers to Viva Bolivia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4zg61gshk8c5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Azure - West US 2 (Washington): INC0156645</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 04:45 UTC</p>",
   "community": []
 }
