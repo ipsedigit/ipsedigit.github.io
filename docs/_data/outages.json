@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-05T22:05:33.623879+00:00",
+  "generated_at": "2026-05-05T23:13:01.580288+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
+    "operational": 20,
     "degraded": 3,
-    "outage": 3,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Resolution Issues for .de Domains",
       "incident_url": "https://stspg.io/bjxbvj29ywrt",
-      "updated_at": "2026-05-05T22:01:04.597Z"
+      "updated_at": "2026-05-05T22:37:37.426Z"
     },
     {
       "name": "CircleCI",
@@ -75,10 +75,10 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "outage",
-      "description": "Agent Runner failures on new projects",
-      "incident_url": "https://stspg.io/jpl42nttxf6s",
-      "updated_at": "2026-05-05T21:58:40.023Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Render",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Multiple Networks in South Africa",
-      "incident_url": "https://stspg.io/50cljw2kw0zt",
-      "updated_at": "2026-05-05T14:57:03.923-07:00"
+      "description": "SMS Delivery Delays from Twilio to Tigo Guatemala",
+      "incident_url": "https://stspg.io/ttcrt4kh99vm",
+      "updated_at": "2026-05-05T16:11:42.468-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bjxbvj29ywrt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Resolution Issues for .de Domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jpl42nttxf6s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Agent Runner failures on new projects</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w0b29c0hbblr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Failures to load data across multiple services on the Vercel dashboard, API, and CLI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/50cljw2kw0zt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Multiple Networks in South Africa</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 22:05 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bjxbvj29ywrt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Resolution Issues for .de Domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w0b29c0hbblr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Failures to load data across multiple services on the Vercel dashboard, API, and CLI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ttcrt4kh99vm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Tigo Guatemala</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 23:13 UTC</p>",
   "community": []
 }
