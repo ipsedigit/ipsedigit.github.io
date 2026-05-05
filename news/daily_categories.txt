@@ -277,3 +277,4 @@
 2026-05-05:ai:ai:breaking
 2026-05-05:security:cryptography:breaking
 2026-05-05:devtools:frameworks:breaking
+2026-05-05:ai:ai-research:deep
