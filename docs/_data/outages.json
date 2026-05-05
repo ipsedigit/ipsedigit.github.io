@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T07:07:56.813056+00:00",
+  "generated_at": "2026-05-05T09:22:38.112705+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Cloudflare Access processing delayed audit logs",
-      "incident_url": "https://stspg.io/p29ylwrzpp01",
-      "updated_at": "2026-05-04T22:02:51.324Z"
+      "description": "Bot Management Issues",
+      "incident_url": "https://stspg.io/hx27fxg9f6h6",
+      "updated_at": "2026-05-05T09:17:42.487Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "User Authentication Identity Gateway API Failure Increase and High Latency to Verizon in United States",
-      "incident_url": "https://stspg.io/ghgvd4c04c2t",
-      "updated_at": "2026-05-04T23:43:17.457-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio numbers to Elisa and Telia Finland",
+      "incident_url": "https://stspg.io/5n21fmp6nzrw",
+      "updated_at": "2026-05-05T02:04:08.707-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -204,7 +204,7 @@
       "status": "outage",
       "description": "Azure - West US 2 (Washington): INC0156645",
       "incident_url": "https://stspg.io/4zg61gshk8c5",
-      "updated_at": "2026-05-05T05:37:36.900Z"
+      "updated_at": "2026-05-05T07:53:15.007Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p29ylwrzpp01\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access processing delayed audit logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ghgvd4c04c2t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity Gateway API Failure Increase and High Latency to Verizon in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4zg61gshk8c5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Azure - West US 2 (Washington): INC0156645</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 07:07 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5n21fmp6nzrw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio numbers to Elisa and Telia Finland</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4zg61gshk8c5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Azure - West US 2 (Washington): INC0156645</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-05 09:22 UTC</p>",
   "community": []
 }
