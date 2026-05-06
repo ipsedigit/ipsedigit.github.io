@@ -685,3 +685,4 @@ https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html
 https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/
 https://thenewstack.io/airbyte-agents-context-store/
 https://nullprogram.com/blog/2026/05/06/
+https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything
