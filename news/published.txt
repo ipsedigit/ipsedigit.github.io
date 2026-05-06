@@ -686,3 +686,4 @@ https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-a
 https://thenewstack.io/airbyte-agents-context-store/
 https://nullprogram.com/blog/2026/05/06/
 https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything
+https://www.troyhunt.com/weekly-update-502/
