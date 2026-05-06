@@ -690,3 +690,4 @@ https://www.troyhunt.com/weekly-update-502/
 https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html
 https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything
 https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything
+https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything
