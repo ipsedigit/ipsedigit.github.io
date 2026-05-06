@@ -688,3 +688,4 @@ https://nullprogram.com/blog/2026/05/06/
 https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything
 https://www.troyhunt.com/weekly-update-502/
 https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html
+https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything
