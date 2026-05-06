@@ -681,3 +681,6 @@ https://dev.to/johalputt/performance-test-tailwind-40-vs-unocss-060-vs-css-modul
 https://dev.to/jtorchia/bun-migrates-from-zig-to-rust-what-my-real-benchmarks-say-about-whether-it-matters-3fm7
 https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything
 https://simonwillison.net/2026/May/5/llm-echo/#atom-everything
+https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html
+https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/
+https://thenewstack.io/airbyte-agents-context-store/
