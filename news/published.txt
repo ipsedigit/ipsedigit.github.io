@@ -699,3 +699,4 @@ https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-eve
 https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html
 https://simonwillison.net/2026/May/4/andy-masley/#atom-everything
 https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything
+https://seangoedecke.com/why-hasnt-longer-horizon-training-slowed-ai-progress/
