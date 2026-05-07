@@ -691,3 +691,7 @@ https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html
 https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything
 https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything
 https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything
+https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/
+https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html
+https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/
+https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/
