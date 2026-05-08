@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-08T11:24:38.292705+00:00",
+  "generated_at": "2026-05-08T12:55:09.546345+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 5,
+    "operational": 17,
+    "degraded": 6,
     "outage": 2,
     "unknown": 1
   },
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Wrangler users may experience frequent log out",
       "incident_url": "https://stspg.io/918wdcv7tmrg",
-      "updated_at": "2026-05-08T10:36:58.038Z"
+      "updated_at": "2026-05-08T12:52:40.980Z"
     },
     {
       "name": "CircleCI",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Scheduled Grid Migrations are experiencing extended downtime",
+      "incident_url": "https://slack-status.com/2026-05/02b2d5b45d656512",
+      "updated_at": "2026-05-08T05:13:46-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to KPN Netherlands",
-      "incident_url": "https://stspg.io/zq97xsf009lf",
-      "updated_at": "2026-05-08T03:44:19.926-07:00"
+      "description": "Messaging Logs Experiencing Delays",
+      "incident_url": "https://stspg.io/kbcp2ypzkjl9",
+      "updated_at": "2026-05-08T04:48:29.562-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -195,7 +195,7 @@
       "status": "operational",
       "description": "AWS Availability Zone use1-az4 in US-EAST-1 Region is Impaired",
       "incident_url": "https://stspg.io/49mpdjlq4rhp",
-      "updated_at": "2026-05-08T03:12:20.688Z"
+      "updated_at": "2026-05-08T12:34:20.604Z"
     },
     {
       "name": "Snowflake",
@@ -210,19 +210,19 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors across Claude Models",
-      "incident_url": "https://stspg.io/zl0w1dmccgf7",
-      "updated_at": "2026-05-08T10:26:46.752Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Increased Error Rate for gpt-5.5 Model in the API",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-05-08T12:31:00Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/918wdcv7tmrg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Wrangler users may experience frequent log out</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zq97xsf009lf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to KPN Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zl0w1dmccgf7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors across Claude Models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 11:24 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/918wdcv7tmrg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Wrangler users may experience frequent log out</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/02b2d5b45d656512\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Scheduled Grid Migrations are experiencing extended downtime</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kbcp2ypzkjl9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Messaging Logs Experiencing Delays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 12:55 UTC</p>",
   "community": []
 }
