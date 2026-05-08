@@ -712,3 +712,4 @@ https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything
 https://dev.to/carryologist/model-showdown-benchmarking-local-vs-cloud-llms-on-a-real-coding-task-5cp
 https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything
 https://lucumr.pocoo.org/2026/5/8/local-models/
+https://seangoedecke.com/notes-on-incidents/
