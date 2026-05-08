@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-08T20:35:23.458494+00:00",
+  "generated_at": "2026-05-08T21:43:15.974810+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 7,
+    "operational": 18,
+    "degraded": 5,
     "outage": 2,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Certificate Issuance through Let's Encrypt unavailable",
-      "incident_url": "https://stspg.io/lm4tpwpzd73s",
-      "updated_at": "2026-05-08T19:46:40.356Z"
+      "description": "Bot Management Issues",
+      "incident_url": "https://stspg.io/hx27fxg9f6h6",
+      "updated_at": "2026-05-06T11:26:20.550Z"
     },
     {
       "name": "CircleCI",
@@ -84,10 +84,10 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Certificate issuance paused for Let's Encrypt",
-      "incident_url": "https://stspg.io/5dxgkm5p8dc9",
-      "updated_at": "2026-05-08T20:22:22.878Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Vercel",
@@ -141,7 +141,7 @@
       "status": "operational",
       "description": "Increased API Errors",
       "incident_url": "https://stspg.io/yj8w3fd3p7jn",
-      "updated_at": "2026-05-08T13:21:32.603-07:00"
+      "updated_at": "2026-05-08T14:08:03.217-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -159,7 +159,7 @@
       "status": "degraded",
       "description": "EKM customers experiencing issues with channel loading and message delivery",
       "incident_url": "https://slack-status.com/2026-05/d284d808ed66c511",
-      "updated_at": "2026-05-08T13:27:06-07:00"
+      "updated_at": "2026-05-08T13:57:18-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Orange Cameroon",
-      "incident_url": "https://stspg.io/y35vnp8mvj06",
-      "updated_at": "2026-05-08T13:27:49.229-07:00"
+      "description": "SMS Delivery Failures from Twilio to Orange Madagascar",
+      "incident_url": "https://stspg.io/8pbcd60s98m1",
+      "updated_at": "2026-05-08T14:41:22.490-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -192,10 +192,10 @@
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "degraded",
+      "status": "operational",
       "description": "Impaired Cluster Operations due to Lets Encrypt Outage",
       "incident_url": "https://stspg.io/0g307sn27q00",
-      "updated_at": "2026-05-08T19:33:45.615Z"
+      "updated_at": "2026-05-08T21:39:19.785Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lm4tpwpzd73s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Issuance through Let's Encrypt unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5dxgkm5p8dc9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate issuance paused for Let's Encrypt</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/d284d808ed66c511\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">EKM customers experiencing issues with channel loading and message delivery</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y35vnp8mvj06\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Orange Cameroon</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4mgbqqy1tqrs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issues with Email Alerts</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0g307sn27q00\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations due to Lets Encrypt Outage</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 20:35 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/d284d808ed66c511\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">EKM customers experiencing issues with channel loading and message delivery</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8pbcd60s98m1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Orange Madagascar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4mgbqqy1tqrs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issues with Email Alerts</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 21:43 UTC</p>",
   "community": []
 }
