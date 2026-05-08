@@ -703,3 +703,8 @@ https://seangoedecke.com/why-hasnt-longer-horizon-training-slowed-ai-progress/
 https://newsletter.pragmaticengineer.com/p/the-pulse-did-capacity-shortages
 https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything
 https://xeiaso.net/blog/2026/abstain-from-install/
+https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/
+https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/
+https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html
+https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html
+https://dev.to/johalputt/kotlin-20-vs-python-313-the-definitive-guide-to-benchmark-in-production-46gj
