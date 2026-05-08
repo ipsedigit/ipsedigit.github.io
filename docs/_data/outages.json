@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-08T01:27:05.804626+00:00",
+  "generated_at": "2026-05-08T04:41:40.798729+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 6,
-    "outage": 3,
+    "operational": 15,
+    "degraded": 8,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -15,7 +15,7 @@
       "status": "degraded",
       "description": "Service impact: Increased Error Rate and Latency",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Thu, 07 May 2026 17:53:52 PDT"
+      "updated_at": "Thu, 07 May 2026 20:06:28 PDT"
     },
     {
       "name": "Azure",
@@ -75,7 +75,7 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -94,9 +94,9 @@
       "domain": "vercel-status.com",
       "category": "devtools",
       "status": "degraded",
-      "description": "Elevated function invocation failures in IAD1",
+      "description": "Elevated errors across multiple services in IAD1",
       "incident_url": "https://stspg.io/ly616zh32rl9",
-      "updated_at": "2026-05-08T01:18:59.257Z"
+      "updated_at": "2026-05-08T02:33:12.688Z"
     },
     {
       "name": "npm",
@@ -111,10 +111,10 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "outage",
+      "status": "degraded",
       "description": "Delayed Monitors Notifications",
       "incident_url": "https://stspg.io/rbj54mc4nhgs",
-      "updated_at": "2026-05-07T21:20:34.635-04:00"
+      "updated_at": "2026-05-08T00:13:10.323-04:00"
     },
     {
       "name": "New Relic",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Widespread 5xx Errors Across APIs",
+      "description": "Degradation to multiple Twilio products",
       "incident_url": "https://stspg.io/p78tmwrvww85",
-      "updated_at": "2026-05-07T17:27:45.533-07:00"
+      "updated_at": "2026-05-07T21:38:51.926-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,9 +193,9 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-05-06T16:02:29.650Z"
+      "description": "AWS Availability Zone use1-az4 in US-EAST-1 Region is Impaired",
+      "incident_url": "https://stspg.io/49mpdjlq4rhp",
+      "updated_at": "2026-05-08T03:12:20.688Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ly616zh32rl9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated function invocation failures in IAD1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rbj54mc4nhgs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Delayed Monitors Notifications</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p78tmwrvww85\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Widespread 5xx Errors Across APIs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 01:27 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ly616zh32rl9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors across multiple services in IAD1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rbj54mc4nhgs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Monitors Notifications</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p78tmwrvww85\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degradation to multiple Twilio products</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 04:41 UTC</p>",
   "community": []
 }
