@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-08T17:53:26.605499+00:00",
+  "generated_at": "2026-05-08T19:27:12.580187+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 18,
+    "degraded": 5,
     "outage": 2,
     "unknown": 1
   },
@@ -15,7 +15,7 @@
       "status": "degraded",
       "description": "Service impact: Increased Error Rate and Latency",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Fri, 08 May 2026 09:30:34 PDT"
+      "updated_at": "Fri, 08 May 2026 11:12:46 PDT"
     },
     {
       "name": "Azure",
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -139,9 +139,9 @@
       "domain": "discordstatus.com",
       "category": "communication",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Increased API Errors",
+      "incident_url": "https://stspg.io/yj8w3fd3p7jn",
+      "updated_at": "2026-05-08T12:24:48.215-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "EKM customers experiencing issues with channel loading and message delivery",
+      "incident_url": "https://slack-status.com/2026-05/d284d808ed66c511",
+      "updated_at": "2026-05-08T12:20:05-07:00"
     },
     {
       "name": "Zoom",
@@ -177,16 +177,16 @@
       "status": "degraded",
       "description": "SMS Delivery Failures from Twilio to Digicel Cayman Islands",
       "incident_url": "https://stspg.io/y0t23rwwsvc8",
-      "updated_at": "2026-05-08T10:25:20.314-07:00"
+      "updated_at": "2026-05-08T12:00:20.619-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-04-20T17:46:35.105Z"
+      "description": "Issues with Email Alerts",
+      "incident_url": "https://stspg.io/4mgbqqy1tqrs",
+      "updated_at": "2026-05-08T18:10:52.537Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y0t23rwwsvc8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Digicel Cayman Islands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 17:53 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rate and Latency</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/d284d808ed66c511\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">EKM customers experiencing issues with channel loading and message delivery</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y0t23rwwsvc8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Digicel Cayman Islands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4mgbqqy1tqrs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issues with Email Alerts</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-08 19:27 UTC</p>",
   "community": []
 }
