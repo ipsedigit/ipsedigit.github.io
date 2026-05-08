@@ -714,3 +714,4 @@ https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything
 https://lucumr.pocoo.org/2026/5/8/local-models/
 https://seangoedecke.com/notes-on-incidents/
 https://simonwillison.net/2026/May/7/big-words/#atom-everything
+https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything
