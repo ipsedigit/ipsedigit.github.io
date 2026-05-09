@@ -715,3 +715,6 @@ https://lucumr.pocoo.org/2026/5/8/local-models/
 https://seangoedecke.com/notes-on-incidents/
 https://simonwillison.net/2026/May/7/big-words/#atom-everything
 https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything
+https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html
+https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/
+https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/
