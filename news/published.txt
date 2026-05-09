@@ -720,3 +720,4 @@ https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga
 https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/
 https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/
 https://simonwillison.net/2026/May/9/luke-curley/#atom-everything
+https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything
