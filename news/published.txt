@@ -718,3 +718,4 @@ https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-ev
 https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html
 https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/
 https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/
+https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/
