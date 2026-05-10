@@ -725,3 +725,4 @@ https://simonwillison.net/2026/May/4/redis-array/#atom-everything
 https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability
 https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/
 https://www.infoq.com/news/2026/05/gke-agent-sandbox-hypercluster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://seangoedecke.com/the-left-wing-case-for-ai/
