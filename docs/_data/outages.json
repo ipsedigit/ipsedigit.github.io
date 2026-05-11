@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T04:18:55.233197+00:00",
+  "generated_at": "2026-05-11T08:02:00.645692+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 2,
     "outage": 2,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Bot Management Issues",
-      "incident_url": "https://stspg.io/hx27fxg9f6h6",
-      "updated_at": "2026-05-09T00:39:29.246Z"
+      "description": "Issues passing Challenge Pages in China",
+      "incident_url": "https://stspg.io/55qgppmx530k",
+      "updated_at": "2026-05-11T07:21:48.949Z"
     },
     {
       "name": "CircleCI",
@@ -165,7 +165,7 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States",
-      "incident_url": "https://stspg.io/8j5x8d31gfhv",
-      "updated_at": "2026-05-10T20:50:49.547-07:00"
+      "description": "Intelligent Alerts Currently Unavailable",
+      "incident_url": "https://stspg.io/sr28239q9gj1",
+      "updated_at": "2026-05-11T00:41:13.788-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Users may experience elevated errors in ChatGPT uploading files and Codex Cloud creating tasks",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-05-11T03:23:58Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8j5x8d31gfhv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-11 04:18 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/55qgppmx530k\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues passing Challenge Pages in China</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sr28239q9gj1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intelligent Alerts Currently Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-11 08:02 UTC</p>",
   "community": []
 }
