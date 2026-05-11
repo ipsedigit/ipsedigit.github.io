@@ -734,3 +734,4 @@ https://devops.com/mistral-moves-coding-agents-to-the-cloud-and-gets-out-of-your
 https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwned/
 https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything
 https://www.troyhunt.com/weekly-update-503/
+https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automation

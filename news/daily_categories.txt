@@ -304,3 +304,4 @@
 2026-05-11:security:vulnerability:breaking
 2026-05-11:security:appsec:breaking
 2026-05-11:ai:llm:breaking
+2026-05-11:ai:ai:breaking
