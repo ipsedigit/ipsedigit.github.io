@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-11T14:10:07.654010+00:00",
+  "generated_at": "2026-05-11T16:48:25.807822+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 18,
+    "degraded": 4,
     "outage": 2,
-    "unknown": 1
+    "unknown": 2
   },
   "services": [
     {
@@ -39,10 +39,10 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Bot Manager Premier Issues",
+      "incident_url": "https://stspg.io/7c5ld61698jg",
+      "updated_at": "2026-05-11T16:29:29.797Z"
     },
     {
       "name": "Cloudflare",
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Bot Management Issues",
       "incident_url": "https://stspg.io/hx27fxg9f6h6",
-      "updated_at": "2026-05-09T00:39:29.246Z"
+      "updated_at": "2026-05-11T15:49:54.588Z"
     },
     {
       "name": "CircleCI",
@@ -76,9 +76,9 @@
       "domain": "netlifystatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Latency in API & Builds",
-      "incident_url": "https://stspg.io/nwh4yvmr3kqk",
-      "updated_at": "2026-05-11T13:47:42.149Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Render",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Sentry.io timeouts",
+      "incident_url": "https://stspg.io/j08czhkhxqg4",
+      "updated_at": "2026-05-11T15:32:14.984Z"
     },
     {
       "name": "Discord",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "degraded",
-      "description": "EKM customers experiencing issues with channel loading and message delivery",
-      "incident_url": "https://slack-status.com/2026-05/7bf214215641755c",
-      "updated_at": "2026-05-11T07:09:17-07:00"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Panhandle Telecommunication Systems Inc. United States",
-      "incident_url": "https://stspg.io/1jvrjx5qjkhs",
-      "updated_at": "2026-05-11T07:08:49.985-07:00"
+      "description": "Voice Call Audio Quality Degradation Between a Subset of Twilio Phone Numbers and T-Mobile in United States",
+      "incident_url": "https://stspg.io/gfdw19qd5pcq",
+      "updated_at": "2026-05-11T09:27:55.931-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/7bf214215641755c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">EKM customers experiencing issues with channel loading and message delivery</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1jvrjx5qjkhs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Panhandle Telecommunication Systems Inc. United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-11 14:10 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7c5ld61698jg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Manager Premier Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j08czhkhxqg4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Sentry.io timeouts</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gfdw19qd5pcq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation Between a Subset of Twilio Phone Numbers and T-Mobile in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-11 16:48 UTC</p>",
   "community": []
 }
