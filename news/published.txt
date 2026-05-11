@@ -731,3 +731,4 @@ https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai
 https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html
 https://thenewstack.io/anthropic-public-bug-bounty/
 https://devops.com/mistral-moves-coding-agents-to-the-cloud-and-gets-out-of-your-way/
+https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwned/
