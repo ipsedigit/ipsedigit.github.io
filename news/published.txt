@@ -735,3 +735,4 @@ https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwn
 https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything
 https://www.troyhunt.com/weekly-update-503/
 https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automation
+https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything
