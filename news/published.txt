@@ -733,3 +733,4 @@ https://thenewstack.io/anthropic-public-bug-bounty/
 https://devops.com/mistral-moves-coding-agents-to-the-cloud-and-gets-out-of-your-way/
 https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwned/
 https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything
+https://www.troyhunt.com/weekly-update-503/
