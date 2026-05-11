@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T11:37:19.775194+00:00",
+  "generated_at": "2026-05-11T14:10:07.654010+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 2,
+    "operational": 20,
+    "degraded": 3,
     "outage": 2,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Issues passing Challenge Pages in China",
-      "incident_url": "https://stspg.io/55qgppmx530k",
-      "updated_at": "2026-05-11T07:21:48.949Z"
+      "description": "Bot Management Issues",
+      "incident_url": "https://stspg.io/hx27fxg9f6h6",
+      "updated_at": "2026-05-09T00:39:29.246Z"
     },
     {
       "name": "CircleCI",
@@ -76,9 +76,9 @@
       "domain": "netlifystatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Latency in API & Builds",
+      "incident_url": "https://stspg.io/nwh4yvmr3kqk",
+      "updated_at": "2026-05-11T13:47:42.149Z"
     },
     {
       "name": "Render",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "EKM customers experiencing issues with channel loading and message delivery",
+      "incident_url": "https://slack-status.com/2026-05/7bf214215641755c",
+      "updated_at": "2026-05-11T07:09:17-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to CAMTEL Cameroon",
-      "incident_url": "https://stspg.io/xq5hfnq580x6",
-      "updated_at": "2026-05-11T04:06:36.148-07:00"
+      "description": "SMS Delivery Delays from Twilio to Panhandle Telecommunication Systems Inc. United States",
+      "incident_url": "https://stspg.io/1jvrjx5qjkhs",
+      "updated_at": "2026-05-11T07:08:49.985-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/55qgppmx530k\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues passing Challenge Pages in China</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xq5hfnq580x6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to CAMTEL Cameroon</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-11 11:37 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/7bf214215641755c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">EKM customers experiencing issues with channel loading and message delivery</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1jvrjx5qjkhs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Panhandle Telecommunication Systems Inc. United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-11 14:10 UTC</p>",
   "community": []
 }
