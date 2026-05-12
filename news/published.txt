@@ -742,3 +742,4 @@ https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html
 https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html
 https://dev.to/alanwest/how-to-verify-ai-discovered-vulnerabilities-arent-just-training-data-echoes-1f50
 https://seangoedecke.com/interaction-models/
+https://xeiaso.net/notes/2026/gitlab-layoffs/
