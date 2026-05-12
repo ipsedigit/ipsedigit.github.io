@@ -745,3 +745,4 @@ https://seangoedecke.com/interaction-models/
 https://xeiaso.net/notes/2026/gitlab-layoffs/
 https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
 https://www.troyhunt.com/welcoming-the-bangladesh-government-to-have-i-been-pwned/
+https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything
