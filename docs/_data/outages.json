@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T19:22:36.961047+00:00",
+  "generated_at": "2026-05-12T21:04:36.609907+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -42,16 +42,16 @@
       "status": "degraded",
       "description": "Edge Delivery Issues between India and Europe",
       "incident_url": "https://stspg.io/8t872xy5y1fl",
-      "updated_at": "2026-05-12T18:45:00.776Z"
+      "updated_at": "2026-05-12T19:50:25.352Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Performance Issues",
-      "incident_url": "https://stspg.io/0096vdr5bw81",
-      "updated_at": "2026-05-12T19:20:43.142Z"
+      "description": "Cloudflare Zero Trust: Gateway Issues",
+      "incident_url": "https://stspg.io/yg5h0ntnb7c9",
+      "updated_at": "2026-05-12T21:00:26.936Z"
     },
     {
       "name": "CircleCI",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Customer Low Balance Notification and Automatic Recharge of Balance Is Not Working",
       "incident_url": "https://stspg.io/8cb3sygjx42z",
-      "updated_at": "2026-05-12T12:05:19.317-07:00"
+      "updated_at": "2026-05-12T14:01:43.707-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8t872xy5y1fl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues between India and Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0096vdr5bw81\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8cb3sygjx42z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customer Low Balance Notification and Automatic Recharge of Balance Is Not Working</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-12 19:22 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8t872xy5y1fl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues between India and Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yg5h0ntnb7c9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Zero Trust: Gateway Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8cb3sygjx42z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customer Low Balance Notification and Automatic Recharge of Balance Is Not Working</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-12 21:04 UTC</p>",
   "community": []
 }
