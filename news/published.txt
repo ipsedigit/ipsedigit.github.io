@@ -738,3 +738,6 @@ https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automat
 https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything
 https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/
 https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything
+https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html
+https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html
+https://dev.to/alanwest/how-to-verify-ai-discovered-vulnerabilities-arent-just-training-data-echoes-1f50
