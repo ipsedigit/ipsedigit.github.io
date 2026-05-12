@@ -309,3 +309,4 @@
 2026-05-12:security:vulnerability:breaking
 2026-05-12:security:malware:breaking
 2026-05-12:ai:llm:breaking
+2026-05-12:ai:ai:breaking

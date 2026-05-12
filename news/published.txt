@@ -743,3 +743,4 @@ https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html
 https://dev.to/alanwest/how-to-verify-ai-discovered-vulnerabilities-arent-just-training-data-echoes-1f50
 https://seangoedecke.com/interaction-models/
 https://xeiaso.net/notes/2026/gitlab-layoffs/
+https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
