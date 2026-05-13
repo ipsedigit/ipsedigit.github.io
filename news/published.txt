@@ -751,3 +751,4 @@ https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything
 https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html
 https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html
 https://thenewstack.io/sap-joule-studio-managed-agents/
+https://simonwillison.net/2026/May/12/datasette/#atom-everything
