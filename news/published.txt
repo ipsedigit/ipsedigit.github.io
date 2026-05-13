@@ -753,3 +753,4 @@ https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html
 https://thenewstack.io/sap-joule-studio-managed-agents/
 https://simonwillison.net/2026/May/12/datasette/#atom-everything
 https://seangoedecke.com/space-ai-datacenters-do-not-have-a-cooling-problem/
+https://simonwillison.net/2026/May/13/csp-allow/#atom-everything
