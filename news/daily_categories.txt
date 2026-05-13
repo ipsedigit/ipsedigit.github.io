@@ -310,3 +310,6 @@
 2026-05-12:security:malware:breaking
 2026-05-12:ai:llm:breaking
 2026-05-12:ai:ai:breaking
+2026-05-13:security:cryptography:breaking
+2026-05-13:security:vulnerability:breaking
+2026-05-13:ai:llm:breaking
