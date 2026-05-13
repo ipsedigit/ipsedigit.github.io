@@ -758,3 +758,4 @@ https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything
 https://devops.com/hacktron-plans-to-build-ai-platform-to-test-code-for-vulnerabilities/
 https://simonwillison.net/2026/May/13/boris-mann/#atom-everything
 https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/
+https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything
