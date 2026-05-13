@@ -756,3 +756,4 @@ https://seangoedecke.com/space-ai-datacenters-do-not-have-a-cooling-problem/
 https://simonwillison.net/2026/May/13/csp-allow/#atom-everything
 https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything
 https://devops.com/hacktron-plans-to-build-ai-platform-to-test-code-for-vulnerabilities/
+https://simonwillison.net/2026/May/13/boris-mann/#atom-everything
