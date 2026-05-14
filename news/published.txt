@@ -763,3 +763,4 @@ https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-myt
 https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/
 https://thenewstack.io/engineering-team-skills-library/
 https://www.troyhunt.com/welcoming-the-bahamian-government-to-have-i-been-pwned/
+https://dev.to/momen_hq/smart-hackos-an-all-in-one-system-for-managing-the-entire-hackathon-lifecycle-1cic

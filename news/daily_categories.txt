@@ -318,3 +318,4 @@
 2026-05-14:ai:llm:breaking
 2026-05-14:security:vulnerability:breaking
 2026-05-14:ai:ai-research:breaking
+2026-05-14:software-engineering:performance:breaking
