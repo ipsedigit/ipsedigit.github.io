@@ -767,3 +767,4 @@ https://dev.to/momen_hq/smart-hackos-an-all-in-one-system-for-managing-the-entir
 https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything
 https://simonwillison.net/2026/May/12/llm/#atom-everything
 https://dev.to/devactivity/streamlining-deployment-how-github-releases-elevate-your-engineering-kpis-and-development-okrs-2p9p
+https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything
