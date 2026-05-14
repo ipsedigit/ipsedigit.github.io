@@ -759,3 +759,6 @@ https://devops.com/hacktron-plans-to-build-ai-platform-to-test-code-for-vulnerab
 https://simonwillison.net/2026/May/13/boris-mann/#atom-everything
 https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/
 https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything
+https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html
+https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/
+https://thenewstack.io/engineering-team-skills-library/
