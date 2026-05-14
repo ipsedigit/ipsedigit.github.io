@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T14:43:21.849234+00:00",
+  "generated_at": "2026-05-14T16:53:38.217539+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -57,10 +57,10 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated 429 errors pulling from maven central",
+      "incident_url": "https://stspg.io/c8h5p945vnkw",
+      "updated_at": "2026-05-14T16:49:02.861Z"
     },
     {
       "name": "GitHub",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "degraded",
-      "description": "Issues affecting file uploads, message edits, channel renames, and channel creations",
-      "incident_url": "https://slack-status.com/2026-05/fe557ca05fdb64fa",
-      "updated_at": "2026-05-14T07:37:41-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States",
-      "incident_url": "https://stspg.io/8j5x8d31gfhv",
-      "updated_at": "2026-05-13T20:59:26.528-07:00"
+      "description": "SMS Delivery Delays from Twilio to Multiple Networks in Brunei Darussalam",
+      "incident_url": "https://stspg.io/05qj53n42hlh",
+      "updated_at": "2026-05-14T09:10:52.389-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/fe557ca05fdb64fa\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues affecting file uploads, message edits, channel renames, and channel creations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qch6vznn5s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting a Subset of Users in Web Mail and Calendar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8j5x8d31gfhv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-14 14:43 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c8h5p945vnkw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated 429 errors pulling from maven central</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qch6vznn5s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting a Subset of Users in Web Mail and Calendar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/05qj53n42hlh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Multiple Networks in Brunei Darussalam</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-14 16:53 UTC</p>",
   "community": []
 }
