@@ -770,3 +770,6 @@ https://dev.to/devactivity/streamlining-deployment-how-github-releases-elevate-y
 https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything
 https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/
 https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/
+https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/
+https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-enterprise-linux-distros
+https://www.infoq.com/news/2026/05/moonrepo-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
