@@ -777,3 +777,4 @@ http://antirez.com/news/165
 https://drewdevault.com/blog/LLM-policy-for-Rust/
 https://www.infoq.com/news/2026/05/kubernetes-1-36-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything
+https://www.infoq.com/news/2026/05/cloudflare-workflows-v2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
