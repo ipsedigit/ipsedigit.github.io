@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-15T14:39:44.545252+00:00",
+  "generated_at": "2026-05-15T16:31:47.549508+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
+    "operational": 20,
     "degraded": 4,
-    "outage": 2,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -50,8 +50,8 @@
       "category": "cdn",
       "status": "degraded",
       "description": "Bot Management Issues",
-      "incident_url": "https://stspg.io/hx27fxg9f6h6",
-      "updated_at": "2026-05-15T13:19:18.754Z"
+      "incident_url": "https://stspg.io/tp9rq4m8w3gt",
+      "updated_at": "2026-05-15T14:57:15.898Z"
     },
     {
       "name": "CircleCI",
@@ -75,10 +75,10 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Purges are Delayed on Primary Load Balancer",
+      "incident_url": "https://stspg.io/4cqpxhqrfmdv",
+      "updated_at": "2026-05-15T16:23:08.617Z"
     },
     {
       "name": "Render",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Workflow usage amounts are incorrectly calculated",
-      "incident_url": "https://stspg.io/xkf8cxf311zv",
-      "updated_at": "2026-05-15T13:40:50.599Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "npm",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures Between Twilio Phone Numbers and AT&T in Mexico",
-      "incident_url": "https://stspg.io/w9pjblbxm8hd",
-      "updated_at": "2026-05-15T06:44:56.235-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio Phone Numbers to Multiple Networks in Italy",
+      "incident_url": "https://stspg.io/rp7ryk2tdyg5",
+      "updated_at": "2026-05-15T09:03:59.312-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,10 +201,10 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "outage",
-      "description": "AWS - Middle East (UAE): INC0152681",
-      "incident_url": "https://stspg.io/nt8g0vlnj5ms",
-      "updated_at": "2026-03-05T04:39:37.974Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "operational",
-      "description": "",
+      "description": "GPT5.5 Performance Degradation",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-05-15T16:11:01Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xkf8cxf311zv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workflow usage amounts are incorrectly calculated</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qch6vznn5s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting a Subset of Users in Web Mail and Calendar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w9pjblbxm8hd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures Between Twilio Phone Numbers and AT&T in Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nt8g0vlnj5ms\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AWS - Middle East (UAE): INC0152681</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-15 14:39 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tp9rq4m8w3gt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cqpxhqrfmdv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Purges are Delayed on Primary Load Balancer</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qch6vznn5s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting a Subset of Users in Web Mail and Calendar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rp7ryk2tdyg5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Phone Numbers to Multiple Networks in Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-15 16:31 UTC</p>",
   "community": []
 }
