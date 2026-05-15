@@ -775,3 +775,4 @@ https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-e
 https://www.infoq.com/news/2026/05/moonrepo-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 http://antirez.com/news/165
 https://drewdevault.com/blog/LLM-policy-for-Rust/
+https://www.infoq.com/news/2026/05/kubernetes-1-36-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
