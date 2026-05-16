@@ -781,3 +781,7 @@ https://www.infoq.com/news/2026/05/cloudflare-workflows-v2-release/?utm_campaign
 https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/
 https://dev.to/tarv7/how-to-use-paper-mcp-server-inside-a-dev-container-2324
 https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything
+https://dev.to/preecha/claude-mythos-vs-claude-opus-46-what-the-leaked-benchmarks-mean-for-developers-1h84
+https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html
+https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/
+https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineering
