@@ -786,3 +786,4 @@ https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html
 https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/
 https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineering
 https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything
+https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything
