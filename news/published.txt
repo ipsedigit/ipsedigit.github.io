@@ -788,3 +788,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineerin
 https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything
 https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything
 https://seangoedecke.com/steering-vectors/
+https://dev.to/shieldstring/building-nsfd-v1-an-algorithm-for-detecting-network-signal-failure-in-industrial-production-lines-1bl8
