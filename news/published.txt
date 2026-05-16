@@ -790,3 +790,4 @@ https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything
 https://seangoedecke.com/steering-vectors/
 https://dev.to/shieldstring/building-nsfd-v1-an-algorithm-for-detecting-network-signal-failure-in-industrial-production-lines-1bl8
 https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything
+https://simonwillison.net/2026/May/16/julia-evans/#atom-everything
