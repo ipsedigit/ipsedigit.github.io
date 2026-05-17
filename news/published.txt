@@ -792,3 +792,7 @@ https://dev.to/shieldstring/building-nsfd-v1-an-algorithm-for-detecting-network-
 https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything
 https://simonwillison.net/2026/May/16/julia-evans/#atom-everything
 https://seangoedecke.com/how-i-use-llms-in-2026/
+https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html
+https://www.infoq.com/news/2026/05/aspire-13-3-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://dev.to/johalputt/understanding-grid-a-beginner-friendly-breakdown-2ege
+https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with
