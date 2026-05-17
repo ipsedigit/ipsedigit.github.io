@@ -798,3 +798,4 @@ https://dev.to/johalputt/understanding-grid-a-beginner-friendly-breakdown-2ege
 https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with
 https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything
 https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything
+https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything
