@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T16:13:45.648132+00:00",
+  "generated_at": "2026-05-18T18:13:47.812351+00:00",
   "summary": {
     "total": 26,
-    "operational": 22,
-    "degraded": 2,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -21,10 +21,10 @@
       "name": "Azure",
       "domain": "https://azure.status.microsoft/en-us/status/feed/",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
+      "incident_url": "https://azurestatusprodwus.azurewebsites.net/en-us/status/",
+      "updated_at": "Mon, 18 May 2026 17:24:21 Z"
     },
     {
       "name": "Google Cloud",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service Degradation Affecting Web Zoom Mail and Web Calendar Services.",
+      "incident_url": "https://stspg.io/dgb18wwcrdz1",
+      "updated_at": "2026-05-18T11:08:11.029-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Text to Speech Messages Could Be Dropped",
-      "incident_url": "https://stspg.io/x5c5f6cpqbzv",
-      "updated_at": "2026-05-18T08:56:52.394-07:00"
+      "description": "SMS Delivery Failures between Twilio Phone Numbers and AT&T in Mexico",
+      "incident_url": "https://stspg.io/w9pjblbxm8hd",
+      "updated_at": "2026-05-17T22:51:56.522-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
       "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-04-20T17:46:35.105Z"
+      "updated_at": "2026-05-18T16:33:21.507Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x5c5f6cpqbzv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Text to Speech Messages Could Be Dropped</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-18 16:13 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodwus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w9pjblbxm8hd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures between Twilio Phone Numbers and AT&T in Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-18 18:13 UTC</p>",
   "community": []
 }
