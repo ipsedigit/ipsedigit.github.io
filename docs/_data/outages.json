@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T21:39:09.961065+00:00",
+  "generated_at": "2026-05-18T22:40:57.133180+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -21,10 +21,10 @@
       "name": "Azure",
       "domain": "https://azure.status.microsoft/en-us/status/feed/",
       "category": "cloud",
-      "status": "degraded",
-      "description": "Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
-      "incident_url": "https://azurestatusprodwus.azurewebsites.net/en-us/status/",
-      "updated_at": "Mon, 18 May 2026 19:22:52 Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Google Cloud",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Bot Management Issues",
-      "incident_url": "https://stspg.io/hx27fxg9f6h6",
-      "updated_at": "2026-05-18T11:06:54.647Z"
+      "description": "PayPal Billing Issues",
+      "incident_url": "https://stspg.io/xy6dt4qhzxx7",
+      "updated_at": "2026-05-16T22:43:07.235Z"
     },
     {
       "name": "CircleCI",
@@ -94,9 +94,9 @@
       "domain": "vercel-status.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "React Router 7 function invocation errors",
+      "incident_url": "https://stspg.io/6knpl12q53h5",
+      "updated_at": "2026-05-18T22:19:32.810Z"
     },
     {
       "name": "npm",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures between Twilio Phone Numbers and Multiple Networks in Brazil",
-      "incident_url": "https://stspg.io/5zgmxlknqt9t",
-      "updated_at": "2026-05-18T14:14:39.091-07:00"
+      "description": "MMS Delivery Delays from Twilio Short Codes to AT&T United States",
+      "incident_url": "https://stspg.io/cv1v394wgqxz",
+      "updated_at": "2026-05-18T15:22:42.688-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodwus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hx27fxg9f6h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Bot Management Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5zgmxlknqt9t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures between Twilio Phone Numbers and Multiple Networks in Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-18 21:39 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xy6dt4qhzxx7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">PayPal Billing Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cv1v394wgqxz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from Twilio Short Codes to AT&T United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-18 22:40 UTC</p>",
   "community": []
 }
