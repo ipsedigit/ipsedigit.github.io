@@ -806,3 +806,4 @@ https://www.troyhunt.com/weekly-update-504/
 https://thenewstack.io/python-rust-ai-sidecar/
 https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/
 https://dev.to/7onic/build-release-2-five-patches-for-one-line-of-css-1552
+https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html
