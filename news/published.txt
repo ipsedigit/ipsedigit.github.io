@@ -808,3 +808,4 @@ https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/
 https://dev.to/7onic/build-release-2-five-patches-for-one-line-of-css-1552
 https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html
 https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything
+http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html
