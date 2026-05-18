@@ -805,3 +805,4 @@ https://thenewstack.io/agent-harness-distributed-feedback-problem/
 https://www.troyhunt.com/weekly-update-504/
 https://thenewstack.io/python-rust-ai-sidecar/
 https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/
+https://dev.to/7onic/build-release-2-five-patches-for-one-line-of-css-1552
