@@ -803,3 +803,4 @@ https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-
 https://thenewstack.io/conductor-cloud-ai-coding-agents/
 https://thenewstack.io/agent-harness-distributed-feedback-problem/
 https://www.troyhunt.com/weekly-update-504/
+https://thenewstack.io/python-rust-ai-sidecar/
