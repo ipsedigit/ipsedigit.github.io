@@ -814,3 +814,4 @@ https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-
 https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/
 https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything
 https://thenewstack.io/google-remy-agent-infrastructure/
+http://antirez.com/news/166
