@@ -812,3 +812,4 @@ http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html
 https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw
 https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html
 https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/
+https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything
