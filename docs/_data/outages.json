@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T21:05:04.447717+00:00",
+  "generated_at": "2026-05-19T22:39:22.054528+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "PayPal Billing Issues",
-      "incident_url": "https://stspg.io/xy6dt4qhzxx7",
-      "updated_at": "2026-05-16T22:43:07.235Z"
+      "description": "Cloudflare Access AI control -  MCP server creation impacted",
+      "incident_url": "https://stspg.io/qfrvjd0f0qqb",
+      "updated_at": "2026-05-19T22:09:15.244Z"
     },
     {
       "name": "CircleCI",
@@ -76,9 +76,9 @@
       "domain": "netlifystatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Elevated response times affecting origin services",
+      "incident_url": "https://stspg.io/tjq7hm4zhqw9",
+      "updated_at": "2026-05-19T22:14:28.422Z"
     },
     {
       "name": "Render",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "degraded",
-      "description": "Trouble uploading files and emojis in Slack",
-      "incident_url": "https://slack-status.com/2026-05/60ba1e616cf353be",
-      "updated_at": "2026-05-19T13:51:23-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Numbers to T-Mobile Czech Republic",
-      "incident_url": "https://stspg.io/z50x01mjklzt",
-      "updated_at": "2026-05-19T13:59:24.152-07:00"
+      "description": "SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States",
+      "incident_url": "https://stspg.io/4rsbp0x0cxbq",
+      "updated_at": "2026-05-19T15:35:00.310-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xy6dt4qhzxx7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">PayPal Billing Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-05/60ba1e616cf353be\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble uploading files and emojis in Slack</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/z50x01mjklzt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Numbers to T-Mobile Czech Republic</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-19 21:05 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qfrvjd0f0qqb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access AI control -  MCP server creation impacted</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4rsbp0x0cxbq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-19 22:39 UTC</p>",
   "community": []
 }
