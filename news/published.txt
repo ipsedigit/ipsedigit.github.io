@@ -824,3 +824,4 @@ https://drewdevault.com/blog/New-design/
 https://dev.to/s_rohan/how-to-pass-comptia-security-sy0-701-in-30-days-complete-2026-study-roadmap-guide-2b9j
 https://seangoedecke.com/prompts-are-technical-debt-too/
 https://simonwillison.net/2026/May/20/google-io/#atom-everything
+https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything
