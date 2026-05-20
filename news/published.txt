@@ -815,3 +815,7 @@ https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-n
 https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything
 https://thenewstack.io/google-remy-agent-infrastructure/
 http://antirez.com/news/166
+https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base
+https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
+https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/
+https://thenewstack.io/google-ai-ultra-pricing/
