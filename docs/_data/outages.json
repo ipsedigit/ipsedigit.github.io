@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-20T19:40:11.043314+00:00",
+  "generated_at": "2026-05-20T21:25:32.224631+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -42,16 +42,16 @@
       "status": "degraded",
       "description": "Configuration Deployment issues with EdgeWorkers and mPulse configuration activations",
       "incident_url": "https://stspg.io/qj726rqcw4xg",
-      "updated_at": "2026-05-20T19:35:19.542Z"
+      "updated_at": "2026-05-20T20:25:35.514Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers subrequests returning 1006",
-      "incident_url": "https://stspg.io/x5fw1tw6z9ww",
-      "updated_at": "2026-05-20T19:13:22.488Z"
+      "description": "Cloudflare Access delayed audit logs",
+      "incident_url": "https://stspg.io/lmy7spqddffx",
+      "updated_at": "2026-05-20T19:47:17.234Z"
     },
     {
       "name": "CircleCI",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Incident with Actions",
-      "incident_url": "https://stspg.io/w64c15qfl7pz",
-      "updated_at": "2026-05-20T18:17:16.101Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Missing Build CPU Minutes Usage Data",
+      "incident_url": "https://stspg.io/xt6sl3hp53c5",
+      "updated_at": "2026-05-20T20:07:17.384Z"
     },
     {
       "name": "npm",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Intermittent Issue Affecting MMS Inbound and Outbound Service with Zoom Phone and Zoom Contact Center in United States and Canada Regions.",
-      "incident_url": "https://stspg.io/9vl3p5sd6nfp",
-      "updated_at": "2026-05-20T10:33:18.083-07:00"
+      "description": "Service Degradation affecting multiple Services in the North America region",
+      "incident_url": "https://stspg.io/5d279rwjngsn",
+      "updated_at": "2026-05-20T14:22:26.862-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays From Twilio Long Codes to Claro Colombia",
-      "incident_url": "https://stspg.io/bwkq6tkbtptj",
-      "updated_at": "2026-05-20T12:31:25.622-07:00"
+      "description": "SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States",
+      "incident_url": "https://stspg.io/4rsbp0x0cxbq",
+      "updated_at": "2026-05-20T14:09:23.642-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qj726rqcw4xg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment issues with EdgeWorkers and mPulse configuration activations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x5fw1tw6z9ww\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers subrequests returning 1006</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9vl3p5sd6nfp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent Issue Affecting MMS Inbound and Outbound Service with Zoom Phone and Zoom Contact Center in United States and Canada Regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bwkq6tkbtptj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From Twilio Long Codes to Claro Colombia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-20 19:40 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qj726rqcw4xg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment issues with EdgeWorkers and mPulse configuration activations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lmy7spqddffx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access delayed audit logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xt6sl3hp53c5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Missing Build CPU Minutes Usage Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5d279rwjngsn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation affecting multiple Services in the North America region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4rsbp0x0cxbq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-20 21:25 UTC</p>",
   "community": []
 }
