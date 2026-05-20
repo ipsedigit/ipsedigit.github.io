@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T21:25:32.224631+00:00",
+  "generated_at": "2026-05-20T22:54:11.720223+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Cloudflare Access delayed audit logs",
-      "incident_url": "https://stspg.io/lmy7spqddffx",
-      "updated_at": "2026-05-20T19:47:17.234Z"
+      "description": "Increased HTTP 502 Errors in Buenos Aires",
+      "incident_url": "https://stspg.io/mptg6j6900pj",
+      "updated_at": "2026-05-20T13:57:32.992Z"
     },
     {
       "name": "CircleCI",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation affecting multiple Services in the North America region",
-      "incident_url": "https://stspg.io/5d279rwjngsn",
-      "updated_at": "2026-05-20T14:22:26.862-07:00"
+      "description": "Service Degradation Affecting Web Zoom Mail and Web Calendar Services.",
+      "incident_url": "https://stspg.io/dgb18wwcrdz1",
+      "updated_at": "2026-05-20T14:05:42.402-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States",
-      "incident_url": "https://stspg.io/4rsbp0x0cxbq",
-      "updated_at": "2026-05-20T14:09:23.642-07:00"
+      "description": "Subset of AU Sender ID Registration Submissions Directly Transitioning to REJECTED",
+      "incident_url": "https://stspg.io/m4rm0rk2hfcf",
+      "updated_at": "2026-05-20T15:34:30.168-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qj726rqcw4xg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment issues with EdgeWorkers and mPulse configuration activations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lmy7spqddffx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Access delayed audit logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xt6sl3hp53c5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Missing Build CPU Minutes Usage Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5d279rwjngsn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation affecting multiple Services in the North America region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4rsbp0x0cxbq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-20 21:25 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qj726rqcw4xg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Configuration Deployment issues with EdgeWorkers and mPulse configuration activations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mptg6j6900pj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased HTTP 502 Errors in Buenos Aires</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xt6sl3hp53c5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Missing Build CPU Minutes Usage Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m4rm0rk2hfcf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Subset of AU Sender ID Registration Submissions Directly Transitioning to REJECTED</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-20 22:54 UTC</p>",
   "community": []
 }
