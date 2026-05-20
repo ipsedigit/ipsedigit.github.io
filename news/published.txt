@@ -819,3 +819,4 @@ https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your
 https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
 https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/
 https://thenewstack.io/google-ai-ultra-pricing/
+https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything
