@@ -830,3 +830,4 @@ https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-ar
 https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/
 https://devops.com/cloudbees-survey-surfaces-increase-in-production-issues-attributable-to-ai/
 http://brooker.co.za/blog/2026/05/20/hypothesis.html
+https://seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/
