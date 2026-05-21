@@ -832,3 +832,4 @@ https://devops.com/cloudbees-survey-surfaces-increase-in-production-issues-attri
 http://brooker.co.za/blog/2026/05/20/hypothesis.html
 https://seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/
 https://www.infoworld.com/article/4175582/microsoft-releases-open-source-tools-to-operationalize-ai-agent-safety.html
+https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything
