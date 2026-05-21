@@ -826,3 +826,6 @@ https://seangoedecke.com/prompts-are-technical-debt-too/
 https://simonwillison.net/2026/May/20/google-io/#atom-everything
 https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything
 https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2026-45584/
+https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/
+https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/
+https://devops.com/cloudbees-survey-surfaces-increase-in-production-issues-attributable-to-ai/
