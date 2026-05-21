@@ -831,3 +831,4 @@ https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-
 https://devops.com/cloudbees-survey-surfaces-increase-in-production-issues-attributable-to-ai/
 http://brooker.co.za/blog/2026/05/20/hypothesis.html
 https://seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/
+https://www.infoworld.com/article/4175582/microsoft-releases-open-source-tools-to-operationalize-ai-agent-safety.html
