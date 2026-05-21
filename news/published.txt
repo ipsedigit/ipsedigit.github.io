@@ -835,3 +835,4 @@ https://www.infoworld.com/article/4175582/microsoft-releases-open-source-tools-t
 https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything
 https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2026-45250/
 https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything
+https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-art-template/
