@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T17:46:37.580013+00:00",
+  "generated_at": "2026-05-21T20:01:09.984246+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -96,7 +96,7 @@
       "status": "degraded",
       "description": "Elevated Build Errors",
       "incident_url": "https://stspg.io/9xd8yb4qzw4p",
-      "updated_at": "2026-05-21T15:01:57.826Z"
+      "updated_at": "2026-05-21T19:55:08.347Z"
     },
     {
       "name": "npm",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation Affecting Web Zoom Mail and Web Calendar Services.",
-      "incident_url": "https://stspg.io/dgb18wwcrdz1",
-      "updated_at": "2026-05-21T09:59:07.092-07:00"
+      "description": "Intermittent Issue Affecting MMS Inbound and Outbound Service with Zoom Phone and Zoom Contact Center in United States and Canada Regions.",
+      "incident_url": "https://stspg.io/9vl3p5sd6nfp",
+      "updated_at": "2026-05-21T11:00:02.454-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from a Subset of Twilio Long Codes and Toll-Free Numbers to Viaero United States",
-      "incident_url": "https://stspg.io/34kd0gwc1xpg",
-      "updated_at": "2026-05-21T10:35:51.068-07:00"
+      "description": "SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in France",
+      "incident_url": "https://stspg.io/kjvd7fln16dn",
+      "updated_at": "2026-05-21T12:44:20.787-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9xd8yb4qzw4p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated Build Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/34kd0gwc1xpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Long Codes and Toll-Free Numbers to Viaero United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-21 17:46 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9xd8yb4qzw4p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated Build Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9vl3p5sd6nfp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent Issue Affecting MMS Inbound and Outbound Service with Zoom Phone and Zoom Contact Center in United States and Canada Regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kjvd7fln16dn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in France</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-21 20:01 UTC</p>",
   "community": []
 }
