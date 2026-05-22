@@ -843,3 +843,4 @@ https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything
 https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything
 https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything
 https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything
+https://simonwillison.net/2026/May/20/datasette-agent-charts/#atom-everything
