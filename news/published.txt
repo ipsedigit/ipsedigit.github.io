@@ -839,3 +839,4 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-art-templa
 https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html
 https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html
 https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/
+https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything
