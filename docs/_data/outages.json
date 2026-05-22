@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-22T08:14:42.504915+00:00",
+  "generated_at": "2026-05-22T11:20:28.317032+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 6,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -130,9 +130,9 @@
       "domain": "status.sentry.io",
       "category": "observability",
       "status": "operational",
-      "description": "We are investigating higher than expected latency",
-      "incident_url": "https://stspg.io/f72fkmtrzn2m",
-      "updated_at": "2026-05-22T08:08:51.024Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated error rate on multiple models",
-      "incident_url": "https://stspg.io/fknlkqdwvwnm",
-      "updated_at": "2026-05-22T06:32:50.738Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bhn104qcrrd5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays From a Subset of Twilio Long Codes and Toll-Free Numbers to Viaero United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fknlkqdwvwnm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated error rate on multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-22 08:14 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dgb18wwcrdz1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Web Zoom Mail and Web Calendar Services.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bhn104qcrrd5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays From a Subset of Twilio Long Codes and Toll-Free Numbers to Viaero United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-22 11:20 UTC</p>",
   "community": []
 }
