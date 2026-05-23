@@ -848,3 +848,4 @@ https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything
 https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
 https://thenewstack.io/anthropic-openai-wall-street-ai-agents-developers/
 https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/
+https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything
