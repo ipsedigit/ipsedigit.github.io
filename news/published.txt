@@ -852,3 +852,4 @@ https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything
 https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything
 https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything
 https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything
+http://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html
