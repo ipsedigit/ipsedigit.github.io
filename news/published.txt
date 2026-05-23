@@ -850,3 +850,4 @@ https://thenewstack.io/anthropic-openai-wall-street-ai-agents-developers/
 https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/
 https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything
 https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything
+https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything
