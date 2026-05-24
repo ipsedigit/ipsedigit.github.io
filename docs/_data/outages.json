@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T22:13:36.800638+00:00",
+  "generated_at": "2026-05-24T23:18:02.769142+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays From Twilio to Multiple Networks in Multiple Countries in Europe",
-      "incident_url": "https://stspg.io/ncpv8qh1fd3h",
-      "updated_at": "2026-05-24T09:15:57.923-07:00"
+      "description": "SMS Delivery Failures From Network Subscribers to Twilio Denmark Phone Numbers",
+      "incident_url": "https://stspg.io/mgldr4lk021b",
+      "updated_at": "2026-05-24T15:41:34.230-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ncpv8qh1fd3h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From Twilio to Multiple Networks in Multiple Countries in Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-24 22:13 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mgldr4lk021b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures From Network Subscribers to Twilio Denmark Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nnr4q2ydbyhz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">AutoOps Login Issues for New Customers</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-24 23:18 UTC</p>",
   "community": []
 }
