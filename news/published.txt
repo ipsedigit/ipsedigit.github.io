@@ -860,3 +860,4 @@ https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
 https://www.troyhunt.com/weekly-update-505/
 https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut
 https://dev.to/ujja/from-govhack-win-to-something-that-actually-matters-2mmi
+https://lucumr.pocoo.org/2026/5/24/pi-oss/
