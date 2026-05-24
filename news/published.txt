@@ -857,3 +857,4 @@ https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything
 https://dev.to/yanlong_wang/deepseek-v4-pro-just-got-4x-cheaper-but-heres-what-nobodys-talking-about-1do
 https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
 https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
+https://www.troyhunt.com/weekly-update-505/
