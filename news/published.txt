@@ -859,3 +859,4 @@ https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
 https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
 https://www.troyhunt.com/weekly-update-505/
 https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut
+https://dev.to/ujja/from-govhack-win-to-something-that-actually-matters-2mmi
