@@ -868,3 +868,4 @@ https://www.infoq.com/news/2026/05/google-cross-engine-iceberg/?utm_campaign=inf
 https://huggingface.co/blog/cybersecurity-openness
 https://simonwillison.net/2026/May/24/datasette/#atom-everything
 https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything
+https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything
