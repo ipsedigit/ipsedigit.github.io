@@ -866,3 +866,4 @@ https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-expl
 https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/
 https://www.infoq.com/news/2026/05/google-cross-engine-iceberg/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://huggingface.co/blog/cybersecurity-openness
+https://simonwillison.net/2026/May/24/datasette/#atom-everything
