@@ -862,3 +862,7 @@ https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnera
 https://dev.to/ujja/from-govhack-win-to-something-that-actually-matters-2mmi
 https://lucumr.pocoo.org/2026/5/24/pi-oss/
 https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything
+https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
+https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/
+https://www.infoq.com/news/2026/05/google-cross-engine-iceberg/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://huggingface.co/blog/cybersecurity-openness

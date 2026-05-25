@@ -366,3 +366,7 @@
 2026-05-24:security:appsec:breaking
 2026-05-24:security:security:breaking
 2026-05-24:software-engineering:architecture:breaking
+2026-05-25:security:appsec:breaking
+2026-05-25:security:vulnerability:breaking
+2026-05-25:cloud:gcp-azure:breaking
+2026-05-25:ai:ai:deep
