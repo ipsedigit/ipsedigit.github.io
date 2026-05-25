@@ -870,3 +870,4 @@ https://simonwillison.net/2026/May/24/datasette/#atom-everything
 https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything
 https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything
 http://antirez.com/news/167
+https://www.infoq.com/news/2026/05/microsoft-mdash/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
