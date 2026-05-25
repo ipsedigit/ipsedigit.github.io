@@ -869,3 +869,4 @@ https://huggingface.co/blog/cybersecurity-openness
 https://simonwillison.net/2026/May/24/datasette/#atom-everything
 https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything
 https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything
+http://antirez.com/news/167
