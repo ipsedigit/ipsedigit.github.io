@@ -877,3 +877,4 @@ https://www.infoq.com/news/2026/05/google-genkit-middleware/?utm_campaign=infoq_
 https://thenewstack.io/gemini-spark-vs-openclaw/
 https://www.troyhunt.com/welcoming-the-bhutanese-government-to-have-i-been-pwned/
 https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything
+https://lucumr.pocoo.org/2026/5/26/clankers/
