@@ -876,3 +876,4 @@ https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html
 https://www.infoq.com/news/2026/05/google-genkit-middleware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://thenewstack.io/gemini-spark-vs-openclaw/
 https://www.troyhunt.com/welcoming-the-bhutanese-government-to-have-i-been-pwned/
+https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything
