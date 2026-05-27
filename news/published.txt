@@ -889,3 +889,4 @@ https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything
 https://simonwillison.net/2026/May/26/the-pressure/#atom-everything
 https://www.darkreading.com/threat-intelligence/ai-assisted-exploit-development-scanner-detection
 https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything
+https://simonwillison.net/2026/May/26/paul-graham/#atom-everything
