@@ -880,3 +880,6 @@ https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything
 https://lucumr.pocoo.org/2026/5/26/clankers/
 https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything
 https://world.hey.com/dhh/basecamp-five-8fcfd2ef
+https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html
+https://www.docker.com/blog/meet-gordon-dockers-ai-agent-for-your-entire-container-workflow/
+https://thenewstack.io/agentic-development-cycle-framework/
