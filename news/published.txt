@@ -883,3 +883,4 @@ https://world.hey.com/dhh/basecamp-five-8fcfd2ef
 https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html
 https://www.docker.com/blog/meet-gordon-dockers-ai-agent-for-your-entire-container-workflow/
 https://thenewstack.io/agentic-development-cycle-framework/
+https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything
