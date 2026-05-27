@@ -886,3 +886,4 @@ https://thenewstack.io/agentic-development-cycle-framework/
 https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything
 https://www.computerenhance.com/p/q-and-a-85-2026-05-26
 https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything
+https://simonwillison.net/2026/May/26/the-pressure/#atom-everything
