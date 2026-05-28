@@ -895,3 +895,4 @@ https://www.docker.com/blog/docker-ai-governance-unlock-agent-autonomy-safely/
 https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything
 https://www.docker.com/blog/blog-generate-images-locally-dmr-open-webui/
 https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything
+https://xeiaso.net/blog/2026/dancing-mad-sandboxing/
