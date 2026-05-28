@@ -893,3 +893,4 @@ https://simonwillison.net/2026/May/26/paul-graham/#atom-everything
 https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html
 https://www.docker.com/blog/docker-ai-governance-unlock-agent-autonomy-safely/
 https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything
+https://www.docker.com/blog/blog-generate-images-locally-dmr-open-webui/
