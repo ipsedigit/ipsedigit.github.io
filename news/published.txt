@@ -904,3 +904,4 @@ https://blog.cloudflare.com/our-unified-data-platform/
 https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/
 https://simonwillison.net/2026/May/29/anthropic/#atom-everything
 https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything
+https://dev.to/eidas-pro/introducing-openeudi-an-open-source-sdk-for-eu-digital-identity-verification-1eae
