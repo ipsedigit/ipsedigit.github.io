@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T21:28:30.785833+00:00",
+  "generated_at": "2026-05-29T22:54:03.382773+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to Movistar Mexico",
       "incident_url": "https://stspg.io/dsxtggd9k18m",
-      "updated_at": "2026-05-29T14:10:35.279-07:00"
+      "updated_at": "2026-05-29T15:52:28.710-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "operational",
-      "description": "Azure - West US 2 (Washington): INC0157956",
-      "incident_url": "https://stspg.io/g6202hxjjngz",
-      "updated_at": "2026-05-29T12:40:44.487Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dsxtggd9k18m\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Phone Numbers to Movistar Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jscrk4wg0qn1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Upstream Azure Outage Causing Service Degradation</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-29 21:28 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dsxtggd9k18m\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Phone Numbers to Movistar Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jscrk4wg0qn1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Upstream Azure Outage Causing Service Degradation</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-29 22:54 UTC</p>",
   "community": []
 }
