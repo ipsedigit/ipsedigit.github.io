@@ -902,3 +902,4 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-f
 https://hackernoon.com/5-28-2026-newsletter?source=rss
 https://blog.cloudflare.com/our-unified-data-platform/
 https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/
+https://simonwillison.net/2026/May/29/anthropic/#atom-everything
