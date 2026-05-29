@@ -901,3 +901,4 @@ https://thehackernews.com/2026/05/threat-actors-exploit-critical.html
 https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/
 https://hackernoon.com/5-28-2026-newsletter?source=rss
 https://blog.cloudflare.com/our-unified-data-platform/
+https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/
