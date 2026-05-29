@@ -897,3 +897,7 @@ https://www.docker.com/blog/blog-generate-images-locally-dmr-open-webui/
 https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything
 https://xeiaso.net/blog/2026/dancing-mad-sandboxing/
 https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/
+https://thehackernews.com/2026/05/threat-actors-exploit-critical.html
+https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/
+https://hackernoon.com/5-28-2026-newsletter?source=rss
+https://blog.cloudflare.com/our-unified-data-platform/
