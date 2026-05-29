@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-28T23:05:06.081859+00:00",
+  "generated_at": "2026-05-29T01:27:57.248854+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
       "incident_url": "https://stspg.io/bvv9dk8l438n",
-      "updated_at": "2026-05-28T04:39:04.976-07:00"
+      "updated_at": "2026-05-28T18:13:50.664-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures Between a Subset of Twilio Short Codes and Multiple Networks in France",
+      "description": "SMS Delivery Failures Between Twilio and Multiple Networks in France",
       "incident_url": "https://stspg.io/s9zhfpz3vnyr",
-      "updated_at": "2026-05-28T15:54:25.322-07:00"
+      "updated_at": "2026-05-28T17:47:58.901-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -192,10 +192,10 @@
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "degraded",
-      "description": "Metrics may fail to send to DataDog Gov integrations",
-      "incident_url": "https://stspg.io/d723sr8ykdyn",
-      "updated_at": "2026-05-28T22:02:24.922Z"
+      "status": "operational",
+      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
+      "incident_url": "https://stspg.io/mg7m971rdhw8",
+      "updated_at": "2026-05-06T16:02:29.650Z"
     },
     {
       "name": "Snowflake",
@@ -222,7 +222,7 @@
       "status": "operational",
       "description": "Business plan subscription checkout issues on web and mobile web",
       "incident_url": "",
-      "updated_at": "2026-05-28T20:46:17Z"
+      "updated_at": "2026-05-29T00:09:26Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3x0nwy34p1vq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Pages upload failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s9zhfpz3vnyr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures Between a Subset of Twilio Short Codes and Multiple Networks in France</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d723sr8ykdyn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Metrics may fail to send to DataDog Gov integrations</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-28 23:05 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3x0nwy34p1vq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Pages upload failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s9zhfpz3vnyr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures Between Twilio and Multiple Networks in France</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-29 01:27 UTC</p>",
   "community": []
 }
