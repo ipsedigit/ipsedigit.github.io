@@ -908,3 +908,6 @@ https://dev.to/eidas-pro/introducing-openeudi-an-open-source-sdk-for-eu-digital-
 https://simonwillison.net/2026/May/29/datasette/#atom-everything
 https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything
 https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything
+https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
+https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/
+https://thenewstack.io/kubernetes-rightsizing-trust-gap/
