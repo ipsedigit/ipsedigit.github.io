@@ -913,3 +913,4 @@ https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hacke
 https://thenewstack.io/kubernetes-rightsizing-trust-gap/
 https://www.computerenhance.com/p/how-to-use-uopsinfo
 https://dev.to/elen_simonian_ed86f624985/how-to-test-if-your-proxy-is-leaking-dns-2026-setup-guide-1joa
+http://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html
