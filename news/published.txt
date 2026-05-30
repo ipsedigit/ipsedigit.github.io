@@ -911,3 +911,4 @@ https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything
 https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
 https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/
 https://thenewstack.io/kubernetes-rightsizing-trust-gap/
+https://www.computerenhance.com/p/how-to-use-uopsinfo
