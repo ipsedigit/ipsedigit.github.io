@@ -921,3 +921,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-a-trend-of-trying-to-cut
 https://seangoedecke.com/build-agents-not-pipelines/
 https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/
 https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything
+https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything
