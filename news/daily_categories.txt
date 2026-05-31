@@ -391,3 +391,6 @@
 2026-05-30:security:vulnerability:breaking
 2026-05-30:ai:ai:breaking
 2026-05-30:devtools:languages:breaking
+2026-05-31:security:vulnerability:breaking
+2026-05-31:cloud:serverless:breaking
+2026-05-31:ai:ai:deep
