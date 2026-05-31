@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T14:52:35.911248+00:00",
+  "generated_at": "2026-05-31T16:16:43.506225+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Durable Objects and Log Explorer issues",
-      "incident_url": "https://stspg.io/zd5f5glykvwn",
-      "updated_at": "2026-05-31T07:30:36.305Z"
+      "description": "Custom Hostname API issue",
+      "incident_url": "https://stspg.io/9plt3fr754p0",
+      "updated_at": "2026-05-31T01:10:41.955Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Receipt Delays from Twilio Phone Numbers to Algar Telecom Brazil",
-      "incident_url": "https://stspg.io/6wfbrwkv6wds",
-      "updated_at": "2026-05-31T07:23:59.842-07:00"
+      "description": "SMS Delivery Delays from Twilio to Chunghwa and FarEasTone Taiwan",
+      "incident_url": "https://stspg.io/gvdhkgz2pvs0",
+      "updated_at": "2026-05-31T09:08:08.583-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zd5f5glykvwn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Durable Objects and Log Explorer issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6wfbrwkv6wds\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from Twilio Phone Numbers to Algar Telecom Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jscrk4wg0qn1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Upstream Azure Outage Causing Service Degradation</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-31 14:52 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/snmncm6rp7jn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues affecting URL Traffic and URL Responses reports</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9plt3fr754p0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Custom Hostname API issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gvdhkgz2pvs0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Chunghwa and FarEasTone Taiwan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jscrk4wg0qn1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Upstream Azure Outage Causing Service Degradation</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-05-31 16:16 UTC</p>",
   "community": []
 }
