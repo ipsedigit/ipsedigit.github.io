@@ -918,3 +918,4 @@ https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything
 https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/
 https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox
 https://newsletter.pragmaticengineer.com/p/the-pulse-a-trend-of-trying-to-cut
+https://seangoedecke.com/build-agents-not-pipelines/
