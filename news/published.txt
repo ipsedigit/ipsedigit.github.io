@@ -919,3 +919,4 @@ https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-
 https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox
 https://newsletter.pragmaticengineer.com/p/the-pulse-a-trend-of-trying-to-cut
 https://seangoedecke.com/build-agents-not-pipelines/
+https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/
