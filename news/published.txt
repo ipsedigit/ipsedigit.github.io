@@ -925,3 +925,5 @@ https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything
 https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything
 https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything
 https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything
+https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/
+https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/
