@@ -930,3 +930,4 @@ https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opens
 https://www.troyhunt.com/weekly-update-506/
 https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html
 https://devops.com/claude-code-security-catches-vulnerabilities-while-you-write-code/
+https://seangoedecke.com/weird-projects-i-shipped-with-ai/
