@@ -931,3 +931,4 @@ https://www.troyhunt.com/weekly-update-506/
 https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html
 https://devops.com/claude-code-security-catches-vulnerabilities-while-you-write-code/
 https://seangoedecke.com/weird-projects-i-shipped-with-ai/
+https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
