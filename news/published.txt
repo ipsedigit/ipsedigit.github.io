@@ -927,3 +927,4 @@ https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-sub
 https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything
 https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/
 https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/
+https://www.troyhunt.com/weekly-update-506/
