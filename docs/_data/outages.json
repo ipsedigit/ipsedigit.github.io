@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-01T10:26:40.273549+00:00",
+  "generated_at": "2026-06-01T16:22:02.019930+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 22,
+    "degraded": 2,
     "outage": 1,
     "unknown": 1
   },
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Custom Hostname API issue",
       "incident_url": "https://stspg.io/9plt3fr754p0",
-      "updated_at": "2026-06-01T00:47:53.756Z"
+      "updated_at": "2026-06-01T16:10:03.437Z"
     },
     {
       "name": "CircleCI",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Delays with Code Scanning and Billing",
+      "incident_url": "https://stspg.io/ct11xsjs29k7",
+      "updated_at": "2026-06-01T15:43:07.505Z"
     },
     {
       "name": "Netlify",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
-      "incident_url": "https://stspg.io/bvv9dk8l438n",
-      "updated_at": "2026-05-31T19:44:37.621-07:00"
+      "status": "operational",
+      "description": "Intermittent Service Degradation Affecting submitting inquiries through our Contact Sales pages",
+      "incident_url": "https://stspg.io/5sxwvg5h1f8h",
+      "updated_at": "2026-06-01T08:50:45.359-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from Twilio Phone Numbers to MEGACOM Kyrgyzstan",
-      "incident_url": "https://stspg.io/bhh9bmrhsxtg",
-      "updated_at": "2026-06-01T02:04:14.217-07:00"
+      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States",
+      "incident_url": "https://stspg.io/3l5qc2l0g4bz",
+      "updated_at": "2026-06-01T09:04:56.577-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9plt3fr754p0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Custom Hostname API issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bvv9dk8l438n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bhh9bmrhsxtg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Phone Numbers to MEGACOM Kyrgyzstan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-01 10:26 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9plt3fr754p0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Custom Hostname API issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3l5qc2l0g4bz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-01 16:22 UTC</p>",
   "community": []
 }
