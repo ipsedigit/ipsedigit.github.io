@@ -934,3 +934,4 @@ https://seangoedecke.com/weird-projects-i-shipped-with-ai/
 https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
 https://www.computerenhance.com/p/the-first-entity-component-system
 https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything
+https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-redhat-javascript-clients/
