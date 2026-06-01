@@ -929,3 +929,4 @@ https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-o
 https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/
 https://www.troyhunt.com/weekly-update-506/
 https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html
+https://devops.com/claude-code-security-catches-vulnerabilities-while-you-write-code/
