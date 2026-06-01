@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T16:22:02.019930+00:00",
+  "generated_at": "2026-06-01T20:44:10.840132+00:00",
   "summary": {
     "total": 26,
     "operational": 22,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Custom Hostname API issue",
-      "incident_url": "https://stspg.io/9plt3fr754p0",
-      "updated_at": "2026-06-01T16:10:03.437Z"
+      "description": "Cloudflare Dashboard and Cloudflare API service issues",
+      "incident_url": "https://stspg.io/tclgwv14xh3n",
+      "updated_at": "2026-06-01T17:48:32.447Z"
     },
     {
       "name": "CircleCI",
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Delays with Code Scanning and Billing",
       "incident_url": "https://stspg.io/ct11xsjs29k7",
-      "updated_at": "2026-06-01T15:43:07.505Z"
+      "updated_at": "2026-06-01T19:27:00.644Z"
     },
     {
       "name": "Netlify",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "operational",
-      "description": "Intermittent Service Degradation Affecting submitting inquiries through our Contact Sales pages",
-      "incident_url": "https://stspg.io/5sxwvg5h1f8h",
-      "updated_at": "2026-06-01T08:50:45.359-07:00"
+      "description": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
+      "incident_url": "https://stspg.io/bvv9dk8l438n",
+      "updated_at": "2026-06-01T07:04:56.380-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States",
-      "incident_url": "https://stspg.io/3l5qc2l0g4bz",
-      "updated_at": "2026-06-01T09:04:56.577-07:00"
+      "description": "Flex Ai Copilot Errors While Creating Channel Notes",
+      "incident_url": "https://stspg.io/fw5xps8chhjs",
+      "updated_at": "2026-06-01T13:33:02.441-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
       "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-05-18T16:33:21.507Z"
+      "updated_at": "2026-06-01T17:13:13.156Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9plt3fr754p0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Custom Hostname API issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3l5qc2l0g4bz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-01 16:22 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tclgwv14xh3n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Dashboard and Cloudflare API service issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fw5xps8chhjs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Flex Ai Copilot Errors While Creating Channel Notes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-01 20:44 UTC</p>",
   "community": []
 }
