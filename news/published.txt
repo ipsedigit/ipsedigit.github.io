@@ -943,3 +943,4 @@ https://world.hey.com/dhh/let-the-agents-democratize-open-source-9fd630a9
 https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything
 https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense
 https://drewdevault.com/blog/Vim-Classic-8.3.0/
+https://simonwillison.net/2026/May/31/datasette/#atom-everything
