@@ -941,3 +941,4 @@ https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/?utm_campaig
 https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything
 https://world.hey.com/dhh/let-the-agents-democratize-open-source-9fd630a9
 https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything
+https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense
