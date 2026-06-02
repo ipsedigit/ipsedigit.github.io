@@ -935,3 +935,6 @@ https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-th
 https://www.computerenhance.com/p/the-first-entity-component-system
 https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything
 https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-redhat-javascript-clients/
+https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html
+https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
+https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
