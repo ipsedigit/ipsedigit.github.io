@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-02T09:18:27.840709+00:00",
+  "generated_at": "2026-06-02T12:56:49.593052+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -57,10 +57,10 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "operational",
+      "description": "Errors on Cloud Docker Pulls",
+      "incident_url": "https://stspg.io/4yrvgyvkfqpy",
+      "updated_at": "2026-06-02T12:52:06.986Z"
     },
     {
       "name": "GitHub",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Belgium to a Subset of Twilio Long Codes",
-      "incident_url": "https://stspg.io/q9zbkpbq9l80",
-      "updated_at": "2026-06-02T02:08:17.567-07:00"
+      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States",
+      "incident_url": "https://stspg.io/3l5qc2l0g4bz",
+      "updated_at": "2026-06-02T05:36:56.767-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,19 +210,19 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors across multiple models",
-      "incident_url": "https://stspg.io/j1r06qml3bvy",
-      "updated_at": "2026-06-02T06:55:07.664Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Guest users are experiencing elevated error rate when using ChatGPT conversations.",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-06-02T12:47:34Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vyj68m0m66h4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers with traffic using China Network may see an increased in Challenge failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q9zbkpbq9l80\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Belgium to a Subset of Twilio Long Codes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j1r06qml3bvy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors across multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-02 09:18 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vyj68m0m66h4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers with traffic using China Network may see an increased in Challenge failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3l5qc2l0g4bz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-02 12:56 UTC</p>",
   "community": []
 }
