@@ -940,3 +940,4 @@ https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
 https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything
 https://world.hey.com/dhh/let-the-agents-democratize-open-source-9fd630a9
+https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything
