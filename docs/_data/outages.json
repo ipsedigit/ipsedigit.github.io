@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T00:18:36.262277+00:00",
+  "generated_at": "2026-06-02T05:12:07.785247+00:00",
   "summary": {
     "total": 26,
     "operational": 22,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Cloudflare Dashboard and Cloudflare API service issues",
-      "incident_url": "https://stspg.io/tclgwv14xh3n",
-      "updated_at": "2026-06-01T21:30:34.090Z"
+      "description": "Customers with traffic using China Network may see an increased in Challenge failures",
+      "incident_url": "https://stspg.io/vyj68m0m66h4",
+      "updated_at": "2026-06-02T04:52:44.846Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Flex Ai Copilot Errors While Creating Channel Notes",
-      "incident_url": "https://stspg.io/fw5xps8chhjs",
-      "updated_at": "2026-06-01T16:39:13.957-07:00"
+      "description": "SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States",
+      "incident_url": "https://stspg.io/8j5x8d31gfhv",
+      "updated_at": "2026-06-01T21:43:23.709-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tclgwv14xh3n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Dashboard and Cloudflare API service issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fw5xps8chhjs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Flex Ai Copilot Errors While Creating Channel Notes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-02 00:18 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vyj68m0m66h4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers with traffic using China Network may see an increased in Challenge failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8j5x8d31gfhv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-02 05:12 UTC</p>",
   "community": []
 }
