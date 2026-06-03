@@ -949,3 +949,4 @@ https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html
 https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html
 https://www.troyhunt.com/welcoming-the-philippine-government-to-have-i-been-pwned/
 https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything
+https://world.hey.com/dhh/a-pond-of-interesting-problems-5f697567
