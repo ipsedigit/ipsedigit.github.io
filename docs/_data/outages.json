@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-03T12:02:45.396497+00:00",
+  "generated_at": "2026-06-03T17:19:05.636001+00:00",
   "summary": {
     "total": 26,
-    "operational": 22,
-    "degraded": 2,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Increased 5XX error rate on Browser rendering",
-      "incident_url": "https://stspg.io/ymlqvm69v85z",
-      "updated_at": "2026-06-03T11:27:18.747Z"
+      "description": "Network Performance Issues in TLV",
+      "incident_url": "https://stspg.io/cgl0k8kd3117",
+      "updated_at": "2026-06-03T16:44:25.574Z"
     },
     {
       "name": "CircleCI",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Administrators may experience errors in member management.",
+      "incident_url": "https://slack-status.com/2026-06/898527c2a0f5c9be",
+      "updated_at": "2026-06-03T10:12:03-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs to Vodacom Tanzania",
-      "incident_url": "https://stspg.io/6xgqbd67z4r9",
-      "updated_at": "2026-06-03T04:39:02.380-07:00"
+      "description": "National Phone Numbers Outside of the US Blocked in 1Console",
+      "incident_url": "https://stspg.io/x3rxwb8fyzzn",
+      "updated_at": "2026-06-03T09:39:02.447-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -192,10 +192,10 @@
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
+      "status": "degraded",
       "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
       "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-05-06T16:02:29.650Z"
+      "updated_at": "2026-06-03T15:46:56.709Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ymlqvm69v85z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased 5XX error rate on Browser rendering</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6xgqbd67z4r9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs to Vodacom Tanzania</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-03 12:02 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cgl0k8kd3117\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in TLV</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/898527c2a0f5c9be\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Administrators may experience errors in member management.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x3rxwb8fyzzn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">National Phone Numbers Outside of the US Blocked in 1Console</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-03 17:19 UTC</p>",
   "community": []
 }
