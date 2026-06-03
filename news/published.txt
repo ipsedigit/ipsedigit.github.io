@@ -947,3 +947,4 @@ https://simonwillison.net/2026/May/31/datasette/#atom-everything
 https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html
 https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html
 https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html
+https://www.troyhunt.com/welcoming-the-philippine-government-to-have-i-been-pwned/
