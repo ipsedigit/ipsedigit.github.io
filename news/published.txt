@@ -952,3 +952,4 @@ https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything
 https://world.hey.com/dhh/a-pond-of-interesting-problems-5f697567
 https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything
 https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top
+https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything
