@@ -964,3 +964,4 @@ https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything
 https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything
 https://thenewstack.io/securing-kubernetes-ai-agents/
 https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything
+https://xeiaso.net/notes/2026/ipv6-zones-go-url/
