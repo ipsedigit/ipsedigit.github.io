@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T16:38:17.094566+00:00",
+  "generated_at": "2026-06-04T19:07:28.618552+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Copilot Code Review Failing",
+      "incident_url": "https://stspg.io/jssh5k7mdbtp",
+      "updated_at": "2026-06-04T19:07:25.878Z"
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from Twilio Phone Numbers to TeleTalk Bangladesh",
-      "incident_url": "https://stspg.io/28bmz7wgtgv9",
-      "updated_at": "2026-06-04T09:28:35.109-07:00"
+      "description": "SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to T-Mobile Netherlands",
+      "incident_url": "https://stspg.io/vbkn128bznp7",
+      "updated_at": "2026-06-04T11:19:17.877-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,9 +193,9 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "degraded",
-      "description": "Increased error rate creating and managing Search and Vector Search indexes",
-      "incident_url": "https://stspg.io/k90l4z1tq518",
-      "updated_at": "2026-06-04T15:33:24.145Z"
+      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
+      "incident_url": "https://stspg.io/mg7m971rdhw8",
+      "updated_at": "2026-06-03T15:46:56.709Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/28bmz7wgtgv9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Phone Numbers to TeleTalk Bangladesh</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/k90l4z1tq518\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased error rate creating and managing Search and Vector Search indexes</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-04 16:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vbkn128bznp7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to T-Mobile Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-04 19:07 UTC</p>",
   "community": []
 }
