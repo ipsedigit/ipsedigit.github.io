@@ -959,3 +959,4 @@ https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
 https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/
 https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/
 https://seangoedecke.com/anti-ai-nostalgia/
+https://dev.to/aloknecessary/event-driven-architecture-the-dual-write-problem-and-how-to-solve-it-5266
