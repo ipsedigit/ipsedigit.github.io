@@ -960,3 +960,4 @@ https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat
 https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/
 https://seangoedecke.com/anti-ai-nostalgia/
 https://dev.to/aloknecessary/event-driven-architecture-the-dual-write-problem-and-how-to-solve-it-5266
+https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything
