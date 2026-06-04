@@ -955,3 +955,6 @@ https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top
 https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything
 https://thenewstack.io/secure-ot-data-movement/
 https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything
+https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
+https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/
+https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/
