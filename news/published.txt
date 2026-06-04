@@ -962,3 +962,4 @@ https://seangoedecke.com/anti-ai-nostalgia/
 https://dev.to/aloknecessary/event-driven-architecture-the-dual-write-problem-and-how-to-solve-it-5266
 https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything
 https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything
+https://thenewstack.io/securing-kubernetes-ai-agents/
