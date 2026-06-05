@@ -972,3 +972,4 @@ https://thenewstack.io/google-gemma-local-ai/
 https://www.computerenhance.com/p/will-ai-make-me-worse
 https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything
 https://www.tigrisdata.com/blog/storage-sdk-go/
+https://drewdevault.com/blog/Circus-freaks-of-FOSS/
