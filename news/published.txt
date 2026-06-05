@@ -974,3 +974,4 @@ https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything
 https://www.tigrisdata.com/blog/storage-sdk-go/
 https://drewdevault.com/blog/Circus-freaks-of-FOSS/
 https://devops.com/cloudflare-acquires-voidzero-to-advance-open-source-vite-ecosystem/
+https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything
