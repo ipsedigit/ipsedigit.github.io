@@ -417,3 +417,4 @@
 2026-06-05:security:vulnerability:breaking
 2026-06-05:cloud:kubernetes:breaking
 2026-06-05:ai:ai-research:deep
+2026-06-05:cloud:cloud:community
