@@ -965,3 +965,7 @@ https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything
 https://thenewstack.io/securing-kubernetes-ai-agents/
 https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything
 https://xeiaso.net/notes/2026/ipv6-zones-go-url/
+https://dev.to/contrite42/durable-workflows-on-postgres-what-you-dont-need-temporal-actually-buys-you-3o0f
+https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
+https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/
+https://thenewstack.io/google-gemma-local-ai/
