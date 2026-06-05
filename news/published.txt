@@ -971,3 +971,4 @@ https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/
 https://thenewstack.io/google-gemma-local-ai/
 https://www.computerenhance.com/p/will-ai-make-me-worse
 https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything
+https://www.tigrisdata.com/blog/storage-sdk-go/
