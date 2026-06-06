@@ -980,3 +980,4 @@ https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-t
 https://developers.googleblog.com/introducing-the-google-colab-cli/
 https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything
 https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything
+https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything
