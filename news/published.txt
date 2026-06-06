@@ -979,3 +979,4 @@ https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
 https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/
 https://developers.googleblog.com/introducing-the-google-colab-cli/
 https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything
+https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything
