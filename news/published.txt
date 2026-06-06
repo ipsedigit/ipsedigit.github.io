@@ -975,3 +975,6 @@ https://www.tigrisdata.com/blog/storage-sdk-go/
 https://drewdevault.com/blog/Circus-freaks-of-FOSS/
 https://devops.com/cloudflare-acquires-voidzero-to-advance-open-source-vite-ecosystem/
 https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything
+https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
+https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/
+https://developers.googleblog.com/introducing-the-google-colab-cli/
