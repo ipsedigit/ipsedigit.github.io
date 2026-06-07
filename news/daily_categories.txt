@@ -421,3 +421,7 @@
 2026-06-06:security:vulnerability:breaking
 2026-06-06:security:malware:breaking
 2026-06-06:ai:ai:breaking
+2026-06-07:security:vulnerability:breaking
+2026-06-07:security:malware:breaking
+2026-06-07:cloud:gcp-azure:breaking
+2026-06-07:ai:ai:deep
