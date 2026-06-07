@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-07T14:23:29.390469+00:00",
+  "generated_at": "2026-06-07T15:52:28.048490+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Flex Ai Copilot Errors While Creating Channel Notes",
-      "incident_url": "https://stspg.io/fw5xps8chhjs",
-      "updated_at": "2026-06-07T04:30:54.034-07:00"
+      "description": "SMS Delivery Delays and Failures from Germany to Twilio Phone Numbers",
+      "incident_url": "https://stspg.io/0d6twjctgtlf",
+      "updated_at": "2026-06-07T08:41:13.005-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Disruption in service availabilty for Free and Go users",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-06-07T15:08:38Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fw5xps8chhjs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Flex Ai Copilot Errors While Creating Channel Notes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-07 14:23 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0d6twjctgtlf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Germany to Twilio Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mg7m971rdhw8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-07 15:52 UTC</p>",
   "community": []
 }
