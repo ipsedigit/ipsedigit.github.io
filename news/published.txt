@@ -992,3 +992,4 @@ https://seangoedecke.com/doing-nothing-at-work/
 https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
 https://www.docker.com/blog/what-is-ai-governance/
 https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything
+https://dev.to/sh4rlock/soloengine-v020-release-file-change-tracking-full-architecture-upgrade-1c01
