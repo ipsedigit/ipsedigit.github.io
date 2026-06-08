@@ -989,3 +989,5 @@ https://huggingface.co/blog/agent-glossary
 http://antirez.com/news/168
 http://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html
 https://seangoedecke.com/doing-nothing-at-work/
+https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
+https://www.docker.com/blog/what-is-ai-governance/
