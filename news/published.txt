@@ -999,3 +999,4 @@ https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
 https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/
 https://devops.com/kilo-adds-benchmark-to-identify-most-efficient-ai-models-for-coding/
 https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-45447/
