@@ -1001,3 +1001,4 @@ https://devops.com/kilo-adds-benchmark-to-identify-most-efficient-ai-models-for-
 https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-45447/
 https://www.computerenhance.com/p/intuitive-random-selection-with-marc
+https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/
