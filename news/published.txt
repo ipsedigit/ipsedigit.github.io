@@ -994,3 +994,7 @@ https://www.docker.com/blog/what-is-ai-governance/
 https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything
 https://dev.to/sh4rlock/soloengine-v020-release-file-change-tracking-full-architecture-upgrade-1c01
 https://seangoedecke.com/working-with-product-managers/
+https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html
+https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
+https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/
+https://devops.com/kilo-adds-benchmark-to-identify-most-efficient-ai-models-for-coding/
