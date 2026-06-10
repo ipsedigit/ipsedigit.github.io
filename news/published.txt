@@ -1011,3 +1011,4 @@ https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everyth
 https://www.computerenhance.com/p/q-and-a-86-2026-06-10
 https://lucumr.pocoo.org/2026/6/10/gaslighting/
 https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
+https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything
