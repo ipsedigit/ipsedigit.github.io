@@ -1005,3 +1005,4 @@ https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shout
 https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
 https://thenewstack.io/anthropic-claude-mythos-fable-5/
 https://blog.cloudflare.com/realtime-threat-intel-waf-rules/
+https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything
