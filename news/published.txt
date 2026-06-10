@@ -1008,3 +1008,4 @@ https://blog.cloudflare.com/realtime-threat-intel-waf-rules/
 https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything
 https://www.troyhunt.com/weekly-update-507/
 https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything
+https://www.computerenhance.com/p/q-and-a-86-2026-06-10
