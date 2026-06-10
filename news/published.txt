@@ -1002,3 +1002,6 @@ https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-45447/
 https://www.computerenhance.com/p/intuitive-random-selection-with-marc
 https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/
+https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
+https://thenewstack.io/anthropic-claude-mythos-fable-5/
+https://blog.cloudflare.com/realtime-threat-intel-waf-rules/
