@@ -1022,3 +1022,4 @@ https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanni
 https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything
 https://dev.to/sunshey/how-to-add-electronic-signatures-to-pdfs-in-the-browser-vue-3-html5-canvas-2804
 https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything
+https://simonwillison.net/2026/Jun/11/datasette/#atom-everything
