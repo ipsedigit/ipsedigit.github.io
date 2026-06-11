@@ -1017,3 +1017,4 @@ https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
 https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/
 https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert
 https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything
+https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything
