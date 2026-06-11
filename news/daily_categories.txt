@@ -436,3 +436,7 @@
 2026-06-10:ai:llm:breaking
 2026-06-10:security:threat-intel:breaking
 2026-06-10:ai:ai:breaking
+2026-06-11:ai:llm:breaking
+2026-06-11:security:vulnerability:breaking
+2026-06-11:ai:ai:breaking
+2026-06-11:security:appsec:deep

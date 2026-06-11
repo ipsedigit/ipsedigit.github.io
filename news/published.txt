@@ -1012,3 +1012,7 @@ https://www.computerenhance.com/p/q-and-a-86-2026-06-10
 https://lucumr.pocoo.org/2026/6/10/gaslighting/
 https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
 https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything
+https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html
+https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
+https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/
+https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert
