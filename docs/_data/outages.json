@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-10T23:56:59.154165+00:00",
+  "generated_at": "2026-06-11T04:51:44.280681+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -30,10 +30,10 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "degraded",
-      "description": "UPDATE: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss.",
-      "incident_url": "https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr",
-      "updated_at": "2026-06-10T22:25:38+00:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Akamai",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Image Resizing on R2 issues",
-      "incident_url": "https://stspg.io/d6hk2kkgq333",
-      "updated_at": "2026-06-10T23:46:03.241Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -159,7 +159,7 @@
       "status": "degraded",
       "description": "Trouble with Gmail add-on Integration",
       "incident_url": "https://slack-status.com/2026-06/8e2c9f5e6f18c289",
-      "updated_at": "2026-06-10T16:39:55-07:00"
+      "updated_at": "2026-06-10T17:18:54-07:00"
     },
     {
       "name": "Zoom",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Failures from Twilio Long Codes to Orange Polska Poland",
       "incident_url": "https://stspg.io/b1m99ysp83rr",
-      "updated_at": "2026-06-10T16:44:24.847-07:00"
+      "updated_at": "2026-06-10T20:50:56.719-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d6hk2kkgq333\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Image Resizing on R2 issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/8e2c9f5e6f18c289\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble with Gmail add-on Integration</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b1m99ysp83rr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Long Codes to Orange Polska Poland</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-10 23:56 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/8e2c9f5e6f18c289\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble with Gmail add-on Integration</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b1m99ysp83rr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Long Codes to Orange Polska Poland</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-11 04:51 UTC</p>",
   "community": []
 }
