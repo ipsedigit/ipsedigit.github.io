@@ -1018,3 +1018,4 @@ https://www.bleepingcomputer.com/news/security/github-announces-npm-security-cha
 https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert
 https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything
 https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything
+https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/
