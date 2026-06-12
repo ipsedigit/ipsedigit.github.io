@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-12T08:48:14.851620+00:00",
+  "generated_at": "2026-06-12T12:23:51.195511+00:00",
   "summary": {
     "total": 26,
-    "operational": 22,
-    "degraded": 2,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Billing Invoice UI issue",
-      "incident_url": "https://stspg.io/ypqxdy3ckj7n",
-      "updated_at": "2026-06-12T03:20:40.980Z"
+      "description": "Waiting Room analytics showing a drop in number of active users",
+      "incident_url": "https://stspg.io/pslwkns9fgg2",
+      "updated_at": "2026-06-12T11:14:24.586Z"
     },
     {
       "name": "CircleCI",
@@ -102,10 +102,10 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "intermittent Publish Failures",
+      "incident_url": "https://stspg.io/nfrqyp1lqxm1",
+      "updated_at": "2026-06-12T12:08:45.292Z"
     },
     {
       "name": "Datadog",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio Phone Numbers to Tigo Paraguay",
-      "incident_url": "https://stspg.io/gyy1mrwtk4lh",
-      "updated_at": "2026-06-12T01:43:51.833-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio Phone Numbers to Claro Chile",
+      "incident_url": "https://stspg.io/sp0kxjthshsz",
+      "updated_at": "2026-06-12T04:35:02.878-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ypqxdy3ckj7n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Billing Invoice UI issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gyy1mrwtk4lh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to Tigo Paraguay</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-12 08:48 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pslwkns9fgg2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Waiting Room analytics showing a drop in number of active users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nfrqyp1lqxm1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">intermittent Publish Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sp0kxjthshsz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Phone Numbers to Claro Chile</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-12 12:23 UTC</p>",
   "community": []
 }
