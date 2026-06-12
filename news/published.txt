@@ -1031,3 +1031,4 @@ https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-ever
 https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html
 https://simonwillison.net/2026/Jun/9/llm/#atom-everything
 https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything
+https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything
