@@ -1033,3 +1033,4 @@ https://simonwillison.net/2026/Jun/9/llm/#atom-everything
 https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything
 https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything
 https://blog.cloudflare.com/frontier-model-defense/
+https://xeiaso.net/notes/2026/why-llm-cached-token-cheaper/
