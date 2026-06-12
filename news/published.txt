@@ -1029,3 +1029,4 @@ https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
 https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html
 https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything
 https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html
+https://simonwillison.net/2026/Jun/9/llm/#atom-everything
