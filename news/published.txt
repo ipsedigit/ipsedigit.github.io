@@ -1024,3 +1024,6 @@ https://dev.to/sunshey/how-to-add-electronic-signatures-to-pdfs-in-the-browser-v
 https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything
 https://simonwillison.net/2026/Jun/11/datasette/#atom-everything
 https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything
+https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
+https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
+https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html
