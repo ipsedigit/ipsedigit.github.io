@@ -1038,3 +1038,4 @@ https://dev.to/matt_rose_9d0fe88d3533a4f/the-catch-and-release-pattern-handling-
 https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html
 https://thenewstack.io/agentic-ai-cloud-sovereignty/
 https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything
+https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything
