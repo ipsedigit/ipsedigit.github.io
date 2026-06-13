@@ -1034,3 +1034,6 @@ https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything
 https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything
 https://blog.cloudflare.com/frontier-model-defense/
 https://xeiaso.net/notes/2026/why-llm-cached-token-cheaper/
+https://dev.to/matt_rose_9d0fe88d3533a4f/the-catch-and-release-pattern-handling-high-volume-webhooks-in-nodejs-17d2
+https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html
+https://thenewstack.io/agentic-ai-cloud-sovereignty/
