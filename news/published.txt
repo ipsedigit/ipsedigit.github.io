@@ -1041,3 +1041,6 @@ https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything
 https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything
 https://lucumr.pocoo.org/2026/6/13/americans-only/
 http://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html
+https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html
+https://devops.com/why-your-observability-stack-is-costing-you-more-than-your-cloud-bill/
+https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html
