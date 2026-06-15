@@ -1054,3 +1054,4 @@ https://seangoedecke.com/ai-gpus-live-longer-than-three-years/
 https://www.infoq.com/news/2026/06/claude-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
 https://www.troyhunt.com/weekly-update-508/
+https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
