@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-15T16:27:37.408188+00:00",
+  "generated_at": "2026-06-15T20:03:48.223982+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 6,
+    "operational": 18,
+    "degraded": 5,
     "outage": 2,
     "unknown": 1
   },
@@ -12,10 +12,10 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service is operating normally: [RESOLVED] Fable 5 and Mythos 5 Access",
+      "incident_url": "https://status.aws.amazon.com/",
+      "updated_at": "Mon, 15 Jun 2026 11:13:23 PDT"
     },
     {
       "name": "Azure",
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,16 +66,16 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Increased latency with webhooks",
-      "incident_url": "https://stspg.io/4py2y12w7qpl",
-      "updated_at": "2026-06-15T15:37:36.662Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation Affecting Zoom Meeting Recordings",
-      "incident_url": "https://stspg.io/vqz4rq7xtqb2",
-      "updated_at": "2026-06-15T09:07:24.788-07:00"
+      "description": "Incorrect offline status display for Zoom Rooms Scheduling Displays",
+      "incident_url": "https://stspg.io/ysfrxy4q72gt",
+      "updated_at": "2026-06-15T12:11:36.584-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "User Authentication Identity Gateway API Failure Increase in Canada",
-      "incident_url": "https://stspg.io/c703lx5xt0rk",
-      "updated_at": "2026-06-15T09:19:53.698-07:00"
+      "description": "SMS Delivery Failures from a Subset of Twilio Alphanumeric and Long Codes to Multiple Networks in Mexico",
+      "incident_url": "https://stspg.io/mfbmznx6k68f",
+      "updated_at": "2026-06-15T12:53:18.093-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
       "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-06-01T17:13:13.156Z"
+      "updated_at": "2026-06-15T19:27:36.306Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -204,7 +204,7 @@
       "status": "outage",
       "description": "INC20000034",
       "incident_url": "https://stspg.io/gwrlz878599s",
-      "updated_at": "2026-06-15T16:19:28.536Z"
+      "updated_at": "2026-06-15T19:22:32.689Z"
     },
     {
       "name": "Anthropic",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "OAuth Account Creation / Login Error",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-06-15T18:37:55Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4py2y12w7qpl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased latency with webhooks</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vqz4rq7xtqb2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Meeting Recordings</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c703lx5xt0rk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity Gateway API Failure Increase in Canada</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwrlz878599s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000034</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-15 16:27 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Fable 5 and Mythos 5 Access</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ysfrxy4q72gt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect offline status display for Zoom Rooms Scheduling Displays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mfbmznx6k68f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Alphanumeric and Long Codes to Multiple Networks in Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwrlz878599s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000034</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-15 20:03 UTC</p>",
   "community": []
 }
