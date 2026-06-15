@@ -456,3 +456,4 @@
 2026-06-14:software-engineering:architecture:breaking
 2026-06-15:security:vulnerability:breaking
 2026-06-15:ai:ai:breaking
+2026-06-15:ai:llm:breaking
