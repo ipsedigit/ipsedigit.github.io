@@ -1048,3 +1048,5 @@ https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything
 https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything
 https://dev.to/shahzamandev/how-a-five-line-architecture-test-caught-a-data-leak-a-code-review-missed-52np
 https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything
+https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html
+https://hackernoon.com/6-14-2026-newsletter?source=rss
