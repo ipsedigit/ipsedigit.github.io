@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-15T22:29:42.648205+00:00",
+  "generated_at": "2026-06-16T00:14:42.085164+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 5,
+    "operational": 17,
+    "degraded": 6,
     "outage": 2,
     "unknown": 1
   },
@@ -12,28 +12,28 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "degraded",
-      "description": "Service is operating normally: [RESOLVED] Fable 5 and Mythos 5 Access",
-      "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Mon, 15 Jun 2026 11:13:23 PDT"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Azure",
       "domain": "https://azure.status.microsoft/en-us/status/feed/",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Mitigated – Customers leveraging a subset of services may experience 401 authentication errors",
+      "incident_url": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
+      "updated_at": "Tue, 16 Jun 2026 00:01:43 Z"
     },
     {
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "UPDATE: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss.",
+      "incident_url": "https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr",
+      "updated_at": "2026-06-15T23:11:38+00:00"
     },
     {
       "name": "Akamai",
@@ -168,7 +168,7 @@
       "status": "degraded",
       "description": "Incorrect offline status display for Zoom Rooms Scheduling Displays",
       "incident_url": "https://stspg.io/ysfrxy4q72gt",
-      "updated_at": "2026-06-15T12:11:36.584-07:00"
+      "updated_at": "2026-06-15T17:03:11.854-07:00"
     },
     {
       "name": "Twilio",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Delays and Failures from Twilio Phone Numbers to H3G Sweden",
       "incident_url": "https://stspg.io/74ww48wccmm0",
-      "updated_at": "2026-06-15T15:21:12.155-07:00"
+      "updated_at": "2026-06-15T16:38:36.636-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "degraded",
-      "description": "FedRAMP workspaces and API orgs have degraded performance",
+      "description": "Users may experience issue with Codex Cloud tasks",
       "incident_url": "",
-      "updated_at": "2026-06-15T22:16:11Z"
+      "updated_at": "2026-06-16T00:07:04Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Fable 5 and Mythos 5 Access</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ysfrxy4q72gt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect offline status display for Zoom Rooms Scheduling Displays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/74ww48wccmm0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Phone Numbers to H3G Sweden</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwrlz878599s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000034</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-15 22:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodncus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Mitigated – Customers leveraging a subset of services may experience 401 authentication errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ysfrxy4q72gt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect offline status display for Zoom Rooms Scheduling Displays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/74ww48wccmm0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Phone Numbers to H3G Sweden</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwrlz878599s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000034</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-16 00:14 UTC</p>",
   "community": []
 }
