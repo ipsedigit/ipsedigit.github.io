@@ -1060,3 +1060,4 @@ https://dev.to/jsmanifest/typescript-60-released-the-last-javascript-based-versi
 https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html
 https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html
 https://www.infoq.com/articles/governing-ai-cloud-guide/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything
