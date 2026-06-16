@@ -1056,3 +1056,7 @@ https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#
 https://www.troyhunt.com/weekly-update-508/
 https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
 https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything
+https://dev.to/jsmanifest/typescript-60-released-the-last-javascript-based-version-new-features-breaking-changes-and-48a0
+https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html
+https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html
+https://www.infoq.com/articles/governing-ai-cloud-guide/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global

@@ -457,3 +457,7 @@
 2026-06-15:security:vulnerability:breaking
 2026-06-15:ai:ai:breaking
 2026-06-15:ai:llm:breaking
+2026-06-16:devtools:languages:breaking
+2026-06-16:security:malware:breaking
+2026-06-16:security:vulnerability:breaking
+2026-06-16:ai:ai:deep
