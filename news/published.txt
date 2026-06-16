@@ -1063,3 +1063,4 @@ https://www.infoq.com/articles/governing-ai-cloud-guide/?utm_campaign=infoq_cont
 https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything
 https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything
 https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything
+https://www.computerenhance.com/p/will-ai-end-the-open-internet
