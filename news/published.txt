@@ -1065,3 +1065,4 @@ https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything
 https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything
 https://www.computerenhance.com/p/will-ai-end-the-open-internet
 https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything
+https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything
