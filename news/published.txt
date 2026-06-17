@@ -1069,3 +1069,4 @@ https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything
 https://vercel.com/changelog/workflow-sdk-now-supports-tanstack-start
 https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html
 https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
+https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything
