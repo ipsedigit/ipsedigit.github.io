@@ -1074,3 +1074,4 @@ https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything
 https://simonwillison.net/2026/Jun/16/datasette/#atom-everything
 https://blog.cloudflare.com/cloudflare-one-stack/
 https://world.hey.com/dhh/the-rape-of-britain-610412f8
+https://devops.com/aws-previews-release-management-capabilities-added-to-devops-agent/
