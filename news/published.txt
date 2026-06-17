@@ -1077,3 +1077,4 @@ https://world.hey.com/dhh/the-rape-of-britain-610412f8
 https://devops.com/aws-previews-release-management-capabilities-added-to-devops-agent/
 https://thenewstack.io/vercel-launches-eve-an-open-source-framework-that-treats-agents-as-directories/
 https://devops.com/spycloud-report-finds-phishing-attacks-surge-as-employee-data-is-exposed-at-86-of-fortune-100-companies/
+https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything
