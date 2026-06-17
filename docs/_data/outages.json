@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T09:54:14.143165+00:00",
+  "generated_at": "2026-06-17T13:45:53.829693+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers Observability query failures",
-      "incident_url": "https://stspg.io/ng5q7yfpy8n1",
-      "updated_at": "2026-06-17T09:42:25.598Z"
+      "description": "Customers may see incorrect invoice payment status",
+      "incident_url": "https://stspg.io/86y7mlr7gs44",
+      "updated_at": "2026-06-17T00:52:23.841Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Receipt Delays from Twilio to Bitel Peru",
-      "incident_url": "https://stspg.io/8d4j48wgskbt",
-      "updated_at": "2026-06-17T02:46:15.835-07:00"
+      "description": "User Authentication Identity SNA Missing Redirects for KPN in Netherlands",
+      "incident_url": "https://stspg.io/x9g67s1c0kkr",
+      "updated_at": "2026-06-17T06:11:42.125-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -211,9 +211,9 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "operational",
-      "description": "Elevated errors for Claude Opus 4.8",
-      "incident_url": "https://stspg.io/rd83d4611qzr",
-      "updated_at": "2026-06-17T09:37:31.628Z"
+      "description": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+      "incident_url": "https://stspg.io/kqx0j625mrgv",
+      "updated_at": "2026-06-16T20:50:02.230Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ng5q7yfpy8n1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers Observability query failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8d4j48wgskbt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from Twilio to Bitel Peru</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-17 09:54 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/86y7mlr7gs44\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers may see incorrect invoice payment status</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x9g67s1c0kkr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for KPN in Netherlands</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-17 13:45 UTC</p>",
   "community": []
 }
