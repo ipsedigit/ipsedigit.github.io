@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:48:53.044712+00:00",
+  "generated_at": "2026-06-17T04:49:05.074489+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "We are investigating an issue where customers see paid invoices as unpaid.",
+      "description": "Customers may see incorrect invoice payment status",
       "incident_url": "https://stspg.io/86y7mlr7gs44",
-      "updated_at": "2026-06-16T22:51:43.989Z"
+      "updated_at": "2026-06-17T00:52:23.841Z"
     },
     {
       "name": "CircleCI",
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States",
-      "incident_url": "https://stspg.io/8j5x8d31gfhv",
-      "updated_at": "2026-06-15T17:59:11.755-07:00"
+      "description": "MMS Delivery Failure from a Subset of Twilio Short Codes to Verizon United States",
+      "incident_url": "https://stspg.io/h7ss5gkwzqr0",
+      "updated_at": "2026-06-16T20:31:17.741-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Ingestion issues for Managed OTLP and Managed Intake Service endpoints in the Azure Australia East region",
-      "incident_url": "https://stspg.io/n1m433brpkyd",
-      "updated_at": "2026-06-16T22:54:27.680Z"
+      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
+      "incident_url": "https://stspg.io/w6dmrtc20hz7",
+      "updated_at": "2026-06-15T19:27:36.306Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "FedRAMP workspaces and API orgs have degraded performance",
       "incident_url": "",
-      "updated_at": "2026-06-15T22:16:11Z"
+      "updated_at": "2026-06-17T01:24:26Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/86y7mlr7gs44\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">We are investigating an issue where customers see paid invoices as unpaid.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8j5x8d31gfhv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Google Voice United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n1m433brpkyd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Ingestion issues for Managed OTLP and Managed Intake Service endpoints in the Azure Australia East region</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-16 23:48 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/86y7mlr7gs44\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers may see incorrect invoice payment status</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h7ss5gkwzqr0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Failure from a Subset of Twilio Short Codes to Verizon United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-17 04:49 UTC</p>",
   "community": []
 }
