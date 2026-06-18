@@ -1081,3 +1081,4 @@ https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything
 https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything
 https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/
 https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
+https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/
