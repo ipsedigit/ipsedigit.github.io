@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-18T01:44:25.791575+00:00",
+  "generated_at": "2026-06-18T06:31:37.068369+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
-    "outage": 1,
-    "unknown": 1
+    "operational": 4,
+    "degraded": 2,
+    "outage": 0,
+    "unknown": 20
   },
   "services": [
     {
@@ -30,34 +30,34 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "degraded",
-      "description": "UPDATE: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss.",
-      "incident_url": "https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr",
-      "updated_at": "2026-06-17T22:36:07+00:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "operational",
-      "description": "Edge Delivery - HTTP Content Delivery in Europe",
-      "incident_url": "https://stspg.io/b1sqg6b2c771",
-      "updated_at": "2026-06-17T09:36:18.122Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
-      "status": "degraded",
-      "description": "Snippets requests returning Worker threw exception",
-      "incident_url": "https://stspg.io/0nbs2pj08dj8",
-      "updated_at": "2026-06-18T00:46:54.630Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,7 +66,7 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -75,7 +75,7 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -84,7 +84,7 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -93,7 +93,7 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -102,7 +102,7 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -111,7 +111,7 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -120,7 +120,7 @@
       "name": "New Relic",
       "domain": "status.newrelic.com",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -129,7 +129,7 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -138,7 +138,7 @@
       "name": "Discord",
       "domain": "discordstatus.com",
       "category": "communication",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -157,51 +157,51 @@
       "domain": "status.slack.com",
       "category": "communication",
       "status": "degraded",
-      "description": "Trouble loading SSO configuration settings for some workspace admins",
-      "incident_url": "https://slack-status.com/2026-06/66c001cc76d073f8",
-      "updated_at": "2026-06-17T15:33:29-07:00"
+      "description": "Trouble submitting workflow forms with file attachments on Android.",
+      "incident_url": "https://slack-status.com/2026-06/83210c13677ffff1",
+      "updated_at": "2026-06-17T12:38:43-07:00"
     },
     {
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
-      "description": "Service Degradation Affecting Zoom Meeting Recordings",
-      "incident_url": "https://stspg.io/vqz4rq7xtqb2",
-      "updated_at": "2026-06-15T11:16:49.577-07:00"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
-      "status": "degraded",
-      "description": "Elevated Latency Affecting Knowledge Retrieval in Conversation Intelligence and Flex Copilot",
-      "incident_url": "https://stspg.io/pp8p6yz38rxx",
-      "updated_at": "2026-06-17T14:56:17.685-07:00"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
-      "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-06-15T19:27:36.306Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-06-03T15:46:56.709Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-      "incident_url": "https://stspg.io/kqx0j625mrgv",
-      "updated_at": "2026-06-16T20:50:02.230Z"
+      "status": "unknown",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -228,7 +228,7 @@
       "name": "Atlassian",
       "domain": "status.atlassian.com",
       "category": "saas",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0nbs2pj08dj8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Snippets requests returning Worker threw exception</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/66c001cc76d073f8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble loading SSO configuration settings for some workspace admins</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pp8p6yz38rxx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated Latency Affecting Knowledge Retrieval in Conversation Intelligence and Flex Copilot</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-18 01:44 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 1 active incident</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-18 06:31 UTC</p>",
   "community": []
 }
