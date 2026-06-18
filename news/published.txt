@@ -1083,3 +1083,4 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-open
 https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
 https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/
 https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything
+https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html
