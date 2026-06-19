@@ -1091,3 +1091,4 @@ https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-ba
 https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything
 https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything
 https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html
+https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27
