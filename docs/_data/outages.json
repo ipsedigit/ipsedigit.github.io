@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T13:50:26.067907+00:00",
+  "generated_at": "2026-06-19T16:34:31.172286+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Network Subscribers to a Subset of Twilio Romania Phone Numbers",
-      "incident_url": "https://stspg.io/h2m36vy1g07y",
-      "updated_at": "2026-06-19T06:46:56.941-07:00"
+      "description": "SMS Delivery Delays from Twilio Phone Numbers to Surf Telecom Brazil",
+      "incident_url": "https://stspg.io/1rzxw3t5mql8",
+      "updated_at": "2026-06-19T09:25:05.397-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/k8ffx3r3rj17\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reported Durable Objects count discrepancies</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h2m36vy1g07y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Network Subscribers to a Subset of Twilio Romania Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-19 13:50 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/k8ffx3r3rj17\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reported Durable Objects count discrepancies</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1rzxw3t5mql8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to Surf Telecom Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-19 16:34 UTC</p>",
   "community": []
 }
