@@ -1094,3 +1094,4 @@ https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html
 https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27
 https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything
 http://brooker.co.za/blog/2026/06/19/waiting.html
+https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything
