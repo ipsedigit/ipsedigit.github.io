@@ -1086,3 +1086,5 @@ https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything
 https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html
 https://dev.to/toniantunovic/one-fix-this-code-prompt-away-from-a-production-incident-2138
 https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us
+https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
+https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/
