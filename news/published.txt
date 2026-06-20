@@ -1099,3 +1099,4 @@ https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html
 https://devops.com/anthropic-hits-pause-on-claude-agent-sdk-billing-change-for-now/
 http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html
 https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything
+https://overreacted.io/there-are-no-instances-in-atproto/
