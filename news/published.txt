@@ -1095,3 +1095,5 @@ https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27
 https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything
 http://brooker.co.za/blog/2026/06/19/waiting.html
 https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything
+https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html
+https://devops.com/anthropic-hits-pause-on-claude-agent-sdk-billing-change-for-now/
