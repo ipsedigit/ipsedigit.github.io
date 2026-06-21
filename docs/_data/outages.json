@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-21T17:06:10.960939+00:00",
+  "generated_at": "2026-06-21T18:52:57.895390+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -159,16 +159,16 @@
       "status": "degraded",
       "description": "Trouble submitting workflow forms with file attachments on Android.",
       "incident_url": "https://slack-status.com/2026-06/83210c13677ffff1",
-      "updated_at": "2026-06-18T15:30:57-07:00"
+      "updated_at": "2026-06-21T10:33:48-07:00"
     },
     {
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "Service Degradation Affecting Zoom Mail, Calendar and Scheduler services in US Region.",
       "incident_url": "https://stspg.io/t4tkch9x43sn",
-      "updated_at": "2026-06-21T09:03:44.299-07:00"
+      "updated_at": "2026-06-21T10:52:58.420-07:00"
     },
     {
       "name": "Twilio",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/86y7mlr7gs44\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers may see incorrect invoice payment status</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t4tkch9x43sn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Mail, Calendar and Scheduler services in US Region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hxlx5k5fgn75\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cannot Change Phone Number Home Region in the Twilio Legacy Console</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-21 17:06 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/86y7mlr7gs44\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers may see incorrect invoice payment status</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hxlx5k5fgn75\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cannot Change Phone Number Home Region in the Twilio Legacy Console</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-21 18:52 UTC</p>",
   "community": []
 }
