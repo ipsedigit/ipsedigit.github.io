@@ -1101,3 +1101,5 @@ http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html
 https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything
 https://overreacted.io/there-are-no-instances-in-atproto/
 https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
+https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
+https://vercel.com/blog/introducing-vercel-connect
