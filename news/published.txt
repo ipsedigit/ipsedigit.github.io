@@ -1113,3 +1113,4 @@ https://dev.to/jtorchia/npm-dependencies-how-to-evaluate-a-library-before-shippi
 https://devops.com/nvidia-research-bets-on-code-not-tool-calls-to-fix-ai-spatial-reasoning/
 https://mitchellh.com/writing/zig-donation-2026
 https://www.computerenhance.com/p/lets-decode-the-mystery-bytes
+https://blog.codinghorror.com/every-choice-changes-everything-the-show/
