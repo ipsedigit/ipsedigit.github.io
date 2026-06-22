@@ -1107,3 +1107,4 @@ https://dev.to/gunxueqiu6/how-to-use-ai-coding-tools-without-leaking-source-code
 https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything
 https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html
 https://vercel.com/blog/introducing-eve
+https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything
