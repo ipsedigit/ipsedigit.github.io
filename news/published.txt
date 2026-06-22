@@ -1108,3 +1108,4 @@ https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everyt
 https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html
 https://vercel.com/blog/introducing-eve
 https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything
+https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything
