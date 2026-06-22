@@ -484,3 +484,5 @@
 2026-06-21:ai:llm:breaking
 2026-06-22:security:vulnerability:breaking
 2026-06-22:ai:llm:breaking
+2026-06-22:devtools:package-managers:breaking
+2026-06-22:ai:ai-research:deep

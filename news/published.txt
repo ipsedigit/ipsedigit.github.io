@@ -1109,3 +1109,5 @@ https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html
 https://vercel.com/blog/introducing-eve
 https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything
 https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything
+https://dev.to/jtorchia/npm-dependencies-how-to-evaluate-a-library-before-shipping-it-to-production-3bo3
+https://devops.com/nvidia-research-bets-on-code-not-tool-calls-to-fix-ai-spatial-reasoning/
