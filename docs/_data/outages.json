@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:47:04.529580+00:00",
+  "generated_at": "2026-06-22T15:57:38.249443+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Customers may see incorrect invoice payment status",
-      "incident_url": "https://stspg.io/86y7mlr7gs44",
-      "updated_at": "2026-06-20T22:40:25.311Z"
+      "description": "Increased Error Rates",
+      "incident_url": "https://stspg.io/2276w5rw3mp4",
+      "updated_at": "2026-06-22T15:40:40.023Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to Algar Telecom Brazil",
-      "incident_url": "https://stspg.io/38q5873lll6n",
-      "updated_at": "2026-06-22T03:29:59.598-07:00"
+      "description": "Incorrect Suspended Banner on Console Front Page",
+      "incident_url": "https://stspg.io/hns58mt07bng",
+      "updated_at": "2026-06-22T08:48:57.012-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -211,9 +211,9 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "operational",
-      "description": "Elevated errors for Claude Opus 4.8",
-      "incident_url": "https://stspg.io/jjzw7yp300my",
-      "updated_at": "2026-06-22T09:59:03.918Z"
+      "description": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+      "incident_url": "https://stspg.io/kqx0j625mrgv",
+      "updated_at": "2026-06-16T20:50:02.230Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/86y7mlr7gs44\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers may see incorrect invoice payment status</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/38q5873lll6n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Algar Telecom Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-22 10:47 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2276w5rw3mp4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased Error Rates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-06/83210c13677ffff1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble submitting workflow forms with file attachments on Android.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hns58mt07bng\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect Suspended Banner on Console Front Page</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-22 15:57 UTC</p>",
   "community": []
 }
