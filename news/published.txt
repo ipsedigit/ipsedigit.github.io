@@ -1119,3 +1119,4 @@ https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fak
 https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything
 https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything
 https://lucumr.pocoo.org/2026/6/23/the-coming-loop/
+https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
