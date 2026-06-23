@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-23T19:29:49.032736+00:00",
+  "generated_at": "2026-06-23T21:17:26.772249+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -57,10 +57,10 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Delays starting Docker jobs",
-      "incident_url": "https://stspg.io/dw1r4sr0mrtl",
-      "updated_at": "2026-06-23T19:04:41.688Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "SMS Delivery Delays from Twilio to MTN Nigeria",
+      "incident_url": "https://stspg.io/1m8hg6wqrlbt",
+      "updated_at": "2026-06-23T14:10:07.292-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -204,7 +204,7 @@
       "status": "degraded",
       "description": "INC20000047",
       "incident_url": "https://stspg.io/qwp5wnxhrxgr",
-      "updated_at": "2026-06-23T19:02:23.266Z"
+      "updated_at": "2026-06-23T21:15:28.047Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dw1r4sr0mrtl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays starting Docker jobs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qwp5wnxhrxgr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000047</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-23 19:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1m8hg6wqrlbt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTN Nigeria</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qwp5wnxhrxgr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000047</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-23 21:17 UTC</p>",
   "community": []
 }
