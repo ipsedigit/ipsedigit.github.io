@@ -1114,3 +1114,5 @@ https://devops.com/nvidia-research-bets-on-code-not-tool-calls-to-fix-ai-spatial
 https://mitchellh.com/writing/zig-donation-2026
 https://www.computerenhance.com/p/lets-decode-the-mystery-bytes
 https://blog.codinghorror.com/every-choice-changes-everything-the-show/
+https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
+https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/
