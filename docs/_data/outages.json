@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-23T12:38:44.541242+00:00",
+  "generated_at": "2026-06-23T15:39:25.579088+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
-    "outage": 1,
+    "operational": 19,
+    "degraded": 4,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Etisalat United Arab Emirates",
-      "incident_url": "https://stspg.io/sxrsvvdshp3y",
-      "updated_at": "2026-06-23T04:33:00.225-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Elastic Cloud",
@@ -210,19 +210,19 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-      "incident_url": "https://stspg.io/kqx0j625mrgv",
-      "updated_at": "2026-06-16T20:50:02.230Z"
+      "status": "degraded",
+      "description": "Elevated error rate across multiple models",
+      "incident_url": "https://stspg.io/kx1ygc7qfvx1",
+      "updated_at": "2026-06-23T15:28:18.364Z"
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "FedRAMP workspaces and API orgs have degraded performance",
+      "status": "outage",
+      "description": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
       "incident_url": "",
-      "updated_at": "2026-06-18T19:41:22Z"
+      "updated_at": "2026-06-23T15:11:39Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sxrsvvdshp3y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Etisalat United Arab Emirates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-23 12:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kx1ygc7qfvx1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated error rate across multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-23 15:39 UTC</p>",
   "community": []
 }
