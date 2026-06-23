@@ -1120,3 +1120,4 @@ https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-e
 https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything
 https://lucumr.pocoo.org/2026/6/23/the-coming-loop/
 https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+https://www.infoq.com/news/2026/06/aws-blocks-framework-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global

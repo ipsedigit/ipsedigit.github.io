@@ -489,3 +489,4 @@
 2026-06-23:security:vulnerability:breaking
 2026-06-23:security:malware:breaking
 2026-06-23:ai:ai:breaking
+2026-06-23:ai:ai:community
