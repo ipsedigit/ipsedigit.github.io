@@ -492,3 +492,5 @@
 2026-06-23:ai:ai:community
 2026-06-24:security:vulnerability:breaking
 2026-06-24:security:threat-intel:breaking
+2026-06-24:software-engineering:architecture:breaking
+2026-06-24:ai:ai-research:deep
