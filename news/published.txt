@@ -1124,3 +1124,4 @@ https://www.infoq.com/news/2026/06/aws-blocks-framework-preview/?utm_campaign=in
 https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything
 https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
 https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
+https://simonwillison.net/2026/Jun/23/datasette/#atom-everything
