@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T18:11:17.246149+00:00",
+  "generated_at": "2026-06-24T20:12:07.108752+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Delayed Span ingestion, Replay ingestion, and Issue creation in our US region",
+      "incident_url": "https://stspg.io/p962182mq6km",
+      "updated_at": "2026-06-24T19:53:17.076Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "User Authentication Identity SNA Failure Increase and Gateway API Failure Increase in United Kingdom",
-      "incident_url": "https://stspg.io/6g73rngtsy4t",
-      "updated_at": "2026-06-24T11:02:42.073-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio to Orange Botswana",
+      "incident_url": "https://stspg.io/5ncxlxfs3z9x",
+      "updated_at": "2026-06-24T12:07:27.796-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6g73rngtsy4t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Failure Increase and Gateway API Failure Increase in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-24 18:11 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p962182mq6km\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Span ingestion, Replay ingestion, and Issue creation in our US region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5ncxlxfs3z9x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange Botswana</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-24 20:12 UTC</p>",
   "community": []
 }
