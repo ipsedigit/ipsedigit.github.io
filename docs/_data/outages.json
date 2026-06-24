@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T16:02:38.562957+00:00",
+  "generated_at": "2026-06-24T18:11:17.246149+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
+    "operational": 21,
     "degraded": 3,
-    "outage": 2,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Issues with granular roles for Cloudflare Tunnel and Mesh",
-      "incident_url": "https://stspg.io/05pyf0430db2",
-      "updated_at": "2026-06-24T15:16:41.618Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-06-19T08:20:52.265Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "UAI SNA & Gateway API Failure Increase to EE Network in UK",
+      "description": "User Authentication Identity SNA Failure Increase and Gateway API Failure Increase in United Kingdom",
       "incident_url": "https://stspg.io/6g73rngtsy4t",
-      "updated_at": "2026-06-24T09:01:57.674-07:00"
+      "updated_at": "2026-06-24T11:02:42.073-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,10 +201,10 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "outage",
-      "description": "INC20000052",
-      "incident_url": "https://stspg.io/ztb81vssm257",
-      "updated_at": "2026-06-24T15:38:12.248Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/05pyf0430db2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with granular roles for Cloudflare Tunnel and Mesh</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6g73rngtsy4t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UAI SNA & Gateway API Failure Increase to EE Network in UK</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ztb81vssm257\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000052</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-24 16:02 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6g73rngtsy4t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Failure Increase and Gateway API Failure Increase in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-24 18:11 UTC</p>",
   "community": []
 }
