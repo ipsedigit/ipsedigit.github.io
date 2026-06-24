@@ -1126,3 +1126,4 @@ https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-202
 https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
 https://simonwillison.net/2026/Jun/23/datasette/#atom-everything
 https://www.troyhunt.com/weekly-update-509/
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-55200/
