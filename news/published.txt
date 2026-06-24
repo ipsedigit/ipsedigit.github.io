@@ -1129,3 +1129,4 @@ https://www.troyhunt.com/weekly-update-509/
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-55200/
 https://medium.com/pinterest-engineering/automated-schema-evolution-in-pinterests-next-generation-db-ingestion-framework-36c5c07070de?source=rss----4c5a5f6279b6---4
 https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html
+https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything
