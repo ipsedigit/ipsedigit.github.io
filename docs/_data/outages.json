@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T13:37:09.567655+00:00",
+  "generated_at": "2026-06-24T16:02:38.562957+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
-    "outage": 1,
+    "operational": 20,
+    "degraded": 3,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers AI experiencing degraded availability in some models",
-      "incident_url": "https://stspg.io/hp348196t57r",
-      "updated_at": "2026-06-19T08:20:52.265Z"
+      "description": "Issues with granular roles for Cloudflare Tunnel and Mesh",
+      "incident_url": "https://stspg.io/05pyf0430db2",
+      "updated_at": "2026-06-24T15:16:41.618Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to Orange Botswana",
-      "incident_url": "https://stspg.io/5ncxlxfs3z9x",
-      "updated_at": "2026-06-24T06:04:49.289-07:00"
+      "description": "UAI SNA & Gateway API Failure Increase to EE Network in UK",
+      "incident_url": "https://stspg.io/6g73rngtsy4t",
+      "updated_at": "2026-06-24T09:01:57.674-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,19 +201,19 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "outage",
+      "description": "INC20000052",
+      "incident_url": "https://stspg.io/ztb81vssm257",
+      "updated_at": "2026-06-24T15:38:12.248Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated error rate on Claude Opus 4.8",
-      "incident_url": "https://stspg.io/wnw8wdn9sfwm",
-      "updated_at": "2026-06-24T13:16:17.720Z"
+      "status": "operational",
+      "description": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+      "incident_url": "https://stspg.io/kqx0j625mrgv",
+      "updated_at": "2026-06-23T14:19:06.164Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5ncxlxfs3z9x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange Botswana</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wnw8wdn9sfwm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated error rate on Claude Opus 4.8</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-24 13:37 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/05pyf0430db2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with granular roles for Cloudflare Tunnel and Mesh</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6g73rngtsy4t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UAI SNA & Gateway API Failure Increase to EE Network in UK</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ztb81vssm257\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000052</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-24 16:02 UTC</p>",
   "community": []
 }
