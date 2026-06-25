@@ -1130,3 +1130,6 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-55200
 https://medium.com/pinterest-engineering/automated-schema-evolution-in-pinterests-next-generation-db-ingestion-framework-36c5c07070de?source=rss----4c5a5f6279b6---4
 https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html
 https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything
+https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html
+https://thenewstack.io/chainguard-java-libraries-spring-boot-cves/
+https://devops.com/microsoft-brings-the-azure-sdk-for-rust-to-general-availability/
