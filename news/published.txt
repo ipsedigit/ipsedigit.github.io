@@ -1134,3 +1134,4 @@ https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html
 https://thenewstack.io/chainguard-java-libraries-spring-boot-cves/
 https://devops.com/microsoft-brings-the-azure-sdk-for-rust-to-general-availability/
 https://www.tigrisdata.com/blog/objgit/
+https://dev.to/vulert_official/monorepo-dependency-security-vulnerability-scanning-across-packages-1eom
