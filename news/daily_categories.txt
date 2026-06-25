@@ -499,3 +499,4 @@
 2026-06-25:cloud:gcp-azure:breaking
 2026-06-25:devtools:package-managers:breaking
 2026-06-25:security:appsec:deep
+2026-06-25:ai:llm:breaking
