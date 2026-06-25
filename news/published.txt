@@ -1135,3 +1135,4 @@ https://thenewstack.io/chainguard-java-libraries-spring-boot-cves/
 https://devops.com/microsoft-brings-the-azure-sdk-for-rust-to-general-availability/
 https://www.tigrisdata.com/blog/objgit/
 https://dev.to/vulert_official/monorepo-dependency-security-vulnerability-scanning-across-packages-1eom
+https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything
