@@ -1144,3 +1144,4 @@ https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything
 https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything
 https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/
 https://dev.to/uaslimcreate/how-i-audit-any-applications-technical-architecture-a-12-point-cto-framework-144c
+https://seangoedecke.com/ai-inference-is-obviously-profitable/
