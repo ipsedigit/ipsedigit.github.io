@@ -1142,3 +1142,5 @@ https://dev.to/morinaga/notable-releases-im-watching-deno-28-modelsdev-deepseek-
 https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
 https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything
 https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything
+https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/
+https://dev.to/uaslimcreate/how-i-audit-any-applications-technical-architecture-a-12-point-cto-framework-144c

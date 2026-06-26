@@ -501,3 +501,5 @@
 2026-06-25:security:appsec:deep
 2026-06-25:ai:llm:breaking
 2026-06-26:security:vulnerability:breaking
+2026-06-26:cloud:kubernetes:breaking
+2026-06-26:software-engineering:architecture:deep
