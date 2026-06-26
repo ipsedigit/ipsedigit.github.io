@@ -1146,3 +1146,4 @@ https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/
 https://dev.to/uaslimcreate/how-i-audit-any-applications-technical-architecture-a-12-point-cto-framework-144c
 https://seangoedecke.com/ai-inference-is-obviously-profitable/
 https://dev.to/peacemediaengines/how-to-programmatically-isolate-connection-leaks-before-your-database-locks-up-4c10
+https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
