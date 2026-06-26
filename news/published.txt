@@ -1141,3 +1141,4 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-8461/
 https://dev.to/morinaga/notable-releases-im-watching-deno-28-modelsdev-deepseek-v4-pro-permanent-pricing-2g26
 https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
 https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything
+https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything
