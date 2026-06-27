@@ -1151,3 +1151,4 @@ https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything
 https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html
 https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/
 https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything
+https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything
