@@ -1159,3 +1159,4 @@ https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
 https://devops.com/how-ai-is-transforming-devops-and-cloud-engineering/
 https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/
 https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/
+http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html
