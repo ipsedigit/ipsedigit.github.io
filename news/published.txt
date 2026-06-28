@@ -1155,3 +1155,5 @@ https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything
 https://seangoedecke.com/saying-the-obvious-thing/
 https://simonwillison.net/2026/Jun/26/openai/#atom-everything
 https://dev.to/rodrigo_sidneycolquequi/applying-api-testing-frameworks-in-the-real-world-a-practical-guide-with-pytest-2pj8
+https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
+https://devops.com/how-ai-is-transforming-devops-and-cloud-engineering/
