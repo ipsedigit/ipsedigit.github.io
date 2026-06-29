@@ -1163,3 +1163,7 @@ http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html
 https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything
 https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
 https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything
+https://dev.to/imchintoo/released-a-new-version-of-jsdoc-scribe-1ghl
+https://dev.to/mgobea/hackerrank-open-sourced-its-ats-analyzing-resume-scoring-consistency-1j5d
+https://www.infoq.com/podcasts/natural-evolution-cloud-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://dev.to/arslan_ah/how-to-learn-system-design-a-roadmap-by-career-level-3e01
