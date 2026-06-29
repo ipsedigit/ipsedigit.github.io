@@ -1161,3 +1161,4 @@ https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/
 https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/
 http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html
 https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything
+https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html

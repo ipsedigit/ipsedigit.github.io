@@ -511,3 +511,4 @@
 2026-06-28:ai:llm:breaking
 2026-06-28:security:security:breaking
 2026-06-28:security:security:breaking
+2026-06-29:security:vulnerability:breaking
