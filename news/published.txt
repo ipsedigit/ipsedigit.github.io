@@ -1168,3 +1168,4 @@ https://dev.to/mgobea/hackerrank-open-sourced-its-ats-analyzing-resume-scoring-c
 https://www.infoq.com/podcasts/natural-evolution-cloud-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://dev.to/arslan_ah/how-to-learn-system-design-a-roadmap-by-career-level-3e01
 https://simonwillison.net/2026/Jun/29/ornith/#atom-everything
+https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything
