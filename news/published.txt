@@ -1176,3 +1176,4 @@ https://vercel.com/changelog/run-multiple-frameworks-in-one-project-with-vercel-
 https://vercel.com/changelog/introducing-vcr-vercel-container-registry
 https://thenewstack.io/anthropic-claude-science-workbench/
 https://newsletter.pragmaticengineer.com/p/impressions-from-visiting-openai
+https://www.troyhunt.com/weekly-update-510/
