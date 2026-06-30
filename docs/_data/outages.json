@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T22:41:20.823709+00:00",
+  "generated_at": "2026-06-30T23:52:37.422980+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
+    "operational": 21,
     "degraded": 3,
-    "outage": 2,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Performance Issues in Phoenix, AZ",
-      "incident_url": "https://stspg.io/q2jmf4rl8y8g",
-      "updated_at": "2026-06-30T19:15:02.017Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-06-19T08:20:52.265Z"
     },
     {
       "name": "CircleCI",
@@ -132,7 +132,7 @@
       "status": "operational",
       "description": "Ingestion and query issues for logs, spans, traces in US",
       "incident_url": "https://stspg.io/gnyhyysv5gvl",
-      "updated_at": "2026-06-30T21:42:42.541Z"
+      "updated_at": "2026-06-30T23:31:42.521Z"
     },
     {
       "name": "Discord",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Conversation Intelligence Is Not Processing Conversations and Will Have Delays Running Operators",
       "incident_url": "https://stspg.io/wxftty12wpz7",
-      "updated_at": "2026-06-30T14:57:59.076-07:00"
+      "updated_at": "2026-06-30T16:07:48.993-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,10 +201,10 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "outage",
-      "description": "INC20000063",
-      "incident_url": "https://stspg.io/2ntzkjjp4pr1",
-      "updated_at": "2026-06-30T22:39:52.096Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Increased Error Rates and Latencies</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q2jmf4rl8y8g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Phoenix, AZ</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wxftty12wpz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Conversation Intelligence Is Not Processing Conversations and Will Have Delays Running Operators</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2ntzkjjp4pr1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000063</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-30 22:41 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Increased Error Rates and Latencies</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wxftty12wpz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Conversation Intelligence Is Not Processing Conversations and Will Have Delays Running Operators</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-30 23:52 UTC</p>",
   "community": []
 }
