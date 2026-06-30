@@ -520,3 +520,5 @@
 2026-06-30:security:vulnerability:breaking
 2026-06-30:devtools:languages:breaking
 2026-06-30:cloud:serverless:breaking
+2026-06-30:ai:llm:breaking
+2026-06-30:ai:ai:deep

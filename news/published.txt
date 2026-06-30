@@ -1174,3 +1174,5 @@ https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-br
 https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything
 https://vercel.com/changelog/run-multiple-frameworks-in-one-project-with-vercel-services
 https://vercel.com/changelog/introducing-vcr-vercel-container-registry
+https://thenewstack.io/anthropic-claude-science-workbench/
+https://newsletter.pragmaticengineer.com/p/impressions-from-visiting-openai
