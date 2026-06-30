@@ -1173,3 +1173,4 @@ https://devops.com/attackers-exploit-simplehelp-flaw-to-steal-info-from-ai-codin
 https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
 https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything
 https://vercel.com/changelog/run-multiple-frameworks-in-one-project-with-vercel-services
+https://vercel.com/changelog/introducing-vcr-vercel-container-registry
