@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T19:07:05.404956+00:00",
+  "generated_at": "2026-06-30T21:06:10.445040+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -12,10 +12,10 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service impact: EC2 API Errors",
+      "incident_url": "https://status.aws.amazon.com/",
+      "updated_at": "Tue, 30 Jun 2026 14:02:20 PDT"
     },
     {
       "name": "Azure",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "R2 Returning 503 for Buckets in WNAM",
-      "incident_url": "https://stspg.io/sv9drbsk781d",
-      "updated_at": "2026-06-30T16:25:46.519Z"
+      "description": "Network Performance Issues in Phoenix, AZ",
+      "incident_url": "https://stspg.io/q2jmf4rl8y8g",
+      "updated_at": "2026-06-30T19:15:02.017Z"
     },
     {
       "name": "CircleCI",
@@ -111,10 +111,10 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "degraded",
-      "description": "Delayed data processing and errors in multiple products",
-      "incident_url": "https://stspg.io/5snql687z9c4",
-      "updated_at": "2026-06-30T15:06:00.052-04:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "New Relic",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to MTS Russia",
-      "incident_url": "https://stspg.io/3dlyrh6hfs3s",
-      "updated_at": "2026-06-30T10:09:16.260-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio Phone Numbers to MTN Nigeria",
+      "incident_url": "https://stspg.io/bs1wydxc8q5x",
+      "updated_at": "2026-06-30T14:03:49.708-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sv9drbsk781d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">R2 Returning 503 for Buckets in WNAM</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5snql687z9c4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed data processing and errors in multiple products</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3dlyrh6hfs3s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTS Russia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-30 19:07 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: EC2 API Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q2jmf4rl8y8g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Phoenix, AZ</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bs1wydxc8q5x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Phone Numbers to MTN Nigeria</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-06-30 21:06 UTC</p>",
   "community": []
 }
