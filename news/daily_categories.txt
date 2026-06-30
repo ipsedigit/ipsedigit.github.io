@@ -522,3 +522,4 @@
 2026-06-30:cloud:serverless:breaking
 2026-06-30:ai:llm:breaking
 2026-06-30:ai:ai:deep
+2026-06-30:software-engineering:architecture:deep
