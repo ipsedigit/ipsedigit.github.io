@@ -1171,3 +1171,4 @@ https://simonwillison.net/2026/Jun/29/ornith/#atom-everything
 https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything
 https://devops.com/attackers-exploit-simplehelp-flaw-to-steal-info-from-ai-coding-assistants-clouds/
 https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
+https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything
