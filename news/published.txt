@@ -1181,3 +1181,4 @@ https://dev.to/arslan_ah/how-to-learn-system-design-from-scratch-with-no-distrib
 https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything
 https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
 https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
+https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything
