@@ -1184,3 +1184,4 @@ https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
 https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything
 https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything
 https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything
+https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything
