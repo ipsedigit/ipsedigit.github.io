@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:15:19.863830+00:00",
+  "generated_at": "2026-07-02T20:03:47.840371+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Realtimekit Issues",
       "incident_url": "https://stspg.io/06z86spkqy02",
-      "updated_at": "2026-07-02T16:28:48.326Z"
+      "updated_at": "2026-07-02T18:43:02.494Z"
     },
     {
       "name": "CircleCI",
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Incident with Pages",
-      "incident_url": "https://stspg.io/wgv67m39tbml",
-      "updated_at": "2026-07-02T17:57:15.010Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to Orange Ivory Coast",
-      "incident_url": "https://stspg.io/mqq8gp6fctgs",
-      "updated_at": "2026-07-02T10:40:45.974-07:00"
+      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Zong Pakistan",
+      "incident_url": "https://stspg.io/6xk6ccfy95qp",
+      "updated_at": "2026-07-02T12:59:29.203-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -192,10 +192,10 @@
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-06-03T15:46:56.709Z"
+      "status": "degraded",
+      "description": "Impaired Cluster Operations due to Lets Encrypt Outage",
+      "incident_url": "https://stspg.io/82n3vh28q1r0",
+      "updated_at": "2026-07-02T19:39:12.724Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zk82m29rb29b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery - Content Delivery in Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/06z86spkqy02\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Realtimekit Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wgv67m39tbml\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incident with Pages</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mqq8gp6fctgs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange Ivory Coast</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-02 18:15 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zk82m29rb29b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery - Content Delivery in Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/06z86spkqy02\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Realtimekit Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6xk6ccfy95qp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Zong Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/82n3vh28q1r0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster Operations due to Lets Encrypt Outage</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-02 20:03 UTC</p>",
   "community": []
 }
