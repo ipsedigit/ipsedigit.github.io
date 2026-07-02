@@ -1193,3 +1193,4 @@ https://www.infoworld.com/article/4191918/typescript-7-0-reaches-release-candida
 https://thenewstack.io/why-cicd-fails-llms/
 https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software
 https://www.computerenhance.com/p/why-ai-companies-need-scale
+https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything
