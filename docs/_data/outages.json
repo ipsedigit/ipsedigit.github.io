@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-02T16:20:54.433083+00:00",
+  "generated_at": "2026-07-02T18:15:19.863830+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
+    "operational": 19,
     "degraded": 5,
-    "outage": 2,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -42,7 +42,7 @@
       "status": "degraded",
       "description": "Edge Delivery - Content Delivery in Pakistan",
       "incident_url": "https://stspg.io/zk82m29rb29b",
-      "updated_at": "2026-07-02T15:34:13.339Z"
+      "updated_at": "2026-07-02T17:51:43.486Z"
     },
     {
       "name": "Cloudflare",
@@ -51,25 +51,25 @@
       "status": "degraded",
       "description": "Realtimekit Issues",
       "incident_url": "https://stspg.io/06z86spkqy02",
-      "updated_at": "2026-07-02T15:59:44.692Z"
+      "updated_at": "2026-07-02T16:28:48.326Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "outage",
-      "description": "Outage impacting web experience and pipelines starting",
-      "incident_url": "https://stspg.io/n86hwbb1whpc",
-      "updated_at": "2026-07-02T16:07:52.757Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Incident with Pages",
+      "incident_url": "https://stspg.io/wgv67m39tbml",
+      "updated_at": "2026-07-02T17:57:15.010Z"
     },
     {
       "name": "Netlify",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "Service Degradation Affecting Meta integration for Zoom.",
       "incident_url": "https://stspg.io/jfj4tcp1jzcx",
-      "updated_at": "2026-07-02T04:43:18.149-07:00"
+      "updated_at": "2026-07-02T10:41:58.577-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Twilio Phone Numbers to Vivo Telefonica Brazil",
-      "incident_url": "https://stspg.io/8rjf0clny2cp",
-      "updated_at": "2026-07-02T09:09:48.629-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio to Orange Ivory Coast",
+      "incident_url": "https://stspg.io/mqq8gp6fctgs",
+      "updated_at": "2026-07-02T10:40:45.974-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zk82m29rb29b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery - Content Delivery in Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/06z86spkqy02\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Realtimekit Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n86hwbb1whpc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Outage impacting web experience and pipelines starting</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfj4tcp1jzcx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Meta integration for Zoom.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8rjf0clny2cp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to Vivo Telefonica Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-02 16:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zk82m29rb29b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery - Content Delivery in Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/06z86spkqy02\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Realtimekit Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wgv67m39tbml\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incident with Pages</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mqq8gp6fctgs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Orange Ivory Coast</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-02 18:15 UTC</p>",
   "community": []
 }
