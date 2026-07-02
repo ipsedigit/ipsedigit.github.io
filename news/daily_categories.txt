@@ -528,3 +528,5 @@
 2026-07-02:security:malware:breaking
 2026-07-02:security:vulnerability:breaking
 2026-07-02:devtools:languages:breaking
+2026-07-02:ai:llm:breaking
+2026-07-02:ai:ai:deep
