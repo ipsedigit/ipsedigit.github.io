@@ -1188,3 +1188,4 @@ https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything
 https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything
 https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
 https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
+https://seangoedecke.com/text-ai-watermarks/
