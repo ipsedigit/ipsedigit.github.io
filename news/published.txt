@@ -1199,3 +1199,4 @@ https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html
 https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything
 https://www.troyhunt.com/swimming-pools-pee-and-trying-to-delete-your-data-from-the-internet/
 https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything
+https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything
