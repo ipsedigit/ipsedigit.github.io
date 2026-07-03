@@ -1194,3 +1194,5 @@ https://thenewstack.io/why-cicd-fails-llms/
 https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software
 https://www.computerenhance.com/p/why-ai-companies-need-scale
 https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything
+https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
+https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html
