@@ -1206,3 +1206,4 @@ https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
 https://www.infoq.com/news/2026/07/google-a2ui-genui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything
 https://simonwillison.net/2026/Jul/3/judgement/#atom-everything
+https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
