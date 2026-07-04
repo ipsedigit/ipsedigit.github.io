@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T05:24:11.922897+00:00",
+  "generated_at": "2026-07-04T08:11:28.389011+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Resolution Issues for .AL Domains",
-      "incident_url": "https://stspg.io/hwybmv5883ss",
-      "updated_at": "2026-07-03T17:25:45.865Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-07-04T08:11:03.040Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio Phone Numbers to Telkomsel Indonesia",
-      "incident_url": "https://stspg.io/cy444w59y1hc",
-      "updated_at": "2026-07-03T21:40:08.573-07:00"
+      "description": "SMS Delivery Failures from Twilio to Tigo Bolivia",
+      "incident_url": "https://stspg.io/y3qt7cx40r42",
+      "updated_at": "2026-07-04T00:26:06.199-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hwybmv5883ss\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Resolution Issues for .AL Domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cy444w59y1hc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to Telkomsel Indonesia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-04 05:24 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y3qt7cx40r42\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Tigo Bolivia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-04 08:11 UTC</p>",
   "community": []
 }
