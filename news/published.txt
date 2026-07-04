@@ -1202,3 +1202,5 @@ https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything
 https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything
 https://dev.to/elearning_sherdil_783bbb/10-highest-paying-cloud-computing-jobs-in-2026-remote-friendly-salary-guide-md7
 https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything
+https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
+https://www.infoq.com/news/2026/07/google-a2ui-genui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global

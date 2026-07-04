@@ -533,3 +533,5 @@
 2026-07-03:security:vulnerability:breaking
 2026-07-03:security:malware:breaking
 2026-07-03:cloud:networking-iaas:deep
+2026-07-04:security:vulnerability:breaking
+2026-07-04:ai:ai-research:breaking
