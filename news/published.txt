@@ -1207,3 +1207,4 @@ https://www.infoq.com/news/2026/07/google-a2ui-genui/?utm_campaign=infoq_content
 https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything
 https://simonwillison.net/2026/Jul/3/judgement/#atom-everything
 https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
+https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/
