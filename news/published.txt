@@ -1208,3 +1208,5 @@ https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything
 https://simonwillison.net/2026/Jul/3/judgement/#atom-everything
 https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
 https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/
+https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html
