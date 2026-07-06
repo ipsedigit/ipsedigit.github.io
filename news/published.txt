@@ -1216,3 +1216,4 @@ https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything
 https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything
 https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
 https://seangoedecke.com/c2pa-only-works-if-everything-is-signed/
+https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
