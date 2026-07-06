@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T22:40:05.491295+00:00",
+  "generated_at": "2026-07-06T23:46:56.307397+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 18,
+    "degraded": 6,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers AI experiencing degraded availability in some models",
-      "incident_url": "https://stspg.io/hp348196t57r",
-      "updated_at": "2026-07-04T08:11:03.040Z"
+      "description": "Durable Objects Increased Error Rate in ENAM",
+      "incident_url": "https://stspg.io/rjd4w4sxvgsh",
+      "updated_at": "2026-07-06T23:41:34.079Z"
     },
     {
       "name": "CircleCI",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "DE items ingestion delayed",
       "incident_url": "https://stspg.io/0jxlf03w6pwh",
-      "updated_at": "2026-07-06T21:56:24.519Z"
+      "updated_at": "2026-07-06T23:00:57.265Z"
     },
     {
       "name": "Discord",
@@ -165,10 +165,10 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service Degradation Affecting Real Time Media Streams (RTMS)",
+      "incident_url": "https://stspg.io/gwblypc4tgd1",
+      "updated_at": "2026-07-06T16:42:30.108-07:00"
     },
     {
       "name": "Twilio",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Console A2P Campaign Editing Unavailable",
       "incident_url": "https://stspg.io/py6cqv53dyrq",
-      "updated_at": "2026-07-06T15:14:47.471-07:00"
+      "updated_at": "2026-07-06T16:29:11.241-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0jxlf03w6pwh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">DE items ingestion delayed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/py6cqv53dyrq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Console A2P Campaign Editing Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0l8p9n8ky411\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Claude Tag seeing elevated GitHub operation failures</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-06 22:40 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rjd4w4sxvgsh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Durable Objects Increased Error Rate in ENAM</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0jxlf03w6pwh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">DE items ingestion delayed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwblypc4tgd1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Real Time Media Streams (RTMS)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/py6cqv53dyrq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Console A2P Campaign Editing Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0l8p9n8ky411\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Claude Tag seeing elevated GitHub operation failures</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-06 23:46 UTC</p>",
   "community": []
 }
