@@ -541,3 +541,4 @@
 2026-07-06:security:vulnerability:breaking
 2026-07-06:ai:llm:breaking
 2026-07-06:cloud:aws:breaking
+2026-07-06:cloud:gcp-azure:breaking

@@ -1219,3 +1219,4 @@ https://seangoedecke.com/c2pa-only-works-if-everything-is-signed/
 https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
 https://devops.com/mistral-releases-leanstral-1-5-an-open-model-that-solved-587-of-672-putnam-math-problems/
 https://dev.to/jasonmills94/kubernetes-release-emails-as-a-cicd-gate-4c76
+https://dev.to/madhan_gannarapu/automating-flutter-android-releases-to-google-play-using-github-actions-9lj
