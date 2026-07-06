@@ -538,3 +538,4 @@
 2026-07-04:devtools:languages:breaking
 2026-07-05:security:vulnerability:breaking
 2026-07-05:security:malware:breaking
+2026-07-06:security:vulnerability:breaking
