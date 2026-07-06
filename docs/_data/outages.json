@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T21:11:39.480310+00:00",
+  "generated_at": "2026-07-06T22:40:05.491295+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -130,9 +130,9 @@
       "domain": "status.sentry.io",
       "category": "observability",
       "status": "degraded",
-      "description": "Spans, logs and metrics ingestion stopped",
-      "incident_url": "https://stspg.io/npghss2gxrrr",
-      "updated_at": "2026-07-06T20:29:15.704Z"
+      "description": "DE items ingestion delayed",
+      "incident_url": "https://stspg.io/0jxlf03w6pwh",
+      "updated_at": "2026-07-06T21:56:24.519Z"
     },
     {
       "name": "Discord",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Console A2P Campaign Editing Unavailable",
       "incident_url": "https://stspg.io/py6cqv53dyrq",
-      "updated_at": "2026-07-06T13:37:34.903-07:00"
+      "updated_at": "2026-07-06T15:14:47.471-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Claude Tag seeing elevated GitHub operation failures",
+      "incident_url": "https://stspg.io/0l8p9n8ky411",
+      "updated_at": "2026-07-06T21:49:14.497Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/npghss2gxrrr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Spans, logs and metrics ingestion stopped</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/py6cqv53dyrq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Console A2P Campaign Editing Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-06 21:11 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0jxlf03w6pwh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">DE items ingestion delayed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/py6cqv53dyrq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Console A2P Campaign Editing Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0l8p9n8ky411\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Claude Tag seeing elevated GitHub operation failures</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-06 22:40 UTC</p>",
   "community": []
 }
