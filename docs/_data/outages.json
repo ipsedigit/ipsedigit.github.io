@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T19:20:16.353606+00:00",
+  "generated_at": "2026-07-06T21:11:39.480310+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 5,
-    "outage": 2,
+    "operational": 20,
+    "degraded": 4,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -12,10 +12,10 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "degraded",
-      "description": "Service is operating normally: [RESOLVED] Increased Launch Template API Error Rates",
-      "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Mon, 06 Jul 2026 07:53:11 PDT"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Azure",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "Spans, logs and metrics ingestion stopped",
       "incident_url": "https://stspg.io/npghss2gxrrr",
-      "updated_at": "2026-07-06T18:33:25.807Z"
+      "updated_at": "2026-07-06T20:29:15.704Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States",
-      "incident_url": "https://stspg.io/tz0w7qpn0p0n",
-      "updated_at": "2026-07-06T12:13:58.900-07:00"
+      "description": "Console A2P Campaign Editing Unavailable",
+      "incident_url": "https://stspg.io/py6cqv53dyrq",
+      "updated_at": "2026-07-06T13:37:34.903-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "outage",
-      "description": "Elevated errors on Claude.ai",
-      "incident_url": "https://stspg.io/nhdng5lxrsdm",
-      "updated_at": "2026-07-06T19:18:49.335Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Increased Launch Template API Error Rates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/npghss2gxrrr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Spans, logs and metrics ingestion stopped</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tz0w7qpn0p0n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nhdng5lxrsdm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elevated errors on Claude.ai</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-06 19:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/npghss2gxrrr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Spans, logs and metrics ingestion stopped</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/py6cqv53dyrq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Console A2P Campaign Editing Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-06 21:11 UTC</p>",
   "community": []
 }
