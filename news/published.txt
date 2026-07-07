@@ -1222,3 +1222,4 @@ https://dev.to/jasonmills94/kubernetes-release-emails-as-a-cicd-gate-4c76
 https://dev.to/madhan_gannarapu/automating-flutter-android-releases-to-google-play-using-github-actions-9lj
 https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
 https://simonwillison.net/2026/Jul/6/hy3/#atom-everything
+https://seangoedecke.com/blog-about-things-you-dont-understand-yet/
