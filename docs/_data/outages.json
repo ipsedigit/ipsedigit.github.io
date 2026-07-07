@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T07:49:43.728120+00:00",
+  "generated_at": "2026-07-07T11:14:03.771677+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers AI experiencing degraded availability in some models",
-      "incident_url": "https://stspg.io/hp348196t57r",
-      "updated_at": "2026-07-04T08:11:03.040Z"
+      "description": "New members invitations to accounts not being sent",
+      "incident_url": "https://stspg.io/241rmqc77yh7",
+      "updated_at": "2026-07-07T10:22:42.620Z"
     },
     {
       "name": "CircleCI",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Incoherent number of processed logs",
+      "incident_url": "https://stspg.io/yf7318fjnmj8",
+      "updated_at": "2026-07-07T08:49:19.759Z"
     },
     {
       "name": "Discord",
@@ -168,7 +168,7 @@
       "status": "degraded",
       "description": "Service Degradation Affecting Live Streaming in Singapore Region.",
       "incident_url": "https://stspg.io/fftj02wdr4bz",
-      "updated_at": "2026-07-07T00:41:08.893-07:00"
+      "updated_at": "2026-07-07T04:12:05.499-07:00"
     },
     {
       "name": "Twilio",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fftj02wdr4bz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Live Streaming in Singapore Region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/694mmthdgcnl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Gather Speech Degraded in Eu-West-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-07 07:49 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/241rmqc77yh7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">New members invitations to accounts not being sent</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yf7318fjnmj8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incoherent number of processed logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fftj02wdr4bz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Live Streaming in Singapore Region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/694mmthdgcnl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Gather Speech Degraded in Eu-West-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-07 11:14 UTC</p>",
   "community": []
 }
