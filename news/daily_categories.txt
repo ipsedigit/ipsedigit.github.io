@@ -543,3 +543,4 @@
 2026-07-06:cloud:aws:breaking
 2026-07-06:cloud:gcp-azure:breaking
 2026-07-07:security:vulnerability:breaking
+2026-07-07:devtools:cicd:deep

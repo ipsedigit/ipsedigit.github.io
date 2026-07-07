@@ -1223,3 +1223,4 @@ https://dev.to/madhan_gannarapu/automating-flutter-android-releases-to-google-pl
 https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
 https://simonwillison.net/2026/Jul/6/hy3/#atom-everything
 https://seangoedecke.com/blog-about-things-you-dont-understand-yet/
+https://devops.com/a-beginners-guide-to-ci-cd-and-ci-cd-pipelines/
