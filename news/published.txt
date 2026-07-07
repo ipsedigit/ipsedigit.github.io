@@ -1227,3 +1227,4 @@ https://devops.com/a-beginners-guide-to-ci-cd-and-ci-cd-pipelines/
 https://danluu.com/ai-coding/
 https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/
 https://huggingface.co/blog/skypilot-hf-storage
+https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything
