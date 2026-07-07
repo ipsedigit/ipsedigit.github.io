@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T11:14:03.771677+00:00",
+  "generated_at": "2026-07-07T13:28:24.305560+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "New members invitations to accounts not being sent",
       "incident_url": "https://stspg.io/241rmqc77yh7",
-      "updated_at": "2026-07-07T10:22:42.620Z"
+      "updated_at": "2026-07-07T11:49:07.531Z"
     },
     {
       "name": "CircleCI",
@@ -166,9 +166,9 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation Affecting Live Streaming in Singapore Region.",
-      "incident_url": "https://stspg.io/fftj02wdr4bz",
-      "updated_at": "2026-07-07T04:12:05.499-07:00"
+      "description": "Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India",
+      "incident_url": "https://stspg.io/krjfqybzg7j0",
+      "updated_at": "2026-07-07T04:57:27.333-07:00"
     },
     {
       "name": "Twilio",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+      "description": "Elevated errors with image generation in ChatGPT",
       "incident_url": "",
-      "updated_at": "2026-07-01T03:38:18Z"
+      "updated_at": "2026-07-07T12:17:03Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/241rmqc77yh7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">New members invitations to accounts not being sent</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yf7318fjnmj8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incoherent number of processed logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fftj02wdr4bz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Live Streaming in Singapore Region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/694mmthdgcnl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Gather Speech Degraded in Eu-West-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-07 11:14 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/241rmqc77yh7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">New members invitations to accounts not being sent</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yf7318fjnmj8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incoherent number of processed logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/krjfqybzg7j0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/694mmthdgcnl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Gather Speech Degraded in Eu-West-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-07 13:28 UTC</p>",
   "community": []
 }
