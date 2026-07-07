@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T13:28:24.305560+00:00",
+  "generated_at": "2026-07-07T16:04:58.481720+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "New members invitations to accounts not being sent",
-      "incident_url": "https://stspg.io/241rmqc77yh7",
-      "updated_at": "2026-07-07T11:49:07.531Z"
+      "description": "Cloudflare Registrar operations issues",
+      "incident_url": "https://stspg.io/r813kq35f1tq",
+      "updated_at": "2026-07-07T15:41:53.732Z"
     },
     {
       "name": "CircleCI",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Actions and Codespaces APIs experiencing partial failures",
+      "incident_url": "https://stspg.io/rmlwm65yzzjj",
+      "updated_at": "2026-07-07T16:02:02.609Z"
     },
     {
       "name": "Netlify",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "degraded",
-      "description": "Incoherent number of processed logs",
-      "incident_url": "https://stspg.io/yf7318fjnmj8",
-      "updated_at": "2026-07-07T08:49:19.759Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India",
       "incident_url": "https://stspg.io/krjfqybzg7j0",
-      "updated_at": "2026-07-07T04:57:27.333-07:00"
+      "updated_at": "2026-07-07T08:56:48.201-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Gather Speech Degraded in Eu-West-1",
-      "incident_url": "https://stspg.io/694mmthdgcnl",
-      "updated_at": "2026-07-06T21:35:41.124-07:00"
+      "description": "SMS Delivery Failures from Twilio to Multiple Networks in Multiple Countries",
+      "incident_url": "https://stspg.io/zq4twkntvpnq",
+      "updated_at": "2026-07-07T08:54:03.847-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -211,9 +211,9 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "operational",
-      "description": "Claude Tag seeing elevated GitHub operation failures",
-      "incident_url": "https://stspg.io/0l8p9n8ky411",
-      "updated_at": "2026-07-07T01:07:51.289Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Elevated errors with image generation in ChatGPT",
       "incident_url": "",
-      "updated_at": "2026-07-07T12:17:03Z"
+      "updated_at": "2026-07-07T14:40:15Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/241rmqc77yh7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">New members invitations to accounts not being sent</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yf7318fjnmj8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incoherent number of processed logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/krjfqybzg7j0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/694mmthdgcnl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Gather Speech Degraded in Eu-West-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-07 13:28 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/r813kq35f1tq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Registrar operations issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/krjfqybzg7j0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zq4twkntvpnq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Multiple Networks in Multiple Countries</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-07 16:04 UTC</p>",
   "community": []
 }
