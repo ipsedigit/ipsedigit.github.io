@@ -1232,3 +1232,4 @@ https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
 https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything
 https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything
 https://dev.to/codeek/react-router-setup-using-createbrowserrouter-v6-pattern-fk1
+https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything
