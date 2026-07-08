@@ -1234,3 +1234,4 @@ https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything
 https://dev.to/codeek/react-router-setup-using-createbrowserrouter-v6-pattern-fk1
 https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything
 https://www.troyhunt.com/weekly-update-511/
+https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything
