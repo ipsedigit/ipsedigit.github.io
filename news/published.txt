@@ -1229,3 +1229,4 @@ https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern
 https://huggingface.co/blog/skypilot-hf-storage
 https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything
 https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
+https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything
