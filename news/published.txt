@@ -1238,3 +1238,4 @@ https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything
 https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/
 https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
 https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/
+https://xeiaso.net/blog/2026/hyle-pneuma/
