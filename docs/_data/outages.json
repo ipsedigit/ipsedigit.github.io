@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-08T20:24:12.372892+00:00",
+  "generated_at": "2026-07-08T21:43:28.848214+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 7,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -23,7 +23,7 @@
       "category": "cloud",
       "status": "degraded",
       "description": "GitHub Issue",
-      "incident_url": "https://azurestatusprodeus.azurewebsites.net/en-us/status/",
+      "incident_url": "https://azurestatusprodwus.azurewebsites.net/en-us/status/",
       "updated_at": "Wed, 08 Jul 2026 19:47:26 Z"
     },
     {
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "Delays Processing Builds",
       "incident_url": "https://stspg.io/6p93bsts8r9y",
-      "updated_at": "2026-07-08T19:13:18.785Z"
+      "updated_at": "2026-07-08T21:35:42.303Z"
     },
     {
       "name": "npm",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Delays From Network Subscribers to a Subset of Twilio United States Short Codes",
-      "incident_url": "https://stspg.io/j5xzvy2xcwcz",
-      "updated_at": "2026-07-08T12:55:49.050-07:00"
+      "description": "Voice Call Audio Quality Degradation From Network Subscribers to Twilio Colombia Landline Phone Numbers",
+      "incident_url": "https://stspg.io/5qnbdm47t6s7",
+      "updated_at": "2026-07-08T14:35:36.351-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions",
-      "incident_url": "https://stspg.io/th3djdzw5lsy",
-      "updated_at": "2026-07-08T19:41:28.109Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodeus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">GitHub Issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6p93bsts8r9y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays Processing Builds</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j5xzvy2xcwcz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays From Network Subscribers to a Subset of Twilio United States Short Codes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/th3djdzw5lsy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-08 20:24 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodwus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">GitHub Issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5qnbdm47t6s7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation From Network Subscribers to Twilio Colombia Landline Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-08 21:43 UTC</p>",
   "community": []
 }
