@@ -1244,3 +1244,4 @@ https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything
 https://xeiaso.net/notes/2026/console-wars-lost/
 https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything
 https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything
+https://thenewstack.io/krumware-epinio-kubernetes-mcp/
