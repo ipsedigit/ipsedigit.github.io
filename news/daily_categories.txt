@@ -553,3 +553,4 @@
 2026-07-08:devtools:languages:breaking
 2026-07-09:security:vulnerability:breaking
 2026-07-09:cloud:kubernetes:breaking
+2026-07-09:ai:llm:deep
