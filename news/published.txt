@@ -1242,3 +1242,4 @@ https://xeiaso.net/blog/2026/hyle-pneuma/
 https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
 https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything
 https://xeiaso.net/notes/2026/console-wars-lost/
+https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything
