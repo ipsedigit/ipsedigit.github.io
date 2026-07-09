@@ -1240,3 +1240,4 @@ https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-env
 https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/
 https://xeiaso.net/blog/2026/hyle-pneuma/
 https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything
