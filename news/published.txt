@@ -1247,3 +1247,4 @@ https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything
 https://thenewstack.io/krumware-epinio-kubernetes-mcp/
 https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from
 https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything
+https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything
