@@ -1239,3 +1239,4 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to
 https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
 https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/
 https://xeiaso.net/blog/2026/hyle-pneuma/
+https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
