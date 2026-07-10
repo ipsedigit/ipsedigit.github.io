@@ -1253,3 +1253,4 @@ https://simonwillison.net/2026/Jul/10/openai/#atom-everything
 https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything
 https://simonwillison.net/2026/Jul/9/llm/#atom-everything
 https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html
+https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything
