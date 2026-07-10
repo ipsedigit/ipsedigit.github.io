@@ -1250,3 +1250,4 @@ https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything
 https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything
 https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
 https://simonwillison.net/2026/Jul/10/openai/#atom-everything
+https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything
