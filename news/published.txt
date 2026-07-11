@@ -1257,3 +1257,4 @@ https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything
 https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/
 https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/
 https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/
+https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
