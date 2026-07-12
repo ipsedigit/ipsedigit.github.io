@@ -1258,3 +1258,5 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-byp
 https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/
 https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/
 https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
+https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html
