@@ -562,3 +562,4 @@
 2026-07-12:security:vulnerability:breaking
 2026-07-12:ai:ai-research:breaking
 2026-07-12:cloud:aws:breaking
+2026-07-12:ai:llm:deep

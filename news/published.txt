@@ -1263,3 +1263,4 @@ https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html
 https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything
 https://world.hey.com/dhh/but-y-2c04e16a
 https://dev.to/magickong/learn-the-agent-loop-without-an-agent-framework-3l5g
+https://dev.to/digital_subham/tool-use-and-rag-in-production-a-complete-beginners-study-guide-379i
