@@ -1260,3 +1260,4 @@ https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/
 https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
 https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
 https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html
+https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything
