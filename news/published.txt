@@ -1270,3 +1270,4 @@ https://world.hey.com/dhh/the-will-to-power-will-return-58ffb9dc
 https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything
 https://dev.to/tokenmixai/i-traced-4-claude-opus-5-signals-the-release-date-still-isnt-real-yet-2f2j
 http://antirez.com/news/169
+https://dev.to/ferztyle/talking-to-kubernetes-from-go-a-practical-client-go-guide-1227
