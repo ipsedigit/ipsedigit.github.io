@@ -1265,3 +1265,4 @@ https://world.hey.com/dhh/but-y-2c04e16a
 https://dev.to/magickong/learn-the-agent-loop-without-an-agent-framework-3l5g
 https://dev.to/digital_subham/tool-use-and-rag-in-production-a-complete-beginners-study-guide-379i
 https://simonwillison.net/2026/Jul/12/bump/#atom-everything
+https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/
