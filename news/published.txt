@@ -1272,3 +1272,4 @@ https://dev.to/tokenmixai/i-traced-4-claude-opus-5-signals-the-release-date-stil
 http://antirez.com/news/169
 https://dev.to/ferztyle/talking-to-kubernetes-from-go-a-practical-client-go-guide-1227
 https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything
+https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything
