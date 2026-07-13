@@ -1268,3 +1268,4 @@ https://simonwillison.net/2026/Jul/12/bump/#atom-everything
 https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/
 https://world.hey.com/dhh/the-will-to-power-will-return-58ffb9dc
 https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything
+https://dev.to/tokenmixai/i-traced-4-claude-opus-5-signals-the-release-date-still-isnt-real-yet-2f2j
