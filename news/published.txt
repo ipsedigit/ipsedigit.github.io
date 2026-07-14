@@ -1280,3 +1280,4 @@ https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/
 https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything
 https://simonwillison.net/2026/Jul/13/doomql/#atom-everything
 https://seangoedecke.com/playing-politics/
+https://www.tigrisdata.com/blog/presigned-urls-security-vuln/
