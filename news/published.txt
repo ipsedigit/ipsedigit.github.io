@@ -1282,3 +1282,4 @@ https://simonwillison.net/2026/Jul/13/doomql/#atom-everything
 https://seangoedecke.com/playing-politics/
 https://www.tigrisdata.com/blog/presigned-urls-security-vuln/
 https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html
+https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
