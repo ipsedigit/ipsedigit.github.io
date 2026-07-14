@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-14T22:13:29.621668+00:00",
+  "generated_at": "2026-07-14T23:13:49.840247+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -33,7 +33,7 @@
       "status": "degraded",
       "description": "UPDATE: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.",
       "incident_url": "https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF",
-      "updated_at": "2026-07-14T22:07:03+00:00"
+      "updated_at": "2026-07-14T23:05:34+00:00"
     },
     {
       "name": "Akamai",
@@ -58,9 +58,9 @@
       "domain": "status.circleci.com",
       "category": "devtools",
       "status": "degraded",
-      "description": "Issues with network routing for Mac jobs",
-      "incident_url": "https://stspg.io/vg35mbl8lxpg",
-      "updated_at": "2026-07-14T20:18:56.279Z"
+      "description": "Delays starting jobs on Docker (Gen 2) resource classes",
+      "incident_url": "https://stspg.io/0t40l14n15yl",
+      "updated_at": "2026-07-14T22:54:42.802Z"
     },
     {
       "name": "GitHub",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico",
-      "incident_url": "https://stspg.io/7vbq5bdvllz6",
-      "updated_at": "2026-07-14T14:25:50.671-07:00"
+      "description": "SMS Delivery Delays from a Subset of Twilio Alphanumeric Numbers to Vodafone Italy",
+      "incident_url": "https://stspg.io/vq2p5lt0xs04",
+      "updated_at": "2026-07-14T16:00:23.898-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Partial outage of claude.ai: container creation",
-      "incident_url": "https://stspg.io/7vd6cvlw38jb",
-      "updated_at": "2026-07-14T21:58:22.693Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7ydd4bbpys0d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors in item PUT requests to AI Search</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vg35mbl8lxpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with network routing for Mac jobs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7vbq5bdvllz6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7vd6cvlw38jb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Partial outage of claude.ai: container creation</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-14 22:13 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7ydd4bbpys0d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors in item PUT requests to AI Search</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0t40l14n15yl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays starting jobs on Docker (Gen 2) resource classes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vq2p5lt0xs04\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Alphanumeric Numbers to Vodafone Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-14 23:13 UTC</p>",
   "community": []
 }
