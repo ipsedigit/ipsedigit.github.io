@@ -1277,3 +1277,4 @@ https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
 https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
 https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
 https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/
+https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything
