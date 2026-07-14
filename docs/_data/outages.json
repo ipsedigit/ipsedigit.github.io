@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:20:04.371378+00:00",
+  "generated_at": "2026-07-14T18:41:03.180348+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Elevated R2 errors in WEUR region",
-      "incident_url": "https://stspg.io/9125znqtrs58",
-      "updated_at": "2026-07-14T15:38:34.401Z"
+      "description": "Elevated errors in item PUT requests to AI Search",
+      "incident_url": "https://stspg.io/7ydd4bbpys0d",
+      "updated_at": "2026-07-14T04:01:14.877Z"
     },
     {
       "name": "CircleCI",
@@ -60,7 +60,7 @@
       "status": "degraded",
       "description": "Issues with network routing for Mac jobs",
       "incident_url": "https://stspg.io/vg35mbl8lxpg",
-      "updated_at": "2026-07-14T16:58:55.919Z"
+      "updated_at": "2026-07-14T18:28:25.598Z"
     },
     {
       "name": "GitHub",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "Error ingestion degraded in DE region",
       "incident_url": "https://stspg.io/y9mjtr1fnjg4",
-      "updated_at": "2026-07-14T17:02:09.942Z"
+      "updated_at": "2026-07-14T18:16:06.689Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Users are unable to create a SIP Trunking Phone Number Resource",
-      "incident_url": "https://stspg.io/ryr2y9gbjjnt",
-      "updated_at": "2026-07-14T10:10:38.551-07:00"
+      "description": "Flex AI Copilot Wrap-up notes and topics classification requests timing out - OpenAI Timeouts",
+      "incident_url": "https://stspg.io/5wvr0cvx9v3w",
+      "updated_at": "2026-07-14T11:37:02.960-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9125znqtrs58\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated R2 errors in WEUR region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vg35mbl8lxpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with network routing for Mac jobs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y9mjtr1fnjg4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Error ingestion degraded in DE region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ryr2y9gbjjnt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Users are unable to create a SIP Trunking Phone Number Resource</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-14 17:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7ydd4bbpys0d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors in item PUT requests to AI Search</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vg35mbl8lxpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with network routing for Mac jobs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y9mjtr1fnjg4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Error ingestion degraded in DE region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5wvr0cvx9v3w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Flex AI Copilot Wrap-up notes and topics classification requests timing out - OpenAI Timeouts</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-14 18:41 UTC</p>",
   "community": []
 }
