@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:56:22.325257+00:00",
+  "generated_at": "2026-07-14T14:04:13.509603+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Gateway List updates using CSV not applied",
-      "incident_url": "https://stspg.io/9r7j3hr0w563",
-      "updated_at": "2026-07-14T11:55:41.146Z"
+      "description": "Elevated errors in item PUT requests to AI Search",
+      "incident_url": "https://stspg.io/7ydd4bbpys0d",
+      "updated_at": "2026-07-14T04:01:14.877Z"
     },
     {
       "name": "CircleCI",
@@ -60,7 +60,7 @@
       "status": "degraded",
       "description": "Issues with network routing for Mac jobs",
       "incident_url": "https://stspg.io/vg35mbl8lxpg",
-      "updated_at": "2026-07-13T23:35:24.607Z"
+      "updated_at": "2026-07-14T13:59:59.937Z"
     },
     {
       "name": "GitHub",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9r7j3hr0w563\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Gateway List updates using CSV not applied</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vg35mbl8lxpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with network routing for Mac jobs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7vbq5bdvllz6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-14 11:56 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7ydd4bbpys0d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors in item PUT requests to AI Search</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vg35mbl8lxpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with network routing for Mac jobs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7vbq5bdvllz6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-14 14:04 UTC</p>",
   "community": []
 }
