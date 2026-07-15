@@ -1286,3 +1286,4 @@ https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
 https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
 https://www.infoworld.com/article/2255318/what-is-cloud-native-the-modern-way-to-develop-software.html
 https://xeiaso.net/notes/2026/check-your-smart-tv/
+https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything
