@@ -1288,3 +1288,4 @@ https://www.infoworld.com/article/2255318/what-is-cloud-native-the-modern-way-to
 https://xeiaso.net/notes/2026/check-your-smart-tv/
 https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything
 https://www.troyhunt.com/weekly-update-512/
+https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything
