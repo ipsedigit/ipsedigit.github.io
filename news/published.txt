@@ -1283,3 +1283,5 @@ https://seangoedecke.com/playing-politics/
 https://www.tigrisdata.com/blog/presigned-urls-security-vuln/
 https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html
 https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
+https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
+https://www.infoworld.com/article/2255318/what-is-cloud-native-the-modern-way-to-develop-software.html
