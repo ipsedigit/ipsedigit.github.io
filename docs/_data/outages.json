@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T09:29:26.100232+00:00",
+  "generated_at": "2026-07-16T11:19:23.408676+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 8,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -13,9 +13,9 @@
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
       "status": "degraded",
-      "description": "Service impact: Increased 5xx Errors",
+      "description": "Service degradation: Increased 5xx Errors",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Thu, 16 Jul 2026 02:21:19 PDT"
+      "updated_at": "Thu, 16 Jul 2026 04:16:05 PDT"
     },
     {
       "name": "Azure",
@@ -33,7 +33,7 @@
       "status": "degraded",
       "description": "UPDATE: Google Cloud VMware Engine (GCVE), Google Cloud NetApp Volumes, and Bare Metal Solutions (BMS) services are experiencing a service outage in europe-west4-a due to a cooling failure.",
       "incident_url": "https://status.cloud.google.com/incidents/3BvH3LVGcupoYqV6F4Nw",
-      "updated_at": "2026-07-16T09:21:21+00:00"
+      "updated_at": "2026-07-16T10:16:29+00:00"
     },
     {
       "name": "Akamai",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Magic WAN / Magic Transit tunnel health alert delivery",
-      "incident_url": "https://stspg.io/gzg9x0nw1qvv",
-      "updated_at": "2026-07-16T08:13:46.520Z"
+      "description": "Cloudflare Dashboard and Cloudflare API service issues",
+      "incident_url": "https://stspg.io/khlydh0q5c7f",
+      "updated_at": "2026-07-16T11:00:56.107Z"
     },
     {
       "name": "CircleCI",
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Disruption with some GitHub services",
       "incident_url": "https://stspg.io/5c43kg01skdw",
-      "updated_at": "2026-07-16T09:13:51.685Z"
+      "updated_at": "2026-07-16T10:17:11.371Z"
     },
     {
       "name": "Netlify",
@@ -93,10 +93,10 @@
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "SAML Single Sign-On (SSO) errors",
-      "incident_url": "https://stspg.io/yzqkkrl8lw0m",
-      "updated_at": "2026-07-16T08:39:35.747Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "npm",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures and Delays between a Subset of Twilio Long Codes and Multiple Networks in Mexico",
-      "incident_url": "https://stspg.io/dd8v71c8jjfy",
-      "updated_at": "2026-07-16T01:11:47.012-07:00"
+      "description": "SMS Delivery Delays from Twilio to MTN Nigeria",
+      "incident_url": "https://stspg.io/xgqxpwllcgyp",
+      "updated_at": "2026-07-15T21:38:21.461-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -211,9 +211,9 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Enterprise SSO sign-in failures",
-      "incident_url": "https://stspg.io/s3dpk67ywshw",
-      "updated_at": "2026-07-16T09:23:54.599Z"
+      "description": "Elevated errors for Claude Opus 4.7",
+      "incident_url": "https://stspg.io/3vvl4w8559r5",
+      "updated_at": "2026-07-16T08:58:06.017Z"
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Elevated Error Rates For SSO Login",
       "incident_url": "",
-      "updated_at": "2026-07-16T08:36:46Z"
+      "updated_at": "2026-07-16T10:57:24Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased 5xx Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/3BvH3LVGcupoYqV6F4Nw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Google Cloud VMware Engine (GCVE), Google Cloud NetApp Volumes, and Bare Metal Solutions (BMS) services are experiencing a service outage in europe-west4-a due to a cooling failure.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gzg9x0nw1qvv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Magic WAN / Magic Transit tunnel health alert delivery</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yzqkkrl8lw0m\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SAML Single Sign-On (SSO) errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dd8v71c8jjfy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures and Delays between a Subset of Twilio Long Codes and Multiple Networks in Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s3dpk67ywshw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Enterprise SSO sign-in failures</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-16 09:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service degradation: Increased 5xx Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/3BvH3LVGcupoYqV6F4Nw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Google Cloud VMware Engine (GCVE), Google Cloud NetApp Volumes, and Bare Metal Solutions (BMS) services are experiencing a service outage in europe-west4-a due to a cooling failure.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/khlydh0q5c7f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Dashboard and Cloudflare API service issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xgqxpwllcgyp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTN Nigeria</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3vvl4w8559r5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors for Claude Opus 4.7</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-16 11:19 UTC</p>",
   "community": []
 }
