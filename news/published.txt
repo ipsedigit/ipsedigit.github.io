@@ -1296,3 +1296,4 @@ https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything
 https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
 https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/
 https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything
+https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything
