@@ -1293,3 +1293,5 @@ https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-
 https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
 https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause
 https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything
+https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
+https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/
