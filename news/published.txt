@@ -1299,3 +1299,4 @@ https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything
 https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything
 https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything
 https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything
+https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything
