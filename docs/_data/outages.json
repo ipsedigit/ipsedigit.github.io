@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:21:56.327118+00:00",
+  "generated_at": "2026-07-16T20:27:24.672526+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "CNI 2.0 Experiencing Intermittent 5XX Errors",
-      "incident_url": "https://stspg.io/hh8ktsnnkj03",
-      "updated_at": "2026-07-16T19:07:06.904Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-07-04T08:11:03.040Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS and MMS Delivery Delays and Failures from Twilio to T-Mobile United States",
+      "description": "SMS and MMS Delivery Delays and Failures From Twilio Phone Numbers to T-Mobile United States",
       "incident_url": "https://stspg.io/n24nm4tttz39",
-      "updated_at": "2026-07-16T11:21:59.975-07:00"
+      "updated_at": "2026-07-16T12:23:53.236-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -213,7 +213,7 @@
       "status": "degraded",
       "description": "Elevated errors for multiple models",
       "incident_url": "https://stspg.io/zhv1t1h0dbby",
-      "updated_at": "2026-07-16T19:14:08.782Z"
+      "updated_at": "2026-07-16T20:07:56.190Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hh8ktsnnkj03\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">CNI 2.0 Experiencing Intermittent 5XX Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n24nm4tttz39\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS and MMS Delivery Delays and Failures from Twilio to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zhv1t1h0dbby\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors for multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-16 19:21 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n24nm4tttz39\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS and MMS Delivery Delays and Failures From Twilio Phone Numbers to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zhv1t1h0dbby\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors for multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-16 20:27 UTC</p>",
   "community": []
 }
