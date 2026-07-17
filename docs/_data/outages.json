@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T15:57:51.433317+00:00",
+  "generated_at": "2026-07-17T17:19:32.064614+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -15,7 +15,7 @@
       "status": "degraded",
       "description": "Service impact: Inaccurate Estimated Billing Data",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Fri, 17 Jul 2026 07:53:08 PDT"
+      "updated_at": "Fri, 17 Jul 2026 09:59:36 PDT"
     },
     {
       "name": "Azure",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "POST requests not succeeding",
-      "incident_url": "https://stspg.io/lsj63zw4wxt6",
-      "updated_at": "2026-07-17T15:50:28.725Z"
+      "description": "Containers Logs Issues",
+      "incident_url": "https://stspg.io/lbk6bgdh9nhh",
+      "updated_at": "2026-07-17T16:40:07.607Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Twilio Phone Numbers to India",
-      "incident_url": "https://stspg.io/skxcgxz16mzh",
-      "updated_at": "2026-07-17T08:54:34.822-07:00"
+      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Chunghwa Taiwan",
+      "incident_url": "https://stspg.io/rrfhl0v3wm8w",
+      "updated_at": "2026-07-17T10:12:23.944-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,9 +193,9 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-06-03T15:46:56.709Z"
+      "description": "MongoDB Atlas and Atlas for Government: New AWS Backup and AWS Data Transfer costs will be unavailable between July 17 and 20",
+      "incident_url": "https://stspg.io/klx123hc5vs8",
+      "updated_at": "2026-07-17T16:14:17.562Z"
     },
     {
       "name": "Snowflake",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "operational",
-      "description": "New ChatGPT App Not Available For Users Without Codex Permissions",
+      "description": "Codex 5.6-sol Experiencing Increased Server-Overload Errors",
       "incident_url": "",
-      "updated_at": "2026-07-17T15:32:26Z"
+      "updated_at": "2026-07-17T17:19:22Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Inaccurate Estimated Billing Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lsj63zw4wxt6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">POST requests not succeeding</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/skxcgxz16mzh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-17 15:57 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Inaccurate Estimated Billing Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lbk6bgdh9nhh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Containers Logs Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rrfhl0v3wm8w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Chunghwa Taiwan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-17 17:19 UTC</p>",
   "community": []
 }
