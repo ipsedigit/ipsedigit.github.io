@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T23:39:47.561695+00:00",
+  "generated_at": "2026-07-17T01:12:57.355580+00:00",
   "summary": {
     "total": 26,
-    "operational": 15,
-    "degraded": 8,
-    "outage": 2,
+    "operational": 21,
+    "degraded": 3,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -49,33 +49,33 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Elevated Errors China Network",
-      "incident_url": "https://stspg.io/w1gd5nbl24tw",
-      "updated_at": "2026-07-16T22:43:17.090Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-07-04T08:11:03.040Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Errors accessing CircleCI and delays starting pipelines and scheduled workflows",
-      "incident_url": "https://stspg.io/jftpxjjgvqxy",
-      "updated_at": "2026-07-16T23:05:44.910Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Degraded REST API Availability",
-      "incident_url": "https://stspg.io/pzvjh0wyg401",
-      "updated_at": "2026-07-16T23:29:04.279Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -84,19 +84,19 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "outage",
-      "description": "GitHub outage affecting new service creation and service deploys",
-      "incident_url": "https://stspg.io/zv4b807m4dz0",
-      "updated_at": "2026-07-16T23:09:22.298Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Errors logging in with GitHub",
-      "incident_url": "https://stspg.io/yht3lc3nr2g8",
-      "updated_at": "2026-07-16T23:09:29.944Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "npm",
@@ -132,16 +132,16 @@
       "status": "degraded",
       "description": "Github Integration Webhook processing delay",
       "incident_url": "https://stspg.io/ymn08ybcfn05",
-      "updated_at": "2026-07-16T21:06:36.059Z"
+      "updated_at": "2026-07-17T00:44:52.601Z"
     },
     {
       "name": "Discord",
       "domain": "discordstatus.com",
       "category": "communication",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "API Errors",
+      "incident_url": "https://stspg.io/dn6zshm4sygl",
+      "updated_at": "2026-07-16T17:49:10.682-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors for Github connector",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-07-16T23:12:26Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w1gd5nbl24tw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated Errors China Network</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jftpxjjgvqxy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Errors accessing CircleCI and delays starting pipelines and scheduled workflows</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pzvjh0wyg401\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded REST API Availability</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv4b807m4dz0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">GitHub outage affecting new service creation and service deploys</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yht3lc3nr2g8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Errors logging in with GitHub</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ymn08ybcfn05\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Github Integration Webhook processing delay</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wp9l4y6xw3sx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MPT Myanmar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-16 23:39 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ymn08ybcfn05\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Github Integration Webhook processing delay</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wp9l4y6xw3sx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MPT Myanmar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-17 01:12 UTC</p>",
   "community": []
 }
