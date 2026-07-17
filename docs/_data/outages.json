@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T11:06:28.778817+00:00",
+  "generated_at": "2026-07-17T12:36:46.308335+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 6,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -15,7 +15,7 @@
       "status": "degraded",
       "description": "Service impact: Inaccurate Estimated Billing Data",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Fri, 17 Jul 2026 03:52:48 PDT"
+      "updated_at": "Fri, 17 Jul 2026 04:58:39 PDT"
     },
     {
       "name": "Azure",
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Email Delivery Delays",
-      "incident_url": "https://stspg.io/yw2r2hj5qprj",
-      "updated_at": "2026-07-17T10:38:23.106Z"
+      "description": "Network Performance Issues in Paris, France (CDG)",
+      "incident_url": "https://stspg.io/nmnnylmms26w",
+      "updated_at": "2026-07-17T11:59:42.868Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MPT Myanmar",
-      "incident_url": "https://stspg.io/wp9l4y6xw3sx",
-      "updated_at": "2026-07-17T03:20:04.668-07:00"
+      "description": "SMS Delivery Delays from Twilio to MTS Russia",
+      "incident_url": "https://stspg.io/g6667dx61hv2",
+      "updated_at": "2026-07-17T05:26:18.023-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors on Sonnet 5 and Haiku 4.5",
-      "incident_url": "https://stspg.io/p0rgrvqnx02s",
-      "updated_at": "2026-07-17T07:10:36.807Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Inaccurate Estimated Billing Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yw2r2hj5qprj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Email Delivery Delays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wp9l4y6xw3sx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MPT Myanmar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p0rgrvqnx02s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Sonnet 5 and Haiku 4.5</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-17 11:06 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Inaccurate Estimated Billing Data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nmnnylmms26w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Paris, France (CDG)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/g6667dx61hv2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTS Russia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-17 12:36 UTC</p>",
   "community": []
 }
