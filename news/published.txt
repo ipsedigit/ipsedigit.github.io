@@ -1305,3 +1305,4 @@ https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything
 https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover
 https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/
 https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything
+https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything
