@@ -1307,3 +1307,4 @@ https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-z
 https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything
 https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything
 https://simonwillison.net/2026/Jul/16/inkling/#atom-everything
+https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything
