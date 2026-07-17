@@ -1301,3 +1301,6 @@ https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything
 https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything
 https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything
 https://world.hey.com/dhh/three-sacred-cows-that-must-die-so-europe-can-live-1afb203d
+https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything
+https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover
+https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/
