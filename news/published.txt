@@ -1310,3 +1310,5 @@ https://simonwillison.net/2026/Jul/16/inkling/#atom-everything
 https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything
 https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/
 https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything
+https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
+https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/
