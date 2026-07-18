@@ -1318,3 +1318,4 @@ https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everyt
 https://simonwillison.net/2026/Jul/18/quixote/#atom-everything
 https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything
 https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything
+https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
