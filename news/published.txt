@@ -1313,3 +1313,4 @@ https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything
 https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
 https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/
 https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai/
+https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html

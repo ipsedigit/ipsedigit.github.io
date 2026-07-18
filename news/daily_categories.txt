@@ -581,3 +581,4 @@
 2026-07-17:security:malware:breaking
 2026-07-18:security:cryptography:breaking
 2026-07-18:ai:llm:deep
+2026-07-18:security:vulnerability:breaking
