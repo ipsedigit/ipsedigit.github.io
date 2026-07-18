@@ -1317,3 +1317,4 @@ https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
 https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything
 https://simonwillison.net/2026/Jul/18/quixote/#atom-everything
 https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything
+https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything
