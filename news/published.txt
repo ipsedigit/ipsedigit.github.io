@@ -1323,3 +1323,4 @@ https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything
 https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
 https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
 https://seangoedecke.com/impro/
+https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
