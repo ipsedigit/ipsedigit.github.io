@@ -583,3 +583,5 @@
 2026-07-18:ai:llm:deep
 2026-07-18:security:vulnerability:breaking
 2026-07-18:security:security:breaking
+2026-07-19:ai:llm:breaking
+2026-07-19:security:vulnerability:breaking
