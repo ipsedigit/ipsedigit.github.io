@@ -588,3 +588,6 @@
 2026-07-19:devtools:languages:breaking
 2026-07-20:security:vulnerability:breaking
 2026-07-20:cloud:networking-iaas:breaking
+2026-07-20:ai:ai-infrastructure:breaking
+2026-07-20:devtools:frameworks:deep
+2026-07-20:ai:ai:community
