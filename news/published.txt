@@ -1332,3 +1332,4 @@ https://devops.com/hashicorp-introduces-tfpolicy-a-native-policy-framework-for-t
 https://dev.to/destinationbubul/mnemo-for-the-global-ai-hackathon-with-qwen-cloud-track-1-memoryagent-5fp2
 https://dev.to/tamizuddin/tailwind-css-v4-architecture-features-and-performance-upgrades-deep-dive-4gon
 https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+http://brooker.co.za/blog/2026/07/19/dsql-paper.html
