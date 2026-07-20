@@ -1326,3 +1326,4 @@ https://seangoedecke.com/impro/
 https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
 https://dev.to/arcker/cidx-v210-the-most-useful-output-of-a-release-was-its-seven-bug-reports-43lf
 https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
+https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
