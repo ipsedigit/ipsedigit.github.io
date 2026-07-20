@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T16:57:50.452506+00:00",
+  "generated_at": "2026-07-20T19:01:02.398931+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -30,10 +30,10 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "RESOLVED: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.",
+      "incident_url": "https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF",
+      "updated_at": "2026-07-20T18:31:26+00:00"
     },
     {
       "name": "Akamai",
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Disruption with GPT 5.3 Codex",
-      "incident_url": "https://stspg.io/7ls47qxt8lpq",
-      "updated_at": "2026-07-20T16:39:46.796Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -130,9 +130,9 @@
       "domain": "status.sentry.io",
       "category": "observability",
       "status": "operational",
-      "description": "EU Region Error, Attachment, and Feedback latency",
-      "incident_url": "https://stspg.io/0k3pvpywznz6",
-      "updated_at": "2026-07-20T16:09:46.630Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7ls47qxt8lpq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Disruption with GPT 5.3 Codex</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j9rrc8s2blkb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Altan Redes Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-20 16:57 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j9rrc8s2blkb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Short Codes to Altan Redes Mexico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-20 19:01 UTC</p>",
   "community": []
 }
