@@ -1336,3 +1336,4 @@ http://brooker.co.za/blog/2026/07/19/dsql-paper.html
 https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything
 https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
 https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
+https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything
