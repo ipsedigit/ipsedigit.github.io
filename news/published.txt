@@ -1338,3 +1338,4 @@ https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
 https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
 https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything
 https://www.troyhunt.com/weekly-update-513/
+https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
