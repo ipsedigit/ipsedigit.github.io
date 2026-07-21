@@ -1334,3 +1334,5 @@ https://dev.to/tamizuddin/tailwind-css-v4-architecture-features-and-performance-
 https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 http://brooker.co.za/blog/2026/07/19/dsql-paper.html
 https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything
+https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
+https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
