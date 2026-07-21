@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:52:46.461141+00:00",
+  "generated_at": "2026-07-21T21:16:13.085232+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API",
       "incident_url": "https://stspg.io/clvpz1p61mgb",
-      "updated_at": "2026-07-21T17:31:45.656Z"
+      "updated_at": "2026-07-21T20:20:15.715Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from Twilio to Access Malawi",
-      "incident_url": "https://stspg.io/8ww3yv81zw63",
-      "updated_at": "2026-07-21T12:35:52.432-07:00"
+      "description": "SMS Delivery Failures from Twilio Phone Numbers to Rakuten Japan",
+      "incident_url": "https://stspg.io/8p23pshkttv6",
+      "updated_at": "2026-07-21T13:01:49.864-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -222,7 +222,7 @@
       "status": "outage",
       "description": "Elevated errors for API image generation",
       "incident_url": "",
-      "updated_at": "2026-07-21T19:33:27Z"
+      "updated_at": "2026-07-21T20:26:48Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/clvpz1p61mgb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8ww3yv81zw63\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio to Access Malawi</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 19:52 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/clvpz1p61mgb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8p23pshkttv6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Phone Numbers to Rakuten Japan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 21:16 UTC</p>",
   "community": []
 }
