@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T22:28:22.208189+00:00",
+  "generated_at": "2026-07-21T23:33:20.364959+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from Twilio Phone Numbers to Rakuten Japan",
-      "incident_url": "https://stspg.io/8p23pshkttv6",
-      "updated_at": "2026-07-21T14:37:42.697-07:00"
+      "description": "On Call Engineers are Investigating Loss of Audit Event Data for Twiml Applications From July/15 to July/21 - 2026",
+      "incident_url": "https://stspg.io/qnw1dfwvhs28",
+      "updated_at": "2026-07-21T16:14:02.209-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Elastic Cloud - Email MFA Delivery Delays (Gmail)",
-      "incident_url": "https://stspg.io/h34xvx67pp28",
-      "updated_at": "2026-07-21T14:25:40.501Z"
+      "description": "Metering issue with Elastic Cloud Hosted Deployments",
+      "incident_url": "https://stspg.io/drr3n7snbrxp",
+      "updated_at": "2026-07-21T23:15:24.521Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/clvpz1p61mgb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8p23pshkttv6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Phone Numbers to Rakuten Japan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 22:28 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/clvpz1p61mgb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qnw1dfwvhs28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">On Call Engineers are Investigating Loss of Audit Event Data for Twiml Applications From July/15 to July/21 - 2026</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 23:33 UTC</p>",
   "community": []
 }
