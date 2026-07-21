@@ -593,3 +593,4 @@
 2026-07-20:ai:ai:community
 2026-07-21:security:vulnerability:breaking
 2026-07-21:ai:llm:breaking
+2026-07-21:ai:ai:breaking

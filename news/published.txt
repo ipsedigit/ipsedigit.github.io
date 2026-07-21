@@ -1340,3 +1340,4 @@ https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything
 https://www.troyhunt.com/weekly-update-513/
 https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
 https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything
+https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/
