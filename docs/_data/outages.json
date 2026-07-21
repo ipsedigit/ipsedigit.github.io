@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T11:24:15.429517+00:00",
+  "generated_at": "2026-07-21T12:56:24.764919+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 4,
-    "outage": 3,
+    "operational": 20,
+    "degraded": 3,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "outage",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Some SSH connections using deploy keys are failing",
-      "incident_url": "https://stspg.io/jczxclgm9znm",
-      "updated_at": "2026-07-21T11:04:43.645Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "Delayed ingestion on us region",
       "incident_url": "https://stspg.io/sn99hk0v2nct",
-      "updated_at": "2026-07-21T10:30:26.550Z"
+      "updated_at": "2026-07-21T12:20:03.889Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in United Kingdom",
+      "description": "Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Multiple Networks in United Kingdom",
       "incident_url": "https://stspg.io/xvkz3vhcrs87",
-      "updated_at": "2026-07-21T04:18:09.201-07:00"
+      "updated_at": "2026-07-21T05:39:02.544-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,19 +210,19 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "outage",
-      "description": "Elevated errors across Fable 5",
-      "incident_url": "https://stspg.io/cqjf2860m4yy",
-      "updated_at": "2026-07-21T11:19:33.147Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Image generation unavailable for some ChatGPT users",
+      "status": "outage",
+      "description": "Image generation unavailable in ChatGPT",
       "incident_url": "",
-      "updated_at": "2026-07-21T10:36:02Z"
+      "updated_at": "2026-07-21T12:25:06Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sn99hk0v2nct\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed ingestion on us region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xvkz3vhcrs87\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/cqjf2860m4yy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elevated errors across Fable 5</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 11:24 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sn99hk0v2nct\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed ingestion on us region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xvkz3vhcrs87\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Multiple Networks in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 12:56 UTC</p>",
   "community": []
 }
