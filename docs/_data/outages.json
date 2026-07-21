@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-21T12:56:24.764919+00:00",
+  "generated_at": "2026-07-21T15:10:12.327494+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 19,
+    "degraded": 4,
     "outage": 2,
     "unknown": 1
   },
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "degraded",
-      "description": "Delayed ingestion on us region",
-      "incident_url": "https://stspg.io/sn99hk0v2nct",
-      "updated_at": "2026-07-21T12:20:03.889Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Multiple Networks in United Kingdom",
-      "incident_url": "https://stspg.io/xvkz3vhcrs87",
-      "updated_at": "2026-07-21T05:39:02.544-07:00"
+      "description": "SMS Delivery Delays and Failures From Network Subscribers to Twilio Romania Phone Numbers",
+      "incident_url": "https://stspg.io/nkx0bdndl9sr",
+      "updated_at": "2026-07-21T07:48:21.850-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,16 +186,16 @@
       "status": "outage",
       "description": "Elastic Cloud - Email MFA Delivery Delays (Gmail)",
       "incident_url": "https://stspg.io/h34xvx67pp28",
-      "updated_at": "2026-07-21T10:56:02.830Z"
+      "updated_at": "2026-07-21T14:25:40.501Z"
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "MongoDB Atlas and Atlas for Government: New AWS Backup and AWS Data Transfer costs will be unavailable between July 17 and 20",
-      "incident_url": "https://stspg.io/klx123hc5vs8",
-      "updated_at": "2026-07-20T15:06:07.132Z"
+      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
+      "incident_url": "https://stspg.io/mg7m971rdhw8",
+      "updated_at": "2026-06-03T15:46:56.709Z"
     },
     {
       "name": "Snowflake",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated errors on Haiku 4.5",
+      "incident_url": "https://stspg.io/zbk8jlprqymy",
+      "updated_at": "2026-07-21T14:44:53.852Z"
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "outage",
       "description": "Image generation unavailable in ChatGPT",
       "incident_url": "",
-      "updated_at": "2026-07-21T12:25:06Z"
+      "updated_at": "2026-07-21T14:37:17Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sn99hk0v2nct\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed ingestion on us region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xvkz3vhcrs87\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Multiple Networks in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 12:56 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nkx0bdndl9sr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures From Network Subscribers to Twilio Romania Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zbk8jlprqymy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Haiku 4.5</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-21 15:10 UTC</p>",
   "community": []
 }
