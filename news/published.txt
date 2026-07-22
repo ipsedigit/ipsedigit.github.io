@@ -1346,3 +1346,4 @@ https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
 https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html
 https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/
 https://world.hey.com/dhh/wolves-sheep-and-gypsies-ba44af6a
+http://antirez.com/news/170
