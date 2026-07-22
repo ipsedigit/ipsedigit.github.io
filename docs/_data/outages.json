@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T04:34:42.153210+00:00",
+  "generated_at": "2026-07-22T07:23:30.073859+00:00",
   "summary": {
     "total": 26,
     "operational": 22,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API",
-      "incident_url": "https://stspg.io/clvpz1p61mgb",
-      "updated_at": "2026-07-21T20:20:15.715Z"
+      "description": "Cloudflare Malicious Upload Detection Issues",
+      "incident_url": "https://stspg.io/p79pqjt07fdn",
+      "updated_at": "2026-07-22T07:09:34.608Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to MPT Myanmar",
-      "incident_url": "https://stspg.io/t7hnc4l5pqxd",
-      "updated_at": "2026-07-21T21:00:33.879-07:00"
+      "description": "SMS Delivery Delays and Failures from Network Subscribers to Twilio Romania Phone Numbers",
+      "incident_url": "https://stspg.io/nkx0bdndl9sr",
+      "updated_at": "2026-07-22T00:05:56.405-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/clvpz1p61mgb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t7hnc4l5pqxd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to MPT Myanmar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 04:34 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p79pqjt07fdn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Malicious Upload Detection Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nkx0bdndl9sr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Network Subscribers to Twilio Romania Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 07:23 UTC</p>",
   "community": []
 }
