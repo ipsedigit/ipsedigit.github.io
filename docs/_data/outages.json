@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T17:42:11.819071+00:00",
+  "generated_at": "2026-07-22T18:48:25.057031+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 22,
+    "degraded": 2,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers AI experiencing degraded availability in some models",
-      "incident_url": "https://stspg.io/hp348196t57r",
-      "updated_at": "2026-07-04T08:11:03.040Z"
+      "description": "Customers unable to create Access and Device Enrollment policies via the Dashboard and API",
+      "incident_url": "https://stspg.io/b0gt6ktwdnmw",
+      "updated_at": "2026-07-22T18:35:00.722Z"
     },
     {
       "name": "CircleCI",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Voice Connection Errors",
       "incident_url": "https://stspg.io/dp5x0qbllb6n",
-      "updated_at": "2026-07-22T09:54:30.157-07:00"
+      "updated_at": "2026-07-22T11:45:57.497-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Service disruption on Claude Services",
-      "incident_url": "https://stspg.io/3c161l5nt3kz",
-      "updated_at": "2026-07-22T17:28:16.733Z"
+      "status": "operational",
+      "description": "Microsoft Office add-in availability",
+      "incident_url": "https://stspg.io/62bq6fn8w887",
+      "updated_at": "2026-07-22T17:56:10.129Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dp5x0qbllb6n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Connection Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3c161l5nt3kz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service disruption on Claude Services</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 17:42 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b0gt6ktwdnmw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers unable to create Access and Device Enrollment policies via the Dashboard and API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dp5x0qbllb6n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Connection Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 18:48 UTC</p>",
   "community": []
 }
