@@ -1348,3 +1348,4 @@ https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-p
 https://world.hey.com/dhh/wolves-sheep-and-gypsies-ba44af6a
 http://antirez.com/news/170
 https://mitchellh.com/writing/everyone-should-know-simd
+https://dev.to/reporails/loop-engineering-how-to-stop-your-agent-reward-hacking-its-own-checks-4fpn
