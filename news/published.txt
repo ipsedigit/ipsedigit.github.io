@@ -1342,3 +1342,6 @@ https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
 https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything
 https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/
 https://jvns.ca/blog/2026/07/21/more-nice-django-things/
+https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
+https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html
+https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/
