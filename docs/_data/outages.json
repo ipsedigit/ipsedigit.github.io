@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:23:42.323387+00:00",
+  "generated_at": "2026-07-22T16:02:29.586482+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Voice Connection Errors",
       "incident_url": "https://stspg.io/dp5x0qbllb6n",
-      "updated_at": "2026-07-22T07:20:46.453-07:00"
+      "updated_at": "2026-07-22T07:35:20.898-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -211,18 +211,18 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Elevated errors on Opus 4.8 and Haiku 4.5",
-      "incident_url": "https://stspg.io/5fhdrrh8wbq1",
-      "updated_at": "2026-07-22T14:18:33.866Z"
+      "description": "Elevated error rates for Sonnet 5",
+      "incident_url": "https://stspg.io/gsh7gl1d7sbq",
+      "updated_at": "2026-07-22T15:36:57.938Z"
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Elevated Errors Affecting File Uploads and Image Generation",
+      "description": "Elevated errors for Workspace Agent",
       "incident_url": "",
-      "updated_at": "2026-07-22T09:44:41Z"
+      "updated_at": "2026-07-22T15:49:17Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dp5x0qbllb6n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Connection Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5fhdrrh8wbq1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on Opus 4.8 and Haiku 4.5</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 14:23 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dp5x0qbllb6n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Connection Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gsh7gl1d7sbq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated error rates for Sonnet 5</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 16:02 UTC</p>",
   "community": []
 }
