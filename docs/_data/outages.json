@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T10:00:45.639596+00:00",
+  "generated_at": "2026-07-22T12:03:57.077291+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Increase in errors from R2 in ENAM",
-      "incident_url": "https://stspg.io/hmnc1v8pltzj",
-      "updated_at": "2026-07-22T09:55:08.662Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-07-04T08:11:03.040Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to MPT Myanmar",
-      "incident_url": "https://stspg.io/t7hnc4l5pqxd",
-      "updated_at": "2026-07-22T01:01:13.390-07:00"
+      "description": "User Authentication Identity SNA Missing Redirects for Three in United Kingdom",
+      "incident_url": "https://stspg.io/l1f6q7z6qmdf",
+      "updated_at": "2026-07-22T05:00:22.498-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Metering issue with Elastic Cloud Hosted Deployments",
       "incident_url": "https://stspg.io/drr3n7snbrxp",
-      "updated_at": "2026-07-21T23:15:24.521Z"
+      "updated_at": "2026-07-22T10:49:34.626Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hmnc1v8pltzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increase in errors from R2 in ENAM</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t7hnc4l5pqxd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to MPT Myanmar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 10:00 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/l1f6q7z6qmdf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for Three in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/drr3n7snbrxp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Metering issue with Elastic Cloud Hosted Deployments</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-22 12:03 UTC</p>",
   "community": []
 }
