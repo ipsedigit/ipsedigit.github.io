@@ -1356,3 +1356,4 @@ https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
 https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/
 https://drewdevault.com/blog/AI-in-Linux/
 https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything
+https://dev.to/higagan/i-built-a-python-library-to-stop-ai-agents-from-leaking-secrets-modelfuzz-6o2
