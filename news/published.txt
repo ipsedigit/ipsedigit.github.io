@@ -1351,3 +1351,4 @@ https://mitchellh.com/writing/everyone-should-know-simd
 https://dev.to/reporails/loop-engineering-how-to-stop-your-agent-reward-hacking-its-own-checks-4fpn
 https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html
 https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html
+https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything
