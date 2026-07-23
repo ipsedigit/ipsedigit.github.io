@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T12:03:12.743384+00:00",
+  "generated_at": "2026-07-23T14:33:45.730763+00:00",
   "summary": {
     "total": 26,
     "operational": 22,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Challenge data missing in Analytics",
-      "incident_url": "https://stspg.io/w5td6rd0ysmy",
-      "updated_at": "2026-07-23T11:44:25.560Z"
+      "description": "Workers AI experiencing degraded availability in some models",
+      "incident_url": "https://stspg.io/hp348196t57r",
+      "updated_at": "2026-07-04T08:11:03.040Z"
     },
     {
       "name": "CircleCI",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Service Degradation Affected Zoom Blog Website",
+      "incident_url": "https://stspg.io/g79nl5bkfr0j",
+      "updated_at": "2026-07-23T07:03:31.685-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Twilio Phone Numbers to India",
-      "incident_url": "https://stspg.io/skxcgxz16mzh",
-      "updated_at": "2026-07-22T16:45:33.389-07:00"
+      "description": "Message Status Generation Failure",
+      "incident_url": "https://stspg.io/fm70319hk7dg",
+      "updated_at": "2026-07-23T06:20:55.944-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w5td6rd0ysmy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Challenge data missing in Analytics</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/skxcgxz16mzh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-23 12:03 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fm70319hk7dg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Message Status Generation Failure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-23 14:33 UTC</p>",
   "community": []
 }
