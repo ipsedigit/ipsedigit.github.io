@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-23T14:33:45.730763+00:00",
+  "generated_at": "2026-07-23T16:14:53.348929+00:00",
   "summary": {
     "total": 26,
-    "operational": 22,
-    "degraded": 2,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -21,10 +21,10 @@
       "name": "Azure",
       "domain": "https://azure.status.microsoft/en-us/status/feed/",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Active – Connectivity Issues Affecting Azure Services in West US",
+      "incident_url": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
+      "updated_at": "Thu, 23 Jul 2026 15:50:04 Z"
     },
     {
       "name": "Google Cloud",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Workers AI experiencing degraded availability in some models",
-      "incident_url": "https://stspg.io/hp348196t57r",
-      "updated_at": "2026-07-04T08:11:03.040Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -75,7 +75,7 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -102,10 +102,10 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "intermittent Publish and Install Failures",
+      "incident_url": "https://stspg.io/83zl9bxq2zjv",
+      "updated_at": "2026-07-23T16:09:33.800Z"
     },
     {
       "name": "Datadog",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
-      "description": "Service Degradation Affected Zoom Blog Website",
-      "incident_url": "https://stspg.io/g79nl5bkfr0j",
-      "updated_at": "2026-07-23T07:03:31.685-07:00"
+      "status": "degraded",
+      "description": "Service Degradation Affecting Zoom Healthcare Integration services in US Region",
+      "incident_url": "https://stspg.io/wht1xf500dsj",
+      "updated_at": "2026-07-23T08:53:52.582-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Message Status Generation Failure",
-      "incident_url": "https://stspg.io/fm70319hk7dg",
-      "updated_at": "2026-07-23T06:20:55.944-07:00"
+      "description": "Gather Speech-to-Text Failure",
+      "incident_url": "https://stspg.io/ny2ztmv48190",
+      "updated_at": "2026-07-23T09:00:11.463-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Elevated error rates",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-07-23T16:08:57Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hp348196t57r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers AI experiencing degraded availability in some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fm70319hk7dg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Message Status Generation Failure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-23 14:33 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodncus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Active – Connectivity Issues Affecting Azure Services in West US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/83zl9bxq2zjv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">intermittent Publish and Install Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wht1xf500dsj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Healthcare Integration services in US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ny2ztmv48190\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Gather Speech-to-Text Failure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-23 16:14 UTC</p>",
   "community": []
 }
