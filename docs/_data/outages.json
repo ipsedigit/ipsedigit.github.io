@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-23T16:14:53.348929+00:00",
+  "generated_at": "2026-07-23T17:50:24.437518+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 7,
+    "operational": 16,
+    "degraded": 8,
     "outage": 1,
     "unknown": 1
   },
@@ -22,9 +22,9 @@
       "domain": "https://azure.status.microsoft/en-us/status/feed/",
       "category": "cloud",
       "status": "degraded",
-      "description": "Active – Connectivity Issues Affecting Azure Services in West US",
-      "incident_url": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
-      "updated_at": "Thu, 23 Jul 2026 15:50:04 Z"
+      "description": "Issues connecting to resources in West US",
+      "incident_url": "https://azure.status.microsoft/en-us/status/",
+      "updated_at": "Thu, 23 Jul 2026 16:29:09 Z"
     },
     {
       "name": "Google Cloud",
@@ -112,9 +112,9 @@
       "domain": "status.datadoghq.com",
       "category": "observability",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Latency with Pages and Monitor state changes",
+      "incident_url": "https://stspg.io/ljpc864wlwq2",
+      "updated_at": "2026-07-23T13:31:18.654-04:00"
     },
     {
       "name": "New Relic",
@@ -168,34 +168,34 @@
       "status": "degraded",
       "description": "Service Degradation Affecting Zoom Healthcare Integration services in US Region",
       "incident_url": "https://stspg.io/wht1xf500dsj",
-      "updated_at": "2026-07-23T08:53:52.582-07:00"
+      "updated_at": "2026-07-23T09:22:28.126-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Gather Speech-to-Text Failure",
-      "incident_url": "https://stspg.io/ny2ztmv48190",
-      "updated_at": "2026-07-23T09:00:11.463-07:00"
+      "description": "SMS Delivery Failures from Network Subscribers to a Subset of Twilio Romania Short Codes",
+      "incident_url": "https://stspg.io/nkx0bdndl9sr",
+      "updated_at": "2026-07-23T10:16:40.414-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Elastic Cloud - Email MFA Delivery Delays (Gmail)",
-      "incident_url": "https://stspg.io/h34xvx67pp28",
-      "updated_at": "2026-07-21T23:10:09.270Z"
+      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
+      "incident_url": "https://stspg.io/w6dmrtc20hz7",
+      "updated_at": "2026-07-13T16:42:13.882Z"
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-06-03T15:46:56.709Z"
+      "status": "degraded",
+      "description": "Cluster connectivity issues in Azure westus",
+      "incident_url": "https://stspg.io/ycvlxh9rhwkw",
+      "updated_at": "2026-07-23T16:38:12.253Z"
     },
     {
       "name": "Snowflake",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Elevated error rates",
       "incident_url": "",
-      "updated_at": "2026-07-23T16:08:57Z"
+      "updated_at": "2026-07-23T17:36:32Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azurestatusprodncus.azurewebsites.net/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Active – Connectivity Issues Affecting Azure Services in West US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/83zl9bxq2zjv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">intermittent Publish and Install Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wht1xf500dsj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Healthcare Integration services in US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ny2ztmv48190\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Gather Speech-to-Text Failure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h34xvx67pp28\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud - Email MFA Delivery Delays (Gmail)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-23 16:14 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://azure.status.microsoft/en-us/status/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Azure</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues connecting to resources in West US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/83zl9bxq2zjv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">intermittent Publish and Install Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wht1xf500dsj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Healthcare Integration services in US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nkx0bdndl9sr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Network Subscribers to a Subset of Twilio Romania Short Codes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ycvlxh9rhwkw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cluster connectivity issues in Azure westus</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-23 17:50 UTC</p>",
   "community": []
 }
