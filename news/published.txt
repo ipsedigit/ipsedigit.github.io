@@ -1362,3 +1362,4 @@ https://thehackernews.com/2026/07/check-point-patches-exploited.html
 https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
 https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything
 https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything
+https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything
