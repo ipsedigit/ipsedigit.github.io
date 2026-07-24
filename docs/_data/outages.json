@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T09:57:02.528909+00:00",
+  "generated_at": "2026-07-24T11:49:10.752004+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -12,10 +12,10 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service impact: Connectivity Issues",
+      "incident_url": "https://status.aws.amazon.com/",
+      "updated_at": "Fri, 24 Jul 2026 04:40:03 PDT"
     },
     {
       "name": "Azure",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Network Performance Issues in Western North America",
+      "incident_url": "https://stspg.io/tnn9ddjnj342",
+      "updated_at": "2026-07-24T11:42:01.750Z"
     },
     {
       "name": "CircleCI",
@@ -85,9 +85,9 @@
       "domain": "status.render.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Service Disruption in Oregon",
+      "incident_url": "https://stspg.io/1blzkyxzlz0k",
+      "updated_at": "2026-07-24T11:44:57.566Z"
     },
     {
       "name": "Vercel",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "degraded",
-      "description": "Issue sending messages to channels via certain Workflows",
-      "incident_url": "https://slack-status.com/2026-07/e82ee127d8bed735",
-      "updated_at": "2026-07-24T02:42:29-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Receipt Delays from Twilio to Tigo Honduras",
-      "incident_url": "https://stspg.io/lyf0jh07mm5v",
-      "updated_at": "2026-07-24T02:56:19.111-07:00"
+      "description": "Unable to save Phone Numbers with Studio Flow",
+      "incident_url": "https://stspg.io/vhdbkhq8c511",
+      "updated_at": "2026-07-24T04:39:01.147-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -211,9 +211,9 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "operational",
-      "description": "Elevated error rate on Opus 4.8",
-      "incident_url": "https://stspg.io/7xtkzmk161g1",
-      "updated_at": "2026-07-24T09:35:08.549Z"
+      "description": "Microsoft Office add-in availability",
+      "incident_url": "https://stspg.io/62bq6fn8w887",
+      "updated_at": "2026-07-22T21:12:51.317Z"
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "operational",
       "description": "Elevated Error Rates",
       "incident_url": "",
-      "updated_at": "2026-07-24T09:56:47Z"
+      "updated_at": "2026-07-24T11:34:20Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-07/e82ee127d8bed735\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issue sending messages to channels via certain Workflows</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lyf0jh07mm5v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from Twilio to Tigo Honduras</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-24 09:57 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Connectivity Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tnn9ddjnj342\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Western North America</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vhdbkhq8c511\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Unable to save Phone Numbers with Studio Flow</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-24 11:49 UTC</p>",
   "community": []
 }
