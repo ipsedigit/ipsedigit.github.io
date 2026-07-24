@@ -1364,3 +1364,4 @@ https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-eve
 https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything
 https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything
 https://seangoedecke.com/llms-reward-expertise/
+https://dev.to/amazonappdev/release-and-operations-excellence-2a6g

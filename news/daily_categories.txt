@@ -603,3 +603,4 @@
 2026-07-23:ai:llm:community
 2026-07-24:security:vulnerability:breaking
 2026-07-24:ai:llm:breaking
+2026-07-24:devtools:languages:breaking
