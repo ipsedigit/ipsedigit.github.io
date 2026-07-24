@@ -1366,3 +1366,4 @@ https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything
 https://seangoedecke.com/llms-reward-expertise/
 https://dev.to/amazonappdev/release-and-operations-excellence-2a6g
 https://dev.to/amitkumar13/integrating-aeropay-sdk-in-react-native-a-step-by-step-guide-3ifj
+https://lucumr.pocoo.org/2026/7/24/codeberg-divides/
