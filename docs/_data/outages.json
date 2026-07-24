@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-24T11:49:10.752004+00:00",
+  "generated_at": "2026-07-24T13:56:55.910570+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -13,9 +13,9 @@
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
       "status": "degraded",
-      "description": "Service impact: Connectivity Issues",
+      "description": "Service is operating normally: [RESOLVED] Connectivity Issues",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Fri, 24 Jul 2026 04:40:03 PDT"
+      "updated_at": "Fri, 24 Jul 2026 06:01:21 PDT"
     },
     {
       "name": "Azure",
@@ -30,28 +30,28 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "degraded",
-      "description": "RESOLVED: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.",
-      "incident_url": "https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF",
-      "updated_at": "2026-07-24T07:14:47+00:00"
-    },
-    {
-      "name": "Akamai",
-      "domain": "status.akamai.com",
-      "category": "cdn",
       "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
     },
     {
+      "name": "Akamai",
+      "domain": "status.akamai.com",
+      "category": "cdn",
+      "status": "operational",
+      "description": "Edge Delivery Issues",
+      "incident_url": "https://stspg.io/xznp9djptdkv",
+      "updated_at": "2026-07-24T12:56:06.436Z"
+    },
+    {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Performance Issues in Western North America",
-      "incident_url": "https://stspg.io/tnn9ddjnj342",
-      "updated_at": "2026-07-24T11:42:01.750Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -85,9 +85,9 @@
       "domain": "status.render.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Service Disruption in Oregon",
-      "incident_url": "https://stspg.io/1blzkyxzlz0k",
-      "updated_at": "2026-07-24T11:44:57.566Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Vercel",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Unable to save Phone Numbers with Studio Flow",
-      "incident_url": "https://stspg.io/vhdbkhq8c511",
-      "updated_at": "2026-07-24T04:39:01.147-07:00"
+      "description": "Gather Speech-to-Text Failure",
+      "incident_url": "https://stspg.io/hds9phlq6j06",
+      "updated_at": "2026-07-24T05:28:11.167-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Connectivity Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tnn9ddjnj342\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Western North America</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vhdbkhq8c511\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Unable to save Phone Numbers with Studio Flow</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-24 11:49 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Connectivity Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hds9phlq6j06\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Gather Speech-to-Text Failure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-24 13:56 UTC</p>",
   "community": []
 }
