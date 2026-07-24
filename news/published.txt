@@ -1360,3 +1360,4 @@ https://dev.to/higagan/i-built-a-python-library-to-stop-ai-agents-from-leaking-s
 https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything
 https://thehackernews.com/2026/07/check-point-patches-exploited.html
 https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
+https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything
