@@ -604,3 +604,4 @@
 2026-07-24:security:vulnerability:breaking
 2026-07-24:ai:llm:breaking
 2026-07-24:devtools:languages:breaking
+2026-07-24:devtools:frameworks:deep
