@@ -1358,3 +1358,5 @@ https://drewdevault.com/blog/AI-in-Linux/
 https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything
 https://dev.to/higagan/i-built-a-python-library-to-stop-ai-agents-from-leaking-secrets-modelfuzz-6o2
 https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything
+https://thehackernews.com/2026/07/check-point-patches-exploited.html
+https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/

@@ -601,3 +601,5 @@
 2026-07-23:security:appsec:breaking
 2026-07-23:security:vulnerability:breaking
 2026-07-23:ai:llm:community
+2026-07-24:security:vulnerability:breaking
+2026-07-24:ai:llm:breaking
