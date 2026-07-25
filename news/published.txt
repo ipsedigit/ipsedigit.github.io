@@ -1370,3 +1370,4 @@ https://lucumr.pocoo.org/2026/7/24/codeberg-divides/
 https://dev.to/tosiiko/wetask-v010-rc1-vs-redis-benchmark-report-5bmg
 https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html
 https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything
+https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
