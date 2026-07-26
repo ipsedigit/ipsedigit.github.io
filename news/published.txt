@@ -1377,3 +1377,4 @@ https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
 https://simonwillison.net/2026/Jul/25/ruff/#atom-everything
 https://www.troyhunt.com/weekly-update-514/
 https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything
