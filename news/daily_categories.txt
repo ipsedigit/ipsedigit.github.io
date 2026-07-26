@@ -608,3 +608,4 @@
 2026-07-24:cloud:cloud:deep
 2026-07-25:security:vulnerability:breaking
 2026-07-25:software-engineering:architecture:deep
+2026-07-26:security:vulnerability:breaking
