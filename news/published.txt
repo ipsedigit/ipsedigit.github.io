@@ -1381,3 +1381,4 @@ https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything
 https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets
 https://world.hey.com/dhh/i-m-sorry-dave-380ec27d
 https://dev.to/gde/can-google-adk-talk-to-microsoft-foundry-on-azure-a-cross-cloud-a2a-benchmark-4h36
+https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything
