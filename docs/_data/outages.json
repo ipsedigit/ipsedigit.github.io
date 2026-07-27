@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-27T12:32:51.342984+00:00",
+  "generated_at": "2026-07-27T15:30:58.286718+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Issues with Snippets API",
-      "incident_url": "https://stspg.io/zj1wdthm3m6c",
-      "updated_at": "2026-07-27T12:05:20.133Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -84,10 +84,10 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Degraded dashboard performance",
+      "incident_url": "https://stspg.io/nmyp2rfkdxx3",
+      "updated_at": "2026-07-27T14:43:48.221Z"
     },
     {
       "name": "Vercel",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "Service Degradation Affecting Offline Meeting transcription in US Region.",
       "incident_url": "https://stspg.io/5bwhcxdf3rjm",
-      "updated_at": "2026-07-27T05:04:52.384-07:00"
+      "updated_at": "2026-07-27T05:45:08.336-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio Phone Numbers to Mascom and Orange Botswana",
-      "incident_url": "https://stspg.io/4zhj2c2rxd8j",
-      "updated_at": "2026-07-27T04:55:45.665-07:00"
+      "description": "Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala",
+      "incident_url": "https://stspg.io/ddwnr0gth0fd",
+      "updated_at": "2026-07-27T01:22:45.445-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "Elevated errors affecting ChatGPT conversations",
+      "status": "degraded",
+      "description": "Image generation unavailable in ChatGPT",
       "incident_url": "",
-      "updated_at": "2026-07-25T23:57:40Z"
+      "updated_at": "2026-07-27T14:04:55Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zj1wdthm3m6c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with Snippets API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5bwhcxdf3rjm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Offline Meeting transcription in US Region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4zhj2c2rxd8j\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Phone Numbers to Mascom and Orange Botswana</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-27 12:32 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nmyp2rfkdxx3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded dashboard performance</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ddwnr0gth0fd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-27 15:30 UTC</p>",
   "community": []
 }
