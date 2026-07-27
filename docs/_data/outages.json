@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-27T15:30:58.286718+00:00",
+  "generated_at": "2026-07-27T17:22:34.073335+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Errors in Security Rules Dashboard",
+      "incident_url": "https://stspg.io/4dqn278jh2fz",
+      "updated_at": "2026-07-27T17:09:42.519Z"
     },
     {
       "name": "CircleCI",
@@ -87,7 +87,7 @@
       "status": "degraded",
       "description": "Degraded dashboard performance",
       "incident_url": "https://stspg.io/nmyp2rfkdxx3",
-      "updated_at": "2026-07-27T14:43:48.221Z"
+      "updated_at": "2026-07-27T16:20:44.820Z"
     },
     {
       "name": "Vercel",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Error and profile ingestion issues in US",
+      "incident_url": "https://stspg.io/0cy4vyqy4yhr",
+      "updated_at": "2026-07-27T16:56:22.803Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala",
-      "incident_url": "https://stspg.io/ddwnr0gth0fd",
-      "updated_at": "2026-07-27T01:22:45.445-07:00"
+      "description": "SMS Delivery Delays from Twilio Phone Numbers to Beeline Armenia",
+      "incident_url": "https://stspg.io/wpbq3sqwzgrs",
+      "updated_at": "2026-07-27T10:18:50.884-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Image generation unavailable in ChatGPT",
       "incident_url": "",
-      "updated_at": "2026-07-27T14:04:55Z"
+      "updated_at": "2026-07-27T16:52:41Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nmyp2rfkdxx3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded dashboard performance</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ddwnr0gth0fd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-27 15:30 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4dqn278jh2fz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Errors in Security Rules Dashboard</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nmyp2rfkdxx3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded dashboard performance</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0cy4vyqy4yhr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Error and profile ingestion issues in US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wpbq3sqwzgrs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to Beeline Armenia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-27 17:22 UTC</p>",
   "community": []
 }
