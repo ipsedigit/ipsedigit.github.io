@@ -1385,3 +1385,4 @@ https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to
 https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
 https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
 https://danluu.com/exercise-7/
+https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything
