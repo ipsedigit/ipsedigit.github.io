@@ -1389,3 +1389,4 @@ https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything
 https://dev.to/demivalerith/what-if-your-release-notes-had-to-survive-a-playtest-37b8
 https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
 http://antirez.com/news/172
+https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
