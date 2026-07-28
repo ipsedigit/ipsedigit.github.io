@@ -1386,3 +1386,4 @@ https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-mi
 https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
 https://danluu.com/exercise-7/
 https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything
+https://dev.to/demivalerith/what-if-your-release-notes-had-to-survive-a-playtest-37b8
