@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29T14:58:02.378885+00:00",
+  "generated_at": "2026-07-29T16:35:45.697827+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 20,
+    "degraded": 4,
     "outage": 1,
     "unknown": 1
   },
@@ -42,7 +42,7 @@
       "status": "degraded",
       "description": "NetStorage Issues in Europe",
       "incident_url": "https://stspg.io/q0lztkjr3qtz",
-      "updated_at": "2026-07-29T14:48:18.318Z"
+      "updated_at": "2026-07-29T16:28:16.700Z"
     },
     {
       "name": "Cloudflare",
@@ -111,10 +111,10 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Real user monitoring, distribution and custom processes metrics delayed",
+      "incident_url": "https://stspg.io/0y0jgdxjp7hh",
+      "updated_at": "2026-07-29T12:35:04.669-04:00"
     },
     {
       "name": "New Relic",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Delays from Twilio to Fastweb SpA Italy",
       "incident_url": "https://stspg.io/ykdhphfqrgnp",
-      "updated_at": "2026-07-29T07:41:52.935-07:00"
+      "updated_at": "2026-07-29T09:34:54.938-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q0lztkjr3qtz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">NetStorage Issues in Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ykdhphfqrgnp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Fastweb SpA Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-29 14:58 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/q0lztkjr3qtz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">NetStorage Issues in Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0y0jgdxjp7hh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Real user monitoring, distribution and custom processes metrics delayed</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ykdhphfqrgnp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Fastweb SpA Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-29 16:35 UTC</p>",
   "community": []
 }
