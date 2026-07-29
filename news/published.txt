@@ -1391,3 +1391,4 @@ https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
 http://antirez.com/news/172
 https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
 https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
+https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/
