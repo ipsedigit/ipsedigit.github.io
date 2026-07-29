@@ -1397,3 +1397,4 @@ https://simonwillison.net/2026/Jul/28/uv/#atom-everything
 https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/
 https://mitchellh.com/writing/superlogical
 https://dev.to/futhgar/silent-drift-why-re-embedding-only-on-count-changes-rots-your-semantic-index-3k6h
+http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html
