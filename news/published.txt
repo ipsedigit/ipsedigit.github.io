@@ -1390,3 +1390,4 @@ https://dev.to/demivalerith/what-if-your-release-notes-had-to-survive-a-playtest
 https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
 http://antirez.com/news/172
 https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
+https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
