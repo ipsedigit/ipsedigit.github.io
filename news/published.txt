@@ -1393,3 +1393,4 @@ https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
 https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
 https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/
 https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything
+https://simonwillison.net/2026/Jul/28/uv/#atom-everything
