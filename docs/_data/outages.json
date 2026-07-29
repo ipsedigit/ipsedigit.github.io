@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T23:43:41.356127+00:00",
+  "generated_at": "2026-07-29T01:12:10.243457+00:00",
   "summary": {
     "total": 26,
-    "operational": 22,
-    "degraded": 2,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Guatemala",
-      "incident_url": "https://stspg.io/ddwnr0gth0fd",
-      "updated_at": "2026-07-28T16:36:58.960-07:00"
+      "description": "SMS Delivery Delays from Twilio to Metfone Cambodia",
+      "incident_url": "https://stspg.io/1hp5fj1qkcc0",
+      "updated_at": "2026-07-28T17:27:51.879-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Elevated error rates with the invalid_prompt error code",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-07-29T00:55:27Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ddwnr0gth0fd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Guatemala</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-28 23:43 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1hp5fj1qkcc0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Metfone Cambodia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-29 01:12 UTC</p>",
   "community": []
 }
