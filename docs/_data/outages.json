@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-30T11:55:13.565961+00:00",
+  "generated_at": "2026-07-30T14:17:54.136599+00:00",
   "summary": {
     "total": 26,
-    "operational": 22,
-    "degraded": 2,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Page Shield Email Notification Issues",
+      "incident_url": "https://stspg.io/t056l5164d9g",
+      "updated_at": "2026-07-30T13:16:03.107Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -102,10 +102,10 @@
       "name": "npm",
       "domain": "status.npmjs.org",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "intermittent Publish Failures",
+      "incident_url": "https://stspg.io/dd7tgr1zktrd",
+      "updated_at": "2026-07-30T12:06:39.073Z"
     },
     {
       "name": "Datadog",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Metfone Cambodia",
-      "incident_url": "https://stspg.io/1hp5fj1qkcc0",
-      "updated_at": "2026-07-30T04:39:51.291-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio to Unitel Angola",
+      "incident_url": "https://stspg.io/22qzwrjprjc0",
+      "updated_at": "2026-07-30T07:13:55.905-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Degraded performance on Claude Opus 4.8",
+      "incident_url": "https://stspg.io/6qltqbknbcmn",
+      "updated_at": "2026-07-30T13:43:19.969Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1hp5fj1qkcc0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Metfone Cambodia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-30 11:55 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t056l5164d9g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Page Shield Email Notification Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dd7tgr1zktrd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">npm</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">intermittent Publish Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/22qzwrjprjc0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Unitel Angola</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6qltqbknbcmn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded performance on Claude Opus 4.8</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-30 14:17 UTC</p>",
   "community": []
 }
