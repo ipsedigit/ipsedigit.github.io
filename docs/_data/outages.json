@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-30T07:15:08.266166+00:00",
+  "generated_at": "2026-07-30T09:46:16.572318+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Possible Network Congestion in North America region",
       "incident_url": "https://stspg.io/qw308jh2ynsj",
-      "updated_at": "2026-07-30T05:48:27.124Z"
+      "updated_at": "2026-07-30T07:57:42.193Z"
     },
     {
       "name": "CircleCI",
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Copilot model Anthropic Fable experiencing elevated errors",
+      "incident_url": "https://stspg.io/45g8r57kv3n9",
+      "updated_at": "2026-07-30T09:17:26.639Z"
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Unitel Angola",
-      "incident_url": "https://stspg.io/22qzwrjprjc0",
-      "updated_at": "2026-07-30T00:13:27.090-07:00"
+      "description": "SMS Delivery Delays from Twilio to Zamtel Zambia",
+      "incident_url": "https://stspg.io/y3bsphyzgcs9",
+      "updated_at": "2026-07-30T01:19:42.924-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -213,7 +213,7 @@
       "status": "degraded",
       "description": "Elevated errors across many models",
       "incident_url": "https://stspg.io/c0fmy7628y3w",
-      "updated_at": "2026-07-30T06:26:26.774Z"
+      "updated_at": "2026-07-30T08:33:35.770Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qw308jh2ynsj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Possible Network Congestion in North America region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/22qzwrjprjc0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Unitel Angola</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c0fmy7628y3w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors across many models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-30 07:15 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qw308jh2ynsj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Possible Network Congestion in North America region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/45g8r57kv3n9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Copilot model Anthropic Fable experiencing elevated errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y3bsphyzgcs9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Zamtel Zambia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c0fmy7628y3w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors across many models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-30 09:46 UTC</p>",
   "community": []
 }
