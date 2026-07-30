@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-30T04:22:54.386903+00:00",
+  "generated_at": "2026-07-30T07:15:08.266166+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 2,
-    "outage": 2,
+    "operational": 20,
+    "degraded": 4,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Possible Network Congestion in North America region",
+      "incident_url": "https://stspg.io/qw308jh2ynsj",
+      "updated_at": "2026-07-30T05:48:27.124Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "operational",
-      "description": "Service Degradation Affecting Zoom MCP Claude Marketplace Integration",
-      "incident_url": "https://stspg.io/hd9kty1gbfrc",
-      "updated_at": "2026-07-28T23:53:35.272-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Twilio Phone Numbers to Core Communications United States",
-      "incident_url": "https://stspg.io/vhyw1rj1ckqc",
-      "updated_at": "2026-07-29T21:21:49.246-07:00"
+      "description": "SMS Delivery Delays from Twilio to Unitel Angola",
+      "incident_url": "https://stspg.io/22qzwrjprjc0",
+      "updated_at": "2026-07-30T00:13:27.090-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,19 +201,19 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "outage",
-      "description": "INC20000115",
-      "incident_url": "https://stspg.io/2jfpk15p29pd",
-      "updated_at": "2026-07-30T04:17:38.354Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated errors across many models",
+      "incident_url": "https://stspg.io/c0fmy7628y3w",
+      "updated_at": "2026-07-30T06:26:26.774Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vhyw1rj1ckqc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to Core Communications United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2jfpk15p29pd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000115</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-30 04:22 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qw308jh2ynsj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Possible Network Congestion in North America region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/22qzwrjprjc0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Unitel Angola</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c0fmy7628y3w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors across many models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-07-30 07:15 UTC</p>",
   "community": []
 }
