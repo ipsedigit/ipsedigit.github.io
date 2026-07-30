@@ -619,3 +619,4 @@
 2026-07-29:software-engineering:architecture:breaking
 2026-07-30:security:vulnerability:breaking
 2026-07-30:security:malware:breaking
+2026-07-30:ai:ai:breaking
