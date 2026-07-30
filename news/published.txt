@@ -1400,3 +1400,4 @@ https://dev.to/futhgar/silent-drift-why-re-embedding-only-on-count-changes-rots-
 http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html
 https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html
 https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything
+https://www.hillelwayne.com/post/lfp/
