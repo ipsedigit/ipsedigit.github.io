@@ -1406,3 +1406,4 @@ https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
 https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything
 https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything
 https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/
+https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything
