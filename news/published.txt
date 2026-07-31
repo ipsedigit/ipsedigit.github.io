@@ -1413,3 +1413,4 @@ https://thehackernews.com/2026/07/researchers-show-single-malicious.html
 https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything
 https://dev.to/sumaninster/show-hn-telechat-self-hosted-claude-on-telegramwhatsappslack-no-cloud-relay-50dg
 https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything
+https://seangoedecke.com/ai-models-need-moral-support/
