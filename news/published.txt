@@ -1407,3 +1407,6 @@ https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything
 https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything
 https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/
 https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything
+https://dev.to/malvinjay/the-26-billion-leak-why-frameworks-are-making-your-codebase-rot-and-how-hexagonal-isolation-ian
+https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
+https://thehackernews.com/2026/07/researchers-show-single-malicious.html
