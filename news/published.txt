@@ -1411,3 +1411,4 @@ https://dev.to/malvinjay/the-26-billion-leak-why-frameworks-are-making-your-code
 https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
 https://thehackernews.com/2026/07/researchers-show-single-malicious.html
 https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything
+https://dev.to/sumaninster/show-hn-telechat-self-hosted-claude-on-telegramwhatsappslack-no-cloud-relay-50dg
