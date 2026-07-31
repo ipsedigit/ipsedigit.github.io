@@ -1416,3 +1416,4 @@ https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everythin
 https://seangoedecke.com/ai-models-need-moral-support/
 https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything
 http://www.righto.com/2026/07/ibm-604-trigger-tube-module.html
+https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything
