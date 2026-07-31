@@ -1415,3 +1415,4 @@ https://dev.to/sumaninster/show-hn-telechat-self-hosted-claude-on-telegramwhatsa
 https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything
 https://seangoedecke.com/ai-models-need-moral-support/
 https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything
+http://www.righto.com/2026/07/ibm-604-trigger-tube-module.html
