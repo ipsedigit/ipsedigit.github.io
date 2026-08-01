@@ -1424,3 +1424,4 @@ https://simonwillison.net/2026/Jul/31/smevals/#atom-everything
 https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
 https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything
 https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything
+https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything
