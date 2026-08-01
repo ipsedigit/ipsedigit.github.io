@@ -1419,3 +1419,4 @@ http://www.righto.com/2026/07/ibm-604-trigger-tube-module.html
 https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything
 https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html
 https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html
+https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything
