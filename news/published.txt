@@ -1432,3 +1432,4 @@ https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything
 https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
 https://seangoedecke.com/giving-and-taking-credit/
 https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
+https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything
