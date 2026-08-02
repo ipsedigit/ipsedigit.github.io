@@ -626,3 +626,5 @@
 2026-07-31:ai:llm:community
 2026-08-01:ai:llm:breaking
 2026-08-01:security:vulnerability:breaking
+2026-08-02:ai:llm:breaking
+2026-08-02:security:vulnerability:breaking
