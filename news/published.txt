@@ -1430,3 +1430,4 @@ https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html
 https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
 https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything
 https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
+https://seangoedecke.com/giving-and-taking-credit/
