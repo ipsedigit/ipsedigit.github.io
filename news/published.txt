@@ -1434,3 +1434,4 @@ https://seangoedecke.com/giving-and-taking-credit/
 https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
 https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything
 https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
+https://www.troyhunt.com/weekly-update-515/
