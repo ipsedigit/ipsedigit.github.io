@@ -1439,3 +1439,4 @@ https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_con
 https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything
 https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/
 https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything
+https://www.computerenhance.com/p/three-steps-from-scalar-to-simd
