@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-03T20:14:57.463738+00:00",
+  "generated_at": "2026-08-03T21:33:34.842179+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
+    "operational": 22,
     "degraded": 2,
-    "outage": 2,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays From Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell Canada",
-      "incident_url": "https://stspg.io/fsm5jq3vf9v4",
-      "updated_at": "2026-08-03T13:07:11.627-07:00"
+      "description": "Voice Call Silent and One-Way Audio from Brazil to a Subset of Twilio Brazil Phone Numbers",
+      "incident_url": "https://stspg.io/prt4f2y48s2t",
+      "updated_at": "2026-08-03T13:49:54.146-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,18 +193,18 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "Elevated errors on VoyageAI APIs",
-      "incident_url": "https://stspg.io/1d1g8p97f2g6",
-      "updated_at": "2026-08-03T19:02:33.840Z"
+      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
+      "incident_url": "https://stspg.io/mg7m971rdhw8",
+      "updated_at": "2026-06-03T15:46:56.709Z"
     },
     {
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "outage",
-      "description": "INC20000129",
-      "incident_url": "https://stspg.io/x023s6yf3mb7",
-      "updated_at": "2026-08-03T18:15:35.511Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m6sncw8b57f0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Workers Runtime API issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fsm5jq3vf9v4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays From Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell Canada</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x023s6yf3mb7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000129</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-03 20:14 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m6sncw8b57f0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Workers Runtime API issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/prt4f2y48s2t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Silent and One-Way Audio from Brazil to a Subset of Twilio Brazil Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-03 21:33 UTC</p>",
   "community": []
 }
