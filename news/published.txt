@@ -1446,3 +1446,4 @@ https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html
 https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything
 https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything
 https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything
+https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything
