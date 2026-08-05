@@ -632,3 +632,5 @@
 2026-08-03:devtools:languages:breaking
 2026-08-04:security:malware:breaking
 2026-08-04:security:threat-intel:breaking
+2026-08-05:security:vulnerability:breaking
+2026-08-05:ai:llm:community
