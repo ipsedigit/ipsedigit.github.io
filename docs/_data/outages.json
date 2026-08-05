@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05T12:17:45.043109+00:00",
+  "generated_at": "2026-08-05T14:56:31.386844+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -40,24 +40,24 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Reporting data availability issues in 'Traffic by Hostname' report",
-      "incident_url": "https://stspg.io/4mv2z0ry0lzw",
-      "updated_at": "2026-08-05T08:59:12.580Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Cloudflare Gateway Email List policy issues",
+      "incident_url": "https://stspg.io/0bwyqk3cyl91",
+      "updated_at": "2026-08-05T14:28:31.066Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Some Copilot Cloud Agent jobs not starting",
-      "incident_url": "https://stspg.io/kxdh3hfxm3zl",
-      "updated_at": "2026-08-05T12:10:46.469Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service degradation affecting Contact Center Analytics Dashboard for Voice Engagements in US Region.",
+      "incident_url": "https://stspg.io/by1jgtn9hgbf",
+      "updated_at": "2026-08-05T07:53:38.897-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Issues Connecting to Video Rooms in the IN1 region",
-      "incident_url": "https://stspg.io/gl049y27p64t",
-      "updated_at": "2026-08-05T02:35:29.486-07:00"
+      "description": "User Authentication Identity SNA Missing Redirects for Three in United Kingdom",
+      "incident_url": "https://stspg.io/qwpx5jgh6ggd",
+      "updated_at": "2026-08-05T07:45:23.297-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,28 +201,28 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "INC20000139",
+      "incident_url": "https://stspg.io/6k0kr0z5zjk5",
+      "updated_at": "2026-08-05T14:44:31.576Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Degraded performance of multiple models",
-      "incident_url": "https://stspg.io/s2ysk4zxbyy3",
-      "updated_at": "2026-08-05T09:13:49.092Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Elevated errors with image generation",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-08-05T14:55:59Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gl049y27p64t\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues Connecting to Video Rooms in the IN1 region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s2ysk4zxbyy3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded performance of multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-05 12:17 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0bwyqk3cyl91\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Gateway Email List policy issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/by1jgtn9hgbf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service degradation affecting Contact Center Analytics Dashboard for Voice Engagements in US Region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qwpx5jgh6ggd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">User Authentication Identity SNA Missing Redirects for Three in United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6k0kr0z5zjk5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000139</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-05 14:56 UTC</p>",
   "community": []
 }
