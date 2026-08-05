@@ -1451,3 +1451,4 @@ https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html
 https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything
 https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything
 https://simonwillison.net/2026/Aug/4/llm/#atom-everything
+https://dev.to/morizal/7-docker-compose-patterns-every-devops-engineer-should-know-2hf7
