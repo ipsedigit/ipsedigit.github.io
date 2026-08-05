@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05T20:10:10.253153+00:00",
+  "generated_at": "2026-08-05T21:34:12.392639+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 3,
     "outage": 1,
     "unknown": 1
   },
@@ -57,10 +57,10 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Insights service data is lagging",
-      "incident_url": "https://stspg.io/6qdzqdj5ww81",
-      "updated_at": "2026-08-05T18:25:05.018Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6qdzqdj5ww81\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Insights service data is lagging</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x95w9p0mdl4g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Failures from Twilio to Robi/Axoata Bangladesh</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-05 20:10 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/x95w9p0mdl4g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Failures from Twilio to Robi/Axoata Bangladesh</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-05 21:34 UTC</p>",
   "community": []
 }
