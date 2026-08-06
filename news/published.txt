@@ -1454,3 +1454,5 @@ https://simonwillison.net/2026/Aug/4/llm/#atom-everything
 https://dev.to/morizal/7-docker-compose-patterns-every-devops-engineer-should-know-2hf7
 https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything
 https://www.computerenhance.com/p/what-new-jobs
+https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything
+https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
