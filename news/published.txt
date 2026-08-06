@@ -1458,3 +1458,4 @@ https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything
 https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
 https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
+https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
