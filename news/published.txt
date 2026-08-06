@@ -1459,3 +1459,4 @@ https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
 https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
 https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
+https://dev.to/asmyshlyaev177/your-spa-probably-leaks-memory-your-playwright-suite-can-catch-it-93l
