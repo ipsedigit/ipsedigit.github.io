@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-06T10:12:21.602400+00:00",
+  "generated_at": "2026-08-06T12:20:51.885550+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 22,
+    "degraded": 2,
     "outage": 1,
     "unknown": 1
   },
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "degraded",
-      "description": "Delayed Error ingestion in our US region",
-      "incident_url": "https://stspg.io/g528fth7fzvw",
-      "updated_at": "2026-08-06T09:55:48.412Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Econet Burundi",
-      "incident_url": "https://stspg.io/lqt7nkft5ycl",
-      "updated_at": "2026-08-06T02:50:20.830-07:00"
+      "description": "SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico",
+      "incident_url": "https://stspg.io/53wylgck4c1z",
+      "updated_at": "2026-08-05T23:49:41.287-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Elasticsearch 9.5.0 contains a query-correctness defect",
       "incident_url": "https://stspg.io/21ysb6fmlb1g",
-      "updated_at": "2026-08-05T23:18:43.166Z"
+      "updated_at": "2026-08-06T12:12:42.075Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/g528fth7fzvw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Error ingestion in our US region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lqt7nkft5ycl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Econet Burundi</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-06 10:12 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/53wylgck4c1z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-06 12:20 UTC</p>",
   "community": []
 }
