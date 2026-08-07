@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:54:58.407863+00:00",
+  "generated_at": "2026-08-07T00:31:50.601672+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -57,19 +57,19 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Usage API data delayed for 8/5",
-      "incident_url": "https://stspg.io/kntq9cf4jgpk",
-      "updated_at": "2026-08-06T13:06:17.609Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Incident with Actions",
+      "incident_url": "https://stspg.io/rcz3fcm83sff",
+      "updated_at": "2026-08-07T00:06:24.921Z"
     },
     {
       "name": "Netlify",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Trouble Using Search Bar For Some Admins",
+      "incident_url": "https://slack-status.com/2026-08/1db1f200d420086a",
+      "updated_at": "2026-08-06T16:11:27-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Tigo Honduras",
-      "incident_url": "https://stspg.io/qtkh6zjrr7qx",
-      "updated_at": "2026-08-06T07:34:14.554-07:00"
+      "description": "Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers",
+      "incident_url": "https://stspg.io/7h38c1nz3by0",
+      "updated_at": "2026-08-06T16:17:03.342-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kntq9cf4jgpk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Usage API data delayed for 8/5</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qtkh6zjrr7qx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Tigo Honduras</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-06 14:54 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/1db1f200d420086a\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Using Search Bar For Some Admins</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7h38c1nz3by0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-07 00:31 UTC</p>",
   "community": []
 }
