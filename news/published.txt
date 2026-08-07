@@ -1464,3 +1464,4 @@ https://blog.cloudflare.com/kitesurf/
 https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
 https://www.tigrisdata.com/blog/sigv4/
 https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
+https://simonwillison.net/2026/Aug/6/datasette/#atom-everything
