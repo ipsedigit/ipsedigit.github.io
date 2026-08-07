@@ -1462,3 +1462,4 @@ https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everyth
 https://dev.to/asmyshlyaev177/your-spa-probably-leaks-memory-your-playwright-suite-can-catch-it-93l
 https://blog.cloudflare.com/kitesurf/
 https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
+https://www.tigrisdata.com/blog/sigv4/
