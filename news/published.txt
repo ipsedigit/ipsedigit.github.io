@@ -1467,3 +1467,4 @@ https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
 https://simonwillison.net/2026/Aug/6/datasette/#atom-everything
 https://seangoedecke.com/how-to-keep-thinking/
 https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything
+https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything
