@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T19:16:55.756523+00:00",
+  "generated_at": "2026-08-07T20:06:58.418102+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 22,
+    "degraded": 2,
     "outage": 1,
     "unknown": 1
   },
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "R2 Availability Issues",
       "incident_url": "https://stspg.io/f1bfmypj1dnh",
-      "updated_at": "2026-08-07T18:42:26.298Z"
+      "updated_at": "2026-08-07T19:39:57.416Z"
     },
     {
       "name": "CircleCI",
@@ -165,7 +165,7 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f1bfmypj1dnh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">R2 Availability Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tztsnnj3wd4c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to Chile</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-07 19:16 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f1bfmypj1dnh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">R2 Availability Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tztsnnj3wd4c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to Chile</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-07 20:06 UTC</p>",
   "community": []
 }
