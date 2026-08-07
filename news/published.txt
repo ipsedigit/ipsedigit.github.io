@@ -1470,3 +1470,4 @@ https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything
 https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything
 https://dev.to/singhamandeep007/multi-repo-to-monorepo-how-i-automated-6-go-microservice-releases-and-then-made-it-15x-faster-4e88
 https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything
+https://thenewstack.io/openai-astra-cybersecurity-delay/
