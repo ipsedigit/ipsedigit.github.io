@@ -1472,3 +1472,4 @@ https://dev.to/singhamandeep007/multi-repo-to-monorepo-how-i-automated-6-go-micr
 https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything
 https://thenewstack.io/openai-astra-cybersecurity-delay/
 https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
+https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything
