@@ -1475,3 +1475,4 @@ https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase
 https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything
 https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything
 https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything
+https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything
