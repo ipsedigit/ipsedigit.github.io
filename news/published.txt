@@ -1473,3 +1473,4 @@ https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything
 https://thenewstack.io/openai-astra-cybersecurity-delay/
 https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
 https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything
+https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything
