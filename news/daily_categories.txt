@@ -643,3 +643,4 @@
 2026-08-07:software-engineering:architecture:breaking
 2026-08-07:ai:ai:breaking
 2026-08-08:security:vulnerability:breaking
+2026-08-09:security:vulnerability:breaking
