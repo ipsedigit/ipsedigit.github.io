@@ -1478,3 +1478,4 @@ https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-
 https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything
 https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
 https://anubis.techaro.lol/blog/release/v1.27.0/
+https://dev.to/saurav_tb_pandey/safeguarding-your-systems-an-introduction-to-the-circuit-breaker-pattern-5dp
