@@ -1484,3 +1484,4 @@ https://dev.to/tigusigalpa/building-robust-crypto-data-pipelines-in-php-introduc
 https://seangoedecke.com/i-got-an-email-about-resistance/
 https://dev.to/tamizuddin/tailwind-css-v4-architecture-features-and-performance-upgrades-3fml
 https://seangoedecke.com/advanced-ai-sycophancy/
+https://world.hey.com/dhh/endless-execution-4157e065
