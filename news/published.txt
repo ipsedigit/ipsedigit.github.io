@@ -1482,3 +1482,4 @@ https://dev.to/saurav_tb_pandey/safeguarding-your-systems-an-introduction-to-the
 https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
 https://dev.to/tigusigalpa/building-robust-crypto-data-pipelines-in-php-introducing-the-token-terminal-sdk-21hk
 https://seangoedecke.com/i-got-an-email-about-resistance/
+https://dev.to/tamizuddin/tailwind-css-v4-architecture-features-and-performance-upgrades-3fml

@@ -646,3 +646,4 @@
 2026-08-09:security:vulnerability:breaking
 2026-08-09:software-engineering:design-patterns:breaking
 2026-08-09:devtools:cicd:breaking
+2026-08-09:software-engineering:performance:deep
