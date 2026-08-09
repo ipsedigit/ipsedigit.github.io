@@ -1480,3 +1480,4 @@ https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
 https://anubis.techaro.lol/blog/release/v1.27.0/
 https://dev.to/saurav_tb_pandey/safeguarding-your-systems-an-introduction-to-the-circuit-breaker-pattern-5dp
 https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
+https://dev.to/tigusigalpa/building-robust-crypto-data-pipelines-in-php-introducing-the-token-terminal-sdk-21hk
