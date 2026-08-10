@@ -1487,3 +1487,4 @@ https://seangoedecke.com/advanced-ai-sycophancy/
 https://world.hey.com/dhh/endless-execution-4157e065
 https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
 https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything
+https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything
