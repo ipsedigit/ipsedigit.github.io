@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:18:00.198106+00:00",
+  "generated_at": "2026-08-10T16:23:55.867477+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia and Philippines Landline Numbers",
-      "incident_url": "https://stspg.io/7h38c1nz3by0",
-      "updated_at": "2026-08-10T07:04:29.585-07:00"
+      "description": "400 Error on Plan Downgrades and Cancellations for Accounts with Dedicated IPs",
+      "incident_url": "https://stspg.io/b60yknnh3dbv",
+      "updated_at": "2026-08-10T09:21:26.658-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7h38c1nz3by0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia and Philippines Landline Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-10 15:18 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b60yknnh3dbv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">400 Error on Plan Downgrades and Cancellations for Accounts with Dedicated IPs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-10 16:23 UTC</p>",
   "community": []
 }
