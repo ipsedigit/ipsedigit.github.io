@@ -1492,3 +1492,5 @@ https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everythin
 https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything
 https://danluu.com/pl-tokens/
 https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
+https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/
