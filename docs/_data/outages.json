@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-10T08:47:20.096494+00:00",
+  "generated_at": "2026-08-10T10:22:07.588066+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
+    "operational": 22,
+    "degraded": 2,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)",
+      "incident_url": "https://stspg.io/ylw7b8q7xzjn",
+      "updated_at": "2026-08-10T10:15:40.295Z"
     },
     {
       "name": "CircleCI",
@@ -165,7 +165,7 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 2 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7h38c1nz3by0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-10 08:47 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ylw7b8q7xzjn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7h38c1nz3by0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/21ysb6fmlb1g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.0 contains a query-correctness defect</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-10 10:22 UTC</p>",
   "community": []
 }
