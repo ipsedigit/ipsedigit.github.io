@@ -1491,3 +1491,4 @@ https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything
 https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
 https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything
 https://danluu.com/pl-tokens/
+https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
