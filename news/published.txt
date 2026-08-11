@@ -1498,3 +1498,4 @@ https://www.computerenhance.com/p/branchless-absolute-value
 https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
 https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything
 https://seangoedecke.com/local-models-will-not-win/
+https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything
