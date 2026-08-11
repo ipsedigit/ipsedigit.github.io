@@ -1500,3 +1500,5 @@ https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything
 https://seangoedecke.com/local-models-will-not-win/
 https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything
 https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/
+https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
+https://newsletter.pragmaticengineer.com/p/optiver
