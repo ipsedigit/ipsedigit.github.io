@@ -1495,3 +1495,4 @@ https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
 https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
 https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/
 https://www.computerenhance.com/p/branchless-absolute-value
+https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
