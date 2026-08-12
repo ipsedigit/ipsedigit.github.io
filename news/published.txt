@@ -1506,3 +1506,4 @@ https://www.tigrisdata.com/blog/soft-delete-deep-dive/
 https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html
 https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa
 https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything
+https://dev.to/saurav_tb_pandey/canary-releases-how-to-stop-deploying-broken-code-to-everyone-c03
