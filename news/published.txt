@@ -1511,3 +1511,4 @@ https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything
 https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
 https://dev.to/dineshstack/how-to-migrate-laravel-13-nextjs-to-zero-downtime-vps-releases-17i3
 https://newsletter.pragmaticengineer.com/p/inside-anthropic
+https://www.troyhunt.com/weekly-update-516/
