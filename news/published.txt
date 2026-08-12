@@ -1508,3 +1508,6 @@ https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-for
 https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything
 https://dev.to/saurav_tb_pandey/canary-releases-how-to-stop-deploying-broken-code-to-everyone-c03
 https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything
+https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
+https://dev.to/dineshstack/how-to-migrate-laravel-13-nextjs-to-zero-downtime-vps-releases-17i3
+https://newsletter.pragmaticengineer.com/p/inside-anthropic

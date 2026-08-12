@@ -658,3 +658,6 @@
 2026-08-12:security:vulnerability:breaking
 2026-08-12:security:malware:breaking
 2026-08-12:devtools:frameworks:breaking
+2026-08-12:ai:llm:breaking
+2026-08-12:devtools:cicd:breaking
+2026-08-12:ai:ai:deep
