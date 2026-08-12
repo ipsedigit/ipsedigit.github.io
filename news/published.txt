@@ -1513,3 +1513,4 @@ https://dev.to/dineshstack/how-to-migrate-laravel-13-nextjs-to-zero-downtime-vps
 https://newsletter.pragmaticengineer.com/p/inside-anthropic
 https://www.troyhunt.com/weekly-update-516/
 https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything
+https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything
