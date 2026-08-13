@@ -1527,3 +1527,4 @@ https://dev.to/futhgar/hybrid-retrieval-v2-qwen-embeddings-bm25-and-rrf-with-a-f
 https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/
 https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/
 https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/
+https://simonwillison.net/2026/Aug/8/auto-mode/
