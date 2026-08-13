@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T07:54:38.337588+00:00",
+  "generated_at": "2026-08-13T09:17:44.707354+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -184,9 +184,9 @@
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Serverless project creation delayed or failing",
-      "incident_url": "https://stspg.io/yzl6213q1h2x",
-      "updated_at": "2026-08-13T06:04:49.216Z"
+      "description": "Increased error rates for microsoft-multilingual-e5-large",
+      "incident_url": "https://stspg.io/gwddkvwr42lr",
+      "updated_at": "2026-08-13T08:32:50.561Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/347ldjf3f7kl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Peru</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yzl6213q1h2x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Serverless project creation delayed or failing</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 07:54 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/347ldjf3f7kl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Peru</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 09:17 UTC</p>",
   "community": []
 }
