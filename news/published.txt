@@ -1521,3 +1521,4 @@ https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
 https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/
 https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/
 https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/
+https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/
