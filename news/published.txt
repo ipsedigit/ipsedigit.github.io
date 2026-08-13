@@ -1526,3 +1526,4 @@ https://dev.to/akarsh_7464bb454ffc25d1e2/how-to-approach-any-system-design-probl
 https://dev.to/futhgar/hybrid-retrieval-v2-qwen-embeddings-bm25-and-rrf-with-a-fastembed-reranker-1702
 https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/
 https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/
+https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/
