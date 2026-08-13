@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:26:13.302143+00:00",
+  "generated_at": "2026-08-13T17:31:33.426915+00:00",
   "summary": {
     "total": 26,
     "operational": 18,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Cloudflare Workers AI errors with Specific models",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/h79v9rn8h6ml",
-      "updated_at": "2026-08-13T15:15:35.000Z"
+      "description": "MCP Server Portal experiencing intermittent issues with user authentication",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/br0y58121k86",
+      "updated_at": "2026-08-13T17:08:30.000Z"
     },
     {
       "name": "CircleCI",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States",
       "incident_url": "https://stspg.io/n7w5z29wbrlh",
-      "updated_at": "2026-08-13T08:33:02.675-07:00"
+      "updated_at": "2026-08-13T09:33:56.820-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Elevated errors in ChatGPT conversations for Free users",
       "incident_url": "",
-      "updated_at": "2026-08-13T15:48:21Z"
+      "updated_at": "2026-08-13T16:54:25Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/h79v9rn8h6ml\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Workers AI errors with Specific models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n7w5z29wbrlh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 16:26 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/br0y58121k86\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MCP Server Portal experiencing intermittent issues with user authentication</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n7w5z29wbrlh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 17:31 UTC</p>",
   "community": []
 }
