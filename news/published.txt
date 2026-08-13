@@ -1519,3 +1519,4 @@ https://simonwillison.net/2026/Aug/5/raccoon-heist/
 https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
 https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
 https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/
+https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/
