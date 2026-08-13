@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T20:49:50.547495+00:00",
+  "generated_at": "2026-08-13T21:51:58.508176+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 18,
+    "degraded": 6,
     "outage": 1,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Increased 503s when making changes to Cloudflare dash and API for Magic Transit and Cloudflare WAN and CF1 Appliance",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/jxdzyqckdmqb",
-      "updated_at": "2026-08-13T20:09:15.000Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "Span & Transaction ingestion delayed in DE",
       "incident_url": "https://stspg.io/3dh3m2pvx8f2",
-      "updated_at": "2026-08-13T20:32:19.857Z"
+      "updated_at": "2026-08-13T21:22:18.091Z"
     },
     {
       "name": "Discord",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
+      "incident_url": "https://slack-status.com/2026-08/e07b9271f0346c3b",
+      "updated_at": "2026-08-13T14:49:40-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SendGrid product switcher signup unavailable",
-      "incident_url": "https://stspg.io/jk2h1cyxdp9q",
-      "updated_at": "2026-08-13T13:32:08.252-07:00"
+      "description": "SMS Delivery Delays from Twilio to Sky UK",
+      "incident_url": "https://stspg.io/g43k3nrkjklf",
+      "updated_at": "2026-08-13T13:00:29.752-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Error while creating custom RBAC roles for Enterprise users",
       "incident_url": "",
-      "updated_at": "2026-08-13T18:48:44Z"
+      "updated_at": "2026-08-13T21:25:28Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fl6gc32hqjk4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Connection drops and increased latency in Miami</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/jxdzyqckdmqb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased 503s when making changes to Cloudflare dash and API for Magic Transit and Cloudflare WAN and CF1 Appliance</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3dh3m2pvx8f2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Span & Transaction ingestion delayed in DE</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jk2h1cyxdp9q\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SendGrid product switcher signup unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 20:49 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fl6gc32hqjk4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Connection drops and increased latency in Miami</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3dh3m2pvx8f2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Span & Transaction ingestion delayed in DE</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/g43k3nrkjklf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Sky UK</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 21:51 UTC</p>",
   "community": []
 }
