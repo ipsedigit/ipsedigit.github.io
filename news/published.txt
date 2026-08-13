@@ -1525,3 +1525,4 @@ https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/
 https://dev.to/akarsh_7464bb454ffc25d1e2/how-to-approach-any-system-design-problem-5b0g
 https://dev.to/futhgar/hybrid-retrieval-v2-qwen-embeddings-bm25-and-rrf-with-a-fastembed-reranker-1702
 https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/
+https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/
