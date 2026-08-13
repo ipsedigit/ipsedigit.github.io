@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:34:01.140925+00:00",
+  "generated_at": "2026-08-13T14:08:30.935685+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from a Subset of Twilio Phone Numbers to Peru",
-      "incident_url": "https://stspg.io/347ldjf3f7kl",
-      "updated_at": "2026-08-13T00:10:56.857-07:00"
+      "description": "MMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States",
+      "incident_url": "https://stspg.io/n7w5z29wbrlh",
+      "updated_at": "2026-08-13T06:43:06.070-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "operational",
-      "description": "",
+      "description": "Error while creating custom RBAC roles for Enterprise users",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-08-13T14:03:49Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/347ldjf3f7kl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Peru</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 12:34 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n7w5z29wbrlh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 14:08 UTC</p>",
   "community": []
 }
