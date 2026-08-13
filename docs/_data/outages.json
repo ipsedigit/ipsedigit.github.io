@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:38:21.446560+00:00",
+  "generated_at": "2026-08-13T19:45:20.202903+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Certificate Provisioning System (CPS) Issues",
-      "incident_url": "https://stspg.io/79v4vcgswmwl",
-      "updated_at": "2026-08-13T14:17:59.225Z"
+      "description": "Connection drops and increased latency in Miami",
+      "incident_url": "https://stspg.io/fl6gc32hqjk4",
+      "updated_at": "2026-08-13T19:31:27.729Z"
     },
     {
       "name": "Cloudflare",
@@ -132,7 +132,7 @@
       "status": "degraded",
       "description": "Span & Transaction ingestion delayed in DE",
       "incident_url": "https://stspg.io/3dh3m2pvx8f2",
-      "updated_at": "2026-08-13T18:35:00.488Z"
+      "updated_at": "2026-08-13T19:34:57.315Z"
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States",
-      "incident_url": "https://stspg.io/n7w5z29wbrlh",
-      "updated_at": "2026-08-13T09:33:56.820-07:00"
+      "description": "SendGrid product switcher signup unavailable",
+      "incident_url": "https://stspg.io/jk2h1cyxdp9q",
+      "updated_at": "2026-08-13T12:41:09.373-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Elevated errors in ChatGPT conversations for Free users",
+      "description": "Error while creating custom RBAC roles for Enterprise users",
       "incident_url": "",
-      "updated_at": "2026-08-13T16:54:25Z"
+      "updated_at": "2026-08-13T18:48:44Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/79v4vcgswmwl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Certificate Provisioning System (CPS) Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3dh3m2pvx8f2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Span & Transaction ingestion delayed in DE</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n7w5z29wbrlh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 18:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fl6gc32hqjk4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Connection drops and increased latency in Miami</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3dh3m2pvx8f2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Span & Transaction ingestion delayed in DE</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jk2h1cyxdp9q\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SendGrid product switcher signup unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-13 19:45 UTC</p>",
   "community": []
 }
