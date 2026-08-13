@@ -665,3 +665,4 @@
 2026-08-13:ai:llm:community
 2026-08-13:security:vulnerability:breaking
 2026-08-13:security:malware:breaking
+2026-08-13:software-engineering:architecture:deep

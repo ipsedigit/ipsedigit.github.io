@@ -1522,3 +1522,4 @@ https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/
 https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/
 https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/
 https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/
+https://dev.to/akarsh_7464bb454ffc25d1e2/how-to-approach-any-system-design-problem-5b0g
