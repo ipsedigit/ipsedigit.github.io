@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-14T02:25:21.240728+00:00",
+  "generated_at": "2026-08-14T04:23:32.300322+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
+    "operational": 18,
     "degraded": 5,
     "outage": 1,
-    "unknown": 1
+    "unknown": 2
   },
   "services": [
     {
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from a Subset of Twilio Phone Numbers to Colombia",
-      "incident_url": "https://stspg.io/t4mmd66h5f48",
-      "updated_at": "2026-08-13T19:21:50.172-07:00"
+      "description": "SMS Delivery Delays from Twilio to Multiple Networks in Colombia",
+      "incident_url": "https://stspg.io/fmxqlj653ttm",
+      "updated_at": "2026-08-13T21:13:07.463-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,7 +210,7 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fl6gc32hqjk4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Connection drops and increased latency in Miami</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t4mmd66h5f48\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Colombia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-14 02:25 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fl6gc32hqjk4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Connection drops and increased latency in Miami</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fmxqlj653ttm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Multiple Networks in Colombia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/gwddkvwr42lr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased error rates for microsoft-multilingual-e5-large</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-14 04:23 UTC</p>",
   "community": []
 }
