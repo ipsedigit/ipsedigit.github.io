@@ -672,3 +672,4 @@
 2026-08-14:security:vulnerability:breaking
 2026-08-14:ai:llm:community
 2026-08-14:security:threat-intel:breaking
+2026-08-14:ai:ai:breaking
