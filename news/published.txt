@@ -1535,3 +1535,4 @@ https://simonwillison.net/2026/Aug/7/openai-timeline/
 https://simonwillison.net/2026/Aug/7/moonlight-mayhem/
 https://simonwillison.net/2026/Aug/13/sqlite-utils-2/
 https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/
+https://simonwillison.net/2026/Aug/13/sqlite-utils/
