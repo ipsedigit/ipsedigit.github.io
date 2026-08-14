@@ -1538,3 +1538,4 @@ https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-f
 https://simonwillison.net/2026/Aug/13/sqlite-utils/
 https://devops.com/microsoft-decouples-ai-agents-from-the-vs-code-editor-in-latest-release/
 https://devops.com/reflexs-newly-open-sourced-xy-library-offers-faster-python-charting/
+https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
