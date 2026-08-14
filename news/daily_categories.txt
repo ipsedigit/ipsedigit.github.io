@@ -669,3 +669,5 @@
 2026-08-13:cloud:aws:breaking
 2026-08-13:general:general:community
 2026-08-13:cloud:kubernetes:breaking
+2026-08-14:security:vulnerability:breaking
+2026-08-14:ai:llm:community
