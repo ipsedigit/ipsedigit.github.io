@@ -1533,3 +1533,4 @@ https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/
 https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/
 https://simonwillison.net/2026/Aug/7/openai-timeline/
 https://simonwillison.net/2026/Aug/7/moonlight-mayhem/
+https://simonwillison.net/2026/Aug/13/sqlite-utils-2/
