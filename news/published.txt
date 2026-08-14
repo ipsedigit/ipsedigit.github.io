@@ -1530,3 +1530,4 @@ https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kya
 https://simonwillison.net/2026/Aug/8/auto-mode/
 https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
 https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/
+https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/
