@@ -1547,3 +1547,4 @@ https://simonwillison.net/2026/Aug/15/sighting-391300422/
 https://simonwillison.net/2026/Aug/13/llm-gemini/
 https://simonwillison.net/2026/Aug/13/alchemy-utils/
 https://simonwillison.net/2026/Aug/12/alchemy-utils/
+https://xeiaso.net/notes/2026/blogposts-removed/
