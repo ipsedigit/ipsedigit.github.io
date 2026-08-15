@@ -1539,3 +1539,6 @@ https://simonwillison.net/2026/Aug/13/sqlite-utils/
 https://devops.com/microsoft-decouples-ai-agents-from-the-vs-code-editor-in-latest-release/
 https://devops.com/reflexs-newly-open-sourced-xy-library-offers-faster-python-charting/
 https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
+https://dev.to/haseebthedev0/building-a-zero-cloud-android-service-privacy-by-architecture-2oml
+https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
+https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/

@@ -674,3 +674,6 @@
 2026-08-14:security:threat-intel:breaking
 2026-08-14:ai:ai:breaking
 2026-08-14:cloud:cloud:community
+2026-08-15:software-engineering:architecture:deep
+2026-08-15:security:vulnerability:breaking
+2026-08-15:ai:llm:community
