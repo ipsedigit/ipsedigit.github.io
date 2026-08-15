@@ -1544,3 +1544,4 @@ https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
 https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/
 https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/
 https://simonwillison.net/2026/Aug/15/sighting-391300422/
+https://simonwillison.net/2026/Aug/13/llm-gemini/
