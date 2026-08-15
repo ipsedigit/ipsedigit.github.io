@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:48:14.006410+00:00",
+  "generated_at": "2026-08-15T13:34:28.352199+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -15,7 +15,7 @@
       "status": "degraded",
       "description": "Service impact: Increased Packet loss",
       "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Sat, 15 Aug 2026 04:10:29 PDT"
+      "updated_at": "Sat, 15 Aug 2026 06:17:50 PDT"
     },
     {
       "name": "Azure",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Orange/Soci Madagascar",
-      "incident_url": "https://stspg.io/njffl2q15yk2",
-      "updated_at": "2026-08-15T05:35:01.017-07:00"
+      "description": "SMS Delivery Delays from Twilio to Telemat Cel Brazil",
+      "incident_url": "https://stspg.io/n1gwqnp1vsh5",
+      "updated_at": "2026-08-15T05:55:16.127-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Packet loss</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/njffl2q15yk2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Orange/Soci Madagascar</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-15 12:48 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Packet loss</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/n1gwqnp1vsh5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Telemat Cel Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-15 13:34 UTC</p>",
   "community": []
 }
