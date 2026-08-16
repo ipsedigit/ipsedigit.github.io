@@ -1554,3 +1554,4 @@ https://simonwillison.net/2026/Aug/12/florian-herrengt/
 https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/
 https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/
 https://simonwillison.net/2026/Aug/16/dario-amodei/
+https://simonwillison.net/2026/Aug/10/openclaw/
