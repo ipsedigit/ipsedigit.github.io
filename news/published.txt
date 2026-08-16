@@ -1551,3 +1551,4 @@ https://xeiaso.net/notes/2026/blogposts-removed/
 https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
 https://simonwillison.net/2026/Aug/15/cors-chat/
 https://simonwillison.net/2026/Aug/12/florian-herrengt/
+https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/
