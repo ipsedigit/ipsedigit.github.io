@@ -1558,3 +1558,4 @@ https://simonwillison.net/2026/Aug/10/openclaw/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
 https://simonwillison.net/2026/Aug/16/qwen-38-27b/
 https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/
+https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/
