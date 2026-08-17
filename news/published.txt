@@ -1563,3 +1563,4 @@ https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html
 https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/
 https://dev.to/riteshkokam/creating-a-docker-image-for-beginners-a-complete-guide-2h20
 https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/
+https://www.computerenhance.com/p/simd-predicates
