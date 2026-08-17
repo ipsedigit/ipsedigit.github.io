@@ -1556,3 +1556,4 @@ https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/
 https://simonwillison.net/2026/Aug/16/dario-amodei/
 https://simonwillison.net/2026/Aug/10/openclaw/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
+https://simonwillison.net/2026/Aug/16/qwen-38-27b/
