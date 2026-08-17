@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T16:47:01.967055+00:00",
+  "generated_at": "2026-08-17T17:31:13.482237+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
+    "operational": 18,
     "degraded": 5,
-    "outage": 4,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -49,18 +49,18 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Cloudflare Dashboard Issues",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/p19kmglclwy4",
+      "updated_at": "2026-08-17T17:26:26.000Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "outage",
+      "status": "operational",
       "description": "GitHub Incidents impacting CircleCI functionality",
       "incident_url": "https://stspg.io/mk4lvmlx939f",
-      "updated_at": "2026-08-17T16:22:24.883Z"
+      "updated_at": "2026-08-17T17:23:06.241Z"
     },
     {
       "name": "GitHub",
@@ -69,13 +69,13 @@
       "status": "outage",
       "description": "Incident with GitHub.com",
       "incident_url": "https://stspg.io/y1fl26l6wpzr",
-      "updated_at": "2026-08-17T16:36:25.039Z"
+      "updated_at": "2026-08-17T17:30:49.647Z"
     },
     {
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "outage",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Packet loss</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mk4lvmlx939f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">GitHub Incidents impacting CircleCI functionality</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y1fl26l6wpzr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Incident with GitHub.com</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sqztsdm8bq4d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Partial disruption of Observability, Analytics, Firewall, Usage, and Login in Dashboard</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xqk6fhwxyvc3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Iraq</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-17 16:47 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Packet loss</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/p19kmglclwy4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Dashboard Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/y1fl26l6wpzr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Incident with GitHub.com</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sqztsdm8bq4d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Vercel</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Partial disruption of Observability, Analytics, Firewall, Usage, and Login in Dashboard</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xqk6fhwxyvc3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Iraq</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-17 17:31 UTC</p>",
   "community": []
 }
