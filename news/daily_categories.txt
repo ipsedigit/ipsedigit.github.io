@@ -678,3 +678,4 @@
 2026-08-15:security:vulnerability:breaking
 2026-08-15:ai:llm:community
 2026-08-16:security:vulnerability:breaking
+2026-08-17:security:vulnerability:breaking
