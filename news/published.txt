@@ -1568,3 +1568,4 @@ https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
 https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html
 https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
 https://seangoedecke.com/help-peer/
+https://www.troyhunt.com/weekly-update-517/
