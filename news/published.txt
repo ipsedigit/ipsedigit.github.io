@@ -1569,3 +1569,5 @@ https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html
 https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
 https://seangoedecke.com/help-peer/
 https://www.troyhunt.com/weekly-update-517/
+https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html
+https://newsletter.pragmaticengineer.com/p/the-pulse-quitting-spotify-podcasts
