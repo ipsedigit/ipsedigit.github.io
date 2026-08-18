@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-18T16:41:17.564939+00:00",
+  "generated_at": "2026-08-18T17:10:54.562826+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
-    "degraded": 3,
+    "degraded": 5,
     "outage": 1,
-    "unknown": 3
+    "unknown": 1
   },
   "services": [
     {
@@ -48,7 +48,7 @@
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
-      "status": "unknown",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "unknown",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
+      "incident_url": "https://slack-status.com/2026-08/e07b9271f0346c3b",
+      "updated_at": "2026-08-17T14:57:51-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Free Caraibe France",
-      "incident_url": "https://stspg.io/v64c4q1p53fd",
-      "updated_at": "2026-08-18T09:25:19.736-07:00"
+      "description": "Flex login errors with SSOv2",
+      "incident_url": "https://stspg.io/s8rj45zry66w",
+      "updated_at": "2026-08-18T10:10:16.227-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/v64c4q1p53fd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Free Caraibe France</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tcsfmtc03xgm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded performance for multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-18 16:41 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s8rj45zry66w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Flex login errors with SSOv2</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tcsfmtc03xgm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded performance for multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-18 17:10 UTC</p>",
   "community": []
 }
