@@ -1564,3 +1564,5 @@ https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/
 https://dev.to/riteshkokam/creating-a-docker-image-for-beginners-a-complete-guide-2h20
 https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/
 https://www.computerenhance.com/p/simd-predicates
+https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
+https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html
