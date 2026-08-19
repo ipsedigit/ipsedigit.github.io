@@ -1575,3 +1575,4 @@ https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
 https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/
 https://www.computerenhance.com/p/the-pattern-behind-x64-cmppspd-immediates
 https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/
+https://thenewstack.io/truefoundry-trueforge-claude-managed-agents/

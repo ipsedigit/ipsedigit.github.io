@@ -687,3 +687,4 @@
 2026-08-18:ai:ai:deep
 2026-08-19:security:vulnerability:breaking
 2026-08-19:security:malware:breaking
+2026-08-19:ai:llm:community
