@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:00:25.825620+00:00",
+  "generated_at": "2026-08-19T20:46:42.429323+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to T-Mobile Germany",
-      "incident_url": "https://stspg.io/4xktsryrbp0v",
-      "updated_at": "2026-08-19T12:59:36.344-07:00"
+      "description": "MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in United States",
+      "incident_url": "https://stspg.io/jg4r7h46rb9h",
+      "updated_at": "2026-08-19T13:46:04.364-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,9 +193,9 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-06-03T15:46:56.709Z"
+      "description": "Issues rotating certificates for groups containing only Atlas Free and Flex clusters",
+      "incident_url": "https://stspg.io/qbmmtp87vb40",
+      "updated_at": "2026-08-19T20:45:49.936Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Increased Error Rates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4xktsryrbp0v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to T-Mobile Germany</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-19 20:00 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Increased Error Rates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jg4r7h46rb9h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-19 20:46 UTC</p>",
   "community": []
 }
