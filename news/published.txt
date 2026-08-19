@@ -1576,3 +1576,4 @@ https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-e
 https://www.computerenhance.com/p/the-pattern-behind-x64-cmppspd-immediates
 https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/
 https://thenewstack.io/truefoundry-trueforge-claude-managed-agents/
+https://dev.to/zhukmax/deploying-signoz-in-2026-a-survival-guide-to-clickhouse-v25-and-otel-gotchas-3pec
