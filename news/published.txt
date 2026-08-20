@@ -1579,3 +1579,5 @@ https://thenewstack.io/truefoundry-trueforge-claude-managed-agents/
 https://dev.to/zhukmax/deploying-signoz-in-2026-a-survival-guide-to-clickhouse-v25-and-otel-gotchas-3pec
 https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/
 https://danluu.com/benchpocalypse/
+https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html
+https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html
