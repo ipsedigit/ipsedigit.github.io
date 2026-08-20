@@ -1583,3 +1583,4 @@ https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html
 https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html
 https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/
 https://xeiaso.net/notes/2026/anubis-csp-worker-hell/
+https://dev.to/duanjianming1981del/i-built-a-local-first-linter-for-vague-release-notes-50ln
