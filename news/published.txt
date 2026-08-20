@@ -1586,3 +1586,4 @@ https://xeiaso.net/notes/2026/anubis-csp-worker-hell/
 https://dev.to/duanjianming1981del/i-built-a-local-first-linter-for-vague-release-notes-50ln
 https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/
 https://www.computerenhance.com/p/pit-of-success
+https://seangoedecke.com/good-writing-is-obvious-not-original/
