@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:54:21.860703+00:00",
+  "generated_at": "2026-08-20T17:34:52.891850+00:00",
   "summary": {
     "total": 26,
     "operational": 18,
@@ -33,7 +33,7 @@
       "status": "degraded",
       "description": "UPDATE: We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region.",
       "incident_url": "https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf",
-      "updated_at": "2026-08-20T16:44:38+00:00"
+      "updated_at": "2026-08-20T17:32:16+00:00"
     },
     {
       "name": "Akamai",
@@ -51,7 +51,7 @@
       "status": "degraded",
       "description": "Durable Objects and Downstream Service Errors",
       "incident_url": "https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h",
-      "updated_at": "2026-08-20T16:48:25.000Z"
+      "updated_at": "2026-08-20T16:56:11.000Z"
     },
     {
       "name": "CircleCI",
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Intermittent failures creating agent tasks",
       "incident_url": "https://stspg.io/py1yl5mnq89c",
-      "updated_at": "2026-08-20T16:14:46.254Z"
+      "updated_at": "2026-08-20T17:33:55.889Z"
     },
     {
       "name": "Netlify",
@@ -87,7 +87,7 @@
       "status": "degraded",
       "description": "Deployment Issues",
       "incident_url": "https://stspg.io/w9f651b8gvj3",
-      "updated_at": "2026-08-20T16:12:12.959Z"
+      "updated_at": "2026-08-20T17:27:17.794Z"
     },
     {
       "name": "Vercel",
@@ -184,9 +184,9 @@
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Elasticsearch 9.5.1: false-positive matches in certain boolean queries",
-      "incident_url": "https://stspg.io/ljs46l5tgs50",
-      "updated_at": "2026-08-14T09:22:04.047Z"
+      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
+      "incident_url": "https://stspg.io/w6dmrtc20hz7",
+      "updated_at": "2026-08-10T16:46:19.746Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "operational",
-      "description": "",
+      "description": "Elevated Codex API authentication errors",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-08-20T17:15:51Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hj1xqrv6v50m\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting data availability issues in 'Traffic by Hostname' report</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Durable Objects and Downstream Service Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w9f651b8gvj3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Deployment Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ljs46l5tgs50\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elasticsearch 9.5.1: false-positive matches in certain boolean queries</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-20 16:54 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hj1xqrv6v50m\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting data availability issues in 'Traffic by Hostname' report</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Durable Objects and Downstream Service Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w9f651b8gvj3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Deployment Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-20 17:34 UTC</p>",
   "community": []
 }
