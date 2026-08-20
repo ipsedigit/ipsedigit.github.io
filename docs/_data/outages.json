@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:01:28.044485+00:00",
+  "generated_at": "2026-08-20T14:56:00.474413+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Certificate Provisioning System (CPS) issues",
-      "incident_url": "https://stspg.io/c68h05gxfdxr",
-      "updated_at": "2026-08-20T00:20:55.551Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Cloudflare",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Intermittent failures creating agent tasks",
+      "incident_url": "https://stspg.io/py1yl5mnq89c",
+      "updated_at": "2026-08-20T14:51:51.498Z"
     },
     {
       "name": "Netlify",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States",
       "incident_url": "https://stspg.io/v10lz8vxlcgt",
-      "updated_at": "2026-08-20T06:35:31.177-07:00"
+      "updated_at": "2026-08-20T07:05:10.974-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Issue when creating Serverless projects in Azure eastus region",
       "incident_url": "https://stspg.io/8fnt7p434gn5",
-      "updated_at": "2026-08-20T12:48:02.388Z"
+      "updated_at": "2026-08-20T14:05:15.456Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -204,7 +204,7 @@
       "status": "degraded",
       "description": "INC20000168",
       "incident_url": "https://stspg.io/xqvmh2g7cf11",
-      "updated_at": "2026-08-20T13:47:11.517Z"
+      "updated_at": "2026-08-20T14:39:33.101Z"
     },
     {
       "name": "Anthropic",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Elevated Errors for Thinking mode in ChatGPT ",
       "incident_url": "",
-      "updated_at": "2026-08-20T13:56:21Z"
+      "updated_at": "2026-08-20T14:53:57Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/xh5t9jy2cl6x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/v10lz8vxlcgt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8fnt7p434gn5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issue when creating Serverless projects in Azure eastus region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xqvmh2g7cf11\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000168</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-20 14:01 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/xh5t9jy2cl6x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/v10lz8vxlcgt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8fnt7p434gn5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Issue when creating Serverless projects in Azure eastus region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xqvmh2g7cf11\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000168</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-20 14:56 UTC</p>",
   "community": []
 }
