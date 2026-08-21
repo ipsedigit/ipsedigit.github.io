@@ -1591,3 +1591,4 @@ https://simonwillison.net/2026/Aug/19/jeremy-morrell/
 https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
 https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/
 https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
+https://simonwillison.net/2026/Aug/20/bun-webview-json-api/
