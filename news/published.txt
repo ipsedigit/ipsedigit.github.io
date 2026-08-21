@@ -1593,3 +1593,4 @@ https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crat
 https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
 https://simonwillison.net/2026/Aug/20/bun-webview-json-api/
 https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/
+https://thenewstack.io/ai-agents-refactoring-benchmarks/
