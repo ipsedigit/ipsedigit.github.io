@@ -1603,3 +1603,4 @@ https://simonwillison.net/2026/Aug/21/llm-openrouter/
 https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://simonwillison.net/2026/Aug/21/matt-webb/
 https://simonwillison.net/2026/Aug/22/more-than-just-code-review/
+https://lucumr.pocoo.org/2026/8/22/fast-hard-code/
