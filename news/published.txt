@@ -1596,3 +1596,5 @@ https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/
 https://thenewstack.io/ai-agents-refactoring-benchmarks/
 https://simonwillison.net/2026/Aug/21/stop-making-tuis/
 https://simonwillison.net/2026/Aug/21/llm/
+https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
+https://thenewstack.io/anthropic-mythos-claude-security/
