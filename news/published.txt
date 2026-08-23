@@ -1604,3 +1604,5 @@ https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=info
 https://simonwillison.net/2026/Aug/21/matt-webb/
 https://simonwillison.net/2026/Aug/22/more-than-just-code-review/
 https://lucumr.pocoo.org/2026/8/22/fast-hard-code/
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+https://devops.com/hackers-target-popular-arrayref-rust-crate-in-supply-chain-attack/
