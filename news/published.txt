@@ -1609,3 +1609,4 @@ https://devops.com/hackers-target-popular-arrayref-rust-crate-in-supply-chain-at
 https://simonwillison.net/2026/Aug/22/linus-torvalds/
 https://dev.to/tejas_kp/kubernetes-architecture-32c9
 https://danluu.com/perf-opt/
+https://www.troyhunt.com/welcoming-the-sri-lankan-government-to-have-i-been-pwned/
