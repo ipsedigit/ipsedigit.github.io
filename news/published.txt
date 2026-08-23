@@ -1607,3 +1607,4 @@ https://lucumr.pocoo.org/2026/8/22/fast-hard-code/
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
 https://devops.com/hackers-target-popular-arrayref-rust-crate-in-supply-chain-attack/
 https://simonwillison.net/2026/Aug/22/linus-torvalds/
+https://dev.to/tejas_kp/kubernetes-architecture-32c9
