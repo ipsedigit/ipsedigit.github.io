@@ -1608,3 +1608,4 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-activel
 https://devops.com/hackers-target-popular-arrayref-rust-crate-in-supply-chain-attack/
 https://simonwillison.net/2026/Aug/22/linus-torvalds/
 https://dev.to/tejas_kp/kubernetes-architecture-32c9
+https://danluu.com/perf-opt/
