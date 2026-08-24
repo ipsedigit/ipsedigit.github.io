@@ -1616,3 +1616,4 @@ https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html
 https://feeds.hanselman.com/~/968151545/0/scotthanselman~Migrating-a-Synology-NAS-to-a-UniFi-UNAS-Pro-with-Robocopy-SMB-Multichannel-and-Surprising-Performance-Traps
 https://www.troyhunt.com/weekly-update-518/
 https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/
+https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/
