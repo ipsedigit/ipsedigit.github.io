@@ -1612,3 +1612,4 @@ https://danluu.com/perf-opt/
 https://www.troyhunt.com/welcoming-the-sri-lankan-government-to-have-i-been-pwned/
 https://simonwillison.net/2026/Aug/22/llm/
 https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/
+https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html
