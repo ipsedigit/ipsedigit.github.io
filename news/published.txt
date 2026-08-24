@@ -1614,3 +1614,4 @@ https://simonwillison.net/2026/Aug/22/llm/
 https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/
 https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html
 https://feeds.hanselman.com/~/968151545/0/scotthanselman~Migrating-a-Synology-NAS-to-a-UniFi-UNAS-Pro-with-Robocopy-SMB-Multichannel-and-Surprising-Performance-Traps
+https://www.troyhunt.com/weekly-update-518/
