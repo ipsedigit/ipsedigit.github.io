@@ -1617,3 +1617,4 @@ https://feeds.hanselman.com/~/968151545/0/scotthanselman~Migrating-a-Synology-NA
 https://www.troyhunt.com/weekly-update-518/
 https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/
 https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/
+https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/
