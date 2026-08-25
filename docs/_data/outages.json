@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:34:43.132819+00:00",
+  "generated_at": "2026-08-25T21:05:38.856969+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Media Services Live 4 (MSL4) Issues",
-      "incident_url": "https://stspg.io/8sck90r4zmyj",
-      "updated_at": "2026-08-25T18:27:44.570Z"
+      "description": "Reporting data availability issues in 'Traffic by Hostname' report",
+      "incident_url": "https://stspg.io/hj1xqrv6v50m",
+      "updated_at": "2026-08-25T20:43:41.165Z"
     },
     {
       "name": "Cloudflare",
@@ -159,7 +159,7 @@
       "status": "degraded",
       "description": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
       "incident_url": "https://slack-status.com/2026-08/e07b9271f0346c3b",
-      "updated_at": "2026-08-20T15:54:59-07:00"
+      "updated_at": "2026-08-25T13:55:43-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to Drillisch 1&1 Germany",
-      "incident_url": "https://stspg.io/wp7q3dt57h01",
-      "updated_at": "2026-08-25T13:11:56.215-07:00"
+      "description": "MMS Delivery Delays from a Subset of Twilio Long Codes to Videotron Canada",
+      "incident_url": "https://stspg.io/2rxvlx4rcwzh",
+      "updated_at": "2026-08-25T13:58:26.391-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/wp7q3dt57h01\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Phone Numbers to Drillisch 1&1 Germany</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-25 20:34 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2rxvlx4rcwzh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from a Subset of Twilio Long Codes to Videotron Canada</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-08-25 21:05 UTC</p>",
   "community": []
 }
