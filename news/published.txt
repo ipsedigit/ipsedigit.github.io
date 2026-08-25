@@ -1620,3 +1620,5 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-ac
 https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/
 https://simonwillison.net/2026/Aug/23/drew-breunig/
 https://simonwillison.net/2026/Aug/24/llm-anthropic/
+https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
+https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
