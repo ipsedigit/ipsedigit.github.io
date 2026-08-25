@@ -1624,3 +1624,4 @@ https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
 https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
 https://devops.com/report-shines-spotlight-on-91-vulnerabilities-fixed-in-latest-update-to-spring-framework/
 https://huggingface.co/blog/pwc-search
+https://dev.to/nan_e7f05de9715d468fcd671/i-built-a-browser-game-with-nextjs-16-cloudflare-workers-and-a-d1-database-oe8
