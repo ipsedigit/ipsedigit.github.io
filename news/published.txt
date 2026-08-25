@@ -1622,3 +1622,5 @@ https://simonwillison.net/2026/Aug/23/drew-breunig/
 https://simonwillison.net/2026/Aug/24/llm-anthropic/
 https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
 https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+https://devops.com/report-shines-spotlight-on-91-vulnerabilities-fixed-in-latest-update-to-spring-framework/
+https://huggingface.co/blog/pwc-search

@@ -705,3 +705,5 @@
 2026-08-24:security:vulnerability:breaking
 2026-08-25:security:malware:breaking
 2026-08-25:security:vulnerability:breaking
+2026-08-25:ai:ai:breaking
+2026-08-25:ai:ai-research:deep
