@@ -1628,3 +1628,4 @@ https://dev.to/nan_e7f05de9715d468fcd671/i-built-a-browser-game-with-nextjs-16-c
 https://www.computerenhance.com/p/q-and-a-87-2026-08-25
 https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
 https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
+https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/
