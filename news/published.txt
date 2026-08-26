@@ -1631,3 +1631,4 @@ https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification
 https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/
 https://www.computerenhance.com/p/theroot
 https://simonwillison.net/2026/Aug/26/paul-dix/
+https://xeiaso.net/notes/2026/vscode-remotes-not-working-downgrade/
