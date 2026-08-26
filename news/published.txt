@@ -1630,3 +1630,4 @@ https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in
 https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
 https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/
 https://www.computerenhance.com/p/theroot
+https://simonwillison.net/2026/Aug/26/paul-dix/
