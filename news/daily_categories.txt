@@ -708,3 +708,4 @@
 2026-08-25:ai:ai:breaking
 2026-08-25:ai:ai-research:deep
 2026-08-25:general:general:community
+2026-08-26:security:vulnerability:breaking
