@@ -1634,3 +1634,4 @@ https://simonwillison.net/2026/Aug/26/paul-dix/
 https://xeiaso.net/notes/2026/vscode-remotes-not-working-downgrade/
 https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/
 https://thenewstack.io/openai-astra-persistent-agents/
+https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
