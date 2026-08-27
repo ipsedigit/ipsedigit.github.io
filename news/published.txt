@@ -1636,3 +1636,4 @@ https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hug
 https://thenewstack.io/openai-astra-persistent-agents/
 https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
 https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/
+https://xeiaso.net/notes/2026/vscode-ui-revert/
