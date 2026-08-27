@@ -1641,3 +1641,4 @@ https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-41992/
 https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
 https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b
+https://thenewstack.io/microsoft-agent-lightning-harness/
