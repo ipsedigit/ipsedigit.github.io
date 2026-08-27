@@ -1638,3 +1638,4 @@ https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
 https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/
 https://xeiaso.net/notes/2026/vscode-ui-revert/
 https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-41992/
