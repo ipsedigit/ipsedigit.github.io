@@ -1649,3 +1649,4 @@ https://seangoedecke.com/selling-out/
 https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
 https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/
 https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/
+https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
