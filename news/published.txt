@@ -1644,3 +1644,4 @@ https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-
 https://thenewstack.io/microsoft-agent-lightning-harness/
 https://devops.com/sonar-ai-agent-discovers-vulnerabilities-hidden-in-business-logic-workflows/
 https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
+https://feeds.hanselman.com/~/968351264/0/scotthanselman~Debugging-my-new-network-when-Gigabit-Ethernet-Runs-at-Megabits
