@@ -716,3 +716,5 @@
 2026-08-27:ai:ai:breaking
 2026-08-27:ai:ai:breaking
 2026-08-27:ai:ai:breaking
+2026-08-28:ai:ai:breaking
+2026-08-28:security:vulnerability:breaking
