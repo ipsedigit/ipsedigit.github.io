@@ -1646,3 +1646,4 @@ https://devops.com/sonar-ai-agent-discovers-vulnerabilities-hidden-in-business-l
 https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
 https://feeds.hanselman.com/~/968351264/0/scotthanselman~Debugging-my-new-network-when-Gigabit-Ethernet-Runs-at-Megabits
 https://seangoedecke.com/selling-out/
+https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
