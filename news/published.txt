@@ -1650,3 +1650,5 @@ https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
 https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/
 https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/
 https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
+https://thenewstack.io/qwen38-flash-previews-qwen4/
+https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
