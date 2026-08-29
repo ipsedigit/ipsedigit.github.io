@@ -722,3 +722,4 @@
 2026-08-28:ai:ai:breaking
 2026-08-29:ai:ai-research:breaking
 2026-08-29:security:vulnerability:breaking
+2026-08-29:software-engineering:performance:deep

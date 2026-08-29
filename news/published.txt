@@ -1652,3 +1652,4 @@ https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-
 https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
 https://thenewstack.io/qwen38-flash-previews-qwen4/
 https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
+https://dev.to/lucas_guimaraes/axonasp-vs-native-iis-asp-performance-benchmarks-and-engine-architecture-2jdj
