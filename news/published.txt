@@ -1656,3 +1656,4 @@ https://dev.to/lucas_guimaraes/axonasp-vs-native-iis-asp-performance-benchmarks-
 https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
 https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/
 https://devops.com/cybersecurity-researchers-uncover-flaw-in-google-ai-coding-tool/
+https://seangoedecke.com/you-have-to-beat-the-models-at-something/
