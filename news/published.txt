@@ -1658,3 +1658,4 @@ https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-clus
 https://devops.com/cybersecurity-researchers-uncover-flaw-in-google-ai-coding-tool/
 https://seangoedecke.com/you-have-to-beat-the-models-at-something/
 https://simonwillison.net/2026/Aug/29/hy4/
+http://www.righto.com/2026/08/spacelab-core-memory.html
