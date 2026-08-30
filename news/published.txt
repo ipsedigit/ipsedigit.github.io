@@ -1653,3 +1653,6 @@ https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
 https://thenewstack.io/qwen38-flash-previews-qwen4/
 https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
 https://dev.to/lucas_guimaraes/axonasp-vs-native-iis-asp-performance-benchmarks-and-engine-architecture-2jdj
+https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
+https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/
+https://devops.com/cybersecurity-researchers-uncover-flaw-in-google-ai-coding-tool/

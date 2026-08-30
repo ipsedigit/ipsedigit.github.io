@@ -723,3 +723,6 @@
 2026-08-29:ai:ai-research:breaking
 2026-08-29:security:vulnerability:breaking
 2026-08-29:software-engineering:performance:deep
+2026-08-30:security:vulnerability:breaking
+2026-08-30:cloud:kubernetes:breaking
+2026-08-30:ai:ai-research:deep
