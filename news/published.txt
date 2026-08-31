@@ -1662,3 +1662,4 @@ http://www.righto.com/2026/08/spacelab-core-memory.html
 https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/
 https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html
 https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
+https://thenewstack.io/tide-raziel-emergent-authority/
