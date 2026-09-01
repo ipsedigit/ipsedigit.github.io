@@ -1676,3 +1676,4 @@ https://deepmind.google/blog/introducing-agentic-video-in-gemini/
 https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/
 https://simonwillison.net/2026/Sep/1/codex-libreoffice/
 https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
+https://www.troyhunt.com/weekly-update-519/
