@@ -1673,3 +1673,4 @@ https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html
 https://simonwillison.net/2026/Aug/31/andrew-digby/
 https://www.hillelwayne.com/post/predicate-logic/
 https://deepmind.google/blog/introducing-agentic-video-in-gemini/
+https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/
