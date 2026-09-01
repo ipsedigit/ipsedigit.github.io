@@ -1667,3 +1667,6 @@ https://blog.codinghorror.com/you-cant-vibe-code-love/
 https://devops.com/broadcom-launches-trusted-artifact-service-for-spring-framework/
 https://www.computerenhance.com/p/simd-masking
 https://simonwillison.net/2026/Aug/31/introducing-wrapture/
+https://shopify.engineering/flashlist-v2
+https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/
+https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html
