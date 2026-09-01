@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T10:29:56.968146+00:00",
+  "generated_at": "2026-09-01T15:08:48.921898+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 7,
+    "operational": 16,
+    "degraded": 8,
     "outage": 1,
     "unknown": 1
   },
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Requests from wrangler or other OAuth clients may experience elevated errors",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/3mjmdcmm86nx",
-      "updated_at": "2026-09-01T09:41:17.000Z"
+      "description": "HTTP/3 issue affecting R2 custom domains",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk",
+      "updated_at": "2026-09-01T14:46:03.000Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Delays in commit processing",
+      "incident_url": "https://stspg.io/0xbhhq84v4mt",
+      "updated_at": "2026-09-01T15:00:46.088Z"
     },
     {
       "name": "Netlify",
@@ -130,9 +130,9 @@
       "domain": "status.sentry.io",
       "category": "observability",
       "status": "degraded",
-      "description": "Sentry requests timing out / 504's",
-      "incident_url": "https://stspg.io/hks9pdczmhhv",
-      "updated_at": "2026-09-01T09:03:51.516Z"
+      "description": "Span ingestion is degraded in US",
+      "incident_url": "https://stspg.io/nc8v40xh55zt",
+      "updated_at": "2026-09-01T14:16:13.188Z"
     },
     {
       "name": "Discord",
@@ -165,28 +165,28 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Zoom Node.",
-      "incident_url": "https://stspg.io/kbxw5klcqnh3",
-      "updated_at": "2026-08-31T22:12:04.138-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to H3G United Kingdom",
-      "incident_url": "https://stspg.io/b25jl5853zjc",
-      "updated_at": "2026-09-01T03:26:25.968-07:00"
+      "description": "SMS Delivery Delays from Twilio to Orange Democratic Republic of the Congo",
+      "incident_url": "https://stspg.io/57ydvfhx02n6",
+      "updated_at": "2026-09-01T07:56:47.244-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Slow bulk index operations",
+      "description": "Replication bug causing slow recoveries",
       "incident_url": "https://stspg.io/nx73hprsrgph",
-      "updated_at": "2026-09-01T08:16:01.110Z"
+      "updated_at": "2026-09-01T12:03:49.840Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "degraded",
-      "description": "INC20000190",
-      "incident_url": "https://stspg.io/5css9pgmdpnq",
-      "updated_at": "2026-09-01T09:58:33.573Z"
+      "description": "INC20000150",
+      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
+      "updated_at": "2026-08-31T23:36:34.525Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3mjmdcmm86nx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Requests from wrangler or other OAuth clients may experience elevated errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hks9pdczmhhv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Sentry requests timing out / 504's</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kbxw5klcqnh3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Node.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b25jl5853zjc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to H3G United Kingdom</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nx73hprsrgph\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Slow bulk index operations</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5css9pgmdpnq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000190</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-01 10:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">HTTP/3 issue affecting R2 custom domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0xbhhq84v4mt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in commit processing</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nc8v40xh55zt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Span ingestion is degraded in US</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/57ydvfhx02n6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Orange Democratic Republic of the Congo</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nx73hprsrgph\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Replication bug causing slow recoveries</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-01 15:08 UTC</p>",
   "community": []
 }
