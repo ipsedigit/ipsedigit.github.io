@@ -1674,3 +1674,4 @@ https://simonwillison.net/2026/Aug/31/andrew-digby/
 https://www.hillelwayne.com/post/predicate-logic/
 https://deepmind.google/blog/introducing-agentic-video-in-gemini/
 https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/
+https://simonwillison.net/2026/Sep/1/codex-libreoffice/
