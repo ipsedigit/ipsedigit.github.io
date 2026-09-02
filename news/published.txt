@@ -1680,3 +1680,4 @@ https://www.troyhunt.com/weekly-update-519/
 https://shopify.engineering/react-native-new-architecture
 https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html
 https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
+https://simonwillison.net/2026/Sep/1/claude-fable-5-1/
