@@ -1682,3 +1682,4 @@ https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-t
 https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
 https://simonwillison.net/2026/Sep/1/claude-fable-5-1/
 https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
+https://seangoedecke.com/how-to-protect-yourself-from-workslop/
