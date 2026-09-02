@@ -1685,3 +1685,4 @@ https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
 https://seangoedecke.com/how-to-protect-yourself-from-workslop/
 https://simonwillison.net/2026/Sep/2/rick-brewster/
 https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
+https://simonwillison.net/2026/Sep/2/llm-gemini/
