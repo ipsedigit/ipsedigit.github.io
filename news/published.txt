@@ -1677,3 +1677,6 @@ https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-
 https://simonwillison.net/2026/Sep/1/codex-libreoffice/
 https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
 https://www.troyhunt.com/weekly-update-519/
+https://shopify.engineering/react-native-new-architecture
+https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html
+https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html

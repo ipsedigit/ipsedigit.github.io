@@ -736,3 +736,6 @@
 2026-09-01:ai:llm:breaking
 2026-09-01:ai:ai:breaking
 2026-09-01:ai:ai:breaking
+2026-09-02:software-engineering:architecture:deep
+2026-09-02:security:cryptography:breaking
+2026-09-02:security:vulnerability:breaking
