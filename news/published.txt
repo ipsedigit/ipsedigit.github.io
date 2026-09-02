@@ -1683,3 +1683,4 @@ https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
 https://simonwillison.net/2026/Sep/1/claude-fable-5-1/
 https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
 https://seangoedecke.com/how-to-protect-yourself-from-workslop/
+https://simonwillison.net/2026/Sep/2/rick-brewster/
