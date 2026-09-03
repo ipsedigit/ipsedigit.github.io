@@ -1692,3 +1692,4 @@ https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html
 https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/
 https://simonwillison.net/2026/Sep/1/geojson/
 https://danluu.com/zitron/
+https://dev.to/srdjan_poppovic/ten-containers-one-developer-the-architecture-of-a-web-gis-32io
