@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-03T15:13:05.465011+00:00",
+  "generated_at": "2026-09-03T18:43:46.379896+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 8,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -30,10 +30,10 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.",
+      "incident_url": "https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev",
+      "updated_at": "2026-09-03T17:47:02+00:00"
     },
     {
       "name": "Akamai",
@@ -51,13 +51,13 @@
       "status": "degraded",
       "description": "HTTP/3 issue affecting R2 custom domains",
       "incident_url": "https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk",
-      "updated_at": "2026-09-01T14:46:03.000Z"
+      "updated_at": "2026-09-03T15:14:39.000Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Incident with Grok Copilot AI Model Provider",
-      "incident_url": "https://stspg.io/p217h6l54208",
-      "updated_at": "2026-09-03T14:22:44.370Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -111,10 +111,10 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Delayed CICD Optimization, Code Coverage, Code Security, and DORA data",
+      "incident_url": "https://stspg.io/zstf1zx7hfy3",
+      "updated_at": "2026-09-03T13:59:37.515-04:00"
     },
     {
       "name": "New Relic",
@@ -139,9 +139,9 @@
       "domain": "discordstatus.com",
       "category": "communication",
       "status": "operational",
-      "description": "Some servers unavailable",
-      "incident_url": "https://stspg.io/c16w1zbh6v2x",
-      "updated_at": "2026-09-03T08:01:44.901-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Microsoft 365",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Delays from Twilio to Multiple Networks in United States",
-      "incident_url": "https://stspg.io/h9dxg79d435f",
-      "updated_at": "2026-09-03T07:16:58.161-07:00"
+      "description": "MMS Delivery Report Delays from a Subset of Twilio Long Codes to C-Spire United States",
+      "incident_url": "https://stspg.io/ybxz6nw6c0jt",
+      "updated_at": "2026-09-03T11:11:40.782-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,16 +186,16 @@
       "status": "outage",
       "description": "Replication bug causing slow recoveries",
       "incident_url": "https://stspg.io/nx73hprsrgph",
-      "updated_at": "2026-09-03T12:23:07.226Z"
+      "updated_at": "2026-09-03T15:47:17.523Z"
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
-      "description": "Impaired Cluster Operations – AWS me-central-1 (United Arab Emirates)  and AWS me-south-1 (Bahrain)",
-      "incident_url": "https://stspg.io/mg7m971rdhw8",
-      "updated_at": "2026-06-03T15:46:56.709Z"
+      "status": "degraded",
+      "description": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
+      "incident_url": "https://stspg.io/jwd31x8yx3q5",
+      "updated_at": "2026-09-03T16:47:21.743Z"
     },
     {
       "name": "Snowflake",
@@ -210,19 +210,19 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors for multiple models",
-      "incident_url": "https://stspg.io/9xz4hhmd1jzn",
-      "updated_at": "2026-09-03T14:49:48.608Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors across ChatGPT and Codex",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-09-03T14:58:23Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">HTTP/3 issue affecting R2 custom domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p217h6l54208\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incident with Grok Copilot AI Model Provider</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h9dxg79d435f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from Twilio to Multiple Networks in United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nx73hprsrgph\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Replication bug causing slow recoveries</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9xz4hhmd1jzn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors for multiple models</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-03 15:13 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">HTTP/3 issue affecting R2 custom domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zstf1zx7hfy3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed CICD Optimization, Code Coverage, Code Security, and DORA data</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ybxz6nw6c0jt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Report Delays from a Subset of Twilio Long Codes to C-Spire United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nx73hprsrgph\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Replication bug causing slow recoveries</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jwd31x8yx3q5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster operations in AWS me-central-1 and AWS me-south-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-03 18:43 UTC</p>",
   "community": []
 }
