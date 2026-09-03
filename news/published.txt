@@ -1690,3 +1690,4 @@ https://www.darkreading.com/application-security/ai-vulnerability-surge-manageab
 https://www.computerenhance.com/p/is-ai-a-good-research-assistant
 https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html
 https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/
+https://simonwillison.net/2026/Sep/1/geojson/
