@@ -1697,3 +1697,4 @@ https://simonwillison.net/2026/Sep/1/tarn-adams/
 https://ericlippert.com/2026/09/03/the-book-is-done/
 https://vercel.com/blog/introducing-run
 https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel
+https://danluu.com/bug-blind/
