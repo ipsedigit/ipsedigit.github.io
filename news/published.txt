@@ -1699,3 +1699,4 @@ https://vercel.com/blog/introducing-run
 https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel
 https://danluu.com/bug-blind/
 https://blog.cloudflare.com/vulnerability-discovery-remediation/
+https://simonwillison.net/2026/Sep/3/gpt6-astra/
