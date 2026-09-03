@@ -1688,3 +1688,5 @@ https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
 https://simonwillison.net/2026/Sep/2/llm-gemini/
 https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared
 https://www.computerenhance.com/p/is-ai-a-good-research-assistant
+https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html
+https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/
