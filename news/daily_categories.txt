@@ -744,3 +744,5 @@
 2026-09-03:security:vulnerability:breaking
 2026-09-03:cloud:kubernetes:breaking
 2026-09-03:ai:ai:deep
+2026-09-03:devtools:package-managers:breaking
+2026-09-03:ai:llm:deep

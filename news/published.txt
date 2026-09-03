@@ -1695,3 +1695,5 @@ https://danluu.com/zitron/
 https://dev.to/srdjan_poppovic/ten-containers-one-developer-the-architecture-of-a-web-gis-32io
 https://simonwillison.net/2026/Sep/1/tarn-adams/
 https://ericlippert.com/2026/09/03/the-book-is-done/
+https://vercel.com/blog/introducing-run
+https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel
