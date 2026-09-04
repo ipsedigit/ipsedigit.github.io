@@ -1708,3 +1708,4 @@ https://dev.to/flude_team/breaking-down-our-pipeline-from-a-symlink-hack-to-five
 https://simonwillison.net/2026/Sep/4/august-newsletter/
 https://seangoedecke.com/radical-responsibility-means-treating-people-like-tools/
 https://simonwillison.net/2026/Sep/1/python-315-rc-2/
+https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
