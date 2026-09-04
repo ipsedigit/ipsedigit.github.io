@@ -1705,3 +1705,4 @@ https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhun
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/
 https://simonwillison.net/2026/Sep/1/datasette-mcp/
 https://dev.to/flude_team/breaking-down-our-pipeline-from-a-symlink-hack-to-five-independent-deployments-1mjc
+https://simonwillison.net/2026/Sep/4/august-newsletter/
