@@ -751,3 +751,6 @@
 2026-09-04:security:malware:breaking
 2026-09-04:ai:llm:breaking
 2026-09-04:devtools:cicd:breaking
+2026-09-05:ai:llm:breaking
+2026-09-05:security:vulnerability:breaking
+2026-09-05:ai:ai:breaking
