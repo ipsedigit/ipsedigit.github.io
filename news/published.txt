@@ -1713,3 +1713,4 @@ https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html
 https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
 https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/
 https://simonwillison.net/2026/Sep/4/astra-pelicans/
+https://lucumr.pocoo.org/2026/9/5/latent-powers/
