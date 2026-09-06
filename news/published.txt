@@ -1722,3 +1722,4 @@ https://huggingface.co/blog/nunchaku-diffusers
 https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
 https://simonwillison.net/2026/Sep/6/zach-kehs/
 https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/
+https://anubis.techaro.lol/blog/2026/anubis-wasm/
