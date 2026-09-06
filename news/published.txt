@@ -1720,3 +1720,4 @@ https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html
 https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/
 https://huggingface.co/blog/nunchaku-diffusers
 https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+https://simonwillison.net/2026/Sep/6/zach-kehs/
