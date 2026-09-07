@@ -1729,3 +1729,4 @@ https://medium.com/airbnb-engineering/project-lighthouse-part-3-introducing-proj
 https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/
 https://www.troyhunt.com/weekly-update-520/
 https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
+https://www.tigrisdata.com/blog/conflict-resolution-is-fun/
