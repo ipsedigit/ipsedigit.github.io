@@ -1723,3 +1723,6 @@ https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
 https://simonwillison.net/2026/Sep/6/zach-kehs/
 https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/
 https://anubis.techaro.lol/blog/2026/anubis-wasm/
+https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/
+https://medium.com/airbnb-engineering/project-lighthouse-part-3-introducing-project-lighthouse-anonymize-74f8b26653fb?source=rss----53c7c27702d5---4
