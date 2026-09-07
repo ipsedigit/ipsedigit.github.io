@@ -1730,3 +1730,4 @@ https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-opena
 https://www.troyhunt.com/weekly-update-520/
 https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
 https://www.tigrisdata.com/blog/conflict-resolution-is-fun/
+https://dev.to/uhltak/ollama-guide-eigene-ki-lokal-hosten-statt-cloud-abo-so-gehts-2h97
