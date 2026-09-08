@@ -1739,3 +1739,4 @@ https://dev.to/spran/im-15-and-i-got-on-the-front-page-of-hacker-news-with-my-si
 https://seangoedecke.com/deckard/
 https://dev.to/_24569b2abcc8f3fa4c094/from-47-to-84-the-full-locomo-benchmark-record-of-the-nylonme-memory-engine-1nb6
 https://blog.jessfraz.com/post/home-hardware-part-one/
+https://simonwillison.net/2026/Sep/7/llm/
