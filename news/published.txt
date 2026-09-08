@@ -1742,3 +1742,4 @@ https://blog.jessfraz.com/post/home-hardware-part-one/
 https://simonwillison.net/2026/Sep/7/llm/
 https://www.computerenhance.com/p/520-pages-per-hour
 https://simonwillison.net/2026/Sep/7/jakub-pachocki/
+https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/
