@@ -1732,3 +1732,7 @@ https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
 https://www.tigrisdata.com/blog/conflict-resolution-is-fun/
 https://dev.to/uhltak/ollama-guide-eigene-ki-lokal-hosten-statt-cloud-abo-so-gehts-2h97
 https://simonwillison.net/2026/Sep/7/creepy-crawlies/
+https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
+https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html
+https://thenewstack.io/openai-gpt6-astra-benchmarks/
+https://dev.to/spran/im-15-and-i-got-on-the-front-page-of-hacker-news-with-my-side-project-5504
