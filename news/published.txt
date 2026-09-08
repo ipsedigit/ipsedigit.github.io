@@ -1736,3 +1736,4 @@ https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
 https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html
 https://thenewstack.io/openai-gpt6-astra-benchmarks/
 https://dev.to/spran/im-15-and-i-got-on-the-front-page-of-hacker-news-with-my-side-project-5504
+https://seangoedecke.com/deckard/
