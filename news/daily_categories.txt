@@ -767,3 +767,4 @@
 2026-09-08:ai:llm:breaking
 2026-09-08:ai:ai:community
 2026-09-08:software-engineering:architecture:deep
+2026-09-08:ai:ai-research:breaking

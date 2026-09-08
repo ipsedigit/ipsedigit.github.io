@@ -1743,3 +1743,4 @@ https://simonwillison.net/2026/Sep/7/llm/
 https://www.computerenhance.com/p/520-pages-per-hour
 https://simonwillison.net/2026/Sep/7/jakub-pachocki/
 https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/
+https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/
