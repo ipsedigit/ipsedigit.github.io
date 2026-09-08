@@ -1741,3 +1741,4 @@ https://dev.to/_24569b2abcc8f3fa4c094/from-47-to-84-the-full-locomo-benchmark-re
 https://blog.jessfraz.com/post/home-hardware-part-one/
 https://simonwillison.net/2026/Sep/7/llm/
 https://www.computerenhance.com/p/520-pages-per-hour
+https://simonwillison.net/2026/Sep/7/jakub-pachocki/
