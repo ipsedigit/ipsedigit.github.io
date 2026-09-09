@@ -1752,3 +1752,4 @@ https://dev.to/binadit/how-docker-networking-broke-checkout-under-load-a-contain
 https://seangoedecke.com/why-we-should-anthropomorphize-ai-agents/
 https://simonwillison.net/2026/Sep/9/terence-tao/
 https://www.computerenhance.com/p/spacetimedb
+https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/
