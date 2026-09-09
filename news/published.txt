@@ -1747,3 +1747,4 @@ https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-
 https://vercel.com/blog/introducing-flat-rate-cdn
 https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/
 https://huggingface.co/blog/cerebras-gemma4-voice-ai
+https://simonwillison.net/2026/Sep/8/on-navier-stokes/
