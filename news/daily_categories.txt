@@ -768,3 +768,6 @@
 2026-09-08:ai:ai:community
 2026-09-08:software-engineering:architecture:deep
 2026-09-08:ai:ai-research:breaking
+2026-09-09:software-engineering:architecture:breaking
+2026-09-09:security:vulnerability:breaking
+2026-09-09:ai:ai:deep
