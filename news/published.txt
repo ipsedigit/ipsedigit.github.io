@@ -1751,3 +1751,4 @@ https://simonwillison.net/2026/Sep/8/on-navier-stokes/
 https://dev.to/binadit/how-docker-networking-broke-checkout-under-load-a-container-ecommerce-infrastructure-case-study-4cja
 https://seangoedecke.com/why-we-should-anthropomorphize-ai-agents/
 https://simonwillison.net/2026/Sep/9/terence-tao/
+https://www.computerenhance.com/p/spacetimedb
