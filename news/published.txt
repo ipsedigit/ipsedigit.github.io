@@ -1748,3 +1748,4 @@ https://vercel.com/blog/introducing-flat-rate-cdn
 https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/
 https://huggingface.co/blog/cerebras-gemma4-voice-ai
 https://simonwillison.net/2026/Sep/8/on-navier-stokes/
+https://dev.to/binadit/how-docker-networking-broke-checkout-under-load-a-container-ecommerce-infrastructure-case-study-4cja
