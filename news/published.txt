@@ -1755,3 +1755,5 @@ https://www.computerenhance.com/p/spacetimedb
 https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/
 https://lucumr.pocoo.org/2026/9/7/astra-why/
 https://simonwillison.net/2026/Sep/7/video-compressor/
+https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
+https://developers.googleblog.com/a-unified-api-for-ai-model-routing/
