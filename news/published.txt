@@ -1762,3 +1762,5 @@ https://simonwillison.net/2026/Sep/10/calif-research/
 https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html
 https://danluu.com/agentic-testing/
 https://www.computerenhance.com/p/what-is-ai-doing-to-math
+https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit
+https://dev.to/danilo_bossanova/http-query-has-arrived-the-method-that-fills-the-gap-between-get-and-post-5cnp
