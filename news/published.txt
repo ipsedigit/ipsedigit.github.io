@@ -1759,3 +1759,4 @@ https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
 https://developers.googleblog.com/a-unified-api-for-ai-model-routing/
 https://seangoedecke.com/they-really-do-think-ai-might-kill-everyone/
 https://simonwillison.net/2026/Sep/10/calif-research/
+https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html
