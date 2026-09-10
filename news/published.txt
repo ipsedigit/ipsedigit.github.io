@@ -1757,3 +1757,4 @@ https://lucumr.pocoo.org/2026/9/7/astra-why/
 https://simonwillison.net/2026/Sep/7/video-compressor/
 https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
 https://developers.googleblog.com/a-unified-api-for-ai-model-routing/
+https://seangoedecke.com/they-really-do-think-ai-might-kill-everyone/
