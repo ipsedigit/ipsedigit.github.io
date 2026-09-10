@@ -778,3 +778,4 @@
 2026-09-10:ai:ai:breaking
 2026-09-10:ai:ai:breaking
 2026-09-10:software-engineering:api-design:breaking
+2026-09-10:security:security:breaking
