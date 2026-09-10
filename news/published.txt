@@ -1765,3 +1765,4 @@ https://www.computerenhance.com/p/what-is-ai-doing-to-math
 https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit
 https://dev.to/danilo_bossanova/http-query-has-arrived-the-method-that-fills-the-gap-between-get-and-post-5cnp
 https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html
+https://blog.jessfraz.com/post/home-hardware-part-two/
