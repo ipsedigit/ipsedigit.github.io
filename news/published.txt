@@ -1775,3 +1775,4 @@ https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html
 https://simonwillison.net/2026/Sep/10/trynix/
 https://simonwillison.net/2026/Sep/9/blender-viewer/
 https://blog.cloudflare.com/casb-policies/
+https://simonwillison.net/2026/Sep/11/hugging-face-security/
