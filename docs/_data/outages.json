@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T13:52:32.865729+00:00",
+  "generated_at": "2026-09-11T17:40:43.819452+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 5,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -138,10 +138,10 @@
       "name": "Discord",
       "domain": "discordstatus.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Media Proxy Latency High",
+      "incident_url": "https://stspg.io/mpwbwtx3wm5q",
+      "updated_at": "2026-09-11T10:39:12.705-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -159,7 +159,7 @@
       "status": "degraded",
       "description": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
       "incident_url": "https://slack-status.com/2026-08/e07b9271f0346c3b",
-      "updated_at": "2026-09-08T19:37:23-07:00"
+      "updated_at": "2026-09-11T08:53:33-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Video Voice Integration Test Failures",
-      "incident_url": "https://stspg.io/ggtrmk478t0g",
-      "updated_at": "2026-09-11T06:39:45.738-07:00"
+      "description": "Voice Insights Console Dashboard Error",
+      "incident_url": "https://stspg.io/4xjcnpvhb6ls",
+      "updated_at": "2026-09-11T10:38:39.592-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output",
       "incident_url": "https://stspg.io/jfmrn98pwf2h",
-      "updated_at": "2026-09-09T20:44:36.018Z"
+      "updated_at": "2026-09-11T16:00:29.495Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -213,16 +213,16 @@
       "status": "degraded",
       "description": "Degraded functionality for Claude Cowork on Windows",
       "incident_url": "https://stspg.io/5yp3rhhztm30",
-      "updated_at": "2026-09-10T17:20:39.594Z"
+      "updated_at": "2026-09-11T14:19:51.617Z"
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "1% of ChatGPT Work (mobile/web) turns are failing for existing threads",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-09-11T17:17:35Z"
     },
     {
       "name": "Atlassian",
@@ -335,13 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers Cron Triggers degraded</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ggtrmk478t0g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Video Voice Integration Test Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfmrn98pwf2h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5yp3rhhztm30\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded functionality for Claude Cowork on Windows</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-11 13:52 UTC</p>",
-  "community": [
-    {
-      "title": "Show HN: SolidPing — open-source uptime monitoring, agents inside your network",
-      "url": "https://news.ycombinator.com/item?id=49656831",
-      "points": 2,
-      "ago": "2h"
-    }
-  ]
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers Cron Triggers degraded</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mpwbwtx3wm5q\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Discord</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Media Proxy Latency High</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4xjcnpvhb6ls\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Insights Console Dashboard Error</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfmrn98pwf2h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5yp3rhhztm30\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded functionality for Claude Cowork on Windows</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-11 17:40 UTC</p>",
+  "community": []
 }
