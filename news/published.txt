@@ -1776,3 +1776,4 @@ https://simonwillison.net/2026/Sep/10/trynix/
 https://simonwillison.net/2026/Sep/9/blender-viewer/
 https://blog.cloudflare.com/casb-policies/
 https://simonwillison.net/2026/Sep/11/hugging-face-security/
+https://simonwillison.net/2026/Sep/11/boris-cherny/
