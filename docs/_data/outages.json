@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-10T22:23:10.182130+00:00",
+  "generated_at": "2026-09-11T00:25:12.196086+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 8,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -49,15 +49,15 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "DNS Update Delays",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p",
-      "updated_at": "2026-09-10T22:16:08.000Z"
+      "description": "Workers Cron Triggers degraded",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw",
+      "updated_at": "2026-09-09T19:18:25.000Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Appalachian Wireless United States",
-      "incident_url": "https://stspg.io/dtnpn1q6y04b",
-      "updated_at": "2026-09-10T15:10:20.702-07:00"
+      "description": "SMS Delivery Failures from a Subset of Twilio Long Codes to Iliad Italy",
+      "incident_url": "https://stspg.io/sd6b10564qr7",
+      "updated_at": "2026-09-10T16:04:31.945-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Kibana access restored for UI-assigned Organization Owners on Hosted deployments",
-      "incident_url": "https://stspg.io/dh1b7zfw3t85",
-      "updated_at": "2026-09-10T09:51:28.275Z"
+      "description": "Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output",
+      "incident_url": "https://stspg.io/jfmrn98pwf2h",
+      "updated_at": "2026-09-09T20:44:36.018Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -204,16 +204,16 @@
       "status": "degraded",
       "description": "INC20000150",
       "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-09-07T23:50:29.696Z"
+      "updated_at": "2026-09-11T00:04:35.250Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Elevated latency on the Claude API for some users",
-      "incident_url": "https://stspg.io/hfs7749ykl14",
-      "updated_at": "2026-09-10T22:18:13.986Z"
+      "description": "Degraded functionality for Claude Cowork on Windows",
+      "incident_url": "https://stspg.io/5yp3rhhztm30",
+      "updated_at": "2026-09-10T17:20:39.594Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">DNS Update Delays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dtnpn1q6y04b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Appalachian Wireless United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dh1b7zfw3t85\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Kibana access restored for UI-assigned Organization Owners on Hosted deployments</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jwd31x8yx3q5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster operations in AWS me-central-1 and AWS me-south-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hfs7749ykl14\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated latency on the Claude API for some users</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-10 22:23 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Workers Cron Triggers degraded</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-08/e07b9271f0346c3b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sd6b10564qr7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Long Codes to Iliad Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfmrn98pwf2h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jwd31x8yx3q5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Impaired Cluster operations in AWS me-central-1 and AWS me-south-1</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5yp3rhhztm30\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degraded functionality for Claude Cowork on Windows</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-11 00:25 UTC</p>",
   "community": []
 }
