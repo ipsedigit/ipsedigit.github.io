@@ -1767,3 +1767,6 @@ https://dev.to/danilo_bossanova/http-query-has-arrived-the-method-that-fills-the
 https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html
 https://blog.jessfraz.com/post/home-hardware-part-two/
 https://simonwillison.net/2026/Sep/10/shopify-react-native/
+https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html
+https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html
+https://thenewstack.io/mcp-vibe-coding-security/

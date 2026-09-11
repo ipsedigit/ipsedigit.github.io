@@ -779,3 +779,6 @@
 2026-09-10:ai:ai:breaking
 2026-09-10:software-engineering:api-design:breaking
 2026-09-10:security:security:breaking
+2026-09-11:ai:llm:breaking
+2026-09-11:security:vulnerability:breaking
+2026-09-11:ai:ai-research:deep
