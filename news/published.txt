@@ -1771,3 +1771,4 @@ https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html
 https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html
 https://thenewstack.io/mcp-vibe-coding-security/
 https://simonwillison.net/2026/Sep/11/datasette-security/
+https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html
