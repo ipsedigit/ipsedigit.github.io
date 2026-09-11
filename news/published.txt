@@ -1777,3 +1777,4 @@ https://simonwillison.net/2026/Sep/9/blender-viewer/
 https://blog.cloudflare.com/casb-policies/
 https://simonwillison.net/2026/Sep/11/hugging-face-security/
 https://simonwillison.net/2026/Sep/11/boris-cherny/
+https://www.troyhunt.com/weekly-update-521/
