@@ -787,3 +787,4 @@
 2026-09-12:ai:llm:breaking
 2026-09-12:cloud:kubernetes:breaking
 2026-09-12:security:vulnerability:breaking
+2026-09-12:software-engineering:architecture:deep

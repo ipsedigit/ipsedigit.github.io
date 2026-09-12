@@ -1787,3 +1787,4 @@ https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
 http://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html
 https://simonwillison.net/2026/Sep/12/paul-ford/
 https://lucumr.pocoo.org/2026/9/12/pdoom/
+https://dev.to/someshp/oracle-integration-cloud-integration-patterns-fnc
