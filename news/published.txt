@@ -1784,3 +1784,4 @@ https://devops.com/why-ai-agents-shouldnt-guess-at-vulnerability-exploitability/
 https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
 https://seangoedecke.com/dont-build-tools-for-ai-agents/
 https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
+http://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html
