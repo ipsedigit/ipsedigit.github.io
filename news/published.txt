@@ -1783,3 +1783,4 @@ https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/
 https://devops.com/why-ai-agents-shouldnt-guess-at-vulnerability-exploitability/
 https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
 https://seangoedecke.com/dont-build-tools-for-ai-agents/
+https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
