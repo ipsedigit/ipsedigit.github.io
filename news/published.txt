@@ -1797,3 +1797,4 @@ https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/
 https://simonwillison.net/2026/Sep/12/sighting-399708714/
 https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/
+https://seangoedecke.com/slow-devex-will-bottleneck-fast-models/
