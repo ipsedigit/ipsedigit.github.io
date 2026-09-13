@@ -1794,3 +1794,4 @@ https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
 https://dev.to/wisl/a-scalable-ml-framework-with-monadic-design-3kdd
 https://simonwillison.net/2026/Sep/12/astra-running-routes/
 https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/
