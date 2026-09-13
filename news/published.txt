@@ -1791,3 +1791,4 @@ https://dev.to/someshp/oracle-integration-cloud-integration-patterns-fnc
 https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html
 https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html
 https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
+https://dev.to/wisl/a-scalable-ml-framework-with-monadic-design-3kdd
