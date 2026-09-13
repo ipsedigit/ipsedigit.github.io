@@ -1796,3 +1796,4 @@ https://simonwillison.net/2026/Sep/12/astra-running-routes/
 https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/
 https://simonwillison.net/2026/Sep/12/sighting-399708714/
+https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/
