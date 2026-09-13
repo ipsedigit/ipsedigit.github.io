@@ -1790,3 +1790,4 @@ https://lucumr.pocoo.org/2026/9/12/pdoom/
 https://dev.to/someshp/oracle-integration-cloud-integration-patterns-fnc
 https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html
 https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html
+https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
