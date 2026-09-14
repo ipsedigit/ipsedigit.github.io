@@ -1801,3 +1801,4 @@ https://seangoedecke.com/slow-devex-will-bottleneck-fast-models/
 https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html
 https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/
 https://simonwillison.net/2026/Sep/14/commit-rewriter/
+https://simonwillison.net/2026/Sep/13/shot-scraper/
