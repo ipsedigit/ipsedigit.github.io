@@ -1803,3 +1803,4 @@ https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-v
 https://simonwillison.net/2026/Sep/14/commit-rewriter/
 https://simonwillison.net/2026/Sep/13/shot-scraper/
 https://simonwillison.net/2026/Sep/14/laurie-voss/
+https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/
