@@ -1807,3 +1807,5 @@ https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/
 https://www.computerenhance.com/p/simd-mask-registers
 https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/
 https://simonwillison.net/2026/Sep/14/influences/
+https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html
+https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html
