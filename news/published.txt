@@ -1818,3 +1818,4 @@ https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/
 https://thenewstack.io/attach-owner-cloud-resources/
 https://newsletter.pragmaticengineer.com/p/openai-software-factory
 https://simonwillison.net/2026/Sep/11/wrapture/
+https://simonwillison.net/2026/Sep/11/datasette-publish-fly/
