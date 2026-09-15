@@ -1816,3 +1816,4 @@ https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html
 https://blog.jessfraz.com/post/the-business-executives-guide-to-kubernetes/
 https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/
 https://thenewstack.io/attach-owner-cloud-resources/
+https://newsletter.pragmaticengineer.com/p/openai-software-factory
