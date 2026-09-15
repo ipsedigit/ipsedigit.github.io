@@ -798,3 +798,5 @@
 2026-09-15:security:vulnerability:breaking
 2026-09-15:ai:ai-research:breaking
 2026-09-15:software-engineering:architecture:breaking
+2026-09-15:security:threat-intel:breaking
+2026-09-15:security:security:community
