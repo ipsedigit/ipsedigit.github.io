@@ -800,3 +800,4 @@
 2026-09-15:software-engineering:architecture:breaking
 2026-09-15:security:threat-intel:breaking
 2026-09-15:security:security:community
+2026-09-15:software-engineering:software-engineering:breaking
