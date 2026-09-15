@@ -1809,3 +1809,4 @@ https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-b
 https://simonwillison.net/2026/Sep/14/influences/
 https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html
 https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html
+https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/
