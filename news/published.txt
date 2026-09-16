@@ -1823,3 +1823,4 @@ https://simonwillison.net/2026/Sep/11/github-to-sqlite/
 https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
 https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
 https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/
+https://simonwillison.net/2026/Sep/15/gemini-live/
