@@ -1824,3 +1824,4 @@ https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-manage
 https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
 https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/
 https://simonwillison.net/2026/Sep/15/gemini-live/
+https://seangoedecke.com/jev-means-structured-output-is-interesting-again/
