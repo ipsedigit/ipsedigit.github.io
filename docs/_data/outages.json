@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T05:20:51.864614+00:00",
+  "generated_at": "2026-09-16T10:14:16.773129+00:00",
   "summary": {
     "total": 26,
-    "operational": 21,
-    "degraded": 3,
-    "outage": 1,
+    "operational": 19,
+    "degraded": 4,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Performance Issues in Los Angeles",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/qc2v4gxy3gfw",
-      "updated_at": "2026-09-16T03:44:46.000Z"
+      "description": "Support Helpdesk Availability Issues",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/zlyf7lvpp05s",
+      "updated_at": "2026-09-16T09:11:29.000Z"
     },
     {
       "name": "CircleCI",
@@ -66,10 +66,10 @@
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Degradation with Gemini 3.8 Flash",
+      "incident_url": "https://stspg.io/hsjy12f57b24",
+      "updated_at": "2026-09-16T08:28:57.278Z"
     },
     {
       "name": "Netlify",
@@ -121,9 +121,9 @@
       "domain": "status.newrelic.com",
       "category": "observability",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Salesforce Service Disruption",
+      "incident_url": "https://stspg.io/3nr4l7r7nnwj",
+      "updated_at": "2026-09-16T10:08:48.963Z"
     },
     {
       "name": "Sentry",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Tigo Paraguay",
-      "incident_url": "https://stspg.io/20w9rgg3xfby",
-      "updated_at": "2026-09-15T21:49:18.924-07:00"
+      "description": "SMS Delivery Delays from Twilio to Airtel India",
+      "incident_url": "https://stspg.io/524jrjt6lgk0",
+      "updated_at": "2026-09-16T02:52:17.345-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -192,10 +192,10 @@
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
-      "description": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
-      "incident_url": "https://stspg.io/jwd31x8yx3q5",
-      "updated_at": "2026-09-03T16:47:21.743Z"
+      "status": "outage",
+      "description": "Support Portal Outage",
+      "incident_url": "https://stspg.io/yc66h52gr7zg",
+      "updated_at": "2026-09-16T09:15:56.990Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/qc2v4gxy3gfw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Los Angeles</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/20w9rgg3xfby\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Tigo Paraguay</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfmrn98pwf2h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-16 05:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/zlyf7lvpp05s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Support Helpdesk Availability Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hsjy12f57b24\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">GitHub</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Degradation with Gemini 3.8 Flash</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/524jrjt6lgk0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Airtel India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfmrn98pwf2h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yc66h52gr7zg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Support Portal Outage</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-16 10:14 UTC</p>",
   "community": []
 }
