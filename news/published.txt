@@ -1830,3 +1830,4 @@ https://dev.to/doogal/debugging-docker-crash-loops-a-practical-guide-2fog
 https://simonwillison.net/2026/Sep/16/mustafa-suleyman/
 https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/
 https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html
+https://simonwillison.net/2026/Sep/16/one-claude/
