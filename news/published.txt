@@ -1828,3 +1828,4 @@ https://seangoedecke.com/jev-means-structured-output-is-interesting-again/
 https://simonwillison.net/2026/Sep/11/datasette/
 https://dev.to/doogal/debugging-docker-crash-loops-a-practical-guide-2fog
 https://simonwillison.net/2026/Sep/16/mustafa-suleyman/
+https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/
