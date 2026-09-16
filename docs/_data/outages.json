@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T15:01:44.186736+00:00",
+  "generated_at": "2026-09-16T18:55:14.935696+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
+    "operational": 20,
     "degraded": 4,
-    "outage": 2,
+    "outage": 1,
     "unknown": 1
   },
   "services": [
@@ -49,27 +49,27 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Performance Issues in Los Angeles",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/qc2v4gxy3gfw",
-      "updated_at": "2026-09-16T03:44:46.000Z"
+      "description": "Incorrect geo location for some Cloudflare WARP users",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/9g65dxfbcjln",
+      "updated_at": "2026-09-01T08:29:56.953Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "Customers may experience delays in UI updates",
       "incident_url": "https://stspg.io/40g5hyq2p6j4",
-      "updated_at": "2026-09-16T14:55:57.970Z"
+      "updated_at": "2026-09-16T18:22:57.349Z"
     },
     {
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Degradation with Gemini 3.8 Flash",
-      "incident_url": "https://stspg.io/hsjy12f57b24",
-      "updated_at": "2026-09-16T11:45:34.383Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -121,9 +121,9 @@
       "domain": "status.newrelic.com",
       "category": "observability",
       "status": "operational",
-      "description": "Salesforce Service Disruption",
-      "incident_url": "https://stspg.io/3nr4l7r7nnwj",
-      "updated_at": "2026-09-16T10:08:48.963Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Sentry",
@@ -175,27 +175,27 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Failures from Telstra Australia to a Subset of Twilio Phone Numbers",
-      "incident_url": "https://stspg.io/8fp59sj5vkgh",
-      "updated_at": "2026-09-16T03:18:03.800-07:00"
+      "description": "MMS Delivery Delays from Twilio Long Codes to Rogers Wireless Canada",
+      "incident_url": "https://stspg.io/2byqmsfkw7sv",
+      "updated_at": "2026-09-16T11:50:52.112-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Elastic Support Portal unavailable",
-      "incident_url": "https://stspg.io/520rnfx53f0w",
-      "updated_at": "2026-09-16T14:49:28.553Z"
+      "description": "Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output",
+      "incident_url": "https://stspg.io/jfmrn98pwf2h",
+      "updated_at": "2026-09-11T16:00:29.495Z"
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "outage",
-      "description": "Support Portal Outage",
-      "incident_url": "https://stspg.io/yc66h52gr7zg",
-      "updated_at": "2026-09-16T09:15:56.990Z"
+      "status": "operational",
+      "description": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
+      "incident_url": "https://stspg.io/jwd31x8yx3q5",
+      "updated_at": "2026-09-03T16:47:21.743Z"
     },
     {
       "name": "Snowflake",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Elevated errors in ChatGPT Work",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-09-16T18:44:32Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/qc2v4gxy3gfw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Issues in Los Angeles</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/40g5hyq2p6j4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customers may experience delays in UI updates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8fp59sj5vkgh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Failures from Telstra Australia to a Subset of Twilio Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/520rnfx53f0w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Support Portal unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/yc66h52gr7zg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Support Portal Outage</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-16 15:01 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2byqmsfkw7sv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from Twilio Long Codes to Rogers Wireless Canada</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jfmrn98pwf2h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-16 18:55 UTC</p>",
   "community": []
 }
