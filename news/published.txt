@@ -1826,3 +1826,4 @@ https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-vi
 https://simonwillison.net/2026/Sep/15/gemini-live/
 https://seangoedecke.com/jev-means-structured-output-is-interesting-again/
 https://simonwillison.net/2026/Sep/11/datasette/
+https://dev.to/doogal/debugging-docker-crash-loops-a-practical-guide-2fog
