@@ -1831,3 +1831,7 @@ https://simonwillison.net/2026/Sep/16/mustafa-suleyman/
 https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/
 https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html
 https://simonwillison.net/2026/Sep/16/one-claude/
+https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
+https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html
+https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html
+https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
