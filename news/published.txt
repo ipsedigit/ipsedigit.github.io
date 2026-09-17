@@ -1842,3 +1842,4 @@ https://dev.to/umairaalam/can-javascript-measure-mouse-polling-rate-3eh6
 https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
 https://simonwillison.net/2026/Sep/16/datasette-2/
 https://devops.com/stackhawk-delivers-wingman-to-fix-vulnerabilities-as-developers-write-code/
+https://simonwillison.net/2026/Sep/17/compaction-summaries/
