@@ -1837,3 +1837,4 @@ https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html
 https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
 https://nullprogram.com/blog/2026/09/17/
 https://www.tigrisdata.com/blog/objgit-packfiles/
+https://simonwillison.net/2026/Sep/16/datasette/
