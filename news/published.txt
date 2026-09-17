@@ -1838,3 +1838,5 @@ https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-stora
 https://nullprogram.com/blog/2026/09/17/
 https://www.tigrisdata.com/blog/objgit-packfiles/
 https://simonwillison.net/2026/Sep/16/datasette/
+https://dev.to/umairaalam/can-javascript-measure-mouse-polling-rate-3eh6
+https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
