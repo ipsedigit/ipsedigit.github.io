@@ -1850,3 +1850,4 @@ https://seangoedecke.com/two-techniques-for-working-with-system-one-models/
 https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data
 https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/
 https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
+https://dev.to/palermo-777/verifying-elevenlabs-webhook-signatures-on-cloudflare-worker-without-their-sdk-47pg
