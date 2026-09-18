@@ -1852,3 +1852,4 @@ https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/
 https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
 https://dev.to/palermo-777/verifying-elevenlabs-webhook-signatures-on-cloudflare-worker-without-their-sdk-47pg
 https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/
+https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/
