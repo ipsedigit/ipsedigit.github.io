@@ -818,3 +818,4 @@
 2026-09-18:security:vulnerability:breaking
 2026-09-18:security:malware:breaking
 2026-09-18:security:security:breaking
+2026-09-18:ai:ai:breaking
