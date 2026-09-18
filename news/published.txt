@@ -1854,3 +1854,4 @@ https://dev.to/palermo-777/verifying-elevenlabs-webhook-signatures-on-cloudflare
 https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/
 https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/
 https://thenewstack.io/claude-exploits-openai-forum/
+https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/
