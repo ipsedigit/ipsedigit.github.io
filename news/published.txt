@@ -1849,3 +1849,4 @@ https://thenewstack.io/vulnerability-prioritization-business-context/
 https://seangoedecke.com/two-techniques-for-working-with-system-one-models/
 https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data
 https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/
+https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
