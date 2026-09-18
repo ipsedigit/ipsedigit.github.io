@@ -1846,3 +1846,4 @@ https://simonwillison.net/2026/Sep/17/compaction-summaries/
 https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html
 https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/
 https://thenewstack.io/vulnerability-prioritization-business-context/
+https://seangoedecke.com/two-techniques-for-working-with-system-one-models/
