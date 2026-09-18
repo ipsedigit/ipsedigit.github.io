@@ -1843,3 +1843,6 @@ https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
 https://simonwillison.net/2026/Sep/16/datasette-2/
 https://devops.com/stackhawk-delivers-wingman-to-fix-vulnerabilities-as-developers-write-code/
 https://simonwillison.net/2026/Sep/17/compaction-summaries/
+https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html
+https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/
+https://thenewstack.io/vulnerability-prioritization-business-context/
