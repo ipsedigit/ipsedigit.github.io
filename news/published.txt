@@ -1859,3 +1859,4 @@ https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html
 https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/
 https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
 https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks
+https://simonwillison.net/2026/Sep/18/thariq-shihipar/
