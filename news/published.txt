@@ -1860,3 +1860,4 @@ https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-l
 https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
 https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks
 https://simonwillison.net/2026/Sep/18/thariq-shihipar/
+https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/
