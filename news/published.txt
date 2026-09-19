@@ -1862,3 +1862,4 @@ https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent
 https://simonwillison.net/2026/Sep/18/thariq-shihipar/
 https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/
 https://simonwillison.net/2026/Sep/19/sighting-401567341/
+https://simonwillison.net/2026/Sep/19/datasette-auth-github/
