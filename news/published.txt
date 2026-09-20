@@ -1870,3 +1870,4 @@ https://nullprogram.com/blog/2026/09/20/
 https://seangoedecke.com/grit-your-teeth-and-ship-it/
 https://dev.to/logicshadowdev/building-a-hacker-news-scraper-with-python-and-beautifulsoup-1709
 https://seangoedecke.com/system-one-models-can-train-their-own-replacements/
+https://xeiaso.net/blog/2026/this-is-why-we-play/
