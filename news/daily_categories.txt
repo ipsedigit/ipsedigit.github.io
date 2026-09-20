@@ -829,3 +829,4 @@
 2026-09-20:security:vulnerability:breaking
 2026-09-20:ai:llm:breaking
 2026-09-20:ai:ai-research:breaking
+2026-09-20:security:security:breaking
