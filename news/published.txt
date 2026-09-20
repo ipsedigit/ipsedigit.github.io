@@ -1872,3 +1872,4 @@ https://dev.to/logicshadowdev/building-a-hacker-news-scraper-with-python-and-bea
 https://seangoedecke.com/system-one-models-can-train-their-own-replacements/
 https://xeiaso.net/blog/2026/this-is-why-we-play/
 https://dev.to/aleff/nicetrygpt-less-pattern-matching-more-actual-hacking-kie
+https://simonwillison.net/2026/Sep/20/voxium/
