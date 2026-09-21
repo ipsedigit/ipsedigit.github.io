@@ -1879,3 +1879,5 @@ https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-d
 https://simonwillison.net/2026/Sep/20/llm-keys-ui/
 https://dev.to/mughunthen_3fb2a217c290e6/i-found-an-otp-bypass-in-the-kari-kadai-app-that-leaks-user-tokens-4jf2
 https://simonwillison.net/2026/Sep/20/datasette-explain/
+https://dev.to/levelbrook/how-to-read-a-coding-agent-benchmark-without-getting-sold-2pf1
+https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/
