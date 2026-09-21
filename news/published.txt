@@ -1877,3 +1877,4 @@ https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&u
 https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
 https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/
 https://simonwillison.net/2026/Sep/20/llm-keys-ui/
+https://dev.to/mughunthen_3fb2a217c290e6/i-found-an-otp-bypass-in-the-kari-kadai-app-that-leaks-user-tokens-4jf2
