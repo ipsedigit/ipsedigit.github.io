@@ -1873,3 +1873,6 @@ https://seangoedecke.com/system-one-models-can-train-their-own-replacements/
 https://xeiaso.net/blog/2026/this-is-why-we-play/
 https://dev.to/aleff/nicetrygpt-less-pattern-matching-more-actual-hacking-kie
 https://simonwillison.net/2026/Sep/20/voxium/
+https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
+https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/
