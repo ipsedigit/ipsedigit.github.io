@@ -1876,3 +1876,4 @@ https://simonwillison.net/2026/Sep/20/voxium/
 https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
 https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/
+https://simonwillison.net/2026/Sep/20/llm-keys-ui/
