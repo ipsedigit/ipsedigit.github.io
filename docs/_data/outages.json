@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T20:38:45.190084+00:00",
+  "generated_at": "2026-09-21T23:40:04.759674+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 18,
+    "degraded": 6,
     "outage": 1,
     "unknown": 1
   },
@@ -12,10 +12,10 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service impact: Increased Error Rates",
+      "incident_url": "https://status.aws.amazon.com/",
+      "updated_at": "Mon, 21 Sep 2026 16:26:48 PDT"
     },
     {
       "name": "Azure",
@@ -57,7 +57,7 @@
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio Phone Numbers to Claro Brazil",
-      "incident_url": "https://stspg.io/tx6jms3zhrw5",
-      "updated_at": "2026-09-21T12:36:24.730-07:00"
+      "description": "Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan",
+      "incident_url": "https://stspg.io/w6n99jhv404g",
+      "updated_at": "2026-09-21T15:50:36.005-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j90jkyg5gqz3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Apple Login for Zoom Sign-in.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tx6jms3zhrw5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Phone Numbers to Claro Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-21 20:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service impact: Increased Error Rates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j90jkyg5gqz3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Apple Login for Zoom Sign-in.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6n99jhv404g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-21 23:40 UTC</p>",
   "community": []
 }
