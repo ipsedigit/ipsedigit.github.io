@@ -1883,3 +1883,6 @@ https://dev.to/levelbrook/how-to-read-a-coding-agent-benchmark-without-getting-s
 https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/
 https://simonwillison.net/2026/Sep/20/hn-49779718/
 https://simonwillison.net/2026/Sep/21/jev/
+https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
+https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
+https://dev.to/cogumellum/mcp-debate-token-tax-context-bloat-and-what-devs-can-do-2npo
