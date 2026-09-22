@@ -1886,3 +1886,4 @@ https://simonwillison.net/2026/Sep/21/jev/
 https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
 https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
 https://dev.to/cogumellum/mcp-debate-token-tax-context-bloat-and-what-devs-can-do-2npo
+https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/
