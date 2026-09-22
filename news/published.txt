@@ -1889,3 +1889,4 @@ https://dev.to/cogumellum/mcp-debate-token-tax-context-bloat-and-what-devs-can-d
 https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/
 https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle
 https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/
+https://simonwillison.net/2026/Sep/22/llm-typesafe/
