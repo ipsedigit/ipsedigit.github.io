@@ -842,3 +842,4 @@
 2026-09-22:ai:llm:breaking
 2026-09-22:security:security:breaking
 2026-09-22:security:security:breaking
+2026-09-22:ai:ai:breaking
