@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:50:41.572337+00:00",
+  "generated_at": "2026-09-22T17:34:53.815309+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -40,18 +40,18 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Increased latency during upstream provider maintenance in Singapore, Hong Kong, and Japan",
-      "incident_url": "https://stspg.io/dqxjf24pcwwp",
-      "updated_at": "2026-09-22T07:41:50.035Z"
+      "description": "Origin Server Connectivity Issues with Elevated Errors in APAC Region",
+      "incident_url": "https://stspg.io/f7zkmr21gbfh",
+      "updated_at": "2026-09-22T14:28:45.129Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Partial visibility of Workers and Durable Objects analytics for Fedramp High customers",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/dcmwvjwfyhjg",
-      "updated_at": "2026-09-22T10:35:33.000Z"
+      "description": "Incorrect geo location for some Cloudflare WARP users",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/9g65dxfbcjln",
+      "updated_at": "2026-09-01T08:29:56.953Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio Long Codes to Natcom Haiti",
-      "incident_url": "https://stspg.io/s506h5htrt0m",
-      "updated_at": "2026-09-22T05:34:00.042-07:00"
+      "description": "Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan",
+      "incident_url": "https://stspg.io/w6n99jhv404g",
+      "updated_at": "2026-09-22T09:52:29.810-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/dcmwvjwfyhjg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Partial visibility of Workers and Durable Objects analytics for Fedramp High customers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j90jkyg5gqz3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Apple Login for Zoom Sign-in.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s506h5htrt0m\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio Long Codes to Natcom Haiti</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-22 12:50 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/j90jkyg5gqz3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Apple Login for Zoom Sign-in.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6n99jhv404g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-22 17:34 UTC</p>",
   "community": []
 }
