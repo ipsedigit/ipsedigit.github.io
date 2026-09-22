@@ -1892,3 +1892,4 @@ https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-worl
 https://simonwillison.net/2026/Sep/22/llm-typesafe/
 https://thenewstack.io/claude-opus-5-5-release/
 https://simonwillison.net/2026/Sep/22/therealcornpop/
+https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/
