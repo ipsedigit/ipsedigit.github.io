@@ -1904,3 +1904,4 @@ https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/
 https://thenewstack.io/whoop-automated-vulnerability-response-workflow/
 https://drewdevault.com/blog/Why-is-HN-like-that/
 https://simonwillison.net/2026/Sep/23/shadow-roots/
+https://www.computerenhance.com/p/nested-simd-predicates
