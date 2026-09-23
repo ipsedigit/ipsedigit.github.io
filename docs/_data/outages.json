@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:23:55.883977+00:00",
+  "generated_at": "2026-09-23T20:38:01.434969+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Elevated Errors with any / all in http_response_cache_settings",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/f8wg5htd3zz4",
-      "updated_at": "2026-09-23T15:55:51.000Z"
+      "description": "Network Performance Degradation — Asia-Pacific",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15",
+      "updated_at": "2026-09-23T18:44:55.000Z"
     },
     {
       "name": "CircleCI",
@@ -69,7 +69,7 @@
       "status": "operational",
       "description": "Incident across several services",
       "incident_url": "https://stspg.io/m1ps7yrhp4n8",
-      "updated_at": "2026-09-23T17:01:27.950Z"
+      "updated_at": "2026-09-23T20:26:02.261Z"
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Norway",
-      "incident_url": "https://stspg.io/459gq9jp0h41",
-      "updated_at": "2026-09-23T10:20:29.043-07:00"
+      "description": "Voice Call Failures From Twilio Mobile Numbers to Vodafone in the United Kingdom of Great Britain and Northern Ireland",
+      "incident_url": "https://stspg.io/96cpllt8dxbq",
+      "updated_at": "2026-09-23T13:37:16.772-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,13 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/f8wg5htd3zz4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated Errors with any / all in http_response_cache_settings</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/459gq9jp0h41\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Norway</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-23 17:23 UTC</p>",
-  "community": [
-    {
-      "title": "Show HN: HookDeploy – Webhook infra with mTLS private delivery",
-      "url": "https://news.ycombinator.com/item?id=49818514",
-      "points": 1,
-      "ago": "58m"
-    }
-  ]
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Degradation — Asia-Pacific</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/96cpllt8dxbq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures From Twilio Mobile Numbers to Vodafone in the United Kingdom of Great Britain and Northern Ireland</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-23 20:38 UTC</p>",
+  "community": []
 }
