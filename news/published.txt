@@ -1900,3 +1900,4 @@ https://www.troyhunt.com/weekly-update-522/
 https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/
 https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html
 https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals
+https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/
