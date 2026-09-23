@@ -1896,3 +1896,4 @@ https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborativ
 https://thenewstack.io/openai-gpt-6-sol-luna-release/
 https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
 https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/
+https://www.troyhunt.com/weekly-update-522/
