@@ -1898,3 +1898,5 @@ https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
 https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/
 https://www.troyhunt.com/weekly-update-522/
 https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/
+https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html
+https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals
