@@ -1902,3 +1902,4 @@ https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html
 https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals
 https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/
 https://thenewstack.io/whoop-automated-vulnerability-response-workflow/
+https://drewdevault.com/blog/Why-is-HN-like-that/
