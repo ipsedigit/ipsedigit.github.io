@@ -1905,3 +1905,8 @@ https://thenewstack.io/whoop-automated-vulnerability-response-workflow/
 https://drewdevault.com/blog/Why-is-HN-like-that/
 https://simonwillison.net/2026/Sep/23/shadow-roots/
 https://www.computerenhance.com/p/nested-simd-predicates
+https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/
+https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html
+https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/
+https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html
+https://newsletter.pragmaticengineer.com/p/windows-and-ai
