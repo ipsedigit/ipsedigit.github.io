@@ -1917,3 +1917,4 @@ https://simonwillison.net/2026/Sep/22/llm-anthropic/
 https://blog.cloudflare.com/containers-cross-tenant-vulnerability/
 https://dev.to/ibimo_o/decentralized-code-reviews-in-git-introducing-git-notes-v018-6g
 https://danluu.com/brain-off/
+https://simonwillison.net/2026/Sep/24/commit-rewriter/
