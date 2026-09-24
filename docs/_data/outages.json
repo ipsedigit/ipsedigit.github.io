@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T20:43:20.782840+00:00",
+  "generated_at": "2026-09-24T23:32:52.863351+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Intermittent 500 errors for backend services on Replicate",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/2x4qt2q2ds9x",
-      "updated_at": "2026-09-24T20:40:47.000Z"
+      "description": "Network Performance Degradation — Asia-Pacific",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15",
+      "updated_at": "2026-09-23T18:44:55.000Z"
     },
     {
       "name": "CircleCI",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "operational",
-      "description": "Service Degradation Affecting Live Transcription Services.",
-      "incident_url": "https://stspg.io/m8bvpzdcvcjd",
-      "updated_at": "2026-09-24T13:22:27.298-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Event Streams Service Disruption",
-      "incident_url": "https://stspg.io/jvck7rxc4qr9",
-      "updated_at": "2026-09-24T13:40:23.927-07:00"
+      "description": "Voice Call Failures From a Subset of Twilio Phone Numbers to Norway",
+      "incident_url": "https://stspg.io/459gq9jp0h41",
+      "updated_at": "2026-09-24T16:28:18.836-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -204,7 +204,7 @@
       "status": "degraded",
       "description": "INC20000150",
       "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-09-17T23:04:19.824Z"
+      "updated_at": "2026-09-24T23:13:15.096Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/2x4qt2q2ds9x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Intermittent 500 errors for backend services on Replicate</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jvck7rxc4qr9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Event Streams Service Disruption</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-24 20:43 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Degradation — Asia-Pacific</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/459gq9jp0h41\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures From a Subset of Twilio Phone Numbers to Norway</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-24 23:32 UTC</p>",
   "community": []
 }
