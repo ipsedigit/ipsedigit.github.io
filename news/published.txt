@@ -1912,3 +1912,4 @@ https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-ge
 https://newsletter.pragmaticengineer.com/p/windows-and-ai
 https://simonwillison.net/2026/Sep/23/gemini-tts-playground/
 https://simonwillison.net/2026/Sep/22/llm/
+https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/
