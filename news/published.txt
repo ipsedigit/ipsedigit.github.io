@@ -1928,3 +1928,4 @@ https://simonwillison.net/2026/Sep/24/datasette/
 https://thenewstack.io/ai-agents-probe-vulnerabilities/
 https://devops.com/why-old-azure-devops-releases-survive-a-pipeline-cutover/
 https://seangoedecke.com/you-should-all-be-asking-way-more-questions/
+https://simonwillison.net/2026/Sep/25/sighting-403293902/
