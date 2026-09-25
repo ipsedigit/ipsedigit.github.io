@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-25T17:55:19.013390+00:00",
+  "generated_at": "2026-09-25T21:23:12.984214+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 4,
+    "operational": 19,
+    "degraded": 5,
     "outage": 1,
     "unknown": 1
   },
@@ -120,10 +120,10 @@
       "name": "New Relic",
       "domain": "status.newrelic.com",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Data Irregularities for US region",
+      "incident_url": "https://stspg.io/fy25q1yq6dkr",
+      "updated_at": "2026-09-25T20:39:02.847Z"
     },
     {
       "name": "Sentry",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
-      "incident_url": "https://stspg.io/4cpggx38p4g2",
-      "updated_at": "2026-09-25T10:47:17.764-07:00"
+      "description": "An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature",
+      "incident_url": "https://stspg.io/hg6t0sj5dqpg",
+      "updated_at": "2026-09-25T14:17:09.499-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Norway",
-      "incident_url": "https://stspg.io/459gq9jp0h41",
-      "updated_at": "2026-09-25T10:09:11.443-07:00"
+      "description": "Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Brazil",
+      "incident_url": "https://stspg.io/ws0cx8tmxbv0",
+      "updated_at": "2026-09-25T14:07:28.468-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -204,7 +204,7 @@
       "status": "degraded",
       "description": "INC20000150",
       "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-09-24T23:13:15.096Z"
+      "updated_at": "2026-09-25T18:34:42.555Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Degradation — Asia-Pacific</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cpggx38p4g2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Customer Using Polycom Devices Going Offline</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/459gq9jp0h41\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Norway</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-25 17:55 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Degradation — Asia-Pacific</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/fy25q1yq6dkr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">New Relic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Data Irregularities for US region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hg6t0sj5dqpg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ws0cx8tmxbv0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-25 21:23 UTC</p>",
   "community": []
 }
