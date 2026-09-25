@@ -1925,3 +1925,4 @@ https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-activ
 https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/
 https://www.darkreading.com/cloud-security/how-to-build-sase-framework
 https://simonwillison.net/2026/Sep/24/datasette/
+https://thenewstack.io/ai-agents-probe-vulnerabilities/
