@@ -858,3 +858,7 @@
 2026-09-24:security:malware:breaking
 2026-09-24:security:security:breaking
 2026-09-24:software-engineering:architecture:breaking
+2026-09-25:ai:ai:breaking
+2026-09-25:software-engineering:architecture:breaking
+2026-09-25:security:vulnerability:breaking
+2026-09-25:security:appsec:breaking

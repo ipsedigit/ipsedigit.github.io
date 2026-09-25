@@ -1918,3 +1918,7 @@ https://blog.cloudflare.com/containers-cross-tenant-vulnerability/
 https://dev.to/ibimo_o/decentralized-code-reviews-in-git-introducing-git-notes-v018-6g
 https://danluu.com/brain-off/
 https://simonwillison.net/2026/Sep/24/commit-rewriter/
+https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing
+https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/
+https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html
+https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/
