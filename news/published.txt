@@ -1922,3 +1922,5 @@ https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-
 https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/
 https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html
 https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/
+https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/
+https://www.darkreading.com/cloud-security/how-to-build-sase-framework
