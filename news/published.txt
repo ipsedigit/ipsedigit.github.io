@@ -1939,3 +1939,4 @@ https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-sit
 https://seangoedecke.com/advice-to-a-beginning-software-engineer/
 https://dev.to/developers_softdev/micro-saas-vs-enterprise-saas-2026-architecture-scaling-guide-5986
 https://simonwillison.net/2026/Sep/24/harder/
+http://www.righto.com/2026/09/8087-tangent-cordic.html
