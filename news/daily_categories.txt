@@ -866,3 +866,7 @@
 2026-09-25:security:security:breaking
 2026-09-25:ai:ai:breaking
 2026-09-25:cloud:gcp-azure:breaking
+2026-09-26:ai:llm:breaking
+2026-09-26:security:appsec:breaking
+2026-09-26:security:vulnerability:breaking
+2026-09-26:ai:ai:deep

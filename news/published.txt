@@ -1931,3 +1931,7 @@ https://seangoedecke.com/you-should-all-be-asking-way-more-questions/
 https://simonwillison.net/2026/Sep/25/sighting-403293902/
 https://simonwillison.net/2026/Sep/25/john-gruber/
 https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/
+https://devops.com/leaked-gitlab-email-tokens-can-reach-code-secrets-and-ci-cd-pipelines/
+https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html
+https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html
+https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand
