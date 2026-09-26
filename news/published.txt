@@ -1936,3 +1936,4 @@ https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html
 https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html
 https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand
 https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
+https://seangoedecke.com/advice-to-a-beginning-software-engineer/
