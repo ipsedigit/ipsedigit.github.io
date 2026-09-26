@@ -1940,3 +1940,4 @@ https://seangoedecke.com/advice-to-a-beginning-software-engineer/
 https://dev.to/developers_softdev/micro-saas-vs-enterprise-saas-2026-architecture-scaling-guide-5986
 https://simonwillison.net/2026/Sep/24/harder/
 http://www.righto.com/2026/09/8087-tangent-cordic.html
+https://dev.to/devdvgs/i-built-freshdeploy-to-verify-web-deployments-after-release-3p64
