@@ -875,3 +875,4 @@
 2026-09-26:devtools:package-managers:breaking
 2026-09-27:security:vulnerability:breaking
 2026-09-27:ai:ai:breaking
+2026-09-27:security:cryptography:breaking
