@@ -1944,3 +1944,4 @@ https://dev.to/devdvgs/i-built-freshdeploy-to-verify-web-deployments-after-relea
 https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
 https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html
 https://simonwillison.net/2026/Sep/26/kakapo-party/
+https://seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/
