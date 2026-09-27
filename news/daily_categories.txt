@@ -873,3 +873,5 @@
 2026-09-26:security:malware:breaking
 2026-09-26:cloud:serverless:deep
 2026-09-26:devtools:package-managers:breaking
+2026-09-27:security:vulnerability:breaking
+2026-09-27:ai:ai:breaking
