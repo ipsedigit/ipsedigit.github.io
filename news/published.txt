@@ -1952,3 +1952,4 @@ https://simonwillison.net/2026/Sep/23/hn-49823961/
 https://thenewstack.io/nvidia-openshell-sentry-agents/
 https://www.troyhunt.com/weekly-update-523/
 https://blog.cloudflare.com/cloudflare-cf-cli-launch/
+http://brooker.co.za/blog/2026/09/28/engineering-system-one.html
