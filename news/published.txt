@@ -1955,3 +1955,4 @@ https://blog.cloudflare.com/cloudflare-cf-cli-launch/
 http://brooker.co.za/blog/2026/09/28/engineering-system-one.html
 https://simonwillison.net/2026/Sep/28/joedaroo/
 https://devops.com/docker-introduces-open-sandbox-kit-spec-for-ai-agent-permissions/
+https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
