@@ -1950,3 +1950,4 @@ https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-l
 https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html
 https://simonwillison.net/2026/Sep/23/hn-49823961/
 https://thenewstack.io/nvidia-openshell-sentry-agents/
+https://www.troyhunt.com/weekly-update-523/
