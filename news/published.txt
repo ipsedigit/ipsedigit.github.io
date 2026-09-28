@@ -1947,3 +1947,4 @@ https://simonwillison.net/2026/Sep/26/kakapo-party/
 https://seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/
 https://dev.to/hrolgar/setting-firefox-bookmark-keywords-from-an-extension-without-an-api-for-it-4m43
 https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/
+https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html
