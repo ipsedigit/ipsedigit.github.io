@@ -1959,3 +1959,4 @@ https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
 https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts
 https://dev.to/mech_app_ai/cloudflares-cf-cli-agentic-design-patterns-for-command-line-tools-3ffo
 https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html
+https://simonwillison.net/2026/Sep/28/muse-ai-agent/
