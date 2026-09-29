@@ -1961,3 +1961,4 @@ https://dev.to/mech_app_ai/cloudflares-cf-cli-agentic-design-patterns-for-comman
 https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html
 https://simonwillison.net/2026/Sep/28/muse-ai-agent/
 https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/
+https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
