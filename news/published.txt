@@ -1966,3 +1966,4 @@ https://simonwillison.net/2026/Sep/27/hn-49871741/
 https://blog.cloudflare.com/threat-signals/
 https://simonwillison.net/2026/Sep/27/bluesky-bot-check/
 https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/
+https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/
