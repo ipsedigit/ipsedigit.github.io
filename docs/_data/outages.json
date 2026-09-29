@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T16:08:31.585129+00:00",
+  "generated_at": "2026-09-29T20:50:15.589971+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 6,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -30,34 +30,34 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.",
+      "incident_url": "https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev",
+      "updated_at": "2026-09-29T16:09:46+00:00"
     },
     {
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "operational",
-      "description": "Origin Server Connectivity Issues with Elevated Errors in APAC Region",
-      "incident_url": "https://stspg.io/f7zkmr21gbfh",
-      "updated_at": "2026-09-28T16:22:33.230Z"
+      "status": "degraded",
+      "description": "Akamai Control Center and Configuration Deployment Issues",
+      "incident_url": "https://stspg.io/z21cpxftrhhm",
+      "updated_at": "2026-09-29T20:48:05.149Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network Performance Degradation — Asia-Pacific",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15",
-      "updated_at": "2026-09-25T08:50:56.000Z"
+      "description": "OTP Deliverability Errors",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/vcstgt8gqkyk",
+      "updated_at": "2026-09-29T20:11:20.000Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Flex Plugins CLI Is Degraded",
-      "incident_url": "https://stspg.io/1279bs19xrwj",
-      "updated_at": "2026-09-29T07:52:00.660-07:00"
+      "description": "MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers.",
+      "incident_url": "https://stspg.io/8fp59sj5vkgh",
+      "updated_at": "2026-09-29T13:08:54.394-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,19 +210,19 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
-      "incident_url": "https://stspg.io/br61xzj05pp5",
-      "updated_at": "2026-09-29T15:30:44.559Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-09-29T19:39:36Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/8wmvkv5jkf15\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network Performance Degradation — Asia-Pacific</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cpggx38p4g2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Customer Using Polycom Devices Going Offline</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1279bs19xrwj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Flex Plugins CLI Is Degraded</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/br61xzj05pp5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-29 16:08 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/z21cpxftrhhm\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Akamai Control Center and Configuration Deployment Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/vcstgt8gqkyk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">OTP Deliverability Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cpggx38p4g2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Customer Using Polycom Devices Going Offline</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8fp59sj5vkgh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-09-29 20:50 UTC</p>",
   "community": []
 }
