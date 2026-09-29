@@ -1960,3 +1960,4 @@ https://www.darkreading.com/identity-access-management-security/carbonato-botnet
 https://dev.to/mech_app_ai/cloudflares-cf-cli-agentic-design-patterns-for-command-line-tools-3ffo
 https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html
 https://simonwillison.net/2026/Sep/28/muse-ai-agent/
+https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/
