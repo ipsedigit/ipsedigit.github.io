@@ -1964,3 +1964,4 @@ https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-o
 https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
 https://simonwillison.net/2026/Sep/27/hn-49871741/
 https://blog.cloudflare.com/threat-signals/
+https://simonwillison.net/2026/Sep/27/bluesky-bot-check/
