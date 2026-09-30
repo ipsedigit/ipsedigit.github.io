@@ -1976,3 +1976,4 @@ https://simonwillison.net/2026/Sep/29/hn-49898129/
 https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html
 https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
 https://simonwillison.net/2026/Sep/29/photo-scrubber/
+https://devops.com/legit-security-launches-agentic-remediation-for-open-source-dependency-vulnerabilities/
