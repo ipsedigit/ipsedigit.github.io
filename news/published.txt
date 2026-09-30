@@ -1968,3 +1968,4 @@ https://simonwillison.net/2026/Sep/27/bluesky-bot-check/
 https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/
 https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/
 https://dev.to/shockalotti/calnode-v0101-the-release-our-deployers-wrote-5fij
+https://lucumr.pocoo.org/2026/9/29/deser/
