@@ -1972,3 +1972,4 @@ https://lucumr.pocoo.org/2026/9/29/deser/
 https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html
 https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html
 https://thenewstack.io/cloudflare-forge-anthropic-stainless/
+https://simonwillison.net/2026/Sep/29/hn-49898129/
