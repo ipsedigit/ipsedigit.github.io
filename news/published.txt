@@ -1988,3 +1988,4 @@ https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html
 https://thenewstack.io/coding-agents-leaked-screenshots/
 https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/
 https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
+https://dev.to/yash_sonawane25/kubernetes-troubleshooting-a-practical-guide-to-debugging-pods-that-dont-work-4864
