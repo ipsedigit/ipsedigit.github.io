@@ -1980,3 +1980,6 @@ https://devops.com/legit-security-launches-agentic-remediation-for-open-source-d
 https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/
 https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/
 https://simonwillison.net/2026/Sep/30/he-built-this-city/
+https://devops.com/aws-benchmark-aims-to-reduce-number-of-false-positives-found-by-ai-vulnerability-scanners/
+https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html
+https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/

@@ -893,3 +893,6 @@
 2026-09-30:security:threat-intel:breaking
 2026-09-30:ai:ai:community
 2026-09-30:security:malware:breaking
+2026-10-01:ai:ai-research:breaking
+2026-10-01:security:vulnerability:breaking
+2026-10-01:ai:ai:breaking
