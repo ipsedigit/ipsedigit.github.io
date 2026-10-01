@@ -1986,3 +1986,5 @@ https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enable
 https://simonwillison.net/2026/Oct/1/matthew-green/
 https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html
 https://thenewstack.io/coding-agents-leaked-screenshots/
+https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/
+https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
