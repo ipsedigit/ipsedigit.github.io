@@ -1984,3 +1984,4 @@ https://devops.com/aws-benchmark-aims-to-reduce-number-of-false-positives-found-
 https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html
 https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/
 https://simonwillison.net/2026/Oct/1/matthew-green/
+https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html
