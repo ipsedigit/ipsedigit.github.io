@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T14:30:32.103420+00:00",
+  "generated_at": "2026-10-01T19:51:41.783965+00:00",
   "summary": {
     "total": 26,
-    "operational": 18,
-    "degraded": 6,
+    "operational": 17,
+    "degraded": 7,
     "outage": 1,
     "unknown": 1
   },
@@ -138,10 +138,10 @@
       "name": "Discord",
       "domain": "discordstatus.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated API error rate",
+      "incident_url": "https://stspg.io/d34fn55r326n",
+      "updated_at": "2026-10-01T12:48:10.575-07:00"
     },
     {
       "name": "Microsoft 365",
@@ -156,28 +156,28 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "degraded",
-      "description": "Free Plan Customers Are Experiencing Message Failures",
-      "incident_url": "https://slack-status.com/2026-10/6c28dfb7b670dc02",
-      "updated_at": "2026-10-01T06:58:40-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation Affecting Zoom for Google Workspace Add-On",
-      "incident_url": "https://stspg.io/sn8rq0f3vgdq",
-      "updated_at": "2026-10-01T06:57:00.276-07:00"
+      "description": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
+      "incident_url": "https://stspg.io/4cpggx38p4g2",
+      "updated_at": "2026-09-30T18:33:05.667-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to Spain",
+      "description": "Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to DigiMobil Spain",
       "incident_url": "https://stspg.io/b7dkjvdx92zp",
-      "updated_at": "2026-10-01T06:17:06.141-07:00"
+      "updated_at": "2026-10-01T12:28:12.621-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -192,10 +192,10 @@
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
-      "status": "operational",
-      "description": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
-      "incident_url": "https://stspg.io/jwd31x8yx3q5",
-      "updated_at": "2026-09-03T16:47:21.743Z"
+      "status": "degraded",
+      "description": "Trigger processing may be delayed globally",
+      "incident_url": "https://stspg.io/bdghxhyf3hbd",
+      "updated_at": "2026-10-01T19:51:05.091Z"
     },
     {
       "name": "Snowflake",
@@ -211,9 +211,9 @@
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Delayed credits on the Claude Platform",
+      "incident_url": "https://stspg.io/jg26d0skzh27",
+      "updated_at": "2026-10-01T18:23:02.751Z"
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Elevated errors in ChatGPT Space Pages",
       "incident_url": "",
-      "updated_at": "2026-09-30T15:00:05Z"
+      "updated_at": "2026-10-01T16:51:16Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/4m03612lprhr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Workers build delays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-10/6c28dfb7b670dc02\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Free Plan Customers Are Experiencing Message Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sn8rq0f3vgdq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom for Google Workspace Add-On</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b7dkjvdx92zp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to Spain</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-01 14:30 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/4m03612lprhr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare Workers build delays</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d34fn55r326n\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Discord</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated API error rate</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cpggx38p4g2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Customer Using Polycom Devices Going Offline</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b7dkjvdx92zp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to DigiMobil Spain</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/bdghxhyf3hbd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">MongoDB Atlas</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Trigger processing may be delayed globally</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-01 19:51 UTC</p>",
   "community": []
 }
