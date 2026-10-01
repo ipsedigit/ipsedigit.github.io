@@ -1979,3 +1979,4 @@ https://simonwillison.net/2026/Sep/29/photo-scrubber/
 https://devops.com/legit-security-launches-agentic-remediation-for-open-source-dependency-vulnerabilities/
 https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/
 https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/
+https://simonwillison.net/2026/Sep/30/he-built-this-city/
