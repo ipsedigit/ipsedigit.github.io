@@ -1992,3 +1992,4 @@ https://dev.to/yash_sonawane25/kubernetes-troubleshooting-a-practical-guide-to-d
 https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html
 https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities
 https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/
+https://devops.com/from-software-supply-chains-to-ai-vulnerabilities-why-neither-solves-enterprise-linux-security/
