@@ -1989,3 +1989,6 @@ https://thenewstack.io/coding-agents-leaked-screenshots/
 https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/
 https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
 https://dev.to/yash_sonawane25/kubernetes-troubleshooting-a-practical-guide-to-debugging-pods-that-dont-work-4864
+https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html
+https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities
+https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/
