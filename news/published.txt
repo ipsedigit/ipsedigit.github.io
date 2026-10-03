@@ -1997,3 +1997,4 @@ https://seangoedecke.com/do-not-build-the-llm-torture-factory/
 https://dev.to/axrisi/openai-hack-by-claude-zcodes-git-upload-week-38-in-tech-ranked-39p2
 https://dev.to/aairom/inside-apple-containers-architectural-deep-dive-cli-parity-and-benchmarking-against-podman-48ja
 https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/
+https://www.computerenhance.com/p/q-and-a-88-2026-10-02
