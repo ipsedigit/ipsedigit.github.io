@@ -2003,3 +2003,4 @@ https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerabil
 https://blog.cloudflare.com/clef-decision-models/
 https://seangoedecke.com/superpersuasion-will-look-like-bribery/
 https://seangoedecke.com/shipping-is-the-foundation/
+https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html
