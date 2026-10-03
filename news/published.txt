@@ -2002,3 +2002,4 @@ https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vuln
 https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks
 https://blog.cloudflare.com/clef-decision-models/
 https://seangoedecke.com/superpersuasion-will-look-like-bribery/
+https://seangoedecke.com/shipping-is-the-foundation/
