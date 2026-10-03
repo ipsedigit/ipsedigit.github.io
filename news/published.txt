@@ -1998,3 +1998,6 @@ https://dev.to/axrisi/openai-hack-by-claude-zcodes-git-upload-week-38-in-tech-ra
 https://dev.to/aairom/inside-apple-containers-architectural-deep-dive-cli-parity-and-benchmarking-against-podman-48ja
 https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/
 https://www.computerenhance.com/p/q-and-a-88-2026-10-02
+https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
+https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks
+https://blog.cloudflare.com/clef-decision-models/
