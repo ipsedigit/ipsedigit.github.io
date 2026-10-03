@@ -2006,3 +2006,4 @@ https://seangoedecke.com/shipping-is-the-foundation/
 https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html
 https://simonwillison.net/2026/Oct/2/rex-s-dino-store/
 https://dev.to/mitrakumar/installing-nginx-ingress-controller-in-docker-desktop-a-step-by-step-guide-17df
+https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
