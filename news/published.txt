@@ -2010,3 +2010,4 @@ https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
 https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/
 https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack
+https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage
