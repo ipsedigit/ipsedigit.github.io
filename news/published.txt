@@ -2014,3 +2014,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage
 https://simonwillison.net/2026/Oct/3/newsletter/
 https://www.troyhunt.com/weekly-update-524/
 https://nullprogram.com/blog/2026/10/04/
+http://brooker.co.za/blog/2026/10/04/encoders.html
