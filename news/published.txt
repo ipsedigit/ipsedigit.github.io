@@ -2015,3 +2015,4 @@ https://simonwillison.net/2026/Oct/3/newsletter/
 https://www.troyhunt.com/weekly-update-524/
 https://nullprogram.com/blog/2026/10/04/
 http://brooker.co.za/blog/2026/10/04/encoders.html
+https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/
