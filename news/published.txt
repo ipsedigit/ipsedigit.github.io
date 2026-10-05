@@ -2017,3 +2017,5 @@ https://nullprogram.com/blog/2026/10/04/
 http://brooker.co.za/blog/2026/10/04/encoders.html
 https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/
 https://xeiaso.net/blog/2026/m9s/
+https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html
+https://blog.cloudflare.com/birthday-week-2026-wrap-up/
