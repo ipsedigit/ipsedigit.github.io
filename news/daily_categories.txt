@@ -921,3 +921,4 @@
 2026-10-05:security:malware:breaking
 2026-10-05:ai:ai:breaking
 2026-10-05:ai:ai:breaking
+2026-10-05:security:security:breaking

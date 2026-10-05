@@ -2021,3 +2021,4 @@ https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html
 https://blog.cloudflare.com/birthday-week-2026-wrap-up/
 https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html
 https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/
+https://devops.com/github-slams-the-brakes-on-private-vulnerability-reports/
