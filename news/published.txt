@@ -2023,3 +2023,6 @@ https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html
 https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/
 https://devops.com/github-slams-the-brakes-on-private-vulnerability-reports/
 https://world.hey.com/dhh/what-on-earth-are-you-dooming-about-386cc1da
+https://thenewstack.io/cve-vulnerability-risk-management/
+https://thenewstack.io/cortex-xcor-ai-observability/
+https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
