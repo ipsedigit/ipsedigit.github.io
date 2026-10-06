@@ -2030,3 +2030,4 @@ https://simonwillison.net/2026/Oct/5/felix-rieseberg/
 https://simonwillison.net/2026/Oct/1/pwasm/
 https://world.hey.com/dhh/over-my-dead-pencil-fb0f3647
 https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html
+https://lucumr.pocoo.org/2026/10/6/codemode/
