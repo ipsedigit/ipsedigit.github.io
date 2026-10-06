@@ -2027,3 +2027,4 @@ https://thenewstack.io/cve-vulnerability-risk-management/
 https://thenewstack.io/cortex-xcor-ai-observability/
 https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
 https://simonwillison.net/2026/Oct/5/felix-rieseberg/
+https://simonwillison.net/2026/Oct/1/pwasm/
