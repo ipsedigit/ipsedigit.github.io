@@ -2045,3 +2045,4 @@ https://devops.com/hackerone-report-surfaces-massive-increase-in-vulnerability-b
 https://world.hey.com/dhh/redundancy-is-the-engine-of-progress-76499402
 https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam
 https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/
+https://www.computerenhance.com/p/simd-shuffles
