@@ -2039,3 +2039,4 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-f
 https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/
 https://www.infoq.com/news/2026/10/cloudflare-cf-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://seangoedecke.com/how-to-read-code/
+https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html
