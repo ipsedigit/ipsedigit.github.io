@@ -932,3 +932,4 @@
 2026-10-07:ai:ai:breaking
 2026-10-07:security:malware:breaking
 2026-10-07:security:security:breaking
+2026-10-07:software-engineering:architecture:deep
