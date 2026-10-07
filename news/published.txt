@@ -2041,3 +2041,4 @@ https://www.infoq.com/news/2026/10/cloudflare-cf-cli/?utm_campaign=infoq_content
 https://seangoedecke.com/how-to-read-code/
 https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html
 https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/
+https://devops.com/hackerone-report-surfaces-massive-increase-in-vulnerability-backlogs/
