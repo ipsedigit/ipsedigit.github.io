@@ -2034,3 +2034,4 @@ https://lucumr.pocoo.org/2026/10/6/codemode/
 https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/
 https://mitchellh.com/writing/program-status-osc7501
 https://dev.to/gfean/react-native-ota-is-a-release-pipeline-not-a-download-feature-3bo8
+https://simonwillison.net/2026/Oct/6/le-chonk/
