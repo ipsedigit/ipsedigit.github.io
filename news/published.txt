@@ -2035,3 +2035,6 @@ https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/
 https://mitchellh.com/writing/program-status-osc7501
 https://dev.to/gfean/react-native-ota-is-a-release-pipeline-not-a-download-feature-3bo8
 https://simonwillison.net/2026/Oct/6/le-chonk/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/
+https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/
+https://www.infoq.com/news/2026/10/cloudflare-cf-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
