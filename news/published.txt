@@ -2056,3 +2056,4 @@ https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-
 https://thenewstack.io/building-agent-friendly-apis/
 https://simonwillison.net/2026/Oct/7/jake-boggan/
 https://simonwillison.net/2026/Oct/6/victoria-kim/
+https://simonwillison.net/2026/Oct/8/carson-gross/
