@@ -2052,3 +2052,5 @@ https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/
 https://dev.to/turingcorp/no-reference-class-the-decisions-your-past-has-never-made-ao8
 https://simonwillison.net/2026/Oct/7/ben-affleck/
 https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/
+https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/
+https://thenewstack.io/building-agent-friendly-apis/
