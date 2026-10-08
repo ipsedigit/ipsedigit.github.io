@@ -2048,3 +2048,4 @@ https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/
 https://www.computerenhance.com/p/simd-shuffles
 https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/
 https://thenewstack.io/anthropic-claude-haiku-5-5/
+https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/
