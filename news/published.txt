@@ -2060,3 +2060,4 @@ https://simonwillison.net/2026/Oct/8/carson-gross/
 https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/
 https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/
 https://simonwillison.net/2026/Oct/6/llm-openai-decisions/
+https://simonwillison.net/2026/Oct/9/ttok/
