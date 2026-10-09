@@ -2068,3 +2068,4 @@ https://simonwillison.net/2026/Oct/9/built-using-my-voice/
 https://simonwillison.net/2026/Oct/9/matthew-green/
 https://thenewstack.io/kubernetes-node-swap-ai/
 https://dev.to/krish_8256680d23ed07f70a0/hacktoberfest-open-source-ai-challenge-week-1-touch-grass-4e61
+https://simonwillison.net/2026/Oct/6/llm-mistral/
