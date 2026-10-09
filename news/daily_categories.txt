@@ -942,3 +942,5 @@
 2026-10-09:security:appsec:deep
 2026-10-09:security:security:breaking
 2026-10-09:ai:ai:community
+2026-10-09:cloud:kubernetes:breaking
+2026-10-09:ai:llm:community
