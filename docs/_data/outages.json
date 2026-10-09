@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T14:33:41.501163+00:00",
+  "generated_at": "2026-10-09T19:49:23.163526+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 6,
+    "operational": 14,
+    "degraded": 9,
     "outage": 2,
     "unknown": 1
   },
@@ -30,10 +30,10 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "RESOLVED: Google Cloud Storage customers are experiencing elevated latencies and error rates when performing upload or write operations.",
+      "incident_url": "https://status.cloud.google.com/incidents/mSFVt6PiP557bjRyYsut",
+      "updated_at": "2026-10-09T16:50:52+00:00"
     },
     {
       "name": "Akamai",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Cloudflare One Clients are incorrectly challenged on some sites",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/tl0vrgjy99r0",
-      "updated_at": "2026-09-23T11:02:41.000Z"
+      "description": "Cloudflare API service issues",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/x8n12150xwf6",
+      "updated_at": "2026-10-09T18:52:55.926Z"
     },
     {
       "name": "CircleCI",
@@ -60,7 +60,7 @@
       "status": "degraded",
       "description": "Delay in data appearing in UI and API",
       "incident_url": "https://stspg.io/hkfkwz292bz8",
-      "updated_at": "2026-10-09T14:29:58.946Z"
+      "updated_at": "2026-10-09T19:29:54.596Z"
     },
     {
       "name": "GitHub",
@@ -156,10 +156,10 @@
       "name": "Slack",
       "domain": "status.slack.com",
       "category": "communication",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Slack for iOS closing unexpectedly when opening channels",
+      "incident_url": "https://slack-status.com/2026-10/a0cfb0208a1d2032",
+      "updated_at": "2026-10-09T09:20:04-07:00"
     },
     {
       "name": "Zoom",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender Type to Mobile China",
+      "description": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Mobile China",
       "incident_url": "https://stspg.io/75tlt46n30fr",
-      "updated_at": "2026-10-09T07:31:15.247-07:00"
+      "updated_at": "2026-10-09T08:35:31.776-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -193,9 +193,9 @@
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "Admin Admin API: Intermittent Increase in 5xx errors",
-      "incident_url": "https://stspg.io/dfzzl335pscn",
-      "updated_at": "2026-10-09T13:11:12.448Z"
+      "description": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
+      "incident_url": "https://stspg.io/jwd31x8yx3q5",
+      "updated_at": "2026-09-03T16:47:21.743Z"
     },
     {
       "name": "Snowflake",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "Delayed Costs data in the Compliance API",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-10-09T18:46:25Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 8 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f7zkmr21gbfh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Origin Server Connectivity Issues with Elevated Errors in APAC Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/tl0vrgjy99r0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare One Clients are incorrectly challenged on some sites</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hkfkwz292bz8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delay in data appearing in UI and API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cpggx38p4g2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Customer Using Polycom Devices Going Offline</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/75tlt46n30fr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender Type to Mobile China</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sjkw7njwf0mt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on platform.claude.com</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-09 14:33 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 10 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/mSFVt6PiP557bjRyYsut\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Google Cloud Storage customers are experiencing elevated latencies and error rates when performing upload or write operations.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/f7zkmr21gbfh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Origin Server Connectivity Issues with Elevated Errors in APAC Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/x8n12150xwf6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare API service issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/hkfkwz292bz8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delay in data appearing in UI and API</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://slack-status.com/2026-10/a0cfb0208a1d2032\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Slack</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Slack for iOS closing unexpectedly when opening channels</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4cpggx38p4g2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Customer Using Polycom Devices Going Offline</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/75tlt46n30fr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Mobile China</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sjkw7njwf0mt\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors on platform.claude.com</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-09 19:49 UTC</p>",
   "community": []
 }
