@@ -2062,3 +2062,4 @@ https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-
 https://simonwillison.net/2026/Oct/6/llm-openai-decisions/
 https://simonwillison.net/2026/Oct/9/ttok/
 https://dev.to/divinelab/how-to-automatically-redact-leaked-api-keys-and-env-files-at-the-edge-nfc
+https://simonwillison.net/2026/Oct/8/ttok/
