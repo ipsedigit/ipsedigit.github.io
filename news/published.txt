@@ -2065,3 +2065,4 @@ https://dev.to/divinelab/how-to-automatically-redact-leaked-api-keys-and-env-fil
 https://simonwillison.net/2026/Oct/8/ttok/
 https://thehackernews.com/2026/10/anthropic-launches-free-ai.html
 https://simonwillison.net/2026/Oct/9/built-using-my-voice/
+https://simonwillison.net/2026/Oct/9/matthew-green/
