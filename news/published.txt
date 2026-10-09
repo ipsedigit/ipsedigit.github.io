@@ -2063,3 +2063,4 @@ https://simonwillison.net/2026/Oct/6/llm-openai-decisions/
 https://simonwillison.net/2026/Oct/9/ttok/
 https://dev.to/divinelab/how-to-automatically-redact-leaked-api-keys-and-env-files-at-the-edge-nfc
 https://simonwillison.net/2026/Oct/8/ttok/
+https://thehackernews.com/2026/10/anthropic-launches-free-ai.html
