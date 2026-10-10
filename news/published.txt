@@ -2076,3 +2076,4 @@ https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
 https://simonwillison.net/2026/Oct/10/the-new-york-times/
 https://simonwillison.net/2026/Oct/6/hn-49983751/
 http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html
+https://simonwillison.net/2026/Oct/6/hn-49982139/
