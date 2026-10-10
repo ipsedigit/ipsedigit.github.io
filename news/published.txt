@@ -2070,3 +2070,5 @@ https://thenewstack.io/kubernetes-node-swap-ai/
 https://dev.to/krish_8256680d23ed07f70a0/hacktoberfest-open-source-ai-challenge-week-1-touch-grass-4e61
 https://simonwillison.net/2026/Oct/6/llm-mistral/
 https://seangoedecke.com/softwares-centaur-age-may-last-decades/
+https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html
+https://www.infoworld.com/article/4233237/lightwell-project-filters-out-400-java-library-vulnerabilities.html
