@@ -2072,3 +2072,4 @@ https://simonwillison.net/2026/Oct/6/llm-mistral/
 https://seangoedecke.com/softwares-centaur-age-may-last-decades/
 https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html
 https://www.infoworld.com/article/4233237/lightwell-project-filters-out-400-java-library-vulnerabilities.html
+https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
