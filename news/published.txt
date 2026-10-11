@@ -2078,3 +2078,5 @@ https://simonwillison.net/2026/Oct/6/hn-49983751/
 http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html
 https://simonwillison.net/2026/Oct/6/hn-49982139/
 https://simonwillison.net/2026/Oct/6/datasette-atom/
+https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html
+https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
