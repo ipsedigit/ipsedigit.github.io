@@ -2081,3 +2081,4 @@ https://simonwillison.net/2026/Oct/6/datasette-atom/
 https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html
 https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
 https://simonwillison.net/2026/Oct/10/python-actions/
+https://seangoedecke.com/dont-diagnose-your-opponents/
