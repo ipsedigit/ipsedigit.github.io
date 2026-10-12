@@ -2085,3 +2085,4 @@ https://seangoedecke.com/dont-diagnose-your-opponents/
 https://blog.cryptographyengineering.com/2026/10/11/new-website-estimating-human-cryptanalytic-work/
 https://simonwillison.net/2026/Oct/11/dwarf-fortress/
 https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/
+https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/
