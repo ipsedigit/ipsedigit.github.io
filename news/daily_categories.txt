@@ -949,3 +949,4 @@
 2026-10-11:security:vulnerability:breaking
 2026-10-11:ai:llm:breaking
 2026-10-12:security:vulnerability:breaking
+2026-10-12:security:security:breaking
