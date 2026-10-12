@@ -2089,3 +2089,4 @@ https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/
 https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/
 https://simonwillison.net/2026/Oct/12/python-3-15/
 https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/
+https://simonwillison.net/2026/Oct/12/datasette-ports/
