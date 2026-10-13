@@ -952,3 +952,4 @@
 2026-10-12:security:security:breaking
 2026-10-12:ai:ai:breaking
 2026-10-12:security:security:breaking
+2026-10-13:security:vulnerability:breaking

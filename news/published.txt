@@ -2091,3 +2091,4 @@ https://simonwillison.net/2026/Oct/12/python-3-15/
 https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/
 https://simonwillison.net/2026/Oct/12/datasette-ports/
 https://dev.to/tmatens/docker-hubs-access-token-vulnerability-how-signing-let-me-verify-my-images-58i3
+https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html
