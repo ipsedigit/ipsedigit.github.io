@@ -2093,3 +2093,4 @@ https://simonwillison.net/2026/Oct/12/datasette-ports/
 https://dev.to/tmatens/docker-hubs-access-token-vulnerability-how-signing-let-me-verify-my-images-58i3
 https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html
 https://simonwillison.net/2026/Oct/12/web-edit/
+https://www.troyhunt.com/weekly-update-525/
