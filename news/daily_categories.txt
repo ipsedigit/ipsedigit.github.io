@@ -956,3 +956,4 @@
 2026-10-13:ai:ai:community
 2026-10-13:ai:ai:deep
 2026-10-13:security:security:breaking
+2026-10-14:security:vulnerability:breaking
