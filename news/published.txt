@@ -2097,3 +2097,4 @@ https://www.troyhunt.com/weekly-update-525/
 https://simonwillison.net/2026/Oct/13/geoffrey-huntley/
 https://newsletter.pragmaticengineer.com/p/building-resilient-systems
 https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html
+https://nullprogram.com/blog/2026/10/13/
