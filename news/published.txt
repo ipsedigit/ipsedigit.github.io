@@ -2101,3 +2101,4 @@ https://nullprogram.com/blog/2026/10/13/
 https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/
 https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/
 https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html
+https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/
