@@ -2105,3 +2105,4 @@ https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/
 https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html
 https://simonwillison.net/2026/Oct/13/llm-gemini/
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-92392/
+https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html
