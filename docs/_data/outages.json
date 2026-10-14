@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T06:35:56.932881+00:00",
+  "generated_at": "2026-10-14T12:25:23.985098+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
-    "degraded": 3,
-    "outage": 3,
+    "degraded": 4,
+    "outage": 2,
     "unknown": 1
   },
   "services": [
@@ -30,10 +30,10 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "RESOLVED: Google Cloud Storage (GCS) customers experienced elevated latencies and error rates when performing upload or write operations.",
+      "incident_url": "https://status.cloud.google.com/incidents/mSFVt6PiP557bjRyYsut",
+      "updated_at": "2026-10-14T07:17:30+00:00"
     },
     {
       "name": "Akamai",
@@ -51,7 +51,7 @@
       "status": "outage",
       "description": "Cloudflare Workers - Cron Trigger Activation Issues",
       "incident_url": "https://www.cloudflarestatus.com/incidents/npjny9agana8",
-      "updated_at": "2026-10-14T05:36:12.243Z"
+      "updated_at": "2026-10-14T08:14:16.627Z"
     },
     {
       "name": "CircleCI",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "outage",
-      "description": "Ingestion Halted for EAP data in EU",
-      "incident_url": "https://stspg.io/kl4239fh2t23",
-      "updated_at": "2026-10-14T06:09:31.969Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation Affecting Zoom Clips",
       "incident_url": "https://stspg.io/rcc26f8fnwgf",
-      "updated_at": "2026-10-13T20:48:32.451-07:00"
+      "updated_at": "2026-10-14T05:04:23.288-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers",
-      "incident_url": "https://stspg.io/8fp59sj5vkgh",
-      "updated_at": "2026-10-13T23:13:19.038-07:00"
+      "description": "Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to Israel",
+      "incident_url": "https://stspg.io/87ksz4fr43kl",
+      "updated_at": "2026-10-14T05:00:42.720-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/npjny9agana8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Workers - Cron Trigger Activation Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kl4239fh2t23\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Ingestion Halted for EAP data in EU</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rcc26f8fnwgf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Clips</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8fp59sj5vkgh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-14 06:35 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/mSFVt6PiP557bjRyYsut\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Google Cloud Storage (GCS) customers experienced elevated latencies and error rates when performing upload or write operations.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/npjny9agana8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Workers - Cron Trigger Activation Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rcc26f8fnwgf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Clips</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/87ksz4fr43kl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to Israel</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-14 12:25 UTC</p>",
   "community": []
 }
