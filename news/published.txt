@@ -2099,3 +2099,4 @@ https://newsletter.pragmaticengineer.com/p/building-resilient-systems
 https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html
 https://nullprogram.com/blog/2026/10/13/
 https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/
+https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/
