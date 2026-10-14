@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T17:30:22.095759+00:00",
+  "generated_at": "2026-10-14T20:58:35.441265+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
-    "degraded": 4,
-    "outage": 2,
+    "degraded": 3,
+    "outage": 3,
     "unknown": 1
   },
   "services": [
@@ -84,10 +84,10 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "outage",
+      "description": "Builds are not starting in all regions",
+      "incident_url": "https://stspg.io/qb9l5v44x73f",
+      "updated_at": "2026-10-14T20:57:41.246Z"
     },
     {
       "name": "Vercel",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Zoom Clips",
-      "incident_url": "https://stspg.io/rcc26f8fnwgf",
-      "updated_at": "2026-10-14T09:04:54.315-07:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Thailand",
-      "incident_url": "https://stspg.io/6z04b5nnhvd2",
-      "updated_at": "2026-10-14T10:10:01.272-07:00"
+      "description": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico",
+      "incident_url": "https://stspg.io/zj92jh14fxwq",
+      "updated_at": "2026-10-14T13:49:33.111-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Delayed Costs data in the Compliance API",
       "incident_url": "",
-      "updated_at": "2026-10-14T17:02:47Z"
+      "updated_at": "2026-10-14T20:00:36Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/npjny9agana8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Workers - Cron Trigger Activation Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rcc26f8fnwgf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Zoom Clips</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6z04b5nnhvd2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Thailand</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-14 17:30 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/npjny9agana8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Workers - Cron Trigger Activation Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/qb9l5v44x73f\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Builds are not starting in all regions</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zj92jh14fxwq\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-14 20:58 UTC</p>",
   "community": []
 }
