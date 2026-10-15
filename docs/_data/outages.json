@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:11:17.507961+00:00",
+  "generated_at": "2026-10-15T18:20:10.799983+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Increased HTTP 502 Errors",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/mxthd6onaplz",
-      "updated_at": "2026-10-15T11:41:54.809Z"
+      "description": "Pages.dev sites experiencing availability issues in Norway",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/5py8l9ees6di",
+      "updated_at": "2026-10-15T16:42:45.547Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures From France to a Subset of Twilio Short Codes",
-      "incident_url": "https://stspg.io/lmj9pt4dcc8b",
-      "updated_at": "2026-10-15T06:40:15.095-07:00"
+      "description": "Voice Call Failures from Austria to a Subset of Twilio Austria Phone Numbers",
+      "incident_url": "https://stspg.io/nzwx7kdn7jnh",
+      "updated_at": "2026-10-15T11:08:47.026-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/mxthd6onaplz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased HTTP 502 Errors</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lmj9pt4dcc8b\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures From France to a Subset of Twilio Short Codes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-15 14:11 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/5py8l9ees6di\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Pages.dev sites experiencing availability issues in Norway</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nzwx7kdn7jnh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Austria to a Subset of Twilio Austria Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-15 18:20 UTC</p>",
   "community": []
 }
