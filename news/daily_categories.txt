@@ -962,3 +962,4 @@
 2026-10-14:security:malware:breaking
 2026-10-15:security:vulnerability:breaking
 2026-10-15:security:appsec:breaking
+2026-10-15:security:security:breaking
