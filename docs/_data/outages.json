@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T18:20:10.799983+00:00",
+  "generated_at": "2026-10-15T21:39:31.765438+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 19,
+    "degraded": 4,
     "outage": 2,
     "unknown": 1
   },
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Pages.dev sites experiencing availability issues in Norway",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/5py8l9ees6di",
-      "updated_at": "2026-10-15T16:42:45.547Z"
+      "description": "Audit Logs v2 ingestion is missing multiple Cloudflare products ",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/hpmrg8d5vwr6",
+      "updated_at": "2026-10-13T11:45:43.999Z"
     },
     {
       "name": "CircleCI",
@@ -84,10 +84,10 @@
       "name": "Render",
       "domain": "status.render.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Dashboard not updating in real time; Some Workflows SDK requests timing out",
+      "incident_url": "https://stspg.io/dz826rv93v57",
+      "updated_at": "2026-10-15T20:58:54.608Z"
     },
     {
       "name": "Vercel",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from Austria to a Subset of Twilio Austria Phone Numbers",
+      "description": "Voice Call Failures From Network Subscribers to Twilio Austria Mobile Phone Numbers",
       "incident_url": "https://stspg.io/nzwx7kdn7jnh",
-      "updated_at": "2026-10-15T11:08:47.026-07:00"
+      "updated_at": "2026-10-15T14:07:59.763-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "degraded",
-      "description": "INC20000277",
-      "incident_url": "https://stspg.io/zv7wdpp3sk46",
-      "updated_at": "2026-10-15T05:56:21.345Z"
+      "description": "INC20000150",
+      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
+      "updated_at": "2026-10-15T21:22:45.957Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/5py8l9ees6di\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Pages.dev sites experiencing availability issues in Norway</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nzwx7kdn7jnh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Austria to a Subset of Twilio Austria Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-15 18:20 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/hpmrg8d5vwr6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Audit Logs v2 ingestion is missing multiple Cloudflare products </span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/dz826rv93v57\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Render</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Dashboard not updating in real time; Some Workflows SDK requests timing out</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nzwx7kdn7jnh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures From Network Subscribers to Twilio Austria Mobile Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-15 21:39 UTC</p>",
   "community": []
 }
