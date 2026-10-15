@@ -2115,3 +2115,4 @@ https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
 https://simonwillison.net/2026/Oct/13/web-edit/
 https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/
 https://simonwillison.net/2026/Oct/12/llm-meta-ai/
+https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer
