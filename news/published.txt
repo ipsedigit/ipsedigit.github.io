@@ -2110,3 +2110,4 @@ https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/
 https://www.computerenhance.com/p/simd-unpacks
 https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/
 https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134
+https://simonwillison.net/2026/Oct/14/tree-appreciator/
