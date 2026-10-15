@@ -2108,3 +2108,4 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-92392
 https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html
 https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/
 https://www.computerenhance.com/p/simd-unpacks
+https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/
