@@ -2113,3 +2113,4 @@ https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-day
 https://simonwillison.net/2026/Oct/14/tree-appreciator/
 https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
 https://simonwillison.net/2026/Oct/13/web-edit/
+https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/
