@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T04:07:35.885548+00:00",
+  "generated_at": "2026-10-15T09:10:27.776843+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
+    "operational": 20,
     "degraded": 3,
     "outage": 2,
-    "unknown": 2
+    "unknown": 1
   },
   "services": [
     {
@@ -39,7 +39,7 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Audit Logs v2 ingestion is missing multiple Cloudflare products ",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/hpmrg8d5vwr6",
-      "updated_at": "2026-10-13T11:45:43.999Z"
+      "description": "Cloudflare Workers AI Issues",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/alzmexlqangd",
+      "updated_at": "2026-10-15T07:57:49.667Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Surf Telecom Brazil",
-      "incident_url": "https://stspg.io/2r099lwrx6rg",
-      "updated_at": "2026-10-14T20:09:59.992-07:00"
+      "description": "Silent Network Authentication (SNA) Failure Increase in Philippines",
+      "incident_url": "https://stspg.io/3s6kt3ygb8q7",
+      "updated_at": "2026-10-15T01:56:36.089-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -204,7 +204,7 @@
       "status": "degraded",
       "description": "INC20000277",
       "incident_url": "https://stspg.io/zv7wdpp3sk46",
-      "updated_at": "2026-10-15T01:53:37.432Z"
+      "updated_at": "2026-10-15T05:56:21.345Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/hpmrg8d5vwr6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Audit Logs v2 ingestion is missing multiple Cloudflare products </span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2r099lwrx6rg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Surf Telecom Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-15 04:07 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/alzmexlqangd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Workers AI Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3s6kt3ygb8q7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Silent Network Authentication (SNA) Failure Increase in Philippines</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zv7wdpp3sk46\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000277</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-15 09:10 UTC</p>",
   "community": []
 }
