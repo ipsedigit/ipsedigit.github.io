@@ -965,3 +965,4 @@
 2026-10-15:security:security:breaking
 2026-10-15:ai:ai:deep
 2026-10-16:security:vulnerability:breaking
+2026-10-16:security:malware:breaking

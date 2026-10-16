@@ -2119,3 +2119,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer
 https://simonwillison.net/2026/Oct/15/chirp-pong/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/
 https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/
+https://dev.to/lucasresende/beyond-the-code-what-hacka-valley-2026-reveals-about-architecture-ai-and-security-27o7
