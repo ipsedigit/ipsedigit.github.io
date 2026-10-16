@@ -2120,3 +2120,5 @@ https://simonwillison.net/2026/Oct/15/chirp-pong/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/
 https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/
 https://dev.to/lucasresende/beyond-the-code-what-hacka-valley-2026-reveals-about-architecture-ai-and-security-27o7
+https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html
+https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-touch-grass-winners-152c
