@@ -970,3 +970,4 @@
 2026-10-16:ai:ai:community
 2026-10-17:security:vulnerability:breaking
 2026-10-17:ai:llm:breaking
+2026-10-17:security:security:breaking
