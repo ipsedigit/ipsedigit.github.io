@@ -2128,3 +2128,4 @@ https://dev.to/devhabeeblateef/how-to-hack-like-a-pro-at-hacktoberfest-2026-even
 https://simonwillison.net/2026/Oct/15/latex/
 https://dev.to/kkamegawa/codex-for-visual-studio-v040-v041-released-2f63
 https://dev.to/guang_diyuzhi_74b0fec2c09/how-to-choose-a-headless-cms-in-2026-a-developers-framework-47b9
+https://www.smartlab.at/introducing-tabshop-server-and-its-ai-assistant/
