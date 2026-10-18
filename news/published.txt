@@ -2133,3 +2133,4 @@ https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
 https://simonwillison.net/2026/Oct/17/document-currentscript/
 https://seangoedecke.com/writing-is-no-longer-proof-of-work/
 https://dev.to/adminpackstudio/wsus-not-downloading-updates-a-read-first-sync-content-folder-bits-proxy-and-tls-triage-1hk5
+https://simonwillison.net/2026/Oct/17/web-edit/
