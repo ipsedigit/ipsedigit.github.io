@@ -972,3 +972,4 @@
 2026-10-17:ai:llm:breaking
 2026-10-17:security:security:breaking
 2026-10-17:software-engineering:architecture:breaking
+2026-10-18:security:vulnerability:breaking
