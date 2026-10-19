@@ -2141,3 +2141,4 @@ https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
 https://www.troyhunt.com/weekly-update-526/
 https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience
 https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
+https://thenewstack.io/distroless-container-security-gap/
