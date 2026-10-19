@@ -2139,3 +2139,4 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-fla
 https://seangoedecke.com/what-requirements-dont-you-have/
 https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
 https://www.troyhunt.com/weekly-update-526/
+https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience
