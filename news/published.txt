@@ -2136,3 +2136,4 @@ https://dev.to/adminpackstudio/wsus-not-downloading-updates-a-read-first-sync-co
 https://simonwillison.net/2026/Oct/17/web-edit/
 http://www.righto.com/2026/10/8087-addition-subtraction-microcode.html
 https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/
+https://seangoedecke.com/what-requirements-dont-you-have/
