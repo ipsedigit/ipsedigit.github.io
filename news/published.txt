@@ -2145,3 +2145,5 @@ https://thenewstack.io/distroless-container-security-gap/
 https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/
 https://simonwillison.net/2026/Oct/18/llm-echo/
 https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/
+https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/
+https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html
