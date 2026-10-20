@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T19:31:31.335754+00:00",
+  "generated_at": "2026-10-20T22:41:46.360584+00:00",
   "summary": {
     "total": 26,
-    "operational": 15,
-    "degraded": 5,
+    "operational": 20,
+    "degraded": 3,
     "outage": 2,
-    "unknown": 4
+    "unknown": 1
   },
   "services": [
     {
@@ -30,16 +30,16 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "degraded",
-      "description": "RESOLVED: Multiple services are experiencing issues in the europe-west2 region.",
-      "incident_url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj",
-      "updated_at": "2026-10-20T14:05:42+00:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -75,7 +75,7 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -85,15 +85,15 @@
       "domain": "status.render.com",
       "category": "devtools",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Deploying from GitLab may intermittently fail",
+      "incident_url": "https://stspg.io/rn6yvrnzgxqb",
+      "updated_at": "2026-10-20T22:23:43.605Z"
     },
     {
       "name": "Vercel",
       "domain": "vercel-status.com",
       "category": "devtools",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "degraded",
-      "description": "Sentry.io not loading",
-      "incident_url": "https://stspg.io/09gv0ryrd5nd",
-      "updated_at": "2026-10-20T18:58:57.855Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -175,27 +175,27 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "WhatsApp Embedded Signup Configuration Failures",
-      "incident_url": "https://stspg.io/zgq59x95fsnv",
-      "updated_at": "2026-10-20T12:28:58.024-07:00"
+      "description": "SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to United Arab Emirates",
+      "incident_url": "https://stspg.io/z5lcq64gvftr",
+      "updated_at": "2026-10-20T15:32:13.394-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London)",
-      "incident_url": "https://stspg.io/5hjf0b8sfxtp",
-      "updated_at": "2026-10-20T17:27:03.781Z"
+      "description": "Elastic Cloud scaling issues in Azure",
+      "incident_url": "https://stspg.io/62bsb4wzd1g1",
+      "updated_at": "2026-10-20T22:27:04.973Z"
     },
     {
       "name": "MongoDB Atlas",
       "domain": "status.mongodb.com",
       "category": "data",
       "status": "operational",
-      "description": "GCP Availability Zone europe-west2-b connectivity issues",
-      "incident_url": "https://stspg.io/fydqrrffdfq0",
-      "updated_at": "2026-10-20T11:43:55.043Z"
+      "description": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
+      "incident_url": "https://stspg.io/jwd31x8yx3q5",
+      "updated_at": "2026-09-03T16:47:21.743Z"
     },
     {
       "name": "Snowflake",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple services are experiencing issues in the europe-west2 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3z8y23zn7tr2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/09gv0ryrd5nd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Sentry.io not loading</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zgq59x95fsnv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">WhatsApp Embedded Signup Configuration Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5hjf0b8sfxtp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-20 19:31 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3z8y23zn7tr2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/z5lcq64gvftr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to United Arab Emirates</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/62bsb4wzd1g1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud scaling issues in Azure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-20 22:41 UTC</p>",
   "community": []
 }
