@@ -2150,3 +2150,4 @@ https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html
 https://seangoedecke.com/laypeople-support-technical-fields-for-technology-not-art/
 https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/
 https://simonwillison.net/2026/Oct/20/battledrones/
+https://thenewstack.io/open-model-benchmarks-production/

@@ -982,3 +982,4 @@
 2026-10-20:security:vulnerability:breaking
 2026-10-20:security:malware:breaking
 2026-10-20:security:security:breaking
+2026-10-20:ai:ai-research:deep
