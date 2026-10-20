@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:43:27.499226+00:00",
+  "generated_at": "2026-10-20T05:24:25.190885+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/3z8y23zn7tr2",
-      "updated_at": "2026-10-19T23:46:48.411Z"
+      "description": "Cloudflare Zero Trust connectivity",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/0eqtn0khkz87",
+      "updated_at": "2026-10-20T04:44:31.749Z"
     },
     {
       "name": "CircleCI",
@@ -166,9 +166,9 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "Service Degradation Affecting Meeting Summaries Via Email.",
-      "incident_url": "https://stspg.io/b071sw22zjsd",
-      "updated_at": "2026-10-19T16:30:35.970-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "SMS Delivery Delays and Failures Between a Subset of Twilio Long Codes and Multiple Networks in Italy",
       "incident_url": "https://stspg.io/5p5wt99kk7y9",
-      "updated_at": "2026-10-19T17:32:25.479-07:00"
+      "updated_at": "2026-10-19T22:17:11.422-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3z8y23zn7tr2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/b071sw22zjsd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Meeting Summaries Via Email.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5p5wt99kk7y9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures Between a Subset of Twilio Long Codes and Multiple Networks in Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-20 00:43 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0eqtn0khkz87\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Zero Trust connectivity</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5p5wt99kk7y9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures Between a Subset of Twilio Long Codes and Multiple Networks in Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-20 05:24 UTC</p>",
   "community": []
 }
