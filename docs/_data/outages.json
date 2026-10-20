@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:19:57.502219+00:00",
+  "generated_at": "2026-10-20T15:18:14.170100+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -31,9 +31,9 @@
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
       "status": "degraded",
-      "description": "UPDATE: Multiple services are experiencing issues in the europe-west2 region.",
+      "description": "RESOLVED: Multiple services are experiencing issues in the europe-west2 region.",
       "incident_url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj",
-      "updated_at": "2026-10-20T10:01:18+00:00"
+      "updated_at": "2026-10-20T14:05:42+00:00"
     },
     {
       "name": "Akamai",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Receipt Delays from Twilio to Surf Telecom Brazil",
-      "incident_url": "https://stspg.io/5x8jhfr1f2sy",
-      "updated_at": "2026-10-20T03:07:18.588-07:00"
+      "description": "Voice Call Failures From Twilio Phone Numbers to Digi.Mobil Romania",
+      "incident_url": "https://stspg.io/njfwv4h6970d",
+      "updated_at": "2026-10-20T07:43:31.911-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -186,7 +186,7 @@
       "status": "outage",
       "description": "Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London)",
       "incident_url": "https://stspg.io/5hjf0b8sfxtp",
-      "updated_at": "2026-10-20T09:15:35.524Z"
+      "updated_at": "2026-10-20T14:15:33.293Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -195,7 +195,7 @@
       "status": "operational",
       "description": "GCP Availability Zone europe-west2-b connectivity issues",
       "incident_url": "https://stspg.io/fydqrrffdfq0",
-      "updated_at": "2026-10-20T08:38:58.367Z"
+      "updated_at": "2026-10-20T11:43:55.043Z"
     },
     {
       "name": "Snowflake",
@@ -204,7 +204,7 @@
       "status": "outage",
       "description": "INC20000294",
       "incident_url": "https://stspg.io/vqh0y5vrzprg",
-      "updated_at": "2026-10-20T09:45:23.155Z"
+      "updated_at": "2026-10-20T14:34:09.755Z"
     },
     {
       "name": "Anthropic",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">UPDATE: Multiple services are experiencing issues in the europe-west2 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3z8y23zn7tr2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5x8jhfr1f2sy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from Twilio to Surf Telecom Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5hjf0b8sfxtp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vqh0y5vrzprg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000294</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-20 10:19 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple services are experiencing issues in the europe-west2 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3z8y23zn7tr2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/njfwv4h6970d\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures From Twilio Phone Numbers to Digi.Mobil Romania</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5hjf0b8sfxtp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/vqh0y5vrzprg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000294</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-20 15:18 UTC</p>",
   "community": []
 }
