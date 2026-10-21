@@ -2155,3 +2155,4 @@ https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html
 https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/
 https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html
 https://simonwillison.net/2026/Oct/20/emudhra-certificates/
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-111497/
