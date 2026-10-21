@@ -2154,3 +2154,4 @@ https://thenewstack.io/open-model-benchmarks-production/
 https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html
 https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/
 https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html
+https://simonwillison.net/2026/Oct/20/emudhra-certificates/
