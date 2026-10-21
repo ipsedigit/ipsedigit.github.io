@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T16:58:28.337837+00:00",
+  "generated_at": "2026-10-21T20:32:25.090309+00:00",
   "summary": {
     "total": 26,
     "operational": 17,
-    "degraded": 6,
-    "outage": 2,
+    "degraded": 5,
+    "outage": 3,
     "unknown": 1
   },
   "services": [
@@ -42,34 +42,34 @@
       "status": "degraded",
       "description": "Web Security Analytics, Reporting and Configuration Deployment Issues",
       "incident_url": "https://stspg.io/914vf82nsv2k",
-      "updated_at": "2026-10-21T16:08:37.342Z"
+      "updated_at": "2026-10-21T20:23:07.997Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Increased Latency in India",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/t77gwnpr6oe5",
-      "updated_at": "2026-10-21T16:42:14.640Z"
+      "description": "Incorrect geo location for some Cloudflare WARP users",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/9g65dxfbcjln",
+      "updated_at": "2026-09-01T08:29:56.000Z"
     },
     {
       "name": "CircleCI",
       "domain": "status.circleci.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Increased Docker gen2 wait times",
+      "incident_url": "https://stspg.io/8g54j07z69lb",
+      "updated_at": "2026-10-21T20:22:53.501Z"
     },
     {
       "name": "GitHub",
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Delays for Pull Requests and Webhook deliveries",
-      "incident_url": "https://stspg.io/gnnt0tx9nxmk",
-      "updated_at": "2026-10-21T16:57:42.162Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -78,7 +78,7 @@
       "status": "degraded",
       "description": "Delays in build logs appearing in the UI",
       "incident_url": "https://stspg.io/p8kg8wmvsqwh",
-      "updated_at": "2026-10-21T15:33:18.791Z"
+      "updated_at": "2026-10-21T19:42:07.650Z"
     },
     {
       "name": "Render",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to Jazz Pakistan",
-      "incident_url": "https://stspg.io/d8km5rfd3wbx",
-      "updated_at": "2026-10-21T09:49:52.017-07:00"
+      "description": "SMS Delivery Delays from a Subset of Twilio Short Codes to Cellularone United States",
+      "incident_url": "https://stspg.io/d5d07rxmhypd",
+      "updated_at": "2026-10-21T13:19:54.450-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,10 +201,10 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "degraded",
-      "description": "INC20000150",
-      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-10-15T21:22:45.957Z"
+      "status": "outage",
+      "description": "INC20000301",
+      "incident_url": "https://stspg.io/1p8djd2f3bkb",
+      "updated_at": "2026-10-21T20:06:21.428Z"
     },
     {
       "name": "Anthropic",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "Elevated FedRAMP API error rates for Astra and Sol",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-10-21T14:17:32Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/914vf82nsv2k\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Web Security Analytics, Reporting and Configuration Deployment Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/t77gwnpr6oe5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Increased Latency in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p8kg8wmvsqwh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in build logs appearing in the UI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d8km5rfd3wbx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to Jazz Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-21 16:58 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 7 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/914vf82nsv2k\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Web Security Analytics, Reporting and Configuration Deployment Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/8g54j07z69lb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">CircleCI</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Increased Docker gen2 wait times</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p8kg8wmvsqwh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in build logs appearing in the UI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/d5d07rxmhypd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Short Codes to Cellularone United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1p8djd2f3bkb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">INC20000301</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-21 20:32 UTC</p>",
   "community": []
 }
