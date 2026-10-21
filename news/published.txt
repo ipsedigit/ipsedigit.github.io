@@ -2159,3 +2159,4 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-11149
 https://simonwillison.net/2026/Oct/21/php-security-release/
 https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/
 https://dev.to/adriens/hackavp-guide-devaluation-pour-les-membres-du-jury-12i0
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-94300/
