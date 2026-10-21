@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:01:21.917461+00:00",
+  "generated_at": "2026-10-21T06:03:55.387626+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "WhatsApp Embedded Signup Configuration Failures",
-      "incident_url": "https://stspg.io/zgq59x95fsnv",
-      "updated_at": "2026-10-20T17:54:11.817-07:00"
+      "description": "SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in Italy",
+      "incident_url": "https://stspg.io/5p5wt99kk7y9",
+      "updated_at": "2026-10-20T21:33:25.048-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Elastic Cloud scaling issues in Azure",
-      "incident_url": "https://stspg.io/62bsb4wzd1g1",
-      "updated_at": "2026-10-20T22:27:04.973Z"
+      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
+      "incident_url": "https://stspg.io/w6dmrtc20hz7",
+      "updated_at": "2026-09-21T15:21:45.783Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/zgq59x95fsnv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">WhatsApp Embedded Signup Configuration Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/62bsb4wzd1g1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elastic Cloud scaling issues in Azure</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-21 01:01 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Incorrect geo location for some Cloudflare WARP users</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5p5wt99kk7y9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in Italy</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-21 06:03 UTC</p>",
   "community": []
 }
