@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:00:22.673786+00:00",
+  "generated_at": "2026-10-22T21:38:42.759808+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Customer Security Advisory: PHP Remote Code Execution Vulnerabilities",
-      "incident_url": "https://stspg.io/jr5h1wt8jgqq",
-      "updated_at": "2026-10-22T01:44:22.310Z"
+      "description": "Edge Delivery Secure CDN platform at Risk of Capacity Issues",
+      "incident_url": "https://stspg.io/09353lz2yrjk",
+      "updated_at": "2026-10-22T20:51:11.283Z"
     },
     {
       "name": "Cloudflare",
@@ -51,7 +51,7 @@
       "status": "outage",
       "description": "Elevated error rates for Durable Objects in Western Europe",
       "incident_url": "https://www.cloudflarestatus.com/incidents/v967mz6rrcxw",
-      "updated_at": "2026-10-22T17:51:10.000Z"
+      "updated_at": "2026-10-22T18:19:52.000Z"
     },
     {
       "name": "CircleCI",
@@ -69,16 +69,16 @@
       "status": "operational",
       "description": "Errors loading Issues, Pull Requests, and search results",
       "incident_url": "https://stspg.io/sx51v1tlpqjc",
-      "updated_at": "2026-10-22T17:43:44.878Z"
+      "updated_at": "2026-10-22T20:46:26.573Z"
     },
     {
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Delayed Edge Functions and Functions logs",
-      "incident_url": "https://stspg.io/kyvnd6g1pwbv",
-      "updated_at": "2026-10-22T16:19:43.381Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Render",
@@ -166,27 +166,27 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Service Degradation Affecting Zoom Meetings Services in the US.",
+      "incident_url": "https://stspg.io/813b5nbpsxdf",
+      "updated_at": "2026-10-22T13:05:21.706-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Hosted Number Verification Calls not Reaching Customers",
-      "incident_url": "https://stspg.io/5p6c1wh451kw",
-      "updated_at": "2026-10-22T10:48:35.574-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio to Malitel Mali",
+      "incident_url": "https://stspg.io/1tk3sl0pbdn8",
+      "updated_at": "2026-10-22T11:13:35.343-07:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "403 error when trying to access Autoops in newly created serverless projects",
-      "incident_url": "https://stspg.io/3lvnxrjygpt3",
-      "updated_at": "2026-10-22T12:00:50.960Z"
+      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
+      "incident_url": "https://stspg.io/w6dmrtc20hz7",
+      "updated_at": "2026-09-21T15:21:45.783Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -204,7 +204,7 @@
       "status": "degraded",
       "description": "INC20000150",
       "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-10-15T21:22:45.957Z"
+      "updated_at": "2026-10-22T21:00:16.856Z"
     },
     {
       "name": "Anthropic",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
+      "status": "degraded",
+      "description": "New Ad Accounts failing to provision admins",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-10-22T21:30:55Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple services were experiencing issues in the europe-west2 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/v967mz6rrcxw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elevated error rates for Durable Objects in Western Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kyvnd6g1pwbv\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Edge Functions and Functions logs</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5p6c1wh451kw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Hosted Number Verification Calls not Reaching Customers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3lvnxrjygpt3\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">403 error when trying to access Autoops in newly created serverless projects</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-22 18:00 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple services were experiencing issues in the europe-west2 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/v967mz6rrcxw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elevated error rates for Durable Objects in Western Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1tk3sl0pbdn8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Malitel Mali</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-22 21:38 UTC</p>",
   "community": []
 }
