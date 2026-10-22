@@ -2171,3 +2171,4 @@ https://www.docker.com/blog/docker-activestate-partnership/
 https://simonwillison.net/2026/Oct/21/panache/
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-93479/
 https://dev.to/prabhakar_chaudhary_7afe4/how-ai-assisted-vulnerability-research-becomes-a-patch-not-just-a-finding-4akn
+https://simonwillison.net/2026/Oct/22/de-staat-freedom/
