@@ -2164,3 +2164,4 @@ https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
 https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/
 https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/
 https://www.computerenhance.com/p/horizontal-operations
+https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html

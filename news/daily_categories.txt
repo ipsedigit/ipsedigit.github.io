@@ -991,3 +991,4 @@
 2026-10-22:security:vulnerability:breaking
 2026-10-22:security:malware:breaking
 2026-10-22:security:security:breaking
+2026-10-22:ai:ai:breaking
