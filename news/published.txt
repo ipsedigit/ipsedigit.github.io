@@ -2169,3 +2169,4 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-11181
 https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html
 https://www.docker.com/blog/docker-activestate-partnership/
 https://simonwillison.net/2026/Oct/21/panache/
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-93479/
