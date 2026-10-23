@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T21:38:42.759808+00:00",
+  "generated_at": "2026-10-23T00:11:36.021630+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 2,
     "outage": 2,
     "unknown": 1
   },
@@ -30,10 +30,10 @@
       "name": "Google Cloud",
       "domain": "https://status.cloud.google.com/en/feed.atom",
       "category": "cloud",
-      "status": "degraded",
-      "description": "RESOLVED: Multiple services were experiencing issues in the europe-west2 region.",
-      "incident_url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj",
-      "updated_at": "2026-10-22T16:19:08+00:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Akamai",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Elevated error rates for Durable Objects in Western Europe",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/v967mz6rrcxw",
-      "updated_at": "2026-10-22T18:19:52.000Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Errors loading Issues, Pull Requests, and search results",
+      "description": "Project updates delayed",
       "incident_url": "https://stspg.io/sx51v1tlpqjc",
-      "updated_at": "2026-10-22T20:46:26.573Z"
+      "updated_at": "2026-10-22T23:48:05.360Z"
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to Malitel Mali",
-      "incident_url": "https://stspg.io/1tk3sl0pbdn8",
-      "updated_at": "2026-10-22T11:13:35.343-07:00"
+      "description": "SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India",
+      "incident_url": "https://stspg.io/mvj6m6cnm9xd",
+      "updated_at": "2026-10-22T16:19:11.985-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "degraded",
-      "description": "New Ad Accounts failing to provision admins",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-10-22T21:30:55Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Google Cloud</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">RESOLVED: Multiple services were experiencing issues in the europe-west2 region.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/v967mz6rrcxw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Elevated error rates for Durable Objects in Western Europe</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1tk3sl0pbdn8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Malitel Mali</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-22 21:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mvj6m6cnm9xd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-23 00:11 UTC</p>",
   "community": []
 }
