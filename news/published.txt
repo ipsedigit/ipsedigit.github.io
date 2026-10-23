@@ -2177,3 +2177,4 @@ https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-g
 https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
 https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/
 https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
+https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software
