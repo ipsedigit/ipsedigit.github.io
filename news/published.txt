@@ -2173,3 +2173,7 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-93479
 https://dev.to/prabhakar_chaudhary_7afe4/how-ai-assisted-vulnerability-research-becomes-a-patch-not-just-a-finding-4akn
 https://simonwillison.net/2026/Oct/22/de-staat-freedom/
 https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/
+https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/
+https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
+https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/
+https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
