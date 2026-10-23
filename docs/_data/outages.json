@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:53:06.144135+00:00",
+  "generated_at": "2026-10-23T18:59:37.767632+00:00",
   "summary": {
     "total": 26,
     "operational": 21,
@@ -40,18 +40,18 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Customer Security Advisory: Node.js Brotli Remote Code Execution Vulnerability",
-      "incident_url": "https://stspg.io/4bgr0nwln15p",
-      "updated_at": "2026-10-23T12:02:14.230Z"
+      "description": "Customer Security Advisory: Critical F5/NGINX Out-of-Band Vulnerabilities",
+      "incident_url": "https://stspg.io/m3x3w3917864",
+      "updated_at": "2026-10-23T17:18:39.129Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Delayed, missed, and duplicated Workers Cron Triggers",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz",
+      "updated_at": "2026-10-23T16:12:49.000Z"
     },
     {
       "name": "CircleCI",
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "operational",
-      "description": "Service Degradation Affecting Zoom Meetings Services in the US.",
-      "incident_url": "https://stspg.io/813b5nbpsxdf",
-      "updated_at": "2026-10-22T13:05:21.706-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India",
-      "incident_url": "https://stspg.io/mvj6m6cnm9xd",
-      "updated_at": "2026-10-23T07:34:09.057-07:00"
+      "description": "SMS Delivery Receipt Delays from Twilio to Multiple Networks in Multiple Countries in North America",
+      "incident_url": "https://stspg.io/6zybv0mwh05g",
+      "updated_at": "2026-10-23T11:36:38.429-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/mvj6m6cnm9xd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-23 14:53 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Delayed, missed, and duplicated Workers Cron Triggers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6zybv0mwh05g\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Delays from Twilio to Multiple Networks in Multiple Countries in North America</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-23 18:59 UTC</p>",
   "community": []
 }
