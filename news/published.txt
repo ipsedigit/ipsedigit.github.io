@@ -2181,3 +2181,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-softw
 https://simonwillison.net/2026/Oct/22/donating-agent-skills/
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-107891/
 https://hackernoon.com/how-to-design-multi-cloud-devops-architectures-that-scale?source=rss
+https://simonwillison.net/2026/Oct/22/armin-ronacher/
