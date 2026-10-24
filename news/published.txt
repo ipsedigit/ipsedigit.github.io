@@ -2193,3 +2193,4 @@ https://simonwillison.net/2026/Oct/23/quick-study-painter/
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-109618/
 https://world.hey.com/dhh/seven-years-from-china-a63b03cc
 https://simonwillison.net/2026/Oct/24/battledrones/
+https://world.hey.com/dhh/be-a-tech-bro-30db1962
