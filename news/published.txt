@@ -2190,3 +2190,4 @@ https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-
 https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
 https://dev.to/ikkun1222/opencodes-leak-was-console-not-your-cli-4j3n
 https://simonwillison.net/2026/Oct/23/quick-study-painter/
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-109618/
