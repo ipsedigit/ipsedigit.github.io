@@ -2194,3 +2194,6 @@ https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-10961
 https://world.hey.com/dhh/seven-years-from-china-a63b03cc
 https://simonwillison.net/2026/Oct/24/battledrones/
 https://world.hey.com/dhh/be-a-tech-bro-30db1962
+https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html
+https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html
+https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html

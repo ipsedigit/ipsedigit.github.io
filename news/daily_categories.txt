@@ -1005,3 +1005,6 @@
 2026-10-24:security:security:breaking
 2026-10-24:security:malware:breaking
 2026-10-24:ai:ai:breaking
+2026-10-25:security:vulnerability:breaking
+2026-10-25:ai:ai:breaking
+2026-10-25:security:threat-intel:breaking
