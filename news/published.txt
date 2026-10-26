@@ -2203,3 +2203,4 @@ https://danluu.com/ambitious/
 https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html
 https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
 https://simonwillison.net/2026/Oct/25/seam-cutter/
+https://thenewstack.io/entire-trails-agentic-code-review/
