@@ -2200,3 +2200,5 @@ https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html
 https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/
 https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html
 https://danluu.com/ambitious/
+https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html
+https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
