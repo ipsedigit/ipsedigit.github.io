@@ -2205,3 +2205,4 @@ https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
 https://simonwillison.net/2026/Oct/25/seam-cutter/
 https://thenewstack.io/entire-trails-agentic-code-review/
 https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html
+https://simonwillison.net/2026/Oct/26/jason-koebler/
