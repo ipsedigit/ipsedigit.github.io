@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-26T11:26:23.626604+00:00",
+  "generated_at": "2026-10-26T17:34:22.477432+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 18,
+    "degraded": 5,
     "outage": 2,
     "unknown": 1
   },
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Edge Delivery issues between Indonesia and Singapore",
-      "incident_url": "https://stspg.io/nv9zqsqcpr4y",
-      "updated_at": "2026-10-25T16:06:22.598Z"
+      "description": "Customer Security Advisory: Brotli Remote Code Execution Vulnerabilities",
+      "incident_url": "https://stspg.io/4bgr0nwln15p",
+      "updated_at": "2026-10-26T16:13:57.887Z"
     },
     {
       "name": "Cloudflare",
@@ -75,10 +75,10 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Delays in build logs appearing in the UI",
+      "incident_url": "https://stspg.io/w45ztg43fy0w",
+      "updated_at": "2026-10-26T17:19:57.582Z"
     },
     {
       "name": "Render",
@@ -111,10 +111,10 @@
       "name": "Datadog",
       "domain": "status.datadoghq.com",
       "category": "observability",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Elevated Error Rates for Workflow Automation, App Builder, Bits Code, Bits Agent Builder",
+      "incident_url": "https://stspg.io/rq69kpmmw7h6",
+      "updated_at": "2026-10-26T13:31:54.228-04:00"
     },
     {
       "name": "New Relic",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Delays From a Subset of Twilio Longcodes to C-Spire United States",
-      "incident_url": "https://stspg.io/w5tjc5l91098",
-      "updated_at": "2026-10-26T03:12:16.213-07:00"
+      "description": "Voice Call Failures from Twilio Phone Numbers to Romania",
+      "incident_url": "https://stspg.io/pb0q4qwl07bw",
+      "updated_at": "2026-10-26T09:40:12.056-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w5tjc5l91098\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays From a Subset of Twilio Longcodes to C-Spire United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-26 11:26 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w45ztg43fy0w\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delays in build logs appearing in the UI</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/rq69kpmmw7h6\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Datadog</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated Error Rates for Workflow Automation, App Builder, Bits Code, Bits Agent Builder</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pb0q4qwl07bw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from Twilio Phone Numbers to Romania</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-26 17:34 UTC</p>",
   "community": []
 }
