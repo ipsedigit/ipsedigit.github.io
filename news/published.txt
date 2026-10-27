@@ -2213,3 +2213,4 @@ https://simonwillison.net/2026/Oct/26/gpt-61-terra/
 https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://www.troyhunt.com/weekly-update-527/
 https://blog.cloudflare.com/php-ctf/
+https://dev.to/meteorops/terraform-kubernetes-provider-deployment-guide-and-examples-1jg4
