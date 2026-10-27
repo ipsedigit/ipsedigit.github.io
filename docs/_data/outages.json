@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T06:43:09.967411+00:00",
+  "generated_at": "2026-10-27T12:44:09.044095+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 3,
+    "operational": 19,
+    "degraded": 4,
     "outage": 2,
     "unknown": 1
   },
@@ -39,19 +39,19 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "operational",
-      "description": "Customer Security Advisory: Brotli Remote Code Execution Vulnerabilities",
-      "incident_url": "https://stspg.io/4bgr0nwln15p",
-      "updated_at": "2026-10-26T16:13:57.887Z"
+      "status": "degraded",
+      "description": "Enterprise Application Access (EAA) Connector Issues",
+      "incident_url": "https://stspg.io/xjtt0bmfy5j0",
+      "updated_at": "2026-10-27T11:44:21.471Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "ERR_TIMED_OUT and ERR_EMPTY_RESPONSE being observed by Cloudflare Customers",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/dk2obcyw2aew",
+      "updated_at": "2026-10-27T12:28:07.676Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States",
-      "incident_url": "https://stspg.io/w5tjc5l91098",
-      "updated_at": "2026-10-26T22:58:54.222-07:00"
+      "description": "MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States",
+      "incident_url": "https://stspg.io/r6nfcj4j5fgj",
+      "updated_at": "2026-10-27T05:43:49.058-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "operational",
-      "description": "",
+      "description": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories",
       "incident_url": "",
-      "updated_at": ""
+      "updated_at": "2026-10-27T08:21:10Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w5tjc5l91098\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-27 06:43 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xjtt0bmfy5j0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Enterprise Application Access (EAA) Connector Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/dk2obcyw2aew\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">ERR_TIMED_OUT and ERR_EMPTY_RESPONSE being observed by Cloudflare Customers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/r6nfcj4j5fgj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-27 12:44 UTC</p>",
   "community": []
 }
