@@ -2207,3 +2207,5 @@ https://thenewstack.io/entire-trails-agentic-code-review/
 https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html
 https://simonwillison.net/2026/Oct/26/jason-koebler/
 https://simonwillison.net/2026/Oct/26/webframe-evaluation/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/

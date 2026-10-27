@@ -1013,3 +1013,5 @@
 2026-10-26:ai:ai:breaking
 2026-10-26:ai:ai:breaking
 2026-10-26:security:security:breaking
+2026-10-27:security:vulnerability:breaking
+2026-10-27:ai:llm:breaking
