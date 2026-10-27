@@ -2217,3 +2217,4 @@ https://dev.to/meteorops/terraform-kubernetes-provider-deployment-guide-and-exam
 https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/
 https://www.computerenhance.com/p/whats-in-a-token
 https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html
+https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
