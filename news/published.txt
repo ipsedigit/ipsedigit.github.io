@@ -2227,3 +2227,4 @@ https://dev.to/ayinedjimi-consultants/go-profiling-in-production-pprof-flamegrap
 https://seangoedecke.com/getting-good-at-ai-takes-time-and-practice/
 https://simonwillison.net/2026/Oct/28/vibe-game-development/
 https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
+https://vercel.com/blog/introducing-vercel-ci

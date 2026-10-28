@@ -1025,3 +1025,4 @@
 2026-10-28:ai:ai-research:deep
 2026-10-28:ai:ai:breaking
 2026-10-28:security:security:breaking
+2026-10-28:software-engineering:software-engineering:breaking
