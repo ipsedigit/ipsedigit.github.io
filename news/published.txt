@@ -2222,3 +2222,5 @@ https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html
 https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/
 https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html
 https://blog.codinghorror.com/suffering-as-a-feature/
+https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html
+https://dev.to/ayinedjimi-consultants/go-profiling-in-production-pprof-flamegraphs-and-memory-leaks-3h04
