@@ -2218,3 +2218,6 @@ https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai
 https://www.computerenhance.com/p/whats-in-a-token
 https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html
 https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
+https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html
+https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/
+https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html
