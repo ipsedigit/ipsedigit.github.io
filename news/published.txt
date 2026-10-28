@@ -2221,3 +2221,4 @@ https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
 https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html
 https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/
 https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html
+https://blog.codinghorror.com/suffering-as-a-feature/
