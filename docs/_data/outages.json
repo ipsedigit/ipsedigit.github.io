@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:08:15.537041+00:00",
+  "generated_at": "2026-10-28T20:17:52.303058+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Performance Degradation for Customers in Mumbai and Chennai",
-      "incident_url": "https://stspg.io/6vtspdnxgnqy",
-      "updated_at": "2026-10-27T18:03:09.616Z"
+      "description": "Customer Security Advisory: Brotli Remote Code Execution Vulnerabilities",
+      "incident_url": "https://stspg.io/4bgr0nwln15p",
+      "updated_at": "2026-10-28T17:43:40.839Z"
     },
     {
       "name": "Cloudflare",
@@ -67,9 +67,9 @@
       "domain": "githubstatus.com",
       "category": "devtools",
       "status": "operational",
-      "description": "Disruption with some Copilot services",
-      "incident_url": "https://stspg.io/bwcyq078jzms",
-      "updated_at": "2026-10-28T14:55:32.448Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Netlify",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to MTC Namibia",
-      "incident_url": "https://stspg.io/1gvv8zsvgv66",
-      "updated_at": "2026-10-28T07:56:47.285-07:00"
+      "description": "SMS Delivery Delays from a Subset of Twilio Long Codes to Orange Belgium",
+      "incident_url": "https://stspg.io/lml97h1cpk9p",
+      "updated_at": "2026-10-28T12:44:49.293-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/snth5ero95rz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Network Performance Issues in Ashburn, IAD</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3wdnhf87gqwg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1gvv8zsvgv66\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to MTC Namibia</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-28 15:08 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/snth5ero95rz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Network Performance Issues in Ashburn, IAD</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3wdnhf87gqwg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lml97h1cpk9p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Long Codes to Orange Belgium</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-28 20:17 UTC</p>",
   "community": []
 }
