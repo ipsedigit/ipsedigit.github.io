@@ -2236,3 +2236,4 @@ https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html
 https://dev.to/yusufcengiz/building-readme-star-charts-on-githubs-new-star-history-endpoint-1k0o
 https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html
 https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html
+https://seangoedecke.com/you-can-just-ask-ai-to-do-things/
