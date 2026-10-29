@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:17:52.303058+00:00",
+  "generated_at": "2026-10-29T00:14:58.775980+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Network Performance Issues in Ashburn, IAD",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/snth5ero95rz",
-      "updated_at": "2026-10-28T05:05:21.234Z"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "CircleCI",
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region",
       "incident_url": "https://stspg.io/3wdnhf87gqwg",
-      "updated_at": "2026-10-28T07:31:21.814-07:00"
+      "updated_at": "2026-10-28T13:34:49.377-07:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from a Subset of Twilio Long Codes to Orange Belgium",
-      "incident_url": "https://stspg.io/lml97h1cpk9p",
-      "updated_at": "2026-10-28T12:44:49.293-07:00"
+      "description": "Link Shortening Redirect Errors on Branded Domains",
+      "incident_url": "https://stspg.io/0m8p0n48mkky",
+      "updated_at": "2026-10-28T17:07:32.865-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/snth5ero95rz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Network Performance Issues in Ashburn, IAD</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3wdnhf87gqwg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lml97h1cpk9p\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Long Codes to Orange Belgium</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-28 20:17 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3wdnhf87gqwg\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/0m8p0n48mkky\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Link Shortening Redirect Errors on Branded Domains</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-29 00:14 UTC</p>",
   "community": []
 }
