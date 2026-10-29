@@ -2230,3 +2230,4 @@ https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
 https://vercel.com/blog/introducing-vercel-ci
 https://simonwillison.net/2026/Oct/28/terk-terkowitz/
 https://hackernoon.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery?source=rss
+https://simonwillison.net/2026/Oct/28/ted-sanders/
