@@ -1031,3 +1031,4 @@
 2026-10-29:security:vulnerability:breaking
 2026-10-29:devtools:frameworks:breaking
 2026-10-29:ai:ai:breaking
+2026-10-29:security:malware:breaking
