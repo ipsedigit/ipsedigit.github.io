@@ -2237,3 +2237,5 @@ https://dev.to/yusufcengiz/building-readme-star-charts-on-githubs-new-star-histo
 https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html
 https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html
 https://seangoedecke.com/you-can-just-ask-ai-to-do-things/
+https://dev.to/wenping/how-to-block-vulnerabilities-before-merge-48m3
+https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/

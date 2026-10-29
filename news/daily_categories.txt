@@ -1032,3 +1032,5 @@
 2026-10-29:devtools:frameworks:breaking
 2026-10-29:ai:ai:breaking
 2026-10-29:security:malware:breaking
+2026-10-29:security:security:breaking
+2026-10-29:cloud:gcp-azure:deep
