@@ -1029,3 +1029,5 @@
 2026-10-28:security:security:breaking
 2026-10-29:ai:ai:breaking
 2026-10-29:security:vulnerability:breaking
+2026-10-29:devtools:frameworks:breaking
+2026-10-29:ai:ai:breaking
