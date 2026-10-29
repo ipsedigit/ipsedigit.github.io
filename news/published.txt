@@ -2242,3 +2242,4 @@ https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/
 https://simonwillison.net/2026/Oct/29/ben-hylak/
 https://dev.to/alanwest/raspberry-pi-zero-3w-specs-leak-pi-4-chip-release-date-and-why-it-wont-be-15-3lmc
 https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/
+https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/
