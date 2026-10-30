@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:57:33.649327+00:00",
+  "generated_at": "2026-10-30T20:40:07.023553+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Edge Delivery issues between Indonesia and Singapore",
-      "incident_url": "https://stspg.io/nv9zqsqcpr4y",
-      "updated_at": "2026-10-29T09:13:08.486Z"
+      "description": "Customer Security Advisory: CVE-2026-98432",
+      "incident_url": "https://stspg.io/n83394y6crxp",
+      "updated_at": "2026-10-30T18:03:40.755Z"
     },
     {
       "name": "Cloudflare",
@@ -139,9 +139,9 @@
       "domain": "discordstatus.com",
       "category": "communication",
       "status": "operational",
-      "description": "Issues establishing voice calls",
-      "incident_url": "https://stspg.io/fhmcvq6rd04x",
-      "updated_at": "2026-10-30T08:43:24.597-07:00"
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Microsoft 365",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Silent Network Authentication (SNA) Missing Redirects on Smart in Philippines",
-      "incident_url": "https://stspg.io/p9kcv2xp5fjk",
-      "updated_at": "2026-10-30T08:53:34.335-07:00"
+      "description": "SMS and MMS Delivery Delays from Twilio to Altice United States",
+      "incident_url": "https://stspg.io/lbrcfbct44zs",
+      "updated_at": "2026-10-30T13:13:58.753-07:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "degraded",
-      "description": "INC20000150",
-      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-10-29T20:27:21.671Z"
+      "description": "INC20000321",
+      "incident_url": "https://stspg.io/ttl0rpl3r74c",
+      "updated_at": "2026-10-30T20:38:42.272Z"
     },
     {
       "name": "Anthropic",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Elevated errors for GPT Image 2 API image edits",
+      "description": "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
       "incident_url": "",
-      "updated_at": "2026-10-30T14:35:28Z"
+      "updated_at": "2026-10-30T19:38:47Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/p9kcv2xp5fjk\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Silent Network Authentication (SNA) Missing Redirects on Smart in Philippines</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-30 15:57 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/lbrcfbct44zs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS and MMS Delivery Delays from Twilio to Altice United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ttl0rpl3r74c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000321</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-10-30 20:40 UTC</p>",
   "community": []
 }
