@@ -2247,3 +2247,4 @@ https://simonwillison.net/2026/Oct/29/api-credits/
 https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-98432/
 https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/
+https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html
