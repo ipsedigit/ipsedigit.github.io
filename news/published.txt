@@ -2245,3 +2245,4 @@ https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-
 https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/
 https://simonwillison.net/2026/Oct/29/api-credits/
 https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html
+https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-98432/
