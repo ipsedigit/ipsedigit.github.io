@@ -2244,3 +2244,4 @@ https://dev.to/alanwest/raspberry-pi-zero-3w-specs-leak-pi-4-chip-release-date-a
 https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/
 https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/
 https://simonwillison.net/2026/Oct/29/api-credits/
+https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html

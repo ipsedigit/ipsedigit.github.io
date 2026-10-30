@@ -1035,3 +1035,4 @@
 2026-10-29:security:security:breaking
 2026-10-29:cloud:gcp-azure:deep
 2026-10-29:ai:llm:breaking
+2026-10-30:security:vulnerability:breaking
