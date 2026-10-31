@@ -2252,3 +2252,4 @@ https://simonwillison.net/2026/Oct/30/nesformer/
 https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html
 https://nullprogram.com/blog/2026/10/31/
 https://dev.to/naveedkumbhar/binance-hack-2026-6-zero-trust-devops-security-lessons-5323
+https://dev.to/sascha-ms/npm-minimum-release-age-a-cooldown-for-dependencies-7ll
