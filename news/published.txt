@@ -2250,3 +2250,4 @@ https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/
 https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html
 https://simonwillison.net/2026/Oct/30/nesformer/
 https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html
+https://nullprogram.com/blog/2026/10/31/
