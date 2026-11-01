@@ -2260,3 +2260,4 @@ https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-
 https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
 https://www.troyhunt.com/weekly-update-528/
 https://dev.to/cyberfarhan/one-apostrophe-cost-me-my-ssh-attempts-brooklyn-nine-nine-tryhackme-3311
+https://simonwillison.net/2026/Oct/31/datasette-llm/
