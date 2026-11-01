@@ -2258,3 +2258,4 @@ https://seangoedecke.com/how-to-get-assigned-interesting-work/
 https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html
 https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/
 https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+https://www.troyhunt.com/weekly-update-528/
