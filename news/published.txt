@@ -2262,3 +2262,4 @@ https://www.troyhunt.com/weekly-update-528/
 https://dev.to/cyberfarhan/one-apostrophe-cost-me-my-ssh-attempts-brooklyn-nine-nine-tryhackme-3311
 https://simonwillison.net/2026/Oct/31/datasette-llm/
 https://simonwillison.net/2026/Nov/1/kyle-kingsbury/
+https://dev.to/axrisi/particledbs-jepsen-report-lenovos-fingerprint-usb-stick-karpathys-hackertube-and-the-linux-tcp-4nbc
