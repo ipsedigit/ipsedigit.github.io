@@ -2268,3 +2268,4 @@ https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-
 https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/
 https://seangoedecke.com/alignment-is-impossible/
 https://dev.to/_f2ad1d4a811a87449655b/why-a-levels-gamma-handle-is-not-the-midpoint-a-browser-editor-case-study-59k9
+https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/
