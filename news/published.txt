@@ -2263,3 +2263,4 @@ https://dev.to/cyberfarhan/one-apostrophe-cost-me-my-ssh-attempts-brooklyn-nine-
 https://simonwillison.net/2026/Oct/31/datasette-llm/
 https://simonwillison.net/2026/Nov/1/kyle-kingsbury/
 https://dev.to/axrisi/particledbs-jepsen-report-lenovos-fingerprint-usb-stick-karpathys-hackertube-and-the-linux-tcp-4nbc
+https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/
