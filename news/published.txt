@@ -2270,3 +2270,4 @@ https://seangoedecke.com/alignment-is-impossible/
 https://dev.to/_f2ad1d4a811a87449655b/why-a-levels-gamma-handle-is-not-the-midpoint-a-browser-editor-case-study-59k9
 https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/
 https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/
+https://seangoedecke.com/audience-capture/
