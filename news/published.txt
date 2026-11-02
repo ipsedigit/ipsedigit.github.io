@@ -2266,3 +2266,4 @@ https://dev.to/axrisi/particledbs-jepsen-report-lenovos-fingerprint-usb-stick-ka
 https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/
 https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/
 https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/
+https://seangoedecke.com/alignment-is-impossible/
