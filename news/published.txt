@@ -2271,3 +2271,5 @@ https://dev.to/_f2ad1d4a811a87449655b/why-a-levels-gamma-handle-is-not-the-midpo
 https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/
 https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/
 https://seangoedecke.com/audience-capture/
+https://thenewstack.io/patchmageddon-open-source-security22842502/
+https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html
