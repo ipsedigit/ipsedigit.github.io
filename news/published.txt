@@ -2277,3 +2277,4 @@ https://simonwillison.net/2026/Nov/2/llm/
 https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/
 https://simonwillison.net/2026/Nov/3/october-newsletter/
 https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html
+https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/
