@@ -2273,3 +2273,4 @@ https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-n
 https://seangoedecke.com/audience-capture/
 https://thenewstack.io/patchmageddon-open-source-security22842502/
 https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html
+https://simonwillison.net/2026/Nov/2/llm/
