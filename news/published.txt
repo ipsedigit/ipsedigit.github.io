@@ -2282,3 +2282,4 @@ https://danluu.com/astra-testing/
 https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
 https://dev.to/ashish_624379625242c5d263/hackertube-youtube-built-from-videos-recommended-by-hn-3pgo
 https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html
+https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/
