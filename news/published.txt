@@ -2286,3 +2286,4 @@ https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate
 https://dev.to/ashish_624379625242c5d263/varsovie-en-voxels-la-3d-interactive-qui-cartonne-sur-hacker-news-et-ce-quelle-revele-sur-5dha
 https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
 https://simonwillison.net/2026/Nov/4/datasette-llm/
+https://simonwillison.net/2026/Nov/4/datasette-apps/
