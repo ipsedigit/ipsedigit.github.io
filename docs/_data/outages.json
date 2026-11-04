@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:29:21.816785+00:00",
+  "generated_at": "2026-11-04T14:50:06.606107+00:00",
   "summary": {
     "total": 26,
     "operational": 19,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Network latency issues in NRT",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/nbnize4e990z",
+      "updated_at": "2026-11-04T13:39:26.804Z"
     },
     {
       "name": "CircleCI",
@@ -175,18 +175,18 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
-      "incident_url": "https://stspg.io/tbsjgc4grpsw",
-      "updated_at": "2026-11-03T22:08:29.331-08:00"
+      "description": "Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Thailand",
+      "incident_url": "https://stspg.io/6z04b5nnhvd2",
+      "updated_at": "2026-11-04T05:15:51.978-08:00"
     },
     {
       "name": "Elastic Cloud",
       "domain": "status.elastic.co",
       "category": "data",
       "status": "outage",
-      "description": "Connectivity disruption for AWS Bahrain (me-south-1)",
-      "incident_url": "https://stspg.io/w6dmrtc20hz7",
-      "updated_at": "2026-09-21T15:21:45.783Z"
+      "description": "mOLTP PrivateLink connectivity issue",
+      "incident_url": "https://stspg.io/7kt2g0ygmd8q",
+      "updated_at": "2026-11-04T12:08:32.359Z"
     },
     {
       "name": "MongoDB Atlas",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tbsjgc4grpsw\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-04 06:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/nbnize4e990z\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Network latency issues in NRT</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6z04b5nnhvd2\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Thailand</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/7kt2g0ygmd8q\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">mOLTP PrivateLink connectivity issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-04 14:50 UTC</p>",
   "community": []
 }
