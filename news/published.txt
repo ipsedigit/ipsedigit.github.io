@@ -2284,3 +2284,4 @@ https://dev.to/ashish_624379625242c5d263/hackertube-youtube-built-from-videos-re
 https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html
 https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/
 https://dev.to/ashish_624379625242c5d263/varsovie-en-voxels-la-3d-interactive-qui-cartonne-sur-hacker-news-et-ce-quelle-revele-sur-5dha
+https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
