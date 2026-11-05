@@ -2290,3 +2290,4 @@ https://simonwillison.net/2026/Nov/4/datasette-apps/
 https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html
 https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/
 https://nullprogram.com/blog/2026/11/05/
+https://dev.to/nithurshan_suthakara/what-is-the-biggest-risk-of-a-wordpress-website-getting-hacked-findings-from-my-security-research-12c0
