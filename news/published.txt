@@ -2287,3 +2287,5 @@ https://dev.to/ashish_624379625242c5d263/varsovie-en-voxels-la-3d-interactive-qu
 https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
 https://simonwillison.net/2026/Nov/4/datasette-llm/
 https://simonwillison.net/2026/Nov/4/datasette-apps/
+https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html
+https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/
