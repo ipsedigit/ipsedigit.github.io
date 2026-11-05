@@ -2297,3 +2297,4 @@ https://www.computerenhance.com/p/additional-simd-predicate-options
 https://dev.to/codra/building-scalable-webhooks-with-cloudflare-workers-2d69
 https://simonwillison.net/2026/Nov/3/llm/
 https://simonwillison.net/2026/Nov/5/paul-ford/
+https://seangoedecke.com/a-database-is-a-store-for-global-variables/
