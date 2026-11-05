@@ -2293,3 +2293,4 @@ https://nullprogram.com/blog/2026/11/05/
 https://dev.to/nithurshan_suthakara/what-is-the-biggest-risk-of-a-wordpress-website-getting-hacked-findings-from-my-security-research-12c0
 https://simonwillison.net/2026/Nov/3/datasette-agent/
 https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
+https://www.computerenhance.com/p/additional-simd-predicate-options
