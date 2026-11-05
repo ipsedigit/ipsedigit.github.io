@@ -2294,3 +2294,4 @@ https://dev.to/nithurshan_suthakara/what-is-the-biggest-risk-of-a-wordpress-webs
 https://simonwillison.net/2026/Nov/3/datasette-agent/
 https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
 https://www.computerenhance.com/p/additional-simd-predicate-options
+https://dev.to/codra/building-scalable-webhooks-with-cloudflare-workers-2d69

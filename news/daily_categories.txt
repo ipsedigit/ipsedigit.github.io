@@ -1060,3 +1060,4 @@
 2026-11-05:ai:ai:breaking
 2026-11-05:security:malware:breaking
 2026-11-05:ai:mlops:breaking
+2026-11-05:security:cryptography:deep
