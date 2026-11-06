@@ -2301,3 +2301,5 @@ https://seangoedecke.com/a-database-is-a-store-for-global-variables/
 https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html
 https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/
 https://dev.to/mohd_yusufkhan_6c2088c04/isometric-architecture-diagrams-as-code-cloud-diagrams-in-svg-from-yaml-3d
+https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses
+https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges
