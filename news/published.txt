@@ -2305,3 +2305,4 @@ https://www.darkreading.com/application-security/claude-model-exploits-major-bro
 https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges
 https://dev.to/facilishz/preparing-a-defensible-notification-workflow-after-an-external-system-breach-3fnc
 https://simonwillison.net/2026/Nov/6/nilay-patel/
+https://www.computerenhance.com/p/skeletal-animation-programming-live
