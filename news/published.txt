@@ -2303,3 +2303,4 @@ https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-us
 https://dev.to/mohd_yusufkhan_6c2088c04/isometric-architecture-diagrams-as-code-cloud-diagrams-in-svg-from-yaml-3d
 https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses
 https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges
+https://dev.to/facilishz/preparing-a-defensible-notification-workflow-after-an-external-system-breach-3fnc
