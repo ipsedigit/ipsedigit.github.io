@@ -2306,3 +2306,4 @@ https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-
 https://dev.to/facilishz/preparing-a-defensible-notification-workflow-after-an-external-system-breach-3fnc
 https://simonwillison.net/2026/Nov/6/nilay-patel/
 https://www.computerenhance.com/p/skeletal-animation-programming-live
+https://seangoedecke.com/working-with-designers/
