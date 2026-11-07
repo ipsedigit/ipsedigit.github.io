@@ -2314,3 +2314,4 @@ https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obst
 https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/
 https://mitchellh.com/writing/libghostty-1-0
 https://dev.to/danielsamfdo/system-design-plainly-part-3-sharding-5dn3
+https://thenewstack.io/groundcover-autonomous-kubernetes-rightsizing/
