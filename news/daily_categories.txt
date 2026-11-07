@@ -1072,3 +1072,4 @@
 2026-11-07:security:cryptography:breaking
 2026-11-07:ai:ai-research:deep
 2026-11-07:security:security:breaking
+2026-11-07:cloud:aws:deep
