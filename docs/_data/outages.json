@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T22:25:18.145727+00:00",
+  "generated_at": "2026-11-07T02:15:17.809097+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 2,
+    "operational": 19,
+    "degraded": 3,
     "outage": 2,
     "unknown": 2
   },
@@ -12,10 +12,10 @@
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Service is operating normally: [RESOLVED] Elevated Launch Failures",
+      "incident_url": "https://status.aws.amazon.com/",
+      "updated_at": "Fri, 06 Nov 2026 17:12:16 PST"
     },
     {
       "name": "Azure",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Fedramp Customers have Delayed Purges",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c",
-      "updated_at": "2026-11-06T17:59:13.680Z"
+      "description": "Spectrum Availability Issue in Phoenix",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1",
+      "updated_at": "2026-11-07T00:59:48.322Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from a Subset of Twilio Phone Numbers to Telefonica Argentina",
-      "incident_url": "https://stspg.io/t4vp65pctxst",
-      "updated_at": "2026-11-06T13:52:28.472-08:00"
+      "description": "SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile",
+      "incident_url": "https://stspg.io/92y684hgthhn",
+      "updated_at": "2026-11-06T16:55:14.827-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,9 +202,9 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "degraded",
-      "description": "INC20000150",
-      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-11-05T23:06:46.327Z"
+      "description": "INC20000336",
+      "incident_url": "https://stspg.io/nh3575zzxkv4",
+      "updated_at": "2026-11-07T01:49:07.689Z"
     },
     {
       "name": "Anthropic",
@@ -220,9 +220,9 @@
       "domain": "status.openai.com",
       "category": "ai",
       "status": "operational",
-      "description": "Elevated error rates with Brex Cards and U.S. business Mastercards",
+      "description": "Elevated error rates with some U.S. business Mastercards",
       "incident_url": "",
-      "updated_at": "2026-11-06T18:50:47Z"
+      "updated_at": "2026-11-07T01:29:31Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Fedramp Customers have Delayed Purges</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/t4vp65pctxst\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Telefonica Argentina</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-06 22:25 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Elevated Launch Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Spectrum Availability Issue in Phoenix</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/92y684hgthhn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/nh3575zzxkv4\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000336</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-07 02:15 UTC</p>",
   "community": []
 }
