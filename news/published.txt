@@ -2307,3 +2307,7 @@ https://dev.to/facilishz/preparing-a-defensible-notification-workflow-after-an-e
 https://simonwillison.net/2026/Nov/6/nilay-patel/
 https://www.computerenhance.com/p/skeletal-animation-programming-live
 https://seangoedecke.com/working-with-designers/
+https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html
+https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html
+https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/
