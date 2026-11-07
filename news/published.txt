@@ -2312,3 +2312,4 @@ https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html
 https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/
 https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/
 https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/
+https://mitchellh.com/writing/libghostty-1-0
