@@ -2315,3 +2315,4 @@ https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-w
 https://mitchellh.com/writing/libghostty-1-0
 https://dev.to/danielsamfdo/system-design-plainly-part-3-sharding-5dn3
 https://thenewstack.io/groundcover-autonomous-kubernetes-rightsizing/
+https://simonwillison.net/2026/Nov/7/link-rel-next/
