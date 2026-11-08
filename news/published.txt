@@ -2316,3 +2316,6 @@ https://mitchellh.com/writing/libghostty-1-0
 https://dev.to/danielsamfdo/system-design-plainly-part-3-sharding-5dn3
 https://thenewstack.io/groundcover-autonomous-kubernetes-rightsizing/
 https://simonwillison.net/2026/Nov/7/link-rel-next/
+https://thenewstack.io/openai-gpt6-cyber-exploits/
+https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html
+https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html
