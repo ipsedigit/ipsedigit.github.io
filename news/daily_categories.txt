@@ -1083,3 +1083,4 @@
 2026-11-09:ai:llm:deep
 2026-11-09:devtools:languages:breaking
 2026-11-09:software-engineering:architecture:deep
+2026-11-09:security:threat-intel:breaking
