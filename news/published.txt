@@ -2321,3 +2321,4 @@ https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html
 https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html
 https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems/
 http://www.righto.com/2026/11/signetics-st680a-dtl-nand.html
+https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/
