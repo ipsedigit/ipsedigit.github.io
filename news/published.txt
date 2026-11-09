@@ -2331,3 +2331,4 @@ https://www.infoq.com/news/2026/11/topcoat-rust-framework/?utm_campaign=infoq_co
 https://dev.to/saurav_tb_pandey/organizing-your-expressjs-app-a-complete-guide-to-the-mvc-pattern-4o15
 https://simonwillison.net/2026/Nov/9/hn-50421091/
 https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html
+https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
