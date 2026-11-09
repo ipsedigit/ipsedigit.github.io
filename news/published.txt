@@ -2333,3 +2333,4 @@ https://simonwillison.net/2026/Nov/9/hn-50421091/
 https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html
 https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
 https://lucumr.pocoo.org/2026/11/9/irontown/
+https://simonwillison.net/2026/Nov/9/details-summary/
