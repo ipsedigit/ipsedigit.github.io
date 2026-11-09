@@ -2326,3 +2326,4 @@ https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html
 https://thehackernews.com/2026/11/chainstack-reports-production-systems.html
 https://thenewstack.io/scaling-autonomous-agents-framework/
 https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html
+https://simonwillison.net/2026/Nov/7/hn-50407316/
