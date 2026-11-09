@@ -1077,3 +1077,7 @@
 2026-11-08:ai:llm:breaking
 2026-11-08:security:vulnerability:breaking
 2026-11-08:ai:ai:breaking
+2026-11-09:security:vulnerability:breaking
+2026-11-09:ai:mlops:breaking
+2026-11-09:cloud:serverless:breaking
+2026-11-09:ai:llm:deep
