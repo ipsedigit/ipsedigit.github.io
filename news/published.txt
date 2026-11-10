@@ -2339,3 +2339,4 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-fl
 https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html
 https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude
 https://www.troyhunt.com/weekly-update-529/
+https://simonwillison.net/2026/Nov/10/muse-ember/
