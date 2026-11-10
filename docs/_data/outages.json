@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09T16:53:50.094491+00:00",
+  "generated_at": "2026-11-10T00:36:56.067367+00:00",
   "summary": {
     "total": 26,
-    "operational": 20,
-    "degraded": 2,
+    "operational": 19,
+    "degraded": 3,
     "outage": 2,
     "unknown": 2
   },
@@ -40,18 +40,18 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "operational",
-      "description": "Customer Security Advisory: CVE-2026-98432",
-      "incident_url": "https://stspg.io/n83394y6crxp",
-      "updated_at": "2026-11-02T10:53:30.717Z"
+      "description": "Edge Delivery issues between Indonesia and Singapore",
+      "incident_url": "https://stspg.io/nv9zqsqcpr4y",
+      "updated_at": "2026-10-29T09:13:08.486Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "outage",
-      "description": "Network Performance Issues in Eastern North America",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/88hc76jnq2gn",
-      "updated_at": "2026-11-09T16:34:51.625Z"
+      "description": "Changes made to Workers may be delayed or disrupted",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu",
+      "updated_at": "2026-11-09T16:35:55.009Z"
     },
     {
       "name": "CircleCI",
@@ -165,7 +165,7 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "operational",
+      "status": "degraded",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Audio Quality Degradation, Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in the United Kingdom of Great Britain and Northern Ireland",
-      "incident_url": "https://stspg.io/2rrsyptxpyqb",
-      "updated_at": "2026-11-09T08:49:11.915-08:00"
+      "description": "Voice Call Failures from a Subset of Twilio Phone Numbers to Chile",
+      "incident_url": "https://stspg.io/sxkj535b5bjx",
+      "updated_at": "2026-11-09T16:31:51.947-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/88hc76jnq2gn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Network Performance Issues in Eastern North America</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2rrsyptxpyqb\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation, Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in the United Kingdom of Great Britain and Northern Ireland</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-09 16:53 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Changes made to Workers may be delayed or disrupted</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/sxkj535b5bjx\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Chile</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-10 00:36 UTC</p>",
   "community": []
 }
