@@ -2338,3 +2338,4 @@ https://simonwillison.net/2026/Nov/9/mysterious-beeps/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/
 https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html
 https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude
+https://www.troyhunt.com/weekly-update-529/
