@@ -2346,3 +2346,4 @@ https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/
 https://simonwillison.net/2026/Nov/10/yonkers-rises/
 https://huggingface.co/blog/hub-gcp-marketplace
 https://simonwillison.net/2026/Nov/9/llm-anthropic/
+https://www.troyhunt.com/finally-payment-by-bank-transfer-comes-to-have-i-been-pwned/
