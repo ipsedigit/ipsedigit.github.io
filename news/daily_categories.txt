@@ -1090,3 +1090,4 @@
 2026-11-10:ai:ai:deep
 2026-11-10:security:security:breaking
 2026-11-10:ai:ai:deep
+2026-11-10:cloud:gcp-azure:deep

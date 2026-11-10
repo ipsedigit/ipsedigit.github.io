@@ -2344,3 +2344,4 @@ https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach
 https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding
 https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/
 https://simonwillison.net/2026/Nov/10/yonkers-rises/
+https://huggingface.co/blog/hub-gcp-marketplace
