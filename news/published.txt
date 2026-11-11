@@ -2358,3 +2358,4 @@ https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/
 https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/
 https://thenewstack.io/cloudwatch-accelerated-compute-insights/
 https://simonwillison.net/2026/Nov/11/tools-tags/
+https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
