@@ -2351,3 +2351,4 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-acces
 https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html
 https://dev.to/yunwei37/ebpf-tutorial-by-example-1-hello-world-framework-and-development-2kmb
 https://seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/
+https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html
