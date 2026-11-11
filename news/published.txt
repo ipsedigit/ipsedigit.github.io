@@ -2353,3 +2353,4 @@ https://dev.to/yunwei37/ebpf-tutorial-by-example-1-hello-world-framework-and-dev
 https://seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/
 https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html
 https://simonwillison.net/2026/Nov/10/llm-gemini/
+https://simonwillison.net/2026/Nov/3/hn-50354278/
