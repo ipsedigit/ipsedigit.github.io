@@ -2350,3 +2350,4 @@ https://www.troyhunt.com/finally-payment-by-bank-transfer-comes-to-have-i-been-p
 https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/
 https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html
 https://dev.to/yunwei37/ebpf-tutorial-by-example-1-hello-world-framework-and-development-2kmb
+https://seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/
