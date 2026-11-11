@@ -2347,3 +2347,6 @@ https://simonwillison.net/2026/Nov/10/yonkers-rises/
 https://huggingface.co/blog/hub-gcp-marketplace
 https://simonwillison.net/2026/Nov/9/llm-anthropic/
 https://www.troyhunt.com/finally-payment-by-bank-transfer-comes-to-have-i-been-pwned/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/
+https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html
+https://dev.to/yunwei37/ebpf-tutorial-by-example-1-hello-world-framework-and-development-2kmb
