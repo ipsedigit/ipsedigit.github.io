@@ -2356,3 +2356,4 @@ https://simonwillison.net/2026/Nov/10/llm-gemini/
 https://simonwillison.net/2026/Nov/3/hn-50354278/
 https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/
 https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/
+https://thenewstack.io/cloudwatch-accelerated-compute-insights/
