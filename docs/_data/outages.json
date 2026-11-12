@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T04:06:44.907541+00:00",
+  "generated_at": "2026-11-12T12:46:48.500477+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 4,
-    "outage": 2,
-    "unknown": 3
+    "operational": 20,
+    "degraded": 3,
+    "outage": 1,
+    "unknown": 2
   },
   "services": [
     {
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Outbound SMS Messages for a subset of users in the US region",
-      "incident_url": "https://stspg.io/4p9rlpt9fv4v",
-      "updated_at": "2026-11-11T20:04:11.078-08:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Failures from Twilio Long Codes to AT&T United States",
-      "incident_url": "https://stspg.io/1nhx2s86hbx5",
-      "updated_at": "2026-11-11T20:00:22.327-08:00"
+      "description": "SMS Delivery Delays from Twilio to Telenor Pakistan",
+      "incident_url": "https://stspg.io/pdrckt2sbb5y",
+      "updated_at": "2026-11-12T04:27:05.047-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,15 +202,15 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "degraded",
-      "description": "INC20000347",
-      "incident_url": "https://stspg.io/xbp97ytg5cn0",
-      "updated_at": "2026-11-12T04:00:08.206Z"
+      "description": "INC20000150",
+      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
+      "updated_at": "2026-11-05T23:06:46.327Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "unknown",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -219,10 +219,10 @@
       "name": "OpenAI",
       "domain": "status.openai.com",
       "category": "ai",
-      "status": "outage",
-      "description": "Unable to start new Workspace Agent runs",
+      "status": "operational",
+      "description": "",
       "incident_url": "",
-      "updated_at": "2026-11-11T22:50:17Z"
+      "updated_at": ""
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/yu63fhh2peb7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Replicate Model Registry Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4p9rlpt9fv4v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Outbound SMS Messages for a subset of users in the US region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1nhx2s86hbx5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Long Codes to AT&T United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xbp97ytg5cn0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000347</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-12 04:06 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/yu63fhh2peb7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Replicate Model Registry Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pdrckt2sbb5y\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Telenor Pakistan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-12 12:46 UTC</p>",
   "community": []
 }
