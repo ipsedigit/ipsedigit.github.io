@@ -1097,3 +1097,4 @@
 2026-11-11:security:security:breaking
 2026-11-11:security:malware:breaking
 2026-11-11:software-engineering:methodologies:breaking
+2026-11-12:security:vulnerability:breaking
