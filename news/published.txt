@@ -2363,3 +2363,4 @@ https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes
 https://simonwillison.net/2026/Nov/11/aws-emulator/
 https://www.computerenhance.com/p/simd-gather
 https://simonwillison.net/2026/Nov/11/llm/
+https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/
