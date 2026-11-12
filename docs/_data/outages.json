@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-11T23:29:13.098486+00:00",
+  "generated_at": "2026-11-12T04:06:44.907541+00:00",
   "summary": {
     "total": 26,
-    "operational": 16,
-    "degraded": 6,
+    "operational": 17,
+    "degraded": 4,
     "outage": 2,
-    "unknown": 2
+    "unknown": 3
   },
   "services": [
     {
       "name": "AWS",
       "domain": "https://status.aws.amazon.com/rss/all.rss",
       "category": "cloud",
-      "status": "degraded",
-      "description": "Service is operating normally: [RESOLVED] Elevated API issues and Launch Failures",
-      "incident_url": "https://status.aws.amazon.com/",
-      "updated_at": "Wed, 11 Nov 2026 13:11:29 PST"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Azure",
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Replicate Input Upload Issue",
+      "description": "Replicate Model Registry Unavailable",
       "incident_url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7",
-      "updated_at": "2026-11-11T07:33:53.799Z"
+      "updated_at": "2026-11-11T23:51:40.658Z"
     },
     {
       "name": "CircleCI",
@@ -129,7 +129,7 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -166,18 +166,18 @@
       "domain": "status.zoom.us",
       "category": "communication",
       "status": "degraded",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "description": "Service Degradation Affecting Outbound SMS Messages for a subset of users in the US region",
+      "incident_url": "https://stspg.io/4p9rlpt9fv4v",
+      "updated_at": "2026-11-11T20:04:11.078-08:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to MTS Kazakhstan",
-      "incident_url": "https://stspg.io/h6sxx0m3kxws",
-      "updated_at": "2026-11-11T15:18:56.180-08:00"
+      "description": "SMS Delivery Failures from Twilio Long Codes to AT&T United States",
+      "incident_url": "https://stspg.io/1nhx2s86hbx5",
+      "updated_at": "2026-11-11T20:00:22.327-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -202,15 +202,15 @@
       "domain": "status.snowflake.com",
       "category": "data",
       "status": "degraded",
-      "description": "INC20000150",
-      "incident_url": "https://stspg.io/2tmfhlrz2yz5",
-      "updated_at": "2026-11-05T23:06:46.327Z"
+      "description": "INC20000347",
+      "incident_url": "https://stspg.io/xbp97ytg5cn0",
+      "updated_at": "2026-11-12T04:00:08.206Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
+      "status": "unknown",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://status.aws.amazon.com/\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">AWS</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service is operating normally: [RESOLVED] Elevated API issues and Launch Failures</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/yu63fhh2peb7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Replicate Input Upload Issue</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h6sxx0m3kxws\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to MTS Kazakhstan</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/2tmfhlrz2yz5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000150</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-11 23:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/yu63fhh2peb7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Replicate Model Registry Unavailable</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4p9rlpt9fv4v\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Outbound SMS Messages for a subset of users in the US region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/1nhx2s86hbx5\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Failures from Twilio Long Codes to AT&T United States</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xbp97ytg5cn0\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000347</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-12 04:06 UTC</p>",
   "community": []
 }
