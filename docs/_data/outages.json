@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T01:29:58.766805+00:00",
+  "generated_at": "2026-11-13T08:42:42.789410+00:00",
   "summary": {
     "total": 26,
     "operational": 17,
@@ -49,9 +49,9 @@
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Durable Objects increased error rates in North America",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7",
-      "updated_at": "2026-11-12T22:40:03.086Z"
+      "description": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h",
+      "updated_at": "2026-11-11T05:05:06.331Z"
     },
     {
       "name": "CircleCI",
@@ -168,16 +168,16 @@
       "status": "degraded",
       "description": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
       "incident_url": "https://stspg.io/jth16cll1kcf",
-      "updated_at": "2026-11-12T15:54:37.880-08:00"
+      "updated_at": "2026-11-13T00:00:11.244-08:00"
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays and Failures from Twilio to Brisanet Brazil",
-      "incident_url": "https://stspg.io/s6tml3f62c0r",
-      "updated_at": "2026-11-12T15:50:24.552-08:00"
+      "description": "Email Delivery Delays to Microsoft Inboxes",
+      "incident_url": "https://stspg.io/6f5v3h5q1mkr",
+      "updated_at": "2026-11-12T22:18:00.422-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kc1vk6kf3wlj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Email Systems Widespread Outage</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Durable Objects increased error rates in North America</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jth16cll1kcf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/s6tml3f62c0r\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays and Failures from Twilio to Brisanet Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m0rbx38nmy1c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors affecting the Microsoft 365 connector</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-13 01:29 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kc1vk6kf3wlj\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Email Systems Widespread Outage</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Changes to Cloudflare Workers are not producing Event Subscription events</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jth16cll1kcf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/6f5v3h5q1mkr\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Email Delivery Delays to Microsoft Inboxes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/m0rbx38nmy1c\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Elevated errors affecting the Microsoft 365 connector</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-13 08:42 UTC</p>",
   "community": []
 }
