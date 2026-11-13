@@ -2367,3 +2367,4 @@ https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmar
 https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/
 https://simonwillison.net/2026/Nov/12/llm-gemini/
 https://dev.to/toolpotion/local-ai-vs-cloud-ai-in-2026-a-developers-decision-guide-4e59
+https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github
