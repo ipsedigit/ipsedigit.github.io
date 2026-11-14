@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-14T02:38:15.758383+00:00",
+  "generated_at": "2026-11-14T09:28:04.693628+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 6,
+    "operational": 18,
+    "degraded": 5,
     "outage": 1,
     "unknown": 2
   },
@@ -75,10 +75,10 @@
       "name": "Netlify",
       "domain": "netlifystatus.com",
       "category": "devtools",
-      "status": "degraded",
-      "description": "Delayed Support Email Delivery to Microsoft 365 and Outlook Mailboxes",
-      "incident_url": "https://stspg.io/pz0hkk5cxxmc",
-      "updated_at": "2026-11-13T18:51:11.962Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Render",
@@ -165,19 +165,19 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
-      "description": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
-      "incident_url": "https://stspg.io/jth16cll1kcf",
-      "updated_at": "2026-11-13T16:00:10.646-08:00"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Twilio",
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil",
-      "incident_url": "https://stspg.io/pk3sl22ss1pz",
-      "updated_at": "2026-11-13T17:52:53.809-08:00"
+      "description": "SMS Delivery Receipt Failures from Twilio to Claro Costa Rica",
+      "incident_url": "https://stspg.io/kwdmd91r9qjd",
+      "updated_at": "2026-11-14T00:13:58.128-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -210,10 +210,10 @@
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "Some users unable to sign up with Apple on the Claude iOS app",
+      "incident_url": "https://stspg.io/4858wf40dx89",
+      "updated_at": "2026-11-14T07:11:36.220Z"
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Delayed Costs Data in the Compliance API",
       "incident_url": "",
-      "updated_at": "2026-11-13T18:56:45Z"
+      "updated_at": "2026-11-14T05:31:20Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/922154lrzy5x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customer Security Advisory: Remote code execution vulnerability in the Apache HTTP Server's HTTP/2 module</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/e7ktq32gphhe\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare is seeing an issue with Workers API availability</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pz0hkk5cxxmc\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Netlify</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Delayed Support Email Delivery to Microsoft 365 and Outlook Mailboxes</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/jth16cll1kcf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Zoom</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pk3sl22ss1pz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-14 02:38 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/922154lrzy5x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customer Security Advisory: Remote code execution vulnerability in the Apache HTTP Server's HTTP/2 module</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/e7ktq32gphhe\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Cloudflare is seeing an issue with Workers API availability</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kwdmd91r9qjd\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Receipt Failures from Twilio to Claro Costa Rica</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4858wf40dx89\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Some users unable to sign up with Apple on the Claude iOS app</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-14 09:28 UTC</p>",
   "community": []
 }
