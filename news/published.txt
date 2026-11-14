@@ -2372,3 +2372,4 @@ https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-p
 https://huggingface.co/blog/ggml-org/llama-cpp-v1
 https://newsletter.pragmaticengineer.com/p/software-correctness
 https://simonwillison.net/2026/Nov/13/datasette-cluster-map/
+https://simonwillison.net/2026/Nov/13/datasette-leaflet/
