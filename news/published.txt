@@ -2371,3 +2371,4 @@ https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github
 https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/
 https://huggingface.co/blog/ggml-org/llama-cpp-v1
 https://newsletter.pragmaticengineer.com/p/software-correctness
+https://simonwillison.net/2026/Nov/13/datasette-cluster-map/
