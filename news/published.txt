@@ -2375,3 +2375,4 @@ https://simonwillison.net/2026/Nov/13/datasette-cluster-map/
 https://simonwillison.net/2026/Nov/13/datasette-leaflet/
 https://seangoedecke.com/how-to-find-meaning-in-large-tech-companies/
 https://simonwillison.net/2026/Nov/14/datasette-llm/
+https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
