@@ -2374,3 +2374,4 @@ https://newsletter.pragmaticengineer.com/p/software-correctness
 https://simonwillison.net/2026/Nov/13/datasette-cluster-map/
 https://simonwillison.net/2026/Nov/13/datasette-leaflet/
 https://seangoedecke.com/how-to-find-meaning-in-large-tech-companies/
+https://simonwillison.net/2026/Nov/14/datasette-llm/
