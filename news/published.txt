@@ -2379,3 +2379,4 @@ https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-l
 https://simonwillison.net/2026/Nov/14/datasette-vega/
 https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches
 https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/
+https://simonwillison.net/2026/Nov/15/datasette-2/
