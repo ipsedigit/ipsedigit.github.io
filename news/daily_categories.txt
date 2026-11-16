@@ -1112,3 +1112,5 @@
 2026-11-16:ai:ai:breaking
 2026-11-16:ai:llm:community
 2026-11-16:ai:mlops:breaking
+2026-11-16:security:security:breaking
+2026-11-16:security:vulnerability:community
