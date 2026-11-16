@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-16T06:35:32.624082+00:00",
+  "generated_at": "2026-11-16T16:28:34.362889+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 4,
+    "operational": 18,
+    "degraded": 5,
     "outage": 1,
     "unknown": 2
   },
@@ -40,9 +40,9 @@
       "domain": "status.akamai.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Application Load Balancer reporting availability issues",
-      "incident_url": "https://stspg.io/5lvsz4syndn9",
-      "updated_at": "2026-11-16T04:33:27.119Z"
+      "description": "Customer Security Advisory: Remote code execution vulnerability in the Apache HTTP Server's HTTP/2 module",
+      "incident_url": "https://stspg.io/922154lrzy5x",
+      "updated_at": "2026-11-16T07:56:48.391Z"
     },
     {
       "name": "Cloudflare",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Silent Network Authentication (SNA) Missing Redirects in Philippines",
-      "incident_url": "https://stspg.io/3mvdqmzcv5bn",
-      "updated_at": "2026-11-15T21:17:08.972-08:00"
+      "description": "SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil",
+      "incident_url": "https://stspg.io/pk3sl22ss1pz",
+      "updated_at": "2026-11-16T08:19:56.672-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -201,19 +201,19 @@
       "name": "Snowflake",
       "domain": "status.snowflake.com",
       "category": "data",
-      "status": "operational",
-      "description": "",
-      "incident_url": "",
-      "updated_at": ""
+      "status": "degraded",
+      "description": "INC20000351",
+      "incident_url": "https://stspg.io/c9sy8fzqrpy8",
+      "updated_at": "2026-11-16T15:10:39.775Z"
     },
     {
       "name": "Anthropic",
       "domain": "status.anthropic.com",
       "category": "ai",
       "status": "degraded",
-      "description": "Some users unable to sign up with Apple on the Claude iOS app",
-      "incident_url": "https://stspg.io/4858wf40dx89",
-      "updated_at": "2026-11-15T02:10:54.568Z"
+      "description": "Claude unable to join meetings",
+      "incident_url": "https://stspg.io/01qq3kzyyqzl",
+      "updated_at": "2026-11-16T16:27:03.838Z"
     },
     {
       "name": "OpenAI",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/5lvsz4syndn9\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Application Load Balancer reporting availability issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Changes to Cloudflare Workers are not producing Event Subscription events</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/3mvdqmzcv5bn\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Silent Network Authentication (SNA) Missing Redirects in Philippines</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/4858wf40dx89\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Some users unable to sign up with Apple on the Claude iOS app</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-16 06:35 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 6 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/922154lrzy5x\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Customer Security Advisory: Remote code execution vulnerability in the Apache HTTP Server's HTTP/2 module</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Changes to Cloudflare Workers are not producing Event Subscription events</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/pk3sl22ss1pz\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/c9sy8fzqrpy8\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Snowflake</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">INC20000351</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qq3kzyyqzl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Claude unable to join meetings</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-16 16:28 UTC</p>",
   "community": []
 }
