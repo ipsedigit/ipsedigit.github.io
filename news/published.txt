@@ -2380,3 +2380,6 @@ https://simonwillison.net/2026/Nov/14/datasette-vega/
 https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches
 https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/
 https://simonwillison.net/2026/Nov/15/datasette-2/
+https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html
+https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html
+https://dev.to/bdonald/introducing-builder-garage-an-open-source-agentic-engineering-framework-p49

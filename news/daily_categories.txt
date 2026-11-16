@@ -1108,3 +1108,6 @@
 2026-11-15:ai:llm:breaking
 2026-11-15:security:security:breaking
 2026-11-15:ai:ai:breaking
+2026-11-16:security:malware:breaking
+2026-11-16:ai:ai:breaking
+2026-11-16:ai:llm:community
