@@ -2385,3 +2385,4 @@ https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html
 https://dev.to/bdonald/introducing-builder-garage-an-open-source-agentic-engineering-framework-p49
 https://www.troyhunt.com/weekly-update-530/
 https://simonwillison.net/2026/Nov/15/datasette-maplibre/
+https://simonwillison.net/2026/Nov/15/datasette/
