@@ -2386,3 +2386,4 @@ https://dev.to/bdonald/introducing-builder-garage-an-open-source-agentic-enginee
 https://www.troyhunt.com/weekly-update-530/
 https://simonwillison.net/2026/Nov/15/datasette-maplibre/
 https://simonwillison.net/2026/Nov/15/datasette/
+https://thenewstack.io/duckdb-storage-compatibility-agents/
