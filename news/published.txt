@@ -2402,3 +2402,4 @@ https://simonwillison.net/2026/Nov/15/datasette-agent/
 https://simonwillison.net/2026/Nov/17/datasette-lite/
 https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html
 https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html
+https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/
