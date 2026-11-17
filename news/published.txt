@@ -2395,3 +2395,4 @@ https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html
 https://simonwillison.net/2026/Nov/16/llm/
 https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html
 https://simonwillison.net/2026/Nov/15/datasette-apps/
+https://dev.to/richard_minsoogo/cloud-and-edge-robotics-ch03-hybrid-cloud-edge-architecture-kr-2i0i
