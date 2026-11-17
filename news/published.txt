@@ -2394,3 +2394,4 @@ https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-ag
 https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html
 https://simonwillison.net/2026/Nov/16/llm/
 https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html
+https://simonwillison.net/2026/Nov/15/datasette-apps/
