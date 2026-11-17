@@ -2392,3 +2392,4 @@ https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-
 http://brooker.co.za/blog/2026/11/16/understanding.html
 https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
 https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html
+https://simonwillison.net/2026/Nov/16/llm/
