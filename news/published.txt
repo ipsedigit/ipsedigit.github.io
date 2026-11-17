@@ -2400,3 +2400,4 @@ https://simonwillison.net/2026/Nov/17/go-proverbs/
 https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html
 https://simonwillison.net/2026/Nov/15/datasette-agent/
 https://simonwillison.net/2026/Nov/17/datasette-lite/
+https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html
