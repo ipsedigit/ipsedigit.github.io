@@ -2408,3 +2408,4 @@ https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/
 https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-123633/
 https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach
+https://www.computerenhance.com/p/simd-tranpose
