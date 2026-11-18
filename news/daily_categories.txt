@@ -1123,3 +1123,4 @@
 2026-11-17:security:malware:breaking
 2026-11-18:ai:ai:breaking
 2026-11-18:devtools:frameworks:breaking
+2026-11-18:ai:llm:breaking
