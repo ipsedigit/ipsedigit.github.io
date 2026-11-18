@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T17:48:03.918790+00:00",
+  "generated_at": "2026-11-18T00:49:22.321586+00:00",
   "summary": {
     "total": 26,
-    "operational": 17,
-    "degraded": 6,
+    "operational": 18,
+    "degraded": 5,
     "outage": 1,
     "unknown": 2
   },
@@ -39,19 +39,19 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "degraded",
-      "description": "Edge Delivery Issues in Singapore Region",
+      "status": "operational",
+      "description": "Edge Delivery Issues in Singapore and Japan Regions",
       "incident_url": "https://stspg.io/9bd5p0mp63f7",
-      "updated_at": "2026-11-17T17:40:53.247Z"
+      "updated_at": "2026-11-17T19:13:39.483Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/du63c25qjgjs",
-      "updated_at": "2026-11-17T17:26:56.363Z"
+      "description": "Errors and stalled predictions on some models",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf",
+      "updated_at": "2026-11-17T21:53:51.025Z"
     },
     {
       "name": "CircleCI",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Post Dial Delay, Audio Quality Degradation, and Silent and One-Way Audio Between Twilio Phone Numbers and Brazil",
+      "description": "Voice Call Audio Quality Degradation and Silent and One-Way Audio between Twilio and Multiple Networks in Brazil",
       "incident_url": "https://stspg.io/ppx2xfxq36dh",
-      "updated_at": "2026-11-17T09:28:39.379-08:00"
+      "updated_at": "2026-11-17T15:33:20.699-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -213,7 +213,7 @@
       "status": "degraded",
       "description": "Claude unable to join meetings",
       "incident_url": "https://stspg.io/01qq3kzyyqzl",
-      "updated_at": "2026-11-17T02:02:57.707Z"
+      "updated_at": "2026-11-17T23:39:43.921Z"
     },
     {
       "name": "OpenAI",
@@ -222,7 +222,7 @@
       "status": "degraded",
       "description": "Costs API data is delayed",
       "incident_url": "",
-      "updated_at": "2026-11-17T17:46:15Z"
+      "updated_at": "2026-11-17T19:53:49Z"
     },
     {
       "name": "Atlassian",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 5 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/9bd5p0mp63f7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Edge Delivery Issues in Singapore Region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/du63c25qjgjs\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ppx2xfxq36dh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Post Dial Delay, Audio Quality Degradation, and Silent and One-Way Audio Between Twilio Phone Numbers and Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qq3kzyyqzl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Claude unable to join meetings</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-17 17:48 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Errors and stalled predictions on some models</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/ppx2xfxq36dh\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Audio Quality Degradation and Silent and One-Way Audio between Twilio and Multiple Networks in Brazil</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/01qq3kzyyqzl\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Anthropic</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Claude unable to join meetings</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-18 00:49 UTC</p>",
   "community": []
 }
