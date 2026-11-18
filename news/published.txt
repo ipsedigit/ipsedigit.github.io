@@ -2404,3 +2404,4 @@ https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html
 https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html
 https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/
 https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/
+https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/
