@@ -2409,3 +2409,4 @@ https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm
 https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-123633/
 https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach
 https://www.computerenhance.com/p/simd-tranpose
+http://brooker.co.za/blog/2026/11/18/workload-mix.html
