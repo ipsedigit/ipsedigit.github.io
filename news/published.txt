@@ -2416,3 +2416,4 @@ https://simonwillison.net/2026/Nov/18/daniel-stenberg/
 https://simonwillison.net/2026/Nov/18/llm-gemini/
 https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/
 https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews
+https://simonwillison.net/2026/Nov/18/datasette-arrows/
