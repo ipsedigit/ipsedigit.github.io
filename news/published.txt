@@ -2413,3 +2413,4 @@ http://brooker.co.za/blog/2026/11/18/workload-mix.html
 https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
 https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/
 https://simonwillison.net/2026/Nov/18/daniel-stenberg/
+https://simonwillison.net/2026/Nov/18/llm-gemini/
