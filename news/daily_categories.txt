@@ -1124,3 +1124,5 @@
 2026-11-18:ai:ai:breaking
 2026-11-18:devtools:frameworks:breaking
 2026-11-18:ai:llm:breaking
+2026-11-19:security:security:breaking
+2026-11-19:ai:ai-research:deep
