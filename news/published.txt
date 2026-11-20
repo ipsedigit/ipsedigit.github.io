@@ -2422,3 +2422,4 @@ https://simonwillison.net/2026/Nov/19/postgresql-19/
 https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/
 https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/
 https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/
+https://simonwillison.net/2026/Nov/20/levent-alpoge/
