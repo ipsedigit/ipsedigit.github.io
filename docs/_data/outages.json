@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:04:50.534986+00:00",
+  "generated_at": "2026-11-20T03:20:54.011626+00:00",
   "summary": {
     "total": 26,
     "operational": 20,
@@ -39,19 +39,19 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "operational",
-      "description": "Edge Delivery Issues in Singapore and Japan Regions",
-      "incident_url": "https://stspg.io/9bd5p0mp63f7",
-      "updated_at": "2026-11-19T16:59:14.712Z"
+      "status": "degraded",
+      "description": "Reporting Issues",
+      "incident_url": "https://stspg.io/h7t3df7yqy78",
+      "updated_at": "2026-11-20T03:20:17.580Z"
     },
     {
       "name": "Cloudflare",
       "domain": "cloudflarestatus.com",
       "category": "cdn",
       "status": "degraded",
-      "description": "Changes to Cloudflare Workers are not producing Event Subscription events",
-      "incident_url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h",
-      "updated_at": "2026-11-11T05:05:06.331Z"
+      "description": " R2 and Durable Objects availability issues",
+      "incident_url": "https://www.cloudflarestatus.com/incidents/pfwuex7qix27",
+      "updated_at": "2026-11-20T02:53:32.481Z"
     },
     {
       "name": "CircleCI",
@@ -129,10 +129,10 @@
       "name": "Sentry",
       "domain": "status.sentry.io",
       "category": "observability",
-      "status": "degraded",
-      "description": "Event latency in our EU region",
-      "incident_url": "https://stspg.io/kzd0jnw40w9s",
-      "updated_at": "2026-11-19T22:00:05.423Z"
+      "status": "operational",
+      "description": "",
+      "incident_url": "",
+      "updated_at": ""
     },
     {
       "name": "Discord",
@@ -175,9 +175,9 @@
       "domain": "status.twilio.com",
       "category": "payments",
       "status": "degraded",
-      "description": "Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina",
-      "incident_url": "https://stspg.io/xpzbcfrc7bmy",
-      "updated_at": "2026-11-19T10:38:41.116-08:00"
+      "description": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers",
+      "incident_url": "https://stspg.io/kckjlns5dw48",
+      "updated_at": "2026-11-19T17:44:32.686-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Changes to Cloudflare Workers are not producing Event Subscription events</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kzd0jnw40w9s\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Sentry</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Event latency in our EU region</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/xpzbcfrc7bmy\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-19 22:04 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h7t3df7yqy78\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/pfwuex7qix27\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\"> R2 and Durable Objects availability issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/kckjlns5dw48\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-20 03:20 UTC</p>",
   "community": []
 }
