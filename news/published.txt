@@ -2419,3 +2419,4 @@ https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews
 https://simonwillison.net/2026/Nov/18/datasette-arrows/
 https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/
 https://simonwillison.net/2026/Nov/19/postgresql-19/
+https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/
