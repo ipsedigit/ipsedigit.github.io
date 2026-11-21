@@ -2427,3 +2427,4 @@ https://simonwillison.net/2026/Nov/20/ravi-vakil/
 https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/
 https://seangoedecke.com/why-output-caching-doesnt-work/
 https://simonwillison.net/2026/Nov/20/llm-gemini/
+https://seangoedecke.com/to-code-well-avoid-blunders/
