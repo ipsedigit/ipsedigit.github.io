@@ -2425,3 +2425,4 @@ https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for
 https://simonwillison.net/2026/Nov/20/levent-alpoge/
 https://simonwillison.net/2026/Nov/20/ravi-vakil/
 https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/
+https://seangoedecke.com/why-output-caching-doesnt-work/
