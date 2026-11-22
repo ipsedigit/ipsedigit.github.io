@@ -1131,3 +1131,4 @@
 2026-11-20:security:malware:breaking
 2026-11-20:security:vulnerability:breaking
 2026-11-21:ai:llm:breaking
+2026-11-22:security:malware:breaking
