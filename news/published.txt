@@ -2429,3 +2429,4 @@ https://seangoedecke.com/why-output-caching-doesnt-work/
 https://simonwillison.net/2026/Nov/20/llm-gemini/
 https://seangoedecke.com/to-code-well-avoid-blunders/
 https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html
+https://simonwillison.net/2026/Nov/21/muru/
