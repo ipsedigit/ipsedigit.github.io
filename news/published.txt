@@ -2433,3 +2433,4 @@ https://simonwillison.net/2026/Nov/21/muru/
 https://www.troyhunt.com/weekly-update-531/
 https://dev.to/alanwest/is-ai-making-you-a-worse-programmer-anthropics-own-study-says-50-vs-67-2iaa
 https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture
+https://seangoedecke.com/when-in-doubt-flail-about/
