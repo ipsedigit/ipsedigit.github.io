@@ -2436,3 +2436,4 @@ https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture
 https://seangoedecke.com/when-in-doubt-flail-about/
 https://thenewstack.io/gpt-6-2-astra-vs-claude-fable-5-2/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
+https://simonwillison.net/2026/Nov/22/select-styling/
