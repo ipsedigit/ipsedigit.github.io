@@ -1137,3 +1137,5 @@
 2026-11-23:ai:llm:breaking
 2026-11-23:security:malware:breaking
 2026-11-23:security:vulnerability:breaking
+2026-11-23:software-engineering:architecture:breaking
+2026-11-23:security:security:breaking
