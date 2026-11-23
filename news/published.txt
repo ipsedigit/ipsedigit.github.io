@@ -2441,3 +2441,4 @@ https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-fro
 https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html
 https://dev.to/alex_mercer_321994/5-subtle-python-memory-leaks-that-slowly-crash-long-running-workers-and-how-to-fix-them-3fnh
 https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+https://drewdevault.com/blog/Introducing-sneakernet/
