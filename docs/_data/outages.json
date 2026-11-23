@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-23T03:12:34.574166+00:00",
+  "generated_at": "2026-11-23T13:06:52.862581+00:00",
   "summary": {
     "total": 26,
-    "operational": 19,
-    "degraded": 4,
+    "operational": 21,
+    "degraded": 2,
     "outage": 1,
     "unknown": 2
   },
@@ -39,10 +39,10 @@
       "name": "Akamai",
       "domain": "status.akamai.com",
       "category": "cdn",
-      "status": "degraded",
-      "description": "Reporting Issues",
-      "incident_url": "https://stspg.io/h7t3df7yqy78",
-      "updated_at": "2026-11-20T16:28:53.216Z"
+      "status": "operational",
+      "description": "Customer Security Advisory: Remote code execution vulnerability in the Apache HTTP Server's HTTP/2 module",
+      "incident_url": "https://stspg.io/922154lrzy5x",
+      "updated_at": "2026-11-23T04:34:02.184Z"
     },
     {
       "name": "Cloudflare",
@@ -165,7 +165,7 @@
       "name": "Zoom",
       "domain": "status.zoom.us",
       "category": "communication",
-      "status": "degraded",
+      "status": "operational",
       "description": "",
       "incident_url": "",
       "updated_at": ""
@@ -177,7 +177,7 @@
       "status": "degraded",
       "description": "Gateway API (Lookup API) Failure Increase in Canada",
       "incident_url": "https://stspg.io/tsp4vmj649hp",
-      "updated_at": "2026-11-22T11:11:42.626-08:00"
+      "updated_at": "2026-11-23T03:12:23.401-08:00"
     },
     {
       "name": "Elastic Cloud",
@@ -335,6 +335,6 @@
       "updated_at": ""
     }
   ],
-  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 4 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/h7t3df7yqy78\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Akamai</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Reporting Issues</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Changes to Cloudflare Workers are not producing Event Subscription events</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tsp4vmj649hp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Gateway API (Lookup API) Failure Increase in Canada</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-23 03:12 UTC</p>",
+  "incidents_html": "<div class=\"outage-banner outage-banner--warn\"><span class=\"outage-banner__icon\">⚠</span> 3 active incidents</div>\n<div class=\"outage-section\"><div class=\"section-head\"><span class=\"section-label\">Active Incidents</span><div class=\"section-line\"></div></div><div class=\"outage-list\">\n<a class=\"outage-item outage-item--active\" href=\"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Cloudflare</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Changes to Cloudflare Workers are not producing Event Subscription events</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/tsp4vmj649hp\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Twilio</span><span class=\"outage-impact impact-minor\">MINOR</span><span class=\"outage-name\">Gateway API (Lookup API) Failure Increase in Canada</span></a>\n<a class=\"outage-item outage-item--active\" href=\"https://stspg.io/w6dmrtc20hz7\" target=\"_blank\" rel=\"noopener\"><span class=\"outage-dot outage-dot--active\"></span><span class=\"outage-service\">Elastic Cloud</span><span class=\"outage-impact impact-major\">MAJOR</span><span class=\"outage-name\">Connectivity disruption for AWS Bahrain (me-south-1)</span></a>\n</div></div>\n<p class=\"outage-timestamp\">Last updated: 2026-11-23 13:06 UTC</p>",
   "community": []
 }
