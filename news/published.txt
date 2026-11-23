@@ -2434,3 +2434,5 @@ https://www.troyhunt.com/weekly-update-531/
 https://dev.to/alanwest/is-ai-making-you-a-worse-programmer-anthropics-own-study-says-50-vs-67-2iaa
 https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture
 https://seangoedecke.com/when-in-doubt-flail-about/
+https://thenewstack.io/gpt-6-2-astra-vs-claude-fable-5-2/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
