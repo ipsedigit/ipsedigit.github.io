@@ -2444,3 +2444,4 @@ https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-
 https://drewdevault.com/blog/Introducing-sneakernet/
 https://seangoedecke.com/notes-on-openais-perplexity-reveal/
 https://simonwillison.net/2026/Nov/23/ladybird/
+https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html
