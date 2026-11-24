@@ -2447,3 +2447,4 @@ https://simonwillison.net/2026/Nov/23/ladybird/
 https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html
 https://simonwillison.net/2026/Nov/23/glm-54/
 https://simonwillison.net/2026/Nov/24/datasette-agent/
+https://simonwillison.net/2026/Nov/24/datasette-charts/
