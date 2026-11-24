@@ -2443,3 +2443,4 @@ https://dev.to/alex_mercer_321994/5-subtle-python-memory-leaks-that-slowly-crash
 https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
 https://drewdevault.com/blog/Introducing-sneakernet/
 https://seangoedecke.com/notes-on-openais-perplexity-reveal/
+https://simonwillison.net/2026/Nov/23/ladybird/
