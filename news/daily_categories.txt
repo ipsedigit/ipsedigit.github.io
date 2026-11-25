@@ -1143,3 +1143,4 @@
 2026-11-24:security:security:breaking
 2026-11-25:cloud:kubernetes:breaking
 2026-11-25:security:vulnerability:breaking
+2026-11-25:security:malware:deep
