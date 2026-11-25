@@ -2454,3 +2454,4 @@ https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-p
 https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/
 https://lucumr.pocoo.org/2026/11/25/poisoning/
 https://simonwillison.net/2026/Nov/24/llm-inflection-points/
+https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
