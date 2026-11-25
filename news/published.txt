@@ -2453,3 +2453,4 @@ https://simonwillison.net/2026/Nov/24/astra-historical-mystery/
 https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/
 https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/
 https://lucumr.pocoo.org/2026/11/25/poisoning/
+https://simonwillison.net/2026/Nov/24/llm-inflection-points/
