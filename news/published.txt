@@ -2457,3 +2457,4 @@ https://simonwillison.net/2026/Nov/24/llm-inflection-points/
 https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
 https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors
 https://vercel.com/changelog/delete-run-data-workflow-sdk
+https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
