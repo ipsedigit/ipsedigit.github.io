@@ -2464,3 +2464,4 @@ https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in
 https://simonwillison.net/2026/Nov/26/sqlite3-rsync/
 https://www.computerenhance.com/p/simd-transpose-vs-compilers-choice
 https://simonwillison.net/2026/Nov/26/hn-50651685/
+https://simonwillison.net/2026/Nov/26/jack-despain-zhou/
