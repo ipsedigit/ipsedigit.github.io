@@ -1147,3 +1147,4 @@
 2026-11-25:security:security:breaking
 2026-11-26:general:general:breaking
 2026-11-26:ai:ai:breaking
+2026-11-26:ai:ai:deep
