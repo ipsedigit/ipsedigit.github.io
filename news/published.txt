@@ -2462,3 +2462,4 @@ https://simonwillison.net/2026/Nov/25/scott-aaronson/
 https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era
 https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in
 https://simonwillison.net/2026/Nov/26/sqlite3-rsync/
+https://www.computerenhance.com/p/simd-transpose-vs-compilers-choice
