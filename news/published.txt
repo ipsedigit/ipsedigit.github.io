@@ -2461,3 +2461,4 @@ https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
 https://simonwillison.net/2026/Nov/25/scott-aaronson/
 https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era
 https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in
+https://simonwillison.net/2026/Nov/26/sqlite3-rsync/
