@@ -2470,3 +2470,4 @@ https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-ac
 https://simonwillison.net/2026/Nov/25/datasette-charts/
 https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai/
 https://nullprogram.com/blog/2026/11/27/
+https://simonwillison.net/2026/Nov/24/datasette-charts-2/
