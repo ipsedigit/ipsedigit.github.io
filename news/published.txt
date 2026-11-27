@@ -2468,3 +2468,4 @@ https://simonwillison.net/2026/Nov/26/jack-despain-zhou/
 https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html
 https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-across-other-clouds/
 https://simonwillison.net/2026/Nov/25/datasette-charts/
+https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai/
