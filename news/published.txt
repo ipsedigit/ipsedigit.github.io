@@ -2465,3 +2465,5 @@ https://simonwillison.net/2026/Nov/26/sqlite3-rsync/
 https://www.computerenhance.com/p/simd-transpose-vs-compilers-choice
 https://simonwillison.net/2026/Nov/26/hn-50651685/
 https://simonwillison.net/2026/Nov/26/jack-despain-zhou/
+https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html
+https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-across-other-clouds/
