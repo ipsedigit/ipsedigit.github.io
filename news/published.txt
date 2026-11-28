@@ -2474,3 +2474,4 @@ https://simonwillison.net/2026/Nov/24/datasette-charts-2/
 https://simonwillison.net/2026/Nov/27/datasette-charts/
 https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html
 https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html
+https://simonwillison.net/2026/Nov/27/datasette-mcp/
