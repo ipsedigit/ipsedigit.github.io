@@ -1152,3 +1152,4 @@
 2026-11-27:cloud:gcp-azure:breaking
 2026-11-28:security:malware:breaking
 2026-11-28:security:security:breaking
+2026-11-28:cloud:kubernetes:deep
