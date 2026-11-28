@@ -2472,3 +2472,5 @@ https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai/
 https://nullprogram.com/blog/2026/11/27/
 https://simonwillison.net/2026/Nov/24/datasette-charts-2/
 https://simonwillison.net/2026/Nov/27/datasette-charts/
+https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html
+https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html
